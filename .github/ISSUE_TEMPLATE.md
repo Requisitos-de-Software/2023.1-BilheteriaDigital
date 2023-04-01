@@ -3,7 +3,7 @@ name: Template Padrão de Issue
 about: Propósito da issue
 title: ''
 labels: ''
-assignees: arthurgrandao, dougAlvs, G16C, nando3d3, RafaelCLG0 ,mathonaut ,manuziny
+assignees: arthurgrandao, dougAlvs, G16C, nando3d3, RafaelCLG0 ,mathonaut ,manuziny, nando3d3
 
 ---
 
