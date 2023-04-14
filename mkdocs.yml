@@ -7,6 +7,7 @@ nav:
   - Atas:
     - Ata 1: atas/Requisitos_Ata_01.md
     - Ata 2: atas/Requisitos_Ata_02.md
+    - Ata 3:
 
 theme:
     name: material
