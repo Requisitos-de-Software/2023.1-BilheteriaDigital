@@ -1,28 +1,19 @@
-name: Deploy to GitHub Pages
+name: deploy
+
 on:
   push:
-    branches:
-      - main
+    branches: 
+    - main
+
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Install dependencies
-      run: |
-        sudo apt-get update && sudo apt-get install -y python3-pip
-        pip3 install mkdocs
-        pip3 install mkdocs mkdocs-material
-
-    - name: Build site
-      run: mkdocs build
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.ACCESS_TOKEN }}
-        publish_dir: ./site
-        publish_branch: gh-pages
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
