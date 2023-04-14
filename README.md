@@ -1,6 +1,6 @@
 # Bilheteria Digital
 
-<p align="center"><img src="assets/bilheteria.png" width = 40%></p>
+<p align="center"><img src="assets/img/bilheteria.png" width = 40%></p>
 
 Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US) para fins de estudos na disciplina de Requisitos de Software da FGA-UnB.
 
