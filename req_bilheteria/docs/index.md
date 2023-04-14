@@ -4,7 +4,8 @@
 
 Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US) para fins de estudos na disciplina de Requisitos de Software da FGA-UnB.
 
-## 👨‍💻 Contribuidores
+## Grupo
+### 👨‍💻 Contribuidores
 
 <table>
   <tr>
