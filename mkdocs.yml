@@ -1,3 +1,5 @@
+markdown_extensions:
+  - attr_list
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
