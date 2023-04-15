@@ -24,5 +24,14 @@ Local: Online via Meet
 * Douglas e Rafael ficarão responsáveis pela análise dos aplicativos enviados pelos outros integrantes do grupo.
 * Matheus e Arthur ficarão responsáveis por olhar projetos anteriores e encontrar sugestões de ferramentas e metodologias para utilização no decorrer do projeto.
 
-## Próxima Reunião 08/04/2023 às 9h
+## Link da gravação
+
+[A primeira reunião aconteceu no GoogleMeets, mas não houve gravação]
+
+## Próxima Reunião 09/04/2023 às 9h
+
+## 3. Histórico de versão
+Versão   | Descrição | Autor(es) | Revisor(es)
+--------- | ------ | ---------- | ----------
+1.0 | Criação da Documentação | Douglas Alves | Todos
 

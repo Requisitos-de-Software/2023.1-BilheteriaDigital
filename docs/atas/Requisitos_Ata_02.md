@@ -23,4 +23,14 @@ Local: Online via Teams
 * A RichPicture inicial será feita pela Geovanna e pelo Gabriel
 * A estruturação da gitpage será feita pelo Sidney
 
+## Link da gravação
+
+[Link da segunda reunião](https://unbbr.sharepoint.com/:v:/s/REQeIHC-Grupo1/EdDjMPYEjoZHtlxdJ8haZuQBgOFDFKF5eYKpZiuZlZq0EA?e=UdWaCE)
+
 ## Próxima Reunião 15/04/2023 às 9h
+
+## 3. Histórico de versão
+
+Versão   | Descrição | Autor(es) | Revisor(es)
+--------- | ------ | ---------- | ----------
+1.0 | Criação da Documentação| Sidney Fernando | Todos

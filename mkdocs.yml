@@ -9,6 +9,7 @@ nav:
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
+      - Ata 3: atas/Requisitos_Ata_03.md
   - Rich Picture: rich_picture.md
 
 theme:
