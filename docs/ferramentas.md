@@ -2,25 +2,30 @@
 
 ## Introdução
 
-A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas certas ferramentas para o aumento da produtividade. As ferramentas selecionadas são apresentadas na tabela 1.
+A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas certas ferramentas para o aumento da produtividade. As ferramentas selecionadas para a realização do projeto estão apresentadas na Tabela 1.
 
-<p style="text-align: center"><b>Tabela 1</b> - Ferramentas Utilizadas no Projeto</p>
+## Ferramentas Utilizadas
 
-|                                                              |     Ferramenta     |                               Finalidade                               |
-| :----------------------------------------------------------: | :----------------: | :--------------------------------------------------------------------: |
-|       ![Logo do GitHub](assets/ferramentas/github.png)       |       GitHub       | Organizar, versionar e documentar artefatos produzidos para o projeto. |
-|   ![Logo do Microsoft Teams](assets/ferramentas/teams.png)   |       Teams        |         Realizações de reuniões e gravações de apresentações.          |
-|        ![Logo do Figma](assets/ferramentas/figma.png)        |       Figma        |                    Produção de artefatos gráficos.                     |
-|       ![Logo do MkDocs](assets/ferramentas/mkdocs.png)       |       MkDocs       |                  Criação das páginas de docuentação.                   |
-| ![Logo do Visual Studio Code](assets/ferramentas/vscode.png) | Visual Studio Code |                  Edição dos arquivos de documentação.                  |
-|     ![Logo do WhatsApp](assets/ferramentas/whatsapp.png)     |      WhatsApp      |             Utilizado como principal canal de comunicação.             |
-|      ![Logo do YouTube](assets/ferramentas/youtube.png)      |      YouTube       |                    Hospedagem de vídeos produzidos.                    |
-| ![Logo do Google Planilhas](assets/ferramentas/gsheets.png)  |  Google Planilhas  |      Criação de planilhas relacionadas ao cronograma e horários.       |
+<font size="3"><p style="text-align: center"><b>Tabela 1</b> - Ferramentas Utilizadas no Projeto</p></font>
 
-<p style="text-align: center">Fonte: Autores.</p>
+|                                                                                                |     Ferramenta      |                               Finalidade                               |
+| :--------------------------------------------------------------------------------------------: | :-----------------: | :--------------------------------------------------------------------: |
+|       ![Logo do GitHub](assets/ferramentas/github.png){: style="height:100px;width:100px"}     |    GitHub           | Organizar, versionar e documentar artefatos produzidos para o projeto. |
+|   ![Logo do Microsoft Teams](assets/ferramentas/teams.png){: style="height:87px;width:100px"}  |    Teams            |         Realizações de reuniões e gravações de apresentações.          |
+|        ![Logo do Figma](assets/ferramentas/figma.png){: style="height:94px;width:63px"}        |    Figma            |                    Produção de artefatos gráficos.                     |
+|       ![Logo do MkDocs](assets/ferramentas/mkdocs.png)                                         |    MkDocs           |                 Criação das páginas de documentação.                   |
+| ![Logo do Visual Studio Code](assets/ferramentas/vscode.png){: style="height:85px;width:85px"} |    Visual Studio Code|                  Edição dos arquivos de documentação.                  |
+|     ![Logo do WhatsApp](assets/ferramentas/whatsapp.png){: style="height:85px;width:85px"}     |    WhatsApp         |             Utilizado como principal canal de comunicação.             |
+|      ![Logo do YouTube](assets/ferramentas/youtube.png){: style="height:56px;width:250px"}     |    YouTube          |                    Hospedagem de vídeos produzidos.                    |
+| ![Logo do Google Planilhas](assets/ferramentas/gsheets.png){: style="height:94px;width:72px"}  |    Google Planilhas |      Criação de planilhas relacionadas ao cronograma e horários.       |
+| ![Logo do Google Docs](assets/ferramentas/gdocs.png){: style="height:96px;width:96px"}         |    Google Docs      |      Criação e edição de tabelas e arquivos.                           |
+| ![Logo do Google Drive](assets/ferramentas/gdrive.png){: style="height:128px;width:128px"}     |    Google Drive     |      Compartilhamento de arquivos.                                     |
+
+<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ## Histórico de Versão
 
 | Versão |    Data    |             Descrição             |                                                        Autor(es)                                                        |                        Revisor(es)                        |
 | :----: | :--------: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |
 | `1.0`  | 15/04/2023 | Criação da página de ferramentas. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
+| `1.1`  | 15/04/2023 | Adição de novas ferramentas e reajuste da Tabela 1. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
