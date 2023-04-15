@@ -1,4 +1,4 @@
-site_name: Requisitos - Bilheteria Digital
+site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Planejamento:
@@ -7,6 +7,7 @@ nav:
   - Atas:
     - Ata 1: atas/Requisitos_Ata_01.md
     - Ata 2: atas/Requisitos_Ata_02.md
+  - Rich Picture: rich_picture.md
 
 theme:
     name: material

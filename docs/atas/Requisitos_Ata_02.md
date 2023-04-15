@@ -1,5 +1,5 @@
 # Ata de reunião Requisitos de Software - Grupo 01
-Data: 019/04/2023
+Data: 09/04/2023
 Horário: 10:00 às 10:30h
 Local: Online via Teams
 
