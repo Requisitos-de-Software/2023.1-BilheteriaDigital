@@ -24,7 +24,7 @@ A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas c
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
-## Histórico de Versão
+## Histórico de Versões
 
 | Versão |    Data    |             Descrição             |                                                        Autor(es)                                                        |                        Revisor(es)                        |
 | :----: | :--------: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |

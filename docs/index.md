@@ -19,9 +19,10 @@ Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://pl
   </tr>
 </table>
 
-## Histórico de versão
+## Histórico de versões
 
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
 1.0 | Criação da git page | Sidney Fernando | Todos
-1.0.1 | Atualiza membro | Sidney Fernando | -
+1.1 | Atualiza membro | Sidney Fernando | -
+1.2 | Atualização de cor e correções | Sidney Fernando | -
