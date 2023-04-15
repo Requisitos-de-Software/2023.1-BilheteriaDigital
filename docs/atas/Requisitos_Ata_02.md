@@ -1,7 +1,7 @@
 # Ata de reunião Requisitos de Software - Grupo 01
 Data: 09/04/2023
-Horário: 10:00 às 10:30h
-Local: Online via Teams
+Horário: 10:00 às 10:30
+Local: Online via Microsoft Teams
 
 ## Participantes presentes:
 - [] Arthur Grandão
@@ -29,7 +29,7 @@ Local: Online via Teams
 
 ## Próxima Reunião 15/04/2023 às 9h
 
-## 3. Histórico de versão
+## Histórico de versão
 
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------

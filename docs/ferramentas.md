@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas certas ferramentas para o aumento da produtividade. As ferramentas selecionadas para a realização do projeto estão apresentadas na Tabela 1.
+A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas certas ferramentas com o intuito de facilitar certas atividades e produção de artefatos. As ferramentas selecionadas para a realização do projeto estão apresentadas na Tabela 1.
 
 ## Ferramentas Utilizadas
 
@@ -20,6 +20,7 @@ A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas c
 | ![Logo do Google Planilhas](assets/ferramentas/gsheets.png){: style="height:94px;width:72px"}  |    Google Planilhas |      Criação de planilhas relacionadas ao cronograma e horários.       |
 | ![Logo do Google Docs](assets/ferramentas/gdocs.png){: style="height:96px;width:96px"}         |    Google Docs      |      Criação e edição de tabelas e arquivos.                           |
 | ![Logo do Google Drive](assets/ferramentas/gdrive.png){: style="height:128px;width:128px"}     |    Google Drive     |      Compartilhamento de arquivos.                                     |
+| ![Logo do Draw.io](assets/ferramentas/drawio.png){: style="height:100px;width:100px"}          |    Draw.io          |      Produção da primeira versão do Rich Picture.                      |
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -29,3 +30,4 @@ A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas c
 | :----: | :--------: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |
 | `1.0`  | 15/04/2023 | Criação da página de ferramentas. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
 | `1.1`  | 15/04/2023 | Adição de novas ferramentas e reajuste da Tabela 1. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
+| `1.1.1`  | 15/04/2023 | Pequenos ajustes nos textos e adição de uma ferramenta. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |

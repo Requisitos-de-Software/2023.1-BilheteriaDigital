@@ -1,7 +1,7 @@
 # Ata de reunião Requisitos de Software - Grupo 01
 Data: 15/04/2023
-Horário: 09:00 às 10:46h
-Local: Online via Meet
+Horário: 09:00 às 10:46
+Local: Online via Microsoft Teams
 
 ## Participantes presentes:
 - [x] Arthur De Melo
@@ -13,15 +13,15 @@ Local: Online via Meet
 - [x] Sidney Fernando
 
 ## Discussão:
-* Criação da Git Pages.
-* Planejamento da Git Pages.
+* Criação da Git Page.
+* Planejamento da Git Page.
 * Finalização do Cronograma.
 * Elaboração do Rich Picture.
 
 ## Decisões:
-* Seguir a CheckList apresentada pelo professor sobre os possíveis critérios cobrados na Git pages.
-* Cada membro ficou responsável por criar ou atualizar sua parte na Git Pages.
-* Deixar a Git Pages pronta com todos os critérios da CheckList aceitos para realizar a gravação da entrega 1.
+* Seguir a CheckList apresentada pelo professor sobre os possíveis critérios cobrados na Git Page.
+* Cada membro ficou responsável por criar ou atualizar sua parte na Git Page.
+* Deixar a Git Page pronta com todos os critérios da CheckList aceitos para realizar a gravação da Apresentação da Entrega 1.
 
 ## Link da gravação
 
@@ -29,7 +29,7 @@ Local: Online via Meet
 
 ## Próxima Reunião 22/04/2023 às 9h
 
-## 3. Histórico de versão
+## Histórico de versão
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
 1.0 | Criação da Documentação | Rafael Ferreira | Todos

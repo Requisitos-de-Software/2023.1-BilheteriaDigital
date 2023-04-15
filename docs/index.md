@@ -19,7 +19,7 @@ Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://pl
   </tr>
 </table>
 
-## 3. Histórico de versão
+## Histórico de versão
 
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
