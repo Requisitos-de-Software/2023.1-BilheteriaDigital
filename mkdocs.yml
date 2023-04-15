@@ -2,23 +2,23 @@ site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Planejamento:
-    - Ferramentas: ferramentas.md
-    - Cronograma: cronograma.md
+      - Ferramentas: ferramentas.md
+      - Cronograma: cronograma.md
   - Atas:
-    - Ata 1: atas/Requisitos_Ata_01.md
-    - Ata 2: atas/Requisitos_Ata_02.md
+      - Ata 1: atas/Requisitos_Ata_01.md
+      - Ata 2: atas/Requisitos_Ata_02.md
   - Rich Picture: rich_picture.md
 
 theme:
-    name: material
-    palette:
-        primary: 'red'
-        accent: 'black'
-        background: 'white'
-        text: 'black'
-        code:
-            bg: 'black'
-            fg: 'white'
-    language: pt-BR
-    favicon: assets/bilheteria.png
-    logo: assets/bilheteria.png
+  name: material
+  palette:
+    primary: "red"
+    accent: "black"
+    background: "white"
+    text: "black"
+    code:
+      bg: "black"
+      fg: "white"
+  language: pt-BR
+  favicon: assets/bilheteria.png
+  logo: assets/bilheteria.png
