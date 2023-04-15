@@ -8,4 +8,4 @@ O cronogrma visa organizar as tarefas a serem entregues em cada etapa
 
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
- 1.0 | Cronogrma de planejamento | Gabriel Campello Geovanna Maciel Sidney Fernando| Douglas
+ 1.0 | Cronogrma de planejamento | Gabriel Campello  Geovanna Maciel  Sidney Fernando| Douglas
