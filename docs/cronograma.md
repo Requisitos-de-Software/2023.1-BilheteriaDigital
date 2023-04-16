@@ -231,3 +231,6 @@ Versão   | Descrição | Autor(es) | Revisor(es)
  1.0 | Cronograma planejado e executado excel | Gabriel Campello,  Geovanna Maciel e Sidney Fernando| Douglas
  2.0 | Cronograma planejado markdown | Arthur de Melo | Sidney
  2.1 | Cronograma executado markdown e adição da descrição | Arthur de Melo | Sidney
+
+## Referências
+>SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
