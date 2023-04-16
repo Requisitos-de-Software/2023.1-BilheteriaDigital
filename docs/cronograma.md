@@ -32,9 +32,9 @@ Na Tabela 2, está explicitado o cronograma executado das atividades da primeira
 | Descrição: Selecionar app                      	| Início: 01/04 <br>Fim: 08/04    	| Todos                      	| Início: 09/04 Fim: 10/04  	| Rafael e Douglas 	|
 | Descrição: Selecionar ferramentas do projeto   	| Início: 01/04 <br>Fim: 08/04    	| Arthur e Matheus           	| Início: 09/04 Fim: 10/04  	| Geovanna         	|
 | Descrição: Realização do cronograma            	| Início: 01/04 <br>Fim: 16/04    	| Geovanna, Gabriel e Sidney 	| Início: 10/04 Fim: 11/04  	| Douglas          	|
-| Descrição: Rich Picture                        	| Início: 10/04 <br>Fim: 15/04    	| Geovanna e Gabriel         	| Início: 13/04 Fim: 15/04  	| Sidney           	|
-| Descrição: Documentar Equipe                   	| Início: 28/03 <br>Fim: 31/03    	| Gabriel                    	| Início: 16/04 Fim: 16/04  	| Gabriel          	|
-| Descrição: Gravar apresentação                 	| Início: 16/04 <br>Fim: 16/04    	| Matheus                    	| Início: 16/04 Fim: 16/04  	| Arthur           	|
+| Descrição: Rich Picture                        	| Início: 10/04 <br>Fim: 15/04    	| Geovanna, Gabriel e Douglas        	| Início: 13/04 Fim: 15/04  	| Arthur           	|
+| Descrição: Documentar Equipe                   	| Início: 28/03 <br>Fim: 31/03    	| Gabriel                    	| Início: 16/04 Fim: 16/04  	| Douglas          	|
+| Descrição: Gravar apresentação                 	| Início: 16/04 <br>Fim: 16/04    	| Todos                    	| Início: 16/04 Fim: 16/04  	| Todos           	|
 | Descrição:  Implementar Git Page              	| Início: 10/04 <br>Fim: 15/04   	| Sidney                     	| Início:  18/04 Fim: 20/04 	| Rafael           	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
