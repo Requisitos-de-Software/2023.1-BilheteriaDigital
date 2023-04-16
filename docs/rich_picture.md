@@ -6,13 +6,15 @@ O richpicture é uma ferramenta visual para expressar ideias e analisar problema
 ## Metodologia e Ferramentas
  A aplicação [Figma](https://www.figma.com) foi utilizada para elaborar tanto o richpicture quanto sua legenda e todas as ilustrações usadas são de autoria do site [StorySet](https://storyset.com). 
 
+<font size="3"><p style="text-align: center">Figura 1: Richpicture versão 1.</p></font>
+
 ![Richpicturev1](assets/richpicture/richpicturev1.png)
 
-<font size="3"><p style="text-align: center">Figura 1: Richpicture versão 1.</p></font>
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
+<font size="3"><p style="text-align: center">Figura 2: Legenda Richpicture versão 1.</p></font>
 ![LegendaRichpicturev1](assets/richpicture/legendav1.png)
-<font size="3"><p style="text-align: center">Figura 1: Legenda Richpicture versão 1.</p></font>
+
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 ## Histórico de Versões
 Versão   | Descrição | Autor(es) | Revisor(es)
