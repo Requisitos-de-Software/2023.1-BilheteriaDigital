@@ -7,6 +7,7 @@ site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Planejamento:
+      - Aplicativo escolhido: aplicativo.md
       - Ferramentas: ferramentas.md
       - Cronograma: cronograma.md
   - Pré-Rastreabilidade:
