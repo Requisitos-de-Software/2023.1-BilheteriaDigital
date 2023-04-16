@@ -8,12 +8,12 @@ O richpicture é uma ferramenta visual para expressar ideias e analisar problema
 
 <font size="3"><p style="text-align: center">Figura 1: Richpicture versão 1.</p></font>
 
-![Richpicturev1](assets/richpicture/richpicturev1.png)
+![Richpicturev1](../assets/richpicture/richpicturev1.png)
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 <font size="3"><p style="text-align: center">Figura 2: Legenda Richpicture versão 1.</p></font>
-![LegendaRichpicturev1](assets/richpicture/legendav1.png)
+![LegendaRichpicturev1](../assets/richpicture/legendav1.png)
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 ## Histórico de Versões
