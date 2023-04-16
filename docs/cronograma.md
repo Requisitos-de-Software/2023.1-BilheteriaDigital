@@ -187,7 +187,7 @@ Na Tabela 11, tem-se o cronograma planejado para todas as atividades da segunda 
 ### Executado
 A Tabela 12 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
 
-<font size="3"><p style="text-align: center"><b>Tabela 4</b> - Análise de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 12</b> - Análise de Requisitos 1.2</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
