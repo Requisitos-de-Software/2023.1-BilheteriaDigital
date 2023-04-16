@@ -7,14 +7,17 @@ site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Planejamento:
+      - Aplicativo escolhido: aplicativo.md
       - Ferramentas: ferramentas.md
       - Cronograma: cronograma.md
+  - Pré-Rastreabilidade:
+      - Rich Picture: rich_picture.md 
       - Metodologia: metodologia.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
       - Ata 3: atas/Requisitos_Ata_03.md
-  - Rich Picture: rich_picture.md
+  
 
 theme:
   name: material
