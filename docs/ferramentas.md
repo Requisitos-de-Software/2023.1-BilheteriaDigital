@@ -9,7 +9,7 @@ A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas c
 <font size="3"><p style="text-align: center"><b>Tabela 1</b> - Ferramentas Utilizadas no Projeto</p></font>
 
 |                                                                                                |     Ferramenta      |                               Finalidade                               |
-| :--------------------------------------------------------------------------------------------: | :-----------------: | :--------------------------------------------------------------------: |
+| ---------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------- |
 |       ![Logo do GitHub](assets/ferramentas/github.png){: style="height:100px;width:100px"}     |    GitHub           | Organizar, versionar e documentar artefatos produzidos para o projeto. |
 |   ![Logo do Microsoft Teams](assets/ferramentas/teams.png){: style="height:87px;width:100px"}  |    Teams            |         Realizações de reuniões e gravações de apresentações.          |
 |        ![Logo do Figma](assets/ferramentas/figma.png){: style="height:94px;width:63px"}        |    Figma            |                    Produção de artefatos gráficos.                     |
