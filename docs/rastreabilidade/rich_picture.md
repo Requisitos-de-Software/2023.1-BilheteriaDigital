@@ -4,7 +4,7 @@
 O richpicture é uma ferramenta visual para expressar ideias e analisar problemas, tudo isso de forma informal e de fácil entendimento. No contexto da engenharia de software, ele é utilizado para abstrair o funcionamento de sistemas de software e se apresenta na forma de um diagrama com alguns elementos básicos como: atores, processos, armazenamento de dados, setas e limites do sistema.
 
 ## Metodologia e Ferramentas
- A aplicação [Figma](https://www.figma.com) foi utilizada para elaborar tanto o richpicture quanto sua legenda e todas as ilustrações usadas são de autoria do site [StorySet](https://storyset.com). 
+ A aplicação [Figma](https://www.figma.com) foi utilizada para elaborar tanto o richpicture quanto sua legenda que podem ser vistas na Figura 1 e Figura 2 e todas as ilustrações usadas são de autoria do site [StorySet](https://storyset.com). 
 
 <font size="3"><p style="text-align: center">Figura 1: Richpicture versão 1.</p></font>
 
