@@ -23,15 +23,39 @@ O método Scrum pode ser definido como um conjunto de boas práticas, as quais p
 
 Na semana inicial do projeto, montou-se uma planilha com os horários disponíveis de todos os membros. A partir disso, foi acordado entre os participantes o seguinte:
 
-* Planning e review: Sábado às 9h 
-* Status: Antes ou após as aulas da disciplina
+* Planning e Review: Sábado às 9h.
+* Status: Antes ou após as aulas da disciplina.
+
+## Política de Issues
+
+Uma issue deve ser aberta sempre que:
+
+* Quiser relatar um problema do qual você não consegue solucionar sozinho.
+* Achar necessário propor uma função ou ideia nova para o projeto.
+* Precisar debater algum tópico em específico.
+
+### Participar de uma Issue
+
+* Caso deseje participar duma issue da qual não estiver encarregado, comente para que o criador da issue o deixe como encarregado também.
+* Se, por ventura, alguma issue já estiver aberta há muito tempo, provavelmente ela já está resolvida. Portanto, comente nela para confirmar que essa tarefa já está finalizada antes de começar a desenvolvê-la.
+* No momento que você resolver a issue por completo, finalize a issue.
+
+## Política de Commits
+
+Quase sempre deve-se abrir um pull request, em especial, nas seguintes ocasiões:
+
+* Quando for enviar correções simples.
+* No momento que for dar assistência à alguma contribuição na qual já está sendo trabalhada em alguma issue.
+
+Além disso, é importante ressaltar que um pull request não significa exatamente um trabalho finalizado. Ele também é uma forma de acompanhar o progresso do desenvolvimento de algum artefato ou ideia, ou seja, é também uma forma dos outros acompanharem aquilo que está fazendo. Um pull request antes de ser aprovado ainda recebe commits posteriores ao seu levantamento.
 
 ## Histórico de Versões
 
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
  1.0 | Descrição da Metodologia | Arthur de Melo | Rafael Ferreira
- 1.1 | Ajustes da metodologia após apresentação | Arthur de Melo | Rafael Ferreira
-
+ 1.1 | Ajustes da Metodologia após Apresentação | Arthur de Melo | Rafael Ferreira
+ 1.2 | Adição da Política de Commits e de Issues | Arthur de Melo | Rafael Ferreira
+ 
 ## Referências
 >ALVES, Isaque, ROCHA, Carla. Qualifying Software Engineers Undergraduates in DevOps - Challenges of introducing technical and non-technical conceptss in a project-oriented course. **Arxiv**. [S. l.], v.1, 2021. Disponível em: <<https://arxiv.org/abs/2102.06662>>. Acesso em: 16/04/2023.
