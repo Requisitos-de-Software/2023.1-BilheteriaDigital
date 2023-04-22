@@ -30,6 +30,6 @@ Local: Online via Microsoft Teams
 ## Próxima Reunião 22/04/2023 às 9h
 
 ## Histórico de versão
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
-1.0 | Criação da Documentação | Rafael Ferreira | Todos
+Versão  | Data | Descrição | Autor(es) | Revisor(es)
+-------- | ------ | ------ | ---------- | ----------
+1.0 | 15/04/2023 | Criação da Documentação | [Rafael Ferreira](https://github.com/RafaelCLG0) | Todos

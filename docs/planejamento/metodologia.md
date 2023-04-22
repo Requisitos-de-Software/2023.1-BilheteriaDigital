@@ -51,11 +51,11 @@ Além disso, é importante ressaltar que um pull request não significa exatamen
 
 ## Histórico de Versões
 
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
- 1.0 | Descrição da Metodologia | Arthur de Melo | Rafael Ferreira
- 1.1 | Ajustes da Metodologia após Apresentação | Arthur de Melo | Rafael Ferreira
- 1.2 | Adição da Política de Commits e de Issues | Arthur de Melo | Rafael Ferreira
+Versão  | Data | Descrição | Autor(es) | Revisor(es)
+---------- | -----  | ------ | ---------- | ----------
+ 1.0 | 16/04/2023 | Descrição da Metodologia | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
+ 1.1 | 16/04/2023 | Ajustes da Metodologia após Apresentação | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
+ 1.2 | 16/04/2023 | Adição da Política de Commits e de Issues | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
  
 ## Referências
 >ALVES, Isaque, ROCHA, Carla. Qualifying Software Engineers Undergraduates in DevOps - Challenges of introducing technical and non-technical conceptss in a project-oriented course. **Arxiv**. [S. l.], v.1, 2021. Disponível em: <<https://arxiv.org/abs/2102.06662>>. Acesso em: 16/04/2023.

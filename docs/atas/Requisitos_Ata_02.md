@@ -31,6 +31,6 @@ Local: Online via Microsoft Teams
 
 ## Histórico de versão
 
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
-1.0 | Criação da Documentação| Sidney Fernando | Todos
+Versão  | Data | Descrição | Autor(es) | Revisor(es)
+-------- | ------ | ------ | ---------- | ----------
+1.0 | 15/04/2023 | Criação da Documentação| [Sidney Fernando](https://github.com/nando3d3) | Todos

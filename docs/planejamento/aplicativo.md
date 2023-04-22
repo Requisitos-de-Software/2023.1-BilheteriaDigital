@@ -17,9 +17,8 @@ Baseado nos critérios anteriores, e após instrução do professor, o grupo dec
 * Possibilidade de usar o site do aplicativo na disciplina de IHC.
 
 
-
 ## Histórico de Versões
 
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
- 1.0 | Criação do documento | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
+Versão  |   Data   | Descrição | Autor(es) | Revisor(es)
+--------- | ------ | ------ | ---------- | ----------
+ 1.0 | 16/04/2023 | Criação do documento | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)

@@ -27,7 +27,7 @@ A fim de facilitar o gerenciamento e a execução do projeto, foram utilizadas c
 ## Histórico de Versões
 
 | Versão |    Data    |             Descrição             |                                                        Autor(es)                                                        |                        Revisor(es)                        |
-| :----: | :--------: | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------: |
+| ---- | -------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | `1.0`  | 15/04/2023 | Criação da página de ferramentas. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
 | `1.1`  | 15/04/2023 | Adição de novas ferramentas e reajuste da Tabela 1. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |
 | `1.1.1`  | 15/04/2023 | Pequenos ajustes nos textos e adição de uma ferramenta. | <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a> | <a href="https://github.com/manuziny">Geovanna Maciel</a> |

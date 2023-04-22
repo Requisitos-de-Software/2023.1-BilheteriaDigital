@@ -36,6 +36,6 @@ A git page possui?  | Sim/Não/Incompleto
 
 ## Histórico de Versões
 
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
-1.0 | Criação da git page | [Sidney Fernando](github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs)
+Versão  | Data | Descrição | Autor(es) | Revisor(es)
+-------- | ------ | ------ | ---------- | ----------
+1.0 | 17/04/2023 | Documentação da apresentação | [Sidney Fernando](github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs)
