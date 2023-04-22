@@ -32,4 +32,4 @@ Local: Online via Microsoft Teams
 ## Histórico de versão
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
-1.0 | Criação da Documentação | Gabriel Campello | Todos
+1.0 | Criação da Documentação | [Gabriel Campello](https://github.com/G16C) | Todos
