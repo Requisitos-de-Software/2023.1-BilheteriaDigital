@@ -18,14 +18,14 @@ Local: Online via Microsoft Teams
 * Enviar e-mail para os proprietários do aplicativo, a fim de confirmar a autorização de uso no âmbito do projeto da disciplina. 
 
 ## Decisões:
-* [De acordo com o feedback do professor e do monitor foi separado o que cada integrante deveria fazer](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/13).
+* De acordo com o feedback do professor e do monitor foi separado o que[ cada integrante deveria fazer](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/13).
 * Criação de personas e pesquisa perfis de usuários; Douglas e Matheus.
 * Brainstorming para elicitação de requisitos; Sidney, Arthur, Douglas e Geovanna.
 
 
 ## Link da gravação
 
-[Link da terceira reunião]
+[Link da quarta reunião](https://youtu.be/x6A--L0XAGo)
 
 ## Próxima Reunião 29/04/2023 às 9h
 
@@ -33,3 +33,4 @@ Local: Online via Microsoft Teams
 Versão | Data   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ---------- | ----------
 1.0 | 22/04/2023 | Criação da Documentação | [Gabriel Campello](https://github.com/G16C) | Todos
+1.1 | 22/04/2023 | Adição do vídeo | [Sidney Fernando](https://github.com/G16C) | Todos
