@@ -30,6 +30,6 @@ Local: Online via Microsoft Teams
 ## Próxima Reunião 29/04/2023 às 9h
 
 ## Histórico de versão
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
-1.0 | Criação da Documentação | [Gabriel Campello](https://github.com/G16C) | Todos
+Versão | Data   | Descrição | Autor(es) | Revisor(es)
+--------- | ------ | ---------- | ---------- | ----------
+1.0 | 22/04/2023 | Criação da Documentação | [Gabriel Campello](https://github.com/G16C) | Todos
