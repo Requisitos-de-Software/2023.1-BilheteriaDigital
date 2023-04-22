@@ -21,8 +21,8 @@ Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://pl
 
 ## Histórico de versões
 
-Versão   | Descrição | Autor(es) | Revisor(es)
---------- | ------ | ---------- | ----------
-1.0 | Criação da git page | Sidney Fernando | Todos
-1.1 | Atualiza membro | Sidney Fernando | -
-1.2 | Atualização de cor e correções | Sidney Fernando | -
+Versão |   Data  | Descrição | Autor(es) | Revisor(es)
+------ | ---- | ------ | ---------- | ----------
+1.0 | 14/04/2023 | Criação da git page | [Sidney Fernando](https://github.com/nando3d3) | Todos
+1.1 | 14/04/2023 | Atualiza membro | [Sidney Fernando](https://github.com/nando3d3) | Todos
+1.2 | 15/04/2023 | Atualização de cor e correções | [Sidney Fernando](https://github.com/nando3d3) | Todos
