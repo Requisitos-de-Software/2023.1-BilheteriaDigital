@@ -20,6 +20,7 @@ O richpicture é uma ferramenta visual para expressar ideias e analisar problema
 Versão   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ----------
 `1.0` | Adição da primeira versão do richpicture  | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
+`1.1` | Citação da figura no texto  | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs)
 
 ## Referências
 
