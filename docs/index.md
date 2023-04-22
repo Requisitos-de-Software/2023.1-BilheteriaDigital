@@ -1,6 +1,6 @@
 # Bilheteria Digital
 
-<p align="center"><img src="assets/bilheteria.png" width = 40%></p>
+<p align="center" ><img style="border: 1px solid white; border-radius: 20px" src="assets/bilheteria.png" width = 40%></p>
 
 Este repositório objetiva analisar o aplicativo [Bilheteria Digital](https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US) para fins de estudos na disciplina de Requisitos de Software da FGA-UnB.
 
@@ -26,3 +26,4 @@ Versão |   Data  | Descrição | Autor(es) | Revisor(es)
 1.0 | 14/04/2023 | Criação da git page | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.1 | 14/04/2023 | Atualiza membro | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.2 | 15/04/2023 | Atualização de cor e correções | [Sidney Fernando](https://github.com/nando3d3) | Todos
+1.3 | 22/04/2023 | Mudanças no Modo Escuro e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | Todos
