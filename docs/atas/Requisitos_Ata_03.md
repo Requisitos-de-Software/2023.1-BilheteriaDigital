@@ -19,9 +19,9 @@ Local: Online via Microsoft Teams
 * Elaboração do Rich Picture.
 
 ## Decisões:
-* Seguir a CheckList apresentada pelo professor sobre os possíveis critérios cobrados na Git Page.
-* Cada membro ficou responsável por criar ou atualizar sua parte na Git Page.
-* Deixar a Git Page pronta com todos os critérios da CheckList aceitos para realizar a gravação da Apresentação da Entrega 1.
+* Todos os membros devem seguir a CheckList apresentada pelo professor sobre os possíveis critérios cobrados na Git Page nas atividades que ficaram responsáveis.
+* Cada membro do grupo ficou responsável por criar ou atualizar sua parte na Git Page.
+* Todos os membros devem deixar suas atividades na Git Page pronta com todos os critérios da CheckList aceitos para realizar a gravação da Apresentação da Entrega 1.
 
 ## Link da gravação
 
@@ -33,3 +33,4 @@ Local: Online via Microsoft Teams
 Versão  | Data | Descrição | Autor(es) | Revisor(es)
 -------- | ------ | ------ | ---------- | ----------
 1.0 | 15/04/2023 | Criação da Documentação | [Rafael Ferreira](https://github.com/RafaelCLG0) | Todos
+1.1 | 23/04/2023 | Correções pós feedback do professor| [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv)
