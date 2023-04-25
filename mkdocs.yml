@@ -8,13 +8,14 @@ site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Apresentação: apresentacao.md
+  - Pré-Rastreabilidade:
+      - Rich Picture: rastreabilidade/rich_picture.md
   - Planejamento:
       - Aplicativo escolhido: planejamento/aplicativo.md
       - Ferramentas: planejamento/ferramentas.md
       - Cronograma: planejamento/cronograma.md
       - Metodologia: planejamento/metodologia.md
-  - Pré-Rastreabilidade:
-      - Rich Picture: rastreabilidade/rich_picture.md
+  
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md

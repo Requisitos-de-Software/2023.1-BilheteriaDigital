@@ -12,14 +12,14 @@ Na Tabela 1, tem-se o cronograma planejado para todas as atividades da primeira 
 
 | Atividade                                      	| Período de desenvolvimento 	| Responsáveis               	| Revisão                  	| Revisores        	|
 |------------------------------------------------	|----------------------------	|----------------------------	|--------------------------	|------------------	|
-|   Selecionar app                      	| Início: 01/04 <br>Fim: 08/04    	| Todos                      	| Início: 09/04 Fim: 10/04  	| Rafael e Douglas 	|
+|   Selecionar app                      	| Início: 01/04 <br>Fim: 08/04    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                      	| Início: 09/04 Fim: 10/04  	| Rafael e Douglas 	|
 |   Selecionar ferramentas do projeto   	| Início: 01/04 <br>Fim: 08/04    	| Arthur e Matheus           	| Início: 09/04 Fim: 10/04  	| Geovanna         	|
 |   Realização do cronograma            	| Início: 01/04 <br>Fim: 08/04    	| Geovanna, Gabriel e Sidney 	| Início: 10/04 Fim: 11/04  	| Douglas          	|
 |   Rich Picture                        	| Início: 10/04 <br>Fim: 12/04    	| Geovanna e Gabriel         	| Início: 13/04 Fim: 15/04  	| Sidney           	|
 |   Documentar Equipe                   	| Início: 28/03 <br>Fim: 31/03    	| Gabriel                    	| Início: 16/04 Fim: 16/04  	| Gabriel          	|
 |   Gravar apresentação                 	| Início: 15/04 <br>Fim: 15/04    	| Matheus                    	| Início: 16/04 Fim: 16/04  	| Arthur           	|
 |    Implementar Git Page              	| Início: 10/04 <br>Fim: 16/04   	| Sidney                     	| Início:  18/04 Fim: 20/04 	| Rafael           	|
-|   Correção pós apresentação	| Início: 18/04<br>Fim: 20/04 	| Todos 	| Início: 21/04<br>Fim: 23/04 	| Todos 	|
+|   Correção pós apresentação	| Início: 18/04<br>Fim: 20/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 21/04<br>Fim: 23/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -30,14 +30,14 @@ Na Tabela 2, está explicitado o cronograma executado das atividades da primeira
 
 | Atividade                                      	| Período de desenvolvimento 	| Responsáveis               	| Revisão                  	| Revisores        	|
 |------------------------------------------------	|----------------------------	|----------------------------	|--------------------------	|------------------	|
-|   Selecionar app                      	| Início: 01/04 <br>Fim: 08/04    	| Todos                      	| Início: 09/04 Fim: 10/04  	| Rafael e Douglas 	|
+|   Selecionar app                      	| Início: 01/04 <br>Fim: 08/04    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                      	| Início: 09/04 Fim: 10/04  	| Rafael e Douglas 	|
 |   Selecionar ferramentas do projeto   	| Início: 01/04 <br>Fim: 08/04    	| Arthur e Matheus           	| Início: 09/04 Fim: 10/04  	| Geovanna         	|
 |   Realização do cronograma            	| Início: 01/04 <br>Fim: 16/04    	| Geovanna, Gabriel e Sidney 	| Início: 10/04 Fim: 11/04  	| Douglas          	|
 |   Rich Picture                        	| Início: 10/04 <br>Fim: 15/04    	| Geovanna, Gabriel e Douglas        	| Início: 13/04 Fim: 15/04  	| Arthur           	|
 |   Documentar Equipe                   	| Início: 28/03 <br>Fim: 31/03    	| Gabriel                    	| Início: 16/04 Fim: 16/04  	| Douglas          	|
-|   Gravar apresentação                 	| Início: 16/04 <br>Fim: 16/04    	| Todos                    	| Início: 16/04 Fim: 16/04  	| Todos           	|
+|   Gravar apresentação                 	| Início: 16/04 <br>Fim: 16/04    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                    	| Início: 16/04 Fim: 16/04  	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney           	|
 |    Implementar Git Page              	| Início: 10/04 <br>Fim: 15/04   	| Sidney                     	| Início:  18/04 Fim: 20/04 	| Rafael           	|
-|   Correção pós apresentação	| Início: 18/04<br>Fim: 24/04 	| Todos 	| Início: 24/04<br>Fim: 26/04 	| Todos 	|
+|   Correção pós apresentação	| Início: 18/04<br>Fim: 24/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 24/04<br>Fim: 26/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -58,8 +58,8 @@ Na Tabela 3, tem-se o cronograma planejado para todas as atividades da segunda e
 |   Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto 	| Início: 26/04 <br>Fim: 28/04   	| Douglas e Arthur                   	| Início: 28/04 Fim: 29/04 	| Rafael    	|
 |   Priorização dos requisitos levantados usando as técnicas MoSCoW e 100 Dólares          	| Início: 28/04 <br>Fim: 29/04   	| Geovanna e Sidney                 	| Início: 30/04 Fim: 30/04 	| Matheus   	|
 |   Observação para elicitação de requisitos                                               	| Início: 26/04 <br>Fim: 29/04   	| Sidney e Matheus                   	| Início: 30/04 Fim: 30/04 	| Geovanna  	|
-|   Gravação da Apresentação e Entrega                                                     	| Início: 29/04 <br>Fim: 29/04   	| Todos                             	| Início: 30/04 Fim: 30/04 	| Todos     	|
-|   Correção pós apresentação	| Início: 02/05<br>Fim: 04/05 	| Todos 	| Início: 05/05<br>Fim: 06/05 	| Todos 	|
+|   Gravação da Apresentação e Entrega                                                     	| Início: 29/04 <br>Fim: 29/04   	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/04 Fim: 30/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney     	|
+|   Correção pós apresentação	| Início: 02/05<br>Fim: 04/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 05/05<br>Fim: 06/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -70,16 +70,15 @@ A Tabela 4 ainda há de ser atualizada. No entanto, realizar-se-á a correção 
 
 | Atividade                                                                                         	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                  	| Revisores 	|
 |---------------------------------------------------------------------------------------------------	|----------------------------	|-----------------------------------	|--------------------------	|-----------	|
-|   criação de personas e pesquisa perfis de usuários                                      	| Início: 21/04 <br>Fim: 24/04   	| Douglas e Matheus                 	| Início: 25/04 Fim: 26/04 	| Geovanna  	|
-|   Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto   	| Início: 25/04 <br>Fim: 27/04   	| Geovanna e Rafael                 	| Início: 27/04 Fim: 29/04 	| Gabriel   	|
-|   Brainstorm para elicitação de requisitos                                               	| Início: 21/04 <br>Fim: 24/04   	| Sidney, Arthur, Douglas e Geovanna 	| Início: 24/04 Fim: 02/04 	| Arthur    	|
-|   Introspecção para elicitação de requisitos                                             	| Início: 24/04 <br>Fim: 26/04   	| Gabriel e Arthur                   	| Início: 26/05 Fim: 27/04 	| Sidney    	|
-|   Entrevista para elicitação de requisitos                                               	| Início: 26/04 <br>Fim: 29/04   	| Sidney, Gabriel, Rafael e Matheus  	| Início: 29/05 Fim: 30/04 	| Douglas   	|
+|   Criação de personas e pesquisa perfis de usuários                                      	| Início: 23/04 <br>Fim: 25/04   	| Rafael e Matheus                 	| Início: 26/04 Fim: 26/04 	| Geovanna  	|
+|   Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto   	| Início: 24/04 <br>Fim: 26/04   	| Geovanna e Rafael                 	| Início: 27/04 Fim: 29/04 	| Gabriel   	|
+|   Brainstorm para elicitação de requisitos                                               	| Início: 28/04 <br>Fim: 28/04   	| Gabriel e Geovanna 	| Início: 29/04 Fim: 30/04 	| Arthur    	|
+|   Introspecção para elicitação de requisitos                                             	| Início: 24/04 <br>Fim: 27/04   	| Gabriel e Arthur                   	| Início: 28/05 Fim: 29/04 	| Sidney    	|
+|   Questionário para elicitação de requisitos                                               	| Início: 24/04 <br>Fim: 27/04   	| Sidney, Gabriel, Geovanna e Douglas  	| Início: 28/05 Fim: 29/04 	| Douglas   	|
 |   Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto 	| Início: 26/04 <br>Fim: 28/04   	| Douglas e Arthur                   	| Início: 28/04 Fim: 29/04 	| Rafael    	|
-|   Priorização dos requisitos levantados usando as técnicas MoSCoW e 100 Dólares          	| Início: 28/04 <br>Fim: 29/04   	| Geovanna e Sidney                 	| Início: 30/04 Fim: 30/04 	| Matheus   	|
-|   Observação para elicitação de requisitos                                               	| Início: 26/04 <br>Fim: 29/04   	| Sidney e Matheus                   	| Início: 30/04 Fim: 30/04 	| Geovanna  	|
-|   Gravação da Apresentação e Entrega                                                     	| Início: 29/04 <br>Fim: 29/04   	| Todos                             	| Início: 30/04 Fim: 30/04 	| Todos     	|
-|   Correção pós apresentação	| Início: 02/05<br>Fim: 04/05 	| Todos 	| Início: 05/05<br>Fim: 06/05 	| Todos 	|
+|   Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First | Início: 28/04 <br>Fim: 29/04   	| Geovanna, Sidney, Rafael, Matheus              	| Início: 30/04 Fim: 30/04 	| Matheus   	|
+|   Gravação da Apresentação e Entrega                                                     	| Início: 30/04 <br>Fim: 30/04   	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/04 Fim: 30/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney     	|
+|   Correção pós apresentação	| Início: 02/05<br>Fim: 04/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 05/05<br>Fim: 06/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -96,8 +95,8 @@ Na Tabela 5, tem-se o cronograma planejado para todas as atividades da segunda e
 |   Modelagem de Requisitos: Léxico                    	| Início: 03/05<br>Fim: 05/04    	| Arthur e Rafael   	| Início: 05/04 Fim: 05/04 	| Gabriel e Matheus 	|
 |   Modelagem de Requisitos: Use Case                  	| Início: 06/05<br>Fim: 10/05    	| Geovanna e Sidney 	| Início: 10/05 Fim: 10/05 	| Douglas e Arthur  	|
 |   Modelagem de Requisitos: Especificação Suplementar 	| Início: 06/05<br>Fim: 10/05    	| Matheus e Rafael  	| Início: 10/05 Fim: 10/05 	| Geovanna         	|
-|   Gravação da Apresentação e Entrega                 	| Início: 13/05<br>Fim: 15/05    	| Todos            	| Início: 13/05 Fim: 14/05 	| Todos            	|
-|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Todos 	| Início: 22/05<br>Fim: 23/05 	| Todos 	|
+|   Gravação da Apresentação e Entrega                 	| Início: 13/05<br>Fim: 15/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	| Início: 13/05 Fim: 14/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 22/05<br>Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -112,8 +111,8 @@ A Tabela 6 ainda há de ser atualizada. No entanto, realizar-se-á a correção 
 |   Modelagem de Requisitos: Léxico                    	| Início: 03/05<br>Fim: 05/04    	| Arthur e Rafael   	| Início: 05/04 Fim: 05/04 	| Gabriel e Matheus 	|
 |   Modelagem de Requisitos: Use Case                  	| Início: 06/05<br>Fim: 10/05    	| Geovanna e Sidney 	| Início: 10/05 Fim: 10/05 	| Douglas e Arthur  	|
 |   Modelagem de Requisitos: Especificação Suplementar 	| Início: 06/05<br>Fim: 10/05    	| Matheus e Rafael  	| Início: 10/05 Fim: 10/05 	| Geovanna         	|
-|   Gravação da Apresentação e Entrega                 	| Início: 13/05<br>Fim: 15/05    	| Todos            	| Início: 13/05 Fim: 14/05 	| Todos            	|
-|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Todos 	| Início: 22/05<br>Fim: 23/05 	| Todos 	|
+|   Gravação da Apresentação e Entrega                 	| Início: 13/05<br>Fim: 15/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	| Início: 13/05 Fim: 14/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 22/05<br>Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -129,8 +128,8 @@ Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda e
 |   Modelagem de Requisitos - Ágil: NFR Framework             	| Início: 16/05<br>Fim: 18/05    	| Sidney e Geovanna                  	| Início: 18/05 Fim: 19/05 	| Gabriel          	|
 |   Modelagem de Requisitos - Ágil: Backlogs                  	| Início: 18/05<br>Fim: 20/05    	| Matheus e Rafael                   	| Início: 20/05 Fim: 21/05 	| Arthur           	|
 |   Modelagem de Requisitos - Ágil: Histórias de Usuário      	| Início: 20/05<br>Fim: 22/05    	| Arthur e Douglas                   	| Início: 22/05 Fim: 23/05 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 22/05<br>Fim: 23/05    	| Todos                             	| Início: 23/05 Fim: 23/05 	| Todos            	|
-|   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Todos 	| Início: 31/05<br>Fim: 03/06 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 22/05<br>Fim: 23/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 23/05 Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 31/05<br>Fim: 03/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -144,8 +143,8 @@ A Tabela 8 ainda há de ser atualizada. No entanto, realizar-se-á a correção 
 |   Modelagem de Requisitos - Ágil: NFR Framework             	| Início: 16/05<br>Fim: 18/05    	| Sidney e Geovanna                  	| Início: 18/05 Fim: 19/05 	| Gabriel          	|
 |   Modelagem de Requisitos - Ágil: Backlogs                  	| Início: 18/05<br>Fim: 20/05    	| Matheus e Rafael                   	| Início: 20/05 Fim: 21/05 	| Arthur           	|
 |   Modelagem de Requisitos - Ágil: Histórias de Usuário      	| Início: 20/05<br>Fim: 22/05    	| Arthur e Douglas                   	| Início: 22/05 Fim: 23/05 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 22/05<br>Fim: 23/05    	| Todos                             	| Início: 23/05 Fim: 23/05 	| Todos            	|
-|   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Todos 	| Início: 31/05<br>Fim: 03/06 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 22/05<br>Fim: 23/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 23/05 Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 31/05<br>Fim: 03/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -158,10 +157,10 @@ Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda e
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Verificação por inspeção de todos os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
+|   Verificação por inspeção de Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
 |   Validação: Prototipação e Comprovação Informal            	| Início: 30/05<br>Fim: 02/06    	| Geovanna, Sidney e Rafael          	| Início: 02/06 Fim: 04/06 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Todos                             	| Início: 06/06 Fim: 06/06 	| Todos            	|
-|   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Todos 	| Início: 11/06<br>Fim: 13/06 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 06/06 Fim: 06/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 11/06<br>Fim: 13/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -172,10 +171,10 @@ A Tabela 10 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Verificação por inspeção de todos os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
+|   Verificação por inspeção de Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
 |   Validação: Prototipação e Comprovação Informal            	| Início: 30/05<br>Fim: 02/06    	| Geovanna, Sidney e Rafael          	| Início: 02/06 Fim: 04/06 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Todos                             	| Início: 06/06 Fim: 06/06 	| Todos            	|
-|   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Todos 	| Início: 11/06<br>Fim: 13/06 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 06/06 Fim: 06/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 11/06<br>Fim: 13/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -190,8 +189,8 @@ Na Tabela 11, tem-se o cronograma planejado para todas as atividades da segunda 
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
 |   Pós-rastreabilidade: Backward-form                        	| Início: 07/06<br>Fim: 10/06    	| Geovanna, Sidney e Matheus         	| Início: 10/06 Fim: 12/06 	| Arthur e Gabriel  	|
 |   Pós-rastreabilidade: Forward-form                         	| Início: 08/06<br>Fim: 10/06    	| Douglas, Gabriel, Rafael e Arthur  	| Início: 10/06 Fim: 12/06 	| Sidney e Geovanna 	|
-|   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Todos                             	| Início: 13/06 Fim: 14/06 	| Todos            	|
-|   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Todos 	| Início: 21/06<br>Fim: 03/07 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 13/06 Fim: 14/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 21/06<br>Fim: 03/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -204,8 +203,8 @@ A Tabela 12 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
 |   Pós-rastreabilidade: Backward-form                        	| Início: 07/06<br>Fim: 10/06    	| Geovanna, Sidney e Matheus         	| Início: 10/06 Fim: 12/06 	| Arthur e Gabriel  	|
 |   Pós-rastreabilidade: Forward-form                         	| Início: 08/06<br>Fim: 10/06    	| Douglas, Gabriel, Rafael e Arthur  	| Início: 10/06 Fim: 12/06 	| Sidney e Geovanna 	|
-|   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Todos                             	| Início: 13/06 Fim: 14/06 	| Todos            	|
-|   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Todos 	| Início: 21/06<br>Fim: 03/07 	| Todos 	|
+|   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 13/06 Fim: 14/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 21/06<br>Fim: 03/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -218,9 +217,9 @@ Na Tabela 13, tem-se o cronograma planejado para todas as atividades da segunda 
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Desenvolvimento do projeto final (correção e complemento) 	| Início: 17/06<br>Fim: 30/06    	| Todos                             	| Início: 30/06 Fim: 02/07 	| Rafael e Matheus  	|
-|   Gravação da Apresentação e Entrega                        	| Início: 03/07<br>Fim: 04/07    	| Todos                             	| Início: 04/07 Fim: 05/07 	| Todos            	|
-|   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Todos 	| Início: 10/07<br>Fim: 11/07 	| Todos 	|
+|   Desenvolvimento do projeto final (correção e complemento) 	| Início: 17/06<br>Fim: 30/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/06 Fim: 02/07 	| Rafael e Matheus  	|
+|   Gravação da Apresentação e Entrega                        	| Início: 03/07<br>Fim: 04/07    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 04/07 Fim: 05/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 10/07<br>Fim: 11/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -231,9 +230,9 @@ A Tabela 14 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Desenvolvimento do projeto final (correção e complemento) 	| Início: 17/06<br>Fim: 30/06    	| Todos                             	| Início: 30/06 Fim: 02/07 	| Rafael e Matheus  	|
-|   Gravação da Apresentação e Entrega                        	| Início: 03/07<br>Fim: 04/07    	| Todos                             	| Início: 04/07 Fim: 05/07 	| Todos            	|
-|   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Todos 	| Início: 10/07<br>Fim: 11/07 	| Todos 	|
+|   Desenvolvimento do projeto final (correção e complemento) 	| Início: 17/06<br>Fim: 30/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/06 Fim: 02/07 	| Rafael e Matheus  	|
+|   Gravação da Apresentação e Entrega                        	| Início: 03/07<br>Fim: 04/07    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 04/07 Fim: 05/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 10/07<br>Fim: 11/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
