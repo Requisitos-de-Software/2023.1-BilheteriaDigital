@@ -100,43 +100,14 @@ Na Tabela 5, tem-se o cronograma planejado para todas as atividades da segunda e
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
-### Executado
-A Tabela 6 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
 
-<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Modelagem de Requisitos 1</p></font>
-
-| Atividade                                                     	| Período de desenvolvimento 	| Responsáveis     	| Revisão                 	| Revisores        	|
-|---------------------------------------------------------------	|----------------------------	|------------------	|-------------------------	|------------------	|
-|   Modelagem de Requisitos: Cenários                  	| Início: 03/05<br>Fim: 05/04    	| Douglas e Gabriel 	| Início: 05/04 Fim: 05/04 	| Sidney           	|
-|   Modelagem de Requisitos: Léxico                    	| Início: 03/05<br>Fim: 05/04    	| Arthur e Rafael   	| Início: 05/04 Fim: 05/04 	| Gabriel e Matheus 	|
-|   Modelagem de Requisitos: Use Case                  	| Início: 06/05<br>Fim: 10/05    	| Geovanna e Sidney 	| Início: 10/05 Fim: 10/05 	| Douglas e Arthur  	|
-|   Modelagem de Requisitos: Especificação Suplementar 	| Início: 06/05<br>Fim: 10/05    	| Matheus e Rafael  	| Início: 10/05 Fim: 10/05 	| Geovanna         	|
-|   Gravação da Apresentação e Entrega                 	| Início: 13/05<br>Fim: 15/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	| Início: 13/05 Fim: 14/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
-|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 22/05<br>Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
-
-<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ## Entrega 4 - Modelagem de Requisitos 1.2
 
 ### Planejado
-Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 6, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 7</b> - Modelagem de Requisitos 1.2</p></font>
-
-| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
-|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Modelagem de Requisitos - Ágil: NFR Framework             	| Início: 16/05<br>Fim: 18/05    	| Sidney e Geovanna                  	| Início: 18/05 Fim: 19/05 	| Gabriel          	|
-|   Modelagem de Requisitos - Ágil: Backlogs                  	| Início: 18/05<br>Fim: 20/05    	| Matheus e Rafael                   	| Início: 20/05 Fim: 21/05 	| Arthur           	|
-|   Modelagem de Requisitos - Ágil: Histórias de Usuário      	| Início: 20/05<br>Fim: 22/05    	| Arthur e Douglas                   	| Início: 22/05 Fim: 23/05 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 22/05<br>Fim: 23/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 23/05 Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
-|   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 31/05<br>Fim: 03/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
-
-<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
-
-### Executado
-A Tabela 8 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
-
-<font size="3"><p style="text-align: center"><b>Tabela 8</b> - Modelagem de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Modelagem de Requisitos 1.2</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -147,27 +118,14 @@ A Tabela 8 ainda há de ser atualizada. No entanto, realizar-se-á a correção 
 |   Correção pós apresentação	| Início: 25/05<br>Fim: 30/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 31/05<br>Fim: 03/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
 
 ## Entrega 5.1 - Análise de Requisitos 1
 
 ### Planejado
-Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 9</b> - Análise de Requisitos 1</p></font>
-
-| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
-|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Verificação por inspeção de Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
-|   Validação: Prototipação e Comprovação Informal            	| Início: 30/05<br>Fim: 02/06    	| Geovanna, Sidney e Rafael          	| Início: 02/06 Fim: 04/06 	| Gabriel          	|
-|   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 06/06 Fim: 06/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
-|   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 11/06<br>Fim: 13/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
-
-<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
-
-### Executado
-A Tabela 10 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
-
-<font size="3"><p style="text-align: center"><b>Tabela 10</b> - Análise de Requisitos 1</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 7</b> - Análise de Requisitos 1</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -177,27 +135,14 @@ A Tabela 10 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 |   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 11/06<br>Fim: 13/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
 
 ## Entrega 5.2 - Análise de Requisitos 1.2
 
 ### Planejado
-Na Tabela 11, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 8, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 11</b> - Análise de Requisitos 1.2</p></font>
-
-| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
-|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Pós-rastreabilidade: Backward-form                        	| Início: 07/06<br>Fim: 10/06    	| Geovanna, Sidney e Matheus         	| Início: 10/06 Fim: 12/06 	| Arthur e Gabriel  	|
-|   Pós-rastreabilidade: Forward-form                         	| Início: 08/06<br>Fim: 10/06    	| Douglas, Gabriel, Rafael e Arthur  	| Início: 10/06 Fim: 12/06 	| Sidney e Geovanna 	|
-|   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 13/06 Fim: 14/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
-|   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 21/06<br>Fim: 03/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
-
-<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
-
-### Executado
-A Tabela 12 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
-
-<font size="3"><p style="text-align: center"><b>Tabela 12</b> - Análise de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 8</b> - Análise de Requisitos 1.2</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -211,22 +156,9 @@ A Tabela 12 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 ## Entrega Final 
 
 ### Planejado
-Na Tabela 13, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 13</b> - Oração</p></font>
-
-| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
-|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Desenvolvimento do projeto final (correção e complemento) 	| Início: 17/06<br>Fim: 30/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/06 Fim: 02/07 	| Rafael e Matheus  	|
-|   Gravação da Apresentação e Entrega                        	| Início: 03/07<br>Fim: 04/07    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 04/07 Fim: 05/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
-|   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 10/07<br>Fim: 11/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
-
-<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
-
-### Executado
-A Tabela 14 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
-
-<font size="3"><p style="text-align: center"><b>Tabela 14</b> - Oração</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 9</b> - Oração</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -235,16 +167,21 @@ A Tabela 14 ainda há de ser atualizada. No entanto, realizar-se-á a correção
 |   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 10/07<br>Fim: 11/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
-
 
 ## Histórico de Versões
 
 Versão  |   Data    | Descrição | Autor(es) | Revisor(es)
 --------- | ------- | ------ | ---------- | ----------
  1.0 | 15/04/2023 | Cronograma planejado e executado excel | [Gabriel Campello](https://github.com/G16C),  [Geovanna Maciel](https://github.com/manuziny) e [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs)
- 2.0 | 16/04/2023 | Cronograma planejado markdown | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
- 2.1 | 16/04/2023 | Cronograma executado markdown e adição da descrição | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
- 2.2 | 23/04/2023 | Cronograma com correções pós apresentação | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
+ 1.1 | 16/04/2023 | Cronograma planejado markdown | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
+ 1.2 | 16/04/2023 | Cronograma executado markdown e adição da descrição | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
+ 1.2.1 | 23/04/2023 | Cronograma com correções pós apresentação | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
+ 1.2.2 | 26/04/2023 | Tirando o executado das etapas ainda não iniciadas | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
 
 ## Referências
 >SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
+
+## Bibliografia
+>Cronograma Youtube. Disponível em: <<https://requisitos-de-software.github.io/2022.1-Youtube/>>.Acesso em 04 de abril de 2023.
+
+>Cronograma Duolingo. Disponível em: <<https://requisitos-de-software.github.io/2019.2-Duolingo/>>. Acesso em 04 de abril de 2023.
