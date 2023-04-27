@@ -178,10 +178,10 @@ Versão  |   Data    | Descrição | Autor(es) | Revisor(es)
  1.2.1 | 23/04/2023 | Cronograma com correções pós apresentação | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
  1.2.2 | 26/04/2023 | Tirando o executado das etapas ainda não iniciadas | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
 
-## Referências
->SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
 
 ## Bibliografia
 >Cronograma Youtube. Disponível em: <<https://requisitos-de-software.github.io/2022.1-Youtube/>>.Acesso em 04 de abril de 2023.
 
 >Cronograma Duolingo. Disponível em: <<https://requisitos-de-software.github.io/2019.2-Duolingo/>>. Acesso em 04 de abril de 2023.
+
+>SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
