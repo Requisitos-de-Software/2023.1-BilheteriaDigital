@@ -6,7 +6,7 @@ A introspecção é uma técnica de elicitação de requisitos que consiste em, 
 
 ## Metodologia de Aplicação
 
-O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para requisitos não funcionais.  No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam, ou não, presentes.
+O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos não Funcionais.  No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam, ou não, presentes.
 
 ### Arthur de Melo
 
