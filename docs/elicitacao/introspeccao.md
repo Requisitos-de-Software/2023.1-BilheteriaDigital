@@ -4,9 +4,9 @@
 
 A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa.Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2.
 
-## Metodologia de Aplicação
+## Metodologia
 
-O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos não Funcionais.  No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam, ou não, presentes.
+O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual, os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos Não-Funcionais.  No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam ou não presentes.
 
 ### Arthur de Melo
 
@@ -20,11 +20,13 @@ iniciei o exercício.
 ## Requisitos elicitados
 
 ### Funcionais
-                            Tabela 1 - Requisitos Funcionais
+
+<font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
+
 | Tipo |             Descrição            |   ID   | Implementado |
 |------|----------------------------------|--------| -----------|
-| RF01 | O aplicativo filtra os eventos por Estado e por Município. | IS01 | Sim |
-| RF02 | O aplicativo filtra os eventos por data e horário.  | IS02 | Não |
+| RF01 | O aplicativo filtra os eventos por Estado e por Município. | IS01 | Não |
+| RF02 | O aplicativo filtra os eventos por data e por horário.  | IS02 | Não |
 | RF03 | O aplicativo filtra os eventos por idade mínima de entrada.  | IS03 | Não |
 | RF04 | O aplicativo permite realizar a compra do ingresso.  | IS04 | Sim |
 | RF05 | O aplicativo permite o cadastro e o login do usuário.  | IS05 | Sim |
@@ -33,10 +35,15 @@ iniciei o exercício.
 | RF08 | O aplicativo permite cancelar compras.  | IS08 | Sim |
 | RF09 | O aplicativo possui um mecanismo de busca.  | IS09 | Sim |
 
-### Não funcionais
-                            Tabela 2 - Requisitos não Funcionais
+<font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
-| Tipo |             Descrição            |   ID   | Implementado
+Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
+
+### Não funcionais
+
+<font size="3"><p style="text-align: center">Tabela 2: Requisitos Não-Funcionais.</p></font>
+
+| Tipo |             Descrição            |   ID   | Implementado |
 |------|----------------------------------|--------| ----- |
 | RNF01 |  Deve possuir uma página que explicita os eventos da região selecionada.  | IS10 | Sim |
 | RNF02 |  Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.   | IS11 | Não |
@@ -46,6 +53,10 @@ iniciei o exercício.
 | RNF06 |  Deve possuir uma tela para cadastro e login.  | IS15 | Sim |
 | RNF07 |  Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.  | IS16 | Não |
 
+<font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
+
+Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
+
 ## Histórico de Versões
 
 Versão  | Data | Descrição | Autor(es) | Revisor(es)
@@ -53,6 +64,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.0 | 26/04/2023 | Introdução e requisitos iniciais | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C)
  1.1 | 26/04/2023 | Requisitos atualizados | [Gabriel Campello](https://github.com/G16C) | [Arthur de Melo](https://github.com/arthurmlv)
  1.2 | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C) | [Arthur de Melo](https://github.com/arthurmlv)
+ 1.3 | 27/04/2023 | Notas sobre alguns requisitos específicos | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut)
 
 
 ## Bibliografia
