@@ -70,13 +70,14 @@ A Tabela 4 ainda há de ser atualizada. No entanto, realizar-se-á a correção 
 
 | Atividade                                                                                         	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                  	| Revisores 	|
 |---------------------------------------------------------------------------------------------------	|----------------------------	|-----------------------------------	|--------------------------	|-----------	|
-|   Criação de personas e pesquisa perfis de usuários                                      	| Início: 23/04 <br>Fim: 25/04   	| Rafael e Matheus                 	| Início: 26/04 Fim: 26/04 	| Geovanna  	|
+|   Criação de personas e pesquisa perfis de usuários                                      	| Início: 23/04 <br>Fim: 25/04   	| Rafael, Matheus e Geovanna              	| Início: 26/04 Fim: 26/04 	| Douglas  	|
 |   Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto   	| Início: 24/04 <br>Fim: 26/04   	| Geovanna e Rafael                 	| Início: 27/04 Fim: 29/04 	| Gabriel   	|
 |   Brainstorm para elicitação de requisitos                                               	| Início: 28/04 <br>Fim: 28/04   	| Gabriel e Geovanna 	| Início: 29/04 Fim: 30/04 	| Arthur    	|
 |   Introspecção para elicitação de requisitos                                             	| Início: 24/04 <br>Fim: 27/04   	| Gabriel e Arthur                   	| Início: 28/05 Fim: 29/04 	| Sidney    	|
-|   Questionário para elicitação de requisitos                                               	| Início: 24/04 <br>Fim: 27/04   	| Sidney, Gabriel, Geovanna e Douglas  	| Início: 28/05 Fim: 29/04 	| Douglas   	|
+|   Observação para elicitação de requisitos                                               	| Início: 26/04 <br>Fim: 29/04   	| Arthur e Rafael                   	| Início: 30/04 Fim: 30/04 	| Geovanna  	|
+|   Questionário para elicitação de requisitos                                               	| Início: 24/04 <br>Fim: 27/04   	| Sidney, Gabriel, Geovanna e Douglas  	| Início: 28/05 Fim: 29/04 	| Rafael   	|
 |   Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto 	| Início: 26/04 <br>Fim: 28/04   	| Douglas e Arthur                   	| Início: 28/04 Fim: 29/04 	| Rafael    	|
-|   Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First | Início: 28/04 <br>Fim: 29/04   	| Geovanna, Sidney, Rafael, Matheus              	| Início: 30/04 Fim: 30/04 	| Matheus   	|
+|   Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First | Início: 28/04 <br>Fim: 29/04   	| Arthur, Sidney, Rafael, Matheus e Douglas             	| Início: 30/04 Fim: 30/04 	| Gabriel   	|
 |   Gravação da Apresentação e Entrega                                                     	| Início: 30/04 <br>Fim: 30/04   	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 30/04 Fim: 30/04 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney     	|
 |   Correção pós apresentação	| Início: 02/05<br>Fim: 04/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 05/05<br>Fim: 06/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
