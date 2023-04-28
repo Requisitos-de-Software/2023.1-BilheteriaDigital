@@ -3,6 +3,10 @@ repo_name: 2023.1-BilheteriaDigital
 
 markdown_extensions:
   - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 site_name: Bilheteria Digital
 nav:
