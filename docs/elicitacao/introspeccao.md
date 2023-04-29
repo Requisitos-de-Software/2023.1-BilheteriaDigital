@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa.Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2.
+A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa. Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2.
 
 ## Metodologia
 
@@ -41,6 +41,8 @@ iniciei o exercício.
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
+<font size="3">Legenda: RF = Requisito Funcional. IS = Introspecção. ID = Identificação.</font><br>
+
 
 Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
 
@@ -63,6 +65,8 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
+<font size="3">Legenda: RNF = Requisito Não-Funcional. IS = Introspecção. ID = Identificação.</font><br>
+
 
 Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
 
@@ -74,7 +78,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.1 | 26/04/2023 | Requisitos atualizados | [Gabriel Campello](https://github.com/G16C) | [Arthur de Melo](https://github.com/arthurmlv)
  1.2 | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C) | [Arthur de Melo](https://github.com/arthurmlv)
  1.3 | 27/04/2023 | Notas sobre alguns requisitos específicos | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut)
-
+ 1.4 | 29/04/2023 | Adição das legendas | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
 
 ## Bibliografia
 

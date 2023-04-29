@@ -21,8 +21,7 @@ Nome| Função|
 
 ## Metodologia
 
-Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os participantes explicitados na Tabela 1, no ambiente Microsoft Teams com o objetivo de realizar uma Observação Participativa, na qual cabe a interferência do Engenheiro de Software. Nessa, o [observador](https://github.com/arthurmlv) ficou responsável de instruir quais ações o usuário precisa realizar no aplicativo da Bilheteria Digital. Durante a análise, o usuário compartilhou a tela do celular e o observador foi ditando os caminhos que ele gostaria de analisar.
-
+Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os participantes explicitados na Tabela 1, no ambiente Microsoft Teams com o objetivo de realizar uma Observação Participativa, na qual cabe a interferência do Engenheiro de Software. Nessa, o [observador](https://github.com/arthurmlv) ficou responsável de instruir quais ações o usuário precisa realizar no aplicativo da Bilheteria Digital. Durante a análise, o usuário compartilhou a tela do celular e o observador foi ditando os caminhos que ele gostaria de analisar. Os requisitos levantados estão presentes nas Tabelas 2 e 3.
 
 ## Requisitos elicitados
 
@@ -52,7 +51,7 @@ Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os partici
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-
+<font size="3">Legenda: RF = Requisito Funcional. OBS = Observação. ID = Identificação.</font><br>
 
 ### Não funcionais
 
@@ -74,7 +73,7 @@ Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os partici
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-
+<font size="3">Legenda: RNF = Requisito Não-Funcional. OBS = Observação. ID = Identificação.</font><br>
 
 ## Histórico de Versões
 
@@ -82,7 +81,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 ---------- | -----  | ------ | ---------- | ----------
  1.0 | 29/04/2023 | Documentação da observação | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny)
  1.1 | 29/04/2023 | Adição da introdução | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny)
-
+ 1.2 | 29/04/2023 | Adição das legendas | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)
 
 ## Bibliografia
 
