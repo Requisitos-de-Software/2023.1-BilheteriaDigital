@@ -6,7 +6,7 @@ Um questionário é uma técnica utilizada na elicitação de requisitos que con
 
 ## Resultados
 
-Essa página apresenta os resultados da análise dos dados que o grupo coletou por meio de um questionário online, no qual foi exposto previamente um [termo de consentimento](./termo-consentimento-questionario.pdf) e preenchido pelos participantes antes de inicia-lo. O questionário obteve 64 respostas no período em que ficou disponível (entre 24/04/23 e 28/04/23) e apresentava 13 perguntas, divididas em dois fluxos, a depender da resposta da pergunta da figura 1: um de pessoas que nunca utilizaram o aplicativo e outro de quem já o utilizou. 
+Essa página apresenta os resultados da análise dos dados que o grupo coletou por meio de um questionário online, no qual foi exposto previamente um [termo de consentimento](../termo-consentimento-questionario.pdf) e preenchido pelos participantes antes de inicia-lo. O questionário obteve 64 respostas no período em que ficou disponível (entre 24/04/23 e 28/04/23) e apresentava 13 perguntas, divididas em dois fluxos, a depender da resposta da pergunta da figura 1: um de pessoas que nunca utilizaram o aplicativo e outro de quem já o utilizou. 
 
 <figure markdown>
 <font size="3"><p style="text-align: center"><b>Figura 1</b> - Pergunta nº 1 do questionário.</p></font>
