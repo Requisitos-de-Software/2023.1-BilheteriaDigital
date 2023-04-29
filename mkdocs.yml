@@ -25,8 +25,8 @@ nav:
       - Cronograma: planejamento/cronograma.md
       - Metodologia: planejamento/metodologia.md
   - Elicitação:
-      - Instrospecção: elicitacao/introspeccao.md
-  
+      - Introspecção: elicitacao/introspeccao.md
+      - Brainstorming: elicitacao/brainstorming.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
