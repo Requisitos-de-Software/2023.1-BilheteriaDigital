@@ -10,9 +10,9 @@ O método Scrum pode ser definido como um conjunto de boas práticas, as quais p
 
 #### Equipe Scrum
 
-* Scrum Master: responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe.
-* Product Owner: aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*).
-* Time de Desenvolvimento: equipe encarregada de desenvolver o planejamento definido em cada *sprint*.
+* [Scrum Master](https://github.com/manuziny): responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe.
+* [Product Owner](https://github.com/arthurmlv): aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*).
+* [Time de Desenvolvimento](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/#contribuidores): equipe encarregada de desenvolver o planejamento definido em cada *sprint*.
 
 #### Eventos
 

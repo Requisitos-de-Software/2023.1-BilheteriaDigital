@@ -5,12 +5,12 @@ Local: Online via Google Meets
 
 ## Participantes presentes:
 - [x] Arthur Grandão
-- [x] Douglas Alves
-- [x] Gabriel Campello
-- [x] Geovanna Maciel
-- [x] Matheus Henrique
-- [x] Rafael Ferreira
-- [x] Sidney Fernando
+- [x] [Douglas Alves](https://github.com/dougAlvs)
+- [x] [Gabriel Campello](https://github.com/G16C)
+- [x] [Geovanna Maciel]((https://github.com/manuziny))
+- [x] [Matheus Henrique](https://github.com/mathonaut)
+- [x] [Rafael Ferreira](https://github.com/RafaelCLG0)
+- [x] [Sidney Fernando](https://github.com/nando3d3)
 
 ## Discussão:
 * Horários de reunião semanal do grupo.
