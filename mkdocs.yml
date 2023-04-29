@@ -5,6 +5,7 @@ markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
+  - footnotes
   - pymdownx.tasklist:
       custom_checkbox: true
 
