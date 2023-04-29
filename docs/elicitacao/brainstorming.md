@@ -119,6 +119,73 @@ Nome| Função|
 
 <span style = "color: orange">Lucas </span>- Atualizações de acordo com a satisfação do usuário, possibilidade de aumentar a fonte, função de lupa e manter o estado da página anterior.
 
+## Requisitos levantados
+
+Após a sessão de brainstorming, foi possível fazer o levantamento dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
+
+**Legendas das tabelas 3 e 4:**
+
+* BS: Brainstorming
+* RFB: Requisitos Funcionais Brainstorming
+* RNF: Requisitos Não Funcionais Brainstorming
+
+<font size="3"><p style="text-align: center">Tabela 3: Requisitos funcionais.</p></font>
+
+<center>
+
+| ID 	| Descrição 	| Código 	|
+|---	|---	|---	|
+| BS01 	| O usuário deve poder realizar cadastro 	| RFB01	|
+| BS02 	| O usuário deve poder realizar login 	| RFB02 	|
+| BS03 	| O usuário deve poder comprar ingressos dentro do app 	|  RFB03	|
+| BS04 	| O usuário deve poder buscar eventos 	| RFB04	|
+| BS05 	| O usuário deve ser capaz de filtrar eventos 	|  RFB05	|
+| BS06 	| O usuário deve acessar as notificações sobre os eventos 	| RFB06 	|
+| BS07 	| O usuário deve salvar os dados do cartão no app 	| RFB07 	|
+| BS08 	| O usuário deve poder filtrar as cidades que desejar 	| RFB08 	|
+| BS09 	| O usuário deve fornecer sua localização	| RFB09 	|
+| BS10 	|  O usuário deve poder acessar o calendário de eventos	| RFB10	|
+| BS11 	| O usuário deve poder acessar os eventos a gostos de acordo com o perfil do usuário 	|  RFB11	|
+| BS12 	| O usuário deve poder responder a pesquisa de perfil sobre seus gostos	|  RFB12	|
+| BS13 	| O usuário deve ser capaz de acessar as informações do evento	|  RFB13	|
+| BS14 	| O usuário deve ser capaz de acessar as atrações do evento 	| RFB14 	|
+| BS15 	| O usuário deve poder realizar pagamento com de várias formas 	| RFB15 	|
+| BS16 	| O usuário deve ter acesso a pré-venda 	| RFB16 	|
+| BS17 	| O usuário deve receber a cópia do ingresso por e-mail 	| RFB17 	|
+| BS18 	| O usuário deve ser capaz de conectar uma carteira digital 	| RFB18	|
+| BS19 	| O usuário deve ser capaz de mudar o idioma do app 	|  RFB19	|
+| BS21 	| O usuário deve ser capaz de aumentar a fonte 	| RFB20 	|
+| BS22 	| O usuário deve ser capaz de dar zoom 	| RFB21 	|
+| BS23 	| O usuário deve ser capaz de acessar a assistente virtual 	| RFB22 	|
+| BS24 	| O usuário deve ser capaz de compartilhar o evento 	| RFB23 	|
+
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny) e [Gabriel Campello](https://github.com/G16C).</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 4: Requisitos não funcionais.</p></font>
+
+<center>
+
+| Código 	| Descrição 	| ID 	|
+|---	|---	|---	|
+| BS25 	| O app deve exibir a duração do evento 	| RNFB01	|
+| BS26 	| O app deve exibir a quantidade de assentos disponíveis 	| RNFB02 	|
+| BS27 	| O app deve exibir a capacidade do evento 	|  RNFB03	|
+| BS28 	| O deve exibir a faixa etária do evento	| RNFB04	|
+| BS29 	| O app exibir a data do evento 	|  RNFB05	|
+| BS30 	| O app deve exibir a porcentagem de ingressos comprados 	| RNFB06 	|
+| BS31 	| O app deve forcener segurança na compra do usuário 	| RNFB07 	|
+| BS32 	| O app deve ter a aba "Meus Ingressos"  	| RNFB08 	|
+| BS33 	| O app deve ter a aba "FAQ" 	| RNFB09 	|
+| BS34 	|  O app deve exibir um e-mail para contato	| RNFB10	|
+| BS35 	| O app deve exibir sugestões de eventos de acordo com os gostos do usuário 	|  RNFB11	|
+| BS36 	| O app deve salvar a a localização do usuário 	|  RNFB12	|
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
 ## Histórico de Versões
 
@@ -126,6 +193,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 ---------- | -----  | ------ | ---------- | ----------
  1.0 | 28/04/2023 | Introdução e ideias iniciais | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.1 | 29/04/2023 | Atualização | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
+ 1.2 | 29/04/2023 | Adicionando os requisitos levantados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
 
 ## Bibliografia
 
