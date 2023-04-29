@@ -7,7 +7,7 @@
 ## Metodologia
 
 <p style="text-align: justify;">&emsp;&emsp;A principal técnica usada para a aquisição de dados foi o questionário. Além dele, foi utilizado uma ferramenta de tráfico de rede que permitiu realizar a validação dos dados obtidos.</p>
-<p style="text-align: justify;">&emsp;&emsp;O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram.</p>
+<p style="text-align: justify;">&emsp;&emsp;O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram entre os períodos de 21 a 27 de abril de 2023.</p>
 
 ## Resultado do Questionário
 
