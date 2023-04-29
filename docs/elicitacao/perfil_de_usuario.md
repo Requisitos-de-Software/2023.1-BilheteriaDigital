@@ -2,18 +2,18 @@
 
 ## Introdução
 
-<p style="text-align: justify;">&emsp;No intuito de se conhecer melhor os usuários do aplicativo é necessário elaborar um perfil genérico chamado de perfil de usuário. Segundo Barbosa e Silva (2011, p.174) <q>perfil de usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado</q>.</p>
+<p style="text-align: justify;">&emsp;&emsp;No intuito de se conhecer melhor os usuários do aplicativo é necessário elaborar um perfil genérico chamado de perfil de usuário. Segundo Barbosa e Silva (2011, p.174) <q>perfil de usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado</q>.</p>
 
 ## Metodologia
 
-<p style="text-align: justify;">&emsp;A principal técnica usada para a aquisição de dados foi o questionário. Além dele, foi utilizado uma ferramenta de tráfico de rede que permitiu realizar a validação dos dados obtidos.</p>
-<p style="text-align: justify;">&emsp;O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram entre o período de 21 a 27 de abril de 2023.</p>
+<p style="text-align: justify;">&emsp;&emsp;A principal técnica usada para a aquisição de dados foi o questionário. Além dele, foi utilizado uma ferramenta de tráfico de rede que permitiu realizar a validação dos dados obtidos.</p>
+<p style="text-align: justify;">&emsp;&emsp;O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram entre o período de 21 a 27 de abril de 2023.</p>
 
 ## Resultado do Questionário
 
-<p style="text-align: justify;">&emsp;O resultado no questionário teve o total de 56 respostas e o resumo das respostas são apresentados nas figuras de 1 a 8.</p>
+<p style="text-align: justify;">&emsp;&emsp;O resultado no questionário teve o total de 56 respostas e o resumo das respostas são apresentados nas figuras de 1 a 8.</p>
 
-<p style="text-align: justify;">&emsp;De acordo com a figura 1, o gênero dos participantes em sua maioria é feminino represetando 59% das respostas sendo que o gênero masculino representa os outros 41%.</p>
+<p style="text-align: justify;">&emsp;&emsp;De acordo com a figura 1, o gênero dos participantes em sua maioria é feminino represetando 59% das respostas sendo que o gênero masculino representa os outros 41%.</p>
 <figure markdown>
 <font size="3"><p style="text-align: center">**Figura 1** - Questão 1.</p></font>
 ![Gráfico com os resultados da questão 1 - Qual é seu gênero?](../assets/perfildeusuario/Q1.png)
