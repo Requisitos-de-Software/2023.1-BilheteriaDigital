@@ -14,5 +14,13 @@
   --md-typeset-table-color--light:     rgba(128, 128, 128, 0.301);
 }
 
+body {
+  text-align: justify;
+}
+
+p {
+  text-indent: 1em;
+}
+
 
   
