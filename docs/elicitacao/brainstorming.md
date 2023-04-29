@@ -123,11 +123,17 @@ Nome| Função|
 
 Após a sessão de brainstorming, foi possível fazer o levantamento dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
 
+**Legendas das tabelas 3 e 4:**
+
+* BS: Brainstorming
+* RFB: Requisitos Funcionais Brainstorming
+* RNF: Requisitos Não Funcionais Brainstorming
+
 <font size="3"><p style="text-align: center">Tabela 3: Requisitos funcionais.</p></font>
 
 <center>
 
-| Código 	| Descrição 	| ID 	|
+| ID 	| Descrição 	| Código 	|
 |---	|---	|---	|
 | BS01 	| O usuário deve poder realizar cadastro 	| RFB01	|
 | BS02 	| O usuário deve poder realizar login 	| RFB02 	|
