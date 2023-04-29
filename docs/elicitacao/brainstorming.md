@@ -119,9 +119,9 @@ Nome| Função|
 
 <span style = "color: orange">Lucas </span>- Atualizações de acordo com a satisfação do usuário, possibilidade de aumentar a fonte, função de lupa e manter o estado da página anterior.
 
-## Requisitos levantados
+## Requisitos elicitados
 
-Após a sessão de brainstorming, foi possível fazer o levantamento dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
+Após a sessão de brainstorming, foi possível fazer a elicitação dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
 
 **Legendas das tabelas 3 e 4:**
 
