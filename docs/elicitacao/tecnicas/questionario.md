@@ -103,10 +103,9 @@ Nas Tabelas 1 e 2 estão disponibilizados os requisitos funcionais e não funcio
 
 Legenda:
 
-* RFX: Requisito Funcional n.X
-* RNFX: Requisito Não Funcional n.X
-* QX: Requisito n.X elicitado pelo questionário
-
+* RFx: Requisito Funcional nºx
+* RNFx: Requisito Não-Funcional nºx
+* Qx: Requisito nºx elicitado pelo questionário
 
 
 ### Requisitos Funcionais

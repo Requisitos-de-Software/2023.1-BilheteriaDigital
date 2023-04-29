@@ -123,11 +123,11 @@ Nome| Função|
 
 Após a sessão de brainstorming, foi possível fazer a elicitação dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
 
-**Legendas das tabelas 3 e 4:**
+Legenda das Tabelas 3 e 4:
 
-* BS: Brainstorming
-* RFB: Requisitos Funcionais Brainstorming
-* RNF: Requisitos Não Funcionais Brainstorming
+* RFBx: Requisito Funcional nºx Brainstorming
+* RNFx: Requisito Não-Funcional nºx
+* BSx: Requisito nºx elicitado pelo Brainstorming.
 
 <font size="3"><p style="text-align: center">Tabela 3: Requisitos funcionais.</p></font>
 

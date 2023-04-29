@@ -21,6 +21,12 @@ iniciei o exercício.
 
 ### Funcionais
 
+Legenda das Tabelas 1 e 2:
+
+* RFx: Requisito Funcional nºx
+* RNFx: Requisito Não-Funcional nºx
+* ISx: Requisito nºx elicitado pela introspecção.
+
 
 <font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
 
@@ -41,7 +47,7 @@ iniciei o exercício.
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
-<font size="3">Legenda: RF = Requisito Funcional. IS = Introspecção. ID = Identificação.</font><br>
+
 
 
 Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
@@ -65,7 +71,6 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
-<font size="3">Legenda: RNF = Requisito Não-Funcional. IS = Introspecção. ID = Identificação.</font><br>
 
 
 Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
