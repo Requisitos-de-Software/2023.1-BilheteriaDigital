@@ -7,7 +7,7 @@ Local: Online via Microsoft Teams
 - [x] [Arthur de Melo](https://github.com/arthurmlv)
 - [x] [Douglas Alves](https://github.com/dougAlvs)
 - [x] [Gabriel Campello](https://github.com/G16C)
-- [x] [Geovanna Maciel]((https://github.com/manuziny))
+- [x] [Geovanna Maciel](https://github.com/manuziny)
 - [x] [Matheus Henrique](https://github.com/mathonaut)
 - [x] [Rafael Ferreira](https://github.com/RafaelCLG0)
 - [x] [Sidney Fernando](https://github.com/nando3d3)
