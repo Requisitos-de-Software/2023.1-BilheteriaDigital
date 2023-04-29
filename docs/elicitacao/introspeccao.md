@@ -8,11 +8,11 @@ A introspecção é uma técnica de elicitação de requisitos que consiste em, 
 
 O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual, os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos Não-Funcionais.  No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam ou não presentes.
 
-### Arthur de Melo
+### [Arthur de Melo](https://github.com/arthurmlv)
 
 Para a execução desse método, imaginei-me em uma situação na qual eu desejasse participar de um evento na minha cidade. Portanto, eu, enquanto usuário e sem visualizar o aplicativo, imaginei as funções que seriam necessárias para a realização dessa tarefa. Também mantive em mente as possíveis dificuldades enfrentadas e o que o aplicativo deveria ofertar para a solução dessas.
 
-### Gabriel Campello
+### [Gabriel Campello](https://github.com/G16C)
 
 O processo de introspecção para elicitação de requisitos consiste em imaginar-se na posição de usuário de certo produto sem vizualizá-lo. Quando o processo de elicitação é iniciado precisamos ter em mente quais requisitos (funcionais e não funcionais) o produto em questão deve apresentar. Tendo em vista que o produto escolhido para a disciplina trata-se de um aplicativo para compra de ingressos, imaginei-me como usuário, e tendo a noção prévia de aplicativos concorrentes,
 iniciei o exercício. 
@@ -21,7 +21,10 @@ iniciei o exercício.
 
 ### Funcionais
 
+
 <font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
+
+<center>
 
 | Tipo |             Descrição            |   ID   | Implementado |
 |------|----------------------------------|--------| -----------|
@@ -31,9 +34,11 @@ iniciei o exercício.
 | RF04 | O aplicativo permite realizar a compra do ingresso.  | IS04 | Sim |
 | RF05 | O aplicativo permite o cadastro e o login do usuário.  | IS05 | Sim |
 | RF06 | O aplicativo permite excluir cadastro.  | IS06 | Sim |
-| RF07 | O aplicativo permite cadastrar métodos de pagamento.  | IS07 | Sim |
+| RF07 | O aplicativo permite cadastrar métodos de pagamento.  | IS07 | Não |
 | RF08 | O aplicativo permite cancelar compras.  | IS08 | Sim |
 | RF09 | O aplicativo possui um mecanismo de busca.  | IS09 | Sim |
+
+</center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
@@ -42,6 +47,8 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 ### Não funcionais
 
 <font size="3"><p style="text-align: center">Tabela 2: Requisitos Não-Funcionais.</p></font>
+
+<center>
 
 | Tipo |             Descrição            |   ID   | Implementado |
 |------|----------------------------------|--------| ----- |
@@ -52,6 +59,8 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 | RNF05 |  Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos.  | IS14 | Não |
 | RNF06 |  Deve possuir uma tela para cadastro e login.  | IS15 | Sim |
 | RNF07 |  Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.  | IS16 | Não |
+
+</center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
