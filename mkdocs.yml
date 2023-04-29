@@ -25,7 +25,9 @@ nav:
       - Cronograma: planejamento/cronograma.md
       - Metodologia: planejamento/metodologia.md
   - Elicitação:
-      - Instrospecção: elicitacao/introspeccao.md
+      - Técnicas:
+        - Instrospecção: elicitacao/introspeccao.md
+        - Questionário: elicitacao/questionario.md
   
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
