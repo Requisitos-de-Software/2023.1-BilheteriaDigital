@@ -25,11 +25,14 @@ nav:
       - Cronograma: planejamento/cronograma.md
       - Metodologia: planejamento/metodologia.md
   - Elicitação:
-      - Introspecção: elicitacao/introspeccao.md
-      - Brainstorming: elicitacao/brainstorming.md
-      - Observação: elicitacao/observacao.md
-      - Priorização:
-          - $100: elicitacao/priorizacao/100.md
+    - Técnicas:
+        - Instrospecção: elicitacao/introspeccao.md
+        - Questionário: elicitacao/questionario.md
+        - Introspecção: elicitacao/introspeccao.md
+        - Brainstorming: elicitacao/brainstorming.md
+        - Observação: elicitacao/observacao.md
+    - Priorização:
+        - $100: elicitacao/priorizacao/100.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md

@@ -16,7 +16,9 @@ O richpicture é uma ferramenta visual para expressar ideias e analisar problema
 ![LegendaRichpicturev1](../assets/richpicture/legendav1.png)
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
 ## Histórico de Versões
+
 Versão  | Data | Descrição | Autor(es) | Revisor(es)
 -------- | ------ | ------ | ---------- | ----------
 `1.0` | 16/04/2023 | Adição da primeira versão do richpicture  | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
