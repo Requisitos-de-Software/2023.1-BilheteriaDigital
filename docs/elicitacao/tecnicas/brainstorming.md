@@ -124,6 +124,7 @@ Após a sessão de brainstorming, foi possível fazer a elicitação dos requisi
 
 Legenda das Tabelas 3 e 4:
 
+
 * RFx: Requisito Funcional nºx 
 * RNFx: Requisito Não-Funcional nºx
 * BSx: Requisito nºx elicitado pelo Brainstorming.
