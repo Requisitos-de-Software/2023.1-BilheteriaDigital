@@ -25,13 +25,19 @@ Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os partici
 
 ## Requisitos elicitados
 
+Legenda das Tabelas 2 e 3:
+
+* RFx: Requisito Funcional nºx
+* RNFx: Requisito Não-Funcional nºx
+* OBSx: Requisito nºx elicitado pela observação.
+
 ### Funcionais
 
 <font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais.</p></font>
 
 <center>
 
-| Tipo |             Descrição            |   ID   |
+| Tipo |             Descrição            |   <a id="anchor_OBS" style="color:black;"> ID</a>   |
 |------|----------------------------------|--------|
 | RF01 | O aplicativo filtra os eventos por Estado. | OBS01 |
 | RF02 | O aplicativo permite a busca por eventos. | OBS02 |
@@ -51,7 +57,6 @@ Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os partici
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-<font size="3">Legenda: RF = Requisito Funcional. OBS = Observação. ID = Identificação.</font><br>
 
 ### Não funcionais
 
@@ -73,7 +78,8 @@ Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os partici
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-<font size="3">Legenda: RNF = Requisito Não-Funcional. OBS = Observação. ID = Identificação.</font><br>
+
+
 
 ## Histórico de Versões
 

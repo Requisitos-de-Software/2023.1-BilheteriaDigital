@@ -2,6 +2,7 @@
 
 
 <p align="center" > <font>Figura 1: Logo da Bilheteria Digital</font> <br><img style="border: 2px solid white; border-radius: 30%" src="assets/bilheteria.png" width = 40%></p>
+<p align="center" > <font>Fonte: <a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Bilheteria Digital</a></font> <br></p>
 
 Esta página é dedicada à documentação de todos os artefatos produzidos pelo grupo 01 na disciplina de Requisitos de Software da Faculdade do Gama da Universidade de Brasília (FGA-Unb) durante o 1º semestre de 2023. O objetivo do projeto é fazer a avaliação sobre requisitos do aplicativo (e site) [Bilheteria Digital](https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US). O app em questão, cuja logo está explicitada na Figura 1, é uma plataforma de acompanhamento de vendas e controle de acesso de ingressos dos mais diversos tipos de eventos que atua em todo Brasil.
 
@@ -28,4 +29,4 @@ Versão |   Data  | Descrição | Autor(es) | Revisor(es)
 1.1 | 14/04/2023 | Atualiza membro | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.2 | 15/04/2023 | Atualização de cor e correções | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.3 | 22/04/2023 | Mudanças no Modo Escuro e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | Todos
-1.4 | 22/04/2023 | Mudanças no logo e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlvs)
+1.4 | 29/04/2023 | Mudanças no logo e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlvs)

@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa. Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2.
+A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa. Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2. <a href="#IT1" id="IT1Text">¹</a>
 
 ## Metodologia
 
@@ -21,12 +21,18 @@ iniciei o exercício.
 
 ### Funcionais
 
+Legenda das Tabelas 1 e 2:
+
+* RFx: Requisito Funcional nºx
+* RNFx: Requisito Não-Funcional nºx
+* ISx: Requisito nºx elicitado pela introspecção.
+
 
 <font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
 
 <center>
 
-| Tipo |             Descrição            |   ID   | Implementado |
+| Tipo |             Descrição            |   <a id="anchor_IS" style="color:black;"> ID</a>   | Implementado |
 |------|----------------------------------|--------| -----------|
 | RF01 | O aplicativo filtra os eventos por Estado e por Município. | IS01 | Não |
 | RF02 | O aplicativo filtra os eventos por data e por horário.  | IS02 | Não |
@@ -41,7 +47,7 @@ iniciei o exercício.
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
-<font size="3">Legenda: RF = Requisito Funcional. IS = Introspecção. ID = Identificação.</font><br>
+
 
 
 Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
@@ -52,7 +58,7 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 
 <center>
 
-| Tipo |             Descrição            |   ID   | Implementado |
+| Tipo |             Descrição            |   <a id="anchor_ISNF" style="color:black;">ID</a>   | Implementado |
 |------|----------------------------------|--------| ----- |
 | RNF01 |  Deve possuir uma página que explicita os eventos da região selecionada.  | IS10 | Sim |
 | RNF02 |  Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.   | IS11 | Não |
@@ -65,7 +71,6 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
-<font size="3">Legenda: RNF = Requisito Não-Funcional. IS = Introspecção. ID = Identificação.</font><br>
 
 
 Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
@@ -82,4 +87,4 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 
 ## Bibliografia
 
->SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
+> <a id="IT1" href="#IT1Text">1.</a>SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
