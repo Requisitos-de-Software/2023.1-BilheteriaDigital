@@ -1,11 +1,11 @@
 ## Introdução
 
-O objetivo dessa página é armazenar os vídeos de apresentações das entregas propostas. Se não for possível acessar o vídeo pela própria página, clique nos links correspondentes de cada uma.
+O objetivo dessa página é armazenar o vídeo da apresentação da Primeira Entrega. Se não for possível acessar o vídeo pela própria página, clique no link correspondente.
 
 ## Apresentação 1
-<a href="https://www.youtube.com/embed/m4eUOW8oeHI" target="blanket">Clique aqui</a>
+<p style="text-align: center"><a href="https://www.youtube.com/embed/m4eUOW8oeHI" target="blanket">Clique aqui</a></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m4eUOW8oeHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/m4eUOW8oeHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
@@ -31,6 +31,7 @@ A git page possui?  | Sim/Não/Incompleto
 13 – A gravação da reunião do grupo. | Sim
 14 – No artefato “Rich Picture” possui uma legenda explicando os símbolos utilizados no diagrama? | Sim
 15 – Todos os 5 componentes de um “Rich Picture” estão presentes no artefato do “Rich Picture” apresentado pelo grupo. | Sim
+
 
 <font size="3"><p style="text-align: center">Fonte: Plano de Ensino da disciplina de Requisitos de Software</p></font>
 

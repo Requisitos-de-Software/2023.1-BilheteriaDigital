@@ -17,7 +17,9 @@ markdown_extensions:
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
-  - Apresentação: apresentacao.md
+  - Apresentação:
+    - Apresentação 1: apresentacoes/apresentacao1.md
+    - Apresentação 2: apresentacoes/apresentacao2.md
   - Pré-Rastreabilidade:
     - Rich Picture: rastreabilidade/rich_picture.md
   - Planejamento:
