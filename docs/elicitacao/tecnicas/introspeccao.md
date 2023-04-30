@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa. Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2.
+A introspecção é uma técnica de elicitação de requisitos que consiste em, por meio de uma análise pessoal e profunda, levantar o que é indispensável para software de tal natureza. Sendo assim, o responsável por realizar essa estratégia deve devanear uma situação hipotética na qual se realizaria uma determinada tarefa. Isso posto, os requisitos elicitados estão demonstrados na Tabela 1 e na Tabela 2. <a href="#IT1" id="IT1Text">¹</a>
 
 ## Metodologia
 
@@ -87,4 +87,4 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 
 ## Bibliografia
 
->SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
+> <a id="IT1" href="#IT1Text">1.</a>SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.

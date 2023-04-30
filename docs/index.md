@@ -28,4 +28,4 @@ Versão |   Data  | Descrição | Autor(es) | Revisor(es)
 1.1 | 14/04/2023 | Atualiza membro | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.2 | 15/04/2023 | Atualização de cor e correções | [Sidney Fernando](https://github.com/nando3d3) | Todos
 1.3 | 22/04/2023 | Mudanças no Modo Escuro e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | Todos
-1.4 | 22/04/2023 | Mudanças no logo e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlvs)
+1.4 | 29/04/2023 | Mudanças no logo e Alteração do ícone do toggle | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlvs)
