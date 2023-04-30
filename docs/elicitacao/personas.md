@@ -2,11 +2,11 @@
 
 ## Introdução
 
-<p style="text-align: justify;">&emsp;&emsp;As personas são personagens fictícias criadas para representar os usuários da aplicação no intuito de melhorar o entendimento das funcionalidades que o sistema deve apresentar.</font> Elas devem possuir características que sumarizam bem os usuários “típicos”, mas que sejam específicas para torná-las ferramentas de design e comunicação eficientes (BARBOSA e SILVA, 2011, p.176).</p>
+&emsp;&emsp;As personas são personagens fictícias criadas para representar os usuários da aplicação no intuito de melhorar o entendimento das funcionalidades que o sistema deve apresentar. Elas devem possuir características que sumarizam bem os usuários “típicos”, mas que sejam específicas para torná-las ferramentas de design e comunicação eficientes.<a id="TEC1" href="#QT1">^1^</a>
 
 ## Metodologia
 
-<p style="text-align: justify;">&emsp;&emsp;As personas criadas possuem as características apresentadas na seção de <a href="/elicitacao/perfil_de_usuario/">pefil de usuario</a>. Foram criadas cinco personas sendo x primárias, y secundária e uma antipersona. Foi escolhida essa quantidade, pois permite que as diversas características distintas possam ter ao menos um representante sem que o foco no usuário principal do sistema seja perdido. Após o detalhamento das personas foi utilizada a ferramenta <a href="https://this-person-does-not-exist.com/pt"><i>This Person Doesn't Exist</i></a> para gerar uma imagem falsa que representaria a persona.</p>
+<p style="text-align: justify;">&emsp;&emsp;As personas criadas possuem as características apresentadas na seção de <a href="/elicitacao/perfil_de_usuario/">perfil de usuario</a>. Foram criadas cinco personas sendo x primárias, y secundária e uma antipersona. Foi escolhida essa quantidade, pois permite que as diversas características distintas possam ter ao menos um representante sem que o foco no usuário principal do sistema seja perdido. Após o detalhamento das personas foi utilizada a ferramenta <a href="https://this-person-does-not-exist.com/pt"><i>This Person Doesn't Exist</i></a> para gerar uma imagem falsa que representaria a persona.</p>
 
 ## Elenco
 
@@ -109,7 +109,7 @@
 
 ## Referências
 
-> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
+> <a id="QT1" href="#anchor_1">1.</a> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
 
 ## Bibliografia
 
