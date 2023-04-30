@@ -114,7 +114,7 @@ Legenda:
 <figure markdown>
 <font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
 
-| Tipo |             Descrição            |   ID   | Implementado |
+| Tipo |             Descrição            |   <a id="anchor_Q" style="color:black;"> ID</a>   | Implementado |
 |------|----------------------------------|--------| -----------|
 | RF01 | O aplicativo possui um mecanismo de busca.  | Q01 | Sim |
 | RF02 | O aplicativo filtra eventos por faixa etária de público-alvo. |Q02 | Não |
@@ -134,7 +134,7 @@ Legenda:
 <figure markdown>
 <font size="3"><p style="text-align: center">Tabela 2: Requisitos Não Funcionais.</p></font>
 
-| Tipo |             Descrição            |   ID   | Implementado |
+| Tipo |             Descrição            |   <a id="anchor_QNF" style="color:black;">ID</a>   | Implementado |
 |------|----------------------------------|--------| -----------|
 | RNF01 | O aplicativo deve proteger os dados de cadastro e compra dos usuários.  | Q10 | Sim |
 | RNF02 | O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário. |Q11 | Não |
