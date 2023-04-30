@@ -4,13 +4,13 @@ Horário: 09:00 às 10:20
 Local: Online via Microsoft Teams
 
 ## Participantes presentes:
-- [x] Arthur De Melo
-- [x] Douglas Alves
-- [x] Gabriel Campello
-- [x] Geovanna Maciel
-- [x] Matheus Henrique
-- [x] Rafael Ferreira
-- [x] Sidney Fernando
+- [x] [Arthur de Melo](https://github.com/arthurmlv)
+- [x] [Douglas Alves](https://github.com/dougAlvs)
+- [x] [Gabriel Campello](https://github.com/G16C)
+- [x] [Geovanna Maciel](https://github.com/manuziny)
+- [x] [Matheus Henrique](https://github.com/mathonaut)
+- [x] [Rafael Ferreira](https://github.com/RafaelCLG0)
+- [x] [Sidney Fernando](https://github.com/nando3d3)
 
 ## Discussão:
 * Revisão da entrega 1.
@@ -33,4 +33,4 @@ Local: Online via Microsoft Teams
 Versão | Data   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ---------- | ---------- | ----------
 1.0 | 22/04/2023 | Criação da Documentação | [Gabriel Campello](https://github.com/G16C) | Todos
-1.1 | 22/04/2023 | Adição do vídeo | [Sidney Fernando](https://github.com/G16C) | Todos
+1.1 | 22/04/2023 | Adição do vídeo | [Sidney Fernando](https://github.com/nando3d3) | Todos

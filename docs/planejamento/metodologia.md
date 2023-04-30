@@ -2,7 +2,7 @@
 
 ## Descrição 
 
-A metodologia do projeto é a forma como o processo foi realizado, ou seja, as práticas e estratégias utilizadas para o planejamento e execução das etapas que o compõem. Sendo assim, para o desenvolvimento deste projeto, o grupo se baseou no método Scrum, devido à familiaridade da equipe com tal.
+A metodologia do projeto é a forma como o processo foi realizado, ou seja, as práticas e estratégias utilizadas para o planejamento e execução das etapas que o compõem. Sendo assim, para o desenvolvimento deste projeto, o grupo se baseou no método Scrum, devido à familiaridade da equipe com tal. <a href="#MT1">¹</a>
 
 ### SCRUM
 
@@ -10,9 +10,9 @@ O método Scrum pode ser definido como um conjunto de boas práticas, as quais p
 
 #### Equipe Scrum
 
-* Scrum Master: responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe.
-* Product Owner: aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*).
-* Time de Desenvolvimento: equipe encarregada de desenvolver o planejamento definido em cada *sprint*.
+* [Scrum Master](https://github.com/manuziny): responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe.
+* [Product Owner](https://github.com/arthurmlv): aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*).
+* [Time de Desenvolvimento](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/#contribuidores): equipe encarregada de desenvolver o planejamento definido em cada *sprint*.
 
 #### Eventos
 
@@ -58,4 +58,4 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.2 | 16/04/2023 | Adição da Política de Commits e de Issues | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
  
 ## Bibliografia
->ALVES, Isaque, ROCHA, Carla. Qualifying Software Engineers Undergraduates in DevOps - Challenges of introducing technical and non-technical conceptss in a project-oriented course. **Arxiv**. [S. l.], v.1, 2021. Disponível em: <<https://arxiv.org/abs/2102.06662>>. Acesso em: 16/04/2023.
+><a id="MT1" href="#RP1">1.</a>ALVES, Isaque, ROCHA, Carla. Qualifying Software Engineers Undergraduates in DevOps - Challenges of introducing technical and non-technical conceptss in a project-oriented course. **Arxiv**. [S. l.], v.1, 2021. Disponível em: <<https://arxiv.org/abs/2102.06662>>. Acesso em: 16/04/2023.

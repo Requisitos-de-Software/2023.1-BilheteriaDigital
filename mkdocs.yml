@@ -2,13 +2,18 @@ repo_url: https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital
 repo_name: 2023.1-BilheteriaDigital
 
 markdown_extensions:
+  - admonition
   - attr_list
   - def_list
   - md_in_html
   - footnotes
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-
+  - pymdownx.tilde
+  
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
@@ -23,13 +28,20 @@ nav:
   - Elicitação:
       - Perfil de Usuário: elicitacao/perfil_de_usuario.md
       - Personas: elicitacao/personas.md
-      - Instrospecção: elicitacao/introspeccao.md
-
+    - Técnicas:
+        - Introspecção: elicitacao/tecnicas/introspeccao.md
+        - Questionário: elicitacao/tecnicas/questionario.md
+        - Brainstorming: elicitacao/tecnicas/brainstorming.md
+        - Observação: elicitacao/tecnicas/observacao.md
+    - Priorização:
+        - $100: elicitacao/priorizacao/100.md
+        - First Things First: elicitacao/priorizacao/firstThingsfirst.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
       - Ata 3: atas/Requisitos_Ata_03.md
       - Ata 4: atas/Requisitos_Ata_04.md
+      - Ata 5: atas/Requisitos_Ata_05.md
 
 theme:
   name: material
