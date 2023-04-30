@@ -6,11 +6,33 @@ A técnica _First Things First_ <a id="FTF1" href="#FTF1Ref">^1^</a> (FTF) enfat
 
 
 ## Metodologia
-As pessoas que participaram da elaboração dessa técnica são
+
+As pessoas que participaram da elaboração dessa técnica estão descritas abaixo e listadas na tabela 1:
 
 * **Mediador**: Responsável por apresentar os requisitos listados
-* **Cliente**: Responsável por classificar benefícios e penalidades na implementação de cada requisito. [Video da entrevista com o cliente](https://youtu.be/NTsldexRzLo)
-* **Desenvolvedor**: Responsável por identificar custos e riscos na implementação de cada requisito. [Vídeo da entrevista com o desenvolvedor](https://youtu.be/Nb_xTFSltQQ)
+* **Cliente**: Responsável por classificar benefícios e penalidades na implementação de cada requisito. 
+* **Desenvolvedor**: Responsável por identificar custos e riscos na implementação de cada requisito. 
+<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+
+<center>
+
+Nome| Função|
+-----|---------|
+[Rafael Ferreira](https://github.com/rafaelclg0) |  Mediador
+<span style = "color: orange">Felipe Costa</span> | Usuário
+[Matheus Henrique](https://github.com/mathonaut)  | Desenvolvedor
+[Sidney Fernando](https://github.com/nando3d3) | Mediador
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Sidney Fernando](https://github.com/nando3d3).</p></font>
+
+
+Duas reuniões foram realizadas na plataforma Microsoft Teams: 
+
+* Entre o desenvolvedor e o mediador, na data de 29/04/2023 às 20h. [Vídeo da entrevista com o desenvolvedor](https://youtu.be/Nb_xTFSltQQ)
+* Entre o cliente e o mediador, na data de 29/04/2023 às 20:30. [Video da entrevista com o cliente](https://youtu.be/NTsldexRzLo)
+
 
 A técnica foi elaborada da seguinte forma:
 

@@ -6,11 +6,11 @@ As personas são personagens fictícias criadas para representar os usuários da
 
 ## Metodologia
 
-As personas criadas possuem as características apresentadas na seção de <a href="/elicitacao/perfil_de_usuario/">perfil de usuario</a>. Foram criadas cinco personas sendo 2 primárias, 2 secundária e uma antipersona. Foi escolhida essa quantidade, pois permite que as diversas características distintas possam ter ao menos um representante sem que o foco no usuário principal do sistema seja perdido. Após o detalhamento das personas foi utilizada a ferramenta <a href="https://this-person-does-not-exist.com/pt"><i>This Person Doesn't Exist</i></a> para gerar uma imagem falsa que representaria a persona.
+As personas criadas possuem as características apresentadas na seção de <a href="/elicitacao/perfil_de_usuario/">perfil de usuario</a>. Foram criadas cinco personas, assim como vistas nas figuras de 1 a 5, sendo 2 primárias, 2 secundárias e uma antipersona. Foi escolhida essa quantidade, pois permite que as diversas características distintas possam ter ao menos um representante sem que o foco no usuário principal do sistema seja perdido. Após o detalhamento das personas foi utilizada a ferramenta <a href="https://this-person-does-not-exist.com/pt"><i>This Person Doesn't Exist</i></a> para gerar uma imagem falsa que representaria a persona.
 
 ## Elenco
 
-<p style="text-align: justify;">As tabelas de 1 a 5 apresenta o elenco de personas.</p>
+<p style="text-align: justify;">As tabelas de 1 a 5 apresentam o elenco de personas.</p>
 
 <p style="text-align: center"><b>Tabela 1</b> - Persona Primária Roberta do Santos.</p>
 
@@ -33,7 +33,7 @@ As personas criadas possuem as características apresentadas na seção de <a hr
 
 <font size="3"><p style="text-align: center">**Tabela 2** - Persona Secundária José da Silva.</p></font>
 
-| <font size="3"><p style="text-align: center">Figura 1- Persona Secundária José da Silva.</p></font><figure markdown>![Persona José da Silva](../assets/personas/persona_jose.png){: style="height:500px;width:500px"}<figcaption>Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut) (2023).<a id="fnref:2" href="#fn:2"><sup>2</sup></a></figcaption></figure> |
+| <font size="3"><p style="text-align: center">Figura 2 - Persona Secundária José da Silva.</p></font><figure markdown>![Persona José da Silva](../assets/personas/persona_jose.png){: style="height:500px;width:500px"}<figcaption>Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut) (2023).<a id="fnref:2" href="#fn:2"><sup>2</sup></a></figcaption></figure> |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nome**: José da Silva.                                                                                                                                                                                                                                                                                                                                                          |
 | **Status**: Persona Secundária.                                                                                                                                                                                                                                                                                                                                                   |
@@ -69,12 +69,12 @@ As personas criadas possuem as características apresentadas na seção de <a hr
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
-<font size="3"><p style="text-align: center">**Tabela 4** - Persona Suplementar Pedro Matos.</p></font>
+<font size="3"><p style="text-align: center">**Tabela 4** - Persona Secundária Pedro Matos.</p></font>
 
-| <font size="3"><p style="text-align: center">Figura 4- Persona Suplementar Pedro Matos</p></font><figure markdown>![Persona Pedro Matos](../assets/personas/pedro_matos_persona.png){: style="height:500px;width:500px"}<figcaption>Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) (2023).<a id="fnref:3" href="#fn:3"><sup>4</sup></a></figcaption></figure> |
+| <font size="3"><p style="text-align: center">Figura 4- Persona Secundária Pedro Matos</p></font><figure markdown>![Persona Pedro Matos](../assets/personas/pedro_matos_persona.png){: style="height:500px;width:500px"}<figcaption>Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) (2023).<a id="fnref:3" href="#fn:3"><sup>4</sup></a></figcaption></figure> |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nome**: Pedro Matos                                                                                                                                                                                                                                                                                                                                                              |
-| **Status**: Persona Suplementar.                                                                                                                                                                                                                                                                                                                                                   |
+| **Status**: Persona Secundária.                                                                                                                                                                                                                                                                                                                                                   |
 | **Gênero**: Masculino.                                                                                                                                                                                                                                                                                                                                                             |
 | **Idade**: 19 anos.                                                                                                                                                                                                                                                                                                                                                                |
 | **Profissão**: Dá aulas de reforço para seus colegas na faculdade.                                                                                                                                                                                                                                                                                                                 |

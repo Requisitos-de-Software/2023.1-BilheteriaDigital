@@ -34,65 +34,65 @@ Enunciadas nas figuras 2 e 3, essas perguntas tinham o objetivo de entender porq
 
 ### Pessoas que já utilizaram o aplicativo
 
-Enunciadas nas figuras de 5 a 13, essas perguntas tinham o objetivo de coletar informações sobre os usuários e analisa-las estatisticamente para elicitar requisitos.
+Enunciadas nas figuras de 4 a 13, essas perguntas tinham o objetivo de coletar informações sobre os usuários e analisa-las estatisticamente para elicitar requisitos.
 
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 5</b> - Pergunta nº 2 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 4</b> - Pergunta nº 2 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1090331104&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 6</b> - Pergunta nº 3 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 5</b> - Pergunta nº 3 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=291384963&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 7</b> - Pergunta nº 4 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 6</b> - Pergunta nº 4 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1555684062&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 8</b> - Pergunta nº 5 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 7</b> - Pergunta nº 5 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=66512691&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 9</b> - Pergunta nº 6 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 8</b> - Pergunta nº 6 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1982000411&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 10</b> - Pergunta nº 7 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 9</b> - Pergunta nº 7 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=808028312&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 11</b> - Pergunta nº 8 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 10</b> - Pergunta nº 8 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1098966783&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 12</b> - Pergunta nº 9 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 11</b> - Pergunta nº 9 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1413311742&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 13</b> - Pergunta nº 10 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 12</b> - Pergunta nº 10 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=41375304&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Figura 14</b> - Pergunta nº 11 do questionário.</p></font>
+<font size="3"><p style="text-align: center"><b>Figura 13</b> - Pergunta nº 11 do questionário.</p></font>
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWNMxWpi4xZVFUDvhEDDQ4VtlsEFc5vE7amc7lzRK1bd61yrUrABzf1lWVkuGN84MzHYCldlNHWGBh/pubchart?oid=1308992197&amp;format=interactive"></iframe>
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>

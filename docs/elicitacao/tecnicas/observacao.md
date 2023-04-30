@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A técnica de observação de requisitos é uma abordagem importante para coletar informações sobre os requisitos de software. Essa técnica envolve observar usuários, processos e sistemas em ação, com o objetivo de entender as necessidades e desejos dos usuários finais, bem como as limitações e restrições do ambiente em que o aplicativo será utilizado. No entanto, essa técnica precisa de um usuário externo, o qual não foi possível encontrar. Dessa forma, [um dos responsáveis por essa técnica teve que interpretar o papel do usuário](https://github.com/RafaelCLG0).
+A técnica de observação de requisitos é uma abordagem importante para coletar informações sobre os requisitos de software. Essa técnica envolve observar usuários, processos e sistemas em ação, com o objetivo de entender as necessidades e desejos dos usuários finais, bem como as limitações e restrições do ambiente em que o aplicativo será utilizado. No entanto, essa técnica precisa de um usuário externo, o qual não foi possível encontrar. Dessa forma, o desenvolvedor [Rafael Ferreira](https://github.com/RafaelCLG0) interpretou o papel da persona [Pedro Matos](../personas.md).
 
 ## Participantes
 
@@ -13,7 +13,7 @@ A técnica de observação de requisitos é uma abordagem importante para coleta
 Nome| Função|
 -----|---------|
 [Arthur de Melo](https://github.com/arthurmlv) | Observador
-[Rafael Ferreira](https://github.com/RafaelCLG0) | Usuário
+[Rafael Ferreira](https://github.com/RafaelCLG0) | Representante da persona
 
 </center>
 
@@ -22,6 +22,8 @@ Nome| Função|
 ## Metodologia
 
 Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os participantes explicitados na Tabela 1, no ambiente Microsoft Teams com o objetivo de realizar uma Observação Participativa, na qual cabe a interferência do Engenheiro de Software. Nessa, o [observador](https://github.com/arthurmlv) ficou responsável de instruir quais ações o usuário precisa realizar no aplicativo da Bilheteria Digital. Durante a análise, o usuário compartilhou a tela do celular e o observador foi ditando os caminhos que ele gostaria de analisar. Os requisitos levantados estão presentes nas Tabelas 2 e 3.
+
+### [Link para a gravação da observação.](https://www.youtube.com/watch?v=lvlobqw0rx8)
 
 ## Requisitos elicitados
 
