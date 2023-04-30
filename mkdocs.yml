@@ -26,7 +26,7 @@ nav:
       - Metodologia: planejamento/metodologia.md
   - Elicitação:
     - Técnicas:
-        - Instrospecção: elicitacao/tecnicas/introspeccao.md
+        - Introspecção: elicitacao/tecnicas/introspeccao.md
         - Questionário: elicitacao/tecnicas/questionario.md
         - Brainstorming: elicitacao/tecnicas/brainstorming.md
         - Observação: elicitacao/tecnicas/observacao.md

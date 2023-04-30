@@ -103,10 +103,9 @@ Nas Tabelas 1 e 2 estão disponibilizados os requisitos funcionais e não funcio
 
 Legenda:
 
-* RFX: Requisito Funcional n.X
-* RNFX: Requisito Não Funcional n.X
-* QX: Requisito n.X elicitado pelo questionário
-
+* RFx: Requisito Funcional nºx
+* RNFx: Requisito Não-Funcional nºx
+* Qx: Requisito nºx elicitado pelo questionário
 
 
 ### Requisitos Funcionais
@@ -152,7 +151,7 @@ Legenda:
 
 | Versão | Data       | Descrição                                     | Autor(es)                                      | Revisor(es)                                      |
 | ------ | ---------- | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------ |
-| 1.0    | 26/04/2023 | Criação da página              | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0)      |
+| 1.0    | 29/04/2023 | Criação da página              | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0)      |
 
 ## Bibliografia
 > <a id="QT1" href="#anchor_1">1.</a> VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. 1. ed. [S. l.]: Brasport, 2016.

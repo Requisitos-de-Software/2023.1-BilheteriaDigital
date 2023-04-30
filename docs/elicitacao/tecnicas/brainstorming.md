@@ -3,7 +3,7 @@
 ## Introdução
 
 O Brainstorming é uma técnica que fornece informações sobre os tipos de conteúdo e características que os usuários querem e desejam em um produto. Essa atividade pode ser utilizada para qualquer produto ou serviço, e resulta numa lista priorizada de necessidades e desejos dos usuários. Em geral, essa técnica é utilizada para elicitar requisitos e revelar novas características que os usuários apreciariam em um produto. O Brainstorming fornece mais benefícios quando utilizado durante o estágio conceitual do desenvolvimento do produto. Uma sessão de brainstorming busca elicitar de forma bastante livre um conjunto grande e abrangente de opiniões dos 
-participantes em torno de um tema. Os resultados dessa atividade podem alimentar diretamente as especificações funcionais e a documentação de design.
+participantes em torno de um tema. Os resultados dessa atividade podem alimentar diretamente as especificações funcionais e a documentação de design. <a href="#IT1">¹</a>
 
 ## Metodologia
 
@@ -123,11 +123,11 @@ Nome| Função|
 
 Após a sessão de brainstorming, foi possível fazer a elicitação dos requisitos funcionais listados na Tabela 3 e os requisitos não funcionais listados na Tabela 4.
 
-**Legendas das tabelas 3 e 4:**
+Legenda das Tabelas 3 e 4:
 
-* BS: Brainstorming
-* RFB: Requisitos Funcionais Brainstorming
-* RNF: Requisitos Não Funcionais Brainstorming
+* RFBx: Requisito Funcional nºx Brainstorming
+* RNFx: Requisito Não-Funcional nºx
+* BSx: Requisito nºx elicitado pelo Brainstorming.
 
 <font size="3"><p style="text-align: center">Tabela 3: Requisitos funcionais.</p></font>
 
@@ -197,4 +197,4 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 
 ## Bibliografia
 
->SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
+><a id="IT1" href="#RP1">1.</a>SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
