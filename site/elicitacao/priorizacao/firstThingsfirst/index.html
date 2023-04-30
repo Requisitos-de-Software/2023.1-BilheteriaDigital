@@ -620,6 +620,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#resultado-de-priorizacao" class="md-nav__link">
+    Resultado de Priorização
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado de Priorização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-requisitos-funcionais" class="md-nav__link">
+    Descrição dos requisitos funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-requisitos-nao-funcionais" class="md-nav__link">
+    Descrição dos requisitos não funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#referencias" class="md-nav__link">
     Referências
   </a>
@@ -801,6 +828,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#resultado-de-priorizacao" class="md-nav__link">
+    Resultado de Priorização
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado de Priorização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-requisitos-funcionais" class="md-nav__link">
+    Descrição dos requisitos funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#descricao-dos-requisitos-nao-funcionais" class="md-nav__link">
+    Descrição dos requisitos não funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#referencias" class="md-nav__link">
     Referências
   </a>
@@ -834,15 +888,15 @@
 
 <h1 id="first-things-first">First Things First</h1>
 <h2 id="introducao">Introdução</h2>
-<p>A técnica <em>First Things First</em> <a id="TEC1" href="#anchor_1"><sup>1</sup></a> (FTF) enfatiza a necessidade de avaliar cuidadosamente os custos e benefícios de cada requisito de um software, bem como as implicações que cada um terá na sua arquitetura. É importante também garantir que os requisitos estejam alinhados com as regras de negócios e que o risco técnico associado a cada requisito seja considerado. Em resumo, a técnica destaca a importância de priorizar os requisitos de forma criteriosa e estratégica, a fim de maximizar os benefícios e minimizar os riscos e custos envolvidos no desenvolvimento do software.</p>
+<p>A técnica <em>First Things First</em> <a id="FTF1" href="#FTF1Ref"><sup>1</sup></a> (FTF) enfatiza a necessidade de avaliar cuidadosamente os custos e benefícios de cada requisito de um software, bem como as implicações que cada um terá na sua arquitetura. É importante também garantir que os requisitos estejam alinhados com as regras de negócios e que o risco técnico associado a cada requisito seja considerado. Em resumo, a técnica destaca a importância de priorizar os requisitos de forma criteriosa e estratégica, a fim de maximizar os benefícios e minimizar os riscos e custos envolvidos no desenvolvimento do software.</p>
 <h2 id="metodologia">Metodologia</h2>
 <p>As pessoas que participaram da elaboração dessa técnica são</p>
 <ul>
 <li><strong>Mediador</strong>: Responsável por apresentar os requisitos listados</li>
-<li><strong>Cliente</strong>: Responsável por classificar benefícios e penalidades na implementação de cada requisito</li>
-<li><strong>Desenvolvedor</strong>: Responsável por identificar custos e riscos na implementação de cada requisito</li>
+<li><strong>Cliente</strong>: Responsável por classificar benefícios e penalidades na implementação de cada requisito. <a href="https://youtu.be/NTsldexRzLo">Video da entrevista com o cliente</a></li>
+<li><strong>Desenvolvedor</strong>: Responsável por identificar custos e riscos na implementação de cada requisito. <a href="https://youtu.be/Nb_xTFSltQQ">Vídeo da entrevista com o desenvolvedor</a></li>
 </ul>
-<p>A ténica foi elaborada da seguinte forma:</p>
+<p>A técnica foi elaborada da seguinte forma:</p>
 <ol>
 <li>Listar todos os requisitos elicitados e retirar aqueles que são logicamente ligados (se X depende de Y, então apenas é X é listado).</li>
 <li>Para cada requisito, o cliente deve estimar de 1 a  9 o benefício agregado, sendo que 1 indica pouco benefício e 9 é o maior benefício possível, e a penalidade da não implementação, sendo que 1 significa que não há penalidade e 9 indica uma penalidade muito séria. O <strong>valor total</strong> é calculado da seguinte forma: <br> <p align="center" style="font-size: 18px;"><code>valor total = (benefício * peso) + (penalidade * peso)</code></p></li>
@@ -851,9 +905,477 @@
 <li>Então é feito o cálculo de <strong>prioridade</strong> para cada requisito da seguinte forma:<br> <p align="center" style="font-size: 18px;"><code>prioridade = valor(%)/(custo(%) * peso do custo + risco(%) * peso do risco)</code></p></li>
 <li>A tabela deve ser ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco. Tendo isso em mente, tais requisitos devem ser priorizados.</li>
 </ol>
+<h2 id="resultado-de-priorizacao">Resultado de Priorização</h2>
+<p>Na Tabela 1 é possível ver os resultados ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco.
+Nas Tabelas 2 e 3 estão os ID's dos requisitos presentes na tabela de resultados e sua respectiva descrição.</p>
+<p><strong>Peso relativo</strong>:</p>
+<ul>
+<li>Benefício: 2</li>
+<li>Penalidade: 1</li>
+<li>Custo: 1</li>
+<li>Risco: 0,5</li>
+</ul>
+<p><font size="3"><p style="text-align: center">Tabela 1: Tabela de resultado da priorização de requisitos</p></font></p>
+<table>
+<thead>
+<tr>
+<th>Funcionalidade</th>
+<th>Benefício<br>Relativo</th>
+<th>Penalidade<br>Relativa</th>
+<th>Valor<br>total</th>
+<th>Valor<br>(%)</th>
+<th>Custo<br>Relativo</th>
+<th>Custo<br>%</th>
+<th>Risco<br>Relativo</th>
+<th>Risco<br>%</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BS24</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>1</td>
+<td>1,35</td>
+<td>1</td>
+<td>1,16</td>
+<td>2,344</td>
+</tr>
+<tr>
+<td>IS16</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>1</td>
+<td>1,35</td>
+<td>1</td>
+<td>1,16</td>
+<td>2,344</td>
+</tr>
+<tr>
+<td>IS11</td>
+<td>8</td>
+<td>8</td>
+<td>24</td>
+<td>4,03</td>
+<td>1</td>
+<td>1,35</td>
+<td>1</td>
+<td>1,16</td>
+<td>2,083</td>
+</tr>
+<tr>
+<td>Q14</td>
+<td>7</td>
+<td>7</td>
+<td>21</td>
+<td>3,52</td>
+<td>1</td>
+<td>1,35</td>
+<td>1</td>
+<td>1,16</td>
+<td>1,823</td>
+</tr>
+<tr>
+<td>BS13</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>1</td>
+<td>1,35</td>
+<td>3</td>
+<td>3,49</td>
+<td>1,463</td>
+</tr>
+<tr>
+<td>BS19</td>
+<td>5</td>
+<td>5</td>
+<td>15</td>
+<td>2,52</td>
+<td>1</td>
+<td>1,35</td>
+<td>1</td>
+<td>1,16</td>
+<td>1,302</td>
+</tr>
+<tr>
+<td>IS08</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>2</td>
+<td>2,70</td>
+<td>2</td>
+<td>2,33</td>
+<td>1,172</td>
+</tr>
+<tr>
+<td>IS13</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>2</td>
+<td>2,70</td>
+<td>2</td>
+<td>2,33</td>
+<td>1,172</td>
+</tr>
+<tr>
+<td>IS15</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>2</td>
+<td>2,70</td>
+<td>2</td>
+<td>2,33</td>
+<td>1,172</td>
+</tr>
+<tr>
+<td>Q13</td>
+<td>8</td>
+<td>8</td>
+<td>24</td>
+<td>4,03</td>
+<td>2</td>
+<td>2,70</td>
+<td>2</td>
+<td>2,33</td>
+<td>1,042</td>
+</tr>
+<tr>
+<td>IS06</td>
+<td>9</td>
+<td>7</td>
+<td>25</td>
+<td>4,19</td>
+<td>2</td>
+<td>2,70</td>
+<td>4</td>
+<td>4,65</td>
+<td>0,834</td>
+</tr>
+<tr>
+<td>IS05</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>2</td>
+<td>2,70</td>
+<td>6</td>
+<td>6,98</td>
+<td>0,732</td>
+</tr>
+<tr>
+<td>Q15</td>
+<td>8</td>
+<td>8</td>
+<td>24</td>
+<td>4,03</td>
+<td>3</td>
+<td>4,05</td>
+<td>3</td>
+<td>3,49</td>
+<td>0,694</td>
+</tr>
+<tr>
+<td>Q07</td>
+<td>5</td>
+<td>5</td>
+<td>15</td>
+<td>2,52</td>
+<td>2</td>
+<td>2,70</td>
+<td>2</td>
+<td>2,33</td>
+<td>0,651</td>
+</tr>
+<tr>
+<td>Q11</td>
+<td>7</td>
+<td>7</td>
+<td>21</td>
+<td>3,52</td>
+<td>3</td>
+<td>4,05</td>
+<td>3</td>
+<td>3,49</td>
+<td>0,608</td>
+</tr>
+<tr>
+<td>IS09</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>4</td>
+<td>5,41</td>
+<td>4</td>
+<td>4,65</td>
+<td>0,586</td>
+</tr>
+<tr>
+<td>IS10</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>4</td>
+<td>5,41</td>
+<td>4</td>
+<td>4,65</td>
+<td>0,586</td>
+</tr>
+<tr>
+<td>IS12</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>4</td>
+<td>5,41</td>
+<td>4</td>
+<td>4,65</td>
+<td>0,586</td>
+</tr>
+<tr>
+<td>BS05</td>
+<td>6</td>
+<td>5</td>
+<td>17</td>
+<td>2,85</td>
+<td>3</td>
+<td>4,05</td>
+<td>3</td>
+<td>3,49</td>
+<td>0,492</td>
+</tr>
+<tr>
+<td>IS04</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>5</td>
+<td>6,76</td>
+<td>5</td>
+<td>5,81</td>
+<td>0,469</td>
+</tr>
+<tr>
+<td>Q12</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>5</td>
+<td>6,76</td>
+<td>5</td>
+<td>5,81</td>
+<td>0,469</td>
+</tr>
+<tr>
+<td>IS14</td>
+<td>7</td>
+<td>8</td>
+<td>22</td>
+<td>3,69</td>
+<td>5</td>
+<td>6,76</td>
+<td>6</td>
+<td>6,98</td>
+<td>0,360</td>
+</tr>
+<tr>
+<td>Q05</td>
+<td>7</td>
+<td>5</td>
+<td>19</td>
+<td>3,19</td>
+<td>5</td>
+<td>6,76</td>
+<td>6</td>
+<td>6,98</td>
+<td>0,311</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>9</td>
+<td>9</td>
+<td>27</td>
+<td>4,53</td>
+<td>7</td>
+<td>9,46</td>
+<td>9</td>
+<td>10,47</td>
+<td>0,308</td>
+</tr>
+<tr>
+<td>BS23</td>
+<td>6</td>
+<td>6</td>
+<td>18</td>
+<td>3,02</td>
+<td>6</td>
+<td>8,11</td>
+<td>6</td>
+<td>6,98</td>
+<td>0,260</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td></td>
+<td></td>
+<td>596</td>
+<td></td>
+<td>74</td>
+<td>100</td>
+<td>86</td>
+<td>100</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: Autores</p></font></p>
+<h3 id="descricao-dos-requisitos-funcionais">Descrição dos requisitos funcionais</h3>
+<p><font size="3"><p style="text-align: center">Tabela 2: ID dos Requisitos funcionais e sua respectiva descrição.</p></font></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_IS">IS04</a></td>
+<td>O aplicativo permite realizar a compra do ingresso.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_IS">IS05</a></td>
+<td>O aplicativo permite o cadastro e o login do usuário.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_IS">IS06</a></td>
+<td>O aplicativo permite excluir cadastro.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_IS">IS08</a></td>
+<td>O aplicativo permite cancelar compras.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_IS">IS09</a></td>
+<td>O aplicativo possui um mecanismo de busca.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_Q">Q05</a></td>
+<td>O aplicativo da sugestões de eventos com base no histórico de buscas do usuário.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_Q">Q07</a></td>
+<td>O aplicativo notifica usuário sobre eventos, quando permitido.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/brainstorming/#anchor_BS">BS05</a></td>
+<td>O usuário deve ser capaz de filtrar eventos</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/brainstorming/#anchor_BS">BS13</a></td>
+<td>O usuário deve ser capaz de acessar as informações do evento</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/brainstorming/#anchor_BS">BS19</a></td>
+<td>O usuário deve ser capaz de mudar o idioma do app</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a></td>
+<td>O usuário deve ser capaz de acessar a assistente virtual</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a></td>
+<td>O usuário deve ser capaz de compartilhar o evento</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: Autores</p></font></p>
+<h3 id="descricao-dos-requisitos-nao-funcionais">Descrição dos requisitos não funcionais</h3>
+<p><font size="3"><p style="text-align: center">Tabela 3: ID dos Requisitos não-funcionais e sua respectiva descrição.</p></font></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS10</a></td>
+<td>Deve possuir uma página que explicita os eventos da região selecionada.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS11</a></td>
+<td>Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS12</a></td>
+<td>Deve possuir uma tela de dúvidas frequentes e uma central de ajuda.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS13</a></td>
+<td>Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS14</a></td>
+<td>Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS15</a></td>
+<td>Deve possuir uma tela para cadastro e login.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/introspeccao/#anchor_ISNF">IS16</a></td>
+<td>Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q10</a></td>
+<td>O aplicativo deve proteger os dados de cadastro e compra dos usuários.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q11</a></td>
+<td>O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q12</a></td>
+<td>As notificações do aplicativo devem ser fornecidas em tempo hábil.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q13</a></td>
+<td>O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q14</a></td>
+<td>O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)</td>
+</tr>
+<tr>
+<td><a href="../../tecnicas/questionario/#anchor_QNF">Q15</a></td>
+<td>O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: Autores</p></font></p>
 <h2 id="referencias">Referências</h2>
 <blockquote>
-<p><a id="FRM1" href="#anchor_1">1.</a> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.</p>
+<p><a id="FTF1Ref" href="#FTF1">1.</a> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.</p>
 </blockquote>
 <h2 id="historico-de-versoes">Histórico de versões</h2>
 <table>
@@ -873,6 +1395,13 @@
 <td>Definição dos passos para realizar a ténica FTF</td>
 <td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
 <td><a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>29/04/2023</td>
+<td>Adição dos resultados e entrevista</td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a>, <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>, <a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+<td><a href="https://github.com/dougalvs">Douglas Alves</a></td>
 </tr>
 </tbody>
 </table>

@@ -37,7 +37,7 @@ Legenda das Tabelas 2 e 3:
 
 <center>
 
-| Tipo |             Descrição            |   ID   |
+| Tipo |             Descrição            |   <a id="anchor_OBS" style="color:black;"> ID</a>   |
 |------|----------------------------------|--------|
 | RF01 | O aplicativo filtra os eventos por Estado. | OBS01 |
 | RF02 | O aplicativo permite a busca por eventos. | OBS02 |
