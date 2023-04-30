@@ -125,7 +125,7 @@ Após a sessão de brainstorming, foi possível fazer a elicitação dos requisi
 
 Legenda das Tabelas 3 e 4:
 
-* RFBx: Requisito Funcional nºx Brainstorming
+* RFx: Requisito Funcional nºx Brainstorming
 * RNFx: Requisito Não-Funcional nºx
 * BSx: Requisito nºx elicitado pelo Brainstorming.
 
@@ -135,29 +135,29 @@ Legenda das Tabelas 3 e 4:
 
 | <a id="anchor_BS" style="color:black;"> ID</a> 	| Descrição 	| Código 	|
 |---	|---	|---	|
-| BS01 	| O usuário deve poder realizar cadastro 	| RFB01	|
-| BS02 	| O usuário deve poder realizar login 	| RFB02 	|
-| BS03 	| O usuário deve poder comprar ingressos dentro do app 	|  RFB03	|
-| BS04 	| O usuário deve poder buscar eventos 	| RFB04	|
-| BS05 	| O usuário deve ser capaz de filtrar eventos 	|  RFB05	|
-| BS06 	| O usuário deve acessar as notificações sobre os eventos 	| RFB06 	|
-| BS07 	| O usuário deve salvar os dados do cartão no app 	| RFB07 	|
-| BS08 	| O usuário deve poder filtrar as cidades que desejar 	| RFB08 	|
-| BS09 	| O usuário deve fornecer sua localização	| RFB09 	|
-| BS10 	|  O usuário deve poder acessar o calendário de eventos	| RFB10	|
-| BS11 	| O usuário deve poder acessar os eventos a gostos de acordo com o perfil do usuário 	|  RFB11	|
-| BS12 	| O usuário deve poder responder a pesquisa de perfil sobre seus gostos	|  RFB12	|
-| BS13 	| O usuário deve ser capaz de acessar as informações do evento	|  RFB13	|
-| BS14 	| O usuário deve ser capaz de acessar as atrações do evento 	| RFB14 	|
-| BS15 	| O usuário deve poder realizar pagamento com de várias formas 	| RFB15 	|
-| BS16 	| O usuário deve ter acesso a pré-venda 	| RFB16 	|
-| BS17 	| O usuário deve receber a cópia do ingresso por e-mail 	| RFB17 	|
-| BS18 	| O usuário deve ser capaz de conectar uma carteira digital 	| RFB18	|
-| BS19 	| O usuário deve ser capaz de mudar o idioma do app 	|  RFB19	|
-| BS21 	| O usuário deve ser capaz de aumentar a fonte 	| RFB20 	|
-| BS22 	| O usuário deve ser capaz de dar zoom 	| RFB21 	|
-| BS23 	| O usuário deve ser capaz de acessar a assistente virtual 	| RFB22 	|
-| BS24 	| O usuário deve ser capaz de compartilhar o evento 	| RFB23 	|
+| BS01 	| O usuário deve poder realizar cadastro 	| RF01	|
+| BS02 	| O usuário deve poder realizar login 	| RF02 	|
+| BS03 	| O usuário deve poder comprar ingressos dentro do app 	|  RF03	|
+| BS04 	| O usuário deve poder buscar eventos 	| RF04	|
+| BS05 	| O usuário deve ser capaz de filtrar eventos 	|  RF05	|
+| BS06 	| O usuário deve acessar as notificações sobre os eventos 	| RF06 	|
+| BS07 	| O usuário deve salvar os dados do cartão no app 	| RF07 	|
+| BS08 	| O usuário deve poder filtrar as cidades que desejar 	| RF08 	|
+| BS09 	| O usuário deve fornecer sua localização	| RF09 	|
+| BS10 	|  O usuário deve poder acessar o calendário de eventos	| RF10	|
+| BS11 	| O usuário deve poder acessar os eventos a gostos de acordo com o perfil do usuário 	|  RF11	|
+| BS12 	| O usuário deve poder responder a pesquisa de perfil sobre seus gostos	|  RF12	|
+| BS13 	| O usuário deve ser capaz de acessar as informações do evento	|  RF13	|
+| BS14 	| O usuário deve ser capaz de acessar as atrações do evento 	| RF14 	|
+| BS15 	| O usuário deve poder realizar pagamento com de várias formas 	| RF15 	|
+| BS16 	| O usuário deve ter acesso a pré-venda 	| RF16 	|
+| BS17 	| O usuário deve receber a cópia do ingresso por e-mail 	| RF17 	|
+| BS18 	| O usuário deve ser capaz de conectar uma carteira digital 	| RF18	|
+| BS19 	| O usuário deve ser capaz de mudar o idioma do app 	|  RF19	|
+| BS21 	| O usuário deve ser capaz de aumentar a fonte 	| RF20 	|
+| BS22 	| O usuário deve ser capaz de dar zoom 	| RF21 	|
+| BS23 	| O usuário deve ser capaz de acessar a assistente virtual 	| RF22 	|
+| BS24 	| O usuário deve ser capaz de compartilhar o evento 	| RF23 	|
 
 
 </center>
@@ -170,18 +170,18 @@ Legenda das Tabelas 3 e 4:
 
 | Código 	| Descrição 	| ID 	|
 |---	|---	|---	|
-| BS25 	| O app deve exibir a duração do evento 	| RNFB01	|
-| BS26 	| O app deve exibir a quantidade de assentos disponíveis 	| RNFB02 	|
-| BS27 	| O app deve exibir a capacidade do evento 	|  RNFB03	|
-| BS28 	| O deve exibir a faixa etária do evento	| RNFB04	|
-| BS29 	| O app exibir a data do evento 	|  RNFB05	|
-| BS30 	| O app deve exibir a porcentagem de ingressos comprados 	| RNFB06 	|
-| BS31 	| O app deve forcener segurança na compra do usuário 	| RNFB07 	|
-| BS32 	| O app deve ter a aba "Meus Ingressos"  	| RNFB08 	|
-| BS33 	| O app deve ter a aba "FAQ" 	| RNFB09 	|
-| BS34 	|  O app deve exibir um e-mail para contato	| RNFB10	|
-| BS35 	| O app deve exibir sugestões de eventos de acordo com os gostos do usuário 	|  RNFB11	|
-| BS36 	| O app deve salvar a a localização do usuário 	|  RNFB12	|
+| BS25 	| O app deve exibir a duração do evento 	| RNF01	|
+| BS26 	| O app deve exibir a quantidade de assentos disponíveis 	| RNF02 	|
+| BS27 	| O app deve exibir a capacidade do evento 	|  RNF03	|
+| BS28 	| O deve exibir a faixa etária do evento	| RNF04	|
+| BS29 	| O app exibir a data do evento 	|  RNF05	|
+| BS30 	| O app deve exibir a porcentagem de ingressos comprados 	| RNF06 	|
+| BS31 	| O app deve forcener segurança na compra do usuário 	| RNF07 	|
+| BS32 	| O app deve ter a aba "Meus Ingressos"  	| RNF08 	|
+| BS33 	| O app deve ter a aba "FAQ" 	| RNF09 	|
+| BS34 	|  O app deve exibir um e-mail para contato	| RNF10	|
+| BS35 	| O app deve exibir sugestões de eventos de acordo com os gostos do usuário 	|  RNF11	|
+| BS36 	| O app deve salvar a a localização do usuário 	|  RNF12	|
 
 </center>
 
@@ -193,7 +193,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
 ---------- | -----  | ------ | ---------- | ----------
  1.0 | 28/04/2023 | Introdução e ideias iniciais | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.1 | 29/04/2023 | Atualização | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
- 1.2 | 29/04/2023 | Adicionando os requisitos levantados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
+ 1.2 | 29/04/2023 | Adicionando os requisitos elicitados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
 
 ## Bibliografia
 
