@@ -6,7 +6,7 @@ O Brainstorming é uma técnica que fornece informações sobre os tipos de cont
 
 ## Metodologia
 
-O processo de brainstorming foi realizado via Discord pelos alunos [Geovanna Maciel](https://github.com/manuziny), que assumiu o papel de moderadora e [Gabriel Campello](https://github.com/G16C), que assumiu o papel de secretário, como mostrado na Tabela 2. O processo contou com a participação de 3 usuários, também mostrado na Tabela 2. Esses usuários foram submetidos há uma série de perguntas visando extrair ideias, que pudessem ser utilizadas no processo de elicitação de requisitos para o aplicativo da Bilheteria Digital. Seguindo o padrão de uma sessão de brainstorming, todas as ideias foram documentadas e serão utilizadas durante a fase de eleicitação de requisitos, além disso cada resposta está associada a seus respectivos elaboradores. Esse processo foi guiado por palavras-chave, que estão disponíveis na Tabela 1.
+O processo de brainstorming foi realizado via Discord pelos alunos [Geovanna Maciel](https://github.com/manuziny), na data de 28/04/2023 das 20:30 às 21:40, que assumiu o papel de moderadora e [Gabriel Campello](https://github.com/G16C), que assumiu o papel de secretário, como mostrado na Tabela 2. O processo contou com a participação de 3 usuários, também mostrado na Tabela 2. Esses usuários foram submetidos há uma série de perguntas visando extrair ideias, que pudessem ser utilizadas no processo de elicitação de requisitos para o aplicativo da Bilheteria Digital. Seguindo o padrão de uma sessão de brainstorming, todas as ideias foram documentadas e serão utilizadas durante a fase de eleicitação de requisitos, além disso cada resposta está associada a seus respectivos elaboradores. Esse processo foi guiado por palavras-chave, que estão disponíveis na Tabela 1.
 
 
 ## Palavras-chave usadas na sessão de Brainstorming
@@ -187,6 +187,9 @@ Legenda das Tabelas 3 e 4:
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
+## Bibliografia
+
+>SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
 ## Histórico de Versões
 
 Versão  | Data | Descrição | Autor(es) | Revisor(es)
@@ -194,7 +197,3 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.0 | 28/04/2023 | Introdução e ideias iniciais | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.1 | 29/04/2023 | Atualização | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.2 | 29/04/2023 | Adicionando os requisitos elicitados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
-
-## Bibliografia
-
->SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.

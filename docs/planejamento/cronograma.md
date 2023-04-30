@@ -168,6 +168,12 @@ Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda e
 |   Correção pós apresentação	| Início: 08/07<br>Fim: 09/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 10/07<br>Fim: 11/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+## Bibliografia
+>Cronograma Youtube. Disponível em: <<https://requisitos-de-software.github.io/2022.1-Youtube/>>.Acesso em 04 de abril de 2023.
+
+>Cronograma Duolingo. Disponível em: <<https://requisitos-de-software.github.io/2019.2-Duolingo/>>. Acesso em 04 de abril de 2023.
+
+>SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
 
 ## Histórico de Versões
 
@@ -179,10 +185,3 @@ Versão  |   Data    | Descrição | Autor(es) | Revisor(es)
  1.2.1 | 23/04/2023 | Cronograma com correções pós apresentação | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
  1.2.2 | 26/04/2023 | Tirando o executado das etapas ainda não iniciadas | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
 
-
-## Bibliografia
->Cronograma Youtube. Disponível em: <<https://requisitos-de-software.github.io/2022.1-Youtube/>>.Acesso em 04 de abril de 2023.
-
->Cronograma Duolingo. Disponível em: <<https://requisitos-de-software.github.io/2019.2-Duolingo/>>. Acesso em 04 de abril de 2023.
-
->SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. **Aprender 3**. Distrito Federal, 2016. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>>. Acesso em: 04/04/2023.
