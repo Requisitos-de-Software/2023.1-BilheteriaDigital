@@ -33,6 +33,7 @@ nav:
     - Priorização:
         - $100: elicitacao/priorizacao/100.md
         - First Things First: elicitacao/priorizacao/firstThingsfirst.md
+        - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
