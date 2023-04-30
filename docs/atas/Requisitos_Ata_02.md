@@ -1,9 +1,11 @@
 # Ata de reunião Requisitos de Software - Grupo 01
+
 Data: 09/04/2023
 Horário: 10:00 às 10:30
 Local: Online via Microsoft Teams
 
 ## Participantes presentes:
+
 - [ ] Arthur Grandão
 - [ ] [Douglas Alves](https://github.com/dougAlvs)
 - [x] [Gabriel Campello](https://github.com/G16C)
@@ -13,15 +15,17 @@ Local: Online via Microsoft Teams
 - [x] [Sidney Fernando](https://github.com/nando3d3)
 
 ## Discussão:
-* Selecionar aplicativo
-* Realização do cronograma
-* Reponsável pelo RichPicture inicial
-* Responsável pela gitpage
+
+- Selecionar aplicativo
+- Realização do cronograma
+- Reponsável pelo RichPicture inicial
+- Responsável pela gitpage
 
 ## Decisões:
-* A decisão do aplicativo será analisada durante a semana
-* A RichPicture inicial será feita pela Geovanna e pelo Gabriel
-* A estruturação da gitpage será feita pelo Sidney
+
+- A decisão do aplicativo será analisada durante a semana
+- A RichPicture inicial será feita pela Geovanna e pelo Gabriel
+- A estruturação da gitpage será feita pelo Sidney
 
 ## Link da gravação
 
@@ -31,6 +35,6 @@ Local: Online via Microsoft Teams
 
 ## Histórico de versão
 
-Versão  | Data | Descrição | Autor(es) | Revisor(es)
--------- | ------ | ------ | ---------- | ----------
-1.0 | 15/04/2023 | Criação da Documentação| [Sidney Fernando](https://github.com/nando3d3) | Todos
+| Versão | Data       | Descrição               | Autor(es)                                      | Revisor(es) |
+| ------ | ---------- | ----------------------- | ---------------------------------------------- | ----------- |
+| 1.0    | 15/04/2023 | Criação da Documentação | [Sidney Fernando](https://github.com/nando3d3) | Todos       |
