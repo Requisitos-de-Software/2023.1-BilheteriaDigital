@@ -187,6 +187,9 @@ Legenda das Tabelas 3 e 4:
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
+## Bibliografia
+
+>SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.
 ## Histórico de Versões
 
 Versão  | Data | Descrição | Autor(es) | Revisor(es)
@@ -194,7 +197,3 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.0 | 28/04/2023 | Introdução e ideias iniciais | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.1 | 29/04/2023 | Atualização | [Gabriel Campello](https://github.com/G16C) | [Geovanna Maciel](https://github.com/manuziny)
  1.2 | 29/04/2023 | Adicionando os requisitos elicitados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)
-
-## Bibliografia
-
->SERRANO, Milene, SERRANO, Maurício. Requisitos (Aula 07): Elicitação, Modelagem e Análise. **UnB Gama**, Brasília, 2023. Disponível em: <<https://aprender3.unb.br/pluginfile.php/2580553/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf>>. Acesso em: 26/04/2023.

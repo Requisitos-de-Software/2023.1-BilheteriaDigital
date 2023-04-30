@@ -107,7 +107,7 @@ As personas criadas possuem as características apresentadas na seção de <a hr
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
-## Referências
+## Referências Bibliográficas
 
 > <a id="QT1" href="#anchor_1">1.</a> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
 

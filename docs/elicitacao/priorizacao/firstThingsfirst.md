@@ -109,7 +109,7 @@ Nas Tabelas 2 e 3 estão os ID's dos requisitos presentes na tabela de resultado
 
 <font size="3"><p style="text-align: center">Fonte: Autores</p></font>
 
-## Referências
+## Referências Bibliográficas
 
 > <a id="FTF1Ref" href="#FTF1">1.</a> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.
 
