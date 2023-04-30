@@ -6,6 +6,7 @@ markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
+  - footnotes
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.superfences
@@ -18,19 +19,20 @@ nav:
   - Home: index.md
   - Apresentação: apresentacao.md
   - Pré-Rastreabilidade:
-      - Rich Picture: rastreabilidade/rich_picture.md
+    - Rich Picture: rastreabilidade/rich_picture.md
   - Planejamento:
-      - Aplicativo escolhido: planejamento/aplicativo.md
-      - Ferramentas: planejamento/ferramentas.md
-      - Cronograma: planejamento/cronograma.md
-      - Metodologia: planejamento/metodologia.md
+    - Aplicativo escolhido: planejamento/aplicativo.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Cronograma: planejamento/cronograma.md
+    - Metodologia: planejamento/metodologia.md
   - Elicitação:
+    - Perfil de Usuário: elicitacao/perfil_de_usuario.md
+    - Personas: elicitacao/personas.md
     - Técnicas:
-        - Introspecção: elicitacao/tecnicas/introspeccao.md
-        - Questionário: elicitacao/tecnicas/questionario.md
-        - Brainstorming: elicitacao/tecnicas/brainstorming.md
-        - Observação: elicitacao/tecnicas/observacao.md
-        - Three Level Scale: elicitacao/tecnicas/threelvlscale.md
+      - Introspecção: elicitacao/tecnicas/introspeccao.md
+      - Questionário: elicitacao/tecnicas/questionario.md
+      - Brainstorming: elicitacao/tecnicas/brainstorming.md
+      - Observação: elicitacao/tecnicas/observacao.md
     - Priorização:
         - $100: elicitacao/priorizacao/100.md
         - First Things First: elicitacao/priorizacao/firstThingsfirst.md
@@ -57,13 +59,9 @@ theme:
         icon: material/circle-half-full
         name: Claro
 
-
   language: pt-BR
   favicon: assets/bilheteria.png
   logo: assets/bilheteria.png
-
-  
-
 
 extra:
   version:
