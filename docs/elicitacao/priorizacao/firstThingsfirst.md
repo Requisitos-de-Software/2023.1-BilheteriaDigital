@@ -23,12 +23,17 @@ A técnica foi elaborada da seguinte forma:
 
 ## Resultado de Priorização
 
+Na Tabela 1 é possível ver os resultados ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco.
+Nas Tabelas 2 e 3 estão os ID's dos requisitos presentes na tabela de resultados e sua respectiva descrição.
+
 **Peso relativo**:
 
 * Benefício: 2
 * Penalidade: 1
 * Custo: 1
 * Risco: 0,5
+
+<font size="3"><p style="text-align: center">Tabela 1: Tabela de resultado da priorização de requisitos</p></font>
 
 | Funcionalidade | Benefício<br>Relativo | Penalidade<br>Relativa | Valor<br>total | Valor<br>(%) | Custo<br>Relativo | Custo<br>% | Risco<br>Relativo | Risco<br>% | Prioridade |
 | -------------- | --------------------- | ---------------------- | -------------- | ------------ | ----------------- | ---------- | ----------------- | ---------- | ---------- |
@@ -59,7 +64,11 @@ A técnica foi elaborada da seguinte forma:
 | BS23           | 6                     | 6                      | 18             | 3,02         | 6                 | 8,11       | 6                 | 6,98       | 0,260      |
 | TOTAL          |                       |                        | 596            |              | 74                | 100        | 86                | 100        |
 
+<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
+
 ### Descrição dos requisitos funcionais
+
+<font size="3"><p style="text-align: center">Tabela 2: ID dos Requisitos funcionais e sua respectiva descrição.</p></font>
 
 | ID   | Descrição                                                                        |
 | ---- | -------------------------------------------------------------------------------- |
@@ -76,7 +85,11 @@ A técnica foi elaborada da seguinte forma:
 | <a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a>  | O usuário deve ser capaz de acessar a assistente virtual                         |
 | <a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a>  | O usuário deve ser capaz de compartilhar o evento                                |
 
+<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
+
 ### Descrição dos requisitos não funcionais
+
+<font size="3"><p style="text-align: center">Tabela 3: ID dos Requisitos não-funcionais e sua respectiva descrição.</p></font>
 
 | ID   | Descrição                                                                                                                         |
 |------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -93,6 +106,8 @@ A técnica foi elaborada da seguinte forma:
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q13</a>  | O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.                                         |
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q14</a>  | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)                                    |
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q15</a>  | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos                                       |
+
+<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
 
 ## Referências
 
