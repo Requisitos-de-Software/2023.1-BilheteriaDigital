@@ -10,9 +10,9 @@ O método Scrum pode ser definido como um conjunto de boas práticas, as quais p
 
 #### Equipe Scrum
 
-* [Scrum Master](https://github.com/manuziny): responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe.
-* [Product Owner](https://github.com/arthurmlv): aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*).
-* [Time de Desenvolvimento](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/#contribuidores): equipe encarregada de desenvolver o planejamento definido em cada *sprint*.
+* Scrum Master: responsável por aplicar os conceitos e práticas de um projeto por meio de uma análise e avaliação contínua das práticas ágeis da equipe. Na nossa equipe, a pessoa encarregada por tal papel é a integrante [Geovanna Maciel](https://github.com/manuziny).
+* Product Owner: aquele que direciona o projeto de acordo com as necessidades das partes interessadas (*stakeholders*). Sendo assim, o responsável por interpretar esse papel é o membro [Arthur de Melo](https://github.com/arthurmlv).
+* Time de Desenvolvimento: equipe encarregada de desenvolver o planejamento definido em cada *sprint*, no caso, [todos os membros do grupo](https://interacao-humano-computador.github.io/2023.1-BilheteriaDigital/#equipe).
 
 #### Eventos
 
@@ -56,6 +56,7 @@ Versão  | Data | Descrição | Autor(es) | Revisor(es)
  1.0 | 16/04/2023 | Descrição da Metodologia | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
  1.1 | 16/04/2023 | Ajustes da Metodologia após Apresentação | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
  1.2 | 16/04/2023 | Adição da Política de Commits e de Issues | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
+ 1.2.1 | 02/05/2023 | Hyperlinks e especificação da equipe | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0)
  
 ## Bibliografia
 >ALVES, Isaque, ROCHA, Carla. Qualifying Software Engineers Undergraduates in DevOps - Challenges of introducing technical and non-technical conceptss in a project-oriented course. **Arxiv**. [S. l.], v.1, 2021. Disponível em: <<https://arxiv.org/abs/2102.06662>>. Acesso em: 16/04/2023.
