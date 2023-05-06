@@ -46,6 +46,7 @@ nav:
           - $100: elicitacao/priorizacao/100.md
           - First Things First: elicitacao/priorizacao/firstThingsfirst.md
           - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
+      - Requisitos Elicitados: elicitacao/requisitos_elicitados.md
 
 theme:
   name: material
