@@ -13,38 +13,39 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  
+
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
   - Apresentação:
-    - Apresentação 1: apresentacoes/apresentacao1.md
-    - Apresentação 2: apresentacoes/apresentacao2.md
-  - Pré-Rastreabilidade:
-    - Rich Picture: rastreabilidade/rich_picture.md
-  - Planejamento:
-    - Aplicativo escolhido: planejamento/aplicativo.md
-    - Ferramentas: planejamento/ferramentas.md
-    - Cronograma: planejamento/cronograma.md
-    - Metodologia: planejamento/metodologia.md
-  - Elicitação:
-    - Perfil de Usuário: elicitacao/perfil_de_usuario.md
-    - Personas: elicitacao/personas.md
-    - Técnicas:
-      - Introspecção: elicitacao/tecnicas/introspeccao.md
-      - Questionário: elicitacao/tecnicas/questionario.md
-      - Brainstorming: elicitacao/tecnicas/brainstorming.md
-      - Observação: elicitacao/tecnicas/observacao.md
-    - Priorização:
-        - $100: elicitacao/priorizacao/100.md
-        - First Things First: elicitacao/priorizacao/firstThingsfirst.md
-        - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
+      - Apresentação 1: apresentacoes/apresentacao1.md
+      - Apresentação 2: apresentacoes/apresentacao2.md
   - Atas:
       - Ata 1: atas/Requisitos_Ata_01.md
       - Ata 2: atas/Requisitos_Ata_02.md
       - Ata 3: atas/Requisitos_Ata_03.md
       - Ata 4: atas/Requisitos_Ata_04.md
       - Ata 5: atas/Requisitos_Ata_05.md
+      - Ata 6: atas/Requisitos_Ata_06.md
+  - Pré-Rastreabilidade:
+      - Rich Picture: rastreabilidade/rich_picture.md
+  - Planejamento:
+      - Aplicativo escolhido: planejamento/aplicativo.md
+      - Ferramentas: planejamento/ferramentas.md
+      - Cronograma: planejamento/cronograma.md
+      - Metodologia: planejamento/metodologia.md
+  - Elicitação:
+      - Perfil de Usuário: elicitacao/perfil_de_usuario.md
+      - Personas: elicitacao/personas.md
+      - Técnicas:
+          - Introspecção: elicitacao/tecnicas/introspeccao.md
+          - Questionário: elicitacao/tecnicas/questionario.md
+          - Brainstorming: elicitacao/tecnicas/brainstorming.md
+          - Observação: elicitacao/tecnicas/observacao.md
+      - Priorização:
+          - $100: elicitacao/priorizacao/100.md
+          - First Things First: elicitacao/priorizacao/firstThingsfirst.md
+          - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
 
 theme:
   name: material
