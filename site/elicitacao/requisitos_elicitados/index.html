@@ -936,7 +936,7 @@
 <h2 id="introducao">Introdução</h2>
 <p>Essa página reune todos os requisitos funcionais e não funcionais elicitados usando as técnicas de <a href="../tecnicas/introspeccao/">introspecção</a>, <a href="../tecnicas/questionario/">questionário</a>, <a href="../tecnicas/brainstorming/">brainstorming</a> e <a href="../tecnicas/observacao/">observação</a>.</p>
 <h2 id="metodologia">Metodologia</h2>
-<p>As tabelas apresentadas são dos requisitos funcionais e não funcionais, sendo que cada linha contém um ID, sua respectiva descrição e um hyperlink de rastreabilidade que direciona à página da(s) técnica(s) que elicitou o requisitão em questão e se ele foi implementado ou não.</p>
+<p>As tabelas 1 e 2 apresentadas são dos requisitos funcionais e não funcionais, sendo que cada linha contém um ID, sua respectiva descrição, um hyperlink de rastreabilidade que direciona à página da(s) técnica(s) que elicitou o requisitão em questão e se ele foi implementado ou não.</p>
 <p>A legenda para cada sigla é a seguinte:</p>
 <ul>
 <li>RFx: Requisito Funcional nºx</li>
@@ -947,6 +947,242 @@
 <li>OBSx: Requisito nºx elicitado pela Observação</li>
 </ul>
 <h2 id="requisitos-funcionais">Requisitos funcionais</h2>
+<p style="text-align: center"><b>Tabela 1</b> - Requisitos funcionais</p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01</td>
+<td>O aplicativo filtra os eventos por Estado e por Município.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../tecnicas/brainstorming/#anchor_BS">BS08</a>, <a href="../tecnicas/observacao/#anchor_OBS">OBS01</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>O aplicativo filtra os eventos por data e por horário.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS02</a>, <a href="../tecnicas/questionario/#anchor_Q">Q03</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O aplicativo filtra os eventos por idade mínima de entrada.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS03</a>, <a href="../tecnicas/questionario/#anchor_Q">Q02</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF04</td>
+<td>O aplicativo permite realizar a compra do ingresso.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS04</a>, <a href="../tecnicas/brainstorming/#anchor_BS">BS03</a>, <a href="../tecnicas/observacao/#anchor_OBS">OBS10</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF05</td>
+<td>O aplicativo permite o cadastro e o login do usuário.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS05</a>, <a href="../tecnicas/brainstorming/#anchor_BS">BS01, <a href="../tecnicas/brainstorming/#anchor_BS">BS02</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>O aplicativo permite excluir cadastro.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS06</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>O aplicativo permite cadastrar métodos de pagamento.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS07</a>, <a href="../tecnicas/questionario/#anchor_Q">Q08, <a href="../tecnicas/brainstorming/#anchor_BS">BS15</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>O aplicativo permite cancelar compras.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS08</a>, <a href="../tecnicas/questionario/#anchor_Q">Q09</a>, <a href="../tecnicas/observacao/#anchor_IS">OBS12</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>O aplicativo possui um mecanismo de busca.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS09</a>, <a href="../tecnicas/questionario/#anchor_Q">Q01</a>, <a href="../tecnicas/brainstorm/#anchor_BS">BS04</a>, <a href="../tecnicas/observacao/#anchor_OBS">OBS02</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>O aplicativo filtra eventos por categorias.</td>
+<td><a href="../tecnicas/questionario/#anchor_Q">Q04</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>O aplicativo da sugestões de eventos com base no histórico de buscas do usuário.</td>
+<td><a href="../tecnicas/questionario/#anchor_Q">Q05</a>, <a href="../tecnicas/brainstorming/#anchor_BS">BS11</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a busca.</td>
+<td><a href="../tecnicas/questionario/#anchor_Q">Q06</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>O aplicativo notifica usuário sobre eventos, quando permitido.</td>
+<td><a href="../tecnicas/questionario/#anchor_Q">Q07</a>, <a href="../tecnicas/brainstorming/#anchor_BS">BS06</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>O usuário deve ser capaz de filtrar eventos</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS05</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>O usuário deve salvar os dados do cartão no app</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS07</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>O usuário deve fornecer sua localização</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS09</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>O usuário deve poder acessar o calendário de eventos</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS10</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>O usuário deve poder responder a pesquisa de perfil sobre seus gostos</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS12</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>O usuário deve ser capaz de acessar as informações do evento</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS13</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>O usuário deve ser capaz de acessar as atrações do evento</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS14</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>O usuário deve ter acesso a pré-venda</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS16</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>O usuário deve receber a cópia do ingresso por e-mail</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS17</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>O usuário deve ser capaz de conectar uma carteira digital</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS18</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>O usuário deve ser capaz de mudar o idioma do app</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS19</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>O usuário deve ser capaz de aumentar a fonte</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS20</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>O usuário deve ser capaz de dar zoom</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS21</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>O usuário deve ser capaz de acessar a assistente virtual</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS22</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>O usuário deve ser capaz de compartilhar o evento</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BS">BS23</a>, <a href="../tecnicas/observacao/#anchor_OBS">OBS03</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>O aplicativo permite escolher a quantidade de ingressos que o usuário deseja comprar.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS04</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obesas ou com deficiência, caso as tenha.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS05</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>O aplicativo permite selecionar as poltronas especiais.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS06</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS07</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS08</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>O aplicativo permite a doação por parte do usuário para fundações</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS09</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>O aplicativo possui uma função para entrar em contato com o suporte.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS11</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>O aplicativo permite ao usuário alterar seus dados.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS13</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RF37</td>
+<td>O aplicativo possui uma função que auxilia na recuperação da conta do usuário.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBS">OBS14</a></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
 
 
 
