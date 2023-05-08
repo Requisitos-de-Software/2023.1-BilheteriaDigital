@@ -852,6 +852,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -910,6 +917,13 @@
         <li class="md-nav__item">
   <a href="#requisitos-funcionais" class="md-nav__link">
     Requisitos funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
   </a>
   
 </li>
@@ -1180,6 +1194,108 @@
 <td>O aplicativo possui uma função que auxilia na recuperação da conta do usuário.</td>
 <td><a href="../tecnicas/observacao/#anchor_OBS">OBS14</a></td>
 <td>Sim</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center"><b>Tabela 2</b> - Requisitos Não Funcionais</p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF01</td>
+<td>O app deve encriptar as informações do usuário.</td>
+<td><a href="../tecnicas/questionario/#anchor_QNF">Q10</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS31</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>O app deve fornecer eventos direcionados.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS10</a>, <a href="../tecnicas/questionario/#anchor_QNF">Q11</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS35</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS36</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS22</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>O app deve disponibilizar todas as informações do evento em uma página.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS11</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS25</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS26</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS27</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS28</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS29</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS30</a>, <a href="(../tecnicas/observacao/#anchor_OBSNF)">OBS15</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS16</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>A compra deve ser feita em no máximo 5 páginas.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS13</a>, <a href="../tecnicas/introspeccao/#anchor_IS">IS16</a>, <a href="../tecnicas/questionario/#anchor_QNF">Q14</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS17</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS18</a>, <a href="../tecnicas/introspeccao/#anchor_IS">IS14</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>O app deve permitir a resolução de problemas sem uma interação com um humano.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS12</a>, <a href="../tecnicas/questionario/#anchor_QNF">Q15</a>, <a href="../tecnicas/questionario/#anchor_QNF">Q16</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS19</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS33</a>, <a href="../tecnicas/brainstorming/#anchor_BSNF">BS34</a></td>
+<td></td>
+</tr>
+<tr>
+<td>RNF06</td>
+<td>O app deve permitir o cadastro e login em uma tela separada.</td>
+<td><a href="../tecnicas/introspeccao/#anchor_IS">IS15</a></td>
+<td>Sim</td>
+</tr>
+<tr>
+<td>RNF07</td>
+<td>O app não pode ter tempo de resposta superior a 200 ms.</td>
+<td><a href="../tecnicas/questionario/#anchor_QNF">Q12</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RNF08</td>
+<td>O app deve permitir a filtragem dos eventos cadastrados no banco de dados.</td>
+<td><a href="../tecnicas/questionario/#anchor_QNF">Q13</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RNF09</td>
+<td>O app deve mostrar as informações de compras do usuário em uma única tela.</td>
+<td><a href="../tecnicas/brainstorming/#anchor_BSNF">BS32</a>, <a href="../tecnicas/observacao/#anchor_OBSNF">OBS21</a></td>
+<td></td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>O app deve permitir o acesso às informações do usuário em até 3 cliques.</td>
+<td><a href="../tecnicas/observacao/#anchor_OBSNF">OBS20</a></td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>06/05/2023</td>
+<td>Criação da página com os requisitos funcionais</td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>06/05/2023</td>
+<td>Adição dos requisitos não funcionais</td>
+<td><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
 </tr>
 </tbody>
 </table>
