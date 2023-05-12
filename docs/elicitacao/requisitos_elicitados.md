@@ -19,7 +19,7 @@ A legenda para cada sigla é a seguinte:
 
 ## Requisitos funcionais
 
-<p style="text-align: center"><b>Tabela 1</b> - Requisitos funcionais</p>
+<p style="text-align: center"><b><a id="tab_1" style="visibility: hidden;"></a>Tabela 1</b> - Requisitos funcionais</p>
 
 | ID   | Descrição                                                                                                             | Rastreabilidade                                                                                                                                                                                                            | Implementação |
 | ---- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
