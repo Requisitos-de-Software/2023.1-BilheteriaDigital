@@ -47,6 +47,9 @@ nav:
           - First Things First: elicitacao/priorizacao/firstThingsfirst.md
           - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
       - Requisitos Elicitados: elicitacao/requisitos_elicitados.md
+  - Modelagem:
+      - Cenários: modelagem/cenarios.md
+
 
 theme:
   name: material

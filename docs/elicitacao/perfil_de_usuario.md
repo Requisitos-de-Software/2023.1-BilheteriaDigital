@@ -2,7 +2,7 @@
 
 ## Introdução
 
-No intuito de se conhecer melhor os usuários do aplicativo é necessário elaborar um perfil genérico chamado de perfil de usuário. Segundo Barbosa e Silva<a id="anchor_1" href="#FRM1">^1^</a> <q>perfil de usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado</q>.
+No intuito de se conhecer melhor os usuários do aplicativo é necessário elaborar um perfil genérico chamado de perfil de usuário. Segundo Barbosa e Silva (2011, p.174) <q>perfil de usuário é uma descrição detalhada das características dos usuários cujos objetivos devem ser apoiados pelo sistema sendo projetado</q>.
 
 ## Metodologia
 
@@ -87,9 +87,9 @@ Após uma análise das respostas, foi traçado um Perfil de Usuário para o apli
 - **Atitudes:** Tecnófilos.
 - **Tarefas primárias:** Compra e consulta.
 
-## Referências Bibliográficas
+## Referências
 
-> <a id="FRM1" href="#anchor_1">1.</a>BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
+> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
 
 ## Bibliografia
 
