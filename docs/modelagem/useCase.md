@@ -1,0 +1,31 @@
+# Casos de Uso
+
+## Introdução
+
+Um caso de uso se refere a uma descrição detalhada de como o sistema será utilizado em uma determinada situação ou contexto. Ele descreve as interações entre os usuários e o sistema, apresentando os passos necessários para alcançar um objetivo específico.
+O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sistema, fornecendo uma visão clara dos requisitos funcionais do sistema, descrevendo as ações que os usuários podem realizar e as respostas do sistema a ações.
+
+
+
+## Metodologia
+Na Linguagem de Modelagem Unificada (UML), o diagrama de caso de uso é uma representação gráfica que resume as interações entre os atores (usuários) e um sistema. Ele fornece uma visão geral das funcionalidades e dos comportamentos do sistema, destacando as ações executadas pelos atores. Esse diagrama é composto por atores, casos de uso e as relações entre eles. Os atores representam os diferentes tipos de usuários que interagem com o sistema, como pessoas, outros sistemas ou dispositivos externos. Os casos de uso descrevem as funcionalidades do sistema, apresentando as ações que podem ser realizadas pelos atores e as respostas do sistema.
+Na Tabela 1 é possível visualizar cada elemento do diagrama:
+
+<font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
+
+| Nome | Função | Elemento
+|------|------|:-------:
+| Ator | Representam os diferentes tipos de usuários externos que interagem com o sistema | <figure class="usecaseElement" style="width: 20%; display: flex;">![actor](../assets/usecase/actor.png)</figure>
+| Elipse (Caso de Uso) | É usada para representar os casos de uso no diagrama. Um caso de uso descreve uma funcionalidade ou uma ação específica que o sistema pode realizar em resposta às interações dos atores. A elipse contém o nome do caso de uso | <figure class="usecaseElement" style="width: 40%; display: flex;">![elipse](../assets/usecase/elipse.png)</figure>
+| Retângulo (Sistema) | Usado para representar o sistema ou o bloco em análise. Ele envolve os casos de uso e atores relacionados | <figure class="usecaseElement" style="width: 40%; display: flex;">![retangulo](../assets/usecase/retangulo.png)</figure>
+| Flecha (Relações) | As flechas são usadas para representar as relações ou interações entre atores e casos de uso | <figure class="usecaseElement" style="width: 40%; display: flex;">![flechas](../assets/usecase/flecha.png)</figure>
+
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></p></font>
+
+## Bibliografia
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                      | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| 1.0    | 13/05/2023 | Criação da página | [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |

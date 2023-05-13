@@ -61,7 +61,7 @@ A legenda para cada sigla é a seguinte:
 | RF36 | O aplicativo permite ao usuário alterar seus dados.                                                                   | <a href="../tecnicas/observacao/#anchor_OBS">OBS13</a>                                                                                                                                                                     | Sim           |
 | RF37 | O aplicativo possui uma função que auxilia na recuperação da conta do usuário.                                        | <a href="../tecnicas/observacao/#anchor_OBS">OBS14</a>                                                                                                                                                                     | Sim           |
 
-<p style="text-align: center; fonte-size: 11px">Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></p>
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></p></font>
 
 
 ## Requisitos não funcionais
@@ -80,7 +80,7 @@ A legenda para cada sigla é a seguinte:
 | RNF09 | O app deve mostrar as informações de compras do usuário em uma única tela.    | [BS32](../tecnicas/brainstorming/#anchor_BSNF), [OBS21](../tecnicas/observacao/#anchor_OBSNF)                                                                                                                                                                                                                                                                                                                                                 |               |
 | RNF10 | O app deve permitir o acesso às informações do usuário em até 3 cliques.      | [OBS20](../tecnicas/observacao/#anchor_OBSNF)                                                                                                                                                                                                                                                                                                                                                                                                 | Sim           |
 
-<p style="text-align: center; fonte-size: 11px">Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a></p>
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a></p></font>
 
 ## Histórico de Versões
 
