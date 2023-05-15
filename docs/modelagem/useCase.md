@@ -30,6 +30,29 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 ## Diagrama de Casos de Uso
 
+<font size="3"><p style="text-align: center">Figura 1: Casos de uso do app BilheteriaDigital</p></font>
+
+<img src="../../assets/usecase/diagramaCasoUso.png" class="usecaseElement">
+
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a> e <a href="https://github.com/manuziny">Geovanna Maciel</a></b></p></font>
+
+## Especialização dos casos de uso
+
+<font size="3"><p style="text-align: center">Tabela x: </p></font>
+
+| UC0x | Informações |
+| ----- | ---------- |
+| Descrição | a |
+| Ator | a |
+| Pré-condições | a |
+| Ação | a |
+| Fluxo principal | a |
+| Fluxo alternativo | a |
+| Fluxo de exceção | a |
+| Pós-condições | a |
+| Data de Criação | a |
+| Rastreabilidade | a |
+
 ## Bibliografia
 
 > Lucidchart. Diagrama de Caso de Uso UML. Disponível em: <<https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml>>. Acesso em: 14 maio 2023.
@@ -39,3 +62,4 @@ Além disso, no diagrama de casos de uso é possível especificar:
 | Versão | Data       | Descrição                                      | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1.0    | 13/05/2023 | Criação da página | [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
+| 1.1 | 15/05/2023 | Adição do Diagrama | [Geovanna Maciel](https://github.com/manuziny) e [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlves)
