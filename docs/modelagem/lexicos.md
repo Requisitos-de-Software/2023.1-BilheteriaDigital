@@ -23,7 +23,7 @@ Para a confeccção dos léxicos, utilizamos a notação do Léxico Ampliado da 
 <figure markdown>
 <font size="3"><p style="text-align: center"><b>Tabela 2</b> - Template Léxicos</p></font>
 
-| Termo | Descrição |
+| ID | Descrição |
 |-----------------|-------|
 | Classificação | Estado/Objeto/Verbo |
 | Impacto | Descrição de ações e de seus efeitos | 
@@ -35,14 +35,14 @@ Para a confeccção dos léxicos, utilizamos a notação do Léxico Ampliado da 
 
 ## Léxicos
 
-### L01
+### L01: Filtrar Eventos
 
 O primeiro Léxico, presente na Tabela 3, faz o uso dos seguintes requisitos não implementados: filtrar por Estado e por Município (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a>), filtrar por data e por horário (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>), filtrar por idade mínima de entrada (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>) e filtrar por categorias (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>).
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 3</b> - Léxico 01 (L01)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 3</b> - Léxico 01: Filtrar Eventos (L01)</p></font>
 
-| Filtrar Eventos | Descrição |
+| L01 | Descrição |
 |-----------------|-------|
 | Classificação | Verbo |
 | Impacto | Os eventos são listados de acordo com o filtro requisitado | 
@@ -52,14 +52,14 @@ O primeiro Léxico, presente na Tabela 3, faz o uso dos seguintes requisitos nã
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### L02
+### L02: Sugestões de Eventos
 
 O segundo Léxico, presente na Tabela 4, faz o uso do seguinte requisito não implementado: o aplicativo da sugestões de eventos com base no histórico de buscas do usuário (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a>).
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 4</b> - Léxico 02 (L02)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 4</b> - Léxico 02: Sugestões de Eventos (L02)</p></font>
 
-| Sugestões de Eventos | Descrição |
+| L02 | Descrição |
 |-----------------|-------|
 | Classificação | Estado |
 | Impacto | A aba de sugestões se adapta ao que o usuário vê ou consome no site | 
@@ -69,15 +69,15 @@ O segundo Léxico, presente na Tabela 4, faz o uso do seguinte requisito não im
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### L03
+### L03: Evento com Tags
 
 O terceiro Léxico, presente na Tabela 5, faz o uso do seguinte requisito não implementado: o aplicativo tem palavras-chave ou tags associadas aos eventos para facilitar a busca (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a>).
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 5</b> - Léxico 03 (L03)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 5</b> - Léxico 03: Evento com Tags (L03)</p></font>
 
 
-| Eventos com Tags | Descrição |
+| L03 | Descrição |
 |-----------------|-------|
 | Classificação | Estado |
 | Impacto | Eventos vinculados às tags | 
@@ -87,15 +87,15 @@ O terceiro Léxico, presente na Tabela 5, faz o uso do seguinte requisito não i
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### L04
+### L04: Notificar Eventos
 
 O quarto Léxico, presente na Tabela 6, faz o uso do seguinte requisito não implementado: o aplicativo notifica usuário sobre eventos, quando permitido (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>), o aplicativo tem palavras-chave ou tags associadas aos eventos para facilitar a busca (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a>), o aplicativo da sugestões de eventos com base no histórico de buscas do usuário (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a>), .
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 04 (L04)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 04: Notificar Eventos (L04)</p></font>
 
 
-| Notificar Eventos | Descrição |
+| L04 | Descrição |
 |-----------------|-------|
 | Classificação | Verbo |
 | Impacto | Os eventos são notificados aos usuários que permitiram | 
@@ -105,15 +105,15 @@ O quarto Léxico, presente na Tabela 6, faz o uso do seguinte requisito não imp
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### L05
+### L05: Comprador
 
 O quinto Léxico, presente na Tabela 7, faz o uso do seguinte requisito não implementado: o aplicativo notifica usuário sobre eventos, quando permitido (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>), filtrar por Estado e por Município (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a>), filtrar por data e por horário (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>), filtrar por idade mínima de entrada (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>), filtrar por categorias (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>), o usuário deve ser capaz de conectar uma carteira digital (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a>), o usuário deve ser capaz de mudar o idioma do app (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>) e o usuário deve ser capaz de acessar à assistente virtual (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a>).
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 05 (L05)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 05: Comprador (L05)</p></font>
 
 
-| Comprador | Descrição |
+| L05 | Descrição |
 |-----------------|-------|
 | Classificação | Objeto |
 | Impacto | O comprador pode escolher se quer ou não receber notificações </br> O comprador pode filtrar a busca por idade, Estado, Município, data, horário e categoria </br> O comprador é capaz de conectar uma carteira digital </br> O comprador pode acessar à assistente virtual </br> O comprador pode mudar o idioma do app | 
