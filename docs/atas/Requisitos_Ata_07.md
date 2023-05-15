@@ -24,7 +24,7 @@ Local: Online via Microsoft Teams
 
 - Adicionar o termo de uso. Responsável: [Douglas Alves](https://github.com/dougAlvs)
 - Criação do documento para checklist:[Geovanna Maciel](https://github.com/manuziny)
-- Gravação na segunda (15/05)
+- Gravação na terça (16/05)
 
 ## Link da gravação
 
