@@ -101,14 +101,30 @@ Na Tabela 5, tem-se o cronograma planejado para todas as atividades da segunda e
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
+### Executado
+Na Tabela 6, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+
+<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Modelagem de Requisitos 1</p></font>
+
+| Atividade                                                     	| Período de desenvolvimento 	| Responsáveis     	| Revisão                 	| Revisores        	|
+|---------------------------------------------------------------	|----------------------------	|------------------	|-------------------------	|------------------	|
+|   Modelagem de Requisitos: Cenários                  	| Início: 13/05<br>Fim: 15/05    	| Douglas e Gabriel 	| Início: 16/05 Fim: 16/05 	| Sidney           	|
+|   Modelagem de Requisitos: Léxico                    	| Início: 13/05<br>Fim: 14/05    	| Arthur e Rafael   	| Início: 15/05 Fim: 15/05 	| Gabriel e Matheus 	|
+|   Modelagem de Requisitos: Use Case                  	| Início: 13/05<br>Fim: 15/05    	| Geovanna e Sidney 	| Início: 16/05 Fim: 16/05 	| Douglas e Arthur  	|
+|   Modelagem de Requisitos: Especificação Suplementar 	| Início: 10/05<br>Fim: 13/05    	| Matheus e Rafael  	| Início: 14/05 Fim: 15/05 	| Geovanna         	|
+|   Gravação da Apresentação e Entrega                 	| Início: 16/05<br>Fim: 16/05    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	| Início: 13/05 Fim: 14/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 18/05<br>Fim: 21/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 22/05<br>Fim: 23/05 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
+
+<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
 
 
 ## Entrega 4 - Modelagem de Requisitos 1.2
 
 ### Planejado
-Na Tabela 6, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Modelagem de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 7</b> - Modelagem de Requisitos 1.2</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -124,13 +140,13 @@ Na Tabela 6, tem-se o cronograma planejado para todas as atividades da segunda e
 ## Entrega 5.1 - Análise de Requisitos 1
 
 ### Planejado
-Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 8, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 7</b> - Análise de Requisitos 1</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 8</b> - Análise de Requisitos 1</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
-|   Verificação por inspeção de Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
+|   Verificação por inspeção de todos os artefatos              	| Início: 25/05<br>Fim: 28/05    	| Douglas, Gabriel, Arthur e Matheus 	| Início: 28/05 Fim: 30/05 	| Rafael           	|
 |   Validação: Prototipação e Comprovação Informal            	| Início: 30/05<br>Fim: 02/06    	| Geovanna, Sidney e Rafael          	| Início: 02/06 Fim: 04/06 	| Gabriel          	|
 |   Gravação da Apresentação e Entrega                        	| Início: 04/06<br>Fim: 06/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 06/06 Fim: 06/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
 |   Correção pós apresentação	| Início: 08/06<br>Fim: 10/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 11/06<br>Fim: 13/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
@@ -141,9 +157,9 @@ Na Tabela 7, tem-se o cronograma planejado para todas as atividades da segunda e
 ## Entrega 5.2 - Análise de Requisitos 1.2
 
 ### Planejado
-Na Tabela 8, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 8</b> - Análise de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 9</b> - Análise de Requisitos 1.2</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -157,9 +173,9 @@ Na Tabela 8, tem-se o cronograma planejado para todas as atividades da segunda e
 ## Entrega Final 
 
 ### Planejado
-Na Tabela 9, tem-se o cronograma planejado para todas as atividades da segunda entrega.
+Na Tabela 10, tem-se o cronograma planejado para todas as atividades da segunda entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 9</b> - Oração</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 10</b> - Oração</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
