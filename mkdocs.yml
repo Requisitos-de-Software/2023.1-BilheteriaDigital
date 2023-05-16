@@ -27,6 +27,7 @@ nav:
       - Ata 4: atas/Requisitos_Ata_04.md
       - Ata 5: atas/Requisitos_Ata_05.md
       - Ata 6: atas/Requisitos_Ata_06.md
+      - Ata 7: atas/Requisitos_Ata_07.md
   - Pré-Rastreabilidade:
       - Rich Picture: rastreabilidade/rich_picture.md
   - Planejamento:
@@ -48,7 +49,10 @@ nav:
           - Three Level Scale: elicitacao/priorizacao/threeLvlScale.md
       - Requisitos Elicitados: elicitacao/requisitos_elicitados.md
   - Modelagem:
+      - Casos de uso: modelagem/useCase.md
       - Especificação Suplementar: modelagem/especificacao-suplementar.md
+      - Cenários: modelagem/cenarios.md
+      - Léxicos: modelagem/lexicos.md
 
 theme:
   name: material
