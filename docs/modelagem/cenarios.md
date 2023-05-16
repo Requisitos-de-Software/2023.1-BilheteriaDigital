@@ -29,6 +29,8 @@ Tabela 1: Filtar por categorias.
 |**Exceção**   |
 |<p>_Erro de conexão à internet._</p> <p>_Se não houver eventos cadastrados para a categoria selecionada, o aplicativo deve apresentar uma mensagem indicando que não há eventos disponíveis para aquela categoria_</p>|
 
+Fonte: [Gabriel Campello](https://github.com/G16C) e [Douglas Alves](https://github.com/dougAlvs)
+
 </center>
 
 ## Cenário 2
@@ -55,6 +57,8 @@ Tabela 2: Filtar por data e hora.
 |<p>_O usuário só pode filtrar os eventos por data e hora de ocorrência futura._</p>|
 |**Exceção**   |
 |<p>_Erro de conexão à internet._</p> <p>_Se não houver eventos cadastrados que ocorram na data e hora selecionada, o aplicativo deve apresentar uma mensagem indicando que não há eventos disponíveis naquela data e hora._</p>|
+
+Fonte: [Gabriel Campello](https://github.com/G16C) e [Douglas Alves](https://github.com/dougAlvs)
 
 </center>
 
@@ -84,6 +88,8 @@ Tabela 3: Filtar por idade mínima.
 |**Exceção**   |
 |<p>_Erro de conexão à internet._</p> <p>_Se não houver eventos cadastrados com a idade mínima de entrada adequada para a faixa etária selecionada, o aplicativo deve apresentar uma mensagem indicando que não há eventos disponíveis naquela faixa etária._</p>|
  
+Fonte: [Gabriel Campello](https://github.com/G16C) e [Douglas Alves](https://github.com/dougAlvs)
+
  </center>
 
 
@@ -112,6 +118,8 @@ Tabela 4: Filtar por municípios.
 |**Exceção**   |
 |<p>_Erro de conexão à internet._</p> <p>_Se não houver eventos cadastrados para a cidade selecionada, o aplicativo deve apresentar uma mensagem indicando que não há eventos disponíveis naquela cidade_</p>|
 
+Fonte: [Gabriel Campello](https://github.com/G16C) e [Douglas Alves](https://github.com/dougAlvs)
+
 </center>
 
 ## Cenário 5
@@ -139,11 +147,14 @@ Tabela 5: Conectar carteira digital.
 |**Exceção**   |
 |<p>_Erro de conexão à internet._</p> <p>_Erro de conexão ao serviço de carteira digital_</p>|
 
+Fonte: [Gabriel Campello](https://github.com/G16C) e [Douglas Alves](https://github.com/dougAlvs)
+
 </center>
 
 ## Bibliografia
 
->SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf](https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf). Último acesso em: 24 abr. 2023. ANÁLISE de Requisitos de Software da Aplicação Duolingo, 2019. Disponível em: [https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/](https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/). Último acesso em: 24 abr. 2023.
+>SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf](https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf). Último acesso em: 24 abr. 2023. 
+>ANÁLISE de Requisitos de Software da Aplicação Duolingo, 2019. Disponível em: [https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/](https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/). Último acesso em: 24 abr. 2023.
 
 
 ## Histórico de Versões

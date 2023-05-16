@@ -29,6 +29,8 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 ## Diagrama de Casos de Uso
 
+A figura 1 demonstra o diagrama de casos de uso.
+
 <font size="3"><p style="text-align: center">Figura 1: Casos de uso do app BilheteriaDigital</p></font>
 
 <img src="../../assets/usecase/diagramaCasoUso.png" class="usecaseElement">
@@ -37,7 +39,9 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 ## Especialização dos casos de uso
 
-<font size="3"><p style="text-align: center">Tabela 1: Buscar evento</p></font>
+As tabelas de 2 a 5 mostram a especialização dos casos de uso.
+
+<font size="3"><p style="text-align: center">Tabela 2: Buscar evento</p></font>
 
 | UC01 | Informações |
 | ----- | ---------- |
@@ -54,7 +58,7 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 <font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font>
 
-<font size="3"><p style="text-align: center">Tabela 2: Ativar notificações sobre eventos </p></font>
+<font size="3"><p style="text-align: center">Tabela 3: Ativar notificações sobre eventos </p></font>
 
 | UC02 | Informações |
 | ----- | ---------- |
@@ -71,7 +75,7 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 <font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/manuziny">Geovanna Maciel</a></b></p></font>
 
-<font size="3"><p style="text-align: center">Tabela 3: Conectar carteira digital</p></font>
+<font size="3"><p style="text-align: center">Tabela 4: Conectar carteira digital</p></font>
 
 | UC03 | Informações |
 | ----- | ---------- |
@@ -88,7 +92,7 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 <font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font>
 
-<font size="3"><p style="text-align: center">Tabela 4: Responder pesquisa de perfil </p></font>
+<font size="3"><p style="text-align: center">Tabela 5: Responder pesquisa de perfil </p></font>
 
 | UC04 | Informações |
 | ----- | ---------- |

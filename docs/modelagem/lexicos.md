@@ -1,6 +1,6 @@
 ## Introdução
 
-O Léxico é uma notação que, por meio da descrição de termos, tem como objetivo descrever os símbolos de uma linguagem. No entanto, seu principal objetivo na Engenharia de Requisitos é o reconhecimento de palavras ou frases peculiares ao contexto social aplicado no estudo. Cada símbolos possui sua noção e seu impacto. Noção é o que tal símbolos denota, já impacto é a conotação de um símbolos, ou seja, o efeito real que ele causa quando executado.
+O Léxico é uma notação que, por meio da descrição de termos, tem como objetivo descrever os símbolos de uma linguagem. No entanto, seu principal objetivo na Engenharia de Requisitos é o reconhecimento de palavras ou frases peculiares ao contexto social aplicado no estudo. Cada símbolo possui sua noção e seu impacto. Noção é o que tal símbolos denota, já impacto é a conotação de um símbolos, ou seja, o efeito real que ele causa quando executado.
 
 ## Metodologia
 
@@ -116,7 +116,7 @@ O quinto Léxico, presente na Tabela 7, faz o uso do seguinte requisito não imp
 | L05 | Descrição |
 |-----------------|-------|
 | Classificação | Objeto |
-| Impacto | O comprador pode escolher se quer ou não receber notificações </br> O comprador pode filtrar a busca por idade, Estado, Município, data, horário e categoria </br> O comprador é capaz de conectar uma carteira digital </br> O comprador pode acessar à assistente virtual </br> O comprador pode mudar o idioma do app | 
+| Impacto | O comprador pode escolher se quer ou não receber notificações ([L04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos)) </br> O comprador pode filtrar a busca por idade, Estado, Município, data, horário e categoria ([L01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos)) </br> O comprador é capaz de conectar uma carteira digital </br> O comprador pode acessar à assistente virtual </br> O comprador pode mudar o idioma do app </br> O comprador recebe sugestões de eventos de acordo com a sua atividade ([L02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos)) </br> | 
 | Noção | Pessoa interessada em participar de algum evento ou procurar por eventos |
 | Dicionário | Cliente, Usuário, Consumidor e Freguês |
 
