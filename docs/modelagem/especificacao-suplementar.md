@@ -14,7 +14,8 @@ O objetivo da BILHETERIA DIGITAL PROMOCAO E ENTRETENIMENTO LTDA é facilitar o m
 
 ## Metodologia
 
-Para a produção desse artefato será utilizado uma versão modificada do FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos).
+Para a produção desse artefato será utilizado uma versão modificada do FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos). Nessa versão os requisitos de interface, além da seção de componentes adquiridos serão omitidos.
+
 ## Funcionalidade
 
 Os requisitos funcionais foram elicitados na seção de elicitação e a [tabela 1](../../elicitacao/requisitos_elicitados/#tab_1) da página de [requisitos elicitados](../../elicitacao/requisitos_elicitados/) demonstra todos os requisitos priorizados.
