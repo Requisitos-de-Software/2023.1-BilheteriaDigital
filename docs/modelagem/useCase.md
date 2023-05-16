@@ -8,7 +8,7 @@ O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sis
 
 
 ## Metodologia
-O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assnto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 oa elemtnos do diagrama:
+O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assnto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 os elementos do diagrama:
 
 <font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
 
@@ -37,20 +37,22 @@ Além disso, no diagrama de casos de uso é possível especificar:
 
 ## Especialização dos casos de uso
 
-<font size="3"><p style="text-align: center">Tabela x: </p></font>
+<font size="3"><p style="text-align: center">Tabela 1: Buscar evento</p></font>
 
-| UC0x | Informações |
+| UC01 | Informações |
 | ----- | ---------- |
-| Descrição | a |
-| Ator | a |
-| Pré-condições | a |
-| Ação | a |
-| Fluxo principal | a |
-| Fluxo alternativo | a |
-| Fluxo de exceção | a |
-| Pós-condições | a |
-| Data de Criação | a |
-| Rastreabilidade | a |
+| Descrição | O usuário é capaz de buscar eventos por diferentes filtros |
+| Ator | Usuário |
+| Pré-condições | Acesso à internet, acesso ao app |
+| Ação | O usuário  encontra eventos |
+| Fluxo principal | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa "Buscar evento..." </br> <ul><li> O usuário filtra a busca por município, data, horário ou categoria do evento </br> |
+| Fluxo alternativo | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br> |
+| Fluxo de exceção | <ul><li> O usuário acessa o aplicativo </br><ul><li> A localização do usuário está desligada </br><ul><li> O usuário busca o evento por nome </br> |
+| Pós-condições | O usuário tem acesso a eventos que correspondem ao(s) filtro(s) de busca escolhido(s) |
+| Data de Criação | 15/05/2023 |
+| Rastreabilidade | [RF01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/), [RF02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/), [RF10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/) |
+
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font>
 
 <font size="3"><p style="text-align: center">Tabela 2: Ativar notificações sobre eventos </p></font>
 
@@ -68,6 +70,23 @@ Além disso, no diagrama de casos de uso é possível especificar:
 | Rastreabilidade | [RF13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/) |
 
 <font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/manuziny">Geovanna Maciel</a></b></p></font>
+
+<font size="3"><p style="text-align: center">Tabela 3: Conectar carteira digital</p></font>
+
+| UC03 | Informações |
+| ----- | ---------- |
+| Descrição | Usuário conecta carteira digital como forma de pagamento no app |
+| Ator | Usuário |
+| Pré-condições |<ul><li>Acesso à internet</li><li>Conta no app</li><li>Conta válida em uma carteira digital válida</li>|
+| Ação | O usuário cadastra uma nova forma de pagamento | 
+| Fluxo principal | <ul><li>O usuário acessa o aplicativo BilheteriaDigital e faz login em sua conta.</br><ul><li>O usuário navega até as configurações de pagamento ou opções de pagamento.</br><li>O usuário seleciona a opção para adicionar uma carteira digital e escolhe a opção correspondente à sua carteira digital.</br><ul><li>O usuário insere as informações solicitadas, o aplicativo valida e verifica a autenticidade da carteira digital, e confirma a vinculação da carteira digital à conta do usuário.</br></ul> |
+| Fluxo alternativo | <ul><li>O usuário acessa o aplicativo</br><ul><li>O usuário seleciona a opção de criar uma nova conta.</br><ul><li>Durante o processo de criação da conta, o usuário é solicitado a fornecer informações adicionais, incluindo os dados de sua carteira digital.</br><ul><li>O usuário insere as informações da carteira digital e conclui o processo de criação da conta.</br></ul> |
+| Fluxo de exceção | <ul><li>A lista de carteiras digitais suportadas está vazia ou não é exibida corretamente.</li><li>O aplicativo exibe uma mensagem de erro informando que não foi possível carregar a lista de carteiras digitais suportadas e sugere:<ul><li>Tentar novamente mais tarde.</li><li>Entrar em contato com o suporte ao cliente para obter assistência.</li></ul></li></ul> |
+| Pós-condições | O usuário pode pagar pelos ingressos utilizando um carteira digital |
+| Data de Criação | 15/05/2023 |
+| Rastreabilidade | [RF23](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/)  |
+
+<font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font>
 
 <font size="3"><p style="text-align: center">Tabela 4: Responder pesquisa de perfil </p></font>
 
@@ -107,3 +126,4 @@ Além disso, no diagrama de casos de uso é possível especificar:
 | 1.0    | 13/05/2023 | Criação da página | [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | 1.1 | 15/05/2023 | Adição do Diagrama | [Geovanna Maciel](https://github.com/manuziny) e [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlves)
 | 1.2 | 15/05/2023 | Adição dos casos de ativar notificação e pesquisa de perfil | [Geovanna Maciel](https://github.com/manuziny) | [Sidney Fernando](https://github.com/nando3d3)
+| 1.3 | 15/05/2023 | Adição dos casos buscar evento e cadastrar carteira digital | [Sidney Fernando](https://github.com/nando3d3) | [Geovanna Maciel](https://github.com/manuziny)

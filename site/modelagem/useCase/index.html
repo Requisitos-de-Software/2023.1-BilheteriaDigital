@@ -1042,7 +1042,7 @@
 <p>Um caso de uso se refere a uma descrição detalhada de como o sistema será utilizado em uma determinada situação ou contexto. Ele descreve as interações entre os usuários e o sistema, apresentando os passos necessários para alcançar um objetivo específico.
 O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sistema, fornecendo uma visão clara dos requisitos funcionais do sistema, descrevendo as ações que os usuários podem realizar e as respostas do sistema a ações.</p>
 <h2 id="metodologia">Metodologia</h2>
-<p>O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/">Lara Dias</a> para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/">Lara Dias</a> em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assnto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 oa elemtnos do diagrama:</p>
+<p>O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/">Lara Dias</a> para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/">Lara Dias</a> em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assnto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 os elementos do diagrama:</p>
 <p><font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font></p>
 <table>
 <thead>
@@ -1087,57 +1087,58 @@ O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sis
 <p><img src="../../assets/usecase/diagramaCasoUso.png" class="usecaseElement"></p>
 <p><font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a> e <a href="https://github.com/manuziny">Geovanna Maciel</a></b></p></font></p>
 <h2 id="especializacao-dos-casos-de-uso">Especialização dos casos de uso</h2>
-<p><font size="3"><p style="text-align: center">Tabela x: </p></font></p>
+<p><font size="3"><p style="text-align: center">Tabela 1: Buscar evento</p></font></p>
 <table>
 <thead>
 <tr>
-<th>UC0x</th>
+<th>UC01</th>
 <th>Informações</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Descrição</td>
-<td>a</td>
+<td>O usuário é capaz de buscar eventos por diferentes filtros</td>
 </tr>
 <tr>
 <td>Ator</td>
-<td>a</td>
+<td>Usuário</td>
 </tr>
 <tr>
 <td>Pré-condições</td>
-<td>a</td>
+<td>Acesso à internet, acesso ao app</td>
 </tr>
 <tr>
 <td>Ação</td>
-<td>a</td>
+<td>O usuário  encontra eventos</td>
 </tr>
 <tr>
 <td>Fluxo principal</td>
-<td>a</td>
+<td><ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa "Buscar evento..." </br> <ul><li> O usuário filtra a busca por município, data, horário ou categoria do evento </br></td>
 </tr>
 <tr>
 <td>Fluxo alternativo</td>
-<td>a</td>
+<td><ul><li> O usuário acessa o aplicativo </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br></td>
 </tr>
 <tr>
 <td>Fluxo de exceção</td>
-<td>a</td>
+<td><ul><li> O usuário acessa o aplicativo </br><ul><li> A localização do usuário está desligada </br><ul><li> O usuário busca o evento por nome </br></td>
 </tr>
 <tr>
 <td>Pós-condições</td>
-<td>a</td>
+<td>O usuário tem acesso a eventos que correspondem ao(s) filtro(s) de busca escolhido(s)</td>
 </tr>
 <tr>
 <td>Data de Criação</td>
-<td>a</td>
+<td>15/05/2023</td>
 </tr>
 <tr>
 <td>Rastreabilidade</td>
-<td>a</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/">RF01</a>, <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/">RF02</a>, <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/">RF10</a></td>
 </tr>
 </tbody>
 </table>
+<p><font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font></p>
 <p><font size="3"><p style="text-align: center">Tabela 2: Ativar notificações sobre eventos </p></font></p>
 <table>
 <thead>
@@ -1190,6 +1191,58 @@ O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sis
 </tbody>
 </table>
 <p><font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/manuziny">Geovanna Maciel</a></b></p></font></p>
+<p><font size="3"><p style="text-align: center">Tabela 3: Conectar carteira digital</p></font></p>
+<table>
+<thead>
+<tr>
+<th>UC03</th>
+<th>Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Descrição</td>
+<td>Usuário conecta carteira digital como forma de pagamento no app</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td><ul><li>Acesso à internet</li><li>Conta no app</li><li>Conta válida em uma carteira digital válida</li></td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário cadastra uma nova forma de pagamento</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td><ul><li>O usuário acessa o aplicativo BilheteriaDigital e faz login em sua conta.</br><ul><li>O usuário navega até as configurações de pagamento ou opções de pagamento.</br><li>O usuário seleciona a opção para adicionar uma carteira digital e escolhe a opção correspondente à sua carteira digital.</br><ul><li>O usuário insere as informações solicitadas, o aplicativo valida e verifica a autenticidade da carteira digital, e confirma a vinculação da carteira digital à conta do usuário.</br></ul></td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><ul><li>O usuário acessa o aplicativo</br><ul><li>O usuário seleciona a opção de criar uma nova conta.</br><ul><li>Durante o processo de criação da conta, o usuário é solicitado a fornecer informações adicionais, incluindo os dados de sua carteira digital.</br><ul><li>O usuário insere as informações da carteira digital e conclui o processo de criação da conta.</br></ul></td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><ul><li>A lista de carteiras digitais suportadas está vazia ou não é exibida corretamente.</li><li>O aplicativo exibe uma mensagem de erro informando que não foi possível carregar a lista de carteiras digitais suportadas e sugere:<ul><li>Tentar novamente mais tarde.</li><li>Entrar em contato com o suporte ao cliente para obter assistência.</li></ul></li></ul></td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário pode pagar pelos ingressos utilizando um carteira digital</td>
+</tr>
+<tr>
+<td>Data de Criação</td>
+<td>15/05/2023</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/">RF23</a></td>
+</tr>
+</tbody>
+</table>
+<p><font size="2"><p style="text-align: center"><b>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a></b></p></font></p>
 <p><font size="3"><p style="text-align: center">Tabela 4: Responder pesquisa de perfil </p></font></p>
 <table>
 <thead>
@@ -1281,6 +1334,13 @@ O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sis
 <td>Adição dos casos de ativar notificação e pesquisa de perfil</td>
 <td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
 <td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>15/05/2023</td>
+<td>Adição dos casos buscar evento e cadastrar carteira digital</td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
 </tr>
 </tbody>
 </table>
