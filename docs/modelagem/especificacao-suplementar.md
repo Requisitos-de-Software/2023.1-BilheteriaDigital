@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Especificação Suplementar pode ser definida como um documento em linguagem natural no qual são descritos os requisitos num sistema.<a id="anchor_1" href="#REF1">^1^</a>(citação slide maurício) Ela é complementar aos [casos de uso](), pois ela captura os requisitos do sistema que não foram elicitados no método anterior. Entre os requisitos capturados estão incluídos: Requisitos legais e de regulamentação, padrões de aplicativos, atributos de qualidade, requisitos de utilidade, confiabilidade, desempenho, suportabilidade e outros requisitos como sistemas e ambientes operacionais, requisitos de compatibilidade e restrições de design. A metodologia mais utilizada para a produção de uma especificação suplementar é a FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos).
+Especificação Suplementar pode ser definida como um documento em linguagem natural no qual são descritos os requisitos num sistema.<a id="anchor_1" href="#REF1">^1^</a> Ela é complementar aos [casos de uso](../modelagem/useCase.md), pois ela captura os requisitos do sistema que não foram elicitados no método anterior. Entre os requisitos capturados estão incluídos: Requisitos legais e de regulamentação, padrões de aplicativos, atributos de qualidade, requisitos de utilidade, confiabilidade, desempenho, suportabilidade e outros requisitos como sistemas e ambientes operacionais, requisitos de compatibilidade e restrições de design. A metodologia mais utilizada para a produção de uma especificação suplementar é a FURPS+.
 
 ## Finalidade
 
@@ -14,7 +14,7 @@ O objetivo da BILHETERIA DIGITAL PROMOCAO E ENTRETENIMENTO LTDA é facilitar o m
 
 ## Metodologia
 
-Para a produção desse artefato será utilizado uma versão modificada do FURPS+. Nessa versão os requisitos de interface e físico, além da seção de componentes adquiridos serão omitidos.
+Para a produção desse artefato será utilizado uma versão modificada do FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos). Nessa versão os requisitos de interface e físico, além da seção de componentes adquiridos serão omitidos.
 
 ## Funcionalidade
 
@@ -77,7 +77,6 @@ Para essa categoria os requisitos identificados estão representados na tabela 3
 
 <font><p style="text-align: center">**Tabela 3** - Requisitos de Desempenho.</p></font>
 
-<center>
 
 | ID    | Descrição                                                            |
 | ----- | -------------------------------------------------------------------- |
@@ -87,11 +86,29 @@ Para essa categoria os requisitos identificados estão representados na tabela 3
 | DES04 | O sistema deve possuir uma navegação fluida.                         |
 | DES05 | O sistema deve possuir uma interface leve.                           |
 
-</center>
 
 <font size="3"><p style="text-align: center">Fonte: [Matheus Henrique](https://github.com/mathonaut).</p></font>
 
 ## Suportabilidade
+
+Envolve os requisitos relacionados ao suporte e manutenção do sistema. Isso inclui requisitos relacionados à facilidade de manutenção, capacidade de ser modificado e atualizado, documentação adequada, facilidade de teste e diagnóstico de problemas.
+
+Para essa categoria os requisitos identificados estão representados na tabela 4 a seguir.
+
+<font><p style="text-align: center">**Tabela 4** - Requisitos de Suportabilidade.</p></font>
+
+| ID    | Descrição                                                            |
+| ----- | -------------------------------------------------------------------- |
+| SUP01 | O sistema deve possuir uma documentação clara e abrangente para facilitar a manutenção e o suporte. |
+| SUP02 | O sistema deve possuir uma facilidade de manutenção através de uma estrutura modular e código bem organizado.                         |
+| SUP03 | O sistema deve possuir uma capacidade de extensão para adicionar novas funcionalidades e acompanhar as mudanças.                        |
+| SUP04 | O sistema deve possuir uma facilidade de atualização com processos eficientes e sem interrupções significativas.                     |
+| SUP05 | O sistema deve possuir um suporte ao usuário com canais adequados de suporte e equipe disponível.                         |
+| SUP06 | O sistema deve possuir uma testabilidade, com facilidade de realização de testes durante o desenvolvimento e a manutenção.     |
+| SUP07 | O sistema deve possuir uma rastreabilidade com mecanismos para registrar e rastrear mudanças e correções ao longo do tempo, incluindo controle de versão e registros de alterações.    |
+| SUP08 | O sistema deve possuir uma tolerância a falhas para garantir que o sistema possa lidar com falhas adequadamente, por meio de mecanismos de recuperação, detecção de falhas, manutenção da integridade dos dados, backups regulares e restauração rápida em caso de falhas.     |
+
+<font size="3"><p style="text-align: center">Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 
 ## Restrições de Design
 
@@ -103,13 +120,13 @@ Eles específica ou restringe o código ou a construção de um sistema.<a id="a
 
 O sistema deve ser construído em C++/C#, Python, Javascript (tipado com TypeScript), Kotlin e Swift.
 
-O sistema deve ser implementado nos sistemas iOS e Android. Os recursos necessários para a aplicação são: mínimo de 50 mb de armazenamento e 1,5 GB de memória ram. Recursos adicionais devem ser consultados nos manuais dos mantenedores dos sistemas operacionais, para o [iOS](https://support.apple.com/en-us/HT209574) e para o [Android](https://source.android.com/compatibility/10/android-10-cdd.pdf).
+Os recursos necessários para a aplicação são: mínimo de 50 mb de armazenamento e 1,5 GB de memória ram. Recursos adicionais devem ser consultados nos manuais dos mantenedores dos sistemas operacionais, para o [iOS](https://support.apple.com/en-us/HT209574) e para o [Android](https://source.android.com/compatibility/10/android-10-cdd.pdf).
 
 ## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
-Para essa categoria os requisitos identificados estão representados na tabela 4 a seguir.
+Para essa categoria os requisitos identificados estão representados na tabela 5 a seguir.
 
-<font><p style="text-align: center">**Tabela 4** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
+<font><p style="text-align: center">**Tabela 5** - Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line.</p></font>
 
 <center>
 
@@ -136,6 +153,10 @@ O sistema está sujeito à lei dos direitos autorais, portanto, para a utilizaç
 
 O sistema deve seguir os padrões definidos pelas normas: WCAG, ISO 9241-11, ISO/TC-211, ISO 9000, ISO 9001-3, ISO 12207, ISO 12202 e pelos guias de estilo dos sistemas Android e iOS.
 
+## Requisitos Físicos
+
+O sistema deve ser implementado nos sistemas iOS 11.0 ou posterior e Android 5.0 ou superior.
+
 ## Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> SERRANO, et al. Requisitos - Aula 13. Disponível em: <<https://aprender3.unb.br/course/view.php?id=18538&section=6>> Acesso em 11 maio 2023.
@@ -156,3 +177,4 @@ O sistema deve seguir os padrões definidos pelas normas: WCAG, ISO 9241-11, ISO
 | ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 12/05/2023 | Criação da página.                                                                                                                                                                                                          | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 12/05/2023 | Adição dos tópicos: Requisitos de Funcionalidade, de Usabilidade, de Confiabilidade, de Desempenho, de Implementação, de Sistema de Ajuda, de Licenciamento, Restrições de Design, Observações Legais e Padrões Aplicáveis. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.2`  | 16/05/2023 | Adição dos tópicos: Requisitos de Suportabilidade.| [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |
