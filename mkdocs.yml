@@ -50,6 +50,8 @@ nav:
       - Requisitos Elicitados: elicitacao/requisitos_elicitados.md
   - Modelagem:
       - Casos de uso: modelagem/useCase.md
+      - Cenários: modelagem/cenarios.md
+      - Léxicos: modelagem/lexicos.md
 
 theme:
   name: material
