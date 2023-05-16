@@ -50,6 +50,7 @@ nav:
       - Requisitos Elicitados: elicitacao/requisitos_elicitados.md
   - Modelagem:
       - Casos de uso: modelagem/useCase.md
+      - Especificação Suplementar: modelagem/especificacao-suplementar.md
       - Cenários: modelagem/cenarios.md
       - Léxicos: modelagem/lexicos.md
 

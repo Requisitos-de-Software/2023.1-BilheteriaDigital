@@ -141,7 +141,7 @@ Tabela 5: Conectar carteira digital.
 
 </center>
 
-## Bibliogrfia
+## Bibliografia
 
 >SERRANO, Milene. Requisitos – Aula 10. 2017. Apresentação de slides. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf](https://aprender3.unb.br/pluginfile.php/2523091/mod_resource/content/1/Aula%2010.pdf). Último acesso em: 24 abr. 2023. ANÁLISE de Requisitos de Software da Aplicação Duolingo, 2019. Disponível em: [https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/](https://requisitos-de-software.github.io/2019.2-Duolingo/modelagem/Cenarios/). Último acesso em: 24 abr. 2023.
 
