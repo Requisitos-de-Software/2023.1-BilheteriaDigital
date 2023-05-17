@@ -62,8 +62,8 @@ O segundo Léxico, presente na Tabela 4, faz o uso do seguinte requisito não im
 | L02 | Descrição |
 |-----------------|-------|
 | Classificação | Estado |
-| Impacto | A aba de sugestões se adapta ao que o usuário vê ou consome no site | 
-| Noção | A aba de sugestões mostra os eventos sugeridos àquele usuário |
+| Impacto | A aba de sugestões mostra os eventos sugeridos àquele usuário | 
+| Noção | A aba de sugestões se adapta ao que o usuário vê ou consome no site |
 | Dicionário | Eventos Sugeridos, Palpites e Recomendações |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
@@ -80,8 +80,8 @@ O terceiro Léxico, presente na Tabela 5, faz o uso do seguinte requisito não i
 | L03 | Descrição |
 |-----------------|-------|
 | Classificação | Estado |
-| Impacto | Eventos vinculados às tags | 
-| Noção | Na busca, serão listados todos os eventos vinculados àquela determinada palavra-chave |
+| Impacto | Na busca, serão listados todos os eventos vinculados àquela determinada palavra-chave | 
+| Noção | Eventos vinculados às tags especificadas para aquele evento |
 | Dicionário | Eventos com Palavras-chave e Eventos com Rótulo |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
@@ -99,26 +99,26 @@ O quarto Léxico, presente na Tabela 6, faz o uso do seguinte requisito não imp
 |-----------------|-------|
 | Classificação | Verbo |
 | Impacto | Os eventos são notificados aos usuários que permitiram | 
-| Noção | O usuário permitiu e, portanto, deseja receber notificações de determinados eventos |
+| Noção | O usuário permitiu e, portanto, deseja ser notificado pelo sistema sobre determinados eventos |
 | Dicionário | Aviso de eventos, Comunicar eventos e Informar eventos |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### L05: Comprador
+### L05: Usuário
 
 O quinto Léxico, presente na Tabela 7, faz o uso do seguinte requisito não implementado: o aplicativo notifica usuário sobre eventos, quando permitido (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>), filtrar por Estado e por Município (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a>), filtrar por data e por horário (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>), filtrar por idade mínima de entrada (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>), filtrar por categorias (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>), o usuário deve ser capaz de conectar uma carteira digital (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a>), o usuário deve ser capaz de mudar o idioma do app (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>) e o usuário deve ser capaz de acessar à assistente virtual (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a>).
 
 <figure markdown>
-<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 05: Comprador (L05)</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 6</b> - Léxico 05: Usuário (L05)</p></font>
 
 
 | L05 | Descrição |
 |-----------------|-------|
 | Classificação | Objeto |
-| Impacto | O comprador pode escolher se quer ou não receber notificações ([L04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos)) </br> O comprador pode filtrar a busca por idade, Estado, Município, data, horário e categoria ([L01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos)) </br> O comprador é capaz de conectar uma carteira digital </br> O comprador pode acessar à assistente virtual </br> O comprador pode mudar o idioma do app </br> O comprador recebe sugestões de eventos de acordo com a sua atividade ([L02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos)) </br> | 
-| Noção | Pessoa interessada em participar de algum evento ou procurar por eventos |
-| Dicionário | Cliente, Usuário, Consumidor e Freguês |
+| Impacto | O usuário pode escolher se quer ou não receber notificações ([L04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos)) </br> O usuário pode filtrar a busca por idade, Estado, Município, data, horário e categoria ([L01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos)) </br> O usuário é capaz de conectar uma carteira digital </br> O usuário pode acessar à assistente virtual </br> O usuário pode mudar o idioma do app </br> | 
+| Noção | O sistema pode enviar notificações ao usuário, caso permitido ([L04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos)) </br> O sistema coleta dados das atividades do usuário dentro do app e os sugere ([L02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos)) </br> |
+| Dicionário | Cliente, Comprador, Consumidor e Freguês |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
@@ -136,3 +136,4 @@ O quinto Léxico, presente na Tabela 7, faz o uso do seguinte requisito não imp
 | Versão | Data       | Descrição                                    | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | -------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 14/05/2023 | Criação dos léxicos.                           | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougalvs) e [Gabriel Campello](https://github.com/G16C) |
+| `1.1`  | 17/05/2023 | Atualização dos léxicos.                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3) |
