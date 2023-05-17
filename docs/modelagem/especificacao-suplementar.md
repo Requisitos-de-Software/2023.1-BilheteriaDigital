@@ -71,7 +71,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 2
 
 ## Desempenho
 
-Diz respeito às condições que os requisitos devem operar. A velocidade, (escrever mais)etc.
+Diz respeito às condições que os requisitos devem operar. A velocidade, limites superiores e inferiores, tempo de resposta, restrições de interface e de funções, etc.
 
 Para essa categoria os requisitos identificados estão representados na tabela 3 a seguir.
 
