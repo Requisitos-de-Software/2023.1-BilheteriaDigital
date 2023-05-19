@@ -33,8 +33,8 @@ Para essa categoria os requisitos identificados estão representados na tabela 1
 | ID    | Descrição                                                                                                                                |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | USA01 | O sistema deve ter um design minimalista, com ícones e cores que facilitem a compreensão do que está ocorrendo.                          |
-| USA02 | O sistema deve possuir recursos de acessibilidade.                                                                                       |
-| USA03 | O sistema deve dar feedback ao usuário, como pop ups e mensagens.                                                                        |
+| USA02 | O sistema deve possuir recursos de acessibilidade como teclado virtual, opção de alto contraste, aumento de fonte e audiodescrição.      |
+| USA03 | O sistema deve dar feedback ao usuário, com pop ups e mensagens.                                                                         |
 | USA04 | O sistema deve possuir caminhos curtos, com tarefas complexas sendo finalizada em no máximo 7 cliques.                                   |
 | USA05 | O sistema deve fornecer no mínimo as quatro principais formas de pagamentos: Boleto Bancário, Pix, Cartão de crédito e Cartão de débito. |
 | USA06 | O sistema deve evitar que o usuário realize passos repetitivos.                                                                          |
@@ -77,15 +77,13 @@ Para essa categoria os requisitos identificados estão representados na tabela 3
 
 <font><p style="text-align: center">**Tabela 3** - Requisitos de Desempenho.</p></font>
 
-
-| ID    | Descrição                                                            |
-| ----- | -------------------------------------------------------------------- |
-| DES01 | O sistema deve, mostrar como padrão no máximo 20 eventos por página. |
-| DES02 | O sistema não deve ter um tempo de resposta superior a 200ms.        |
-| DES03 | O sistema deve permitir mais de 1 milhão requisições por segundo.    |
-| DES04 | O sistema deve possuir uma navegação fluida.                         |
-| DES05 | O sistema deve possuir uma interface leve.                           |
-
+| ID    | Descrição                                                                                          |
+| ----- | -------------------------------------------------------------------------------------------------- |
+| DES01 | O sistema deve, mostrar como padrão no máximo 20 eventos por página.                               |
+| DES02 | O sistema não deve ter um tempo de resposta superior a 200ms.                                      |
+| DES03 | O sistema deve permitir mais de 1 milhão requisições por segundo.                                  |
+| DES04 | O sistema deve possuir uma navegação fluida, sem engasgo e caminhos seguindo uma sequência lógica. |
+| DES05 | O sistema deve possuir uma interface leve, com no máximo 30 elementos na tela de uma vez.          |
 
 <font size="3"><p style="text-align: center">Fonte: [Matheus Henrique](https://github.com/mathonaut).</p></font>
 
@@ -97,16 +95,16 @@ Para essa categoria os requisitos identificados estão representados na tabela 4
 
 <font><p style="text-align: center">**Tabela 4** - Requisitos de Suportabilidade.</p></font>
 
-| ID    | Descrição                                                            |
-| ----- | -------------------------------------------------------------------- |
-| SUP01 | O sistema deve possuir uma documentação clara e abrangente para facilitar a manutenção e o suporte. |
-| SUP02 | O sistema deve possuir uma facilidade de manutenção através de uma estrutura modular e código bem organizado.                         |
-| SUP03 | O sistema deve possuir uma capacidade de extensão para adicionar novas funcionalidades e acompanhar as mudanças.                        |
-| SUP04 | O sistema deve possuir uma facilidade de atualização com processos eficientes e sem interrupções significativas.                     |
-| SUP05 | O sistema deve possuir um suporte ao usuário com canais adequados de suporte e equipe disponível.                         |
-| SUP06 | O sistema deve possuir uma testabilidade, com facilidade de realização de testes durante o desenvolvimento e a manutenção.     |
-| SUP07 | O sistema deve possuir uma rastreabilidade com mecanismos para registrar e rastrear mudanças e correções ao longo do tempo, incluindo controle de versão e registros de alterações.    |
-| SUP08 | O sistema deve possuir uma tolerância a falhas para garantir que o sistema possa lidar com falhas adequadamente, por meio de mecanismos de recuperação, detecção de falhas, manutenção da integridade dos dados, backups regulares e restauração rápida em caso de falhas.     |
+| ID    | Descrição                                                                                                                                                                                                                                                                  |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SUP01 | O sistema deve possuir uma documentação clara e abrangente para facilitar a manutenção e o suporte.                                                                                                                                                                        |
+| SUP02 | O sistema deve possuir uma facilidade de manutenção através de uma estrutura modular e código bem organizado.                                                                                                                                                              |
+| SUP03 | O sistema deve possuir uma capacidade de extensão para adicionar novas funcionalidades e acompanhar as mudanças.                                                                                                                                                           |
+| SUP04 | O sistema deve possuir uma facilidade de atualização com processos eficientes e sem interrupções significativas.                                                                                                                                                           |
+| SUP05 | O sistema deve possuir um suporte ao usuário com canais adequados de suporte e equipe disponível.                                                                                                                                                                          |
+| SUP06 | O sistema deve possuir uma testabilidade, com facilidade de realização de testes durante o desenvolvimento e a manutenção.                                                                                                                                                 |
+| SUP07 | O sistema deve possuir uma rastreabilidade com mecanismos para registrar e rastrear mudanças e correções ao longo do tempo, incluindo controle de versão e registros de alterações.                                                                                        |
+| SUP08 | O sistema deve possuir uma tolerância a falhas para garantir que o sistema possa lidar com falhas adequadamente, por meio de mecanismos de recuperação, detecção de falhas, manutenção da integridade dos dados, backups regulares e restauração rápida em caso de falhas. |
 
 <font size="3"><p style="text-align: center">Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 
@@ -119,6 +117,8 @@ O design do sistema deverá seguir os padrões de boas práticas utilizadas atua
 Eles específica ou restringe o código ou a construção de um sistema.<a id="anchor_2" href="#REF2">^2^</a>
 
 O sistema deve ser construído em C++/C#, Python, Javascript (tipado com TypeScript), Kotlin e Swift.
+
+O sistema deve ser implementado nos sistemas iOS 11.0 ou posterior e Android 5.0 ou superior.
 
 Os recursos necessários para a aplicação são: mínimo de 50 mb de armazenamento e 1,5 GB de memória ram. Recursos adicionais devem ser consultados nos manuais dos mantenedores dos sistemas operacionais, para o [iOS](https://support.apple.com/en-us/HT209574) e para o [Android](https://source.android.com/compatibility/10/android-10-cdd.pdf).
 
@@ -155,7 +155,7 @@ O sistema deve seguir os padrões definidos pelas normas: WCAG, ISO 9241-11, ISO
 
 ## Requisitos Físicos
 
-O sistema deve ser implementado nos sistemas iOS 11.0 ou posterior e Android 5.0 ou superior.
+O sistema deve funcionar em computadores de mesa e laptops, além de tablets e smartphones com navegadores de internet compatíveis.
 
 ## Referências Bibliográficas
 
@@ -177,4 +177,4 @@ O sistema deve ser implementado nos sistemas iOS 11.0 ou posterior e Android 5.0
 | ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 12/05/2023 | Criação da página.                                                                                                                                                                                                          | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 12/05/2023 | Adição dos tópicos: Requisitos de Funcionalidade, de Usabilidade, de Confiabilidade, de Desempenho, de Implementação, de Sistema de Ajuda, de Licenciamento, Restrições de Design, Observações Legais e Padrões Aplicáveis. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.2`  | 16/05/2023 | Adição dos tópicos: Requisitos de Suportabilidade.| [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.2`  | 16/05/2023 | Adição dos tópicos: Requisitos de Suportabilidade.                                                                                                                                                                          | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |
