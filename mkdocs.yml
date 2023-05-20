@@ -55,6 +55,7 @@ nav:
       - Especificação Suplementar: modelagem/especificacao-suplementar.md
       - Cenários: modelagem/cenarios.md
       - Léxicos: modelagem/lexicos.md
+      - História de Usuário: modelagem/historia-de-usuario.md
 
 theme:
   name: material
