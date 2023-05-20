@@ -3,6 +3,24 @@ A história de usuário é uma técnica amplamente utilizada na disciplina de re
 
 ## Metodologia
 
+As histórias de usuário são provenientes do [backlog do produto]() e serão descritas em cards com base na tabela 1.
+
+
+<font size="3"><p style="text-align: center">Tabela 1: Modelo de card para histórias de usuário.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| USXX | Titulo |
+| Descrição | _Eu, como_ XXX, _desejo_ XXX _para_ XXX |
+| Critérios de Aceitação | >XXX <br> >XXX <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+## Épicos
+
+## Features
 
 ## Bibliografia
 
@@ -14,3 +32,4 @@ A história de usuário é uma técnica amplamente utilizada na disciplina de re
 | Versão | Data       | Descrição                                      | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1.0    | 20/05/2023 | Criação da página | [Geovanna Maciel](https://github.com/manuziny)   | [Douglas Alves](https://github.com/dougAlvs) |
+| 1.1    | 20/05/2023 | Adição metodologia | [Douglas Alves](https://github.com/dougAlvs)  |  [Arthur de Melo](https://github.com/arthurmlv) |
