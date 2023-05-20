@@ -5,3 +5,12 @@ A história de usuário é uma técnica amplamente utilizada na disciplina de re
 
 
 ## Bibliografia
+
+> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, 940 p.
+
+>SERRANO, Milene. Requisitos – Aula 15. 2017. Apresentação de slides. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523115/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf](https://aprender3.unb.br/pluginfile.php/2523115/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf). Acesso em: 20/05/2023.
+
+## Histórico de versões
+| Versão | Data       | Descrição                                      | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| 1.0    | 20/05/2023 | Criação da página | [Geovanna Maciel](https://github.com/manuziny)   | [Douglas Alves](https://github.com/dougAlvs) |
