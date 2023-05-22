@@ -48,6 +48,42 @@ Num NFR Framework, os softgoals se especializam cada vez mais. Por conseguinte, 
 - EQUALS: relação direta entre as satisfações do softgoal derivado e a do primordial.
 - SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.
 
+## Metodologia
+
+Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io.
+
+## NFR 00 - Geral
+
+## NFR 01 - Usabilidade
+
+## Análise 01
+
+## NFR 02 - Confiabilidade
+
+## Análise 02
+
+## NFR 03 - Eficiência
+
+## Análise 03
+
+## NFR 04 - Portabilidade
+
+## Análise 04
+
+## NFR 05 - Segurança
+
+## Análise 05
+
+## NFR 06 - Desempenho
+
+## Análise 06
+
+## NFR 07 - Suportabilidade
+
+## Análise 07
+
+
+
 
 ## Referências Bibliográficas
 
