@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#backlog" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -991,10 +996,105 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Backlog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Backlog
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temas" class="md-nav__link">
+    Temas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epicos" class="md-nav__link">
+    Épicos
+  </a>
+  
+    <nav class="md-nav" aria-label="Épicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#epico-1-acessibilidade" class="md-nav__link">
+    Épico 1 - Acessibilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epico-2-filtragem" class="md-nav__link">
+    Épico 2 - Filtragem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epicos-3-preferencias" class="md-nav__link">
+    Épicos 3 - Preferências
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1045,6 +1145,85 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temas" class="md-nav__link">
+    Temas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epicos" class="md-nav__link">
+    Épicos
+  </a>
+  
+    <nav class="md-nav" aria-label="Épicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#epico-1-acessibilidade" class="md-nav__link">
+    Épico 1 - Acessibilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epico-2-filtragem" class="md-nav__link">
+    Épico 2 - Filtragem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#epicos-3-preferencias" class="md-nav__link">
+    Épicos 3 - Preferências
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1062,9 +1241,149 @@
   
 
 
-  <h1>Backlog</h1>
-
-
+<h1 id="backlog">Backlog</h1>
+<h2 id="introducao">Introdução</h2>
+<p>O Backlog do Produto é uma lista de todas as funcionalidades desejadas para um produto ordenado por prioridades O responsável por priorizar os itens é o Dono do Produto (<em>Product Owner</em>). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A definição do tema, épicos é realizada a partir dos <a href="../../../elicitacao/requisitos_elicitados/#requisitos-funcionais">requisitos funcionais</a> apresentados na seção de <a href="../../../elicitacao/requisitos_elicitados">Requisitos Elicitados</a>. Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados foram estão sendo apresentados na tabela 1 a seguir.</p>
+<p><center></p>
+<p><strong>Tabela 1</strong> - Requisitos Funcionais Elicitados não Implementados.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01</td>
+<td>O aplicativo filtra os eventos por Estado e por Município.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>O aplicativo filtra os eventos por data e por horário.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O aplicativo filtra os eventos por idade mínima de entrada.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>O aplicativo filtra eventos por categorias.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>O aplicativo da sugestões de eventos com base no histórico de buscas do usuário.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a busca.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>O aplicativo notifica usuário sobre eventos, quando permitido.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>O usuário pode responder a pesquisa de perfil sobre seus gostos</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS12</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>O usuário é capaz de conectar uma carteira digital</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>O usuário é capaz de mudar o idioma do app</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>O usuário é capaz de aumentar a fonte</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS20</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>O usuário é capaz de dar zoom</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS21</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>O usuário é capaz de acessar a assistente virtual</td>
+<td><a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/nando3d3">Sidney Fernando</a>.</p>
+<p></center></p>
+<h2 id="temas">Temas</h2>
+<p>Analisando os requisitos da tabela, foi possível organizá-los em dois grandes temas.</p>
+<ul>
+<li><strong>Funcionalidades</strong>: Agrupa funcionalidade que o sistema precisa oferecer para que o usuário consiga realizar com sucesso suas tarefas.</li>
+<li><strong>Perfil</strong>: Agrupa requisitos relacionadas a como o usuário se apropria do sistema e o modifica de acordo com seus gostos e desejos.</li>
+</ul>
+<h2 id="epicos">Épicos</h2>
+<p>Após a definição dos temas, são criadas épicos a fim de diminuir ainda mais a abstração das tarefas que deverão ser realizadas ao decorrer do projeto. Os épicos serão apresentados utilizando o padrão de escrita das histórias de usuário.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Rafael, tem que descrever melhor os épicos!!</p>
+</div>
+<h3 id="epico-1-acessibilidade">Épico 1 - Acessibilidade</h3>
+<p>Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.</p>
+<h3 id="epico-2-filtragem">Épico 2 - Filtragem</h3>
+<p>Como usuário típico, eu desejo funcionalidades que me permitam filtrar eventos.</p>
+<h3 id="epicos-3-preferencias">Épicos 3 - Preferências</h3>
+<p>Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.</p>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>SOUZA, Nicolas; MACEDO, Lucas. Backlog do Produto. Repositório do Grupo Lichess da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: &lt;<a href="https://requisitos-de-software.github.io/2022.2-Lichess/modelagem/agil/backlog/">https://requisitos-de-software.github.io/2022.2-Lichess/modelagem/agil/backlog/</a>&gt;. Acesso em: 18 maio 2023.</p>
+<p>POPOV, Arthur Taylor de Jesus; SANTOS, Eduardo Schuindt. Backlog do Produto. Repositório do Grupo MEI da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: &lt;<a href="https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/">https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/</a>&gt;. Acesso em: 18 maio 2023.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>22/05/2023</td>
+<td>Criação da página.</td>
+<td><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+<td><a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
