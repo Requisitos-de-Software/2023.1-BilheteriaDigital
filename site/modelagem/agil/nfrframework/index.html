@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#introducao" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -978,9 +983,99 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          NFR Framework
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         NFR Framework
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    Softgoal Interdependency Graph
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    Tipos de Softgoal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    Interdependências
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    Decomposições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    Contribuições
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1046,6 +1141,82 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    Softgoal Interdependency Graph
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    Tipos de Softgoal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    Interdependências
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    Decomposições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    Contribuições
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1064,7 +1235,67 @@
 
   <h1>NFR Framework</h1>
 
-
+<h2 id="introducao">Introdução</h2>
+<p>Uma forma de representação e análise dos <a href="../../../elicitacao/requisitos_elicitados/#requisitos-nao-funcionais">Requisitos Não-Funcionais</a> é o NFR Framework, o qual visa à implementação de resoluções particulares. Sendo assim, para tal, considera-se as características gerais do sistema em questão e de seu domínio. No NFR Framework, faz-se o uso do modelo de Softgoal Interdependency Graph (SIG).</p>
+<h2 id="softgoal-interdependency-graph">Softgoal Interdependency Graph</h2>
+<p>O Softgoal Interdependency Graph (SIG) é uma forma de visualização do funcionamento do NFR Framework. Dessa forma, trata-se de um gráfico que registra os posicionamentos da equipe de desenvolvimento acerca dos softgoals e explicita suas interdependências de forma gráfica e concisa<a id="anchor_1" href="#REF1"><sup>1</sup></a>.</p>
+<h3 id="tipos-de-softgoal">Tipos de Softgoal</h3>
+<p>Para a compreensão do SIG, é inexorável discernir a definição de NFR Softgoal: um objetivo que não é explicitamente definido e seus critérios de satisfação são imprecisos. Sendo assim, um softgoal é uma característica abstrata que está sujeita à vistoria, ou seja, postula-se posteriormente o destino de um determinado softgoal. Além disso, os softgoals podem ser operacionalizados, nesse caso, tomam uma forma concreta. Portanto, entende-se como funcionalidades. Por fim, há os softgoals de afirmação, os quais são escritos em linguagem natural e se tratam de registros adicionais e argumentativos, os quais podem ser incrementados ao modelo<a id="anchor_1" href="#REF1"><sup>1</sup></a>. Os tipos de softgoal estão ilustrados na Figura 1.</p>
+<figure>
+<p><font size="3"><p style="text-align: center"><b>Figura 1</b> - Tipos de Softgoal</p></font></p>
+<p><img 300="300" alt="Diagrama do Modelo de Ciclo de Vida de Mayhew" src="../../../assets/nfr-framework/tipos.png#only-light" width:="width:" />
+<img 300="300" alt="Diagrama do Modelo de Ciclo de Vida de Mayhew" src="../../../assets/nfr-framework/tipos2.png#only-dark" width:="width:" /></p>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+</figure>
+<h3 id="interdependencias">Interdependências</h3>
+<p>As interdependências são definições para as associações que ocorrem entre softgoals. Tais são divididas em decomposições e contribuições:</p>
+<h4 id="decomposicoes">Decomposições</h4>
+<p>As decomposições podem ocorrer em todos os níveis de abstração: Softgoals de NFR, de Operacionalização e de Afirmação. Nas três primeiras decomposições, os softgoals são subdivididos em softgoals especificados (SILVA, 2019)<a id="anchor_1" href="#REF1"><sup>1</sup></a>.</p>
+<ul>
+<li>Decomposição NFR: ajuda a dividir vicissitudes primordiais em partes menores, o que reduz as ambiguidades e facilita a priorização.</li>
+<li>Decomposição de Operacionalização: tem por finalidade refinar uma solução geral em soluções particulares.</li>
+<li>Decomposição de Afirmação: serve como afirmação ou negação de justificativas específicas do projeto.</li>
+<li>Decomposição de Priorização: trata-se de uma decomposição especial, na qual o softgoal é refinado em outro softgoal de mesmo tipo e tópico. No entanto, associa-se uma prioridade.</li>
+</ul>
+<h4 id="contribuicoes">Contribuições</h4>
+<p>Num NFR Framework, os softgoals se especializam cada vez mais. Por conseguinte, o um softgoal derivado de outro pode contribuir de forma integral ou truncada, e também de forma positiva ou negativa, para o softgoal do qual ele derivou. Portanto, listar-se-á os tipos de contribuição<a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
+<ul>
+<li>AND: se os softgoals derivados forem satisfeitos, o softgoal primordial também será.</li>
+<li>OR: se algum dos softgoals derivados forem satisfeitos, o softgoal primordial também será.</li>
+<li>MAKE(++): um softgoal originado contribui de forma plenamente positiva, logo o softgoal original também será satisfeito.</li>
+<li>BREAK(--): um softgoal originado contribui de forma plenamente negativa, logo o softgoal original será negado.</li>
+<li>HELP(+): um softgoal originado realiza uma contribuição restritamente positiva, o que reflete da mesma forma e na mesma intensidade no softgoal primordial.</li>
+<li>HURT(-): um softgoal originado realiza uma contribuição restritamente negativa, o que reflete da mesma forma e na mesma intensidade no softgoal primordial.</li>
+<li>UNKNOWN(?): contribuição incógnita.</li>
+<li>EQUALS: relação direta entre as satisfações do softgoal derivado e a do primordial.</li>
+<li>SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.</li>
+</ul>
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="REF1" href="#anchor_1">1.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: <a href="https://repositorio.ufpe.br/handle/123456789/34150">https://repositorio.ufpe.br/handle/123456789/34150</a>. Acesso em: 22/05/2023.</p>
+<p><a id="REF2" href="#anchor_2">2.</a>CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science &amp; Business Media: [S.l.], 2000. v. 5.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>22/05/2023</td>
+<td>Introdução, SIG, Tipos de Softgoal e Interdependências.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
