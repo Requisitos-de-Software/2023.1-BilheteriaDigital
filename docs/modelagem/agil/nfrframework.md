@@ -62,6 +62,19 @@ Num NFR Framework, os softgoals se especializam cada vez mais. Por conseguinte, 
 - EQUALS: relação direta entre as satisfações do softgoal derivado e a do primordial.
 - SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.
 
+#### Propagação de Impactos
+
+A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações: <a id="anchor_2" href="#REF2">^2^</a>:
+
+- ✓ (satisfeito): Indica que um requisito não funcional contribui positivamente para a satisfação de outro requisito.
+- 𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.
+- X (negado): Indica que um requisito não funcional afeta negativamente outro requisito, negando ou contradizendo sua realização. 
+- 𝒲- (fracamente negado): Similar à notação X, mas com uma relação de negação mais fraca. 
+- 𝛼 (conflitante): Indica uma relação de conflito entre requisitos não funcionais. Isso significa que os requisitos são incompatíveis ou entram em conflito um com o outro.
+- u (indeterminado): Uma relação indeterminada ou desconhecida entre requisitos não funcionais. Isso ocorre quando não há informações suficientes para determinar o impacto de um requisito em outro.
+
+
+
 ## Metodologia
 
 Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io.
@@ -109,8 +122,28 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 
 </figure>
 
-### Propagação dos Impactos
+### Propagação dos Impactos - Usabilidade
 
+<center>
+
+| NFR | Impacto | Avaliador |
+|-----|---------|-------|
+|Usabilidade|  𝒲-| [Gabriel Campello](https://github.com/G16C)|
+|Antecipação |  𝒲+|  [Gabriel Campello](https://github.com/G16C)|
+|Sugestões| 𝒲-|[Gabriel Campello](https://github.com/G16C)|
+|Adaptação| 𝒲-|[Gabriel Campello](https://github.com/G16C)|
+|Sugestões Gerais| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Atividade do Usuário| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|Disponibilidade| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Busca| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Filtro| 𝒲-|[Gabriel Campello](https://github.com/G16C)|
+|Opções de Filtro| X|[Gabriel Campello](https://github.com/G16C)|
+|Busca Multivalorada| X|[Gabriel Campello](https://github.com/G16C)|
+|Informações Relevantes| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|SExibir Inf. do Evento| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|Página Única| X|[Gabriel Campello](https://github.com/G16C)|
+
+<center/p>
 
 ## NFR 02 - Eficiência
 
@@ -177,3 +210,4 @@ Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabe
 | `1.0`  | 22/05/2023 | Introdução, SIG, Tipos de Softgoal e Interdependências.| [Arthur de Melo](https://github.com/arthurmlv)   | [Sidney Fernando](https://github.com/nando3d3)   |
 | `1.1`  | 22/05/2023 | SIG Usabilidade e Desempenho | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.4`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |

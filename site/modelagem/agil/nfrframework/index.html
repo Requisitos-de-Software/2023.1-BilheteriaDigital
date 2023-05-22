@@ -1049,6 +1049,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#propagacao-de-impactos" class="md-nav__link">
+    Propagação de Impactos
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1082,8 +1089,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos" class="md-nav__link">
-    Propagação dos Impactos
+  <a href="#propagacao-dos-impactos-usabilidade" class="md-nav__link">
+    Propagação dos Impactos - Usabilidade
   </a>
   
 </li>
@@ -1102,7 +1109,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos_1" class="md-nav__link">
+  <a href="#propagacao-dos-impactos" class="md-nav__link">
     Propagação dos Impactos
   </a>
   
@@ -1122,7 +1129,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos_2" class="md-nav__link">
+  <a href="#propagacao-dos-impactos_1" class="md-nav__link">
     Propagação dos Impactos
   </a>
   
@@ -1272,6 +1279,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#propagacao-de-impactos" class="md-nav__link">
+    Propagação de Impactos
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1305,8 +1319,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos" class="md-nav__link">
-    Propagação dos Impactos
+  <a href="#propagacao-dos-impactos-usabilidade" class="md-nav__link">
+    Propagação dos Impactos - Usabilidade
   </a>
   
 </li>
@@ -1325,7 +1339,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos_1" class="md-nav__link">
+  <a href="#propagacao-dos-impactos" class="md-nav__link">
     Propagação dos Impactos
   </a>
   
@@ -1345,7 +1359,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#propagacao-dos-impactos_2" class="md-nav__link">
+  <a href="#propagacao-dos-impactos_1" class="md-nav__link">
     Propagação dos Impactos
   </a>
   
@@ -1436,6 +1450,16 @@
 <li>EQUALS: relação direta entre as satisfações do softgoal derivado e a do primordial.</li>
 <li>SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.</li>
 </ul>
+<h4 id="propagacao-de-impactos">Propagação de Impactos</h4>
+<p>A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações: <a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
+<ul>
+<li>✓ (satisfeito): Indica que um requisito não funcional contribui positivamente para a satisfação de outro requisito.</li>
+<li>𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.</li>
+<li>X (negado): Indica que um requisito não funcional afeta negativamente outro requisito, negando ou contradizendo sua realização. </li>
+<li>𝒲- (fracamente negado): Similar à notação X, mas com uma relação de negação mais fraca. </li>
+<li>𝛼 (conflitante): Indica uma relação de conflito entre requisitos não funcionais. Isso significa que os requisitos são incompatíveis ou entram em conflito um com o outro.</li>
+<li>u (indeterminado): Uma relação indeterminada ou desconhecida entre requisitos não funcionais. Isso ocorre quando não há informações suficientes para determinar o impacto de um requisito em outro.</li>
+</ul>
 <h2 id="metodologia">Metodologia</h2>
 <p>Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io.</p>
 <h2 id="nfr-00-geral">NFR 00 - Geral</h2>
@@ -1464,7 +1488,90 @@
 <img 300="300" alt="Diagrama do Modelo de Ciclo de Vida de Mayhew" src="../../../assets/nfr-framework/usabilidadeD.png#only-dark" width:="width:" /></p>
 <p><font size="3"><p style="text-align: center"> Fonte: Autores</p></font></p>
 </figure>
-<h3 id="propagacao-dos-impactos">Propagação dos Impactos</h3>
+<h3 id="propagacao-dos-impactos-usabilidade">Propagação dos Impactos - Usabilidade</h3>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>NFR</th>
+<th>Impacto</th>
+<th>Avaliador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Usabilidade</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Antecipação</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Sugestões</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Adaptação</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Sugestões Gerais</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Atividade do Usuário</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Disponibilidade</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Busca</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Filtro</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Opções de Filtro</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Busca Multivalorada</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Informações Relevantes</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>SExibir Inf. do Evento</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Página Única</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+</tbody>
+</table>
+<p><center/p></p>
 <h2 id="nfr-02-eficiencia">NFR 02 - Eficiência</h2>
 <p>Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 1:</p>
 <ul>
@@ -1477,7 +1584,7 @@
 <p><img 300="300" alt="SIG Eficiência" src="../../../assets/nfr-framework/eficiencia.png" width:="width:" /></p>
 </figure>
 <p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
-<h3 id="propagacao-dos-impactos_1">Propagação dos Impactos</h3>
+<h3 id="propagacao-dos-impactos">Propagação dos Impactos</h3>
 <h2 id="nfr-03-desempenho">NFR 03 - Desempenho</h2>
 <p>Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 1:</p>
 <ul>
@@ -1489,7 +1596,7 @@
 <p><img 300="300" alt="SIG Desempenho" src="../../../assets/nfr-framework/desempenhoL.png" width:="width:" /></p>
 </figure>
 <p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></p></font></p>
-<h3 id="propagacao-dos-impactos_2">Propagação dos Impactos</h3>
+<h3 id="propagacao-dos-impactos_1">Propagação dos Impactos</h3>
 <h2 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h2>
 <p style="text-align: center"><b>Tabela 1</b> - Requisitos Não-Funcionais</p>
 
@@ -1572,6 +1679,13 @@
 <td>22/05/2023</td>
 <td>SIG Eficiência</td>
 <td><a href="https://github.com/arthurmlv">Arthur de Melo</a>, <a href="https://github.com/G16C">Gabriel Campello</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>22/05/2023</td>
+<td>Adição Notações de Impacto e Avaliação Impactos Usabilidade</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
 <td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
 </tr>
 </tbody>
