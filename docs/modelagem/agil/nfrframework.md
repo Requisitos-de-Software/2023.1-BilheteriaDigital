@@ -140,6 +140,45 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 </center>
 
+<center>
+
+<b>Tabela 4</b> - Cartão de Especificação 4
+
+| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Eficiência/Desempenho |
+|---------------| ------------|
+| Descrição: As ações realizadas no app não devem demorar mais que 200 ms para responder ao usuário
+| Justificativa: As ações rápidas no app garantem uma experiência fluida, mantendo o usuário engajado e evitando frustrações desnecessárias.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: As ações realizadas no app devem ser executadas e responder ao usuário em um tempo máximo de 250 ms para garantir uma experiência ágil e satisfatória.
+| Dependências: Performance
+| Prioridade: 0,469
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Sidney Fernando](https://github.com/nando3d3)
+
+</center>
+
+
+<center>
+
+<b>Tabela 5</b> - Cartão de Especificação 5
+
+| Nº Requisito: 5 (<a id="anchor_NF05" href="#NF05">RNF05</a>)| Classificação: Usabilidade/Eficiência |
+|---------------| ------------|
+| Descrição: O app deve permitir a filtragem dos eventos cadastrados no banco de dados.
+| Justificativa: A filtragem de eventos no app proporciona aos usuários a capacidade de encontrar rapidamente informações relevantes, melhorando a usabilidade e a eficiência na busca de eventos específicos no banco de dados.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: Filtragem flexível.
+| Dependências: Atividade do Usuário
+| Prioridade: 1,042
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Sidney Fernando](https://github.com/nando3d3)
+
+</center>
+
 ## NFR 00 - Geral
 
 A Figura 3 a seguir demonstra o Softgoal Interdependency Graph para se ter uma visão geral.
@@ -445,3 +484,4 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 | `1.6`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.7`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.8`  | 23/05/2023 | Adição dos Cartões 1 a 3 e refatoração de Tabelas  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.9`  | 23/05/2023 | Adição dos Cartões 4 e 5  |  [Sidney Fernando](https://github.com/nando3d3)  | [Geovanna Maciel](https://github.com/manuziny) |
