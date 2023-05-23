@@ -75,7 +75,7 @@ A propagação de impactos no NFR Framework  envolve a identificação das rela�
 
 ## Metodologia
 
-Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io. Os temas foram selecionados de acordo com os RNF já elicitados e disponíveis na Tabela 7.
+Os frameworks foram separados por temas, esses temas foram divididos em três para limitar o escopo aqui trabalhado. Após isso, fez-se uma introspecção para a construção do SIG a partir dos tópicos gerais definidos, a fim de fazer relações com os Requisitos Não-Funcionais da Tabela 12, após isso, fez-se o uma revisão na literatura e foi feita a validação do SIG confeccionado. A plataforma utilizada para a elaboração foi o Draw.io.
 
 ## Cartões de Especificação
 
@@ -87,7 +87,7 @@ Obs: Os valores de prioridade foram baseados no modelo de priorização First Th
 
 <b>Tabela 1</b> - Cartão de Especificação 1
 
-| Nr Requisito: 1 (<a id="anchor_NF01" href="#NF01">RNF01</a>)| Classificação: Usabilidade |
+| Nº Requisito: 1 (<a id="anchor_NF01" href="#NF01">RNF01</a>)| Classificação: Usabilidade |
 |---------------| ------------|
 | Descrição: O app deve fornecer eventos direcionados.
 | Justificativa: O sistema deve ser capaz de direcionar eventos ao usuário a partir de suas preferências pessoais. Assim o usuário não irá perder tempo buscando por eventos que se adequem ao seu perfil .
@@ -106,7 +106,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 <b>Tabela 2</b> - Cartão de Especificação 2
 
-| Nr Requisito: 2 (<a id="anchor_NF02" href="#NF02">RNF02</a>)| Classificação: Usabilidade/Eficiência |
+| Nº Requisito: 2 (<a id="anchor_NF02" href="#NF02">RNF02</a>)| Classificação: Usabilidade/Eficiência |
 |---------------| ------------|
 | Descrição: O app deve disponibilizar todas as informações do evento em uma página.
 | Justificativa: Contribui para uma melhor visualização das informações por parte do usuário, e por conseguinte melhora a eficiência do app.
@@ -125,7 +125,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 <b>Tabela 3</b> - Cartão de Especificação 3
 
-| Nr Requisito: 3 (<a id="anchor_NF03" href="#NF03">RNF03</a>)| Classificação: Eficiência/Desempenho |
+| Nº Requisito: 3 (<a id="anchor_NF03" href="#NF03">RNF03</a>)| Classificação: Eficiência/Desempenho |
 |---------------| ------------|
 | Descrição: A compra de ingressos deve ser realizada em menos de 5 páginas (botões)
 | Justificativa: Operações que podem ser efetuadas em menos de 5 cliques em geral são consideradas eficientes. No caso do processo de compra, quão mais rapidamente essa operação for efetuada, não só o tempo gasto pelo usuário, mas também o gasto de energia do aplicativo serão reduzidos.
@@ -258,7 +258,7 @@ Legenda:
 
 ### Requisitos Não-Funcionais - Eficiência
 
-Na Tabela 8, estão listados os RNF presentes no NFR Famework de Eficiência :
+Na Tabela 8, estão listados os RNF presentes no NFR Famework de Eficiência:
 
 <center>
 
