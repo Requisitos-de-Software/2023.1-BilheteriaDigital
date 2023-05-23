@@ -130,6 +130,8 @@ Legenda:
 
 ### Propagação dos Impactos - Usabilidade
 
+A seguir, na Tabela 1, temos a avaliação da propagação dos impactos relativa à Figura 5.
+
 <center>
 
 <b>Tabela 1</b> - Impactos Usabilidade
@@ -178,7 +180,34 @@ Legenda:
 - Informações Suficientes: informações suficientemente relevantes para a realização de um processo.
 
 
-### Propagação dos Impactos
+### Propagação dos Impactos - Eficiência
+
+Na Tabela 2, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+
+<center>
+
+<b>Tabela 2</b> - Impactos Eficiência
+
+| NFR | Impacto | Avaliador |
+|-----|---------|-------|
+|Eficiência|  𝒲+| [Gabriel Campello](https://github.com/G16C)|
+|Executar Apropriadamente |  𝒲+|  [Gabriel Campello](https://github.com/G16C)|
+|Processar Requisitos| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Processar Corretamente| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Recuperar de Erros| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Prevenção de Erros|  𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Limitações| ✓|[Gabriel Campello](https://github.com/G16C)|
+|Limite de Páginas| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Apresentar Informações| ✓|[Gabriel Campello](https://github.com/G16C)|
+|Informações Suficientes| ✓|[Gabriel Campello](https://github.com/G16C)|
+|Limite de 5 Páginas| X|[Gabriel Campello](https://github.com/G16C)|
+|Tempo de Resposta| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|Processar Rapidamente| ✓ |[Gabriel Campello](https://github.com/G16C)|
+
+
+Fonte: [Gabriel Campello](https://github.com/G16C)
+
+</center>
 
 ## NFR 03 - Desempenho
 
@@ -235,3 +264,4 @@ A tabela a seguir lista os Requisitos Não-Funcionais utilizados para a criaçã
 | `1.1`  | 22/05/2023 | SIG Usabilidade e Desempenho | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.4`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.5`  | 22/05/2023 | Avaliação Impactos  Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
