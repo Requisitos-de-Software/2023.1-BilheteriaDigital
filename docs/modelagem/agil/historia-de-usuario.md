@@ -34,7 +34,7 @@ As histórias de usuário são provenientes do [backlog do produto]() e serão d
 
 ## Épicos
 
-Na tabela 3 são os épicos listados e suas respectivas features.
+Na tabela 3 são os épicos (Representadas pelo id EX) listados e suas respectivas features.
 
 <font size="3"><p style="text-align: center">Tabela 3: Épicos.</p></font>
 <center>
@@ -51,21 +51,107 @@ Na tabela 3 são os épicos listados e suas respectivas features.
 
 ## Features
 
+As tabelas de 4 a 15 descrevem as histórias de usuário (Representadas pelo id USX) elicitadas em suas respectivas features.
+
 ### Feature 1 - Local e Data
 
-### Feature 2 - Categoria
-
-### Feature 3 - Avisos
-
-### Feature 4 - Configurações
-Na tabela x, está o USx descrito.
-
-<font size="3"><p style="text-align: center">Tabela x: Responder pesquisa de perfil</p></font>
+<font size="3"><p style="text-align: center">Tabela 4: US01 - Filtro por estado e município.</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
-| US0x | Responder pesquisa de perfil |
+| US01 | Filtro por estado e município |
+| Descrição | _Eu, como_ usuário, _desejo_ poder filtrar os eventos por estado e município _para_ visualizar apenas os eventos da minha cidade com mais facilidade. |
+| Critérios de Aceitação | ->Lista de municípios com eventos de cada estado para o usuário escolher.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 5: US02 - Filtro por data e por horário.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US02 | Filtro por data e por horário |
+| Descrição | _Eu, como_ usuário, _desejo_ poder filtrar os eventos por data e horário _para_ poder visualizar apenas os eventos que ocorram em datas e horários que eu tenha disponibilidade. |
+| Critérios de Aceitação | ->Calendário para escolha de data. <br> ->Relógio para escolha de horário. <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+### Feature 2 - Categoria
+
+<font size="3"><p style="text-align: center">Tabela 6: US03 - Filtro por idade mínima de entrada.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US03 | Filtro por idade mínima de entrada |
+| Descrição | _Eu, como_ usuário, _desejo_ poder filtrar os eventos por idade mínima de entrada _para_ poder visualizar apenas os eventos condizentes com a faixa etária dos meus filhos. |
+| Critérios de Aceitação | ->Lista de idade mínima de entrada para o usuário selecionar.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 7: US04 - Filtro por categorias.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US04 | Filtro por categorias |
+| Descrição | _Eu, como_ usuário, _desejo_ poder filtrar os eventos por categorias (como tipo de evento ou gênero) _para_ poder visualizar apenas os eventos do tipo que me interesse. |
+| Critérios de Aceitação | ->Lista de categorias de eventos para o usuário selecionar.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 8: US05 - Tags associadas a eventos.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US05 | Tags associadas a eventos |
+| Descrição | _Eu, como_ usuário, _desejo_ que os eventos tenham tags associadas (como gênero, artista, tipo de evento) _para_ facilitar a busca e filtro por categoria. |
+| Critérios de Aceitação | ->Presença das tags na descrição do evento.<br> ->Uso das tags na busca e na categorização.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+### Feature 3 - Avisos
+
+<font size="3"><p style="text-align: center">Tabela 9: US06 - Sugestão de busca.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US06 | Sugestão de busca |
+| Descrição | _Eu, como_ usuário, _desejo_ receber sugestões de eventos durante minha busca _para_ que eu encontre os eventos que gosto mais facilmente. |
+| Critérios de Aceitação | ->Dar sugestões de eventos com base no histórico de buscas do usuário e pesquisa de perfil.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+### Feature 4 - Configurações
+
+
+<font size="3"><p style="text-align: center">Tabela 10: US07 - Notificação de evento.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US07 | Notificação de evento |
+| Descrição | _Eu, como_ usuário, _desejo_ receber notificações de eventos (quando permitido) _para_ que eu fique ciente de eventos de meu interesse | ->Pedir permissão do usuário para enviar notificações.<br>->Enviar notificações de eventos que se encaixem nos gostos coletados do usuário.|
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+
+<font size="3"><p style="text-align: center">Tabela 11: US08 - Responder pesquisa de perfil</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US08 | Responder pesquisa de perfil |
 | Descrição | _Eu, como_ usuário, _desejo_ poder responder a pesquisa de usuário _para_ que o app possa filtrar os eventos de acordo com os meus gostos |
 | Critérios de Aceitação | - Exibir uma lista de eventos que possam ser do interesse do usuário<br> - Uma variedade de eventos, de forma que o usuário possa se identificar <br> |
 
@@ -74,13 +160,13 @@ Na tabela x, está o USx descrito.
 
 ### Feature 5 - Atalhos
 
-Na tabela x, está o USx descrito.
-<font size="3"><p style="text-align: center">Tabela x: Responder pesquisa de perfil</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 12: US09 - Conectar carteira digital</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
-| US0x | Conectar carteira digital |
+| US09 | Conectar carteira digital |
 | Descrição | _Eu, como_ usuário, _desejo_ poder conectar minha carteira digital _para_ meu processo de compra seja mais prático |
 | Critérios de Aceitação | - Possuir os idiomas mais falados do mundo <br> |
 
@@ -90,13 +176,13 @@ Na tabela x, está o USx descrito.
 
 
 ### Feature 6 - Central de ajuda
-Na tabela x, está o USx descrito.
-<font size="3"><p style="text-align: center">Tabela x: Acessar à assistente virtual</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 13: US10 - Acessar à assistente virtual</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
-| US0x | Acessar à assistente virtual |
+| US10 | Acessar à assistente virtual |
 | Descrição | _Eu, como_ usuário, _desejo_ poder acessar a assistente virtual _para_ que o acesso às informações sobre o aplicativo e possíveis dúvidas que possam surgir | 
 | Critérios de Aceitação | - A assistnte estar presente em todas as abas que possam ter ações que necessitem de consulta <br> - Informações claras e suscintas sobre os assuntos abordados <br> |
 
@@ -104,26 +190,25 @@ Na tabela x, está o USx descrito.
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
 ### Feature 7 - Ferramentas de Acessibilidade 
-Na tabela x, está o USx descrito.
-<font size="3"><p style="text-align: center">Tabela x: Mudar idioma do aplicativo</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 14: US11 - Mudar idioma do aplicativo</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
-| US0x | Mudar idioma do aplicativo |
+| US11 | Mudar idioma do aplicativo |
 | Descrição | _Eu, como_ usuário, _desejo_ mudar o idioma do aplicativo _para_ que possa ser inclusivo para pessoas não falantes de portugês |
 | Critérios de Aceitação | - Possuir as opções mais utilizadas de pagamento digital (Picpay, Paypal,Nubank, C6 Bank, etc )<br> |
 
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
-Na tabela x, está o USx descrito.
-<font size="3"><p style="text-align: center">Tabela x: Dar zoom</p></font>
+<font size="3"><p style="text-align: center">Tabela 15: US12 - Dar zoom.</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
-| US0x | Dar zoom |
+| US12 | Dar zoom |
 | Descrição | _Eu, como_ usuário, _desejo_ poder dar zoom no aplicativo _para_ que eu possa ter melhor leitura e visualização das informações que desejo consultar. | 
 | Critérios de Aceitação | - Forcener um ícone de lupa <br> - O zoom ser de fácil acesso aos usuários <br> |
 
@@ -141,3 +226,5 @@ Na tabela x, está o USx descrito.
 | ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1.0    | 20/05/2023 | Criação da página | [Geovanna Maciel](https://github.com/manuziny)   | [Douglas Alves](https://github.com/dougAlvs) |
 | 1.1    | 20/05/2023 | Adição metodologia | [Douglas Alves](https://github.com/dougAlvs)  |  [Arthur de Melo](https://github.com/arthurmlv) |
+| 1.2    | 23/05/2023 | Adição features 5, 6, 7 | [Geovanna Maciel](https://github.com/manuziny)  |  [Arthur de Melo](https://github.com/arthurmlv) |
+| 1.2    | 23/05/2023 | Adição features 1, 2, 3, 4 | [Douglas Alves](https://github.com/dougAlvs)  |  [Arthur de Melo](https://github.com/arthurmlv) |
