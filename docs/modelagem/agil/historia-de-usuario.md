@@ -53,29 +53,82 @@ Na tabela 3 são os épicos listados e suas respectivas features.
 
 ### Feature 1 - Local e Data
 
-<font size="3"><p style="text-align: center">Tabela 2: Modelo de card para histórias de usuário.</p></font>
-<center>
-
-| **ID** | **Nome** |
-|:-------|:---------|
-| US01 |  |
-| Descrição | _Eu, como_ XXX, _desejo_ XXX _para_ XXX |
-| Critérios de Aceitação | >XXX <br> >XXX <br> |
-
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
-
 ### Feature 2 - Categoria
 
 ### Feature 3 - Avisos
 
 ### Feature 4 - Configurações
+Na tabela x, está o USx descrito.
+
+<font size="3"><p style="text-align: center">Tabela x: Responder pesquisa de perfil</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US0x | Responder pesquisa de perfil |
+| Descrição | _Eu, como_ usuário, _desejo_ poder responder a pesquisa de usuário _para_ que o app possa filtrar os eventos de acordo com os meus gostos |
+| Critérios de Aceitação | - Exibir uma lista de eventos que possam ser do interesse do usuário<br> - Uma variedade de eventos, de forma que o usuário possa se identificar <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
 ### Feature 5 - Atalhos
 
+Na tabela x, está o USx descrito.
+<font size="3"><p style="text-align: center">Tabela x: Responder pesquisa de perfil</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US0x | Conectar carteira digital |
+| Descrição | _Eu, como_ usuário, _desejo_ poder conectar minha carteira digital _para_ meu processo de compra seja mais prático |
+| Critérios de Aceitação | - Possuir os idiomas mais falados do mundo <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+
+
 ### Feature 6 - Central de ajuda
+Na tabela x, está o USx descrito.
+<font size="3"><p style="text-align: center">Tabela x: Acessar à assistente virtual</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US0x | Acessar à assistente virtual |
+| Descrição | _Eu, como_ usuário, _desejo_ poder acessar a assistente virtual _para_ que o acesso às informações sobre o aplicativo e possíveis dúvidas que possam surgir | 
+| Critérios de Aceitação | - A assistnte estar presente em todas as abas que possam ter ações que necessitem de consulta <br> - Informações claras e suscintas sobre os assuntos abordados <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
 ### Feature 7 - Ferramentas de Acessibilidade 
+Na tabela x, está o USx descrito.
+<font size="3"><p style="text-align: center">Tabela x: Mudar idioma do aplicativo</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US0x | Mudar idioma do aplicativo |
+| Descrição | _Eu, como_ usuário, _desejo_ mudar o idioma do aplicativo _para_ que possa ser inclusivo para pessoas não falantes de portugês |
+| Critérios de Aceitação | - Possuir as opções mais utilizadas de pagamento digital (Picpay, Paypal,Nubank, C6 Bank, etc )<br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+Na tabela x, está o USx descrito.
+<font size="3"><p style="text-align: center">Tabela x: Dar zoom</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US0x | Dar zoom |
+| Descrição | _Eu, como_ usuário, _desejo_ poder dar zoom no aplicativo _para_ que eu possa ter melhor leitura e visualização das informações que desejo consultar. | 
+| Critérios de Aceitação | - Forcener um ícone de lupa <br> - O zoom ser de fácil acesso aos usuários <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
 ## Bibliografia
 
