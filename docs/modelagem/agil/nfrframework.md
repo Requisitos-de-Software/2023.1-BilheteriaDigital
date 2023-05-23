@@ -211,16 +211,18 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
 - <a id="anchor_NF05" href="#NF05">RNF05</a>: refere-se à necessidade da filtragem sob diversas óticas dentro da busca no site.
 
-<figure markdown>
 
 <font size="3"><p style="text-align: center"><b>Figura 5</b> - SIG Usabilidade</p></font>
 
-![SIG Usabilidade](../../assets/nfr-framework/usabilidade.png#only-light){width: 300}
-![SIG Usabilidade](../../assets/nfr-framework/usabilidadeD.png#only-dark){width: 300}
+<figure markdown markdown class="usecaseElement">
+
+![SIG Usabilidade](../../assets/nfr-framework/usabilidade.png){width: 300}
+
+</figure>
 
 <font size="3"><p style="text-align: center"> Fonte: Autores</p></font>
 
-</figure>
+
 
 Legenda:
 
