@@ -6,7 +6,7 @@ O Backlog do Produto é uma lista de todas as funcionalidades desejadas para um 
 
 ## Metodologia
 
-A definição do tema, épicos é realizada a partir dos [requisitos funcionais](../../../elicitacao/requisitos_elicitados/#requisitos-funcionais) apresentados na seção de [Requisitos Elicitados](../../../elicitacao/requisitos_elicitados). Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados foram estão sendo apresentados na tabela 1 a seguir.
+A definição do tema, épicos é realizada a partir dos [requisitos funcionais](../../../elicitacao/requisitos_elicitados/#requisitos-funcionais) apresentados na seção de [Requisitos Elicitados](../../../elicitacao/requisitos_elicitados). Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados estão sendo apresentados na Tabela 1 a seguir.
 
 <center>
 
@@ -41,22 +41,74 @@ Analisando os requisitos da tabela, foi possível organizá-los em dois grandes 
 
 ## Épicos
 
-Após a definição dos temas, são criadas épicos a fim de diminuir ainda mais a abstração das tarefas que deverão ser realizadas ao decorrer do projeto. Os épicos serão apresentados utilizando o padrão de escrita das histórias de usuário.
+Após a definição dos temas, são criadas épicos de modo a diminuir ainda mais a abstração das tarefas que deverão ser realizadas ao decorrer do projeto. Após a definição de um épico, são geradas as Features que o compõe para serem trabalhadas em um curto período de tempo acompanhada de uma descrição às histórias de usuário. Os épicos serão descritos utilizando o padrão de escrita das histórias de usuário e seguindo o template apresentado na Tabela 2 com suas descrições.
 
-!!! Warning
-    Rafael, tem que descrever melhor os épicos!!
+<center>
 
-### Épico 1 - Acessibilidade
+**Tabela 2** - Template das Features e Histórias de Usuário.
 
-Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
+| Feature | ID da História | História de usuário |
+|----------|----|----------------------|
+| Funcionalidade relacionada ao épico| Identificação da História de Usuário | Visão do usuário sobre um determinada funcionalidade|
 
-### Épico 2 - Filtragem
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épico 1 - Filtragem
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 3 apresenta as features e histórias de usuário relacionada a esse épico.
 
 Como usuário típico, eu desejo funcionalidades que me permitam filtrar eventos.
 
-### Épicos 3 - Preferências
+<center>
+
+**Tabela 3** - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 1 - Local e Data | USXX | Descrição |
+| Feature 2 - Categorias | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épico 2 - Preferências
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 4 apresenta as features e histórias de usuário relacionada a esse épico.
 
 Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.
+
+<center>
+
+**Tabela 4** - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 4 - Avisos | USXX | Descrição |
+| Feature 5 - Configurações | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épicos 3 - Acessibilidade
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
+
+Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
+
+<center>
+
+**Tabela 5** - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 6 - Atalhos | USXX | Descrição |
+| Feature 7 - Central de Ajuda | USXX | Descrição |
+| Feature 8 - Ferramentas de Acessibilidade | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
 
 ## Bibliografia
 
@@ -69,3 +121,4 @@ Como usuário típico, eu desejo modificar o site de acordo com as minhas prefer
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 22/05/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 23/05/2023 | Adição das Features | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
