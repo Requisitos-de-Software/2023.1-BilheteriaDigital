@@ -1,5 +1,5 @@
 ## Introdução
-A história de usuário é uma técnica amplamente utilizada na disciplina de requisitos de software para capturar e descrever as necessidades e expectativas dos usuários de um sistema. Trata-se de uma breve narrativa que descreve uma funcionalidade específica do software, do ponto de vista do usuário, com o objetivo de comunicar de forma clara e concisa o que o usuário deseja alcançar ao utilizar o sistema. Para a elaboração da história do usuário do projeto, foram usados os épicos produzidos no [backlog](), porque em termos mais simples, o [backlog]() serve como uma lista do que a aplicação deve seguir, portanto as histórias de usuário devem produzidas a partir dele.
+A história de usuário é uma técnica amplamente utilizada na disciplina de requisitos de software para capturar e descrever as necessidades e expectativas dos usuários de um sistema. Trata-se de uma breve narrativa que descreve uma funcionalidade específica do software, do ponto de vista do usuário, com o objetivo de comunicar de forma clara e concisa o que o usuário deseja alcançar ao utilizar o sistema. Para a elaboração da história do usuário do projeto, foram usados os épicos produzidos no [backlog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/), porque em termos mais simples, o [backlog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) serve como uma lista do que a aplicação deve seguir, portanto as histórias de usuário devem produzidas a partir dele.
 
 ## Metodologia
 
@@ -16,17 +16,17 @@ Para a produção do artefato haverá  a participação da persona [Lara Dias](h
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
-As histórias de usuário são provenientes do [backlog do produto]() e serão descritas em cards com base na tabela 2. 
+As histórias de usuário são provenientes do [backlog do produto](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) e serão descritas em tabelas com base na tabela 2. 
 
 
-<font size="3"><p style="text-align: center">Tabela 2: Modelo de card para histórias de usuário.</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Modelo de tabela para histórias de usuário.</p></font>
 <center>
 
 | **ID** | **Nome** |
 |:-------|:---------|
 | USXX | Titulo |
 | Descrição | _Eu, como_ XXX, _desejo_ XXX _para_ XXX |
-| Critérios de Aceitação | >XXX <br> >XXX <br> |
+| Critérios de Aceitação | -XXX <br> -XXX <br> |
 
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
@@ -41,9 +41,9 @@ Na tabela 3 são os épicos (Representadas pelo id EX) listados e suas respectiv
 
 | Épico | Descrição | Features |
 |:----------|:-------------:|:-------------|
-| E01 - Filtragem | Engloba filtragem de eventos. | > Local e data; </br> > Categoria. |
-| E02 - Preferências | Engloba a parte de configurações da aplicação e notificações. | > Avisos; </br> > Configurações. |
-| E03 - Acessibilidade | Engloba a parte de acessibilidade da aplicação. | > Atalhos; </br> > Central de ajuda; </br> > Ferramentas de Acessibilidade. |
+| E01 - Filtragem | Engloba filtragem de eventos. | -> Local e data; </br> -> Categoria. |
+| E02 - Preferências | Engloba a parte de configurações da aplicação e notificações. | -> Avisos; </br> -> Configurações. |
+| E03 - Acessibilidade | Engloba a parte de acessibilidade da aplicação. | -> Atalhos; </br> -> Central de ajuda; </br> -> Ferramentas de Acessibilidade. |
 
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
@@ -141,6 +141,7 @@ As tabelas de 4 a 15 descrevem as histórias de usuário (Representadas pelo id 
 |:-------|:---------|
 | US07 | Notificação de evento |
 | Descrição | _Eu, como_ usuário, _desejo_ receber notificações de eventos (quando permitido) _para_ que eu fique ciente de eventos de meu interesse | ->Pedir permissão do usuário para enviar notificações.<br>->Enviar notificações de eventos que se encaixem nos gostos coletados do usuário.|
+| Critérios de aceitação | ->Pedir permissão do usuário para enviar notificações.<br>->Enviar notificações de eventos que se encaixem nos gostos coletados do usuário. |
 
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
@@ -225,6 +226,7 @@ As tabelas de 4 a 15 descrevem as histórias de usuário (Representadas pelo id 
 | Versão | Data       | Descrição                                      | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1.0    | 20/05/2023 | Criação da página | [Geovanna Maciel](https://github.com/manuziny)   | [Douglas Alves](https://github.com/dougAlvs) |
-| 1.1    | 20/05/2023 | Adição metodologia | [Douglas Alves](https://github.com/dougAlvs)  |  [Arthur de Melo](https://github.com/arthurmlv) |
-| 1.2    | 23/05/2023 | Adição features 5, 6, 7 | [Geovanna Maciel](https://github.com/manuziny)  |  [Arthur de Melo](https://github.com/arthurmlv) |
-| 1.2    | 23/05/2023 | Adição features 1, 2, 3, 4 | [Douglas Alves](https://github.com/dougAlvs)  |  [Arthur de Melo](https://github.com/arthurmlv) |
+| 1.1    | 20/05/2023 | Adição metodologia | [Douglas Alves](https://github.com/dougAlvs)  |  [Gabriel Campello](https://github.com/G16C) |
+| 1.2    | 23/05/2023 | Adição features 5, 6, 7 | [Geovanna Maciel](https://github.com/manuziny)  |  [Gabriel Campello](https://github.com/G16C) |
+| 1.2    | 23/05/2023 | Adição features 1, 2, 3, 4 | [Douglas Alves](https://github.com/dougAlvs)  |  [Gabriel Campello](https://github.com/G16C) |
+| 1.3    | 23/05/2023 | Finalização do artefato | [Douglas Alves](https://github.com/dougAlvs), [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C) |
