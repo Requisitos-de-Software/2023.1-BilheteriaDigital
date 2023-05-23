@@ -2,15 +2,27 @@
 
 ## Introdução
 
-O Backlog do Produto é uma lista de todas as funcionalidades desejadas para um produto ordenado por prioridades. O responsável por priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
+O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados. Para a produção do artefato haverá  a participação da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) que será o Product Owner do projeto, para tal foi utilizado o método da encenação, melhor representado na tabela 1. A reunião foi realizada via Teams às 17h do dia 23 de maio de 2023.
+
+<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+<center>
+
+| **Participante** | **Função** |
+|:-------|:---------|
+| [Matheus Henrique](https://github.com/mathonaut) | Desenvolvedor |
+| [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) ([Rafael Ferreira](https://github.com/RafaelCLG0)) | Product Owner |
+
+</center>
+<font size="3"><p style="text-align: center">[Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
+
 
 ## Metodologia
 
-A definição do tema, épicos é realizada a partir dos [requisitos funcionais](../../../elicitacao/requisitos_elicitados/#requisitos-funcionais) apresentados na seção de [Requisitos Elicitados](../../../elicitacao/requisitos_elicitados). Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados estão sendo apresentados na Tabela 1 a seguir.
+Para o desenvolvimento deste artefato, foi definido um tema e um épico a serem realizados a partir dos requisitos funcionais apresentados na seção de Requisitos Elicitados. Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados estão sendo apresentados na Tabela 2.
 
 <center>
 
-**Tabela 1** - Requisitos Funcionais Elicitados não Implementados.
+**Tabela 2** - Requisitos Funcionais Elicitados não Implementados.
 
 | ID   | Descrição                                                                            | Rastreabilidade                                                                                                                                                                                                            | Implementação |
 | ---- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -40,11 +52,11 @@ Analisando os requisitos da tabela, foi possível organizá-los em dois grandes 
 
 ## Épicos
 
-Após a definição dos temas, são criadas épicos de modo a diminuir ainda mais a abstração das tarefas que deverão ser realizadas ao decorrer do projeto. Após a definição de um épico, são geradas as Features que o compõe para serem trabalhadas em um curto período de tempo acompanhada de uma descrição às histórias de usuário. Os épicos serão descritos utilizando o padrão de escrita das histórias de usuário e seguindo o template apresentado na Tabela 2 com suas descrições.
+Após a definição dos temas, são criadas épicos de modo a diminuir ainda mais a abstração das tarefas que deverão ser realizadas ao decorrer do projeto. Após a definição de um épico, são geradas as Features que o compõe para serem trabalhadas em um curto período de tempo acompanhada de uma descrição às histórias de usuário. Os épicos serão descritos utilizando o padrão de escrita das histórias de usuário e seguindo o template apresentado na Tabela 3 com suas descrições.
 
 <center>
 
-**Tabela 2** - Template das Features e Histórias de Usuário.
+**Tabela 3** - Template das Features e Histórias de Usuário.
 
 | Feature | ID da História | História de usuário |
 |----------|----|----------------------|
@@ -55,27 +67,9 @@ Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](http
 </center>
 
 ### Épico 1 - Filtragem
-A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 3 apresenta as features e histórias de usuário relacionada a esse épico.
-
-Como usuário típico, eu desejo funcionalidades que me permitam filtrar eventos.
-
-<center>
-
-**Tabela 3** - Features e Histórias de Usuário.
-
-| Feature | ID da História | História de usuário |
-|----------|:----:|:----------------------|
-| Feature 1 - Local e Data | USXX | Descrição |
-| Feature 2 - Categorias | USXX | Descrição |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-</center>
-
-### Épico 2 - Preferências
 A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 4 apresenta as features e histórias de usuário relacionada a esse épico.
 
-Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.
+Como usuário típico, eu desejo funcionalidades que me permitam filtrar eventos.
 
 <center>
 
@@ -83,17 +77,17 @@ Como usuário típico, eu desejo modificar o site de acordo com as minhas prefer
 
 | Feature | ID da História | História de usuário |
 |----------|:----:|:----------------------|
-| Feature 4 - Avisos | USXX | Descrição |
-| Feature 5 - Configurações | USXX | Descrição |
+| Feature 1 - Local e Data | US01<br>US02 | Filtro por estado e município<br>Filtro por data e por horário |
+| Feature 2 - Categorias | US03<br>US04<br>US05 | Filtro por idade mínima de entrada<br>Filtro por categorias<br>Tags associadas a eventos |
 
 Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 </center>
 
-### Épico 3 - Acessibilidade
+### Épico 2 - Preferências
 A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
 
-Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
+Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.
 
 <center>
 
@@ -101,9 +95,27 @@ Como usuário com necessidade especiais, eu desejo recursos que me permitam real
 
 | Feature | ID da História | História de usuário |
 |----------|:----:|:----------------------|
-| Feature 6 - Atalhos | USXX | Descrição |
-| Feature 7 - Central de Ajuda | USXX | Descrição |
-| Feature 8 - Ferramentas de Acessibilidade | USXX | Descrição |
+| Feature 3 - Avisos | US06 | Sugestão de busca |
+| Feature 4 - Configurações | US07<br>US08 | Notificação de evento<br>Responder pesquisa de perfil |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épico 3 - Acessibilidade
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 6 apresenta as features e histórias de usuário relacionada a esse épico.
+
+Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
+
+<center>
+
+**Tabela 6** - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 5 - Atalhos | US09 | Conectar carteira digital |
+| Feature 6 - Central de Ajuda | US10 | Acessar à assistente virtual |
+| Feature 7 - Ferramentas de Acessibilidade | US11<br>US12 | Mudar idioma do aplicativo<br>Dar zoom |
 
 Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
@@ -121,4 +133,4 @@ Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](http
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 22/05/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 23/05/2023 | Adição das Features | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
-| `1.1.1`  | 23/05/2023 | Remoção requisito BS20 | [Douglas Alves dos Santos](https://github.com/dougAlvs) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
+| `1.1.1`  | 23/05/2023 | Atualização metodologia | [Douglas Alves dos Santos](https://github.com/dougAlvs) | [Arthur de Melo](https://github.com/arthurmlv) |
