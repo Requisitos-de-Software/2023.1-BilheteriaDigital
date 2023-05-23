@@ -1521,7 +1521,7 @@
 <li>SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.</li>
 </ul>
 <h4 id="propagacao-de-impactos">Propagação de Impactos</h4>
-<p>A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações: <a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
+<p>A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações<a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
 <ul>
 <li>✓ (satisfeito): Indica que um requisito não funcional contribui positivamente para a satisfação de outro requisito.</li>
 <li>𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.</li>
@@ -1561,7 +1561,6 @@
 <p>Legenda:</p>
 <ul>
 <li>Sugestões: refere-se ao <a href="../../lexicos/#l02-sugestoes-de-eventos">L02 - Sugestões de Eventos</a>.</li>
-<li>Sugestões Gerais: sugestões utilizadas antes de se ter uma atividade do usuário no site, as sugestões seriam feitas com base no <a href="../../lexicos/#l05-usuario">Usuário</a>.</li>
 <li>Opções de filtro: refere-se ao <a href="../../lexicos/#l01-filtrar-eventos">L01 - Filtrar Eventos</a>.</li>
 </ul>
 <h3 id="cartao-de-especificacao">Cartão de Especificação</h3>
@@ -1579,22 +1578,28 @@
 </thead>
 <tbody>
 <tr>
-<td>Adaptação (FE1)</td>
-<td>O sistema deve ser adaptativo às necessidades e às expectativas do usuário.</td>
+<td>Adaptação (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
+<td>O sistema deve ser adaptativo às atividades do usuário.</td>
 <td>Usabilidade</td>
 <td>Sugestões</td>
 </tr>
 <tr>
-<td>Disponibilidade (FE1)</td>
+<td>Disponibilidade (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
 <td>O sistema deve disponibilizar as informações.</td>
 <td>Usabilidade</td>
 <td>Usabilidade</td>
 </tr>
 <tr>
-<td>Exibir Inf. do Evento (FE1)</td>
+<td>Exibir Inf. do Evento (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
 <td>O sistema deve exibir as informações do evento específico.</td>
 <td>Usabilidade</td>
 <td>Informações Relevantes</td>
+</tr>
+<tr>
+<td>Sugestões Gerais (<a id="anchor_FE3" href="#FE3">FE3</a>)</td>
+<td>O sistema deve exibir as sugestões padrões antes de se ter uma atividade do usuário no site, feitas com base no <a href="../../lexicos/#l05-usuario">Usuário</a>.</td>
+<td>Usabilidade</td>
+<td>Sugestões</td>
 </tr>
 </tbody>
 </table>
@@ -1719,19 +1724,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Tempo de Resposta (FE1 e FE2)</td>
+<td>Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
 <td>Eficiência</td>
 <td>Limitações</td>
 </tr>
 <tr>
-<td>Limite de Páginas (FE2)</td>
+<td>Limite de Páginas (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve possuir uma limitação do espaço ocupado.</td>
 <td>Eficiência</td>
 <td>Limitações</td>
 </tr>
 <tr>
-<td>Apresentar Informações (FE1)</td>
+<td>Apresentar Informações (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
 <td>O sistema deve exibir as informações do evento específico.</td>
 <td>Eficiência</td>
 <td>Limite de Páginas</td>
@@ -1854,25 +1859,25 @@
 </thead>
 <tbody>
 <tr>
-<td>Tempo de Resposta (FE1 e FE2)</td>
+<td>Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
 <td>Desempenho</td>
 <td>Desempenho</td>
 </tr>
 <tr>
-<td>Infraestrutura (FE2)</td>
+<td>Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve possuir uma infraestrutura para processar e perdurar os dados.</td>
 <td>Desempenho</td>
 <td>Tempo de Resposta</td>
 </tr>
 <tr>
-<td>Servidores (FE2)</td>
+<td>Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve exibir possuir servidores para perdurar os dados.</td>
 <td>Desempenho</td>
 <td>Infraestrutura</td>
 </tr>
 <tr>
-<td>Manutenção (FE1 e FE2)</td>
+<td>Manutenção (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
 <td>O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.</td>
 <td>Desempenho</td>
 <td>Infraestrutura</td>
@@ -1960,7 +1965,7 @@
 <p></center></p>
 <h2 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h2>
 <p>A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.</p>
-<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais</p>
+<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais Não Implementados</p>
 
 <table>
 <thead>
@@ -2004,8 +2009,58 @@
 </tr>
 </tbody>
 </table>
-<p><font size="3"><p style="text-align: center"><b>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a></p></font></p>
+<p><font size="3"><p style="text-align: center"><b>Fonte:</b> <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+<p>A Tabela 8 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.</p>
+<p><center>
+<b>Tabela 8</b> - Requisitos Elicitados NFR</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NFR01</td>
+<td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
+</tr>
+<tr>
+<td>NFR02</td>
+<td>O sistema deve possuir uma infraestrutura para processar e perdurar os dados.</td>
+</tr>
+<tr>
+<td>NFR03</td>
+<td>O sistema deve exibir possuir servidores para perdurar os dados.</td>
+</tr>
+<tr>
+<td>NFR04</td>
+<td>O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.</td>
+</tr>
+<tr>
+<td>NFR05</td>
+<td>O sistema deve possuir uma limitação do espaço ocupado.</td>
+</tr>
+<tr>
+<td>NFR06</td>
+<td>O sistema deve exibir as informações do evento específico.</td>
+</tr>
+<tr>
+<td>NFR07</td>
+<td>O sistema deve disponibilizar as informações.</td>
+</tr>
+<tr>
+<td>NFR08</td>
+<td>O sistema deve ser adaptativo às atividades do usuário.</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a>
+</center></p>
 <h2 id="fontes-externas">Fontes Externas</h2>
+<p>Por fim, a Tabela 9 explicita as Fontes Externas como revisão na literatura.</p>
+<p><center>
+<b>Tabela 8</b> - Fontes Externas</p>
 <table>
 <thead>
 <tr>
@@ -2016,17 +2071,24 @@
 </thead>
 <tbody>
 <tr>
-<td>FE1</td>
+<td><a id="FE1" href="#anchor_FE1">FE1</a></td>
 <td>SILVA</td>
 <td>NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados</td>
 </tr>
 <tr>
-<td>FE2</td>
+<td><a id="FE2" href="#anchor_FE2">FE2</a></td>
 <td>PAIM, et al</td>
 <td>Enhancing Data Warehouse Design with the NFR Framework</td>
 </tr>
+<tr>
+<td><a id="FE3" href="#anchor_FE3">FE3</a></td>
+<td>CHUNG, et al</td>
+<td>Non-functional requirementsin software engineering</td>
+</tr>
 </tbody>
 </table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a>
+</center></p>
 <h2 id="bibliografia">Bibliografia</h2>
 <blockquote>
 <p>PAIM, F. R. S., CASTRO, J. F. B. Enhancing Data Warehouse Design with the NFR Framework. Centro de Informática UFPE, Recife, 2019. Disponível em: <a href="http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/paim.pdf">http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/paim.pdf</a>. Acesso em: 22/05/2023</p>
@@ -2053,7 +2115,7 @@
 <td>22/05/2023</td>
 <td>Introdução, SIG, Tipos de Softgoal e Interdependências.</td>
 <td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
-<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
 </tr>
 <tr>
 <td><code>1.1</code></td>
@@ -2087,6 +2149,13 @@
 <td><code>1.6</code></td>
 <td>23/05/2023</td>
 <td>Cartões de Especificação e Avaliação Impactos Desempenho.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.7</code></td>
+<td>23/05/2023</td>
+<td>Requisitos Elicitados e hyperlinks.</td>
 <td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
 <td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
 </tr>

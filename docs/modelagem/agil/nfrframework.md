@@ -64,7 +64,7 @@ Num NFR Framework, os softgoals se especializam cada vez mais. Por conseguinte, 
 
 #### Propagação de Impactos
 
-A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações: <a id="anchor_2" href="#REF2">^2^</a>:
+A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações<a id="anchor_2" href="#REF2">^2^</a>:
 
 - ✓ (satisfeito): Indica que um requisito não funcional contribui positivamente para a satisfação de outro requisito.
 - 𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.
@@ -123,7 +123,6 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 Legenda:
 
 - Sugestões: refere-se ao [L02 - Sugestões de Eventos](../../lexicos/#l02-sugestoes-de-eventos).
-- Sugestões Gerais: sugestões utilizadas antes de se ter uma atividade do usuário no site, as sugestões seriam feitas com base no [Usuário](../../lexicos/#l05-usuario).
 - Opções de filtro: refere-se ao [L01 - Filtrar Eventos](../../lexicos/#l01-filtrar-eventos).
 
 ### Cartão de Especificação
@@ -135,9 +134,10 @@ Na Tabela 1, estão presentes os cartões de especificação dos RNF que possuem
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
-| Adaptação (FE1) | O sistema deve ser adaptativo às necessidades e às expectativas do usuário. | Usabilidade | Sugestões |
-| Disponibilidade (FE1) | O sistema deve disponibilizar as informações. | Usabilidade | Usabilidade |
-| Exibir Inf. do Evento (FE1) | O sistema deve exibir as informações do evento específico. | Usabilidade | Informações Relevantes |
+| Adaptação (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve ser adaptativo às atividades do usuário. | Usabilidade | Sugestões |
+| Disponibilidade (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve disponibilizar as informações. | Usabilidade | Usabilidade |
+| Exibir Inf. do Evento (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve exibir as informações do evento específico. | Usabilidade | Informações Relevantes |
+| Sugestões Gerais (<a id="anchor_FE3" href="#FE3">FE3</a>) | O sistema deve exibir as sugestões padrões antes de se ter uma atividade do usuário no site, feitas com base no [Usuário](../../lexicos/#l05-usuario). | Usabilidade | Sugestões |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 </center>
@@ -203,9 +203,9 @@ Na Tabela 3, estão presentes os cartões de especificação dos RNF que possuem
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
-| Tempo de Resposta (FE1 e FE2) | O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Eficiência | Limitações |
-| Limite de Páginas (FE2) | O sistema deve possuir uma limitação do espaço ocupado. | Eficiência | Limitações |
-| Apresentar Informações (FE1) | O sistema deve exibir as informações do evento específico. | Eficiência | Limite de Páginas |
+| Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Eficiência | Limitações |
+| Limite de Páginas (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação do espaço ocupado. | Eficiência | Limitações |
+| Apresentar Informações (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve exibir as informações do evento específico. | Eficiência | Limite de Páginas |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
@@ -271,10 +271,10 @@ Na Tabela 5, estão presentes os cartões de especificação dos RNF que possuem
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
-| Tempo de Resposta (FE1 e FE2) |  O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Desempenho | Desempenho |
-| Infraestrutura (FE2) | O sistema deve possuir uma infraestrutura para processar e perdurar os dados. | Desempenho | Tempo de Resposta |
-| Servidores (FE2) | O sistema deve exibir possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
-| Manutenção (FE1 e FE2) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Infraestrutura |
+| Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) |  O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Desempenho | Desempenho |
+| Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma infraestrutura para processar e perdurar os dados. | Desempenho | Tempo de Resposta |
+| Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve exibir possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
+| Manutenção (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Infraestrutura |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
@@ -312,7 +312,7 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
 
-<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais</p>
+<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais Não Implementados</p>
 
 | ID    | Descrição                                                                     | Rastreabilidade                                                                                                                                                                                                                                                                                                                                                                                                                               | Implementação |
 | ----- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -322,14 +322,42 @@ A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criaç
 | <a id="NF04" href="#anchor_NF04">RNF04</a> | O app não deve ter tempo de resposta superior a 200 ms.                       | [Q12](../../../elicitacao/tecnicas/questionario/#anchor_QNF)                                                                                                                                                                                                                                                                                                                                                                                                   | Não           |
 | <a id="NF05" href="#anchor_NF05">RNF05</a> | O app deve permitir a filtragem dos eventos cadastrados no banco de dados.    | [Q13](../../../elicitacao/tecnicas/questionario/#anchor_QNF)                                                                                                                                                                                                                                                                                                                                                                                                   | Não           |
 
-<font size="3"><p style="text-align: center"><b>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a></p></font>
+<font size="3"><p style="text-align: center"><b>Fonte:</b> <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font>
+
+A Tabela 8 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.
+
+<center>
+<b>Tabela 8</b> - Requisitos Elicitados NFR
+
+|  ID  | Descrição |
+|------|---------|
+|NFR01| O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. |
+|NFR02| O sistema deve possuir uma infraestrutura para processar e perdurar os dados.|
+|NFR03| O sistema deve exibir possuir servidores para perdurar os dados.|
+|NFR04| O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.|
+|NFR05| O sistema deve possuir uma limitação do espaço ocupado.|
+|NFR06| O sistema deve exibir as informações do evento específico.|
+|NFR07| O sistema deve disponibilizar as informações.|
+|NFR08| O sistema deve ser adaptativo às atividades do usuário.|
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+</center>
 
 ## Fontes Externas
 
+Por fim, a Tabela 9 explicita as Fontes Externas como revisão na literatura.
+
+<center>
+<b>Tabela 8</b> - Fontes Externas
+
 | ID  | Autores | Título |
 |-----|---------|--------|
-| FE1 |  SILVA  | NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados |
-| FE2 |  PAIM, et al | Enhancing Data Warehouse Design with the NFR Framework |
+| <a id="FE1" href="#anchor_FE1">FE1</a> |  SILVA  | NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados |
+| <a id="FE2" href="#anchor_FE2">FE2</a> |  PAIM, et al | Enhancing Data Warehouse Design with the NFR Framework |
+| <a id="FE3" href="#anchor_FE3">FE3</a> |  CHUNG, et al | Non-functional requirementsin software engineering |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+</center>
 
 ## Bibliografia
 
@@ -346,9 +374,10 @@ A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criaç
 
 | Versão | Data       | Descrição                                    | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | -------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 22/05/2023 | Introdução, SIG, Tipos de Softgoal e Interdependências.| [Arthur de Melo](https://github.com/arthurmlv)   | [Sidney Fernando](https://github.com/nando3d3)   |
+| `1.0`  | 22/05/2023 | Introdução, SIG, Tipos de Softgoal e Interdependências.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.1`  | 22/05/2023 | SIG Usabilidade e Desempenho | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.4`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.5`  | 22/05/2023 | Avaliação Impactos Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.6`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
+| `1.7`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
