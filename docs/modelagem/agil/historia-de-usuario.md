@@ -3,10 +3,23 @@ A história de usuário é uma técnica amplamente utilizada na disciplina de re
 
 ## Metodologia
 
-As histórias de usuário são provenientes do [backlog do produto]() e serão descritas em cards com base na tabela 1.
+Para a produção do artefato haverá  a participação da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) que será o Product Owner do projeto, para tal foi utilizado o método da encenação, melhor representado na tabela 1. A reunião foi realizada via Teams às 18h do dia 23 de maio de 2023.
+
+<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+<center>
+
+| **Participante** | **Função** |
+|:-------|:---------|
+| [Douglas Alves](https://github.com/dougAlvs) | Desenvolvedor |
+| [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) ([Geovanna Maciel](https://github.com/manuziny)) | Product Owner |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
+
+As histórias de usuário são provenientes do [backlog do produto]() e serão descritas em cards com base na tabela 2. 
 
 
-<font size="3"><p style="text-align: center">Tabela 1: Modelo de card para histórias de usuário.</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Modelo de card para histórias de usuário.</p></font>
 <center>
 
 | **ID** | **Nome** |
@@ -18,7 +31,63 @@ As histórias de usuário são provenientes do [backlog do produto]() e serão d
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
+
 ## Épicos
+
+### Épico 1 - Filtragem
+
+<center>
+
+Tabela 3 - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 1 - Local e Data | USXX | Descrição |
+| Feature 2 - Categorias | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épico 2 - Preferências
+
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 4 apresenta as features e histórias de usuário relacionada a esse épico.
+
+Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.
+
+<center>
+
+Tabela 4 - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 4 - Avisos | USXX | Descrição |
+| Feature 5 - Configurações | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
+### Épico 3
+Épicos 3 - Acessibilidade
+A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
+
+Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
+
+<center>
+
+Tabela 5 - Features e Histórias de Usuário.
+
+| Feature | ID da História | História de usuário |
+|----------|:----:|:----------------------|
+| Feature 6 - Atalhos | USXX | Descrição |
+| Feature 7 - Central de Ajuda | USXX | Descrição |
+| Feature 8 - Ferramentas de Acessibilidade | USXX | Descrição |
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+
+</center>
+
 
 ## Features
 
