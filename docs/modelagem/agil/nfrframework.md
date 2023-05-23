@@ -75,7 +75,109 @@ A propagação de impactos no NFR Framework  envolve a identificação das rela�
 
 ## Metodologia
 
-Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io. Os temas foram selecionados de acordo com os RNF já elicitados e disponíveis na Tabela 7.
+Os frameworks foram separados por temas, esses temas foram divididos em três para limitar o escopo aqui trabalhado. Após isso, fez-se uma introspecção para a construção do SIG a partir dos tópicos gerais definidos, a fim de fazer relações com os Requisitos Não-Funcionais da Tabela 12, após isso, fez-se o uma revisão na literatura e foi feita a validação do SIG confeccionado. A plataforma utilizada para a elaboração foi o Draw.io.
+
+## Cartões de Especificação
+
+Os cartões de especificação a seguir, Tabelas de 1 a 5, foram utilizados para definir os Requisitos Não-Funcionais a serem utilizados na confecção dos NFR Frameworks. Fontes de evidência na literarura: <a id="anchor_FE2" href="#FE2">FE2</a>. 
+
+Obs: Os valores de prioridade foram baseados no modelo de priorização First Things First que pode ser encontado [aqui](../../../elicitacao/priorizacao/firstThingsfirst).
+
+<center>
+
+<b>Tabela 1</b> - Cartão de Especificação 1
+
+| Nº Requisito: 1 (<a id="anchor_NF01" href="#NF01">RNF01</a>)| Classificação: Usabilidade |
+|---------------| ------------|
+| Descrição: O app deve fornecer eventos direcionados.
+| Justificativa: O sistema deve ser capaz de direcionar eventos ao usuário a partir de suas preferências pessoais. Assim o usuário não irá perder tempo buscando por eventos que se adequem ao seu perfil .
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: O sistema deve ser capaz de recomendar ao usuário eventos condizentes com suas preferências. 
+| Dependências: Atividade do Usuário
+| Prioridade: 4,05
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Gabriel Campello](https://github.com/G16C)
+
+</center>
+
+<center>
+
+<b>Tabela 2</b> - Cartão de Especificação 2
+
+| Nº Requisito: 2 (<a id="anchor_NF02" href="#NF02">RNF02</a>)| Classificação: Usabilidade/Eficiência |
+|---------------| ------------|
+| Descrição: O app deve disponibilizar todas as informações do evento em uma página.
+| Justificativa: Contribui para uma melhor visualização das informações por parte do usuário, e por conseguinte melhora a eficiência do app.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: O sistema deve disponibilizar todas informações necessárias sobre o evento em uma única página.
+| Dependências: Nenhuma
+| Prioridade: 2,70
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Gabriel Campello](https://github.com/G16C)
+
+</center>
+
+<center>
+
+<b>Tabela 3</b> - Cartão de Especificação 3
+
+| Nº Requisito: 3 (<a id="anchor_NF03" href="#NF03">RNF03</a>)| Classificação: Eficiência/Desempenho |
+|---------------| ------------|
+| Descrição: A compra de ingressos deve ser realizada em menos de 5 páginas (botões)
+| Justificativa: Operações que podem ser efetuadas em menos de 5 cliques em geral são consideradas eficientes. No caso do processo de compra, quão mais rapidamente essa operação for efetuada, não só o tempo gasto pelo usuário, mas também o gasto de energia do aplicativo serão reduzidos.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: O sistema deve efetuar a operação de compra em menos de 5 cliques.
+| Dependências: Informações Suficientes
+| Prioridade: 1,35
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Gabriel Campello](https://github.com/G16C)
+
+</center>
+
+<center>
+
+<b>Tabela 4</b> - Cartão de Especificação 4
+
+| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Eficiência/Desempenho |
+|---------------| ------------|
+| Descrição: As ações realizadas no app não devem demorar mais que 200 ms para responder ao usuário
+| Justificativa: As ações rápidas no app garantem uma experiência fluida, mantendo o usuário engajado e evitando frustrações desnecessárias.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: As ações realizadas no app devem ser executadas e responder ao usuário em um tempo máximo de 250 ms para garantir uma experiência ágil e satisfatória.
+| Dependências: Performance
+| Prioridade: 0,469
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Sidney Fernando](https://github.com/nando3d3)
+
+</center>
+
+
+<center>
+
+<b>Tabela 5</b> - Cartão de Especificação 5
+
+| Nº Requisito: 5 (<a id="anchor_NF05" href="#NF05">RNF05</a>)| Classificação: Usabilidade/Eficiência |
+|---------------| ------------|
+| Descrição: O app deve permitir a filtragem dos eventos cadastrados no banco de dados.
+| Justificativa: A filtragem de eventos no app proporciona aos usuários a capacidade de encontrar rapidamente informações relevantes, melhorando a usabilidade e a eficiência na busca de eventos específicos no banco de dados.
+| Origem do Requisisto: Projetista de Software
+| Critério de Aceitação: Filtragem flexível.
+| Dependências: Atividade do Usuário
+| Prioridade: 1,042
+| Conflitos: Nenhum
+| História: 23/05/2023
+
+Fonte: [Sidney Fernando](https://github.com/nando3d3)
+
+</center>
 
 ## NFR 00 - Geral
 
@@ -103,7 +205,7 @@ No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-
 
 ## NFR 01 - Usabilidade
 
-Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 7:
+Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 12:
 
 - <a id="anchor_NF01" href="#NF01">RNF01</a>: indica que o usuário deve receber eventos sugeridos de acordo com sua atividade no site.
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
@@ -125,12 +227,12 @@ Legenda:
 - Sugestões: refere-se ao [L02 - Sugestões de Eventos](../../lexicos/#l02-sugestoes-de-eventos).
 - Opções de filtro: refere-se ao [L01 - Filtrar Eventos](../../lexicos/#l01-filtrar-eventos).
 
-### Cartão de Especificação
+### Requisitos Não-Funcionais - Usabilidade
 
-Na Tabela 1, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
+Na Tabela 6, estão listados os RNF presentes no NFR Famework de Usabilidade :
 
 <center>
-<b>Tabela 1</b> - Cartões de Especificação 1
+<b>Tabela 6</b> - Requisitos Não-Funcionais 1
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
@@ -144,11 +246,11 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 ### Propagação dos Impactos - Usabilidade
 
-A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa à Figura 5.
+A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa à Figura 5.
 
 <center>
 
-<b>Tabela 2</b> - Impactos Usabilidade
+<b>Tabela 7</b> - Impactos Usabilidade
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -173,7 +275,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 ## NFR 02 - Eficiência
 
-Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 7:
+Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 12:
 
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
@@ -193,13 +295,13 @@ Legenda:
 - Processar Rapidamente: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
 - Informações Suficientes: informações suficientemente relevantes para a realização de um processo.
 
-### Cartão de Especificação
+### Requisitos Não-Funcionais - Eficiência
 
-Na Tabela 3, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
+Na Tabela 8, estão listados os RNF presentes no NFR Famework de Eficiência:
 
 <center>
 
-<b>Tabela 3</b> - Cartões de Especificação 2
+<b>Tabela 8</b> - Requisitos Não-Funcionais 2
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
@@ -213,11 +315,11 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 ### Propagação dos Impactos - Eficiência
 
-Na Tabela 4, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+Na Tabela 9, está presente a avaliação da propagação dos impactos referentes à Figura 6.
 
 <center>
 
-<b>Tabela 4</b> - Impactos Eficiência
+<b>Tabela 9</b> - Impactos Eficiência
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -242,7 +344,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 ## NFR 03 - Desempenho
 
-Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 7:
+Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 12:
 
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
 - <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.
@@ -261,13 +363,13 @@ Legenda:
 - Limite de páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.
 - Velocidade: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
 
-### Cartão de Especificação
+### Requisitos Não-Funcionais - Desempenho
 
-Na Tabela 5, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
+Na Tabela 10, estão listados os RNF presentes no NFR Famework de Desempenho :
 
 <center>
 
-<b>Tabela 5</b> - Cartões de Especificação 3
+<b>Tabela 10</b> - Requisitos Não-Funcionais 3
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
@@ -282,11 +384,11 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 ### Propagação dos Impactos - Desempenho
 
-Na Tabela 6, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+Na Tabela 11, está presente a avaliação da propagação dos impactos referentes à Figura 6.
 
 <center>
 
-<b>Tabela 6</b> - Impactos Desempenho
+<b>Tabela 11</b> - Impactos Desempenho
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -310,9 +412,9 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 ## Requisitos Não-Funcionais
 
-A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
+A Tabela 12 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
 
-<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais Não Implementados</p>
+<p style="text-align: center"><b>Tabela 12</b> - Requisitos Não-Funcionais Não Implementados</p>
 
 | ID    | Descrição                                                                     | Rastreabilidade                                                                                                                                                                                                                                                                                                                                                                                                                               | Implementação |
 | ----- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -324,10 +426,10 @@ A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criaç
 
 <font size="3"><p style="text-align: center"><b>Fonte:</b> <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font>
 
-A Tabela 8 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.
+A Tabela 13 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.
 
 <center>
-<b>Tabela 8</b> - Requisitos Elicitados NFR
+<b>Tabela 13</b> - Requisitos Elicitados NFR
 
 |  ID  | Descrição |
 |------|---------|
@@ -345,10 +447,10 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
 ## Fontes Externas
 
-Por fim, a Tabela 9 explicita as Fontes Externas como revisão na literatura.
+Por fim, a Tabela 14 explicita as Fontes Externas como revisão na literatura.
 
 <center>
-<b>Tabela 8</b> - Fontes Externas
+<b>Tabela 14</b> - Fontes Externas
 
 | ID  | Autores | Título |
 |-----|---------|--------|
@@ -381,3 +483,5 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 | `1.5`  | 22/05/2023 | Avaliação Impactos Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.6`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.7`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
+| `1.8`  | 23/05/2023 | Adição dos Cartões 1 a 3 e refatoração de Tabelas  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.9`  | 23/05/2023 | Adição dos Cartões 4 e 5  |  [Sidney Fernando](https://github.com/nando3d3)  | [Geovanna Maciel](https://github.com/manuziny) |
