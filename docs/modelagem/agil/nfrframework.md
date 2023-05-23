@@ -70,14 +70,12 @@ A propagação de impactos no NFR Framework  envolve a identificação das rela�
 - 𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.
 - X (negado): Indica que um requisito não funcional afeta negativamente outro requisito, negando ou contradizendo sua realização. 
 - 𝒲- (fracamente negado): Similar à notação X, mas com uma relação de negação mais fraca. 
-- 𝛼 (conflitante): Indica uma relação de conflito entre requisitos não funcionais. Isso significa que os requisitos são incompatíveis ou entram em conflito um com o outro.
+- 🗲 (conflitante): Indica uma relação de conflito entre requisitos não funcionais. Isso significa que os requisitos possuem características positivas e negativas.
 - u (indeterminado): Uma relação indeterminada ou desconhecida entre requisitos não funcionais. Isso ocorre quando não há informações suficientes para determinar o impacto de um requisito em outro.
-
-
 
 ## Metodologia
 
-Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io.
+Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io. Os temas foram selecionados de acordo com os RNF já elicitados e disponíveis na Tabela 7.
 
 ## NFR 00 - Geral
 
@@ -105,7 +103,7 @@ No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-
 
 ## NFR 01 - Usabilidade
 
-Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 4:
+Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 7:
 
 - <a id="anchor_NF01" href="#NF01">RNF01</a>: indica que o usuário deve receber eventos sugeridos de acordo com sua atividade no site.
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
@@ -128,13 +126,29 @@ Legenda:
 - Sugestões Gerais: sugestões utilizadas antes de se ter uma atividade do usuário no site, as sugestões seriam feitas com base no [Usuário](../../lexicos/#l05-usuario).
 - Opções de filtro: refere-se ao [L01 - Filtrar Eventos](../../lexicos/#l01-filtrar-eventos).
 
+### Cartão de Especificação
+
+Na Tabela 1, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
+
+<center>
+<b>Tabela 1</b> - Cartões de Especificação 1
+
+| RNF (Fonte) | Descrição | Classificação | Origem |
+|-------------|---------|-------|-------|
+| Adaptação (FE1) | O sistema deve ser adaptativo às necessidades e às expectativas do usuário. | Usabilidade | Sugestões |
+| Disponibilidade (FE1) | O sistema deve disponibilizar as informações. | Usabilidade | Usabilidade |
+| Exibir Inf. do Evento (FE1) | O sistema deve exibir as informações do evento específico. | Usabilidade | Informações Relevantes |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+</center>
+
 ### Propagação dos Impactos - Usabilidade
 
-A seguir, na Tabela 1, temos a avaliação da propagação dos impactos relativa à Figura 5.
+A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa à Figura 5.
 
 <center>
 
-<b>Tabela 1</b> - Impactos Usabilidade
+<b>Tabela 2</b> - Impactos Usabilidade
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -159,7 +173,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 ## NFR 02 - Eficiência
 
-Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 4:
+Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 7:
 
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
@@ -179,14 +193,31 @@ Legenda:
 - Processar Rapidamente: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
 - Informações Suficientes: informações suficientemente relevantes para a realização de um processo.
 
+### Cartão de Especificação
 
-### Propagação dos Impactos - Eficiência
-
-Na Tabela 2, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+Na Tabela 3, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
 
 <center>
 
-<b>Tabela 2</b> - Impactos Eficiência
+<b>Tabela 3</b> - Cartões de Especificação 2
+
+| RNF (Fonte) | Descrição | Classificação | Origem |
+|-------------|---------|-------|-------|
+| Tempo de Resposta (FE1 e FE2) | O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Eficiência | Limitações |
+| Limite de Páginas (FE2) | O sistema deve possuir uma limitação do espaço ocupado. | Eficiência | Limitações |
+| Apresentar Informações (FE1) | O sistema deve exibir as informações do evento específico. | Eficiência | Limite de Páginas |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+
+</center>
+
+### Propagação dos Impactos - Eficiência
+
+Na Tabela 4, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+
+<center>
+
+<b>Tabela 4</b> - Impactos Eficiência
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -211,7 +242,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 ## NFR 03 - Desempenho
 
-Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 4:
+Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 7:
 
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
 - <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.
@@ -230,13 +261,58 @@ Legenda:
 - Limite de páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.
 - Velocidade: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
 
-### Propagação dos Impactos
+### Cartão de Especificação
+
+Na Tabela 5, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:
+
+<center>
+
+<b>Tabela 5</b> - Cartões de Especificação 3
+
+| RNF (Fonte) | Descrição | Classificação | Origem |
+|-------------|---------|-------|-------|
+| Tempo de Resposta (FE1 e FE2) |  O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Desempenho | Desempenho |
+| Infraestrutura (FE2) | O sistema deve possuir uma infraestrutura para processar e perdurar os dados. | Desempenho | Tempo de Resposta |
+| Servidores (FE2) | O sistema deve exibir possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
+| Manutenção (FE1 e FE2) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Infraestrutura |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+
+</center>
+
+### Propagação dos Impactos - Desempenho
+
+Na Tabela 6, está presente a avaliação da propagação dos impactos referentes à Figura 6.
+
+<center>
+
+<b>Tabela 6</b> - Impactos Desempenho
+
+| NFR | Impacto | Avaliador |
+|-----|---------|-------|
+|Desempenho |  🗲| [Arthur de Melo](https://github.com/arthurmlv)|
+|Realizar Ações| 🗲|[Arthur de Melo](https://github.com/arthurmlv)|
+|Compra| 🗲|[Arthur de Melo](https://github.com/arthurmlv)|
+|Ordem Lógica| ✓|[Arthur de Melo](https://github.com/arthurmlv)|
+|Ações Rápidas|  X|[Arthur de Melo](https://github.com/arthurmlv)|
+|Limite de Páginas| 𝒲-|[Arthur de Melo](https://github.com/arthurmlv)|
+|Velocidade| 𝒲-|[Arthur de Melo](https://github.com/arthurmlv)|
+|Processar Corretamente| ✓|[Arthur de Melo](https://github.com/arthurmlv)|
+|Tempo de Resposta| 𝒲+|[Arthur de Melo](https://github.com/arthurmlv)|
+|Infraestrutura| 𝒲+|[Arthur de Melo](https://github.com/arthurmlv)|
+|Servidores| 𝒲+ |[Arthur de Melo](https://github.com/arthurmlv)|
+|Manutenção| ✓ |[Arthur de Melo](https://github.com/arthurmlv)|
+
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv)
+
+</center>
 
 ## Requisitos Não-Funcionais
 
-A tabela a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
+A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
 
-<p style="text-align: center"><b>Tabela 4</b> - Requisitos Não-Funcionais</p>
+<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais</p>
 
 | ID    | Descrição                                                                     | Rastreabilidade                                                                                                                                                                                                                                                                                                                                                                                                                               | Implementação |
 | ----- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
@@ -248,6 +324,16 @@ A tabela a seguir lista os Requisitos Não-Funcionais utilizados para a criaçã
 
 <font size="3"><p style="text-align: center"><b>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a></p></font>
 
+## Fontes Externas
+
+| ID  | Autores | Título |
+|-----|---------|--------|
+| FE1 |  SILVA  | NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados |
+| FE2 |  PAIM, et al | Enhancing Data Warehouse Design with the NFR Framework |
+
+## Bibliografia
+
+> PAIM, F. R. S., CASTRO, J. F. B. Enhancing Data Warehouse Design with the NFR Framework. Centro de Informática UFPE, Recife, 2019. Disponível em: <http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/paim.pdf>. Acesso em: 22/05/2023
 
 ## Referências Bibliográficas
 
@@ -264,4 +350,5 @@ A tabela a seguir lista os Requisitos Não-Funcionais utilizados para a criaçã
 | `1.1`  | 22/05/2023 | SIG Usabilidade e Desempenho | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.4`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.5`  | 22/05/2023 | Avaliação Impactos  Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.5`  | 22/05/2023 | Avaliação Impactos Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.6`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
