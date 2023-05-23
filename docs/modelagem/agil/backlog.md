@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O Backlog do Produto é uma lista de todas as funcionalidades desejadas para um produto ordenado por prioridades O responsável por priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
+O Backlog do Produto é uma lista de todas as funcionalidades desejadas para um produto ordenado por prioridades. O responsável por priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
 
 ## Metodologia
 
@@ -24,7 +24,6 @@ A definição do tema, épicos é realizada a partir dos [requisitos funcionais]
 | RF18 | O usuário pode responder a pesquisa de perfil sobre seus gostos                      | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS12</a>                                                                                                                                                   | Não           |
 | RF23 | O usuário é capaz de conectar uma carteira digital                                   | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a>                                                                                                                                                   | Não           |
 | RF24 | O usuário é capaz de mudar o idioma do app                                           | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>                                                                                                                                                   | Não           |
-| RF25 | O usuário é capaz de aumentar a fonte                                                | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS20</a>                                                                                                                                                   | Não           |
 | RF26 | O usuário é capaz de dar zoom                                                        | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS21</a>                                                                                                                                                   | Não           |
 | RF27 | O usuário é capaz de acessar a assistente virtual                                    | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a>                                                                                                                                                   | Não           |
 
@@ -91,7 +90,7 @@ Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](http
 
 </center>
 
-### Épicos 3 - Acessibilidade
+### Épico 3 - Acessibilidade
 A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
 
 Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
@@ -122,3 +121,4 @@ Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](http
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 22/05/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 23/05/2023 | Adição das Features | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
+| `1.1.1`  | 23/05/2023 | Remoção requisito BS20 | [Douglas Alves dos Santos](https://github.com/dougAlvs) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
