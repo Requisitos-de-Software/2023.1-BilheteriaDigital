@@ -105,7 +105,7 @@ No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-
 
 ## NFR 01 - Usabilidade
 
-Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 1:
+Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 4:
 
 - <a id="anchor_NF01" href="#NF01">RNF01</a>: indica que o usuário deve receber eventos sugeridos de acordo com sua atividade no site.
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
@@ -115,16 +115,24 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 
 <font size="3"><p style="text-align: center"><b>Figura 5</b> - SIG Usabilidade</p></font>
 
-![Diagrama do Modelo de Ciclo de Vida de Mayhew](../../assets/nfr-framework/usabilidade.png#only-light){width: 300}
-![Diagrama do Modelo de Ciclo de Vida de Mayhew](../../assets/nfr-framework/usabilidadeD.png#only-dark){width: 300}
+![SIG Usabilidade](../../assets/nfr-framework/usabilidade.png#only-light){width: 300}
+![SIG Usabilidade](../../assets/nfr-framework/usabilidadeD.png#only-dark){width: 300}
 
 <font size="3"><p style="text-align: center"> Fonte: Autores</p></font>
 
 </figure>
 
+Legenda:
+
+- Sugestões: refere-se ao [L02 - Sugestões de Eventos](../../lexicos/#l02-sugestoes-de-eventos).
+- Sugestões Gerais: sugestões utilizadas antes de se ter uma atividade do usuário no site, as sugestões seriam feitas com base no [Usuário](../../lexicos/#l05-usuario).
+- Opções de filtro: refere-se ao [L01 - Filtrar Eventos](../../lexicos/#l01-filtrar-eventos).
+
 ### Propagação dos Impactos - Usabilidade
 
 <center>
+
+<b>Tabela 1</b> - Impactos Usabilidade
 
 | NFR | Impacto | Avaliador |
 |-----|---------|-------|
@@ -140,18 +148,20 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 |Opções de Filtro| X|[Gabriel Campello](https://github.com/G16C)|
 |Busca Multivalorada| X|[Gabriel Campello](https://github.com/G16C)|
 |Informações Relevantes| ✓ |[Gabriel Campello](https://github.com/G16C)|
-|SExibir Inf. do Evento| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|Exibir Inf. do Evento| ✓ |[Gabriel Campello](https://github.com/G16C)|
 |Página Única| X|[Gabriel Campello](https://github.com/G16C)|
 
-<center/p>
+Fonte: [Gabriel Campello](https://github.com/G16C)
+
+</center>
 
 ## NFR 02 - Eficiência
 
-Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 1:
+Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 4:
 
 - <a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
-- <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta em 200ms.
+- <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.
 
 
 <font size="3"><p style="text-align: center"><b>Figura 6</b> - SIG Eficiência</p></font>
@@ -162,14 +172,20 @@ Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabe
 </figure>
 <font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv)</p></font>
 
+Legenda:
+
+- Processar Rapidamente: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
+- Informações Suficientes: informações suficientemente relevantes para a realização de um processo.
+
+
 ### Propagação dos Impactos
 
 ## NFR 03 - Desempenho
 
-Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 1:
+Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 4:
 
 - <a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.
-- <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta em 200ms.
+- <a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.
 
 <font size="3"><p style="text-align: center"><b>Figura 7</b> - SIG Desempenho</p></font>
 <figure markdown class="usecaseElement">
@@ -179,11 +195,19 @@ Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabe
 </figure>
 <font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Sidney Fernando](https://github.com/nando3d3)</p></font>
 
+Legenda:
+
+- Ordem Lógica: uma compra deve aplicar a ordem lógica observada na vida real.
+- Limite de páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.
+- Velocidade: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
+
 ### Propagação dos Impactos
 
 ## Requisitos Não-Funcionais
 
-<p style="text-align: center"><b>Tabela 1</b> - Requisitos Não-Funcionais</p>
+A tabela a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.
+
+<p style="text-align: center"><b>Tabela 4</b> - Requisitos Não-Funcionais</p>
 
 | ID    | Descrição                                                                     | Rastreabilidade                                                                                                                                                                                                                                                                                                                                                                                                                               | Implementação |
 | ----- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
