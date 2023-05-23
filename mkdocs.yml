@@ -14,6 +14,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
@@ -56,7 +57,9 @@ nav:
       - Cenários: modelagem/cenarios.md
       - Léxicos: modelagem/lexicos.md
       - Ágil:
-        - História de Usuário: modelagem/agil/historia-de-usuario.md
+          - NFR Framework: modelagem/agil/nfrframework.md
+          - Backlog: modelagem/agil/backlog.md
+          - Histórias de Usuário: modelagem/agil/historias-usuario.md
 
 theme:
   name: material

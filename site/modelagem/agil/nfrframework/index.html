@@ -1,0 +1,2208 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../lexicos/">
+      
+      
+        <link rel="next" href="../backlog/">
+      
+      <link rel="icon" href="../../../assets/bilheteria.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>NFR Framework - Bilheteria Digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="claro" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Bilheteria Digital" class="md-header__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bilheteria Digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NFR Framework
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="claro" data-md-color-primary="" data-md-color-accent=""  aria-label="Escuro"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Escuro" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Claro"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Claro" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Bilheteria Digital" class="md-nav__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    Bilheteria Digital
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao1/" class="md-nav__link">
+        Apresentação 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao2/" class="md-nav__link">
+        Apresentação 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao3/" class="md-nav__link">
+        Apresentação 3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_01/" class="md-nav__link">
+        Ata 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_02/" class="md-nav__link">
+        Ata 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_03/" class="md-nav__link">
+        Ata 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_04/" class="md-nav__link">
+        Ata 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_05/" class="md-nav__link">
+        Ata 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_06/" class="md-nav__link">
+        Ata 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_07/" class="md-nav__link">
+        Ata 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_08/" class="md-nav__link">
+        Ata 8
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        Aplicativo escolhido
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        Cronograma
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil_de_usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          Técnicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Técnicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/firstThingsfirst/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/threeLvlScale/" class="md-nav__link">
+        Three Level Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../useCase/" class="md-nav__link">
+        Casos de uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+          Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7_5">
+          <span class="md-nav__icon md-icon"></span>
+          Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          NFR Framework
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        NFR Framework
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    Softgoal Interdependency Graph
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    Tipos de Softgoal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    Interdependências
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    Decomposições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    Contribuições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-de-impactos" class="md-nav__link">
+    Propagação de Impactos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-00-geral" class="md-nav__link">
+    NFR 00 - Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-01-usabilidade" class="md-nav__link">
+    NFR 01 - Usabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 01 - Usabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-usabilidade" class="md-nav__link">
+    Propagação dos Impactos - Usabilidade
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-02-eficiencia" class="md-nav__link">
+    NFR 02 - Eficiência
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 02 - Eficiência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao_1" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-eficiencia" class="md-nav__link">
+    Propagação dos Impactos - Eficiência
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-03-desempenho" class="md-nav__link">
+    NFR 03 - Desempenho
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 03 - Desempenho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao_2" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-desempenho" class="md-nav__link">
+    Propagação dos Impactos - Desempenho
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes-externas" class="md-nav__link">
+    Fontes Externas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softgoal-interdependency-graph" class="md-nav__link">
+    Softgoal Interdependency Graph
+  </a>
+  
+    <nav class="md-nav" aria-label="Softgoal Interdependency Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoal" class="md-nav__link">
+    Tipos de Softgoal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interdependencias" class="md-nav__link">
+    Interdependências
+  </a>
+  
+    <nav class="md-nav" aria-label="Interdependências">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decomposicoes" class="md-nav__link">
+    Decomposições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contribuicoes" class="md-nav__link">
+    Contribuições
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-de-impactos" class="md-nav__link">
+    Propagação de Impactos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-00-geral" class="md-nav__link">
+    NFR 00 - Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-01-usabilidade" class="md-nav__link">
+    NFR 01 - Usabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 01 - Usabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-usabilidade" class="md-nav__link">
+    Propagação dos Impactos - Usabilidade
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-02-eficiencia" class="md-nav__link">
+    NFR 02 - Eficiência
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 02 - Eficiência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao_1" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-eficiencia" class="md-nav__link">
+    Propagação dos Impactos - Eficiência
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nfr-03-desempenho" class="md-nav__link">
+    NFR 03 - Desempenho
+  </a>
+  
+    <nav class="md-nav" aria-label="NFR 03 - Desempenho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartao-de-especificacao_2" class="md-nav__link">
+    Cartão de Especificação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-dos-impactos-desempenho" class="md-nav__link">
+    Propagação dos Impactos - Desempenho
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes-externas" class="md-nav__link">
+    Fontes Externas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>NFR Framework</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p>Uma forma de representação e análise dos <a href="../../../elicitacao/requisitos_elicitados/#requisitos-nao-funcionais">Requisitos Não-Funcionais</a> é o NFR Framework, o qual visa à implementação de resoluções particulares. Sendo assim, para tal, considera-se as características gerais do sistema em questão e de seu domínio. No NFR Framework, faz-se o uso do modelo de Softgoal Interdependency Graph (SIG).</p>
+<h2 id="softgoal-interdependency-graph">Softgoal Interdependency Graph</h2>
+<p>O Softgoal Interdependency Graph (SIG) é uma forma de visualização do funcionamento do NFR Framework. Dessa forma, trata-se de um gráfico que registra os posicionamentos da equipe de desenvolvimento acerca dos softgoals e explicita suas interdependências de forma gráfica e concisa<a id="anchor_1" href="#REF1"><sup>1</sup></a>.</p>
+<h3 id="tipos-de-softgoal">Tipos de Softgoal</h3>
+<p>Para a compreensão do SIG, é inexorável discernir a definição de NFR Softgoal: um objetivo que não é explicitamente definido e seus critérios de satisfação são imprecisos. Sendo assim, um softgoal é uma característica abstrata que está sujeita à vistoria, ou seja, postula-se posteriormente o destino de um determinado softgoal. Além disso, os softgoals podem ser operacionalizados, nesse caso, tomam uma forma concreta. Portanto, entende-se como funcionalidades. Por fim, há os softgoals de afirmação, os quais são escritos em linguagem natural e se tratam de registros adicionais e argumentativos, os quais podem ser incrementados ao modelo<a id="anchor_1" href="#REF1"><sup>1</sup></a>. Os tipos de softgoal estão ilustrados na Figura 1.</p>
+<p><font size="3"><p style="text-align: center"><b>Figura 1</b> - Tipos de Softgoal</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="TIPOS" src="../../../assets/nfr-framework/tipos.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+<h3 id="interdependencias">Interdependências</h3>
+<p>As interdependências são definições para as associações que ocorrem entre softgoals. Tais são divididas em decomposições e contribuições:</p>
+<h4 id="decomposicoes">Decomposições</h4>
+<p>As decomposições podem ocorrer em todos os níveis de abstração: Softgoals de NFR, de Operacionalização e de Afirmação. Nas três primeiras decomposições, os softgoals são subdivididos em softgoals especificados (SILVA, 2019)<a id="anchor_1" href="#REF1"><sup>1</sup></a>. Os quatro tipos estão explicitados na figura 2.</p>
+<ul>
+<li>Decomposição NFR: ajuda a dividir vicissitudes primordiais em partes menores, o que reduz as ambiguidades e facilita a priorização.</li>
+<li>Decomposição de Operacionalização: tem por finalidade refinar uma solução geral em soluções particulares.</li>
+<li>Decomposição de Afirmação: serve como afirmação ou negação de justificativas específicas do projeto.</li>
+<li>Decomposição de Priorização: trata-se de uma decomposição especial, na qual o softgoal é refinado em outro softgoal de mesmo tipo e tópico. No entanto, associa-se uma prioridade.</li>
+</ul>
+<p><font size="3"><p style="text-align: center"><b>Figura 2</b> - Tipos de Decomposição</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="DECOMPOSIÇÃO" src="../../../assets/nfr-framework/decompL.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+<h4 id="contribuicoes">Contribuições</h4>
+<p>Num NFR Framework, os softgoals se especializam cada vez mais. Por conseguinte, o um softgoal derivado de outro pode contribuir de forma integral ou truncada, e também de forma positiva ou negativa, para o softgoal do qual ele derivou. Portanto, listar-se-á os tipos de contribuição<a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
+<ul>
+<li>AND: se os softgoals derivados forem satisfeitos, o softgoal primordial também será.</li>
+<li>OR: se algum dos softgoals derivados forem satisfeitos, o softgoal primordial também será.</li>
+<li>MAKE(++): um softgoal originado contribui de forma plenamente positiva, logo o softgoal original também será satisfeito.</li>
+<li>BREAK(--): um softgoal originado contribui de forma plenamente negativa, logo o softgoal original será negado.</li>
+<li>HELP(+): um softgoal originado realiza uma contribuição restritamente positiva, o que reflete da mesma forma e na mesma intensidade no softgoal primordial.</li>
+<li>HURT(-): um softgoal originado realiza uma contribuição restritamente negativa, o que reflete da mesma forma e na mesma intensidade no softgoal primordial.</li>
+<li>UNKNOWN(?): contribuição incógnita.</li>
+<li>EQUALS: relação direta entre as satisfações do softgoal derivado e a do primordial.</li>
+<li>SOME: a forma de contribuição é conhecida, no entanto, a intensidade dessa contribuição é desconhecida.</li>
+</ul>
+<h4 id="propagacao-de-impactos">Propagação de Impactos</h4>
+<p>A propagação de impactos no NFR Framework  envolve a identificação das relações de dependência entre os requisitos não funcionais, bem como a análise de como uma mudança em um requisito pode afetar outros requisitos relacionados. Isso requer uma compreensão clara das interações entre os requisitos, bem como a capacidade de avaliar as prioridades e trade-offs entre eles. Ao considerar a propagação de impactos, os engenheiros de requisitos podem tomar decisões informadas sobre mudanças e gerenciar os possíveis efeitos colaterais de forma eficaz. A seguir são apresentados os tipos de softgoals de impacto e suas respectivas notações<a id="anchor_2" href="#REF2"><sup>2</sup></a>:</p>
+<ul>
+<li>✓ (satisfeito): Indica que um requisito não funcional contribui positivamente para a satisfação de outro requisito.</li>
+<li>𝒲+ (fracamente satisfeito): ndica uma relação de impacto positiva, mas menos forte do que a notação ✓.</li>
+<li>X (negado): Indica que um requisito não funcional afeta negativamente outro requisito, negando ou contradizendo sua realização. </li>
+<li>𝒲- (fracamente negado): Similar à notação X, mas com uma relação de negação mais fraca. </li>
+<li>🗲 (conflitante): Indica uma relação de conflito entre requisitos não funcionais. Isso significa que os requisitos possuem características positivas e negativas.</li>
+<li>u (indeterminado): Uma relação indeterminada ou desconhecida entre requisitos não funcionais. Isso ocorre quando não há informações suficientes para determinar o impacto de um requisito em outro.</li>
+</ul>
+<h2 id="metodologia">Metodologia</h2>
+<p>Os frameworks foram separados por temas. A plataforma utilizada para a elaboração foi o Draw.io. Os temas foram selecionados de acordo com os RNF já elicitados e disponíveis na Tabela 7.</p>
+<h2 id="nfr-00-geral">NFR 00 - Geral</h2>
+<p>A Figura 3 a seguir demonstra o Softgoal Interdependency Graph para se ter uma visão geral.</p>
+<p><font size="3"><p style="text-align: center"><b>Figura 3</b> - SIG Geral</p></font></p>
+<figure class="usecaseElement">
+<p><img alt="SIG GERAL" src="../../../assets/nfr-framework/geralL.png" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/G16C">Gabriel Campello</a></p></font></p>
+<p>No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-Funcionais ainda não implementados pelo site, adaptou-se o SIG acima para a utilização dos tópicos necessários, presentes na Figura 4.</p>
+<p><font size="3"><p style="text-align: center"><b>Figura 4</b> - SIG Geral Adaptado</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="SIG GERAL" src="../../../assets/nfr-framework/geralattD.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/G16C">Gabriel Campello</a></p></font></p>
+<h2 id="nfr-01-usabilidade">NFR 01 - Usabilidade</h2>
+<p>Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabela 7:</p>
+<ul>
+<li><a id="anchor_NF01" href="#NF01">RNF01</a>: indica que o usuário deve receber eventos sugeridos de acordo com sua atividade no site.</li>
+<li><a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.</li>
+<li><a id="anchor_NF05" href="#NF05">RNF05</a>: refere-se à necessidade da filtragem sob diversas óticas dentro da busca no site.</li>
+</ul>
+<figure>
+<p><font size="3"><p style="text-align: center"><b>Figura 5</b> - SIG Usabilidade</p></font></p>
+<p><img 300="300" alt="SIG Usabilidade" src="../../../assets/nfr-framework/usabilidade.png#only-light" width:="width:" />
+<img 300="300" alt="SIG Usabilidade" src="../../../assets/nfr-framework/usabilidadeD.png#only-dark" width:="width:" /></p>
+<p><font size="3"><p style="text-align: center"> Fonte: Autores</p></font></p>
+</figure>
+<p>Legenda:</p>
+<ul>
+<li>Sugestões: refere-se ao <a href="../../lexicos/#l02-sugestoes-de-eventos">L02 - Sugestões de Eventos</a>.</li>
+<li>Opções de filtro: refere-se ao <a href="../../lexicos/#l01-filtrar-eventos">L01 - Filtrar Eventos</a>.</li>
+</ul>
+<h3 id="cartao-de-especificacao">Cartão de Especificação</h3>
+<p>Na Tabela 1, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:</p>
+<p><center>
+<b>Tabela 1</b> - Cartões de Especificação 1</p>
+<table>
+<thead>
+<tr>
+<th>RNF (Fonte)</th>
+<th>Descrição</th>
+<th>Classificação</th>
+<th>Origem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adaptação (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
+<td>O sistema deve ser adaptativo às atividades do usuário.</td>
+<td>Usabilidade</td>
+<td>Sugestões</td>
+</tr>
+<tr>
+<td>Disponibilidade (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
+<td>O sistema deve disponibilizar as informações.</td>
+<td>Usabilidade</td>
+<td>Usabilidade</td>
+</tr>
+<tr>
+<td>Exibir Inf. do Evento (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
+<td>O sistema deve exibir as informações do evento específico.</td>
+<td>Usabilidade</td>
+<td>Informações Relevantes</td>
+</tr>
+<tr>
+<td>Sugestões Gerais (<a id="anchor_FE3" href="#FE3">FE3</a>)</td>
+<td>O sistema deve exibir as sugestões padrões antes de se ter uma atividade do usuário no site, feitas com base no <a href="../../lexicos/#l05-usuario">Usuário</a>.</td>
+<td>Usabilidade</td>
+<td>Sugestões</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a>
+</center></p>
+<h3 id="propagacao-dos-impactos-usabilidade">Propagação dos Impactos - Usabilidade</h3>
+<p>A seguir, na Tabela 2, temos a avaliação da propagação dos impactos relativa à Figura 5.</p>
+<p><center></p>
+<p><b>Tabela 2</b> - Impactos Usabilidade</p>
+<table>
+<thead>
+<tr>
+<th>NFR</th>
+<th>Impacto</th>
+<th>Avaliador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Usabilidade</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Antecipação</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Sugestões</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Adaptação</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Sugestões Gerais</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Atividade do Usuário</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Disponibilidade</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Busca</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Filtro</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Opções de Filtro</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Busca Multivalorada</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Informações Relevantes</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Exibir Inf. do Evento</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Página Única</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/G16C">Gabriel Campello</a></p>
+<p></center></p>
+<h2 id="nfr-02-eficiencia">NFR 02 - Eficiência</h2>
+<p>Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabela 7:</p>
+<ul>
+<li><a id="anchor_NF02" href="#NF02">RNF02</a>: infere que todas as informações de um evento devem estar contidas em uma única página, sem páginas adicionais ou pop-ups.</li>
+<li><a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.</li>
+<li><a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.</li>
+</ul>
+<p><font size="3"><p style="text-align: center"><b>Figura 6</b> - SIG Eficiência</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="SIG Eficiência" src="../../../assets/nfr-framework/eficiencia.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+<p>Legenda:</p>
+<ul>
+<li>Processar Rapidamente: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.</li>
+<li>Informações Suficientes: informações suficientemente relevantes para a realização de um processo.</li>
+</ul>
+<h3 id="cartao-de-especificacao_1">Cartão de Especificação</h3>
+<p>Na Tabela 3, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:</p>
+<p><center></p>
+<p><b>Tabela 3</b> - Cartões de Especificação 2</p>
+<table>
+<thead>
+<tr>
+<th>RNF (Fonte)</th>
+<th>Descrição</th>
+<th>Classificação</th>
+<th>Origem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
+<td>Eficiência</td>
+<td>Limitações</td>
+</tr>
+<tr>
+<td>Limite de Páginas (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve possuir uma limitação do espaço ocupado.</td>
+<td>Eficiência</td>
+<td>Limitações</td>
+</tr>
+<tr>
+<td>Apresentar Informações (<a id="anchor_FE1" href="#FE1">FE1</a>)</td>
+<td>O sistema deve exibir as informações do evento específico.</td>
+<td>Eficiência</td>
+<td>Limite de Páginas</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p>
+<p></center></p>
+<h3 id="propagacao-dos-impactos-eficiencia">Propagação dos Impactos - Eficiência</h3>
+<p>Na Tabela 4, está presente a avaliação da propagação dos impactos referentes à Figura 6.</p>
+<p><center></p>
+<p><b>Tabela 4</b> - Impactos Eficiência</p>
+<table>
+<thead>
+<tr>
+<th>NFR</th>
+<th>Impacto</th>
+<th>Avaliador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eficiência</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Executar Apropriadamente</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Processar Requisitos</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Processar Corretamente</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Recuperar de Erros</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Prevenção de Erros</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Limitações</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Limite de Páginas</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Apresentar Informações</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Informações Suficientes</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Limite de 5 Páginas</td>
+<td>X</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Tempo de Resposta</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td>Processar Rapidamente</td>
+<td>✓</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/G16C">Gabriel Campello</a></p>
+<p></center></p>
+<h2 id="nfr-03-desempenho">NFR 03 - Desempenho</h2>
+<p>Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabela 7:</p>
+<ul>
+<li><a id="anchor_NF03" href="#NF03">RNF03</a>: limita em até 5 a quantidade de páginas para realizar a compra.</li>
+<li><a id="anchor_NF04" href="#NF04">RNF04</a>: limita o tempo de resposta a 200ms.</li>
+</ul>
+<p><font size="3"><p style="text-align: center"><b>Figura 7</b> - SIG Desempenho</p></font></p>
+<figure class="usecaseElement">
+<p><img 300="300" alt="SIG Desempenho" src="../../../assets/nfr-framework/desempenhoL.png" width:="width:" /></p>
+</figure>
+<p><font size="3"><p style="text-align: center"> Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></p></font></p>
+<p>Legenda:</p>
+<ul>
+<li>Ordem Lógica: uma compra deve aplicar a ordem lógica observada na vida real.</li>
+<li>Limite de páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.</li>
+<li>Velocidade: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.</li>
+</ul>
+<h3 id="cartao-de-especificacao_2">Cartão de Especificação</h3>
+<p>Na Tabela 5, estão presentes os cartões de especificação dos RNF que possuem suas determinadas fontes de evidência na literatura:</p>
+<p><center></p>
+<p><b>Tabela 5</b> - Cartões de Especificação 3</p>
+<table>
+<thead>
+<tr>
+<th>RNF (Fonte)</th>
+<th>Descrição</th>
+<th>Classificação</th>
+<th>Origem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
+<td>Desempenho</td>
+<td>Desempenho</td>
+</tr>
+<tr>
+<td>Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve possuir uma infraestrutura para processar e perdurar os dados.</td>
+<td>Desempenho</td>
+<td>Tempo de Resposta</td>
+</tr>
+<tr>
+<td>Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve exibir possuir servidores para perdurar os dados.</td>
+<td>Desempenho</td>
+<td>Infraestrutura</td>
+</tr>
+<tr>
+<td>Manutenção (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>)</td>
+<td>O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.</td>
+<td>Desempenho</td>
+<td>Infraestrutura</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p>
+<p></center></p>
+<h3 id="propagacao-dos-impactos-desempenho">Propagação dos Impactos - Desempenho</h3>
+<p>Na Tabela 6, está presente a avaliação da propagação dos impactos referentes à Figura 6.</p>
+<p><center></p>
+<p><b>Tabela 6</b> - Impactos Desempenho</p>
+<table>
+<thead>
+<tr>
+<th>NFR</th>
+<th>Impacto</th>
+<th>Avaliador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desempenho</td>
+<td>🗲</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Realizar Ações</td>
+<td>🗲</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Compra</td>
+<td>🗲</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Ordem Lógica</td>
+<td>✓</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Ações Rápidas</td>
+<td>X</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Limite de Páginas</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Velocidade</td>
+<td>𝒲-</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Processar Corretamente</td>
+<td>✓</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Tempo de Resposta</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Infraestrutura</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Servidores</td>
+<td>𝒲+</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+<tr>
+<td>Manutenção</td>
+<td>✓</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a></p>
+<p></center></p>
+<h2 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h2>
+<p>A Tabela 7 a seguir lista os Requisitos Não-Funcionais utilizados para a criação do NFR Framework.</p>
+<p style="text-align: center"><b>Tabela 7</b> - Requisitos Não-Funcionais Não Implementados</p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Rastreabilidade</th>
+<th>Implementação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="NF01" href="#anchor_NF01">RNF01</a></td>
+<td>O app deve fornecer eventos direcionados.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS10</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_QNF">Q11</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS35</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS36</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS22</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a id="NF02" href="#anchor_NF02">RNF02</a></td>
+<td>O app deve disponibilizar todas as informações do evento em uma página.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS11</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS25</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS26</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS27</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS28</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS29</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS30</a>, <a href="(../../../elicitacao/tecnicas/observacao/#anchor_OBSNF)">OBS15</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS16</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a id="NF03" href="#anchor_NF03">RNF03</a></td>
+<td>A compra deve ser feita em no máximo 5 páginas.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS13</a>, <a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS16</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_QNF">Q14</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS17</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS18</a>, <a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS14</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a id="NF04" href="#anchor_NF04">RNF04</a></td>
+<td>O app não deve ter tempo de resposta superior a 200 ms.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_QNF">Q12</a></td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a id="NF05" href="#anchor_NF05">RNF05</a></td>
+<td>O app deve permitir a filtragem dos eventos cadastrados no banco de dados.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#anchor_QNF">Q13</a></td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center"><b>Fonte:</b> <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/arthurmlv">Arthur de Melo</a></p></font></p>
+<p>A Tabela 8 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.</p>
+<p><center>
+<b>Tabela 8</b> - Requisitos Elicitados NFR</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NFR01</td>
+<td>O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição.</td>
+</tr>
+<tr>
+<td>NFR02</td>
+<td>O sistema deve possuir uma infraestrutura para processar e perdurar os dados.</td>
+</tr>
+<tr>
+<td>NFR03</td>
+<td>O sistema deve exibir possuir servidores para perdurar os dados.</td>
+</tr>
+<tr>
+<td>NFR04</td>
+<td>O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.</td>
+</tr>
+<tr>
+<td>NFR05</td>
+<td>O sistema deve possuir uma limitação do espaço ocupado.</td>
+</tr>
+<tr>
+<td>NFR06</td>
+<td>O sistema deve exibir as informações do evento específico.</td>
+</tr>
+<tr>
+<td>NFR07</td>
+<td>O sistema deve disponibilizar as informações.</td>
+</tr>
+<tr>
+<td>NFR08</td>
+<td>O sistema deve ser adaptativo às atividades do usuário.</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a>
+</center></p>
+<h2 id="fontes-externas">Fontes Externas</h2>
+<p>Por fim, a Tabela 9 explicita as Fontes Externas como revisão na literatura.</p>
+<p><center>
+<b>Tabela 8</b> - Fontes Externas</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Autores</th>
+<th>Título</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="FE1" href="#anchor_FE1">FE1</a></td>
+<td>SILVA</td>
+<td>NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados</td>
+</tr>
+<tr>
+<td><a id="FE2" href="#anchor_FE2">FE2</a></td>
+<td>PAIM, et al</td>
+<td>Enhancing Data Warehouse Design with the NFR Framework</td>
+</tr>
+<tr>
+<td><a id="FE3" href="#anchor_FE3">FE3</a></td>
+<td>CHUNG, et al</td>
+<td>Non-functional requirementsin software engineering</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: <a href="https://github.com/arthurmlv">Arthur de Melo</a>
+</center></p>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>PAIM, F. R. S., CASTRO, J. F. B. Enhancing Data Warehouse Design with the NFR Framework. Centro de Informática UFPE, Recife, 2019. Disponível em: <a href="http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/paim.pdf">http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/paim.pdf</a>. Acesso em: 22/05/2023</p>
+</blockquote>
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="REF1" href="#anchor_1">1.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: <a href="https://repositorio.ufpe.br/handle/123456789/34150">https://repositorio.ufpe.br/handle/123456789/34150</a>. Acesso em: 22/05/2023.</p>
+<p><a id="REF2" href="#anchor_2">2.</a>CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science &amp; Business Media: [S.l.], 2000. v. 5.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>22/05/2023</td>
+<td>Introdução, SIG, Tipos de Softgoal e Interdependências.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>22/05/2023</td>
+<td>SIG Usabilidade e Desempenho</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a>, <a href="https://github.com/G16C">Gabriel Campello</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>22/05/2023</td>
+<td>SIG Eficiência</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a>, <a href="https://github.com/G16C">Gabriel Campello</a> e <a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>22/05/2023</td>
+<td>Adição Notações de Impacto e Avaliação Impactos Usabilidade</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.5</code></td>
+<td>22/05/2023</td>
+<td>Avaliação Impactos Eficiência</td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.6</code></td>
+<td>23/05/2023</td>
+<td>Cartões de Especificação e Avaliação Impactos Desempenho.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.7</code></td>
+<td>23/05/2023</td>
+<td>Requisitos Elicitados e hyperlinks.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
