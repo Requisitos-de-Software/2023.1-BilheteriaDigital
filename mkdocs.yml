@@ -14,6 +14,7 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+
 site_name: Bilheteria Digital
 nav:
   - Home: index.md
