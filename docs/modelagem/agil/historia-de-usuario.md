@@ -34,62 +34,48 @@ As histórias de usuário são provenientes do [backlog do produto]() e serão d
 
 ## Épicos
 
-### Épico 1 - Filtragem
+Na tabela 3 são os épicos listados e suas respectivas features.
 
+<font size="3"><p style="text-align: center">Tabela 3: Épicos.</p></font>
 <center>
 
-Tabela 3 - Features e Histórias de Usuário.
-
-| Feature | ID da História | História de usuário |
-|----------|:----:|:----------------------|
-| Feature 1 - Local e Data | USXX | Descrição |
-| Feature 2 - Categorias | USXX | Descrição |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
+| Épico | Descrição | Features |
+|:----------|:-------------:|:-------------|
+| E01 - Filtragem | Engloba filtragem de eventos. | > Local e data; </br> > Categoria. |
+| E02 - Preferências | Engloba a parte de configurações da aplicação e notificações. | > Avisos; </br> > Configurações. |
+| E03 - Acessibilidade | Engloba a parte de acessibilidade da aplicação. | > Atalhos; </br> > Central de ajuda; </br> > Ferramentas de Acessibilidade. |
 
 </center>
-
-### Épico 2 - Preferências
-
-A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 4 apresenta as features e histórias de usuário relacionada a esse épico.
-
-Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências.
-
-<center>
-
-Tabela 4 - Features e Histórias de Usuário.
-
-| Feature | ID da História | História de usuário |
-|----------|:----:|:----------------------|
-| Feature 4 - Avisos | USXX | Descrição |
-| Feature 5 - Configurações | USXX | Descrição |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-</center>
-
-### Épico 3
-Épicos 3 - Acessibilidade
-A história de usuário a seguir resume as caracteristicas desse épico e a Tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
-
-Como usuário com necessidade especiais, eu desejo recursos que me permitam realizar tarefas no site.
-
-<center>
-
-Tabela 5 - Features e Histórias de Usuário.
-
-| Feature | ID da História | História de usuário |
-|----------|:----:|:----------------------|
-| Feature 6 - Atalhos | USXX | Descrição |
-| Feature 7 - Central de Ajuda | USXX | Descrição |
-| Feature 8 - Ferramentas de Acessibilidade | USXX | Descrição |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
 
 ## Features
+
+### Feature 1 - Local e Data
+
+<font size="3"><p style="text-align: center">Tabela 2: Modelo de card para histórias de usuário.</p></font>
+<center>
+
+| **ID** | **Nome** |
+|:-------|:---------|
+| US01 |  |
+| Descrição | _Eu, como_ XXX, _desejo_ XXX _para_ XXX |
+| Critérios de Aceitação | >XXX <br> >XXX <br> |
+
+</center>
+<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+### Feature 2 - Categoria
+
+### Feature 3 - Avisos
+
+### Feature 4 - Configurações
+
+### Feature 5 - Atalhos
+
+### Feature 6 - Central de ajuda
+
+### Feature 7 - Ferramentas de Acessibilidade 
 
 ## Bibliografia
 
