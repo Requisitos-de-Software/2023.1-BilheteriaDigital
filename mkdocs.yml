@@ -59,7 +59,7 @@ nav:
       - Ágil:
           - NFR Framework: modelagem/agil/nfrframework.md
           - Backlog: modelagem/agil/backlog.md
-          - Histórias de Usuário: modelagem/agil/historias-usuario.md
+          - Histórias de Usuário: modelagem/agil/historias-de-usuario.md
 
 theme:
   name: material
