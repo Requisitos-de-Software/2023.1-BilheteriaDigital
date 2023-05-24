@@ -487,3 +487,4 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 | `1.7`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.8`  | 23/05/2023 | Adição dos Cartões 1 a 3 e refatoração de Tabelas  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.9`  | 23/05/2023 | Adição dos Cartões 4 e 5  |  [Sidney Fernando](https://github.com/nando3d3)  | [Geovanna Maciel](https://github.com/manuziny) |
+
