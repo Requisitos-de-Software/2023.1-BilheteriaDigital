@@ -142,7 +142,7 @@ As tabelas de 4 a 15 descrevem as histórias de usuário (Representadas pelo id 
 
 <center>
 
-| **ID**                 | **Nome**                                                                                                                                    |
+| **ID**                 | **Nome**                |                                                                                                                   |
 | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | US07                   | Notificação de evento                                                                                                                       |
 | Descrição              | _Eu, como_ usuário, _desejo_ receber notificações de eventos (quando permitido) _para_ que eu fique ciente de eventos de meu interesse      | ->Pedir permissão do usuário para enviar notificações.<br>->Enviar notificações de eventos que se encaixem nos gostos coletados do usuário. |
