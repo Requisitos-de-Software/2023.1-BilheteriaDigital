@@ -376,8 +376,8 @@ Na Tabela 10, estão listados os RNF presentes no NFR Famework de Desempenho :
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
 | Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) |  O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Desempenho | Desempenho |
-| Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma infraestrutura para processar e perdurar os dados. | Desempenho | Tempo de Resposta |
-| Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve exibir possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
+| Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma infraestrutura para processar os dados. | Desempenho | Tempo de Resposta |
+| Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
 | Manutenção (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Infraestrutura |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
@@ -436,8 +436,8 @@ A Tabela 13 lista os Requisitos Não-Funcionais elicitados pelo NFR Framework.
 |  ID  | Descrição |
 |------|---------|
 |NFR01| O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. |
-|NFR02| O sistema deve possuir uma infraestrutura para processar e perdurar os dados.|
-|NFR03| O sistema deve exibir possuir servidores para perdurar os dados.|
+|NFR02| O sistema deve possuir uma infraestrutura para processar os dados.|
+|NFR03| O sistema deve possuir servidores para perdurar os dados.|
 |NFR04| O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura.|
 |NFR05| O sistema deve possuir uma limitação do espaço ocupado.|
 |NFR06| O sistema deve exibir as informações do evento específico.|
