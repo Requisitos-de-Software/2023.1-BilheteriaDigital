@@ -125,7 +125,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 <b>Tabela 3</b> - Cartão de Especificação 3
 
-| Nº Requisito: 3 (<a id="anchor_NF03" href="#NF03">RNF03</a>)| Classificação: Eficiência/Desempenho |
+| Nº Requisito: 3 (<a id="anchor_NF03" href="#NF03">RNF03</a>)| Classificação: Eficiência|
 |---------------| ------------|
 | Descrição: A compra de ingressos deve ser realizada em menos de 5 páginas (botões)
 | Justificativa: Operações que podem ser efetuadas em menos de 5 cliques em geral são consideradas eficientes. No caso do processo de compra, quão mais rapidamente essa operação for efetuada, não só o tempo gasto pelo usuário, mas também o gasto de energia do aplicativo serão reduzidos.
@@ -144,7 +144,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 <b>Tabela 4</b> - Cartão de Especificação 4
 
-| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Eficiência |
+| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Desempenho |
 |---------------| ------------|
 | Descrição: As ações realizadas no app não devem demorar mais que 200 ms para responder ao usuário
 | Justificativa: As ações rápidas no app garantem uma experiência fluida, mantendo o usuário engajado e evitando frustrações desnecessárias.
