@@ -18,7 +18,7 @@ Para a compreensão do SIG, é inexorável discernir a definição de NFR Softgo
 ![TIPOS](../../assets/nfr-framework/tipos.png){width: 300}
 
 </figure>
-<font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv)</p></font>
+<font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font>
 
 
 
@@ -44,7 +44,7 @@ As decomposições podem ocorrer em todos os níveis de abstração: Softgoals d
 ![DECOMPOSIÇÃO](../../assets/nfr-framework/decompL.png){width: 300}
 
 </figure>
-<font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv)</p></font>
+<font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font>
 
 
 
@@ -144,7 +144,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C)
 
 <b>Tabela 4</b> - Cartão de Especificação 4
 
-| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Eficiência/Desempenho |
+| Nº Requisito: 4 (<a id="anchor_NF04" href="#NF04">RNF04</a>)| Classificação: Eficiência |
 |---------------| ------------|
 | Descrição: As ações realizadas no app não devem demorar mais que 200 ms para responder ao usuário
 | Justificativa: As ações rápidas no app garantem uma experiência fluida, mantendo o usuário engajado e evitando frustrações desnecessárias.
@@ -164,7 +164,7 @@ Fonte: [Sidney Fernando](https://github.com/nando3d3)
 
 <b>Tabela 5</b> - Cartão de Especificação 5
 
-| Nº Requisito: 5 (<a id="anchor_NF05" href="#NF05">RNF05</a>)| Classificação: Usabilidade/Eficiência |
+| Nº Requisito: 5 (<a id="anchor_NF05" href="#NF05">RNF05</a>)| Classificação: Usabilidade |
 |---------------| ------------|
 | Descrição: O app deve permitir a filtragem dos eventos cadastrados no banco de dados.
 | Justificativa: A filtragem de eventos no app proporciona aos usuários a capacidade de encontrar rapidamente informações relevantes, melhorando a usabilidade e a eficiência na busca de eventos específicos no banco de dados.
@@ -190,7 +190,7 @@ A Figura 3 a seguir demonstra o Softgoal Interdependency Graph para se ter uma v
 ![SIG GERAL](../../assets/nfr-framework/geralL.png)
 
 </figure>
-<font size="3"><p style="text-align: center"> Fonte: [Gabriel Campello](https://github.com/G16C)</p></font>
+<font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font>
 
 No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-Funcionais ainda não implementados pelo site, adaptou-se o SIG acima para a utilização dos tópicos necessários, presentes na Figura 4.
 
@@ -200,7 +200,7 @@ No entanto, dada a limitação do grupo de trabalhar apenas com Requisitos Não-
 ![SIG GERAL](../../assets/nfr-framework/geralattD.png){width: 300}
 
 </figure>
-<font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C)</p></font>
+<font size="3"><p style="text-align: center"> Fonte: (SILVA, 2019)</p></font>
 
 
 ## NFR 01 - Usabilidade
