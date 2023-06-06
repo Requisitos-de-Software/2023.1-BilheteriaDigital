@@ -17,3 +17,77 @@ A metodologia escolhida para esta verificação é a inspeção. Desenvolvida or
 Os responsáveis por essa verificação são os integrantes do Grupo 1 [Sidney Fernando](https://github.com/nando3d3) e [Gabriel Campello](https://github.com/g16c). A revisáo dos artefatos produzidos por essa verificação fica a cargo dos integrantes do Grupo 1 [Geovanna Maciel](https://github.com/manuziny), [Douglas Alves](https://github.com/dougAlvs), [Arthur de Melo](https://github.com/arthurmlv).
 
 ## Objetivso de Verificação
+
+Os artefatos alvos dessa verificação são:
+
+- O [Perfil de usuário](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/perfilDeUsuario/) na versão 1.1 de data 10/05/2023 produzida por [Henrique Pucci](https://github.com/HenriPucci) e [Pedro Henrique Rodrigues](https://github.com/PedroHenrique2077) com revisão de [Samuel Gomes](https://github.com/SamuelGSouza);
+
+- As [Personas](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/personas/) na versão 1.4 de data 10/05/2023 produzida por [Chaydson Ferreira](https://github.com/chaydson) com revisão de [Gabriel Ferreira](https://github.com/oo7gabriel) e [Lucas Lopes](https://github.com/LucasLopesFrazao);
+
+- A [Técnica de elicitação: Brainstorming](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/brainstorm/) na versão 1.0 de data 23/04/2023 produzida por [Gabriel Ferreira](https://github.com/oo7gabriel) e [Samuel Gomes](https://github.com/SamuelGSouza) com revisão de [Henrique Pucci](https://github.com/HenriPucci);
+
+- A [Técnica de elicitação: Observação](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/observacao/) na versão 1.1 de data 30/04/2023 produzida por [Pedro Henrique Rodrigues](https://github.com/PedroHenrique2077) e [Chaydson Ferreira](https://github.com/chaydson)com revisão de [Samuel Gomes](https://github.com/SamuelGSouza);
+
+- A [Técnica de elicitação: Storytelling](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/storytelling/) na versão 1.0 de data 23/04/2023 produzida por [Lucas Lopes](https://github.com/LucasLopesFrazao) e [Samuel Gomes](https://github.com/SamuelGSouza) com revisão de [Gabriel Ferreira](https://github.com/oo7gabriel);
+
+- A [Técnica de Priorização: Three Level Scale](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/threeLevelScale/) na versão 1.1 de data 24/04/2023 produzida por [Henrique Pucci](https://github.com/HenriPucci) e [Lucas Lopes](https://github.com/LucasLopesFrazao) com revisão de  [Pedro Henrique Rodrigues](https://github.com/PedroHenrique2077);
+
+- A [Técnica de Priorização: MOSCOW](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/moscow/) na versão 1.2 de data 30/04/2023 produzida por [Chaydson Ferreira](https://github.com/chaydson) e [Henrique Pucci](https://github.com/HenriPucci) com revisão de [Lucas Lopes](https://github.com/LucasLopesFrazao);
+
+- A [Técnica de Priorização: In or Out](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/inOrOut/) na versão 1.1 de data 28/04/2023 produzida por [Pedro Henrique Rodrigues](https://github.com/PedroHenrique2077) e [Samuel Gomes](https://github.com/SamuelGSouza) com revisão de  [Lucas Lopes](https://github.com/LucasLopesFrazao);
+
+## Cronograma
+
+A verificação será realizada no período de 06 de junho de 2023 até 08 de junho de 2023, com os resultados sendo relatados através da página de documentação do Grupo 1 no dia 08 de junho de 2023. A Tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
+
+<font><p style="text-align: center">**Tabela 1** - Cronograma das Atividades.</p></font>
+
+<center>
+
+|  Data | Descrição|  Responsável    |
+| ---------- | ----- | ------- |
+| 06/06/2023 |   Verificação do Perfil de Usuário  |  [Gabriel Campello](https://github.com/g16c)     |
+| 06/06/2023 |   Verificação das Personas    |   [Gabriel Campello](https://github.com/g16c)      |
+| 06/06/2023 |    Verificação do Brainstorming   | [Sidney Fernando](https://github.com/nando3d3)         |
+| 07/06/2023 |    Verificação da Observação   |   [Sidney Fernando](https://github.com/nando3d3)      |
+| 07/06/2023 |   Verificação do Storytelling    |    [Sidney Fernando](https://github.com/nando3d3)     |             
+| 07/06/2023 |   Verificação Three Level Scale   |  [Gabriel Campello](https://github.com/g16c)       |
+| 08/20/2023 |  Verificação MOSCOW    |   [Sidney Fernando](https://github.com/nando3d3)       |
+| 08/20/2023 |  Verificação In or Out     |   [Gabriel Campello](https://github.com/g16c)      |
+| 08/20/2023 |  Adição da documentação na página do grupo     |   [Gabriel Campello](https://github.com/g16c)      |
+
+_Fonte: [Gabriel Campello](https://github.com/g16c)._
+
+</center>
+
+## Checklists
+
+As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos, tudo isso de acordo com os livros _The Essentials of Interaction Design de Alan Cooper_<a id="FTF1" href="#FTF1Ref">^1^</a>, _Engenharia de Requisitos: software orientado ao negócio de Carlso Eduardo Vazquez_<a id="FTF2" href="#FTF2Ref">^2^</a> e _Software Requirements (Developer Best Practices) Karl Wiegers_<a id="FTF3" href="#FTF3Ref">^3^</a>. Além dos itens listados anteriormente também será analisado o relatório referente às entregas produzido pelo monitor do grupo 2, [ ]().
+
+Com intuito de melhor organizar a verifica;áo, a checklist será dividida em 8 checklists sendo que 5 perguntas deverão estar presentes em todas as etapas de verificação, assim como expressado na Tabela 2. As checklists são as seguintes: Perfil de usuário, Personas, Brainstorming, Observação, Storytelling, Three Level Scale, MOSCOW, In or Out. As Tabelas de 3 a 10 descrevem cada uma dessas checklists.
+
+### Geral
+
+<center>
+
+**Tabela 2** - Checklist para os Itens Gerais.
+
+| ID  | Descrição                                                                                              | Avaliação |
+| --- | ------------------------------------------------------------------------------------------------------ | --------- | 
+| 1   | O artefato possui Introdução?                                                                          |           |
+| 2   | O artefato possui uma bibliografia/referência bibliográfica?                                           |           |
+| 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? |           |
+| 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                           |           |
+| 5   | Todos os textos estão na norma padrão?                                                                 |           |
+
+_Fonte: [Gabriel Campello](https://github.com/g16c)._
+
+</center>
+
+## Referências Bibliográficas 
+
+> <a id="FTF1Ref" href="#FTF1">1.</a> COOPER, Alan; REIMANN, Robert; CRONIN, Dave. About Face: The Essentials of Interaction Design. 
+
+> <a id="FTF2Ref" href="#FTF2">2.</a> Vazquez, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. Brasport, 2016.
+
+> <a id="FTF3Ref" href="#FTF3">3.</a> Wiegers, Karl; Beatty, Joy.Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013.
