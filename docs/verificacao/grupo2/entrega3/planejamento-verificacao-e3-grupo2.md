@@ -1,8 +1,8 @@
-# Planejamento da Verificação da Etapa 5 do Grupo 2
+# Planejamento da Verificação da Especificação Suplementar do Grupo 2
 
 ## Introdução
 
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação do artefato de [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzidos pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação do artefato de [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
 
 ## Objetivos
 
@@ -22,7 +22,7 @@ O artefato alvo dessa verificação é o [Especificação Suplementar](https://r
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da Verificaçã da Especificação Suplementar](../verificacao-especificacao-suplementar).
+- [Resultados da Verificação da Especificação Suplementar](../verificacao-especificacao-suplementar).
 
 ### Cronograma
 
@@ -43,7 +43,7 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para o artefato.<a id=anchor_1 href="#REF1"><sup>1</sup></a> Além dos itens listados anteriormente, também será analisado o relatório referente às entregas produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital), Gustavo Martins.
+As checklists foram construídas levando em conta os padrões esperados para o artefato.<a id=anchor_1 href="#REF1"><sup>1</sup></a> Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins.
 
 Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação da Especificação Suplementar. As tabelas de 2 a 3 apresenta as checklists de verificação.
 
@@ -69,7 +69,7 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ### Verificação da Especificação Suplementar
 
-A tabela 3 a seguir apresenta a checklist referente aos itens exigidos para o documento de planejamento segundo Barbosa e Silva (2011, p.358-362).<a href="#REF1"><sup>1</sup></a>
+A tabela 3 a seguir apresenta a checklist com os itens de avaliação.
 
 <center>
 
@@ -103,7 +103,7 @@ A tabela 3 a seguir apresenta a checklist referente aos itens exigidos para o do
 | 14.1 | Os requisitos apresentados são testáveis?                                  |           |             |
 | 15   | O documento possui um tópico de Requisitos Físicos?                        |           |             |
 | 15.1 | Os requisitos apresentados são testáveis?                                  |           |             |
-| 15.2 | As característica física de onde sistema funcionara são apresentadas?      |           |             |
+| 15.2 | As características físicas de onde o sistema funcionará são apresentadas?  |           |             |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
