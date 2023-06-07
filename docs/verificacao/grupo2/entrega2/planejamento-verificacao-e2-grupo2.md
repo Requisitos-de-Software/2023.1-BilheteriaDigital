@@ -178,8 +178,6 @@ _Fonte: [Gabriel Campello](https://github.com/g16c)._
 > ALVES, Douglas. Planejamento da Verifica;áo da Etapa 2. Repositório do Grupo Bilheteria Digital da Disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://interacao-humano-computador.github.io/2023.1-BilheteriaDigital/verificacao/etapa2/planejamento-verificacao-etapa2-grupo2/#verificacao-da-pesquisa-sobre-etica>>. Acesso em: 07 junho 2023.
 
 
-
-
 ## Referências Bibliográficas 
 
 > <a id="FTF1Ref" href="#FTF1">1.</a> COOPER, Alan; REIMANN, Robert; CRONIN, Dave. About Face: The Essentials of Interaction Design. 
@@ -187,3 +185,9 @@ _Fonte: [Gabriel Campello](https://github.com/g16c)._
 > <a id="FTF2Ref" href="#FTF2">2.</a> Vazquez, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. Brasport, 2016.
 
 > <a id="FTF3Ref" href="#FTF3">3.</a> Wiegers, Karl; Beatty, Joy.Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013.
+
+## Histórico de Versões
+
+Versão  | Data | Descrição | Autor(es) | Revisor(es)
+-------- | ------ | ------ | ---------- | ----------
+`1.0` | 06/06/2023 | Adição da Introdução e Tabelas 1, 2, 3, 4, 8, 10  | [Gabriel Campello](https://github.com/g16c) | [Sidney Fernando](https://github.com/nando3d3)
