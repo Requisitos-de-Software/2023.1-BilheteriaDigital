@@ -6,11 +6,22 @@ A verificação é uma das etapas mais importantes do desenvolvimento de um proj
 
 ## Objetivos
 
-O objetivo deste documento é verificar se os artefatos produzidos na Etapa 3 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) possuem os itens e o padrão exigidos para tais.
+O objetivo deste documento é verificar se os artefatos produzidos na Etapa 3 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) possuem os itens e o padrão exigidos para tais. É importante citar que essa verificação em momento nenhum busca diminuir os membros do Grupo 2 ou seu trabalho, apenas aplicar os conceitos de verificação nos artefatos.
 
 ## Metodologia
 
-A metodologia escolhida para esta verificação é a inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos. Essa revisão é realizada através de uma checklist onde se tem uma lista com os defeitos mais comuns que deverão ser identificados, analisados e classificados. Vale ressaltar que a leitura do artefato não deve ser feita pelo o autor do mesmo.
+A metodologia escolhida para esta verificação é uma adptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo. 
+
+Salienta-se que a inspeção aqui planejada será realizada somente até a etapa de "Reunião de Inspeção", que nessa adaptacação será a inspeção propriamente dita, realizada de maneira individual. Essa revisão será realizada através de uma checklist onde se tem uma lista com os defeitos mais comuns que deverão ser identificados, analisados e classificados, tudo isso com base na bibliografia especificada pelo autor da checklist.
+<center>
+
+**Figura 1** - Etapas da Inspeção de acordo com Fagan.
+
+![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png#only-light)
+![inspecao-fagan](../../../assets/verificacao/inspecao-fagan-e.png#only-dark)
+
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^4^</a>
+</center>
 
 ### Participantes
 
@@ -20,7 +31,7 @@ Os responsáveis por essa verificação são os integrantes do [Grupo 1](https:/
 
 Os artefatos alvo dessa verificação são:  
 
-- [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
+- [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), na versão 1.0 de data 09/05/2023 produzido por [Lucas Frazão](https://github.com/LucasLopesFrazao) e [Gabriel Silva](https://github.com/oo7gabriel) com a revisão de [Chaydson Ferreira](https://github.com/chaydson).
 
 - [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
 
@@ -30,8 +41,9 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso);
-- [Resultados da Verificação da Especificação Suplementar](../verificacao-especificacao-suplementar).
+- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso).
+- [Resultados da Verificação da Especificação Suplementar](./especificacao-suplementar.md).
+- [Resultados da Verificação dos Cenários](./cenarios.md).
 
 ### Cronograma
 
@@ -46,6 +58,7 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 06 d
 | 03/06/2023 | Verificação do Caso de Uso. |[Geovanna Maciel](https://github.com/manuziny) 
 | 04/06/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 06/06/2023 | Adição da documentação na página do grupo. | [Matheus Henrique](https://github.com/mathonaut) |
+| 08/06/2023 | Verificação dos cenários. | [Douglas Alves](https://github.com/dougAlvs) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -55,11 +68,9 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas.  Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins.
 
-Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 2 a 6 apresentam as checklists de verificação.
+Com o intuito de melhor organizar a verificação, a checklist de cada artefato será dividida em duas, sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral, representada na tabela 2. Dessa forma as checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 3 a 6 apresentam as checklists de verificação de cada artefato.
 
 ### Geral
-
-A tabela 2 a seguir apresenta a checklist referente aos aspectos gerais que os artefatos devem seguir.
 
 <center>
 
@@ -79,7 +90,24 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ### Verificação dos Cenários
 
-!!!COLOQUEM A TABELA COM TITULO E FONTE AQUI!!!
+<center>
+
+**Tabela 3** - Checklist para a Verificação dos Cenários.
+
+| ID  | Descrição                                                                                              | Avaliação | Observações |
+| --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
+| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções e episódios?<a id="anchor_5" href="#REF5">^5^</a>                                                                          |           |             |
+| 7   | O título do cenário é autoexplicativo?<a id="anchor_6" href="#REF6">^6^</a>  |           |             |
+| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_6" href="#REF6">^6^</a> |           |             |
+| 9   | O contexto é descrito em função de local, tempo e pré-condições?<a id="anchor_5" href="#REF5">^5^</a>       |           |             |
+| 10   | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_5" href="#REF5">^5^</a>      |           |             |
+| 11   | Os atores são condizentes com o contexto do cenário? <a id="anchor_6" href="#REF6">^6^</a>|           |             |
+| 12   | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo? <a id="anchor_6" href="#REF6">^6^</a>|           |             |
+| 13   | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_6" href="#REF6">^6^</a> |           |             |
+
+_Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
+
+</center>
 
 ### Verificação dos Léxicos
 
@@ -88,8 +116,6 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 ### Verificação do Caso de uso
 
 <center>
-
-A tabela 5 a seguir apresenta a checklist com os itens de avaliação.
 
 **Tabela 5** - Checklist para a Verificação do Caso de Uso.
 
@@ -118,13 +144,13 @@ A tabela 5 a seguir apresenta a checklist com os itens de avaliação.
 
 _Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
 
-
+</center>
 
 ### Verificação da Especificação Suplementar
 
-**Tabela 6** - Checklist para a Verificação da Especificação Suplementar
+<center>
 
-A tabela 6 a seguir apresenta a checklist com os itens de avaliação.
+**Tabela 6** - Checklist para a Verificação da Especificação Suplementar
 
 | ID   | Descrição                                                                  | Avaliação | Observações |
 | ---- | -------------------------------------------------------------------------- | --------- | ----------- |
@@ -170,9 +196,17 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 > REINEHR, Sheila. Engenharia de requisitos. [Insert Publisher Location]: Grupo A, 2020. E-book. ISBN 9786556900674. Disponível em: [https://integrada.minhabiblioteca.com.br/#/books/9786556900674/](https://integrada.minhabiblioteca.com.br/#/books/9786556900674/). Acesso em: 07 junho 2023.
 
+> <a id="REF4" href="#anchor_4">4.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+
+> <a id="REF5" href="#anchor_5">5.</a>BERGMANN, Ulf. Evolução de Cenários Através de um Mecanismo de Rastreamento Baseado em Transformações. 2003. Tese de Doutorado (Departamento de Informática) - Pontifícia Universidade Católica do Rio de Janeiro, [S. l.], 2003. p. 47-50.
+
+> <a id="REF6" href="#anchor_6">6.</a>Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997).
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 06/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 07/06/2023 | Adição do caso de uso e ajustes nos tópicos | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.2`  | 08/06/2023 | Adição dos cenarios e ajustes nos tópicos | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny) |
+
