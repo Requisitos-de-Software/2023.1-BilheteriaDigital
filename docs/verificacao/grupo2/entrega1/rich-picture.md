@@ -55,6 +55,8 @@ O artefato foi verificado e gerou os resultados da tabela 2, sendo possível ide
 
 Com base na tabela preenchida, serão feitas considerações acerca de alguns itens da tabela.
 
+A explicação mais detalhada das justificativas dos IDs 9, 10, 14 e 15 está presente no documento Introducing Rich Pictures, disponível na referência bibliográfica. Nele tem presente todas as explicações e aplicações dos conceitos os quais levantaram as questões de cada ID.
+
 ### ID 9 - O artefato está bem desenhado e é possível de ser entendido?
 A primeira versão feita pelo grupo é bem estruturada, pode-se entender se seguir a ordem das setas, mas a segunda versão está com falta de refinamento. O limite do sistema e as setas que saem dele dão a impressão de que o sistema não possui um limite bem definido. Outra observação é que a primeira versão possui 4 limites do sistema, o que torna o rich picture um tanto extenso, podendo causar confusões.
 
@@ -80,9 +82,9 @@ De sugestões e melhorias ficam:
 * Evidenciar qual história o rich picture deseja contar e qual ideia se quer passar. Uma forma de verificar se atingiram esse objetivo seria mostrando a algum usuário leigo no assunto e perguntar se está expressando uma ideia e uma história do que o sistema faz;
 
 ## Referências Bibliográficas
-> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Acessado em: 03 de junho de 2023.
+> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
-> Introducing Rich Pictures - Rich Picture Drawing Guidelines. Acessado em: 03 de junho de 2023
+> Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023
 
 ## Histórico de versões
 
