@@ -7,39 +7,7 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 4 do
 
 ## Metodologia
 
-A metodologia escolhida para esta verificação é a inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos. Essa revisão é realizada através de uma checklist onde se tem uma lista com os defeitos mais comuns que deverão ser identificados, analisados e classificados. Vale ressaltar que a leitura do artefato não deve ser feita pelo o autor do mesmo.
-
-Para a verificação do artefato, será feito uma checklist com base nos documentos já citados anteriormente. A mesma será composta por perguntas envolvendo o conteúdo do artefato BackLog. Na tabela 1 estão expostos todas as perguntas abordadas para verficação do artefato, a versão utilizada para a verificação será a 1.0, feita no dia 24 de maio de 2023.
-
-<font size="3"><p style="text-align: center"><b>Tabela 1</b> - Checklist artefato backlog. </p></font>
-
-| ID  | Descrição     | Avaliação |
-| :---: | :---------------------------------------------------------------------------------------------------------------: | :---------: |
-| 1  | O artefato possui Introdução ?                                                                           | -        |
-| 2  | O artefato possui uma Bibliografia/Referência Bibliográfica ?                                            | -        |
-| 3  | O artefato possui um Histórico de Versões com o id e descrição das versões, datas, autores e revisores ? | -        |
-| 4  | Todos os textos estão na norma padrão ?                                                                  | -        |
-| 5  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes ?                            | -        |
-| 6  | A participação do cliente e/ou persona na elicitação de requisitos ?                                     | -        |
-| 7  | São apresentados os requisitos priorizados ?                                                             | -        |
-| 8  | Os requisitos listados estão vinculados a uma história de usuário ?                                      | -        |
-| 9  | Os requisitos listados apresentam uma história de usuário condizente ao épico definido e vice-versa?     | -        |
-| 10 | O backlog possui épicos e temas bem definidos e descritos ?                                              | -        |
-| 11 | O backlog possui validação de um PO ?                                                                    | -        |
-| 12 | O backlog possui ligação com o artefato História de Usuário ?                                            | -        |
-
-
-<font size="3"><p style="text-align: center">Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-
-Na tabela 1, os campos de "Avaliação" e serão preenchidos no desenvolvimento em que haverá uma discussão a respeito de alguns itens. Para tal será utilizado o ID da pergunta.
-
-### Participantes
-
-O responsável por essa verificação é o integrante do Grupo 1 [Rafael Ferreira](https://github.com/RafaelCLG0), que realiza tanto o planejamento quanto a inspeção do artefato. Em relação a revisão dos artefatos produzidos por essa verificação, fica a cargo do integrante do Grupo 1 [Matheus Henrique](https://github.com/mathonaut).
-
-## Checklists
-
-As checklists foram construídas levando em conta os padrões esperados pelo artefato e as principais tarefas realizadas na elaboração. Além dos itens listados anteriormente, também será analisado o relatório referente às entregas produzido pelo o monitor do grupo 2, Gustavo Martins Ribeiro.
+Para a verificação do artefato, será feito uma checklist com base nos documentos já citados anteriormente. A mesma será composta por perguntas envolvendo o conteúdo do artefato BackLog. Na tabela 2 estão expostos todas as perguntas abordadas para verficação do artefato, a versão utilizada para a verificação será a 1.0, feita no dia 24 de maio de 2023.
 
 ## Desenvolvimento
 O artefato foi verificado e gerou os resultados da tabela 2, sendo possível identificar os tópicos faltantes e/ou concluídos.
