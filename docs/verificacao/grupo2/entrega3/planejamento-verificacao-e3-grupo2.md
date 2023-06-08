@@ -3,6 +3,7 @@
 ## Introdução
 
 A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação do artefato de [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), [Caso de Uso](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/casosDeUso/) e [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
 
 ## Objetivos
 
@@ -14,14 +15,23 @@ A metodologia escolhida para esta verificação é a inspeção. Desenvolvida or
 
 ### Participantes
 
-O responsável por essa verificação é o integrante do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) [Matheus Henrique](https://github.com/mathonaut), que realiza tanto o planejamento quanto a inspeção e o relato de seus resultados. Em relação a revisão dos artefatos produzidos por essa verificação, fica a cargo do integrante do mesmo grupo [Rafael Ferreira](https://github.com/RafaelCLG0).
+Os responsáveis por essa verificação são os integrantes do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) que são: [Arthur de Melo](https://github.com/arthurmlv), [Douglas Alves](https://github.com/dougAlvs), [Geovanna Maciel](https://github.com/manuziny) e [Matheus Henrique](https://github.com/mathonaut), que realizam tanto o planejamento quanto a inspeção e o relato de seus resultados. Em relação a revisão dos artefatos produzidos por essa verificação, fica a cargo do integrante do mesmo grupo [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 ### Objetos de Verificação
 
-O artefato alvo dessa verificação é o [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) na versão 1.0 de data 13/05/2023 produzido por [Henrique Pucci](https://github.com/HenriPucci) e [Chaydson Ferreira](https://github.com/chaydson) com revisão de [Pedro Henrique](https://github.com/PedroHenrique2077).
+Os artefatos alvo dessa verificação são:  
+
+- [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
+
+- [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
+
+- [Caso de Uso](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/casosDeUso/), na versão 1.0 de data 14/05/2023 produzido por [Samuel Gomes](https://github.com/SamuelGSouza) com revisão de [Henrique Pucci](https://github.com/HenriPucci).
+
+- [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) na versão 1.0 de data 13/05/2023 produzido por [Henrique Pucci](https://github.com/HenriPucci) e [Chaydson Ferreira](https://github.com/chaydson) com revisão de [Pedro Henrique](https://github.com/PedroHenrique2077).
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
+- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso);
 - [Resultados da Verificação da Especificação Suplementar](../verificacao-especificacao-suplementar).
 
 ### Cronograma
@@ -34,7 +44,8 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 06 d
 
 | Data       | Descrição                                  | Responsável                                      |
 | ---------- | ------------------------------------------ | ------------------------------------------------ |
-| 04/05/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
+| 03/06/2023 | Verificação do Caso de Uso. |[Geovanna Maciel](https://github.com/manuziny) 
+| 04/06/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 06/06/2023 | Adição da documentação na página do grupo. | [Matheus Henrique](https://github.com/mathonaut) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
@@ -43,9 +54,9 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para o artefato.<a id=anchor_1 href="#REF1"><sup>1</sup></a> Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins.
+As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas.  Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins.
 
-Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação da Especificação Suplementar. As tabelas de 2 a 3 apresenta as checklists de verificação.
+Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 2 a 6 apresentam as checklists de verificação.
 
 ### Geral
 
@@ -67,13 +78,54 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
-### Verificação da Especificação Suplementar
+### Verificação dos Cenários
 
-A tabela 3 a seguir apresenta a checklist com os itens de avaliação.
+!!!COLOQUEM A TABELA COM TITULO E FONTE AQUI!!!
+
+### Verificação dos Léxicos
+
+!!!COLOQUEM A TABELA COM TITULO E FONTE AQUI!!!
+
+### Verificação do Caso de uso
 
 <center>
 
-**Tabela 3** - Checklist para a Verificação da Especificação Suplementar.
+A tabela 5 a seguir apresenta a checklist com os itens de avaliação.
+
+**Tabela 5** - Checklist para a Verificação do Caso de Uso.
+
+| ID  | Descrição                                                                                              | Avaliação | Observações |
+| --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
+| 6 | Cada caso peovem um resultado observável e de valor para os atores ou outros interessados no sistema? | | |
+| 7 | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? | | |
+| 8 | Há o uso de verbos no infinitivo e não substantivos?  | | |
+| 9 | Há relacionamentos de extend, include e generalization? | | |
+| 10 | O caso de uso representa o usuário e suas interações com o sistema? | | |
+| 11 | O ator principal está posicionado ao lado esquerdo do sistema? | | |
+| 12 | O usuário reside fora das fronteiras da aplicação? | | |
+| 13 | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. | | |
+| 14 | Quando o ator é um software ou um hardware, há a tag << system >>? | | |
+| 15 | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? | | | 
+| 16 | Os casos de uso são de requisitos funcionais? | | |
+| 17 | Foi usada alguma técnica para a produção dos casos de uso? | | | 
+| 18 | Os elementos de atores, sitema e metas estão presentes no caso de uso? | | |
+| 19 | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? | | |
+| 20 | Há o detalhamento de: o trabalho desenvolvido para o cliente externo, a rastreabilidade dos requisitos e estimativas precisas? | | |
+| 21 | Existem fluxos como: principal, alternativo e de exceção? | | |
+| 22 | Cada especificação de caso uso tem somente um fluxo principal? | | |
+| 23 | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? | | |
+| 24 | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? | | |
+| 25 | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas?  | | |
+
+_Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
+
+
+
+### Verificação da Especificação Suplementar
+
+**Tabela 6** - Checklist para a Verificação da Especificação Suplementar
+
+A tabela 6 a seguir apresenta a checklist com os itens de avaliação.
 
 | ID   | Descrição                                                                  | Avaliação | Observações |
 | ---- | -------------------------------------------------------------------------- | --------- | ----------- |
@@ -113,8 +165,15 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 > <a id="REF1" href="#anchor_1">1.</a> Artefato: Especificações Suplementares. **Centro de Informática - UFPE**. Disponível em: <<https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html>>. Acesso em: 04 de junho de 2023.
 
+> Slides da aula “Requisitos – Aula 11” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf](https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf) Acesso em: 05 de junho de 2023.
+
+> Lucidchart - Diagrama de caso de uso UML. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml). Acesso em: 05 de junho de 2023.
+
+> REINEHR, Sheila. Engenharia de requisitos. [Insert Publisher Location]: Grupo A, 2020. E-book. ISBN 9786556900674. Disponível em: [https://integrada.minhabiblioteca.com.br/#/books/9786556900674/](https://integrada.minhabiblioteca.com.br/#/books/9786556900674/). Acesso em: 07 junho 2023.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 06/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 07/06/2023 | Adição do caso de uso e ajustes nos tópicos | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) |
