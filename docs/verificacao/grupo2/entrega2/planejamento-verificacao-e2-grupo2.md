@@ -157,7 +157,7 @@ _Fonte: [Gabriel Campello](https://github.com/g16c)._
 
 | ID  | Descrição                                                                                              | Avaliação |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | 
-| 6  |      A priorização usando o método In or Ot foi realizada em conjunto com Stackholders?                 |           |
+| 6  |      A priorização usando o método In or Out foi realizada em conjunto com Stackholders?                 |           |
 | 7  |      A priorização foi feita de forma binária, requisito dentro ou fora?     |           |
 | 8  |      Foi estabelecido qual Stackholder teria maior influência sobre a decisão em caso de impasse sobre a prioridade dada a um requisito? (_Stackholder com maior influência: Isso deve ser definido antes do processo de priorização ser iniciado, caso contrário haverá impasses._<a id="FTF3" href="#FTF3Ref">^3^</a>)                |           |
 | 9 | Foi determinado um cronograma para a realização dessa priorização? |   |

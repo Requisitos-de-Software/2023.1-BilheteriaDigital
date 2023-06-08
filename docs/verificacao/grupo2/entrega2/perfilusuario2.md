@@ -14,7 +14,7 @@ Na tabela 1, os campos de "Avaliação" e "Observações" representam respectiva
 
 <center>
 
-**Tabela 2** - Checklist preenchido.
+**Tabela 1** - Checklist preenchido.
 
 | ID  | Descrição                                                                                              | Avaliação | Observação |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | --------- |
