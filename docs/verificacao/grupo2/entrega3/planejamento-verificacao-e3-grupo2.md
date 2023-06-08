@@ -2,7 +2,6 @@
 
 ## Introdução
 
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação do artefato de [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
 A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), [Caso de Uso](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/casosDeUso/) e [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#5-suportabilidade) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
 
 ## Objetivos
