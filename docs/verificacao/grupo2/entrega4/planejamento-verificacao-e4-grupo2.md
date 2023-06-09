@@ -127,6 +127,11 @@ _Fonte: [Rafael Ferreira](https://github.com/rafaelCLG0), 2023._
 
 | ID  | Descrição                                                                                              | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
+| 6  | As histórias de usuários estão escritas de forma clara e concisa, com descrição do "quem", "o que" e "por que"??                                     |        |
+| 7  | Cada história de usuário possui um título auto-explicativo, isto é, que resuma o objetivo principal da história?                                                             |       |
+| 8  | As histórias de usuários foram provenientes do cliente?                                      |        |
+| 9  | As histórias de usuário incluem critérios de aceitação que definam o que é necessário para que a história seja considerada concluída?     |       |
+| 10 | As histórias de usuário são testáveis, possibilitando a verificação e validação do sistema com base nos critérios de aceitação definidos?                                              |        |
 
 
 _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
