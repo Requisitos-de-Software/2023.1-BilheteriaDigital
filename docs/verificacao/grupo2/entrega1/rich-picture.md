@@ -13,16 +13,16 @@ Para a verificação do artefato, será feito uma checklist com base nos documen
 | 3   | O artefato possui um Histórico de Versões com o id e descrição das versões, data, autores e revisores? |           |            |
 | 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?  |  |  |
 | 5   | Todos os textos estão na norma padrão | | |
-| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema? | | |
-| 7 | Foi utilizada alguma técnica na produção do rich picture? | | |
-| 8 | O rich picture possui mais textos do que imagens? | | |
-| 9 | O artefato está bem desenhado e é possível de ser entendido? | | |
-| 10 | Ele conta uma história? | | |
-| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo? | | |
-| 12 | O rich picture dá uma ideia do que realmente está acontecendo? | | |
-| 13 | Contém palavras-chave relevantes? | | |
-| 14 | Comunica mais ideias do que palavras? | | |
-| 15 | Contém a explicação dos componentes? | | |
+| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema? <a id="REF4" href="#anchor_4">1.</a> | | |
+| 7 | Foi utilizada alguma técnica na produção do rich picture? <a id="REF4" href="#anchor_4">1.</a>| | |
+| 8 | O rich picture possui mais textos do que imagens? <a id="REF4" href="#anchor_4">2.</a> | | |
+| 9 | O artefato está bem desenhado e é possível de ser entendido? <a id="REF4" href="#anchor_4">2.</a> | | |
+| 10 | Ele conta uma história? <a id="REF4" href="#anchor_4">2.</a> | | |
+| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo? <a id="REF4" href="#anchor_4">2.</a> | | |
+| 12 | O rich picture dá uma ideia do que realmente está acontecendo? <a id="REF4" href="#anchor_4">2.</a>| | |
+| 13 | Contém palavras-chave relevantes? <a id="REF4" href="#anchor_4">2.</a>| | |
+| 14 | Comunica mais ideias do que palavras? <a id="REF4" href="#anchor_4">.</a>| | |
+| 15 | Contém a explicação dos componentes? <a id="REF4" href="#anchor_4">2.</a> | | |
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
@@ -40,16 +40,16 @@ O artefato foi verificado e gerou os resultados da tabela 2, sendo possível ide
 | 3   | O artefato possui um Histórico de Versões com o id e descrição das versões, data, autores e revisores? |   Sim        |     -       |
 | 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?  | Sim | - |
 | 5   | Todos os textos estão na norma padrão | Sim | - |
-| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema? | Sim | - |
-| 7 | Foi utilizada alguma técnica na produção do rich picture? | Não | Não está evidenciado no texto. |
-| 8 | O rich picture possui mais textos do que imagens? | Sim | - |
-| 9 | O artefato está bem desenhado e é possível de ser entendido? | Incompleto | Será justiticado no texto. |
-| 10 | Ele conta uma história? | Incompleto | Será justificado no texto |
-| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo? | Incompleto | Será justificado no texto. |
-| 12 | O rich picture dá uma ideia do que realmente está acontecendo? | Sim | O segundo está um pouco bagunçado. |
-| 13 | Contém palavras-chave relevantes? | Sim | - |
-| 14 | Comunica mais ideias do que palavras? | Incompleto | Será justiticado no texto. |
-| 15 | Contém a explicação dos componentes? | Incompleto | Será justiticado no texto. |
+| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema? <a id="REF1" href="#anchor_1">1.</a> | Sim | - |
+| 7 | Foi utilizada alguma técnica na produção do rich picture? <a id="REF1" href="#anchor_1">1.</a> | Não | Não está evidenciado no texto. |
+| 8 | O rich picture possui mais textos do que imagens? <a id="REF1" href="#anchor_1">2.</a>| Sim | - |
+| 9 | O artefato está bem desenhado e é possível de ser entendido? <a id="REF1" href="#anchor_1">2.</a> | Incompleto | Será justiticado no texto. |
+| 10 | Ele conta uma história? <a id="REF1" href="#anchor_1">2.</a>| Incompleto | Será justificado no texto |
+| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo? <a id="REF1" href="#anchor_1">2.</a> | Incompleto | Será justificado no texto. |
+| 12 | O rich picture dá uma ideia do que realmente está acontecendo? <a id="REF1" href="#anchor_1">2.</a>| Sim | O segundo está um pouco bagunçado. |
+| 13 | Contém palavras-chave relevantes? <a id="REF1" href="#anchor_1">2.</a>| Sim | - |
+| 14 | Comunica mais ideias do que palavras? | Incompleto <a id="REF1" href="#anchor_1">2.</a>| Será justiticado no texto. |
+| 15 | Contém a explicação dos componentes? | Incompleto <a id="REF1" href="#anchor_1">2.</a>| Será justiticado no texto. |
 
 <font size="3"><p style="text-align: center">Fonte: [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
@@ -82,12 +82,13 @@ De sugestões e melhorias ficam:
 * Evidenciar qual história o rich picture deseja contar e qual ideia se quer passar. Uma forma de verificar se atingiram esse objetivo seria mostrando a algum usuário leigo no assunto e perguntar se está expressando uma ideia e uma história do que o sistema faz;
 
 ## Referências Bibliográficas
-> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
+> <a id="REF1" href="#anchor_1">1.</a>Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
-> Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023
+> <a id="REF1" href="#anchor_1">2.</a>Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023
 
 ## Histórico de versões
 
 | Versão | Data       | Descrição                  | Autor(es)                                                                                    | Revisor(es)                                  |
 | ------ | ---------- | -------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 1.0    | 03/06/2023 | Criação do documento | [Geovanna Maciel](https://github.com/manuziny)  | [Gabriel Campello](https://github.com/G16C) |
+| `1.0`   | 03/06/2023 | Criação do documento | [Geovanna Maciel](https://github.com/manuziny)  | [Gabriel Campello](https://github.com/G16C) |
+| `1.1`| 09/06/2023 | Adição das referências nas tabelas | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campelo](https://github.com/g16c) |
