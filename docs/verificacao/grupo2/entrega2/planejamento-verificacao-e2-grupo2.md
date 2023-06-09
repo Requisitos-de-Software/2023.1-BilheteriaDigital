@@ -16,7 +16,7 @@ A metodologia escolhida para esta verificação é a inspeção. Desenvolvida or
 
 Os responsáveis por essa verificação são os integrantes do Grupo 1 [Sidney Fernando](https://github.com/nando3d3) e [Gabriel Campello](https://github.com/g16c). A revisáo dos artefatos produzidos por essa verificação fica a cargo dos integrantes do Grupo 1 [Geovanna Maciel](https://github.com/manuziny), [Douglas Alves](https://github.com/dougAlvs), [Arthur de Melo](https://github.com/arthurmlv).
 
-## Objetivso de Verificação
+## Objetivos de Verificação
 
 Os artefatos alvos dessa verificação são:
 
@@ -125,6 +125,59 @@ _Fonte: [Gabriel Campello](https://github.com/g16c)._
 
 </center>
 
+<center>
+
+**Tabela 5** - Checklist para a Verificação Brainstorm.
+
+| ID | Descrição                                                                                                                      | Avaliação  | 
+|----|--------------------------------------------------------------------------------------------------------------------------------|------------|
+| 6  | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto? |         |                                                                        |
+| 7  | A gravação e o(s) registro(s) da atividade de elicitação dos requisitos?                                                      |         |                                                                        |
+| 8  | Está especificado o papel de cada participante?                                                                                |  | 
+| 9  | Todas as ideias geradas durante o brainstorming foram documentadas de forma clara e concisa?                                   |         | 
+| 10  | Foram utilizadas técnicas de estímulo, como palavras-chave, imagens ou diagramas, para incentivar a geração de ideias?         |         |
+
+_Fonte: [Sidney Fernando](https://github.com/nando3d3)._
+
+</center>
+
+### Verificação Observação
+
+<center>
+
+**Tabela 6** - Checklist para a Verificação Observação
+
+| ID                                | Descrição                                                                                                             | Avaliação |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------|
+| 6                                 | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto?                        | 
+| 7                                 | A gravação e o(s) registro(s) da atividade de elicitação dos requisitos?                                             |       |            |
+| 8                                 | Está especificado o papel de cada participante?                                                                       |       |            |
+| 9                                 | O ambiente de observação foi adequado para capturar os dados relevantes, como a interação dos usuários com o sistema? |       |            |
+| 10                                 | As observações foram conduzidas de forma não intrusiva, minimizando o impacto na rotina dos usuários?                 |       |            |
+| 11                                | Os requisitos elicitados durante a observação foram registrados de forma precisa e completa?                          |        |
+
+_Fonte: [Sidney Fernando](https://github.com/nando3d3)._
+
+</center>
+
+### Verificação Storytelling
+
+<center>
+
+**Tabela 1** - Checklist para a Verificação Storytelling.
+
+| ID | Descrição                                                                                                                                              | Avaliação  | 
+|----|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------
+| 6  | O(s) registro(s) da atividade de priorização dos requisitos?                                                                                           |         |
+| 7  | Há um número suficiente de histórias incluídas no artefato de Storytelling para abranger de forma adequada os requisitos e necessidades identificadas? |         |
+| 8  | A documentação do Storytelling está completa, incluindo detalhes relevantes, como eventos-chave, interações e sequências de ações?                     |         |
+| 9  | As personas ou personagens foram desenvolvidos de maneira consistente e representam adequadamente os usuários do sistema?                              |  | 
+| 10  | As histórias são capazes de transmitir claramente a visão e as necessidades dos usuários aos membros da equipe de desenvolvimento?                     |         |
+
+
+_Fonte: [Sidney Fernando](https://github.com/nando3d3)._
+
+</center>
 
 ### Verificação Three Level Scale
 
@@ -145,6 +198,24 @@ _Fonte: [Gabriel Campello](https://github.com/g16c)._
 
 
 _Fonte: [Gabriel Campello](https://github.com/g16c)._
+
+</center>
+
+### Verificação Moscow
+
+<center>
+
+**Tabela 9** - Checklist para Moscow.
+
+| ID | Descrição                                                                                                                                        | Avaliação |
+|----|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| 6  | O(s) registro(s) da atividade de priorização dos requisitos?                                                                                     |       |
+| 7  | Todos os requisitos foram classificados como Must Have (Deve ter), Should Have (Deveria ter), Could Have (Poderia ter) ou Won't Have (Não terá)? |       | 
+| 8  | As justificativas para a classificação de cada requisito estão documentadas e são coerentes com as necessidades do projeto?                      |        | 
+| 9  | A participação do cliente e/ou persona no processo de priorização?                                                                               |       | 
+| 10  | Foi feita uma revisão para garantir que nenhum requisito importante tenha sido negligenciado ou erroneamente classificado?                       |        |  
+
+_Fonte: [Sidney Fernando](https://github.com/nando3d3)._
 
 </center>
 
