@@ -1,5 +1,5 @@
 ## Introdução
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta a verificação do artefato [BackLog](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/backlog/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem o projeto voltado ao site Booking. Com base nisso, seu BackLog foi verificado de acordo com os documentos disponibilizados na diciplina como o [Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman](https://aprender3.unb.br/mod/resource/view.php?id=978583), [Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano](https://aprender3.unb.br/pluginfile.php/2523115/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf) e um [vídeo sobre Product Backlog - Introdução](https://youtu.be/z4ubaBwjCsU).
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta a verificação do artefato [BackLog](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/backlog/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem o projeto voltado ao site Booking. Com base nisso, seu BackLog foi verificado de acordo com os documentos disponibilizados na diciplina como o _Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman_ <a id="FTF1" href="#FTF1Ref">^1^</a>, _Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano_ <a id="FTF1" href="#FTF1Ref">^2^</a> e um _vídeo sobre Product Backlog - Introdução_ <a id="FTF1" href="#FTF1Ref">^3^</a>.
 
 ## Objetivos
 
@@ -7,9 +7,9 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 4 do
 
 ## Metodologia
 
-Para a verificação do artefato, será feito uma checklist com base nos documentos já citados anteriormente. A mesma será composta por perguntas envolvendo o conteúdo do artefato BackLog. Na tabela 2 estão expostos todas as perguntas abordadas para verficação do artefato, a versão utilizada para a verificação será a 1.0, feita no dia 24 de maio de 2023.
+Os resultados da verificação do artefato foram obtidos a partir das [checklists](./planejamento-verificacao-e4-grupo2.md#checklists) elaboradas na página de planejamento. A mesma será composta por perguntas envolvendo o conteúdo do artefato BackLog. Na tabela 2 estão expostos todas as perguntas abordadas para verficação do artefato, a versão utilizada para a verificação será a 1.0, feita no dia 24 de maio de 2023.
 
-## Desenvolvimento
+## Sumário Dos Dados
 O artefato foi verificado e gerou os resultados da tabela 2, sendo possível identificar os tópicos faltantes e/ou concluídos.
 
 <font size="3"><p style="text-align: center"><b>Tabela 2</b> - Checklist preechido. </p></font> 
@@ -57,10 +57,11 @@ Adicionei algumas sugestões para deixar o artefato ainda melhor:
 
 
 ## Referências Bibliográficas
-> Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano. Acessado em: 05 de junho de 2023.
-> Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman Acessado em: 05 de junho de 2023.
-> Vídeo sobre o Product Backlog - Introdução. Acessado em: 05 de junho de 2023.
-> Gerência e Qualidade de Software - Aula 05 - Verificação e Validação, UNIVESP. Acesso em: 05 de junho de 2023.
+> <a id="FTF1Ref" href="#FTF1">1.</a> Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano. Acessado em: 05 de junho de 2023.
+
+> <a id="FTF1Ref" href="#FTF1">2.</a> Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman Acessado em: 05 de junho de 2023.
+
+> <a id="FTF1Ref" href="#FTF1">3.</a> Vídeo sobre o Product Backlog - Introdução. Acessado em: 05 de junho de 2023.
 
 ## Bibliografia
 > Backlog do Booking. Disponível em: <<https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/backlog/>>. Acesso em 05 de junho de 2023.
