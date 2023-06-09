@@ -55,146 +55,146 @@ Na entrevista realizada com o PO, enquanto ele comentava suas funcionalidades de
   <tr>
     <td rowspan="4">Épico 1 - Categorizar</td>
     <td rowspan="2">Feature 1 - Local e Data</td>
-    <td>US01 - Classificar eventos por local</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us01"> US01 </a> - Classificar eventos por local</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US04 - Classificar eventos por data</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us04"> US04 </a> - Classificar eventos por data</td>
+    <td>Média</td>
   </tr>
   <tr>
     <td rowspan="2">Feature 2 - Modalidade</td>
-    <td>US02 - Classificar eventos por modalidade</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us02"> US02 </a> - Classificar eventos por modalidade</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US07 - Venda de ingressos de diferentes categorias</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us07"> US07 </a> - Venda de ingressos de diferentes categorias</td>
+    <td>Alta</td>
   </tr>
   <tr>
     <td rowspan="4">Épico 2 - Preferências</td>
     <td rowspan="2">Feature 3 - Notificações</td>
-    <td>US22 - Opção de receber notificações do aplicativo</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us22"> US22 </a> - Opção de receber notificações do aplicativo</td>
+    <td>Baixa</td>
   </tr>
   <tr>
-    <td>US23 - Exibição de notificações de eventos próximos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us23"> US23 </a> - Exibição de notificações de eventos próximos</td>
+    <td>Baixa</td>
   </tr>
   <tr>
     <td rowspan="2">Feature 4 - Configurações</td>
-    <td>US10 - Opção de salvar dados de pagamento</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us10"> US10 </a> - Opção de salvar dados de pagamento</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US21 - Recomendação de eventos baseada no gosto do usuário</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us21"> US21 </a> - Recomendação de eventos baseada no gosto do usuário</td>
+    <td>Média</td>
   </tr>
   <tr>
     <td rowspan="6">Épico 3 - Acessibilidade</td>
     <td rowspan="2">Feature 5 - Ferramentas de Acessibilidade</td>
-    <td>US32 - Audiodescrição para eventos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us32"> US32 </a> - Audiodescrição para eventos</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US30 - Acessibilidade visual</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us30"> US30 </a> - Acessibilidade visual</td>
+    <td>Alta</td>
   </tr>
   <tr>
     <td rowspan="3">Feature 6 - Atalhos</td>
-    <td>US31 - Opção de troca de idioma</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us31"> US31 </a> - Opção de troca de idioma</td>
+    <td>Média</td>
   </tr>
   <tr>
-    <td>US17 - Diferentes opções de pagamento</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us17"> US17 </a> - Diferentes opções de pagamento</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US27 - Cadastro por redes sociais validado por email</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us27"> US27 </a> - Cadastro por redes sociais validado por email</td>
+    <td>Média</td>
   </tr>
   <tr>
     <td>Feature 7 - Ferramentas Complementares</td>
-    <td>US16 - Opção de transferência de ingresso</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us16"> US16 </a> - Opção de transferência de ingresso</td>
+    <td>Média</td>
   </tr>
   <tr>
     <td rowspan="10">Épico 4 - Segurança</td>
     <td rowspan="5">Feature 8 - Integridade de Dados</td>
-    <td>US11 - Privacidade dos dados de pagamento</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us11"> US11 </a> - Privacidade dos dados de pagamento</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US09 - Exigência de dados necessários para cadastro e pagamento</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us09"> US09 </a> - Exigência de dados necessários para cadastro e pagamento</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US26 - Autenticação de dois fatores</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us26"> US26 </a> - Autenticação de dois fatores</td>
+    <td>Média</td>
   </tr>
   <tr>
-    <td>US28 - Senha segura durante o cadastro</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us28"> US28 </a> - Senha segura durante o cadastro</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US24 - Termos de privacidade explícitos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us24"> US24 </a> - Termos de privacidade explícitos</td>
+    <td>Alta</td>
   </tr>
   <tr>
     <td rowspan="5">Feature 9 - Prevenção de Erros</td>
-    <td>US03 - Apresentar valor total dos ingressos selecionados</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us03"> US03 </a> - Apresentar valor total dos ingressos selecionados</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US08 - Classificação dos tipos de assentos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us08"> US08 </a> - Classificação dos tipos de assentos</td>
+    <td>Baixa</td>
   </tr>
   <tr>
-    <td>US14 - Lista de confirmação de pagamento</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us14"> US14 </a> - Lista de confirmação de pagamento</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US18 - Envio de ingressos por e-mail</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us18"> US18 </a> - Envio de ingressos por e-mail</td>
+    <td>Média</td>
   </tr>
   <tr>
-    <td>US15 - Sem limite de compra de ingresso</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us15"> US15 </a> - Sem limite de compra de ingresso</td>
+    <td>Alta</td>
   </tr>
   <tr>
     <td rowspan="8">Épico 5 - Padronização</td>
     <td rowspan="6">Feature 10 - Interface</td>
-    <td>US05 - Histórico de visualização de eventos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us05"> US05 </a> - Histórico de visualização de eventos</td>
+    <td>Baixa</td>
   </tr>
   <tr>
-    <td>US06 - Contagem regressiva para realização de eventos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us06"> US06 </a> - Contagem regressiva para realização de eventos</td>
+    <td>Média</td>
   </tr>
   <tr>
-    <td>US12 - Lista de eventos disponíveis</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us12"> US12 </a> - Lista de eventos disponíveis</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US13 - Página de descrição de eventos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us13"> US13 </a> - Página de descrição de eventos</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US29 - Informações sobre inclusão na descrição dos eventos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us29"> US29 </a> - Informações sobre inclusão na descrição dos eventos</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US19 - Aba de visualização de ingressos</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us19"> US19 </a> - Aba de visualização de ingressos</td>
+    <td>Alta</td>
   </tr>
   <tr>
     <td rowspan="2">Feature 11 - Ferramentas Necessárias</td>
-    <td>US25 - Criação de conta e login com e-mail</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us25"> US25 </a>- Criação de conta e login com e-mail</td>
+    <td>Alta</td>
   </tr>
   <tr>
-    <td>US20 - Opção de cancelamento de compra</td>
-    <td></td>
+    <td><a href="../historia-de-usuario#us20"> US20 </a> - Opção de cancelamento de compra</td>
+    <td>Alta</td>
   </tr>
 </tbody>
 </table>
