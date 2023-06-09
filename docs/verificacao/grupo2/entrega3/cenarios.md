@@ -64,7 +64,7 @@ O contexto de um cenário é de suma importância, pois não somente descreve se
 * Tempo: Ensolarado
 * Pré-condições: Possuir conta no booking.com e internet.
 
-Pode-se observar que o contexto em questão acaba sendo um pouco pobre em informações e vago, principalmente no que diz respeito ao estado inicial e motivações.
+Pode-se observar que o contexto em questão acaba sendo um pouco pobre em informações e vago, principalmente no que diz respeito ao estado inicial e motivações. Portanto, seria interessante modificar o contexto dos cenários de maneira que eles tragam mais informações sobre o estado inicial específico da aplicação.
 
 ### ID 11 - Os atores são condizentes com o contexto do cenário?
 
@@ -95,3 +95,4 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 08/06/2023 | Criação da página. | [Douglas Alves](https://github.com/dougAlvs) | [Gabriel Campello](https://github.com/G16C) |
+| `1.1`  | 09/06/2023 | Att justificativa id 9. | [Douglas Alves](https://github.com/dougAlvs) | [Gabriel Campello](https://github.com/G16C) |
