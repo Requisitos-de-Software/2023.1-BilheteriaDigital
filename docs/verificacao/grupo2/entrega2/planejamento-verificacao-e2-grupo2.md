@@ -10,7 +10,19 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 2 do
 
 ## Metodologia
 
-A metodologia escolhida para esta verificação é a inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos. Essa revisão é realizada através de uma checklist onde se tem uma lista com os defeitos mais comuns que deverão ser identificados, analisados e classificados.
+A metodologia escolhida para esta verificação é uma adptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
+
+Salienta-se que a inspeção aqui planejada será realizada somente até a etapa de "Reunião de Inspeção", que nessa adaptacação será a inspeção propriamente dita, realizada de maneira individual. Essa revisão será realizada através de uma checklist onde se tem uma lista com os defeitos mais comuns que deverão ser identificados, analisados e classificados, tudo isso com base na bibliografia especificada pelo autor da checklist.
+
+<center>
+
+**Figura 1** - Etapas da Inspeção de acordo com Fagan.
+
+![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png#only-light)
+![inspecao-fagan](../../../assets/verificacao/inspecao-fagan-e.png#only-dark)
+
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^4^</a>
+</center>
 
 ## Participantes
 
