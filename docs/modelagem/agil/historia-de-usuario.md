@@ -1,24 +1,46 @@
 ## Introdução
 
-A história de usuário é uma técnica amplamente utilizada na disciplina de requisitos de software para capturar e descrever as necessidades e expectativas dos usuários de um sistema. Trata-se de uma breve narrativa que descreve uma funcionalidade específica do software, do ponto de vista do usuário, com o objetivo de comunicar de forma clara e concisa o que o usuário deseja alcançar ao utilizar o sistema. Para a elaboração da história do usuário do projeto, foram usados os épicos produzidos no [backlog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/), porque em termos mais simples, o [backlog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) serve como uma lista do que a aplicação deve seguir, portanto as histórias de usuário devem produzidas a partir dele.
+A história de usuário é uma técnica de elicitação de requisitos amplamente utilizada nas metodologias de desenvolvimento ágil e se refere a descrições concisas e de alto nível de uma funcionalidade desejada em termos do cliente. Além disso, as histórias de usuário devem possuir critérios de aceitação bem definidos para que seja possível verificar sua implementação.
+
+## Objetivo
+
+Esse documento propõe trazer uma descrição detalhada e critérios de aceitação das histórias de usuário presentes no [product backlog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/).
 
 ## Metodologia
 
-Para a produção do artefato haverá a participação da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) que será o Product Owner do projeto, para tal foi utilizado o método da encenação, melhor representado na tabela 1. A reunião foi realizada via Teams às 18h do dia 23 de maio de 2023.
+Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Enquanto o PO comentava suas funcionalidades desejadas os desenvolvedores/entrevistadores anotavam e faziam questionamentos acerca de suas falas. Depois de elicitadas as histórias de usuário, os critérios de aceitação foram definidos e elas foram priorizadas pelo PO em: Alta, Média ou Baixa prioridade (Basicamente foi utilizado o método Three Level Scale de priorização de requisitos). Os participantes são apresentados na tabela 1, a gravação da entrevista é apresentado no vídeo 1 e o modelo de card para as histórias de usuário é descrito na tabela 2.
 
-<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+
 
 <center>
 
-| **Participante**                                                                                                                                     | **Função**    |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| [Douglas Alves](https://github.com/dougAlvs)                                                                                                         | Desenvolvedor |
-| [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) ([Geovanna Maciel](https://github.com/manuziny)) | Product Owner |
+**Tabela 1** - Participantes da entrevista.
+
+| **Participante**                                        | **Função**     |
+| :------------------------------------------------------ | :------------- |
+| <span style = "color: orange"> Ana</span>               | Product Owner  |
+| [Douglas Alves dos Santos](https://github.com/dougAlvs) | Desenvolvedor  |
+| [Geovanna Maciel](https://github.com/manuziny)          | Entrevistadora |
+| [Matheus Henrique](https://github.com/mathonaut)        | Desenvolvedor  |
+| [Rafael Ferreira](https://github.com/RafaelCLG0)        | Desenvolvedor  |
+
+
+Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 </center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny).</p></font>
 
-As histórias de usuário são provenientes do [backlog do produto](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) e serão descritas em tabelas com base na tabela 2.
+<center>
+
+**Vídeo 1** - Entrevista com o PO.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2o3diusGVC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<a href="https://www.youtube.com/embed/2o3diusGVC8" target="blanket">Clique aqui</a>
+
+Fonte: [Geovanna Maciel](https://github.com/manuziny).
+
+</center>
+
 
 <font size="3"><p style="text-align: center">Tabela 2: Modelo de tabela para histórias de usuário.</p></font>
 
@@ -29,6 +51,7 @@ As histórias de usuário são provenientes do [backlog do produto](https://requ
 | USXX                   | Titulo                                  |
 | Descrição              | _Eu, como_ XXX, _desejo_ XXX _para_ XXX |
 | Critérios de Aceitação | -XXX <br> -XXX <br>                     |
+| Prioridade | Alta, Média ou Baixa                    |
 
 </center>
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
@@ -239,3 +262,7 @@ As tabelas de 4 a 15 descrevem as histórias de usuário (Representadas pelo id 
 | 1.2    | 23/05/2023 | Adição features 5, 6, 7    | [Geovanna Maciel](https://github.com/manuziny)                                               | [Gabriel Campello](https://github.com/G16C)  |
 | 1.2    | 23/05/2023 | Adição features 1, 2, 3, 4 | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Gabriel Campello](https://github.com/G16C)  |
 | 1.3    | 23/05/2023 | Finalização do artefato    | [Douglas Alves](https://github.com/dougAlvs), [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)  |
+
+
+
+	
