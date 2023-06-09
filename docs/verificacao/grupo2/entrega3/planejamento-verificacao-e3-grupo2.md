@@ -20,7 +20,7 @@ Salienta-se que a inspeção aqui planejada será realizada somente até a etapa
 ![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png#only-light)
 ![inspecao-fagan](../../../assets/verificacao/inspecao-fagan-e.png#only-dark)
 
-_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^4^</a>
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^5^</a>
 </center>
 
 ### Participantes
@@ -96,14 +96,14 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 | ID  | Descrição                                                                                              | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções e episódios?<a id="anchor_5" href="#REF5">^5^</a>                                                                          |           |             |
-| 7   | O título do cenário é autoexplicativo?<a id="anchor_6" href="#REF6">^6^</a>  |           |             |
-| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_6" href="#REF6">^6^</a> |           |             |
-| 9   | O contexto é descrito em função de local, tempo e pré-condições?<a id="anchor_5" href="#REF5">^5^</a>       |           |             |
-| 10   | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_5" href="#REF5">^5^</a>      |           |             |
-| 11   | Os atores são condizentes com o contexto do cenário? <a id="anchor_6" href="#REF6">^6^</a>|           |             |
-| 12   | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo? <a id="anchor_6" href="#REF6">^6^</a>|           |             |
-| 13   | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_6" href="#REF6">^6^</a> |           |             |
+| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções e episódios?<a id="anchor_5" href="#REF5">^6^</a>                                                                          |           |             |
+| 7   | O título do cenário é autoexplicativo?<a id="anchor_6" href="#REF6">^7^</a>  |           |             |
+| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_6" href="#REF6">^7^</a> |           |             |
+| 9   | O contexto é descrito em função de local, tempo e pré-condições?<a id="anchor_5" href="#REF5">^6^</a>       |           |             |
+| 10   | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_5" href="#REF5">^6^</a>      |           |             |
+| 11   | Os atores são condizentes com o contexto do cenário? <a id="anchor_6" href="#REF6">^7^</a>|           |             |
+| 12   | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo? <a id="anchor_6" href="#REF6">^7^</a>|           |             |
+| 13   | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_6" href="#REF6">^7^</a> |           |             |
 
 _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
@@ -121,26 +121,25 @@ _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
 | ID  | Descrição                                                                                              | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 6 | Cada caso peovem um resultado observável e de valor para os atores ou outros interessados no sistema? | | |
-| 7 | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? | | |
-| 8 | Há o uso de verbos no infinitivo e não substantivos?  | | |
-| 9 | Há relacionamentos de extend, include e generalization? | | |
-| 10 | O caso de uso representa o usuário e suas interações com o sistema? | | |
-| 11 | O ator principal está posicionado ao lado esquerdo do sistema? | | |
-| 12 | O usuário reside fora das fronteiras da aplicação? | | |
-| 13 | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. | | |
-| 14 | Quando o ator é um software ou um hardware, há a tag << system >>? | | |
-| 15 | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? | | | 
-| 16 | Os casos de uso são de requisitos funcionais? | | |
-| 17 | Foi usada alguma técnica para a produção dos casos de uso? | | | 
-| 18 | Os elementos de atores, sitema e metas estão presentes no caso de uso? | | |
-| 19 | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? | | |
-| 20 | Há o detalhamento de: o trabalho desenvolvido para o cliente externo, a rastreabilidade dos requisitos e estimativas precisas? | | |
-| 21 | Existem fluxos como: principal, alternativo e de exceção? | | |
-| 22 | Cada especificação de caso uso tem somente um fluxo principal? | | |
-| 23 | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? | | |
-| 24 | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? | | |
-| 25 | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas?  | | |
+| 6 | Cada caso provem um resultado observável e de valor para os atores ou outros interessados no sistema? <a id="anchor_6" href="#REF6">^4^</a>| | |
+| 7 | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? <a id="anchor_6" href="#REF6">^3^</a>| | |
+| 8 | Há o uso de verbos no infinitivo e não substantivos? <a id="anchor_6" href="#REF6">^2^</a> | | |
+| 9 | Há relacionamentos de extend, include e generalization? <a id="anchor_6" href="#REF6">^4^</a> | | |
+| 10 | O caso de uso representa o usuário e suas interações com o sistema? <a id="anchor_6" href="#REF6">^4^</a> | | |
+| 11 | O ator principal está posicionado ao lado esquerdo do sistema? <a id="anchor_6" href="#REF6">^4^</a> | | |
+| 12 | O usuário reside fora das fronteiras da aplicação? <a id="anchor_6" href="#REF6">^4^</a> | | |
+| 13 | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. <a id="anchor_6" href="#REF6">^4^</a>| | |
+| 14 | Quando o ator é um software ou um hardware, há a tag << system >>? <a id="anchor_6" href="#REF6">^4^</a>| | |
+| 15 | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? <a id="anchor_6" href="#REF6">^4^</a>| | | 
+| 16 | Os casos de uso são de requisitos funcionais? <a id="anchor_6" href="#REF6">^4^</a>| | |
+| 17 | Foi usada alguma técnica para a produção dos casos de uso? <a id="anchor_6" href="#REF6">^4^</a>| | | 
+| 18 | Os elementos de atores, sistema e metas estão presentes no caso de uso? <a id="anchor_6" href="#REF6">^3^</a> | | |
+| 19 | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? <a id="anchor_6" href="#REF6">^2^</a>| | |
+| 20 | Existem fluxos como: principal, alternativo e de exceção? <a id="anchor_6" href="#REF6">^2^</a>| | |
+| 21 | Cada especificação de caso uso tem somente um fluxo principal? <a id="anchor_6" href="#REF6">^2^</a>| | |
+| 22 | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? <a id="anchor_6" href="#REF6">^2^</a>| | |
+| 23 | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? <a id="anchor_6" href="#REF6">^4^</a>| | |
+| 24 | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas?  <a id="anchor_6" href="#REF6">^4^</a>| | |
 
 _Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
 
@@ -190,17 +189,17 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 > <a id="REF1" href="#anchor_1">1.</a> Artefato: Especificações Suplementares. **Centro de Informática - UFPE**. Disponível em: <<https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html>>. Acesso em: 04 de junho de 2023.
 
-> Slides da aula “Requisitos – Aula 11” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf](https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf) Acesso em: 05 de junho de 2023.
+> <a id="REF4" href="#anchor_4">2.</a> Slides da aula “Requisitos – Aula 11” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf](https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf) Acesso em: 05 de junho de 2023.
 
-> Lucidchart - Diagrama de caso de uso UML. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml). Acesso em: 05 de junho de 2023.
+> <a id="REF4" href="#anchor_4">3. </a> Lucidchart - Diagrama de caso de uso UML. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml). Acesso em: 05 de junho de 2023.
 
-> REINEHR, Sheila. Engenharia de requisitos. [Insert Publisher Location]: Grupo A, 2020. E-book. ISBN 9786556900674. Disponível em: [https://integrada.minhabiblioteca.com.br/#/books/9786556900674/](https://integrada.minhabiblioteca.com.br/#/books/9786556900674/). Acesso em: 07 junho 2023.
+> <a id="REF4" href="#anchor_4">4. </a>REINEHR, Sheila. Engenharia de requisitos. [Insert Publisher Location]: Grupo A, 2020. E-book. ISBN 9786556900674. Disponível em: [https://integrada.minhabiblioteca.com.br/#/books/9786556900674/](https://integrada.minhabiblioteca.com.br/#/books/9786556900674/). Acesso em: 07 junho 2023.
 
-> <a id="REF4" href="#anchor_4">4.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+> <a id="REF4" href="#anchor_4">5.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
-> <a id="REF5" href="#anchor_5">5.</a>BERGMANN, Ulf. Evolução de Cenários Através de um Mecanismo de Rastreamento Baseado em Transformações. 2003. Tese de Doutorado (Departamento de Informática) - Pontifícia Universidade Católica do Rio de Janeiro, [S. l.], 2003. p. 47-50.
+> <a id="REF5" href="#anchor_5">6.</a>BERGMANN, Ulf. Evolução de Cenários Através de um Mecanismo de Rastreamento Baseado em Transformações. 2003. Tese de Doutorado (Departamento de Informática) - Pontifícia Universidade Católica do Rio de Janeiro, [S. l.], 2003. p. 47-50.
 
-> <a id="REF6" href="#anchor_6">6.</a>Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997).
+> <a id="REF6" href="#anchor_6">7.</a>Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997).
 
 ## Histórico de Versões
 
@@ -209,4 +208,5 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 | `1.0`  | 06/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 07/06/2023 | Adição do caso de uso e ajustes nos tópicos | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) |
 | `1.2`  | 08/06/2023 | Adição dos cenarios e ajustes nos tópicos | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.3`  | 09/06/2023 | Padronização das referências nas tabelas | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs) |
 
