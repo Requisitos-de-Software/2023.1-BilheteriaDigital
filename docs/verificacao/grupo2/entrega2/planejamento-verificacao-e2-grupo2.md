@@ -164,7 +164,7 @@ _Fonte: [Sidney Fernando](https://github.com/nando3d3)._
 
 <center>
 
-**Tabela 1** - Checklist para a Verificação Storytelling.
+**Tabela 7** - Checklist para a Verificação Storytelling.
 
 | ID | Descrição                                                                                                                                              | Avaliação  | 
 |----|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------
