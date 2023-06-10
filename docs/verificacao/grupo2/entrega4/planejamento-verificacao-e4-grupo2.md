@@ -42,7 +42,7 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da verificação do NFR Framework](./verificacao-nfr.md).
+- [Resultados da verificação do NFR Framework](./nfrframework.md).
 - [Resultados da Verificação do Product Backlog](./verificacao-backlog.md).
 - [Resultados da Verificação das Histórias de Usuário](./verificacao-historias-de-usuario.md).
 

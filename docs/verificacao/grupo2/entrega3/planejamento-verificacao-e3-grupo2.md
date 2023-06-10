@@ -44,15 +44,11 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-<<<<<<< HEAD
-- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso).
-- [Resultados da Verificação da Especificação Suplementar](./especificacao-suplementar.md).
-- [Resultados da Verificação dos Cenários](./cenarios.md).
-=======
+
+- [Resultados da Verificação dos Cenários](../cenarios).
 - [Resultados da verificação do Caso de uso](../caso-de-uso);
 - [Resultados da Verificação da Especificação Suplementar](../especificacao-suplementar).
 - [Resultados da Verificação dos Léxicos](../lexicos).
->>>>>>> main
 
 ### Cronograma
 
