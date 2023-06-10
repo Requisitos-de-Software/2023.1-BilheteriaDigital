@@ -20,7 +20,7 @@ Salienta-se que a inspeção aqui planejada será realizada somente até a etapa
 ![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png#only-light)
 ![inspecao-fagan](../../../assets/verificacao/inspecao-fagan-e.png#only-dark)
 
-_Fonte: SOMMERVILLE (2007)._<a id="anchor_2" href="#REF2">^2^</a>
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_2" href="#REF2">^1^</a>
 </center>
 
 ### Participantes
@@ -89,10 +89,19 @@ _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
 <center>
 
-**Tabela 3** - Checklist para a Verificação do NFR Framework.
+**Tabela 3** - Checklist para a Verificação do NFR.
 
 | ID  | Descrição                                                                                              | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
+| 6 | Os gráficos SIG foram validados por Fontes Externas? | | |
+| 7 | Cada SIG possui sua respectiva propagação de Impacto?  | | |
+| 8 | Os softgoals se refinam até um nível de especificação bem definido? | | |
+| 9 | Os cartões de especificação representam requisitos não-funcionais verificáveis? | | |
+| 10 | Os cartões de especificação possuem: Identificador, Classificação, Descrição, Justificativa, Origem, Critério de Ajuste, Dependências, Prioridade, Conflitos e História? | | |
+| 11 | Os Softgoals NFR estão representados apropriadamente dada a sua definição? | | |
+| 12 | Os Softgoals de Operacionalização estão representados apropriadamente dada a sua definição? | | |
+| 13 | Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição? | | |
+| 14 | Os requisitos não-funcionais apresentados nos cartões foram priorizados com algum método? | | |
 
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
@@ -105,15 +114,15 @@ _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 **Tabela 4** - Checklist para a Verificação do Backlog.
 
-| ID  | Descrição                                                                                              | Avaliação | Observações |
-| --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 6  | A participação do cliente e/ou persona na elicitação de requisitos ?                                     | Não       |
-| 7  | São apresentados os requisitos priorizados ?                                                             | Sim       |
-| 8  | Os requisitos listados estão vinculados a uma história de usuário ?                                      | Sim       |
-| 9  | Os requisitos listados apresentam uma história de usuário condizente ao épico definido e vice-versa?     | Sim       |
-| 10 | O backlog possui épicos e temas bem definidos e descritos ?                                              | Sim       |
-| 11 | O backlog possui validação de um PO ?                                                                    | Não       |
-| 12 | O backlog possui ligação com o artefato História de Usuário ?                                            | Sim       |
+| ID  | Descrição                                                                                              | Avaliação |
+| --- | ------------------------------------------------------------------------------------------------------ | --------- |
+| 6  | A participação do cliente e/ou persona na elicitação de requisitos ?                                     |       |
+| 7  | São apresentados os requisitos priorizados ?                                                             |       |
+| 8  | Os requisitos listados estão vinculados a uma história de usuário ?                                      |       |
+| 9  | Os requisitos listados apresentam uma história de usuário condizente ao épico definido e vice-versa?     |       |
+| 10 | O backlog possui épicos e temas bem definidos e descritos ?                                              |       |
+| 11 | O backlog possui validação de um PO ?                                                                    |       |
+| 12 | O backlog possui ligação com o artefato História de Usuário ?                                            |       |
 
 _Fonte: [Rafael Ferreira](https://github.com/rafaelCLG0), 2023._
 
@@ -138,11 +147,15 @@ _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
 </center>
 
+## Bibliografia
+
+> Gerência e Qualidade de Software - Aula 05 - Verificação e Validação, UNIVESP. Acesso em: 05 de junho de 2023.
+> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: <https://repositorio.ufpe.br/handle/123456789/34150>. Acesso em: 10/06/2023.
+
 ## Referências Bibliográficas
 
-> Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano. Acessado em: 05 de junho de 2023. Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman Acessado em: 05 de junho de 2023. Vídeo sobre o Product Backlog - Introdução. Acessado em: 05 de junho de 2023. Gerência e Qualidade de Software - Aula 05 - Verificação e Validação, UNIVESP. Acesso em: 05 de junho de 2023.
+> <a id="REF2" href="#anchor_2">1.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
-> <a id="REF2" href="#anchor_2">2.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
 
 ## Histórico de Versões
@@ -150,4 +163,4 @@ _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 09/06/2023 | Criação da página. | [Douglas Alves](https://github.com/dougAlvs) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-
+| `1.1`  | 10/06/2023 | Adição do NFR | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C) |
