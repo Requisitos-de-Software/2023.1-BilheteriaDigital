@@ -30,12 +30,13 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso);
-- [Resultados da Verificação da Especificação Suplementar](../verificacao-especificacao-suplementar).
+- [Resultados da verificação do Caso de uso](../caso-de-uso);
+- [Resultados da Verificação da Especificação Suplementar](../especificacao-suplementar).
+- [Resultados da Verificação dos Léxicos](../lexicos).
 
 ### Cronograma
 
-A verificação será realizada no período de 04 de junho de 2023 até dia 06 de junho de 2023, com os resultados sendo relatados através da página de documentação do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 06 de junho de 2023. A tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
+A verificação será realizada no período de 04 de junho de 2023 até dia 10 de junho de 2023, com os resultados sendo relatados através da página de documentação do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 10 de junho de 2023. A tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
 
 <center>
 
@@ -46,7 +47,7 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 06 d
 | 03/06/2023 | Verificação do Caso de Uso. |[Geovanna Maciel](https://github.com/manuziny) 
 | 04/06/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 06/06/2023 | Adição da documentação na página do grupo. | [Matheus Henrique](https://github.com/mathonaut) |
-| 10/06/2023 | Verificação dos Léxicos.  | [Matheus Henrique](https://github.com/mathonaut) |
+| 10/06/2023 | Verificação dos Léxicos.  | [Arthur de Melo](https://github.com/arthurmlv) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -101,7 +102,7 @@ A tabela 4 a seguir apresenta a checklist com os itens de avaliação.
 | 12  | O princípio circular foi devidamente propagado, ou seja, os léxicos são referenciados e estão conectados?                                     |           |             |
 | 13  | A descrição dos léxicos é coerente e esclarecedora?                                                                 |           |             |
 | 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?                                                                 |           |             |
-| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?                                   | Não          | Arrumar o número das tabelas e dos léxicos.    |
+| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?                                   |           |     |
 
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
