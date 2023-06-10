@@ -2,53 +2,210 @@
 
 ## Introdução
 
-O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
+O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por sugerir e priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
 
-Para a produção do artefato haverá a participação da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) que será o _Product Owner_ do projeto, para tal foi utilizado o método da encenação. A encenação foi realizada via Teams às 17h do dia 23 de maio de 2023 e os participantes são apresentados na tabela 1.
+Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Os participantes são apresentados na tabela 1 e gravação da entrevista é apresentado no vídeo 1.
 
 <center>
 
-**Tabela 1** - Participantes da encenação.
+**Tabela 1** - Participantes da entrevista.
 
-| **Participante**                                                                                                                                       | **Função**    |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| [Matheus Henrique](https://github.com/mathonaut)                                                                                                       | Desenvolvedor |
-| [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) ([Rafael Ferreira](https://github.com/RafaelCLG0)) | Product Owner |
+| **Participante**                                        | **Função**     |
+| :------------------------------------------------------ | :------------- |
+| <span style = "color: orange"> Ana</span>               | Product Owner  |
+| [Douglas Alves dos Santos](https://github.com/dougAlvs) | Desenvolvedor  |
+| [Geovanna Maciel](https://github.com/manuziny)          | Entrevistadora |
+| [Matheus Henrique](https://github.com/mathonaut)        | Desenvolvedor  |
+| [Rafael Ferreira](https://github.com/RafaelCLG0)        | Desenvolvedor  |
+
 
 Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 </center>
 
+<center>
+
+**Vídeo 1** - Entrevista com o PO.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2o3diusGVC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<a href="https://www.youtube.com/embed/2o3diusGVC8" target="blanket">Clique aqui</a>
+
+Fonte: [Geovanna Maciel](https://github.com/manuziny).
+
+</center>
+
 ## Metodologia
 
-Para o desenvolvimento deste artefato, foi definido um tema e um épico a serem realizados a partir dos requisitos funcionais apresentados na seção de [Requisitos Elicitados](../../../elicitacao/requisitos_elicitados). Em um primeiro momento os requisitos analisados foram os que ainda não tiveram a sua implementação, evitando assim engenharia reversa do produto. Os requisitos analisados estão sendo apresentados na tabela 2.
+Na entrevista realizada com o PO, enquanto ele comentava suas funcionalidades desejadas os desenvolvedores/entrevistadores anotavam e faziam questionamentos acerca de suas falas. Depois de elicitadas as histórias de usuário, os critérios de aceitação foram definidos e elas foram priorizadas pelo PO em: Alta, Média ou Baixa prioridade (Basicamente foi utilizado o método Three Level Scale de priorização de requisitos). Posteriormente, foram definidos temas, épicos e features de forma a categorizar as histórias de usuário. A tabela 2 exemplifica o product backlog, com o detalhamento de cada história de usuário estando presente no seu respectivo [artefato](../historia-de-usuario). Além disso, o resto dessa documento explica melhor como foi o processo de definição dos temas, épicos e features e o significado de cada termo.
 
 <center>
 
-**Tabela 2** - Requisitos Funcionais Elicitados não Implementados.
+*Tabela 2* - Product Backlog Elaborado com o Product Owner.
+<table>
+<thead>
+  <tr>
+    <th>Épico</th>
+    <th>Feature</th>
+    <th>História de usuário</th>
+    <th>Priorização</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">Épico 1 - Categorizar</td>
+    <td rowspan="2">Feature 1 - Local e Data</td>
+    <td><a href="../historia-de-usuario#us01"> US01 </a> - Classificar eventos por local</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us04"> US04 </a> - Classificar eventos por data</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 2 - Modalidade</td>
+    <td><a href="../historia-de-usuario#us02"> US02 </a> - Classificar eventos por modalidade</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us07"> US07 </a> - Venda de ingressos de diferentes categorias</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Épico 2 - Preferências</td>
+    <td rowspan="2">Feature 3 - Notificações</td>
+    <td><a href="../historia-de-usuario#us22"> US22 </a> - Opção de receber notificações do aplicativo</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us23"> US23 </a> - Exibição de notificações de eventos próximos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 4 - Configurações</td>
+    <td><a href="../historia-de-usuario#us10"> US10 </a> - Opção de salvar dados de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us21"> US21 </a> - Recomendação de eventos baseada no gosto do usuário</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Épico 3 - Acessibilidade</td>
+    <td rowspan="2">Feature 5 - Ferramentas de Acessibilidade</td>
+    <td><a href="../historia-de-usuario#us32"> US32 </a> - Audiodescrição para eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us30"> US30 </a> - Acessibilidade visual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Feature 6 - Atalhos</td>
+    <td><a href="../historia-de-usuario#us31"> US31 </a> - Opção de troca de idioma</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us17"> US17 </a> - Diferentes opções de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us27"> US27 </a> - Cadastro por redes sociais validado por email</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td>Feature 7 - Ferramentas Complementares</td>
+    <td><a href="../historia-de-usuario#us16"> US16 </a> - Opção de transferência de ingresso</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="10">Épico 4 - Segurança</td>
+    <td rowspan="5">Feature 8 - Integridade de Dados</td>
+    <td><a href="../historia-de-usuario#us11"> US11 </a> - Privacidade dos dados de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us09"> US09 </a> - Exigência de dados necessários para cadastro e pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us26"> US26 </a> - Autenticação de dois fatores</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us28"> US28 </a> - Senha segura durante o cadastro</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us24"> US24 </a> - Termos de privacidade explícitos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Feature 9 - Prevenção de Erros</td>
+    <td><a href="../historia-de-usuario#us03"> US03 </a> - Apresentar valor total dos ingressos selecionados</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us08"> US08 </a> - Classificação dos tipos de assentos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us14"> US14 </a> - Lista de confirmação de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us18"> US18 </a> - Envio de ingressos por e-mail</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us15"> US15 </a> - Sem limite de compra de ingresso</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="8">Épico 5 - Padronização</td>
+    <td rowspan="6">Feature 10 - Interface</td>
+    <td><a href="../historia-de-usuario#us05"> US05 </a> - Histórico de visualização de eventos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us06"> US06 </a> - Contagem regressiva para realização de eventos</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us12"> US12 </a> - Lista de eventos disponíveis</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us13"> US13 </a> - Página de descrição de eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us29"> US29 </a> - Informações sobre inclusão na descrição dos eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us19"> US19 </a> - Aba de visualização de ingressos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 11 - Ferramentas Necessárias</td>
+    <td><a href="../historia-de-usuario#us25"> US25 </a>- Criação de conta e login com e-mail</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us20"> US20 </a> - Opção de cancelamento de compra</td>
+    <td>Alta</td>
+  </tr>
+</tbody>
+</table>
 
-| ID   | Descrição                                                                            | Rastreabilidade                                                                                                                                                                                                            | Implementação |
-| ---- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| RF01 | O aplicativo filtra os eventos por Estado e por Município.                           | <a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a>, <a href="../../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a> | Não           |
-| RF02 | O aplicativo filtra os eventos por data e por horário.                               | <a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>                                                                             | Não           |
-| RF03 | O aplicativo filtra os eventos por idade mínima de entrada.                          | <a href="../../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a>, <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>                                                                             | Não           |
-| RF10 | O aplicativo filtra eventos por categorias.                                          | <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>                                                                                                                                                      | Não           |
-| RF11 | O aplicativo da sugestões de eventos com base no histórico de buscas do usuário.     | <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a>                                                                            | Não           |
-| RF12 | O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a busca. | <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a>                                                                                                                                                      | Não           |
-| RF13 | O aplicativo notifica usuário sobre eventos, quando permitido.                       | <a href="../../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a>, <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>                                                                            | Não           |
-| RF18 | O usuário pode responder a pesquisa de perfil sobre seus gostos                      | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS12</a>                                                                                                                                                   | Não           |
-| RF23 | O usuário é capaz de conectar uma carteira digital                                   | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a>                                                                                                                                                   | Não           |
-| RF24 | O usuário é capaz de mudar o idioma do app                                           | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>                                                                                                                                                   | Não           |
-| RF26 | O usuário é capaz de dar zoom                                                        | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS21</a>                                                                                                                                                   | Não           |
-| RF27 | O usuário é capaz de acessar a assistente virtual                                    | <a href="../../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a>                                                                                                                                                   | Não           |
-
-Fonte: [Sidney Fernando](https://github.com/nando3d3).
+Fonte: [Matheus Henrique](https://github.com/mathonaut), [Rafael Ferreira](https://github.com/RafaelCLG0) e [Douglas Alves dos Santos](https://github.com/dougAlvs).
 
 </center>
 
 ## Temas
 
-Analisando os requisitos da tabela, foi possível organizá-los inicialmente em dois grandes temas.
+Analisando as histórias de usuário, foi possível organizá-las inicialmente em dois grandes temas.
 
 - **Funcionalidades**: Agrupa funcionalidades que o sistema precisa oferecer para que o usuário consiga realizar com sucesso suas tarefas.
 - **Perfil**: Agrupa funcionalidades relacionadas a como o usuário se apropria do sistema e o modifica de acordo com seus gostos e desejos.
@@ -57,41 +214,20 @@ Analisando os requisitos da tabela, foi possível organizá-los inicialmente em 
 
 Após a definição dos temas, eles são "quebrados" em épicos de modo a diminuir ainda mais a abstração das atividades que deverão ser realizadas no projeto. Para esse projeto, os épicos foram descritos utilizando o padrão de escrita das histórias de usuário e possuem um nível de abstração a mais chamado de _Features_.
 
-Definido um épico, são geradas _features_, que representa as funcionalidades em um nível de abstração maior que as histórias de usuário, e as próprias histórias de usuário que especifica ainda mais as _features_. Em relação às histórias de usuário, elas serão especificadas na seção de [Histórias de Usuário](../historia-de-usuario). No contexto desse trabalho, as _features_ e as histórias de usuário serão apresentadas seguindo o template apresentado na tabela 3.
+## Features
+
+Definido um épico, são geradas _features_, que são descrições simplificadas do que o produto faz para atender os objetivos dos usuários.  Elas representam as funcionalidades em um nível de abstração maior que as histórias de usuário.
+
+### Histórias de Usuário
+
+Elas especificam ainda mais as _features_ e serão detalhadas melhor na seção de [Histórias de Usuário](../historia-de-usuario). Se apresentam como descrições concisas e de alto nível de uma funcionalidade desejada em termos do cliente. Usualmente seguem a forma "Eu, como \_\_\_, desejo \_\_\_ para ___."
+
+### Épico 1 - Categorizar
+
+Esse épico apresenta as funcionalidades que permite aos usuários busque eventos em classes específicas, como por localidade, data, horário, classificação e categorias. A história de usuário a seguir o generaliza:
 
 <center>
-
-**Tabela 3** - Template das Features e Histórias de Usuário.
-
-| Feature                             | ID da História                       | História de usuário                                  |
-| ----------------------------------- | ------------------------------------ | ---------------------------------------------------- |
-| Funcionalidade relacionada ao épico | Identificação da História de Usuário | Visão do usuário sobre um determinada funcionalidade |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-</center>
-
-### Épico 1 - Filtragem
-
-Esse épico apresenta as funcionalidades que permite aos usuários filtrarem eventos em classes específicas, como por localidade, data, horário, idade e categorias. A história de usuário a seguir o generaliza:
-
-<center>
-*"Como usuário típico, eu desejo funcionalidades que me permitam filtrar os eventos"*
-</center>
-
-A tabela 4 a seguir apresenta as features e histórias de usuário relacionadas a esse épico.
-
-<center>
-
-**Tabela 4** - Features e Histórias de Usuário.
-
-| Feature                  |                                                    ID da História                                                    | História de usuário                                                                         |
-| ------------------------ | :------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------ |
-| Feature 1 - Local e Data |                     [US01](../historia-de-usuario/#US01)<br>[US02](../historia-de-usuario/#US02)                     | Filtro por estado e município.<br>Filtro por data e por horário.                            |
-| Feature 2 - Categorias   | [US03](../historia-de-usuario/#US03)<br>[US04](../historia-de-usuario/#US04)<br>[US05](../historia-de-usuario/#US05) | Filtro por idade mínima de entrada.<br>Filtro por categorias.<br>Tags associadas a eventos. |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
+*"Como usuário típico, eu desejo funcionalidades que me permitam categorizar os eventos"*
 </center>
 
 ### Épico 2 - Preferências
@@ -102,44 +238,31 @@ Esse épico apresenta as funcionalidades que permite aos usuários modificarem o
 *"Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências"*
 </center>
 
-A tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.
-
-<center>
-
-**Tabela 5** - Features e Histórias de Usuário.
-
-| Feature                   |                                ID da História                                | História de usuário                          |
-| ------------------------- | :--------------------------------------------------------------------------: | :------------------------------------------- |
-| Feature 3 - Avisos        | [US06](../historia-de-usuario/#US06)<br>[US07](../historia-de-usuario/#US07) | Sugestão de busca.<br>Notificação de evento. |
-| Feature 4 - Configurações |                     [US08](../historia-de-usuario/#US08)                     | Responder pesquisa de perfil.                |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-</center>
-
 ### Épico 3 - Acessibilidade
 
 Esse épico apresenta as funcionalidades que auxiliam os usuários a realizarem tarefas dentro do sistema, esse auxílio pode ser com atalhos que aceleram a conclusão de uma determinada tarefa como também através de ferramentas que permite que usuário com deficiência (PCD) consigam de fato utilizar o sistema. A história de usuário a seguir o generaliza:
 
 <center>
-*"Como usuário com necessidades especiais, eu desejo recursos que me permitam realizar com velocidade tarefas no site"*
+*"Como usuário, eu desejo recursos que me permitam realizar com velocidade tarefas no site"*
 </center>
 
-A tabela 6 apresenta as features e histórias de usuário relacionada a esse épico.
+
+### Épico 4 - Segurança
+
+Esse épico apresenta as funcionalidades que garantem aos usuário segurança contra condições desfavoráveis ou até mesmo perigosas. Evitando que o usuário cometa erros e realize atividades não desejáveis, como também oferecer maneiras de recuperação desses erros aos usuários.
 
 <center>
-
-**Tabela 6** - Features e Histórias de Usuário.
-
-| Feature                                   |                                ID da História                                | História de usuário                      |
-| ----------------------------------------- | :--------------------------------------------------------------------------: | :--------------------------------------- |
-| Feature 5 - Atalhos                       |                     [US09](../historia-de-usuario/#US09)                     | Conectar carteira digital.               |
-| Feature 6 - Central de Ajuda              |                     [US10](../historia-de-usuario/#US10)                     | Acessar à assistente virtual.            |
-| Feature 7 - Ferramentas de Acessibilidade | [US11](../historia-de-usuario/#US11)<br>[US12](../historia-de-usuario/#US12) | Mudar idioma do aplicativo.<br>Dar zoom. |
-
-Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
+*"Como usuário, eu desejo recursos de segurança"*
 </center>
+
+### Épico 5 - Padronização
+
+Este épico enfatiza as funcionalidades e atributos que contribuem para a eficiência e eficácia do sistema. Essas características garantem que o sistema seja capaz de executar suas tarefas de maneira rápida, precisa e com ótimos resultados. Além disso, o sistema é projetado de forma a ser facilmente memorizado pelos usuários, permitindo que eles se familiarizem rapidamente com suas funcionalidades e navegação.
+
+<center>
+*"Como usuário, eu desejo um sistema de fácil utilização"*
+</center>
+
 
 ## Bibliografia
 
@@ -147,11 +270,17 @@ Fonte: [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](http
 
 > POPOV, Arthur Taylor de Jesus; SANTOS, Eduardo Schuindt. Backlog do Produto. Repositório do Grupo MEI da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: <<https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/>>. Acesso em: 18 maio 2023.
 
+> PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, 940 p.
+
+> Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: http://www.computer.org/web/swebok/v3. p. 38.
+
 ## Histórico de Versões
 
-| Versão  | Data       | Descrição                             | Autor(es)                                                                                           | Revisor(es)                                      |
-| ------- | ---------- | ------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| `1.0`   | 22/05/2023 | Criação da página.                    | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.1`   | 23/05/2023 | Adição das Features.                  | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv)   |
-| `1.1.1` | 23/05/2023 | Atualização metodologia.              | [Douglas Alves dos Santos](https://github.com/dougAlvs)                                             | [Arthur de Melo](https://github.com/arthurmlv)   |
-| `1.2`   | 24/05/2023 | Ajustes nos textos e adição de links. | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Arthur de Melo](https://github.com/arthurmlv)   |
+| Versão  | Data       | Descrição                             | Autor(es)                                                                                           | Revisor(es)                                                                                   |
+| ------- | ---------- | ------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `1.0`   | 22/05/2023 | Criação da página.                    | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Rafael Ferreira](https://github.com/RafaelCLG0)                                              |
+| `1.1`   | 23/05/2023 | Adição das Features.                  | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv)                                                |
+| `1.1.1` | 23/05/2023 | Atualização metodologia.              | [Douglas Alves dos Santos](https://github.com/dougAlvs)                                             | [Arthur de Melo](https://github.com/arthurmlv)                                                |
+| `1.2`   | 24/05/2023 | Ajustes nos textos e adição de links. | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Arthur de Melo](https://github.com/arthurmlv)                                                |
+| `2.0`   | 08/06/2023 | Refatoração do Artefato               | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny) |
+| `2.1`   | 09/06/2023 | Adição das Histórias de Usuário e refatoração dos épicos em uma única tabela              | [Douglas Alves](https://github.com/dougAlvs) | [Matheus Henrique](https://github.com/mathonaut) |
