@@ -87,11 +87,11 @@ Existe o mesmo problema em Facilidade de uso. A utilização de expressões como
 
 ### ID 9.1 - Os requisitos apresentados são testáveis? (Confiabilidade)
 
-Novamente falta especificação. Em [Segurança dos dados](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#31-seguranca-dos-dados), deve se demonstrar como os dados devem ser mantidos seguros, através de criptografia ou outro meio.
+Novamente falta especificação. Em [Segurança dos dados](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/especificacaoSuplementar/#31-seguranca-dos-dados), deve se demonstrar como os dados devem ser mantidos seguros, através de criptografia ou outro meio por exemplo.
 
 ### ID 10 - O documento possui um tópico de Desempenho?
 
-A uma confusão em relação ao nome a palavra Desempenho não é o mesmo que Perfomance. Temos as seguintes definições, segundo o dicionário Aurélio<a id=anchor_1 href="#REF1"><sup>1</sup></a>:
+Há uma confusão em relação ao nome, a palavra Desempenho não é o mesmo que Perfomance. Temos as seguintes definições, segundo o dicionário Aurélio<a id=anchor_1 href="#REF1"><sup>1</sup></a>:
 
 > Desempenho: “Ato ou efeito de desempenhar; cumprimento, exercício, execução: desempenho de uma atividade remunerada”
 
@@ -115,7 +115,7 @@ Em "O aplicativo deve ser construído seguindo o padrão proposto pela empresa q
 
 ### ID 15 - O documento possui um tópico de Requisitos Físicos?
 
-Apesar do nome do tópico falar em requisitos físicos, os requisitos apresentados são de suportabilidade e não especificam quais são as características dos dispositivos físicos que o sistema funcionará. Será só dispositivos mobile ou ele funcionará em aplicação web também.
+Apesar do nome do tópico falar em requisitos físicos, os requisitos apresentados são de suportabilidade e não especificam quais são as características dos dispositivos físicos que o sistema funcionará. Será só dispositivos mobile ou ele funcionará em aplicação web também?
 
 ## Sugestões de Correções
 
