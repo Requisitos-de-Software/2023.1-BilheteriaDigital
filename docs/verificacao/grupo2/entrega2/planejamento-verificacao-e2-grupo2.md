@@ -18,8 +18,11 @@ Salienta-se que a inspeção aqui planejada será realizada somente até a etapa
 
 **Figura 1** - Etapas da Inspeção de acordo com Fagan.
 
-![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png#only-light)
-![inspecao-fagan](../../../assets/verificacao/inspecao-fagan-e.png#only-dark)
+<figure markdown class="usecaseElement">
+
+![inspecao-fagan](../../../assets/verificacao/inspecao-fagan.png)
+
+</figure>
 
 _Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^4^</a>
 </center>
