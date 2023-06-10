@@ -2,11 +2,11 @@
 
 ## Introdução
 
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [NFR Framework](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/nfrFramework/), [Product Backlog](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/backlog/) e [Histórias de Usuário](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/historiasDeUsuario/) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 3.
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [NFR Framework](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/nfrFramework/), [Product Backlog](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/backlog/) e [Histórias de Usuário](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/historiasDeUsuario/) produzido pelo [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) na Etapa 4.
 
 ## Objetivos
 
-O objetivo deste documento é verificar se os artefatos produzidos na Etapa 3 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) possuem os itens e o padrão exigidos para tais. É importante citar que essa verificação em momento nenhum busca diminuir os membros do Grupo 2 ou seu trabalho, apenas aplicar os conceitos de verificação nos artefatos.
+O objetivo deste documento é verificar se os artefatos produzidos na Etapa 4 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking) possuem os itens e o padrão exigidos para tais. É importante citar que essa verificação em momento nenhum busca diminuir os membros do Grupo 2 ou seu trabalho, apenas aplicar os conceitos de verificação nos artefatos.
 
 ## Metodologia
 
