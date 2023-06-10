@@ -63,11 +63,9 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 10 d
 | 03/06/2023 | Verificação do Caso de Uso. |[Geovanna Maciel](https://github.com/manuziny) 
 | 04/06/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 06/06/2023 | Adição da documentação na página do grupo. | [Matheus Henrique](https://github.com/mathonaut) |
-<<<<<<< HEAD
 | 08/06/2023 | Verificação dos cenários. | [Douglas Alves](https://github.com/dougAlvs) |
-=======
 | 10/06/2023 | Verificação dos Léxicos.  | [Arthur de Melo](https://github.com/arthurmlv) |
->>>>>>> main
+
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
