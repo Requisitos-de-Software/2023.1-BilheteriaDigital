@@ -303,14 +303,21 @@
     <url>
          <loc>None</loc>
          <lastmod>2023-06-10</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>None</loc>
          <lastmod>2023-06-10</lastmod>
-=======
->>>>>>> main
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>None</loc>
+         <lastmod>2023-06-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>None</loc>
+         <lastmod>2023-06-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
