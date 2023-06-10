@@ -1924,8 +1924,8 @@
 
 <h1 id="backlog">Backlog</h1>
 <h2 id="introducao">Introdução</h2>
-<p>O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por priorizar os itens é o Dono do Produto (<em>Product Owner</em>). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.</p>
-<p>Para a produção do artefato teve a participação do PO do projeto, para tal foi utilizado o método da entrevista, que foi realizada via Discord às 20:45 do dia 31 de maio de 2023.Os participantes são apresentados na tabela 1 e gravação da entrevista é apresentado no vídeo 1.</p>
+<p>O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por sugerir e priorizar os itens é o Dono do Produto (<em>Product Owner</em>). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.</p>
+<p>Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Os participantes são apresentados na tabela 1 e gravação da entrevista é apresentado no vídeo 1.</p>
 <p><center></p>
 <p><strong>Tabela 1</strong> - Participantes da entrevista.</p>
 <table>
@@ -1968,223 +1968,170 @@
 <p>Fonte: <a href="https://github.com/manuziny">Geovanna Maciel</a>.</p>
 <p></center></p>
 <h2 id="metodologia">Metodologia</h2>
-<p>Para o desenvolvimento deste artefato, foi criado em conjunto com as <a href="../historia-de-usuario">Histórias de Usuário</a> e foram definidos temas, épicos e features a serem realizados a partir dos requisitos funcionais apresentados na tabela 2.</p>
+<p>Na entrevista realizada com o PO, enquanto ele comentava suas funcionalidades desejadas os desenvolvedores/entrevistadores anotavam e faziam questionamentos acerca de suas falas. Depois de elicitadas as histórias de usuário, os critérios de aceitação foram definidos e elas foram priorizadas pelo PO em: Alta, Média ou Baixa prioridade (Basicamente foi utilizado o método Three Level Scale de priorização de requisitos). Posteriormente, foram definidos temas, épicos e features de forma a categorizar as histórias de usuário. A tabela 2 exemplifica o product backlog, com o detalhamento de cada história de usuário estando presente no seu respectivo <a href="../historia-de-usuario">artefato</a>. Além disso, o resto dessa documento explica melhor como foi o processo de definição dos temas, épicos e features e o significado de cada termo.</p>
 <p><center></p>
-<p><em>Tabela 2</em> - Requisitos Elicitados com o Product Owner.</p>
+<p><em>Tabela 2</em> - Product Backlog Elaborado com o Product Owner.</p>
 <table>
 <thead>
-<tr>
-<th>ID</th>
-<th>Descrição</th>
-<th>Rastreabilidade</th>
-<th>Implementação</th>
-</tr>
+  <tr>
+    <th>Épico</th>
+    <th>Feature</th>
+    <th>História de usuário</th>
+    <th>Priorização</th>
+  </tr>
 </thead>
 <tbody>
-<tr>
-<td>REQ01</td>
-<td>O aplicativo deve classificar eventos por local.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ02</td>
-<td>O aplicativo deve classificar eventos por modalidade.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ03</td>
-<td>O aplicativo deve apresentar o valor total dos ingressos selecionados antes da confirmação.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ04</td>
-<td>O aplicativo deve classificar eventos por data.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ05</td>
-<td>O aplicativo deve possuir um histórico de visualização de eventos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ06</td>
-<td>O aplicativo deve possuir uma contagem regressiva para realização de eventos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ07</td>
-<td>O aplicativo deve vender ingressos de eventos de diferentes categorias.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ08</td>
-<td>O aplicativo deve classificar os diferentes tipos de assentos e explicá-los.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ09</td>
-<td>O aplicativo deve exigir somente os dados necessários para cadastro e pagamento.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ10</td>
-<td>O aplicativo deve dar ao usuário a opção de salvar ou não seus dados de pagamento.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ11</td>
-<td>O aplicativo deve garantir a privacidade dos dados de pagamento dos usuários.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ12</td>
-<td>O aplicativo deve ter uma tela com a lista de eventos disponíveis.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ13</td>
-<td>O aplicativo deve ter uma página de descrição de eventos com data, local e valor.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ14</td>
-<td>O aplicativo deve ter uma lista de confirmação de pagamento.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ15</td>
-<td>O aplicativo deve limitar a compra de ingressos de determinado usuário.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ16</td>
-<td>O aplicativo deve possuir opção de transferência de ingresso.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ17</td>
-<td>O aplicativo deve possuir diferentes opções de pagamento como pix, crédito, débito, boleto e carteiras digitais.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ18</td>
-<td>O aplicativo deve realizar envio dos ingressos comprados por email como confirmação.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ19</td>
-<td>O aplicativo deve apresentar uma aba de visualização de ingressos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ20</td>
-<td>O aplicativo deve possuir uma opção de cancelar uma compra.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ21</td>
-<td>O aplicativo deve possuir recomendação de eventos com base no gosto do usuário, por meio de uma avaliação.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ22</td>
-<td>O usuário pode escolher receber notificações ou não do aplicativo.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ23</td>
-<td>O aplicativo deve exibir notificações por eventos próximos com base no gosto do usuário.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ24</td>
-<td>O aplicativo deve ter termos de privacidade explícitos em relação aos dados inseridos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ25</td>
-<td>O usuário deve poder criar uma conta e fazer login com email.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ26</td>
-<td>O aplicativo deve ter autenticação de dois fatores.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ27</td>
-<td>O aplicativo deve permitir opções de cadastro por redes sociais validados por email.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ28</td>
-<td>O aplicativo deve exigir uma senha segura durante um cadastro.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ29</td>
-<td>O aplicativo deve possuir informações sobre inclusão na descrição dos eventos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ30</td>
-<td>O aplicativo deve possuir audiodescrição.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ31</td>
-<td>O aplicativo deve possuir alto contraste.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ32</td>
-<td>O aplicativo deve possuir opções de cores para daltónicos.</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>REQ33</td>
-<td>O aplicativo deve possuir um botão de troca de idioma próximo à conta.</td>
-<td></td>
-<td></td>
-</tr>
+  <tr>
+    <td rowspan="4">Épico 1 - Categorizar</td>
+    <td rowspan="2">Feature 1 - Local e Data</td>
+    <td><a href="../historia-de-usuario#us01"> US01 </a> - Classificar eventos por local</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us04"> US04 </a> - Classificar eventos por data</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 2 - Modalidade</td>
+    <td><a href="../historia-de-usuario#us02"> US02 </a> - Classificar eventos por modalidade</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us07"> US07 </a> - Venda de ingressos de diferentes categorias</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Épico 2 - Preferências</td>
+    <td rowspan="2">Feature 3 - Notificações</td>
+    <td><a href="../historia-de-usuario#us22"> US22 </a> - Opção de receber notificações do aplicativo</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us23"> US23 </a> - Exibição de notificações de eventos próximos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 4 - Configurações</td>
+    <td><a href="../historia-de-usuario#us10"> US10 </a> - Opção de salvar dados de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us21"> US21 </a> - Recomendação de eventos baseada no gosto do usuário</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Épico 3 - Acessibilidade</td>
+    <td rowspan="2">Feature 5 - Ferramentas de Acessibilidade</td>
+    <td><a href="../historia-de-usuario#us32"> US32 </a> - Audiodescrição para eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us30"> US30 </a> - Acessibilidade visual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Feature 6 - Atalhos</td>
+    <td><a href="../historia-de-usuario#us31"> US31 </a> - Opção de troca de idioma</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us17"> US17 </a> - Diferentes opções de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us27"> US27 </a> - Cadastro por redes sociais validado por email</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td>Feature 7 - Ferramentas Complementares</td>
+    <td><a href="../historia-de-usuario#us16"> US16 </a> - Opção de transferência de ingresso</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td rowspan="10">Épico 4 - Segurança</td>
+    <td rowspan="5">Feature 8 - Integridade de Dados</td>
+    <td><a href="../historia-de-usuario#us11"> US11 </a> - Privacidade dos dados de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us09"> US09 </a> - Exigência de dados necessários para cadastro e pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us26"> US26 </a> - Autenticação de dois fatores</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us28"> US28 </a> - Senha segura durante o cadastro</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us24"> US24 </a> - Termos de privacidade explícitos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Feature 9 - Prevenção de Erros</td>
+    <td><a href="../historia-de-usuario#us03"> US03 </a> - Apresentar valor total dos ingressos selecionados</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us08"> US08 </a> - Classificação dos tipos de assentos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us14"> US14 </a> - Lista de confirmação de pagamento</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us18"> US18 </a> - Envio de ingressos por e-mail</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us15"> US15 </a> - Sem limite de compra de ingresso</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="8">Épico 5 - Padronização</td>
+    <td rowspan="6">Feature 10 - Interface</td>
+    <td><a href="../historia-de-usuario#us05"> US05 </a> - Histórico de visualização de eventos</td>
+    <td>Baixa</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us06"> US06 </a> - Contagem regressiva para realização de eventos</td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us12"> US12 </a> - Lista de eventos disponíveis</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us13"> US13 </a> - Página de descrição de eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us29"> US29 </a> - Informações sobre inclusão na descrição dos eventos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us19"> US19 </a> - Aba de visualização de ingressos</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Feature 11 - Ferramentas Necessárias</td>
+    <td><a href="../historia-de-usuario#us25"> US25 </a>- Criação de conta e login com e-mail</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td><a href="../historia-de-usuario#us20"> US20 </a> - Opção de cancelamento de compra</td>
+    <td>Alta</td>
+  </tr>
 </tbody>
 </table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
+
+<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a>, <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a> e <a href="https://github.com/dougAlvs">Douglas Alves dos Santos</a>.</p>
 <p></center></p>
 <h2 id="temas">Temas</h2>
-<p>Analisando os requisitos da tabela, foi possível organizá-los inicialmente em dois grandes temas.</p>
+<p>Analisando as histórias de usuário, foi possível organizá-las inicialmente em dois grandes temas.</p>
 <ul>
 <li><strong>Funcionalidades</strong>: Agrupa funcionalidades que o sistema precisa oferecer para que o usuário consiga realizar com sucesso suas tarefas.</li>
 <li><strong>Perfil</strong>: Agrupa funcionalidades relacionadas a como o usuário se apropria do sistema e o modifica de acordo com seus gostos e desejos.</li>
@@ -2194,191 +2141,38 @@
 <h2 id="features">Features</h2>
 <p>Definido um épico, são geradas <em>features</em>, que são descrições simplificadas do que o produto faz para atender os objetivos dos usuários.  Elas representam as funcionalidades em um nível de abstração maior que as histórias de usuário.</p>
 <h3 id="historias-de-usuario">Histórias de Usuário</h3>
-<p>Elas especificam ainda mais as <em>features</em> e serão apresentadas na seção de <a href="../historia-de-usuario">Histórias de Usuário</a>. No contexto desse trabalho, as <em>features</em> e as histórias de usuário seguiram o template apresentado na tabela 3.</p>
-<p><center></p>
-<p><strong>Tabela 3</strong> - Template das Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>ID da História</th>
-<th>História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Funcionalidade relacionada ao épico</td>
-<td>Identificação da História de Usuário</td>
-<td>Visão do usuário sobre um determinada funcionalidade</td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
+<p>Elas especificam ainda mais as <em>features</em> e serão detalhadas melhor na seção de <a href="../historia-de-usuario">Histórias de Usuário</a>. Se apresentam como descrições concisas e de alto nível de uma funcionalidade desejada em termos do cliente. Usualmente seguem a forma "Eu, como ___, desejo ___ para ___."</p>
 <h3 id="epico-1-categorizar">Épico 1 - Categorizar</h3>
 <p>Esse épico apresenta as funcionalidades que permite aos usuários busque eventos em classes específicas, como por localidade, data, horário, classificação e categorias. A história de usuário a seguir o generaliza:</p>
 <p><center>
 <em>"Como usuário típico, eu desejo funcionalidades que me permitam categorizar os eventos"</em>
 </center></p>
-<p>A tabela 4 a seguir apresenta as features e histórias de usuário relacionadas a esse épico.</p>
-<p><center></p>
-<p><strong>Tabela 4</strong> - Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">ID da História</th>
-<th align="left">História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feature 1 - Local e Data</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 2 - Modalidade</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
 <h3 id="epico-2-preferencias">Épico 2 - Preferências</h3>
 <p>Esse épico apresenta as funcionalidades que permite aos usuários modificarem o sistema de acordo com os seus gostos, mas também funcionalidades que permitem que o sistema ofereça sugestões de eventos personalizadas para cada usuário. A história de usuário a seguir o generaliza:</p>
 <p><center>
 <em>"Como usuário típico, eu desejo modificar o site de acordo com as minhas preferências"</em>
 </center></p>
-<p>A tabela 5 apresenta as features e histórias de usuário relacionada a esse épico.</p>
-<p><center></p>
-<p><strong>Tabela 5</strong> - Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">ID da História</th>
-<th align="left">História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feature 3 - Notificações</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 4 - Configurações</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
 <h3 id="epico-3-acessibilidade">Épico 3 - Acessibilidade</h3>
 <p>Esse épico apresenta as funcionalidades que auxiliam os usuários a realizarem tarefas dentro do sistema, esse auxílio pode ser com atalhos que aceleram a conclusão de uma determinada tarefa como também através de ferramentas que permite que usuário com deficiência (PCD) consigam de fato utilizar o sistema. A história de usuário a seguir o generaliza:</p>
 <p><center>
 <em>"Como usuário, eu desejo recursos que me permitam realizar com velocidade tarefas no site"</em>
 </center></p>
-<p>A tabela 6 apresenta as features e histórias de usuário relacionada a esse épico.</p>
-<p><center></p>
-<p><strong>Tabela 6</strong> - Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">ID da História</th>
-<th align="left">História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feature 5 - Ferramentas de Acessibilidade</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 6 - Atalhos</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 7 - Ferramentas Complementares</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
 <h3 id="epico-4-seguranca">Épico 4 - Segurança</h3>
 <p>Esse épico apresenta as funcionalidades que garantem aos usuário segurança contra condições desfavoráveis ou até mesmo perigosas. Evitando que o usuário cometa erros e realize atividades não desejáveis, como também oferecer maneiras de recuperação desses erros aos usuários.</p>
 <p><center>
 <em>"Como usuário, eu desejo recursos de segurança"</em>
 </center></p>
-<p>A tabela 7 apresenta as features e histórias de usuário relacionada a esse épico.</p>
-<p><center></p>
-<p><strong>Tabela 7</strong> - Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">ID da História</th>
-<th align="left">História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feature 8 - Integridade de Dados</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 9 - Prevenção de Erros</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
 <h3 id="epico-5-padronizacao">Épico 5 - Padronização</h3>
 <p>Este épico enfatiza as funcionalidades e atributos que contribuem para a eficiência e eficácia do sistema. Essas características garantem que o sistema seja capaz de executar suas tarefas de maneira rápida, precisa e com ótimos resultados. Além disso, o sistema é projetado de forma a ser facilmente memorizado pelos usuários, permitindo que eles se familiarizem rapidamente com suas funcionalidades e navegação.</p>
 <p><center>
 <em>"Como usuário, eu desejo um sistema de fácil utilização"</em>
 </center></p>
-<p>A tabela 8 apresenta as features e histórias de usuário relacionada a esse épico.</p>
-<p><center></p>
-<p><strong>Tabela 8</strong> - Features e Histórias de Usuário.</p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">ID da História</th>
-<th align="left">História de usuário</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Feature 10 - Interface</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td>Feature 11 - Ferramentas Necessárias</td>
-<td align="center"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</p>
-<p></center></p>
 <h2 id="bibliografia">Bibliografia</h2>
 <blockquote>
 <p>SOUZA, Nicolas; MACEDO, Lucas. Backlog do Produto. Repositório do Grupo Lichess da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: &lt;<a href="https://requisitos-de-software.github.io/2022.2-Lichess/modelagem/agil/backlog/">https://requisitos-de-software.github.io/2022.2-Lichess/modelagem/agil/backlog/</a>&gt;. Acesso em: 18 maio 2023.</p>
 <p>POPOV, Arthur Taylor de Jesus; SANTOS, Eduardo Schuindt. Backlog do Produto. Repositório do Grupo MEI da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: &lt;<a href="https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/">https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/</a>&gt;. Acesso em: 18 maio 2023.</p>
+<p>PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, 940 p.</p>
+<p>Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: http://www.computer.org/web/swebok/v3. p. 38.</p>
 </blockquote>
 <h2 id="historico-de-versoes">Histórico de Versões</h2>
 <table>
@@ -2426,6 +2220,13 @@
 <td>Refatoração do Artefato</td>
 <td><a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
 <td><a href="https://github.com/dougAlvs">Douglas Alves</a> e <a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>2.1</code></td>
+<td>09/06/2023</td>
+<td>Adição das Histórias de Usuário e refatoração dos épicos em uma única tabela</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
 </tr>
 </tbody>
 </table>
