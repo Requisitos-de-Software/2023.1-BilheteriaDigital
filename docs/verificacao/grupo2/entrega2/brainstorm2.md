@@ -7,7 +7,7 @@ Este documento é uma verificação do artefato [Brainstorm](https://requisitos-
 
 A verificação do artefato será realizada utilizando a metodologia de inspeção de Fagan. Essa abordagem consiste em realizar uma revisão formal dos artefatos produzidos, com o objetivo de identificar defeitos. Durante a revisão, será utilizada uma checklist que será composta por cinco perguntas que servirão como critério para avaliar a documentação, seguidas por perguntas relacionadas ao conteúdo do artefato Brainstorm.
 
-A Tabela 1 apresenta as perguntas utilizadas na verificação do artefato, juntamente com suas respectivas avaliações. A versão utilizada para a verificação será a 1.0, elaborada em 23 de abril de 2023, conforme o [Planejamento da Verificação da Etapa 2](planejamento-verificacao-e2-grupo2.md).
+A Tabela 1 apresenta as perguntas utilizadas na verificação do artefato, juntamente com suas respectivas avaliações. A versão utilizada para a verificação será a 1.0, elaborada em 23 de abril de 2023, conforme o [Planejamento da Verificação da Etapa 2](../planejamento-verificacao-e2-grupo2).
 
 ## Desenvolvimento
 
