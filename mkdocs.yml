@@ -68,11 +68,22 @@ nav:
               - Rich Picture: verificacao/grupo2/entrega1/rich-picture.md
           - Entrega 2:
               - Planejamento da Verificação da Entrega 2 do Grupo 2: verificacao/grupo2/entrega2/planejamento-verificacao-e2-grupo2.md
+              - Elicitação:
+                - Perfil de Usuário: verificacao/grupo2/entrega2/perfilusuario2.md
+                - Personas: verificacao/grupo2/entrega2/personas2.md
+                - Brainstorm: verificacao/grupo2/entrega2/brainstorm2.md
+                - Observação: verificacao/grupo2/entrega2/observacao2.md
+                - Storytelling: verificacao/grupo2/entrega2/storytelling2.md
+              - Priorização:
+                - Three Level-Scale: verificacao/grupo2/entrega2/threelvlscale2.md
+                - Moscow: verificacao/grupo2/entrega2/moscow2.md
+                - In or Out: verificacao/grupo2/entrega2/inorout2.md
           - Entrega 3:
               - Planejamento da Verificação da Entrega 3 do Grupo 2: verificacao/grupo2/entrega3/planejamento-verificacao-e3-grupo2.md
               - Caso de Uso: verificacao/grupo2/entrega3/caso-de-uso.md
           - Entrega 4:
               - Planejamento da Verificação da Entrega 4 do Grupo 2: verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2.md
+              - NFR Framework: verificacao/grupo2/entrega4/nfrframework.md
           - Entrega 5:
               - Planejamento da Verificação da Entrega 5 do Grupo 2: verificacao/grupo2/entrega5/planejamento-verificacao-e5-grupo2.md
       - Grupo:
