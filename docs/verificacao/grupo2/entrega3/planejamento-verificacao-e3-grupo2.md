@@ -149,28 +149,27 @@ _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 **Tabela 5** - Checklist para a Verificação do Caso de Uso.
 
-| ID  | Descrição                                                                                              | Avaliação | Observações |
+| ID | Descrição | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 6 | Cada caso peovem um resultado observável e de valor para os atores ou outros interessados no sistema? | | |
-| 7 | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? | | |
-| 8 | Há o uso de verbos no infinitivo e não substantivos?  | | |
-| 9 | Há relacionamentos de extend, include e generalization? | | |
-| 10 | O caso de uso representa o usuário e suas interações com o sistema? | | |
-| 11 | O ator principal está posicionado ao lado esquerdo do sistema? | | |
-| 12 | O usuário reside fora das fronteiras da aplicação? | | |
-| 13 | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. | | |
-| 14 | Quando o ator é um software ou um hardware, há a tag << system >>? | | |
-| 15 | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? | | | 
-| 16 | Os casos de uso são de requisitos funcionais? | | |
-| 17 | Foi usada alguma técnica para a produção dos casos de uso? | | | 
-| 18 | Os elementos de atores, sitema e metas estão presentes no caso de uso? | | |
-| 19 | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? | | |
-| 20 | Há o detalhamento de: o trabalho desenvolvido para o cliente externo, a rastreabilidade dos requisitos e estimativas precisas? | | |
-| 21 | Existem fluxos como: principal, alternativo e de exceção? | | |
-| 22 | Cada especificação de caso uso tem somente um fluxo principal? | | |
-| 23 | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? | | |
-| 24 | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? | | |
-| 25 | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas?  | | |
+| 6 | Cada caso provem um resultado observável e de valor para os atores ou outros interessados no sistema? <a id="anchor_4" href="#REF4">^4^</a>| | |
+| 7 | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? <a id="anchor_3" href="#REF3">^3^</a>| | |
+| 8 | Há o uso de verbos no infinitivo e não substantivos? <a id="anchor_2" href="#REF2">^2^</a> | | |
+| 9 | Há relacionamentos de extend, include e generalization? <a id="anchor_4" href="#REF4">^4^</a> | | |
+| 10 | O caso de uso representa o usuário e suas interações com o sistema? <a id="anchor_4" href="#REF4">^4^</a> | | |
+| 11 | O ator principal está posicionado ao lado esquerdo do sistema? <a id="anchor_4" href="#REF4">^4^</a> | | |
+| 12 | O usuário reside fora das fronteiras da aplicação? <a id="anchor_4" href="#REF4">^4^</a> | | |
+| 13 | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. <a id="anchor_4" href="#REF4">^4^</a>| | |
+| 14 | Quando o ator é um software ou um hardware, há a tag << system >>? <a id="anchor_4" href="#REF4">^4^</a>| | |
+| 15 | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? <a id="anchor_4" href="#REF4">^4^</a>| | | 
+| 16 | Os casos de uso são de requisitos funcionais? <a id="anchor_4" href="#REF6">^4^</a>| | |
+| 17 | Foi usada alguma técnica para a produção dos casos de uso? <a id="anchor_4" href="#REF4">^4^</a>| | | 
+| 18 | Os elementos de atores, sistema e metas estão presentes no caso de uso? <a id="anchor_3" href="#REF3">^3^</a> | | |
+| 19 | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? <a id="anchor_2" href="#REF2">^2^</a>| | |
+| 20 | Existem fluxos como: principal, alternativo e de exceção? <a id="anchor_2" href="#REF2">^2^</a>| | |
+| 21 | Cada especificação de caso uso tem somente um fluxo principal? <a id="anchor_2" href="#REF2">^2^</a>| | |
+| 22 | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? <a id="anchor_2" href="#REF2">^2^</a>| | |
+| 23 | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? <a id="anchor_4" href="#REF4">^4^</a>| | |
+| 24 | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas? <a id="anchor_4" href="#REF4">^4^</a>| | |inesperadas?  | | |
 
 _Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
 

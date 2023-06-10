@@ -59,6 +59,7 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 13 d
 | 08/06/2023 | Verificação do backlog. |[Rafael Ferreira](https://github.com/rafaelCLG0) 
 | 09/06/2023 | Verificação das histórias de usuário.  | [Douglas Alves](https://github.com/dougAlvs) |
 | 09/06/2023 | Adição da documentação na página do grupo. | [Douglas Alves](https://github.com/dougAlvs) |
+| 10/06/2023 | Verificação do NFR Framework | [Arthur de Melo](https://github.com/arthurmlv) |
 
 _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
