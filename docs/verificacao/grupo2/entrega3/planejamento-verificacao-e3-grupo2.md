@@ -22,7 +22,7 @@ Os artefatos alvo dessa verificação são:
 
 - [Cenários](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/cenarios/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
 
-- [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), na versão x de data x/x/x produzido por [Fulano]() com a revisão de [Ciclano]().
+- [Léxico](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/), na versão 1.0 de data 14/05/2023 produzido por [Pedro Henrique](https://github.com/PedroHenrique2077) e [Samuel Gomes](https://github.com/SamuelGSouza) com a revisão de [Lucas Lopes](https://github.com/LucasLopesFrazao).
 
 - [Caso de Uso](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/casosDeUso/), na versão 1.0 de data 14/05/2023 produzido por [Samuel Gomes](https://github.com/SamuelGSouza) com revisão de [Henrique Pucci](https://github.com/HenriPucci).
 
@@ -30,12 +30,13 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da verificação do Caso de uso](../entrega3/caso-de-uso);
-- [Resultados da Verificação da Especificação Suplementar](../verificacao-especificacao-suplementar).
+- [Resultados da verificação do Caso de uso](../caso-de-uso);
+- [Resultados da Verificação da Especificação Suplementar](../especificacao-suplementar).
+- [Resultados da Verificação dos Léxicos](../lexicos).
 
 ### Cronograma
 
-A verificação será realizada no período de 04 de junho de 2023 até dia 06 de junho de 2023, com os resultados sendo relatados através da página de documentação do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 06 de junho de 2023. A tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
+A verificação será realizada no período de 04 de junho de 2023 até dia 10 de junho de 2023, com os resultados sendo relatados através da página de documentação do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 10 de junho de 2023. A tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
 
 <center>
 
@@ -46,6 +47,7 @@ A verificação será realizada no período de 04 de junho de 2023 até dia 06 d
 | 03/06/2023 | Verificação do Caso de Uso. |[Geovanna Maciel](https://github.com/manuziny) 
 | 04/06/2023 | Verificação do Especificação Suplementar.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 06/06/2023 | Adição da documentação na página do grupo. | [Matheus Henrique](https://github.com/mathonaut) |
+| 10/06/2023 | Verificação dos Léxicos.  | [Arthur de Melo](https://github.com/arthurmlv) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -83,7 +85,29 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ### Verificação dos Léxicos
 
-!!!COLOQUEM A TABELA COM TITULO E FONTE AQUI!!!
+A tabela 4 a seguir apresenta a checklist com os itens de avaliação.
+
+<center>
+
+**Tabela 4** - Checklist para os Léxicos.
+
+| ID  | Descrição                                                                                              | Avaliação | Observações |
+| --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
+| 6   | Cada símbolo possui classificação, sinônimo, noção e impacto?                                                                         |           |             |
+| 7   | Cada símbolo apresenta sua noção de forma breve e compreensível?                                           |           |             |
+| 8   | Cada símbolo apresenta seu impacto de forma breve e compreensível?  |           |             |
+| 9   | Caso seja do tipo Estado, as definições de noção e de impacto se encaixam com o que é descrito?           |         |             |
+| 10  | Caso seja do tipo Verbo, as definições de noção e de impacto se encaixam com o que é descrito?            |      |             |
+| 11  | Caso seja do tipo Objeto, as definições de noção e de impacto se encaixam com o que é descrito?           |          |             |
+| 12  | O princípio circular foi devidamente propagado, ou seja, os léxicos são referenciados e estão conectados?                                     |           |             |
+| 13  | A descrição dos léxicos é coerente e esclarecedora?                                                                 |           |             |
+| 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?                                                                 |           |             |
+| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?                                   |           |     |
+
+
+_Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
+
+</center>
 
 ### Verificação do Caso de uso
 
