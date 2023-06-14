@@ -21,7 +21,7 @@ A Tabela 1 apresenta as perguntas utilizadas na verificação do artefato, junta
 | 2  | O artefato possui bibliografia/referências bibliográficas?                                                                                       | Sim       |                                                                    |
 | 3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                                           | Sim       |                                                                    |
 | 4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                                     | Sim       |                                                                    |
-| 5  | Todos os textos estão na norma padrão? | Sim | |
+| 5  | Todos os textos estão na norma padrão? | Não | |
 | 6  | O(s) registro(s) da atividade de priorização dos requisitos?                                                                                     | Sim       |                                                                    |
 | 7  | Todos os requisitos foram classificados como Must Have (Deve ter), Should Have (Deveria ter), Could Have (Poderia ter) ou Won't Have (Não terá)? | Sim       |                                                                    |
 | 8  | As justificativas para a classificação de cada requisito estão documentadas e são coerentes com as necessidades do projeto?                      | Não       | Documente justificativas coerentes para as classificações.         |

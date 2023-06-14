@@ -21,7 +21,7 @@ A Tabela 1 apresenta as perguntas utilizadas na verificação do artefato, junta
 | 2                                 | O artefato possui bibliografia/referências bibliográficas?                                                            | Sim       |            |
 | 3                                 | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                | Sim       |            |
 | 4                                 | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                          | Sim       |            |
-| 5                                 | Todos os textos estão na norma padrão?                                                                                | Sim       |            |
+| 5                                 | Todos os textos estão na norma padrão?                                                                                |Não       |            |
 | 6                                 | "Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto?"                        | Sim
 | 7                                 | A gravação e o(s) registro(s) da atividade de elicitação dos requisitos?                                             | Sim       |            |
 | 8                                 | Está especificado o papel de cada participante?                                                                       | Sim       |            |
