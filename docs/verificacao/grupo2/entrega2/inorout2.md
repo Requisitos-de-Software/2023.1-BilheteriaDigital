@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento é de verificação do artefato [In or Out](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/inOrOut/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem como foco do projeto o aplicativo Booking. A partir da literatura _Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013._ <a id="FTF1" href="#FTF1Ref">^1^</a>, o documento de Personas será verificado.
+Este documento é de verificação do artefato [In or Out](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/inOrOut/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem como foco do projeto o aplicativo Booking. A partir da literatura _Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013._ <a id="FTF1" href="#FTF1Ref">^1^</a>, o documento In or Out será verificado.
 
 ## Metodologia
 

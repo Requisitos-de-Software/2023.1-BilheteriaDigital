@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento é de verificação do artefato [Three Level Scale](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/threeLevelScale/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem como foco do projeto o aplicativo Booking. A partir da literatura _Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013._ <a id="FTF1" href="#FTF1Ref">^1^</a>, o documento de Personas será verificado.
+Este documento é de verificação do artefato [Three Level Scale](https://requisitos-de-software.github.io/2023.1-Booking/elicitacao/threeLevelScale/) produzido pelo [Grupo 2](https://requisitos-de-software.github.io/2023.1-Booking/) que tem como foco do projeto o aplicativo Booking. A partir da literatura _Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013._ <a id="FTF1" href="#FTF1Ref">^1^</a>, o documento Three Level Scale será verificado.
 
 ## Metodologia
 
@@ -60,7 +60,7 @@ O documento no geral está muito bem redigido, [a inclusão da gravação e dos 
 
 - Especificar melhor o nível de prioridade de cada requisito, seja no ID seja por definição de um atributo extra em sua definição;
 
-- Apresentar no texto se as dependÇencias foram levadas em considerção no processo de ranqueamento, visto que a ausência desse critério pode causar problemas de implementação mais adiante no trabalho.
+- Apresentar no texto se as dependências foram levadas em considerção no processo de ranqueamento, visto que a ausência desse critério pode causar problemas de implementação mais adiante no trabalho.
 
 ## Referências Bibliográficas
 
