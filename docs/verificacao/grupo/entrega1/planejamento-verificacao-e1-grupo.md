@@ -10,9 +10,9 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 1 do
 
 ## Metodologia
 
- A metodologia escolhida para esta verificação é uma adptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
+ A metodologia escolhida para esta verificação é uma adaptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
 
- Vale ressaltar, que a inspeção aqui planejada será executada até a etapa de acompanhamento, a fim de garantir que todos os artefatos produzidos serão propriamente corrigidos. 
+ Vale ressaltar, que a inspeção aqui planejada será executada até a etapa de preparação individual, e depois os artefatos serão verificados. Somente após uma reunião com os outros integrantes do grupo, a ser realizada a pós a entrega, esses artefatos serão corrigidos. 
 
 <center>
 
