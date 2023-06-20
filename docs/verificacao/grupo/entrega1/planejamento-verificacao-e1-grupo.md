@@ -106,14 +106,21 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovanna Maciel](https://
 
 </center>
 
-## Bibliografia
-
-> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
 
 ## Referências Bibliográficas
+
+> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
 
 > <a id="REF1" href="#anchor_1">1.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
 > <a id="REF2" href="#anchor_2">2.</a>Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
 > <a id="REF3" href="#anchor_3">3.</a>Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023
+
+## Histórico de Versões
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                          | Autor(es)                                        | Revisor(es)                                    |
+| ------ | ---------- | -------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- |
+| `1.0`  | 20/06/2023 | Criação do documento.  | [Gabriel Campello](https://github.com/G16C)| [Matheus Henrique](https://github.com/mathonaut) |
