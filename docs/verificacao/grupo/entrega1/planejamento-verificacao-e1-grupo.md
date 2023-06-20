@@ -84,7 +84,7 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 ### Verificação do Rich Picture
 
-A checklist destinada para o conteúdo do Rich Picture está presente na tabela 3. As questões aqui documentadas foram baseadas no mesmo artefato de [planejamento de verificação do grupo 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/) produzido pela integrante [Geovanna Maciel](https://github.com/manuziny). <a id=anchor_1 href="#REF1"><sup>1</sup></a>  As perguntas de 6 a 8 foram retiradas dos slides da _Aula 04 da professora Milene e Maurício Serrano_.<a id=anchor_2 href="#REF2"><sup>2</sup></a> Já as questões de 9 a 15 foram retiradas da literartura _Introducing Rich Picture - Rich Picture Drawing Guidelines_. <a id=anchor_4 href="#REF4"><sup>4</sup></a>
+A checklist destinada para o conteúdo do Rich Picture está presente na tabela 3. As questões aqui documentadas foram baseadas no mesmo artefato de [planejamento de verificação do grupo 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/) produzido pela integrante [Geovanna Maciel](https://github.com/manuziny). <a id=anchor_1 href="#REF1"><sup>1</sup></a>  As perguntas de 6 a 7 foram retiradas dos slides da _Aula 04 da professora Milene e Maurício Serrano_.<a id=anchor_2 href="#REF2"><sup>2</sup></a> Já as questões de 8 a 15 foram retiradas da literartura _Introducing Rich Picture - Rich Picture Drawing Guidelines_. <a id=anchor_4 href="#REF4"><sup>4</sup></a>
 
 <center>
 
@@ -94,8 +94,8 @@ A checklist destinada para o conteúdo do Rich Picture está presente na tabela 
 | :---: | --------------------------------------------------------------------------------------------------------------- | :---------: | ------------ |
 | 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema?  | | |
 | 7 | Foi utilizada alguma técnica na produção do rich picture?| | |
-| 8 | O rich picture possui mais textos do que imagens? | | |
-| 9 | O artefato está bem desenhado e é possível de ser entendido? | | |
+| 8 | O artefato está conciso? | | |
+| 9 | O rich picture consegue comunicar a sua ideia sem excesso de palavras? | | |
 | 10 | Ele conta uma história?  | | |
 | 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo?   | | |
 | 12 | O rich picture dá uma ideia do que realmente está acontecendo?  | | |
@@ -111,7 +111,7 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovanna Maciel](https://
 ## Referências Bibliográficas
 
 
-> <a id="REF1" href="#anchor_1">1.</a> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
+> <a id="REF1" href="#anchor_1">1.</a> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
 
 > <a id="REF2" href="#anchor_2">2.</a> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
@@ -119,8 +119,6 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovanna Maciel](https://
 
 > <a id="REF4" href="#anchor_4">4.</a> REVADI, Chindy Elsanna. Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023.
 
-
-## Histórico de Versões
 
 ## Histórico de Versões
 
