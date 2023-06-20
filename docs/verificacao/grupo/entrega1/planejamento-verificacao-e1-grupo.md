@@ -35,6 +35,10 @@ O responsável por executar a verificação, produzir o relato dos seus resultad
 
 - O [**Rich Picture**](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/rich_picture/) na versão 1.1 de data 18/04/2023 produzido por [Sidney Fernando](https://github.com/nando3d3) com a revisão de [Douglas Alves](https://github.com/dougAlvs).
 
+Os resultados das verificações em si serão apresentados em páginas separadas e podem ser acessados através dos seguintes links:
+
+- [Resultados da Verificação do Rich Picture]();
+
 ### Cronograma
 
 A verificação será realizada no período de 20 de junho de 2023 até 21 de junho de 2023, com os resultados sendo relatados através da página de documentação do Grupo 1 no dia 21 de junho de 2023. A tabela 1 a seguir, apresenta o cronograma das atividades a serem realizadas.
