@@ -6,13 +6,11 @@ A verificação é uma das etapas mais importantes do desenvolvimento de um proj
 
 ## Objetivos
 
-O objetivo deste documento é verificar se os artefatos produzidos na Etapa 1 do [Grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) possuem os itens e o padrão exigidos para tais. É importante citar que essa verificação em momento nenhum busca diminuir os membros respons[aveis por esse artefato] ou seu trabalho, apenas aplicar os conceitos de verificação.
+O objetivo deste documento é verificar se os artefatos produzidos na Etapa 1 do [Grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) possuem os itens e o padrão exigidos para tais. É importante citar que essa verificação em momento nenhum busca diminuir os membros responsáveis por esse artefato ou seu trabalho, apenas aplicar os conceitos de verificação.
 
 ## Metodologia
 
- A metodologia escolhida para esta verificação é uma adaptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
-
- Vale ressaltar, que a inspeção aqui planejada será executada até a etapa de preparação individual, e depois os artefatos serão verificados. Somente após uma reunião com os outros integrantes do grupo, a ser realizada após a entrega no período de 22 de junho de 2023 até 26 de junho de 2023, esses artefatos serão corrigidos. 
+ A metodologia escolhida para esta verificação é uma adaptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo. 
 
 <center>
 
@@ -24,14 +22,14 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 1 do
 
 </figure>
 
-_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^1^</a>
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_3" href="#REF3">^3^</a>
 </center>
 
-### Participantes
+## Participantes
 
 O responsável por executar a verificação, produzir o relato dos seus resultados e executar as correções necessárias dos artefatos dessa etapa, será o integrante do grupo [Gabriel Campello](https://github.com/G16C). A revisão dessa verificação ficará a cargo do integrante [Matheus Henrique](https://github.com/mathonaut).
 
-### Objetivos de Verificação
+## Objetos da Verificação
 
 - O [**Rich Picture**](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/rich_picture/) na versão 1.1 de data 18/04/2023 produzido por [Sidney Fernando](https://github.com/nando3d3) com a revisão de [Douglas Alves](https://github.com/dougAlvs).
 
@@ -49,9 +47,12 @@ A verificação será realizada no período de 20 de junho de 2023 até 21 de ju
 
 | Data       | Descrição                                                                                                                   | Responsável                                      |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+|**Atividades**|||
 | 20/06/2023 | Verificação do Rich Picture.  | [Gabriel Campello](https://github.com/G16C) |
 | 20/06/2023 | Adição dos resultados. | [Gabriel Campello](https://github.com/G16C) |
-
+| **Possíveis Correções** |   |  |
+| 22/06/2023 | - | -|
+|  26/06/2023|  - |  -|
 
 _Fonte:  [Gabriel Campello](https://github.com/G16C)_
 
@@ -59,7 +60,7 @@ _Fonte:  [Gabriel Campello](https://github.com/G16C)_
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos, tudo isso de acordo com os slides da _Aula 04 da professora Milene e Maurício Serrano_<a id=anchor_2 href="#REF2"><sup>2</sup></a> e a literatura _Introducing Rich Picture - Rich Picture Drawing Guidelines_ <a id=anchor_3 href="#REF3"><sup>3</sup></a>.
+As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos, tudo isso de acordo com os slides da _Aula 04 da professora Milene e Maurício Serrano_<a id=anchor_2 href="#REF2"><sup>2</sup></a> e a literatura _Introducing Rich Picture - Rich Picture Drawing Guidelines_ <a id=anchor_4 href="#REF4"><sup>4</sup></a>.
 
 Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que 5 perguntas deverão estar presente em todas as etapas de verificação, assim como expressado na tabela 2. 
 
@@ -83,7 +84,7 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 ### Verificação do Rich Picture
 
-A checklist destinada para o conteúdo do Rich Picture está presente na tabela 3. As questões aqui documentadas foram baseadas no mesmo artefato de [planejamento de verificação do grupo 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/) produzido pela integrante [Geovanna Maciel](https://github.com/manuziny).
+A checklist destinada para o conteúdo do Rich Picture está presente na tabela 3. As questões aqui documentadas foram baseadas no mesmo artefato de [planejamento de verificação do grupo 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/) produzido pela integrante [Geovanna Maciel](https://github.com/manuziny). <a id=anchor_1 href="#REF1"><sup>1</sup></a>  As perguntas de 6 a 8 foram retiradas dos slides da _Aula 04 da professora Milene e Maurício Serrano_.<a id=anchor_2 href="#REF2"><sup>2</sup></a> Já as questões de 9 a 15 foram retiradas da literartura _Introducing Rich Picture - Rich Picture Drawing Guidelines_. <a id=anchor_4 href="#REF4"><sup>4</sup></a>
 
 <center>
 
@@ -91,16 +92,16 @@ A checklist destinada para o conteúdo do Rich Picture está presente na tabela 
 
 | ID  | Descrição     | Avaliação |  Observação |
 | :---: | --------------------------------------------------------------------------------------------------------------- | :---------: | ------------ |
-| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema? <a id=anchor_2 href="#REF2"><sup>2</sup></a>. | | |
-| 7 | Foi utilizada alguma técnica na produção do rich picture? <a id=anchor_2 href="#REF2"><sup>2</sup></a>.| | |
-| 8 | O rich picture possui mais textos do que imagens?<a id=anchor_2 href="#REF2"><sup>2</sup></a>. | | |
-| 9 | O artefato está bem desenhado e é possível de ser entendido? <a id=anchor_3 href="#REF3"><sup>3</sup></a>. | | |
-| 10 | Ele conta uma história?  <a id=anchor_3 href="#REF3"><sup>3</sup></a>.</a> | | |
-| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo?  <a id=anchor_3 href="#REF3"><sup>3</sup></a> | | |
-| 12 | O rich picture dá uma ideia do que realmente está acontecendo?  <a id=anchor_3 href="#REF3"><sup>3</sup></a>| | |
-| 13 | Contém palavras-chave relevantes? <a id=anchor_3 href="#REF3"><sup>3</sup></a>| | |
-| 14 | Comunica mais ideias do que palavras?  <a id=anchor_3 href="#REF3"><sup>3</sup></a>| | |
-| 15 | Contém a explicação dos componentes?  <a id=anchor_3 href="#REF3"><sup>3</sup></a> | | |
+| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema?  | | |
+| 7 | Foi utilizada alguma técnica na produção do rich picture?| | |
+| 8 | O rich picture possui mais textos do que imagens? | | |
+| 9 | O artefato está bem desenhado e é possível de ser entendido? | | |
+| 10 | Ele conta uma história?  | | |
+| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo?   | | |
+| 12 | O rich picture dá uma ideia do que realmente está acontecendo?  | | |
+| 13 | Contém palavras-chave relevantes? | | |
+| 14 | Comunica mais ideias do que palavras?  | | |
+| 15 | Contém a explicação dos componentes?  | | |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovanna Maciel](https://github.com/manuziny)._
 
@@ -109,13 +110,15 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovanna Maciel](https://
 
 ## Referências Bibliográficas
 
-> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
 
-> <a id="REF1" href="#anchor_1">1.</a>Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+> <a id="REF1" href="#anchor_1">1.</a> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
 
-> <a id="REF2" href="#anchor_2">2.</a>Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
+> <a id="REF2" href="#anchor_2">2.</a> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
-> <a id="REF3" href="#anchor_3">3.</a>Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023
+> <a id="REF3" href="#anchor_3">3.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+
+> <a id="REF4" href="#anchor_4">4.</a> REVADI, Chindy Elsanna. Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023.
+
 
 ## Histórico de Versões
 
