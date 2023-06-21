@@ -47,8 +47,8 @@ Os artefatos alvo dessa verificação são:
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
 - [Resultados da Verificação dos Cenários](../cenarios).
-- [Resultados da verificação do Caso de uso](../verificacao-caso-de-uso);
-- [Resultados da Verificação da Especificação Suplementar](../).
+- [Resultados da verificação do Caso de uso](../verificacao-caso-de-uso).
+- [Resultados da Verificação da Especificação Suplementar](../especificacao-suplementar).
 - [Resultados da Verificação dos Léxicos](../lexicos).
 
 ### Cronograma
@@ -73,7 +73,7 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv) e [Matheus 
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas. Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins. Para os Cenários e os Léxicos, foram utilizadas publicações de Julio Cesar Sampaio do Prado Leite, sendo estas (LEITE e ROSSI, 1997)<a id="anchor_4" href="#REF4">^4^</a> e (LEITE, 2012)<a id="anchor_5" href="#REF5">^5^</a>. Já as outras checklists estão referenciadas de acordo com a fonte que originou a referida pergunta.
+As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas. Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins. Para os Cenários e os Léxicos, foram utilizadas publicações de Julio Cesar Sampaio do Prado Leite, sendo estas (LEITE e ROSSI, 1997)<a id="anchor_4" href="#REF4">^4^</a> e (LEITE, 2012)<a id="anchor_5" href="#REF5">^5^</a>. Já as outras checklists estão referenciadas de acordo com a fonte que originou a referida pergunta. As checklists foram reaproveitadas da nossa [etapa de verificação do grupo 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega3/planejamento-verificacao-e3-grupo2/).
 
 Com o intuito de melhor organizar a verificação, a checklist será dividida em 5 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 2 a 6 apresentam as checklists de verificação.
 
@@ -202,7 +202,7 @@ _Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) e [Matheus 
 | 11.2 | É apresentado os sistemas operacionais que o sistema funcionará?                                  |           |             |
 | 12   | O documento possui um tópico de Restrições de Design?<a id="anchor_1" href="#REF1">^1^</a>        |           |             |
 | 12.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
-| 12.2 | Os requisitos apresentados específica ou restringe o design do sistema?                           |           |             |
+| 12.2 | Os requisitos apresentados especificam ou restringem o design do sistema?                           |           |             |
 | 13   | O documento possui um tópico de Requisitos de Implementação?<a id="anchor_1" href="#REF1">^1^</a> |           |             |
 | 13.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
 | 14   | O documento possui um tópico de Requisitos de Interface?<a id="anchor_1" href="#REF1">^1^</a>     |           |             |
@@ -210,8 +210,9 @@ _Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) e [Matheus 
 | 15   | O documento possui um tópico de Requisitos Físicos?<a id="anchor_1" href="#REF1">^1^</a>          |           |             |
 | 15.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
 | 15.2 | As características físicas de onde o sistema funcionará são apresentadas?                         |           |             |
+|  16  | Os léxicos relacionados são citados no artefato?                                                  |           |             |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
