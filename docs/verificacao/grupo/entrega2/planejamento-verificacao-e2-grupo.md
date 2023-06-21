@@ -36,11 +36,11 @@ Cada participante será responsável por verificar um ou mais artefatos da entre
 
 **Tabela 1** - Participantes da Inspeção.
 
-| Artefato                                                                                                                                                                                                                                       | Responsável                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [Perfil de Usuário](../../../../elicitacao/perfil_de_usuario), [Introspecção](../../../../elicitacao/tecnicas/introspeccao) e [$100](../../../../elicitacao/tecnicas/100)                                                                      | [Gabriel Campello](https://github.com/G16C)      |
-| [Observação](../../../../elicitacao/tecnicas/observacao) e [First Things First](../../../../elicitacao/tecnicas/firstThingsfirst)                                                                                                              | [Matheus Henrique](https://github.com/mathonaut) |
-| [Personas](../../../../elicitacao/personas), [Questionário](../../../../elicitacao/tecnicas/questionario), [Brainstorming](../../../../elicitacao/tecnicas/brainstorming) e [Three Level Scale](../../../../elicitacao/tecnicas/threeLvlScale) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| Artefato                                                                                                                                                                                                                                          | Responsável                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| [Perfil de Usuário](../../../../elicitacao/perfil_de_usuario), [Introspecção](../../../../elicitacao/tecnicas/introspeccao) e [$100](../../../../elicitacao/priorizacao/100)                                                                      | [Gabriel Campello](https://github.com/G16C)      |
+| [Observação](../../../../elicitacao/tecnicas/observacao) e [First Things First](../../../../elicitacao/priorizacao/firstThingsfirst)                                                                                                              | [Matheus Henrique](https://github.com/mathonaut) |
+| [Personas](../../../../elicitacao/personas), [Questionário](../../../../elicitacao/tecnicas/questionario), [Brainstorming](../../../../elicitacao/tecnicas/brainstorming) e [Three Level Scale](../../../../elicitacao/priorizacao/threeLvlScale) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -211,6 +211,10 @@ _Fonte: Autor._
 
 ### Verificação do Observação
 
+A tabela 9 a seguir apresenta a checklist referente ao artefato de observação, ela foi construída tendo como base o livro _Engenharia de Requisitos: Software Orientado ao Negócio_ de autoria de Simões e Vasquez<a id="anchor_2" href="#REF2"><sup>2</sup></a>, e o livro _Software Engineering_ de autoria de Sommerville<a id="anchor_3" href="#REF3"><sup>3</sup></a>.
+
+Em relação aos itens de verificação, as questões de 6 a 14.1, foram criadas a partir de recomendações feitas por Simões e Vasquez (2016, p.158-162) sobre os processos de elicitaçção que uma tecnica de observação etnografica deve possuir.<a href="#REF2"><sup>2</sup></a> A questão 15 foi criada apartir tendo em vista o processo de elicitação de requisitos proposto por Sommerville (2016, p.129).<a id="anchor_3" href="#REF3"><sup>3</sup></a>
+
 <center>
 
 **Tabela 9** - Checklist para a Verificação do Observação.
@@ -221,17 +225,18 @@ _Fonte: Autor._
 |  7   | Os participantes são selecionados a partir do perfil de usuários?                                                     |     -     |     -      |
 | 7.1  | Eles possuem responsabilidades e competências necessárias para a observação do seu trabalho?                          |     -     |     -      |
 |  8   | São apresentadas questões a serem respondidas durante ou após a observação?                                           |     -     |     -      |
-|  9   | São apresentadas as atividades a observar?                                                                            |     -     |     -      |
+|  9   | São apresentadas as atividades a serem observadas?                                                                    |     -     |     -      |
 |  10  | É definida a postura do observador?                                                                                   |     -     |     -      |
 | 10.1 | É passiva?                                                                                                            |     -     |     -      |
 | 10.2 | É ativa?                                                                                                              |     -     |     -      |
-|  11  | É informado ao participante que ele não será criticado e nem sofrera penalização?                                     |     -     |     -      |
+|  11  | É informado aos observados que eles não serão criticados e nem sofreram penalizações?                                 |     -     |     -      |
 |  12  | É sugerido aos observados que descreva em voz alta seus passos?                                                       |     -     |     -      |
 |  13  | Caso o observador seja ativo, são realizadas perguntas acerca da maneira que certos processos/tarefas são realizadas? |     -     |     -      |
-|  14  | A observação foi realizada com várias pessoas?                                                                        |     -     |     -      |
-| 14.1 | São identificados pontos de vista comumns?                                                                            |     -     |     -      |
+|  14  | A observação foi realizada com mais de uma pessoa?                                                                    |     -     |     -      |
+| 14.1 | São identificados pontos de vista comuns?                                                                             |     -     |     -      |
+|  15  | Os requisitos elicitados foram validados?                                                                             |     -     |     -      |
 
-_Fonte: Autor._
+_Fonte: [Matheus Henrique](https://github.com/mathonaut)._
 
 </center>
 
@@ -257,7 +262,7 @@ _Fonte: Autor._
 
 A tabela 11 a seguir apresenta a checklist referente ao artefato de first things first, ela foi construída tendo como base o artigo _First Things First: Prioritizing Requirements_ de autoria do Karl E. Wiegers.
 
-Em relação aos itens de verificação, eles foram criados a partir da adaptação das recomendações feitas por Wiegers sobre os passos na realização da priorização.<a id="anchor_2" href="#REF2"><sup>2</sup></a> As questões 15 a 15.3, foram criadas a partir de outra recomendação de Wiegers sobre os participantes típicos de um processo de priorização.<a href="#REF2"><sup>2</sup></a> As questões 16 e 16.1 são adaptações de itens de verificação elaborados pelo [Lucas Soares](https://github.com/lucasfs1007) na avaliação da etapa 2 do grupo.
+Em relação aos itens de verificação, eles foram criados a partir da adaptação das recomendações feitas por Wiegers sobre os passos na realização da priorização.<a id="anchor_4" href="#REF4"><sup>4</sup></a> As questões 15 a 15.3, foram criadas a partir de outra recomendação de Wiegers sobre os participantes típicos de um processo de priorização.<a href="#REF4"><sup>4</sup></a> As questões 16 e 16.1 são adaptações de itens de verificação elaborados pelo [Lucas Soares](https://github.com/lucasfs1007) na avaliação da etapa 2 do grupo.
 
 <center>
 
@@ -297,7 +302,7 @@ Em relação aos itens de verificação, eles foram criados a partir da adaptaç
 |  16  | Foi documentada a reunião com os participantes?                                                                             |     -     |     -      |
 | 16.1 | Existe uma gravação?                                                                                                        |     -     |     -      |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: [Lucas Soares](https://github.com/lucasfs1007) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -323,10 +328,15 @@ _Fonte: Autor._
 
 > <a id="REF1" href="#anchor_1">1.</a> BOURQUE, Pierre; FAIRLEY, Richard E. **SWEBOK Guide V3.0: Guide to the Software Engineering Body of Knowledge.** New Jersey: IEEE Computer Society, 2014.
 
-> <a id="REF2" href="#anchor_2">2.</a> WIEGERS, Karl E. **First Things First: Prioritizing Requirements.** New York: Software Development, 1999.
+> <a id="REF2" href="#anchor_2">2.</a> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
+
+> <a id="REF2" href="#anchor_2">3.</a> SOMMERVILLE, Ian. **Software Engineering.** London: Pearson Education, 2016.
+
+> <a id="REF2" href="#anchor_2">4.</a> WIEGERS, Karl E. **First Things First: Prioritizing Requirements.** New York: Software Development, 1999.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição             | Autor(es)                                        | Revisor(es)                                    |
-| ------ | ---------- | --------------------- | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 20/06/2023 | Criação do documento. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
+| Versão | Data       | Descrição                                          | Autor(es)                                        | Revisor(es)                                    |
+| ------ | ---------- | -------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- |
+| `1.0`  | 20/06/2023 | Criação do documento.                              | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`  | 21/06/2023 | Adição da checklist para o artefato de Observação. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
