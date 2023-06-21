@@ -25,7 +25,7 @@ Os participantes são os integrantes do grupo [Matheus Henrique](https://github.
 | [Matheus Henrique](https://github.com/mathonaut) | Avaliador |
 |  [Geovanna Maciel](https://github.com/manuziny)  | Revisora  |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -110,7 +110,7 @@ Como por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](htt
 **Tabela 3** - Cronograma de Correções.
 
 | Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    | Status           |
-| ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | ---------------- |
+| ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
 | 21/26/2023       | Reordenar as tabelas.           | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 | 21/06/2023       | Corrigir os erros ortográficos. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
@@ -148,3 +148,4 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
 | `1.0`  | 21/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`  | 21/06/2023 | Corrigido os erros. |[Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |

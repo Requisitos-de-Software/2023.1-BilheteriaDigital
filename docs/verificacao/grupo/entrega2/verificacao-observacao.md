@@ -25,7 +25,7 @@ Os participantes são os integrantes do grupo [Matheus Henrique](https://github.
 | [Matheus Henrique](https://github.com/mathonaut) | Avaliador |
 |  [Geovanna Maciel](https://github.com/manuziny)  | Revisora  |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -61,7 +61,7 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 | 14.1 | São identificados pontos de vista comuns?                                                                             |      Não      |      -      |
 |  15  | Os requisitos elicitados foram validados?                                                                             |      Não      |      -      |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -135,7 +135,7 @@ Como por Fagan, para o retrabalho os autores do artefato ([Arthur de Melo](https
 **Tabela 3** - Cronograma de Correções.
 
 | Data de Correção | Descrição                                                                                                         |                 Responsável(eis)                 |                   Revisor(es)                    | Status           |
-| ---------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :----------------------------------------------: | ---------------- |
+| ---------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
 | 21/26/2023       | Colocar a tabela 1 depois o seu chamamento.                                                                       | [Matheus Henrique](https://github.com/mathonaut) |  [Geovanna Maciel](https://github.com/manuziny)  | :material-check: |
 | 21/06/2023       | Corrigir os erros ortográficos.                                                                                   | [Matheus Henrique](https://github.com/mathonaut) |  [Geovanna Maciel](https://github.com/manuziny)  | :material-check: |
 | 23/06/2023       | Apresentar os objetivos a serem alcançados por essa observação.                                                   |  [Arthur de Melo](https://github.com/arthurmlv)  | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
@@ -145,7 +145,7 @@ Como por Fagan, para o retrabalho os autores do artefato ([Arthur de Melo](https
 | 23/06/2023       | Descrever que foi sugerido ao observado que falasse em voz alta seus passos.                                      |  [Arthur de Melo](https://github.com/arthurmlv)  | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
 | 28/06/2023       | Refazer a observação com mais de um usuário real na qual seram realizados o que os itens 13, 14, 14.1 e 15 pedem. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -162,7 +162,7 @@ A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incomp
 
 <iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=736083394&amp;format=interactive"></iframe>
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
@@ -179,3 +179,4 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
 | `1.0`  | 21/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`  | 21/06/2023 | Corrigido os erros ID4 e ID5. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
