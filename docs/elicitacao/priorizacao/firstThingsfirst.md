@@ -4,58 +4,58 @@
 
 A técnica _First Things First_ <a id="FTF1" href="#FTF1Ref">^1^</a> (FTF) enfatiza a necessidade de avaliar cuidadosamente os custos e benefícios de cada requisito de um software, bem como as implicações que cada um terá na sua arquitetura. É importante também garantir que os requisitos estejam alinhados com as regras de negócios e que o risco técnico associado a cada requisito seja considerado. Em resumo, a técnica destaca a importância de priorizar os requisitos de forma criteriosa e estratégica, a fim de maximizar os benefícios e minimizar os riscos e custos envolvidos no desenvolvimento do software.
 
-
 ## Metodologia
 
 As pessoas que participaram da elaboração dessa técnica estão descritas abaixo e listadas na tabela 1:
 
-* **Mediador**: Responsável por apresentar os requisitos listados
-* **Cliente**: Responsável por classificar benefícios e penalidades na implementação de cada requisito. 
-* **Desenvolvedor**: Responsável por identificar custos e riscos na implementação de cada requisito. 
-<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+- **Mediador**: Responsável por apresentar os requisitos listados
+- **Cliente**: Responsável por classificar benefícios e penalidades na implementação de cada requisito.
+- **Desenvolvedor**: Responsável por identificar custos e riscos na implementação de cada requisito.
 
 <center>
 
-Nome| Função|
------|---------|
-[Rafael Ferreira](https://github.com/rafaelclg0) |  Mediador
-<span style = "color: orange">Felipe Costa</span> | Usuário
-[Matheus Henrique](https://github.com/mathonaut)  | Desenvolvedor
-[Sidney Fernando](https://github.com/nando3d3) | Mediador
+**Tabela 1** - Participantes.
+
+| Nome                                              | Função        |
+| ------------------------------------------------- | ------------- |
+| [Rafael Ferreira](https://github.com/rafaelclg0)  | Mediador      |
+| <span style = "color: orange">Felipe Costa</span> | Usuário       |
+| [Matheus Henrique](https://github.com/mathonaut)  | Desenvolvedor |
+| [Sidney Fernando](https://github.com/nando3d3)    | Mediador      |
+
+_Fonte: Elaborada por [Sidney Fernando](https://github.com/nando3d3)._
 
 </center>
 
-<font size="3"><p style="text-align: center">Fonte: [Sidney Fernando](https://github.com/nando3d3).</p></font>
+Duas reuniões foram realizadas na plataforma Microsoft Teams:
 
-
-Duas reuniões foram realizadas na plataforma Microsoft Teams: 
-
-* Entre o desenvolvedor e o mediador, na data de 29/04/2023 às 20h. [Vídeo da entrevista com o desenvolvedor](https://youtu.be/Nb_xTFSltQQ)
-* Entre o cliente e o mediador, na data de 29/04/2023 às 20:30. [Video da entrevista com o cliente](https://youtu.be/NTsldexRzLo)
-
+- Entre o desenvolvedor e o mediador, na data de 29/04/2023 às 20h. [Vídeo da entrevista com o desenvolvedor](https://youtu.be/Nb_xTFSltQQ)
+- Entre o cliente e o mediador, na data de 29/04/2023 às 20:30. [Vídeo da entrevista com o cliente](https://youtu.be/NTsldexRzLo)
 
 A técnica foi elaborada da seguinte forma:
 
 1. Listar todos os requisitos elicitados e retirar aqueles que são logicamente ligados (se X depende de Y, então apenas é X é listado).
-2. Para cada requisito, o cliente deve estimar de 1 a  9 o benefício agregado, sendo que 1 indica pouco benefício e 9 é o maior benefício possível, e a penalidade da não implementação, sendo que 1 significa que não há penalidade e 9 indica uma penalidade muito séria. O **valor total** é calculado da seguinte forma: <br> <p align="center" style="font-size: 18px;">`valor total = (benefício * peso) + (penalidade * peso)`</p>
-3. Para cada requisito, o desenvolvedor deve estimar de 1 a  9 o **custo** de implementação de cada requisito, sendo 1 o custo mais baixo e 9 é o mais alto,  levando em consideração a complexidade, a interface necessária, a capacidade de reutilização do código e os testes.
+2. Para cada requisito, o cliente deve estimar de 1 a 9 o benefício agregado, sendo que 1 indica pouco benefício e 9 é o maior benefício possível, e a penalidade da não implementação, sendo que 1 significa que não há penalidade e 9 indica uma penalidade muito séria. O **valor total** é calculado da seguinte forma: <br> <p align="center" style="font-size: 18px;">`valor total = (benefício * peso) + (penalidade * peso)`</p>
+3. Para cada requisito, o desenvolvedor deve estimar de 1 a 9 o **custo** de implementação de cada requisito, sendo 1 o custo mais baixo e 9 é o mais alto, levando em consideração a complexidade, a interface necessária, a capacidade de reutilização do código e os testes.
 4. Os desenvolvedores também estimam o grau relativo de **riscos** associados com o recurso em uma escala de 1 a 9, sendo que 1 significa grande facilidade na implementação e 9 indica preocupações sérias sobre viabilidade, disponibilidade de equipe ou mesmo falta de experiência com novas ferramentas ou tecnologias.
 5. Então é feito o cálculo de **prioridade** para cada requisito da seguinte forma:<br> <p align="center" style="font-size: 18px;">`prioridade = valor(%)/(custo(%) * peso do custo + risco(%) * peso do risco)`</p>
 6. A tabela deve ser ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco. Tendo isso em mente, tais requisitos devem ser priorizados.
 
 ## Resultado de Priorização
 
-Na Tabela 1 é possível ver os resultados ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco.
-Nas Tabelas 2 e 3 estão os ID's dos requisitos presentes na tabela de resultados e sua respectiva descrição.
+Na Tabela 2 é possível ver os resultados ordenada de acordo com a ordem decrescente de prioridade, sendo os requisitos do topo da lista os mais equilibrados em termos de valor, custo e risco.
+Nas Tabelas 3 e 4 estão os ID's dos requisitos presentes na tabela de resultados e sua respectiva descrição.
 
 **Peso relativo**:
 
-* Benefício: 2
-* Penalidade: 1
-* Custo: 1
-* Risco: 0,5
+- Benefício: 2
+- Penalidade: 1
+- Custo: 1
+- Risco: 0,5
 
-<font size="3"><p style="text-align: center">Tabela 1: Tabela de resultado da priorização de requisitos</p></font>
+<center>
+
+**Tabela 2** - Tabela de resultado da priorização de requisitos.
 
 | Funcionalidade | Benefício<br>Relativo | Penalidade<br>Relativa | Valor<br>total | Valor<br>(%) | Custo<br>Relativo | Custo<br>% | Risco<br>Relativo | Risco<br>% | Prioridade |
 | -------------- | --------------------- | ---------------------- | -------------- | ------------ | ----------------- | ---------- | ----------------- | ---------- | ---------- |
@@ -86,59 +86,68 @@ Nas Tabelas 2 e 3 estão os ID's dos requisitos presentes na tabela de resultado
 | BS23           | 6                     | 6                      | 18             | 3,02         | 6                 | 8,11       | 6                 | 6,98       | 0,260      |
 | TOTAL          |                       |                        | 596            |              | 74                | 100        | 86                | 100        |
 
-<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
+_Fonte - Autores._
+
+</center>
 
 ### Descrição dos requisitos funcionais
 
-<font size="3"><p style="text-align: center">Tabela 2: ID dos Requisitos funcionais e sua respectiva descrição.</p></font>
+<center>
 
-| ID   | Descrição                                                                        |
-| ---- | -------------------------------------------------------------------------------- |
+**Tabela 3** - ID dos Requisitos funcionais e sua respectiva descrição.
+
+| ID                                                         | Descrição                                                                        |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <a href="../../tecnicas/introspeccao/#anchor_IS">IS04</a>  | O aplicativo permite realizar a compra do ingresso.                              |
-| <a href="../../tecnicas/introspeccao/#anchor_IS">IS05</a> | O aplicativo permite o cadastro e o login do usuário.                            |
-| <a href="../../tecnicas/introspeccao/#anchor_IS">IS06</a> | O aplicativo permite excluir cadastro.                                           |
-| <a href="../../tecnicas/introspeccao/#anchor_IS">IS08</a> | O aplicativo permite cancelar compras.                                           |
-| <a href="../../tecnicas/introspeccao/#anchor_IS">IS09</a> | O aplicativo possui um mecanismo de busca.                                       |
-| <a href="../../tecnicas/questionario/#anchor_Q">Q05</a>  | O aplicativo da sugestões de eventos com base no histórico de buscas do usuário. |
-| <a href="../../tecnicas/questionario/#anchor_Q">Q07</a>   | O aplicativo notifica usuário sobre eventos, quando permitido.                   |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS05</a>  | O usuário deve ser capaz de filtrar eventos                                      |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS13</a>  | O usuário deve ser capaz de acessar as informações do evento                     |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS19</a>  | O usuário deve ser capaz de mudar o idioma do app                                |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a>  | O usuário deve ser capaz de acessar a assistente virtual                         |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a>  | O usuário deve ser capaz de compartilhar o evento                                |
+| <a href="../../tecnicas/introspeccao/#anchor_IS">IS05</a>  | O aplicativo permite o cadastro e o login do usuário.                            |
+| <a href="../../tecnicas/introspeccao/#anchor_IS">IS06</a>  | O aplicativo permite excluir cadastro.                                           |
+| <a href="../../tecnicas/introspeccao/#anchor_IS">IS08</a>  | O aplicativo permite cancelar compras.                                           |
+| <a href="../../tecnicas/introspeccao/#anchor_IS">IS09</a>  | O aplicativo possui um mecanismo de busca.                                       |
+| <a href="../../tecnicas/questionario/#anchor_Q">Q05</a>    | O aplicativo da sugestões de eventos com base no histórico de buscas do usuário. |
+| <a href="../../tecnicas/questionario/#anchor_Q">Q07</a>    | O aplicativo notifica usuário sobre eventos, quando permitido.                   |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS05</a> | O usuário deve ser capaz de filtrar eventos                                      |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS13</a> | O usuário deve ser capaz de acessar as informações do evento                     |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS19</a> | O usuário deve ser capaz de mudar o idioma do app                                |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a> | O usuário deve ser capaz de acessar a assistente virtual                         |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a> | O usuário deve ser capaz de compartilhar o evento                                |
 
-<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
+_Fonte: Autores._
+
+</center>
 
 ### Descrição dos requisitos não funcionais
 
-<font size="3"><p style="text-align: center">Tabela 3: ID dos Requisitos não-funcionais e sua respectiva descrição.</p></font>
+<center>
 
-| ID   | Descrição                                                                                                                         |
-|------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [IS10](../../tecnicas/introspeccao/#anchor_ISNF) | Deve possuir uma página que explicita os eventos da região selecionada.                                                           |
-| [IS11](../../tecnicas/introspeccao/#anchor_ISNF) | Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.                                 |
-| [IS12](../../tecnicas/introspeccao/#anchor_ISNF) | Deve possuir uma tela de dúvidas frequentes e uma central de ajuda.                                                               |
-| [IS13](../../tecnicas/introspeccao/#anchor_ISNF) | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.                                      |
-| [IS14](../../tecnicas/introspeccao/#anchor_ISNF) | Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos. |
-| [IS15](../../tecnicas/introspeccao/#anchor_ISNF) | Deve possuir uma tela para cadastro e login.                                                                                      |
-| [IS16](../../tecnicas/introspeccao/#anchor_ISNF)| Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.                                           |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q10</a>  | O aplicativo deve proteger os dados de cadastro e compra dos usuários.                                                            |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q11</a>  | O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário.                                          |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q12</a>  | As notificações do aplicativo devem ser fornecidas em tempo hábil.                                                                |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q13</a>  | O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.                                         |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q14</a>  | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)                                    |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q15</a>  | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos                                       |
+**Tabela 4** - ID dos Requisitos não-funcionais e sua respectiva descrição.
 
-<font size="3"><p style="text-align: center">Fonte: Autores</p></font>
+| ID                                                        | Descrição                                                                                                                         |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [IS10](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma página que explicita os eventos da região selecionada.                                                           |
+| [IS11](../../tecnicas/introspeccao/#anchor_ISNF)          | Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.                                 |
+| [IS12](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de dúvidas frequentes e uma central de ajuda.                                                               |
+| [IS13](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.                                      |
+| [IS14](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos. |
+| [IS15](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela para cadastro e login.                                                                                      |
+| [IS16](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.                                           |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q10</a> | O aplicativo deve proteger os dados de cadastro e compra dos usuários.                                                            |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q11</a> | O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário.                                          |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q12</a> | As notificações do aplicativo devem ser fornecidas em tempo hábil.                                                                |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q13</a> | O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.                                         |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q14</a> | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)                                    |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q15</a> | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos                                       |
+
+_Fonte: Autores._
+
+</center>
 
 ## Referências Bibliográficas
 
 > <a id="FTF1Ref" href="#FTF1">1.</a> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.
 
-
 ## Histórico de versões
 
-Versão |   Data  | Descrição | Autor(es) | Revisor(es)
------- | ---- | ------ | ---------- | ----------
-1.0 | 29/04/2023 | Definição dos passos para realizar a ténica FTF | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0)
-1.1 | 29/04/2023 | Adição dos resultados e entrevista | [Sidney Fernando](https://github.com/nando3d3), [Rafael Ferreira](https://github.com/RafaelCLG0), [Matheus Henrique](https://github.com/mathonaut) | [Douglas Alves](https://github.com/dougalvs)
+| Versão | Data       | Descrição                                       | Autor(es)                                                                                                                                          | Revisor(es)                                      |
+| ------ | ---------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| 1.0    | 29/04/2023 | Definição dos passos para realizar a ténica FTF | [Sidney Fernando](https://github.com/nando3d3)                                                                                                     | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| 1.1    | 29/04/2023 | Adição dos resultados e entrevista              | [Sidney Fernando](https://github.com/nando3d3), [Rafael Ferreira](https://github.com/RafaelCLG0), [Matheus Henrique](https://github.com/mathonaut) | [Douglas Alves](https://github.com/dougalvs)     |

@@ -67,9 +67,9 @@ Os resultados das verificações em si serão apresentados em páginas separadas
 - [Resultados da Verificação do Introspecção]();
 - [Resultados da Verificação do Questionário]();
 - [Resultados da Verificação do Brainstorming]();
-- [Resultados da Verificação do Observação]();
+- [Resultados da Verificação do Observação](../verificacao-observacao);
 - [Resultados da Verificação do $100]();
-- [Resultados da Verificação do First Things First]();
+- [Resultados da Verificação do First Things First](../verificacao-ftf);
 - [Resultados da Verificação do Three Level Scale]().
 
 ### Cronograma
@@ -290,9 +290,8 @@ Em relação aos itens de verificação, eles foram criados a partir da adaptaç
 | 14.2 | As porcentagens dos valores dos requisitos em relação ao valor total é apresentado?                                         |     -     |     -      |
 | 14.3 | Os custos dos requisitos em relação ao custo relativo total são apresentados?                                               |     -     |     -      |
 | 14.4 | Os riscos dos requisitos em relação ao risco relativo total são apresentados?                                               |     -     |     -      |
-| 14.5 | A prioridade de cada item é apresentada?                                                                                    |     -     |     -      |
 |  15  | Os participantes e suas funções são apresentados?                                                                           |     -     |     -      |
-| 15.1 | Algum participante tem a função de gerente?                                                                                 |     -     |     -      |
+| 15.1 | Algum participante tem a função de gerente/mediador?                                                                        |     -     |     -      |
 | 15.2 | Algum participante tem a função de representante dos clientes?                                                              |     -     |     -      |
 | 15.3 | Algum participante tem a função de representante dos desenvolvedores?                                                       |     -     |     -      |
 |  16  | Foi documentada a reunião com os participantes?                                                                             |     -     |     -      |
