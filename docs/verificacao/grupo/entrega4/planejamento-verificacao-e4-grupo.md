@@ -57,7 +57,7 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da verificação do NFR Framework](./).
+- [Resultados da verificação do NFR Framework](./nfrframework.md).
 - [Resultados da Verificação do Product Backlog](./verificacao-pdbacklog.md).
 - [Resultados da Verificação das Histórias de Usuário](./).
 
@@ -117,14 +117,14 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 | ID  | Descrição                                                                                              | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 6 | Os gráficos SIG foram validados por Fontes Externas? | | |
-| 7 | Cada SIG possui sua respectiva propagação de Impacto?  | | |
-| 8 | Os softgoals se refinam até um nível de especificação bem definido? | | |
+| 6 | Os gráficos SIG foram validados por Fontes Externas?<a id="anchor_3" href="#REF3">^3^</a> | | |
+| 7 | Cada SIG possui sua respectiva propagação de Impacto?<a id="anchor_3" href="#REF3">^3^</a>  | | |
+| 8 | Os softgoals se refinam até um nível de especificação bem definido?<a id="anchor_3" href="#REF3">^3^</a> | | |
 | 9 | Os cartões de especificação representam requisitos não-funcionais verificáveis? | | |
-| 10 | Os cartões de especificação possuem: Identificador, Classificação, Descrição, Justificativa, Origem, Critério de Ajuste, Dependências, Prioridade, Conflitos e História? | | |
-| 11 | Os Softgoals NFR estão representados apropriadamente dada a sua definição? | | |
-| 12 | Os Softgoals de Operacionalização estão representados apropriadamente dada a sua definição? | | |
-| 13 | Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição? | | |
+| 10 | Os cartões de especificação possuem: Identificador, Classificação, Descrição, Justificativa, Origem, Critério de Ajuste, Dependências, Prioridade, Conflitos e História?<a id="anchor_3" href="#REF3">^3^</a> | | |
+| 11 | Os Softgoals NFR estão representados apropriadamente dada a sua definição?<a id="anchor_3" href="#REF3">^3^</a> | | |
+| 12 | Os Softgoals de Operacionalização estão representados apropriadamente dada a sua definição?<a id="anchor_3" href="#REF3">^3^</a> | | |
+| 13 | Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição?<a id="anchor_3" href="#REF3">^3^</a> | | |
 | 14 | Os requisitos não-funcionais apresentados nos cartões foram priorizados com algum método? | | |
 
 
@@ -173,6 +173,8 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 > <a id="REF1" href="#anchor_1">1.</a> BOURQUE, Pierre; FAIRLEY, Richard E. **SWEBOK Guide V3.0: Guide to the Software Engineering Body of Knowledge.** New Jersey: IEEE Computer Society, 2014.
 
 > <a id="REF2" href="#anchor_2">2.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+
+> <a id="REF3" href="#anchor_3">3.</a> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: <https://repositorio.ufpe.br/handle/123456789/34150>. Acesso em: 10/06/2023.
 
 ## Histórico de Versões
 

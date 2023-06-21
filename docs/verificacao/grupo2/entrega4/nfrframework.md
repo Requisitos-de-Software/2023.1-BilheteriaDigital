@@ -6,7 +6,7 @@ Realizado o planejamento do que verificar, é o momento de realizar a inspeção
 
 ## Objetivo
 
-O objetivo deste documento é relatar os resultados das verificações realizadas em cima do artefato dos [Léxicos](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/lexicos/) da Etapa 3 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking).
+O objetivo deste documento é relatar os resultados das verificações realizadas em cima do artefato do [NFR Framework](https://requisitos-de-software.github.io/2023.1-Booking/modelagem/modelo-agil/nfrFramework/) da Etapa 3 do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking).
 
 ## Metodologia
 
