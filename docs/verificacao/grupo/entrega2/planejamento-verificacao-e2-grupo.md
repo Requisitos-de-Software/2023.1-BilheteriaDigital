@@ -74,22 +74,18 @@ Os resultados das verificações em si serão apresentados em páginas separadas
 
 ### Cronograma
 
-A verificação será realizada no período de 20 de junho de 2023 até 21 de junho de 2023, com os resultados sendo relatados através da página de documentação do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 21 de junho de 2023. A tabela 2 a seguir, apresenta o cronograma das atividades a serem realizadas.
+A verificação será realizada no período de 20 de junho de 2023 até 21 de junho de 2023, com os resultados sendo relatados através da página de documentação do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital) no dia 21 de junho de 2023. A tabela 2 a seguir apresenta o cronograma das atividades realizadas.
 
 <center>
 
-**Tabela 2** - Cronograma das Atividades.
+**Tabela 2** - Cronograma das Atividades Realizadas.
 
-| Data           | Descrição                                   | Responsável                                      |
-| -------------- | ------------------------------------------- | ------------------------------------------------ |
-| **Atividades** |                                             |                                                  |
-| 20/06/2023     | Criação da página de planejamento.          | [Matheus Henrique](https://github.com/mathonaut) |
-| 20/06/2023     | Verificação do artefato First Things First. | [Matheus Henrique](https://github.com/mathonaut) |
-| 20/06/2023     | Verificação do artefato Observação.         | [Matheus Henrique](https://github.com/mathonaut) |
-| 21/06/2023     | Adição dos resultados na página do grupo.   | [Matheus Henrique](https://github.com/mathonaut) |
-| **Correções**  |                                             |                                                  |
-| xx/06/2023     | -                                           | -                                                |
-| xx/06/2023     | -                                           | -                                                |
+| Data       | Descrição                                   | Responsável                                      |
+| ---------- | ------------------------------------------- | ------------------------------------------------ |
+| 20/06/2023 | Criação da página de planejamento.          | [Matheus Henrique](https://github.com/mathonaut) |
+| 20/06/2023 | Verificação do artefato First Things First. | [Matheus Henrique](https://github.com/mathonaut) |
+| 20/06/2023 | Verificação do artefato Observação.         | [Matheus Henrique](https://github.com/mathonaut) |
+| 21/06/2023 | Adição dos resultados na página do grupo.   | [Matheus Henrique](https://github.com/mathonaut) |
 
 _Fonte: [Matheus Henrique](https://github.com/mathonaut)._
 
@@ -119,7 +115,7 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 </center>
 
-### Verificação do Perfil de Usuário
+### Perfil de Usuário
 
 <center>
 
@@ -137,7 +133,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do Personas
+### Personas
 
 <center>
 
@@ -155,7 +151,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do Introspecção
+### Introspecção
 
 <center>
 
@@ -173,7 +169,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do Questionário
+### Questionário
 
 <center>
 
@@ -191,7 +187,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do Brainstorming
+### Brainstorming
 
 <center>
 
@@ -209,7 +205,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do Observação
+### Observação
 
 A tabela 9 a seguir apresenta a checklist referente ao artefato de observação, ela foi construída tendo como base o livro _Engenharia de Requisitos: Software Orientado ao Negócio_ de autoria de Simões e Vasquez<a id="anchor_2" href="#REF2"><sup>2</sup></a>, e o livro _Software Engineering_ de autoria de Sommerville<a id="anchor_3" href="#REF3"><sup>3</sup></a>.
 
@@ -240,7 +236,7 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut)._
 
 </center>
 
-### Verificação do $100
+### $100
 
 <center>
 
@@ -258,7 +254,7 @@ _Fonte: Autor._
 
 </center>
 
-### Verificação do First Things First
+### First Things First
 
 A tabela 11 a seguir apresenta a checklist referente ao artefato de first things first, ela foi construída tendo como base o artigo _First Things First: Prioritizing Requirements_ de autoria do Karl E. Wiegers.
 
@@ -306,7 +302,7 @@ _Fonte: [Lucas Soares](https://github.com/lucasfs1007) e [Matheus Henrique](http
 
 </center>
 
-### Verificação do Three Level Scale
+### Three Level Scale
 
 <center>
 
@@ -330,9 +326,9 @@ _Fonte: Autor._
 
 > <a id="REF2" href="#anchor_2">2.</a> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
 
-> <a id="REF2" href="#anchor_2">3.</a> SOMMERVILLE, Ian. **Software Engineering.** London: Pearson Education, 2016.
+> <a id="REF3" href="#anchor_2">3.</a> SOMMERVILLE, Ian. **Software Engineering.** London: Pearson Education, 2016.
 
-> <a id="REF2" href="#anchor_2">4.</a> WIEGERS, Karl E. **First Things First: Prioritizing Requirements.** New York: Software Development, 1999.
+> <a id="REF4" href="#anchor_4">4.</a> WIEGERS, Karl E. **First Things First: Prioritizing Requirements.** New York: Software Development, 1999.
 
 ## Histórico de Versões
 
