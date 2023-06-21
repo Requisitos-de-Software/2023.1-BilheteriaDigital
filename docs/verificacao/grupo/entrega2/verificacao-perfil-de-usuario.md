@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Realizado o planejamento do que verificar, é o momento de realizar a inspeção em si. Esse documento apresenta os objetivos da verificação, a metodologia utilizada e os dados da verificação. Além disso, os principais problemas encontrados são sumarizados e analisados obtendo informações valiosas que serão utilizadas para sugerir ações corretivas para os mesmos.
+Realizado o planejamento do que verificar, é o momento de realizar a inspeção em si. Esse documento apresenta os objetivos da verificação, a metodologia utilizada e os dados da verificação. Além disso, os principais problemas encontrados são sumarizados e analisados obtendo informações valiosas que serão utilizadas para sugerir ações corretivas para os mesmos. Como já citado no [planejamento](../planejamento-verificacao-e2-grupo) as questões aqui presentes nesse artefato foram retiradas dos livros _Understending your users: a pratical guide to user requirements, methods, tools, and techniques_<a id=anchor_1 href="#REF1"><sup>1</sup></a> e _Interação Humano-Computador_<a id=anchor_2 href="#REF2"><sup>2</sup></a>
 
 ## Objetivo
 
@@ -109,7 +109,7 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 - Procurar documentar o cargo e função dos usuários entrevistados;
 - Expecificar no artefato quem foi o responsável por elaborar o questionário, a data de criação e o período de circulação.
 
-A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento]().
+A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento](../planejamento-verificacao-e2-grupo).
 
 ## Acompanhamento
 
@@ -130,8 +130,6 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 > <a id="REF1" href="#anchor_1">1.</a> COURAGE, C. & BAXTER,K. Understending your users: a pratical guide to user requirements, methods, tools, and techniques. San Francisco: Morgan Kaufman Publishers, 2005.
 
 > <a id="REF2" href="#anchor_2">2.</a> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.
-
-> <a id="REF3" href="#anchor_3">3.</a> HACKOS, J.T. & REDISH, J.C. User and task analysis for interface design. New York: John Wiley & Sons, 1998.
 
 ## Bibliografia
 
