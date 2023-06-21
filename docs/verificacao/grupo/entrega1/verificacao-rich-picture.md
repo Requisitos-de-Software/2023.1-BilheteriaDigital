@@ -12,7 +12,7 @@ O objetivo deste documento é relatar os resultados das verificações realizada
 
 Os resultados da verificação do artefato foram obtidos a partir das checklists elaboradas na página de [planejamento](../entrega1/planejamento-verificacao-e1-grupo.md) Para responder às perguntas apresentadas nas checklist o avaliador usará as opções **Sim**, **Não**, **Incompleto** ou **Não se aplica**. O avaliador poderá também escrever observações em cada pergunta detalhando pontos que achar necessários.
 
-## Cronograma e Participantes
+### Cronograma e Participantes
 
 Os participantes são os integrantes do grupo [Gabriel Campello](https://github.com/G16C), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Matheus Henrique](https://github.com/mathonaut) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../entrega1/planejamento-verificacao-e1-grupo.md).
 
@@ -75,7 +75,7 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 
 - Detalhar de forma mais clara se alguma das técnicas foi utilizada;
 - A partir dessa adição especificar para que essas técnicas foram usadas;
-- 
+
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento](../entrega1/planejamento-verificacao-e1-grupo.md).
 
 ## Acompanhamento
