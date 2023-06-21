@@ -13,6 +13,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 site_name: Bilheteria Digital
 nav:
@@ -98,6 +101,7 @@ nav:
               - Planejamento da Verificação da Entrega 2: verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo.md
           - Entrega 3:
               - Planejamento da Verificação da Entrega 3: verificacao/grupo/entrega3/planejamento-verificacao-e3-grupo.md
+              - Caso de Uso: verificacao/grupo/entrega3/verificacao-caso-de-uso.md
               - Cenários: verificacao/grupo/entrega3/cenarios.md
               - Léxicos: verificacao/grupo/entrega3/lexicos.md
           - Entrega 4:

@@ -24,7 +24,7 @@ Salienta-se que a inspeção aqui planejada será realizada somente até a etapa
 
 </figure>
 
-_Fonte: SOMMERVILLE (2007)._<a id="anchor_4" href="#REF4">^5^</a>
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_5" href="#REF5">^5^</a>
 
 </center>
 
@@ -46,10 +46,10 @@ Os artefatos alvo dessa verificação são:
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
-- [Resultados da Verificação dos Cenários](../).
-- [Resultados da verificação do Caso de uso](../);
+- [Resultados da Verificação dos Cenários](../cenarios).
+- [Resultados da verificação do Caso de uso](../verificacao-caso-de-uso);
 - [Resultados da Verificação da Especificação Suplementar](../).
-- [Resultados da Verificação dos Léxicos](../).
+- [Resultados da Verificação dos Léxicos](../lexicos).
 
 ### Cronograma
 
@@ -59,22 +59,23 @@ A verificação será realizada no período de 18 de junho de 2023 até dia 21 d
 
 **Tabela 1** - Cronograma das Atividades.
 
-| Data       | Descrição                                  | Responsável                                      |
-| ---------- | ------------------------------------------ | ------------------------------------------------ |
-| 20/06/2023 | Verificação do Caso de Uso.                | [Matheus Henrique](https://github.com/mathonaut)   |
-| 21/06/2023 | Verificação do Especificação Suplementar.  | [Arthur de Melo](https://github.com/arthurmlv) |
-| 21/06/2023 | Verificação dos Cenários.                  | [Arthur de Melo](https://github.com/arthurmlv)     |
-| 21/06/2023 | Verificação dos Léxicos.                   | [Arthur de Melo](https://github.com/arthurmlv)   |
+| Data       | Descrição                                       | Responsável                                      |
+| ---------- | ----------------------------------------------- | ------------------------------------------------ |
+| 20/06/2023 | Verificação do Caso de Uso.                     | [Matheus Henrique](https://github.com/mathonaut) |
+| 21/06/2023 | Verificação do Especificação Suplementar.       | [Arthur de Melo](https://github.com/arthurmlv)   |
+| 21/06/2023 | Verificação dos Cenários.                       | [Arthur de Melo](https://github.com/arthurmlv)   |
+| 21/06/2023 | Verificação dos Léxicos.                        | [Arthur de Melo](https://github.com/arthurmlv)   |
+| 21/06/2023 | Adição da verificação do Caso de Uso na página. | [Matheus Henrique](https://github.com/mathonaut) |
 
-_Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
+_Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas. Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins. Para os Cenários e os Léxicos, foram utilizadas publicações de Julio Cesar Sampaio do Prado Leite, sendo estas (LEITE e ROSSI, 1997)<a id="anchor_7" href="#REF7">^7^</a> e (LEITE, 2012)<a id="anchor_8" href="#REF8">^8^</a>. Já as outras checklists estão referenciadas de acordo com a fonte que originou a referida pergunta.
+As checklists foram construídas levando em conta os padrões esperados para os artefatos que estão disponíveis nas referências bibliográficas. Além dos itens listados anteriormente, também foi analisado o relatório referente à entrega produzido pelo o monitor do [Grupo 2](https://github.com/Requisitos-de-Software/2023.1-Booking), Gustavo Martins. Para os Cenários e os Léxicos, foram utilizadas publicações de Julio Cesar Sampaio do Prado Leite, sendo estas (LEITE e ROSSI, 1997)<a id="anchor_4" href="#REF4">^4^</a> e (LEITE, 2012)<a id="anchor_5" href="#REF5">^5^</a>. Já as outras checklists estão referenciadas de acordo com a fonte que originou a referida pergunta.
 
-Com o intuito de melhor organizar a verificação, a checklist será dividida em 2 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 2 a 6 apresentam as checklists de verificação.
+Com o intuito de melhor organizar a verificação, a checklist será dividida em 5 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a geral. As checklists são as seguintes: Geral, Verificação dos Cenários, Verificação dos Léxicos, Verificação do Caso de Uso e Verificação da Especificação Suplementar. As tabelas de 2 a 6 apresentam as checklists de verificação.
 
 ### Geral
 
@@ -92,11 +93,11 @@ A tabela 2 a seguir apresenta a checklist referente aos aspectos gerais que os a
 | 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                           |           |             |
 | 5   | Todos os textos estão na norma padrão?                                                                 |           |             |
 
-_Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
+_Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/#contribuidores), 2023._
 
 </center>
 
-### Verificação dos Cenários
+### Cenários
 
 <center>
 
@@ -104,73 +105,79 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 | ID  | Descrição                                                                                                                           | Avaliação | Observações |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |
-| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções e episódios?<a id="anchor_5" href="#REF5">^6^</a> |           |             |
-| 7   | O título do cenário é autoexplicativo?<a id="anchor_6" href="#REF6">^7^</a>                                                         |           |             |
-| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_6" href="#REF6">^7^</a>                                             |           |             |
-| 9   | O contexto é descrito em função de local, tempo e pré-condições?<a id="anchor_5" href="#REF5">^6^</a>                               |           |             |
-| 10  | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_5" href="#REF5">^6^</a>                   |           |             |
-| 11  | Os atores são condizentes com o contexto do cenário? <a id="anchor_6" href="#REF6">^7^</a>                                          |           |             |
-| 12  | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo? <a id="anchor_6" href="#REF6">^7^</a>    |           |             |
-| 13  | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_6" href="#REF6">^7^</a>                                             |           |             |
+| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções e episódios?<a id="anchor_3" href="#REF3">^3^</a> |           |             |
+| 7   | O título do cenário é autoexplicativo?<a href="#REF4">^4^</a>                                                                       |           |             |
+| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_4" href="#REF4">^4^</a>                                             |           |             |
+| 9   | O contexto é descrito em função de local, tempo e pré-condições?<a href="#REF3">^3^</a>                                             |           |             |
+| 10  | O cenário descreve situações realistas e relevantes de interação do sistema?<a href="#REF3">^3^</a>                                 |           |             |
+| 11  | Os atores são condizentes com o contexto do cenário? <a href="#REF4">^7^</a>                                                        |           |             |
+| 12  | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo? <a href="#REF4">^4^</a>                  |           |             |
+| 13  | Existe uma ligação entre os cenários e os léxicos?<a href="#REF4">^4^</a>                                                           |           |             |
 
 _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
 </center>
 
-### Verificação dos Léxicos
+### Léxicos
 
 <center>
 
 **Tabela 4** - Checklist para os Léxicos.
 
-| ID  | Descrição                                                                                                 | Avaliação | Observações |
-| --- | --------------------------------------------------------------------------------------------------------- | --------- | ----------- |
-| 6   | Cada símbolo possui classificação, sinônimo, noção e impacto?<a id="anchor_8" href="#REF8">^8^</a>                                             |           |             |
-| 7   | Cada símbolo apresenta sua noção de forma breve e compreensível?<a id="anchor_8" href="#REF8">^8^</a>                                          |           |             |
-| 8   | Cada símbolo apresenta seu impacto de forma breve e compreensível?<a id="anchor_8" href="#REF8">^8^</a>                                        |           |             |
-| 9   | Caso seja do tipo Estado, as definições de noção e de impacto se encaixam com o que é descrito?<a id="anchor_8" href="#REF8">^8^</a>           |           |             |
-| 10  | Caso seja do tipo Verbo, as definições de noção e de impacto se encaixam com o que é descrito?<a id="anchor_8" href="#REF8">^8^</a>            |           |             |
-| 11  | Caso seja do tipo Objeto, as definições de noção e de impacto se encaixam com o que é descrito?<a id="anchor_8" href="#REF8">^8^</a>           |           |             |
-| 12  | O princípio circular foi devidamente propagado, ou seja, os léxicos são referenciados e estão conectados?<a id="anchor_8" href="#REF8">^8^</a> |           |             |
-| 13  | A descrição dos léxicos é coerente e esclarecedora?<a id="anchor_8" href="#REF8">^8^</a>                                                       |           |             |
-| 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?<a id="anchor_8" href="#REF8">^8^</a>                                          |           |             |
-| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?<a id="anchor_8" href="#REF8">^8^</a>                                      |           |             |
+| ID  | Descrição                                                                                                                        | Avaliação | Observações |
+| --- | -------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |
+| 6   | Cada símbolo possui classificação, sinônimo, noção e impacto?<a href="#REF5">^5^</a>                                             |           |             |
+| 7   | Cada símbolo apresenta sua noção de forma breve e compreensível?<a href="#REF5">^5^</a>                                          |           |             |
+| 8   | Cada símbolo apresenta seu impacto de forma breve e compreensível?<a href="#REF5">^5^</a>                                        |           |             |
+| 9   | Caso seja do tipo Estado, as definições de noção e de impacto se encaixam com o que é descrito?<a href="#REF5">^5^</a>           |           |             |
+| 10  | Caso seja do tipo Verbo, as definições de noção e de impacto se encaixam com o que é descrito?<a href="#REF5">^5^</a>            |           |             |
+| 11  | Caso seja do tipo Objeto, as definições de noção e de impacto se encaixam com o que é descrito?<a href="#REF5">^5^</a>           |           |             |
+| 12  | O princípio circular foi devidamente propagado, ou seja, os léxicos são referenciados e estão conectados?<a href="#REF5">^5^</a> |           |             |
+| 13  | A descrição dos léxicos é coerente e esclarecedora?<a href="#REF5">^5^</a>                                                       |           |             |
+| 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?<a href="#REF5">^5^</a>                                          |           |             |
+| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?<a  href="#REF5">^5^</a>                                     |           |             |
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
-### Verificação do Caso de uso
+### Caso de uso
+
+A tabela 5 a seguir apresenta a checklist referente ao artefato de Caso de uso, ela foi construída tendo como base a checklist criada pela integrante do grupo [Geovanna Maciel](https://github.com/manuziny) no contexto da [verificação do mesmo artefato do grupo 2](../../../grupo2/entrega3/caso-de-uso).
+
+Em relação aos itens de verificação, as questões de 9, 11.1 e 24 foram criadas a partir da apostila _Projeto de Software Usando a UML_ de autoria de Andrey Ricardo Pimentel.<a id="anchor_6" href="#REF6">^6^</a> As outras questões foram retiradas da checklist elaborada na [verificação do mesmo artefato do grupo 2](../../../grupo2/entrega3/caso-de-uso) produzida por [Geovanna Maciel](https://github.com/manuziny).
 
 <center>
 
 **Tabela 5** - Checklist para a Verificação do Caso de Uso.
 
-| ID  | Descrição                                                                                                                                   | Avaliação | Observações |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |
-| 6   | Cada caso provem um resultado observável e de valor para os atores ou outros interessados no sistema? <a id="anchor_4" href="#REF4">^4^</a> |           |             |
-| 7   | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)? <a id="anchor_3" href="#REF3">^3^</a>               |           |             |
-| 8   | Há o uso de verbos no infinitivo e não substantivos? <a id="anchor_2" href="#REF2">^2^</a>                                                  |           |             |
-| 9   | Há relacionamentos de extend, include e generalization? <a id="anchor_4" href="#REF4">^4^</a>                                               |           |             |
-| 10  | O caso de uso representa o usuário e suas interações com o sistema? <a id="anchor_4" href="#REF4">^4^</a>                                   |           |             |
-| 11  | O ator principal está posicionado ao lado esquerdo do sistema? <a id="anchor_4" href="#REF4">^4^</a>                                        |           |             |
-| 12  | O usuário reside fora das fronteiras da aplicação? <a id="anchor_4" href="#REF4">^4^</a>                                                    |           |             |
-| 13  | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc. <a id="anchor_4" href="#REF4">^4^</a>              |           |             |
-| 14  | Quando o ator é um software ou um hardware, há a tag << system >>? <a id="anchor_4" href="#REF4">^4^</a>                                    |           |             |
-| 15  | O caso de uso produzido é uma funcionalidade completa que entrega algum valor? <a id="anchor_4" href="#REF4">^4^</a>                        |           |             |
-| 16  | Os casos de uso são de requisitos funcionais? <a id="anchor_4" href="#REF6">^4^</a>                                                         |           |             |
-| 17  | Foi usada alguma técnica para a produção dos casos de uso? <a id="anchor_4" href="#REF4">^4^</a>                                            |           |             |
-| 18  | Os elementos de atores, sistema e metas estão presentes no caso de uso? <a id="anchor_3" href="#REF3">^3^</a>                               |           |             |
-| 19  | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso? <a id="anchor_2" href="#REF2">^2^</a>              |           |             |
-| 20  | Existem fluxos como: principal, alternativo e de exceção? <a id="anchor_2" href="#REF2">^2^</a>                                             |           |             |
-| 21  | Cada especificação de caso uso tem somente um fluxo principal? <a id="anchor_2" href="#REF2">^2^</a>                                        |           |             |
-| 22  | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária? <a id="anchor_2" href="#REF2">^2^</a>              |           |             |
-| 23  | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal? <a id="anchor_4" href="#REF4">^4^</a>                |           |             |
-| 24  | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas? <a id="anchor_4" href="#REF4">^4^</a>          |           |             |
+| ID   | Descrição                                                                                             | Avaliação | Observações |
+| ---- | ----------------------------------------------------------------------------------------------------- | :-------: | :---------: |
+| 6    | Cada caso provem um resultado observável e de valor para os atores ou outros interessados no sistema? |     -     |      -      |
+| 7    | As elipses representam as ações caso de uso? (constituem internamente fluxos/cenários)?               |     -     |      -      |
+| 8    | Há o uso de verbos no infinitivo e não substantivos?                                                  |     -     |      -      |
+| 9    | Os relacionamentos de extend, include e generalization estão sendo usados corretamente?               |     -     |      -      |
+| 10   | O caso de uso representa o usuário e suas interações com o sistema?                                   |     -     |      -      |
+| 11   | O ator principal está posicionado ao lado esquerdo do sistema?                                        |     -     |      -      |
+| 11.1 | Ele possui um nome associado?                                                                         |     -     |      -      |
+| 12   | Quando o ator é um software ou um hardware, há a tag << system >>?                                    |     -     |      -      |
+| 13   | O usuário reside fora das fronteiras da aplicação?                                                    |     -     |      -      |
+| 14   | O usuário possui um nome associado a ele? Como: cliente, analista de RH, estudante, etc.              |     -     |      -      |
+| 15   | O caso de uso produzido é uma funcionalidade completa que entrega algum valor?                        |     -     |      -      |
+| 16   | Os casos de uso são de requisitos funcionais?                                                         |     -     |      -      |
+| 17   | Foi usada alguma técnica para a produção dos casos de uso?                                            |     -     |      -      |
+| 18   | A especificação dos casos de uso consistem no detalhamento de execução dos casos de uso?              |     -     |      -      |
+| 18.1 | A especificação segue o modelo proposto por Pimentel (2007)?                                          |     -     |      -      |
+| 19   | Existem fluxos como: principal, alternativo e de exceção?                                             |     -     |      -      |
+| 20   | Cada especificação de caso uso tem somente um fluxo principal?                                        |     -     |      -      |
+| 21   | Os fluxos principais representam como usuário usaria a funcionalidade de forma primária?              |     -     |      -      |
+| 22   | Os fluxos alternativos são possibilidades de cenários alternativos ao fluxo principal?                |     -     |      -      |
+| 23   | Os fluxos de exceção demonstram como o sistema reagirá na presença de situações inesperadas?          |     -     |      -      |
+| 24   | A fronteira do sistema é apresentada?                                                                 |     -     |      -      |
 
-_Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
+_Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
-### Verificação da Especificação Suplementar
+### Especificação Suplementar
 
 **Tabela 6** - Checklist para a Verificação da Especificação Suplementar
 
@@ -212,24 +219,19 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 > <a id="REF1" href="#anchor_1">1.</a> Artefato: Especificações Suplementares. **Centro de Informática - UFPE**. Disponível em: <<https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html>>. Acesso em: 04 de junho de 2023.
 
-> <a id="REF2" href="#anchor_2">2.</a> Slides da aula “Requisitos – Aula 11” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf](https://aprender3.unb.br/pluginfile.php/2523100/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf) Acesso em: 05 de junho de 2023.
+> <a id="REF2" href="#anchor_2">2.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
-> <a id="REF3" href="#anchor_3">3.</a> Lucidchart - Diagrama de caso de uso UML. Disponível em: [https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml](https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml). Acesso em: 05 de junho de 2023.
+> <a id="REF3" href="#anchor_3">3.</a> BERGMANN, Ulf. Evolução de Cenários Através de um Mecanismo de Rastreamento Baseado em Transformações. 2003. Tese de Doutorado (Departamento de Informática) - Pontifícia Universidade Católica do Rio de Janeiro, [S. l.], 2003. p. 47-50.
 
-> <a id="REF4" href="#anchor_4">4.</a> REINEHR, Sheila. Engenharia de requisitos. [Insert Publisher Location]: Grupo A, 2020. E-book. ISBN 9786556900674. Disponível em: [https://integrada.minhabiblioteca.com.br/#/books/9786556900674/](https://integrada.minhabiblioteca.com.br/#/books/9786556900674/). Acesso em: 07 junho 2023.
+> <a id="REF4" href="#anchor_4">4.</a> Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997).
 
-> <a id="REF5" href="#anchor_5">5.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
+> <a id="REF5" href="#anchor_5">5.</a> LEITE, Julio Cesar. Léxico Ampliado da Linguagem, 2012. Disponível em: <<https://www-di.inf.puc-rio.br/~julio/lal.pdf>>. Acesso em: 21/06/2023.
 
-> <a id="REF6" href="#anchor_6">6.</a> BERGMANN, Ulf. Evolução de Cenários Através de um Mecanismo de Rastreamento Baseado em Transformações. 2003. Tese de Doutorado (Departamento de Informática) - Pontifícia Universidade Católica do Rio de Janeiro, [S. l.], 2003. p. 47-50.
-
-> <a id="REF7" href="#anchor_7">7.</a> Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997).
-
-> <a id="REF8" href="#anchor_8">8.</a> LEITE, Julio Cesar. Léxico Ampliado da Linguagem, 2012. Disponível em: <<https://www-di.inf.puc-rio.br/~julio/lal.pdf>>. Acesso em: 21/06/2023.
-
+> <a id="REF6" href="#anchor_6">6.</a> PIMENTEL, Andrey R. **Projeto de Software Usando a UML.** Paraná, 2007.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                   | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página.                          | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-
+| Versão | Data       | Descrição               | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | ----------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página.      | [Arthur de Melo](https://github.com/arthurmlv)   | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 21/06/2023 | Alteração do documento. | [Matheus Henrique](https://github.com/mathonaut) | [Arthur de Melo](https://github.com/arthurmlv)   |
