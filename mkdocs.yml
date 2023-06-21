@@ -102,6 +102,9 @@ nav:
               - Planejamento da Verificação da Entrega 4: verificacao/grupo/entrega4/planejamento-verificacao-e4-grupo.md
           - Entrega 5:
               - Planejamento da Verificação da Entrega 5: verificacao/grupo/entrega5/planejamento-verificacao-e5-grupo.md
+  - Validação:
+      - Prototipação: validacao/prototipo.md
+
 
 theme:
   name: material
