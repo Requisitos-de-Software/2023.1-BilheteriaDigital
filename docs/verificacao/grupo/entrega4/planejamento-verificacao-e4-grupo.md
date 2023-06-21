@@ -22,7 +22,7 @@ O objetivo deste documento é verificar se os artefatos produzidos na Etapa 4 do
 
 </figure>
 
-_Fonte: SOMMERVILLE (2007)._<a id="anchor_3" href="#REF3">^3^</a>
+_Fonte: SOMMERVILLE (2007)._<a id="anchor_2" href="#REF2">^2^</a>
 </center>
 
 ## Participantes
@@ -76,9 +76,6 @@ A verificação será realizada no período de 20 de junho de 2023 até 21 de ju
 | 20/06/2023 | Adição dos resultados. | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | 21/06/2023 | Verificação do Histórias de Usuário.  | [Matheus Henrique](https://github.com/mathonaut) |
 | 21/06/2023 | Verificação do NFR Framework.  | [Arthur de Melo](https://github.com/arthurmlv) |
-| **Possíveis Correções** |   |  |
-| 22/06/2023 | - | -|
-|  26/06/2023|  - |  -|
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0)_
 
@@ -86,7 +83,7 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0)_
 
 ## Checklists
 
-As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos tendo como referência básica o livro Interação Humano-Computador de Bruno Silva e Simone Barbosa.<a id=anchor_1 href="#REF1"><sup>1</sup></a> Além dos itens listados anteriormente, também, serão analisados o relatório referente às entregas produzido pelo o monitor do grupo [Lucas Felipe](https://github.com/lucasfs1007) e as checklist previamente construídas na [verificação do grupo 2 na etapa 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/).
+As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos tendo como referência básica o livro _SWEBOK V3.0_ produzido pela _IEEE_.<a id="anchor_1" href="#REF1"><sup>1</sup></a> Além do item listado anteriormente, também, serão analisados o relatório referente às entregas produzido pelo o monitor do grupo [Lucas Soares](https://github.com/lucasfs1007) e as checklist previamente construídas na [verificação do grupo 2 na etapa 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/).
 
 Com o intuito de melhor organizar a verificação, a checklist será dividida em 5 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a checklist geral. As checklists são as seguintes: Geral, Backlog, Histórias de Usuário e NFR Framework. As tabelas de 3 a 5 apresenta as checklists de verificação.
 
@@ -173,15 +170,9 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Referências Bibliográficas
 
+> <a id="REF1" href="#anchor_1">1.</a> BOURQUE, Pierre; FAIRLEY, Richard E. **SWEBOK Guide V3.0: Guide to the Software Engineering Body of Knowledge.** New Jersey: IEEE Computer Society, 2014.
 
-> <a id="REF1" href="#anchor_1">1.</a> MACIEL, Geovanna. Planejamento da Verificação da Etapa 1. Repositório do Grupo Bilheteria Digital da disciplina de Requisitos de Software da Universidade de Brasília, 2023. Disponível em: <<https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/>>. Acesso em: 20 de junho de 2023.
-
-> <a id="REF2" href="#anchor_2">2.</a> Slides da aula “Requisitos – Aula 04” dos professores Milene Serrano e Maurício Serrano. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
-
-> <a id="REF3" href="#anchor_3">3.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
-
-> <a id="REF4" href="#anchor_4">4.</a> REVADI, Chindy Elsanna. Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023.
-
+> <a id="REF2" href="#anchor_2">2.</a> Sommerville, Ian. Engenharia de software. 08. ed. São Paulo: Pearson Addison Wesley, 2007
 
 ## Histórico de Versões
 

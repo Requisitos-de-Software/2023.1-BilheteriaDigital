@@ -56,6 +56,7 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |  13  | Há uma explicação de como as perguntas foram desenvolvidas? |   Sim        | |
 |  14  | Foram apresentado os Requisitos Elicitados? |   Sim        | |
 |  15  | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais? |   Sim        | |
+|  16  | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não? |   Sim        | |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 

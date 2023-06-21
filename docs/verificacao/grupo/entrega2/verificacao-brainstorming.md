@@ -56,6 +56,7 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |  13  | Foi utilizado um digrama de afinidade na sessão de brainstorming? |   Não        | |
 |  14  | Foi realizado um teste piloto antes da sessão? |   Não        | |
 |  15  | A sessão de brainstorming envolve entre 8 e 12 usuários? |   Não        | |
+|  16  | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não? |   Não        | |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -90,12 +91,17 @@ Não foi documentado se houve um teste piloto para verificar as ferramentas util
 
 No livro _Interação Humano-Computador_(Barbosa e Silva. Página 153)<a id="FTF2" href="#FTF2Ref">^2^</a>. Em geral, uma sessão de brainstorming envolve entre 8 e 12 usuários finais, de preferência com perfil semelhante.
 
+### ID 16 - Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?
+
+Não foi identificado se os requisitos elicitados já foram implementando ou não.
+
 ## Sugestões de Correção
 
 Tendo em vista os problemas abordados anteriormente, fica como sugestão a realização das seguintes correções:
 
 - Corrigir os erros ortográficos;
-- Documentar caso tenha acontecido um teste piloto, gravação ou foi utilizado um diagrama de afinidade.
+- Documentar caso tenha acontecido um teste piloto, gravação ou foi utilizado um diagrama de afinidade;
+- Adicionar na tabela a implementação do requisitos se ele estão ou não implementados.
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina.
 
