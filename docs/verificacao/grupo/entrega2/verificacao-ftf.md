@@ -6,7 +6,7 @@ Realizado o planejamento do que verificar, é o momento de realizar a inspeção
 
 ## Objetivo
 
-O objetivo deste documento é relatar os resultados da verificação realizada acerca do artefato [First Things First ](../../../../elicitacao/priorizacao/firstThingsfirst) da Etapa 2 do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital).
+O objetivo deste documento é relatar os resultados da verificação realizada acerca do artefato [First Things First ](../../../../elicitacao/priorizacao/firstThingsfirst) da etapa 2 do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital).
 
 ## Metodologia
 
@@ -101,9 +101,23 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina.
 
+## Acompanhamento
+
+A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
+
+<center>
+
+**Figura 1** - Gráfico do resultado da verificação.
+
+<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=2119230642&amp;format=interactive"></iframe>
+
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
+
+</center>
+
 ## Retrabalho
 
-Como por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut), [Rafael Ferreira](https://github.com/RafaelCLG0) e [Sidney Fernando](https://github.com/nando3d3)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut), [Rafael Ferreira](https://github.com/RafaelCLG0) e [Sidney Fernando](https://github.com/nando3d3)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
@@ -119,21 +133,7 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 </center>
 
 !!! info
-O cronograma apresentado na tabela 3 pode ser alterado.
-
-## Acompanhamento
-
-A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
-
-<center>
-
-**Figura 1** - Gráfico do resultado da verificação.
-
-<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=2119230642&amp;format=interactive"></iframe>
-
-_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
-
-</center>
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 

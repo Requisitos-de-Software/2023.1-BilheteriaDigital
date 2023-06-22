@@ -36,7 +36,7 @@ Cada participante será responsável por verificar um ou mais artefatos da entre
 
 **Tabela 1** - Participantes da Inspeção.
 
-| Artefato                                                                                                                                                                                                                                          | Responsável                                      |
+| Artefato                                                                                                                                                                                                                                          | Participante                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | [Perfil de Usuário](../../../../elicitacao/perfil_de_usuario), [Introspecção](../../../../elicitacao/tecnicas/introspeccao) e [$100](../../../../elicitacao/priorizacao/100)                                                                      | [Gabriel Campello](https://github.com/G16C)      |
 | [Observação](../../../../elicitacao/tecnicas/observacao) e [First Things First](../../../../elicitacao/priorizacao/firstThingsfirst)                                                                                                              | [Matheus Henrique](https://github.com/mathonaut) |
