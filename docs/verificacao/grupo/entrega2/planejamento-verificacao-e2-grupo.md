@@ -62,15 +62,15 @@ Os artefatos alvos dessa verificação são:
 
 Os resultados das verificações em si serão apresentados em páginas separadas e podem ser acessados através dos seguintes links:
 
-- [Resultados da Verificação do Perfil de Usuário]();
-- [Resultados da Verificação do Personas]();
-- [Resultados da Verificação do Introspecção]();
-- [Resultados da Verificação do Questionário]();
-- [Resultados da Verificação do Brainstorming]();
+- [Resultados da Verificação do Perfil de Usuário](../verificacao-perfil-de-usuario);
+- [Resultados da Verificação do Personas](../verificacao-personas);
+- [Resultados da Verificação do Introspecção](../verificacao-introspeccao);
+- [Resultados da Verificação do Questionário](../verificacao-questionario);
+- [Resultados da Verificação do Brainstorming](verificacao-brainstorming);
 - [Resultados da Verificação do Observação](../verificacao-observacao);
-- [Resultados da Verificação do $100]();
+- [Resultados da Verificação do $100](../verificacao-$100);
 - [Resultados da Verificação do First Things First](../verificacao-ftf);
-- [Resultados da Verificação do Three Level Scale]().
+- [Resultados da Verificação do Three Level Scale](../verificacao-three-level-scale).
 
 ### Cronograma
 
