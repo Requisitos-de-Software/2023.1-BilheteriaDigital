@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ## Cronograma e Participantes
 
-O integrante do grupo [Rafael Ferreira](https://github.com/RafaelCLG0) será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Douglas Alves](https://github.com/dougAlvs) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo).
+O integrante do grupo [Rafael Ferreira](https://github.com/RafaelCLG0) será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Douglas Alves](https://github.com/dougAlvs) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo). A tabela 1 apresenta os participantes.
 
 <center>
 
