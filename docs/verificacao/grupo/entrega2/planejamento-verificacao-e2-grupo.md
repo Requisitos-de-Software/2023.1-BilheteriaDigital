@@ -22,7 +22,7 @@ A metodologia escolhida para esta verificação é uma adaptação da inspeção
 
 </figure>
 
-_Fonte: SOMMERVILLE (2007)<a href="#REF7"><sup>7</sup></a>._
+_Fonte: SOMMERVILLE (2007).<a href="#REF7"><sup>7</sup></a>_
 
 </center>
 
