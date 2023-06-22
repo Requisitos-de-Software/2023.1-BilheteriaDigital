@@ -97,14 +97,15 @@ As mudanças sugeridas e os outras vicissitudes encontradas ao se fazer a análi
 
 | Executores do Reprojeto  | Horário de Início | Horário de Fim |    Data    |
 | :----------------:  | :---------------: | :------------: | :--------: |
-| [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3)  | 19:00 | 20:00 | 21/06/2023 |
+| [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3)  | 19:00 | 20:00 | 24/06/2023 |
 
 **Fonte** - [Douglas Alves](https://github.com/dougalvs).
 </center>
 
 ## Referências Bibliográficas
 
-> <a id="anchor_1" href="#REF1">1.</a> Design, Prototipação e Construção. In: ROGERS, Yvonne. Design de Interação: Além da Interação Humano-Computador. 3. ed. [S. l.]: Bookman, 2013. cap. 8, p. 259-297.
+> <a id="anchor_1" href="#REF1">1.</a> Design, Prototipação e Construção. In: ROGERS, Yvonne. Design de Interação: Além da Interação Humano-Computador. 3. ed. [S. l.]: Bookman, 2013. cap. 8, p. 259-297.cle
+
 > <a id="anchor_2" href="#REF2">2.</a> GUILHERME SANTA ROSA, José. Avaliação E Projeto No Design De Interfaces. [S. l.: s. n.], 2010.
 
 
