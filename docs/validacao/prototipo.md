@@ -20,9 +20,9 @@ Após a criação do protótipo, foram realizadas três entrevistas com usuário
 No início de todas as entrevistas foi apresentado o termo de consentimento para que o entrevistado dê sua resposta, sempre reforçando o fato de que está sendo gravado e de que a gravação será publicada. As entrevistas foram feitas pessoalmente na FGA, com o entrevistador mostrando e explicando as funcionalidades para o entrevistado, que expunha sua opinião a cerca da implementação e identificava pontos de melhoria. Enquanto isso, outro membro do grupo fazia anotações sobre os principais pontos observados. Portanto, fez-se a parte de preparação, e depois a coleta de dados. 
  
 
-Caso queira conferir o protótipo, <a href="https://marvelapp.com/prototype/9i40deb" target="blanket">clique aqui</a>.
+Caso queira conferir o protótipo, <a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Prot%C3%B3tipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1&mode=design" target="blanket">clique aqui</a>.
 
-<p style="text-align: center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCSsRpoXBR0BWWojN1ZrDn0%2FProt%25C3%25B3tipo-de-Alta-FIdelidade%3Ftype%3Ddesign%26node-id%3D107%253A1118%26t%3D0G0oREDbF7bGYprn-1" allowfullscreen></iframe></p>
+<p style="text-align: center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCSsRpoXBR0BWWojN1ZrDn0%2FProt%25C3%25B3tipo-de-Alta-FIdelidade%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D107-1118%26viewport%3D29390%252C34193%252C3.02%26scaling%3Dmin-zoom%26starting-point-node-id%3D107%253A1118%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe></p>
 
 O cronograma planejado para as entrevistas está presente na Tabela 1.
 
@@ -43,36 +43,41 @@ Fonte: [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://
 
 ### Seleção dos participantes 
 
-O número de participantes foi de cinco pessoas, sendo dois entrevistadores e três usuários. Por mais que essa validação não seja exatamente um teste de usabilidade, a escolha desse número foi baseada na recomendação de Krug (, p. 157)<a id="REF2" href="#anchor_2">2</a> para testes de usabilidade. A escolha dos participantes levou em conta o [perfil de usuário](https://interacao-humano-computador.github.io/2023.1-BilheteriaDigital/analise-de-requisitos/perfil-usuario/#conclusao), tendo estes entre 20 e 35 anos e também são, de certa forma, tecnófilos.
+O número de participantes foi de cinco pessoas, sendo dois entrevistadores e três usuários. Por mais que essa validação não seja exatamente um teste de usabilidade, a escolha desse número foi baseada na recomendação de Krug (2010, p. 157)<a id="REF2" href="#anchor_2">2</a> para testes de usabilidade. A escolha dos participantes levou em conta o [perfil de usuário](https://interacao-humano-computador.github.io/2023.1-BilheteriaDigital/analise-de-requisitos/perfil-usuario/#conclusao), tendo estes entre 20 e 35 anos e também são, de certa forma, tecnófilos.
 
 ### Entrevistas
 
-De maneira geral, todos os entrevistados aprovaram o protótipo, apenas pontuando alguns tópicos em específico nas interfaces, assim como poderá ser observado melhor no detalhamento de cada entrevista. Os vídeos 1, 2 e 3 trazem a gravação das respectivas entrevistas de validação.
+No geral, todos os entrevistados aprovaram o protótipo, apenas pontuando alguns tópicos em específico nas interfaces, assim como poderá ser observado melhor no detalhamento de cada entrevista. Os vídeos 1, 2 e 3 trazem a gravação das respectivas entrevistas de validação.
 
 #### Entrevista 1
 
-<p style="text-align: center"><a href="https://www.youtube.com/embed/172V6xKaw0g" target="blanket">Vídeo 1 - Entrevista Eduardo</a></p>
+<p style="text-align: center"><a href="https://www.youtube.com/embed/0PDnUfiT_7Q" target="blanket">Vídeo 1 - Entrevista Eduardo</a></p>
 
-<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/172V6xKaw0g"></iframe></p>
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/0PDnUfiT_7Q"></iframe></p>
 
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3).</p></font>
 
+O Eduardo gostou do protótipo de maneira geral, porém na página de filtrar as cidades ele citou que elas estarem em ordem alfabética facilitaria a busca. Além disso, ele comentou que o filtro por idade ficaria interessante se fosse implementado como um menu dropdown e que os filtros de categoria talvez ficariam melhor como uma lista ao invés de um carrosel, pois assim o usuário não precisaria percorrer muitas categorias no carrosel para encontrar a que ele deseja.
 
 #### Entrevista 2
 
-<p style="text-align: center"><a href="https://www.youtube.com/embed/6zlfjwXuqHM" target="blanket">Vídeo 2 - Entrevista Arthur</a></p>
+<p style="text-align: center"><a href="https://www.youtube.com/embed/T8Sp5q1kpMo" target="blanket">Vídeo 2 - Entrevista Arthur</a></p>
 
-<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/6zlfjwXuqHM"></iframe></p>
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/T8Sp5q1kpMo"></iframe></p>
 
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3).</p></font>
+
+O Arthur elogiou as implementações das funcionalidades no protótipo e comentou que acredita que elas fazem sentido com o contexto da aplicação.
 
 #### Entrevista 3
 
-<p style="text-align: center"><a href="https://www.youtube.com/embed/oW9w-VyjHUc" target="blanket">Vídeo 3 - Entrevista Bruno</a></p>
+<p style="text-align: center"><a href="https://www.youtube.com/embed/39FuMw23N9w" target="blanket">Vídeo 3 - Entrevista Bruno</a></p>
 
-<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/oW9w-VyjHUc"></iframe></p>
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/39FuMw23N9w"></iframe></p>
 
 <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3).</p></font>
+
+O Bruno elogiou o protótipo, contudo pontuou alguns fatos em específico. Assim como o Eduardo ele também acredita que o filtro de idade ficaria bem implementado como um menu dropdown, além disso, ele sugeriu que as páginas de filtragem por estado e cidade apresentasse uma caixa de busca. Por último, ele também citou que seria interessante que as telas dos filtros tivessem botões para confirmar a aplicação dos filtros ou cancelá-la de forma mais clara
 
 ### Sumário dos principais resultados
 
@@ -81,6 +86,7 @@ Isso posto, propõe-se as seguintes sugestões de correção:
 - Transformar o filtro de idade em um menu dropdown.
 - Adicionar uma opção de busca nas telas de estados e cidades.
 - Definir mais claramente os botões de confirmar e voltar nas telas dos filtros.
+- Diminuir a quantidade de categorias no carrosel e adicionar uma opção de "Ver mais..." nele, pois assim o usuário não precisaria percorrer muitas categorias no carrosel para encontrar a que ele deseja, e poderia ser redirecionado para uma tela que apresentasse uma lista de categorias.
 
 ### Planejamento de Reprojeto
 
@@ -91,7 +97,7 @@ As mudanças sugeridas e os outras vicissitudes encontradas ao se fazer a análi
 
 | Executores do Reprojeto  | Horário de Início | Horário de Fim |    Data    |
 | :----------------:  | :---------------: | :------------: | :--------: |
-| [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3)  | 19:00 | 19:30 | 24/06/2023 |
+| [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3)  | 19:00 | 20:00 | 21/06/2023 |
 
 **Fonte** - [Douglas Alves](https://github.com/dougalvs).
 </center>
