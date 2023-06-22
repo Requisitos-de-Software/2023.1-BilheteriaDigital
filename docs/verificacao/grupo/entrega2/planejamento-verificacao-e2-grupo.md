@@ -121,13 +121,27 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 **Tabela 4** - Checklist para a Verificação do Perfil de Usuário.
 
-| ID  | Descrição | Avaliação | Observação |
-| :-: | --------- | :-------: | :--------: |
-|  6  |           |     -     |     -      |
-|  7  |           |     -     |     -      |
-|  8  |           |     -     |     -      |
-|  9  |           |     -     |     -      |
-| 10  |           |     -     |     -      |
+|  ID  | Descrição                                                                                                      | Avaliação | Observação |
+| :--: | -------------------------------------------------------------------------------------------------------------- | :-------: | :--------: |
+|  6   | Os dados para o perfil de usuário foram coletados por meio de algum estudo, como entrevistas ou questionários? |     -     |     -      |
+|  7   | Os dados coletados são agregados por grupos e faixas na qual os usuários se encaixam?                          |     -     |     -      |
+| 7.1  | É traçado perfis de usuários a partir deste dados agregados?                                                   |     -     |     -      |
+| 7.2  | A proporção de usuários que se encaixam em cada perfil é calculada?                                            |     -     |     -      |
+| 7.3  | Os usuários são categorizados em grupos por idade, experiências, atitudes, tarefas primárias?                  |     -     |     -      |
+|  8   | O perfil de usuário identifica características de interesse?                                                   |     -     |     -      |
+| 8.1  | O perfil de usuário identifica o cargo?                                                                        |     -     |     -      |
+| 8.2  | O perfil de usuário identifica a função?                                                                       |     -     |     -      |
+| 8.3  | O perfil de usuário identifica a experiência?                                                                  |     -     |     -      |
+| 8.4  | O perfil de usuário identifica o nível de instrução?                                                           |     -     |     -      |
+| 8.5  | O perfil de usuário identifica as atividades principais?                                                       |     -     |     -      |
+| 8.6  | O perfil de usuário identifica a faixa etária?                                                                 |     -     |     -      |
+| 8.7  | O perfil de usuário identifica a relação com a tecnologia?                                                     |     -     |     -      |
+| 8.8  | O perfil de usuário identifica a relação com o domínio do produto?                                             |     -     |     -      |
+| 8.9  | O perfil de usuário identifica a relação com o principais tarefas realizadas?                                  |     -     |     -      |
+|  9   | As características dos perfis são priorizadas?                                                                 |     -     |     -      |
+|  10  | Foi definido quem ficou responsável pela elaboração do questionário?                                           |     -     |     -      |
+| 10.1 | Foi definido cronograma de elaboração do cronograma?                                                           |     -     |     -      |
+| 10.2 | Foi definido prazo para que o questionário fosse preenchido?                                                   |     -     |     -      |
 
 _Fonte: Autor._
 
@@ -139,13 +153,19 @@ _Fonte: Autor._
 
 **Tabela 5** - Checklist para a Verificação do Personas.
 
-| ID  | Descrição | Avaliação | Observação |
-| :-: | --------- | :-------: | :--------: |
-|  6  |           |     -     |     -      |
-|  7  |           |     -     |     -      |
-|  8  |           |     -     |     -      |
-|  9  |           |     -     |     -      |
-| 10  |           |     -     |     -      |
+| ID  | Descrição                                                                                                                            | Avaliação | Observação |
+| :-: | ------------------------------------------------------------------------------------------------------------------------------------ | :-------: | :--------: |
+|  6  | As personas possuem identidades, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas?                |     -     |     -      |
+|  7  | A personas primárias possuem elasticidade? (_Elasticidade: é quando uma persona acaba por ter características muito generalizadas._) |     -     |     -      |
+|  8  | As persona primária são sólidas e tangíveis o suficiente para colocar os pressupostos de design em perspectiva?                      |     -     |     -      |
+|  9  | No elenco das personas é evidente quais são os objetivos dos usuários?                                                               |     -     |     -      |
+| 10  | O elenco de personas tem entre 3 a 12 personas?                                                                                      |     -     |     -      |
+| 11  | Possui justificativa do número?                                                                                                      |     -     |     -      |
+| 12  | Possui uma antipersona definida?                                                                                                     |     -     |     -      |
+| 13  | Foi identificado a utilização do perfil de usuário para a criação das personas?                                                      |     -     |     -      |
+| 14  | Há informações de como as Personas foram elaboradas?                                                                                 |     -     |     -      |
+| 15  | As personas definidas possuem objetivos pessoais, corporativos e práticos? (Pelo menos um deles)                                     |     -     |     -      |
+| 16  | As personas definidas possuem objetivos de experiência, finais e de vida? (Pelo menos um deles)                                      |     -     |     -      |
 
 _Fonte: Autor._
 

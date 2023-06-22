@@ -23,7 +23,7 @@ O integrante do grupo [Rafael Ferreira](https://github.com/RafaelCLG0) será res
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
 | [Rafael Ferreira](https://github.com/RafaelCLG0) | Avaliador |
-| [Douglas Alves](https://github.com/dougAlvs) |  Revisor  |
+|   [Douglas Alves](https://github.com/dougAlvs)   |  Revisor  |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -37,26 +37,26 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-| ID  | Descrição | Avaliação | Observações |
-| :-: | --------- | :-------: | :-----------:|
-| **Padronização** |
-|  1  | O artefato possui introdução? |     Sim      |             |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica?   |     Incompleto      | Descrito melhor nos Problemas Encontrados           |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? |   Sim       |             |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?|   Sim        |            |
-|  5  | Todos os textos estão na norma padrão? | Não
-| **Planejamento** |
-| 6 | As personas possuem identidades, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas? | Sim | |
-| 7   | A personas primárias possuem elasticidade? (_Elasticidade: é quando uma persona acaba por ter características muito generalizadas._)  |     Não      |  Suas características definidas são distinguem.   |
-| 8 | As persona primária são sólidas e tangíveis o suficiente para colocar os pressupostos de design em perspectiva? | Sim | |
-| 9 | No elenco das personas é evidente quais são os objetivos dos usuários? |Sim| |
-| 10 | O elenco de personas tem entre 3 a 12 personas? |Sim |  |
-| 11 | Possui justificativa do número? | Sim  |
-| 12 | Possui uma antipersona definida? | Sim  |
-| 13 | Foi identificado a utilização do perfil de usuário para a criação das personas? | Sim  |
-| 14 | Há informações de como as Personas foram elaboradas? | Sim  |
-| 15 | As personas definidas possuem objetivos pessoais, corporativos e práticos? (Pelo menos um deles) | Não  | Não foi identificado corretamente na persona Roberta do Santos e no José da Silva.
-| 16 | As personas definidas possuem objetivos de experiência, finais e de vida? (Pelo menos um deles) | Sim  |
+|        ID        | Descrição                                                                                                                            | Avaliação  |                                    Observações                                     |
+| :--------------: | ------------------------------------------------------------------------------------------------------------------------------------ | :--------: | :--------------------------------------------------------------------------------: |
+| **Padronização** |                                                                                                                                      |            |                                                                                    |
+|        1         | O artefato possui introdução?                                                                                                        |    Sim     |                                                                                    |
+|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                         | Incompleto |                     Descrito melhor nos Problemas Encontrados                      |
+|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                               |    Sim     |                                                                                    |
+|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                         |    Sim     |                                                                                    |
+|        5         | Todos os textos estão na norma padrão?                                                                                               |    Não     |                                                                                    |
+| **Planejamento** |                                                                                                                                      |            |                                                                                    |
+|        6         | As personas possuem identidades, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas?                |    Sim     |                                                                                    |
+|        7         | A personas primárias possuem elasticidade? (_Elasticidade: é quando uma persona acaba por ter características muito generalizadas._) |    Não     |                   Suas características definidas são distinguem.                   |
+|        8         | As persona primária são sólidas e tangíveis o suficiente para colocar os pressupostos de design em perspectiva?                      |    Sim     |                                                                                    |
+|        9         | No elenco das personas é evidente quais são os objetivos dos usuários?                                                               |    Sim     |                                                                                    |
+|        10        | O elenco de personas tem entre 3 a 12 personas?                                                                                      |    Sim     |                                                                                    |
+|        11        | Possui justificativa do número?                                                                                                      |    Sim     |                                                                                    |
+|        12        | Possui uma antipersona definida?                                                                                                     |    Sim     |                                                                                    |
+|        13        | Foi identificado a utilização do perfil de usuário para a criação das personas?                                                      |    Sim     |                                                                                    |
+|        14        | Há informações de como as Personas foram elaboradas?                                                                                 |    Sim     |                                                                                    |
+|        15        | As personas definidas possuem objetivos pessoais, corporativos e práticos? (Pelo menos um deles)                                     |    Não     | Não foi identificado corretamente na persona Roberta do Santos e no José da Silva. |
+|        16        | As personas definidas possuem objetivos de experiência, finais e de vida? (Pelo menos um deles)                                      |    Sim     |                                                                                    |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -77,7 +77,7 @@ Há erros ortográficos a serem corrigidos, segue a lista:
 - Na mesma persona anterior no tópico Expectativa as palavras 'não' e 'entretenimento' estão incorretas 'nçao' e entertenimento;
 - Na Antipersona Jair Beto Boulos foi encontrado palavras erradas nos tópicos Escolaridade a palavra 'Universidade' está escrita como 'Univerdidade', no tópico Habilidades e Experiências as palavras 'tecnologias' está escrita como 'tecnlogias' e no tópico Objetivo a palavra 'desinstalar' está escrita como 'desinstalaria'.
 
-### ID 15 - As personas definidas possuem objetivos pessoais, corporativos e práticos? (Pelo menos um deles) 
+### ID 15 - As personas definidas possuem objetivos pessoais, corporativos e práticos? (Pelo menos um deles)
 
 Na persona Roberta dos Santos e no José da Silva seus objetivos foram encontrados sobre suas ações a serem realizadas, mas não foi encontrado sua relação com o aplicativo Bilheteria Digital para efetuar essas ações.
 
@@ -113,6 +113,6 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                  |
+| ------ | ---------- | ------------------ | ------------------------------------------------ | -------------------------------------------- |
 | `1.0`  | 20/06/2023 | Criação da página. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) |
