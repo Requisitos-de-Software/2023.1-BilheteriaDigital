@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ## Cronograma e Participantes
 
-Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Geovanna Maciel](https://github.com/manuziny) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo).
+Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Geovanna Maciel](https://github.com/manuziny) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo). A tabela 1 apresenta os participantes.
 
 <center>
 
@@ -109,7 +109,7 @@ Como por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](htt
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    | Status           |
+| Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
 | ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
 | 21/26/2023       | Reordenar as tabelas.           | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 | 21/06/2023       | Corrigir os erros ortográficos. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
@@ -119,7 +119,7 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 </center>
 
 !!! info
-    O cronograma apresentado na tabela 3 pode ser alterado.
+O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Acompanhamento
 
@@ -145,7 +145,7 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 21/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.1`  | 21/06/2023 | Corrigido os erros. |[Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |
+| Versão | Data       | Descrição           | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | ------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página.  | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny)   |
+| `1.1`  | 21/06/2023 | Corrigido os erros. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |

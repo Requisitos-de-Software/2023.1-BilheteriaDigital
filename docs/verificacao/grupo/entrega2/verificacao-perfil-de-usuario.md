@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ### Cronograma e Participantes
 
-Os participantes são os integrantes do grupo [Gabriel Campello](https://github.com/G16C), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Matheus Henrique](https://github.com/mathonaut) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo). A tabela 1 apresenta os participantes.
+Os participantes são os integrantes do grupo [Gabriel Campello](https://github.com/G16C), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Matheus Henrique](https://github.com/mathonaut) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](./planejamento-verificacao-e2-grupo.md). A tabela 1 apresenta os participantes.
 
 <center>
 
@@ -31,40 +31,40 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 ### Sumários dos Dados Encontrados
 
-A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verificação. As fontes de cada pergunta foram apresentadas na página de [planejamento]().
+A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verificação. As fontes de cada pergunta foram apresentadas na página de [planejamento](./planejamento-verificacao-e2-grupo.md).
 
 <center>
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID  | Descrição                                                                                                      | Avaliação  |                                      Observações                                      |
-| :--: | -------------------------------------------------------------------------------------------------------------- | :--------: | :-----------------------------------------------------------------------------------: |
-|      | **Padronização**                                                                                               |
-|  1   | O artefato possui introdução?                                                                                  |    Sim     |                                           -                                           |
-|  2   | O artefato possui uma bibliografia/referência bibliográfica?                                                   |    Sim     |                                           -                                           |
-|  3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?         |    Sim     |                                           -                                           |
-|  4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                   |    Sim     |                                           -                                           |
-|  5   | Todos os textos estão na norma padrão?                                                                         |    Sim     |                                           -                                           |
-|      | **Perfil de Usuário**                                                                                          |
-|  6   | Os dados para o perfil de usuário foram coletados por meio de algum estudo, como entrevistas ou questionários? |    Sim     |                                           -                                           |
-|  7   | Os dados coletados são agregados por grupos e faixas na qual os usuários se encaixam?                          |    Sim     |                                           -                                           |
-| 7.1  | É traçado perfis de usuários a partir deste dados agregados?                                                   | Incompleto |                                           -                                           |
-| 7.2  | A proporção de usuários que se encaixam em cada perfil é calculada?                                            |    Sim     |                                           -                                           |
-| 7.3  | Os usuários são categorizados em grupos por idade, experiências, atitudes, tarefas primárias?                  |    Sim     |                                           -                                           |
-|  8   | O perfil de usuário identifica características de interesse?                                                   |    Sim     |                                           -                                           |
-| 8.1  | O perfil de usuário identifica o cargo?                                                                        |    Não     |                                           -                                           |
-| 8.2  | O perfil de usuário identifica a função?                                                                       |    Não     |                                           -                                           |
-| 8.3  | O perfil de usuário identifica a experiência?                                                                  |    Sim     |                                           -                                           |
-| 8.4  | O perfil de usuário identifica o nível de instrução?                                                           |    Sim     |                                           -                                           |
-| 8.5  | O perfil de usuário identifica as atividades principais?                                                       |    Sim     |                                           -                                           |
-| 8.6  | O perfil de usuário identifica a faixa etária?                                                                 |    Sim     |                                           -                                           |
-| 8.7  | O perfil de usuário identifica a relação com a tecnologia?                                                     |    Sim     |                                           -                                           |
-| 8.8  | O perfil de usuário identifica a relação com o domínio do produto?                                             | Incompleto |                                           -                                           |
-| 8.9  | O perfil de usuário identifica a relação com o principais tarefas realizadas?                                  |    Sim     |                                           -                                           |
-|  9   | As características dos perfis são priorizadas?                                                                 |    Sim     |                                           -                                           |
-|  10  | Foi definido quem ficou responsável pela elaboração do questionário?                                           |    Não     | Em nenhum momento foi apresentada qualquer informação sobre o questionário utilizado. |
-| 10.1 | Foi definido cronograma de elaboração do cronograma?                                                           |    Não     |                                           -                                           |
-| 10.2 | Foi definido prazo para que o questionário fosse preenchido?                                                   |    Não     |                                           -                                           |
+|          ID           | Descrição                                                                                                      | Avaliação  |                                      Observações                                      |
+| :-------------------: | -------------------------------------------------------------------------------------------------------------- | :--------: | :-----------------------------------------------------------------------------------: |
+|   **Padronização**    |                                                                                                                |            |                                                                                       |
+|           1           | O artefato possui introdução?                                                                                  |    Sim     |                                           -                                           |
+|           2           | O artefato possui uma bibliografia/referência bibliográfica?                                                   |    Sim     |                                           -                                           |
+|           3           | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?         |    Sim     |                                           -                                           |
+|           4           | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                   |    Sim     |                                           -                                           |
+|           5           | Todos os textos estão na norma padrão?                                                                         |    Sim     |                                           -                                           |
+| **Perfil de Usuário** |                                                                                                                |            |                                                                                       |
+|           6           | Os dados para o perfil de usuário foram coletados por meio de algum estudo, como entrevistas ou questionários? |    Sim     |                                           -                                           |
+|           7           | Os dados coletados são agregados por grupos e faixas na qual os usuários se encaixam?                          |    Sim     |                                           -                                           |
+|          7.1          | É traçado perfis de usuários a partir deste dados agregados?                                                   | Incompleto |                                           -                                           |
+|          7.2          | A proporção de usuários que se encaixam em cada perfil é calculada?                                            |    Sim     |                                           -                                           |
+|          7.3          | Os usuários são categorizados em grupos por idade, experiências, atitudes, tarefas primárias?                  |    Sim     |                                           -                                           |
+|           8           | O perfil de usuário identifica características de interesse?                                                   |    Sim     |                                           -                                           |
+|          8.1          | O perfil de usuário identifica o cargo?                                                                        |    Não     |                                           -                                           |
+|          8.2          | O perfil de usuário identifica a função?                                                                       |    Não     |                                           -                                           |
+|          8.3          | O perfil de usuário identifica a experiência?                                                                  |    Sim     |                                           -                                           |
+|          8.4          | O perfil de usuário identifica o nível de instrução?                                                           |    Sim     |                                           -                                           |
+|          8.5          | O perfil de usuário identifica as atividades principais?                                                       |    Sim     |                                           -                                           |
+|          8.6          | O perfil de usuário identifica a faixa etária?                                                                 |    Sim     |                                           -                                           |
+|          8.7          | O perfil de usuário identifica a relação com a tecnologia?                                                     |    Sim     |                                           -                                           |
+|          8.8          | O perfil de usuário identifica a relação com o domínio do produto?                                             | Incompleto |                                           -                                           |
+|          8.9          | O perfil de usuário identifica a relação com o principais tarefas realizadas?                                  |    Sim     |                                           -                                           |
+|           9           | As características dos perfis são priorizadas?                                                                 |    Sim     |                                           -                                           |
+|          10           | Foi definido quem ficou responsável pela elaboração do questionário?                                           |    Não     | Em nenhum momento foi apresentada qualquer informação sobre o questionário utilizado. |
+|         10.1          | Foi definido cronograma de elaboração do cronograma?                                                           |    Não     |                                           -                                           |
+|         10.2          | Foi definido prazo para que o questionário fosse preenchido?                                                   |    Não     |                                           -                                           |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -108,7 +108,7 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 - Procurar documentar o cargo e função dos usuários entrevistados;
 - Expecificar no artefato quem foi o responsável por elaborar o questionário, a data de criação e o período de circulação.
 
-A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento](../planejamento-verificacao-e2-grupo).
+A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento](./planejamento-verificacao-e2-grupo.md).
 
 ## Acompanhamento
 

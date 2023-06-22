@@ -1,4 +1,4 @@
-# Verificação da Técnica de Elicitação - Introspecção
+# Verificação do Introspecção
 
 ## Introdução
 
@@ -22,7 +22,7 @@ Os participantes são os integrantes do grupo [Gabriel Campello](https://github.
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-|  [Gabriel Campello](ttps://github.com/G16C)| Avaliador |
+|    [Gabriel Campello](ttps://github.com/G16C)    | Avaliador |
 | [Matheus Henrique](https://github.com/mathonaut) |  Revisor  |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
@@ -37,23 +37,22 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID  | Descrição | Avaliação  | Observações |
-| :--: | ------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------: |
-|      | **Padronização**                                                                                       |
-|  1  | O artefato possui introdução? | Sim | - |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica? | Sim | - |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim | - |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes? | Sim | - |
-|  5  | Todos os textos estão na norma padrão? | Sim | - | 
-|     | **Introspecção** |
-|  6  | O artefato apresenta Um cronograma (data e horário) e local para realização da elicitação dos requisitos? | Não | - | 
-|  7  |  Possui gravação da atividade de elicitação dos requisitos? | Não | - | 
-|  8  |  Os requisitos elicitados forma divididos entre funcionais e não-funcionais? | Sim | - | 
-|  9  |  Foi definido o motivo de estar sendo utilizada a técnica em questão? | Incompleto | A técnica é explicada, mas não o motivo de sua escolha. | 
-|  9.1 | Foi levado em consideração de que essa técnica pode não estar totalmente condizente com a visão do usuário, já que é executada por membros da equipe do projeto? | Não | - | 
-|  10  | Cada membro que participou apresentou uma explicação de como executou a técnica? | Sim | - |
-|  11  | Os requisitos elicitados apresentam Id para sua identificação? | Sim | - | 
-
+|        ID        | Descrição                                                                                                                                                        | Avaliação  |                       Observações                       |
+| :--------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :-----------------------------------------------------: |
+| **Padronização** |                                                                                                                                                                  |            |                                                         |
+|        1         | O artefato possui introdução?                                                                                                                                    |    Sim     |                            -                            |
+|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                                                     |    Sim     |                            -                            |
+|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                                                           |    Sim     |                            -                            |
+|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                                                     |    Sim     |                            -                            |
+|        5         | Todos os textos estão na norma padrão?                                                                                                                           |    Sim     |                            -                            |
+| **Introspecção** |                                                                                                                                                                  |            |                                                         |
+|        6         | O artefato apresenta Um cronograma (data e horário) e local para realização da elicitação dos requisitos?                                                        |    Não     |                            -                            |
+|        7         | Possui gravação da atividade de elicitação dos requisitos?                                                                                                       |    Não     |                            -                            |
+|        8         | Os requisitos elicitados forma divididos entre funcionais e não-funcionais?                                                                                      |    Sim     |                            -                            |
+|        9         | Foi definido o motivo de estar sendo utilizada a técnica em questão?                                                                                             | Incompleto | A técnica é explicada, mas não o motivo de sua escolha. |
+|       9.1        | Foi levado em consideração de que essa técnica pode não estar totalmente condizente com a visão do usuário, já que é executada por membros da equipe do projeto? |    Não     |                            -                            |
+|        10        | Cada membro que participou apresentou uma explicação de como executou a técnica?                                                                                 |    Sim     |                            -                            |
+|        11        | Os requisitos elicitados apresentam Id para sua identificação?                                                                                                   |    Sim     |                            -                            |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -63,7 +62,7 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https:/
 
 ### ID 6 - O artefato apresenta Um cronograma (data e horário) e local para realização da elicitação dos requisitos?
 
-Os membros que participaram desse artefato estão documentados, mas não há uma tabela contendo cronogrma e local para realização da técnica. 
+Os membros que participaram desse artefato estão documentados, mas não há uma tabela contendo cronogrma e local para realização da técnica.
 
 ### ID 7 - Possui gravação da atividade de elicitação dos requisitos?
 
@@ -115,6 +114,6 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) |  [Matheus Henrique](https://github.com/mathonaut)|
+| Versão | Data       | Descrição          | Autor(es)                                   | Revisor(es)                                      |
+| ------ | ---------- | ------------------ | ------------------------------------------- | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) |

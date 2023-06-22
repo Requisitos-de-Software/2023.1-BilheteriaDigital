@@ -37,26 +37,26 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-|        ID        | Descrição                                                                                                                     | Avaliação |     Observações      |
-| :--------------: | ----------------------------------------------------------------------------------------------------------------------------- | :-------: | :------------------: |
-| **Padronização** |
-|        1         | O artefato possui introdução?                                                                                                 |    Sim    |                      |
-|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                  |    Sim    |                      |
-|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                        |    Sim    |                      |
-|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                  |    Sim    |                      |
-|        5         | Todos os textos estão na norma padrão?                                                                                        |    Não    |
-| **Planejamento** |
-|        6         | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto? |    Sim    |                      |
-|        7         | Possui gravação da atividade de elicitação dos requisitos?                                                                    |    Não    | Não possui gravação. |
-|        8         | A elicitação contou com moderador e um secretário.                                                                            |    Sim    |                      |
-|        9         | Todas as perguntas e respostas geradas durante o brainstorming foram documentadas de forma clara e concisa?                   |    Sim    |                      |
-|        10        | Foram utilizadas técnicas de estímulo, como palavras-chave, imagens ou diagramas, para incentivar a geração de ideias?        |    Sim    |
-|        11        | Foram apresentado os Requisitos Elicitados?                                                                                   |    Sim    |                      |
-|        12        | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais?                                                         |    Sim    |                      |
-|        13        | Foi utilizado um digrama de afinidade na sessão de brainstorming?                                                             |    Não    |                      |
-|        14        | Foi realizado um teste piloto antes da sessão?                                                                                |    Não    |                      |
-|        15        | A sessão de brainstorming envolve entre 8 e 12 usuários?                                                                      |    Não    |                      |
-|        16        | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?                              |    Não    |                      |
+|        ID         | Descrição                                                                                                                     | Avaliação |     Observações      |
+| :---------------: | ----------------------------------------------------------------------------------------------------------------------------- | :-------: | :------------------: |
+| **Padronização**  |                                                                                                                               |           |                      |
+|         1         | O artefato possui introdução?                                                                                                 |    Sim    |          -           |
+|         2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                  |    Sim    |          -           |
+|         3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                        |    Sim    |          -           |
+|         4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                  |    Sim    |          -           |
+|         5         | Todos os textos estão na norma padrão?                                                                                        |    Não    |          -           |
+| **Brainstorming** |                                                                                                                               |           |                      |
+|         6         | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto? |    Sim    |          -           |
+|         7         | Possui gravação da atividade de elicitação dos requisitos?                                                                    |    Não    | Não possui gravação. |
+|         8         | A elicitação contou com moderador e um secretário.                                                                            |    Sim    |          -           |
+|         9         | Todas as perguntas e respostas geradas durante o brainstorming foram documentadas de forma clara e concisa?                   |    Sim    |          -           |
+|        10         | Foram utilizadas técnicas de estímulo, como palavras-chave, imagens ou diagramas, para incentivar a geração de ideias?        |    Sim    |          -           |
+|        11         | Foram apresentado os Requisitos Elicitados?                                                                                   |    Sim    |          -           |
+|        12         | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais?                                                         |    Sim    |          -           |
+|        13         | Foi utilizado um digrama de afinidade na sessão de brainstorming?                                                             |    Não    |          -           |
+|        14         | Foi realizado um teste piloto antes da sessão?                                                                                |    Não    |          -           |
+|        15         | A sessão de brainstorming envolve entre 8 e 12 usuários?                                                                      |    Não    |          -           |
+|        16         | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?                              |    Não    |          -           |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
