@@ -6,7 +6,7 @@ Realizado o planejamento do que verificar, é o momento de realizar a inspeção
 
 ## Objetivo
 
-O objetivo deste documento é relatar os resultados das verificações realizadas acerca do artefato de [Questionário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/questionario/) na versão 1.0 de data 29/04/2023 da Etapa 2 do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital).
+O objetivo deste documento é relatar os resultados das verificações realizadas acerca do artefato de [Questionário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/questionario/) na versão 1.0 de data 29/04/2023 da etapa 2 do [grupo](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital).
 
 ## Metodologia
 
@@ -39,24 +39,24 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 |        ID        | Descrição                                                                                                | Avaliação |                                               Observações                                                |
 | :--------------: | -------------------------------------------------------------------------------------------------------- | :-------: | :------------------------------------------------------------------------------------------------------: |
-| **Padronização** |
-|        1         | O artefato possui introdução?                                                                            |    Sim    |                                                                                                          |
-|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                             |    Sim    |                                                                                                          |
-|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?   |    Sim    |                                                                                                          |
-|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                             |    Sim    |                                                                                                          |
-|        5         | Todos os textos estão na norma padrão?                                                                   |    Sim    |
-| **Questionário** |
+| **Padronização** |                                                                                                          |           |                                                                                                          |
+|        1         | O artefato possui introdução?                                                                            |    Sim    |                                                    -                                                     |
+|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                             |    Sim    |                                                    -                                                     |
+|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?   |    Sim    |                                                    -                                                     |
+|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                             |    Sim    |                                                    -                                                     |
+|        5         | Todos os textos estão na norma padrão?                                                                   |    Sim    |                                                    -                                                     |
+| **Questionário** |                                                                                                          |           |                                                                                                          |
 |        6         | O documento identifica o público alvo que foi divulgado o questionário?                                  |    Não    |                    Não foi identificado o público alvo que divulgaram o questionário.                    |
 |        7         | O artefato apresenta data de duração e meio de divulgação?                                               |    Não    | Foi identificado que foi realizado um questionário online, mas não apresentaram os meios de divulgaçōes. |
 |        8         | O público alvo dos meios de divulgação onde o questionário foi compartilhado seguem o perfil de usuário? |    Não    |                                  Não foi identificado seu público alvo.                                  |
-|        9         | Foi apresentado um termo de consetimento para o participante do questionário?                            |    Sim    |                                                                                                          |
-|        10        | Há um motivo da utilização dessa técnica?                                                                |    Sim    |                                                                                                          |
-|        11        | Foram apresentados os dados obtidos e as perguntas utilizadas?                                           |    Sim    |                                                                                                          |
-|        12        | Os dados apresentados e as perguntas estão de fácil vizualização?                                        |    Sim    |                                                                                                          |
-|        13        | Há uma explicação de como as perguntas foram desenvolvidas?                                              |    Sim    |                                                                                                          |
-|        14        | Foram apresentado os Requisitos Elicitados?                                                              |    Sim    |                                                                                                          |
-|        15        | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais?                                    |    Sim    |                                                                                                          |
-|        16        | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?         |    Sim    |                                                                                                          |
+|        9         | Foi apresentado um termo de consetimento para o participante do questionário?                            |    Sim    |                                                    -                                                     |
+|        10        | Há um motivo da utilização dessa técnica?                                                                |    Sim    |                                                    -                                                     |
+|        11        | Foram apresentados os dados obtidos e as perguntas utilizadas?                                           |    Sim    |                                                    -                                                     |
+|        12        | Os dados apresentados e as perguntas estão de fácil vizualização?                                        |    Sim    |                                                    -                                                     |
+|        13        | Há uma explicação de como as perguntas foram desenvolvidas?                                              |    Sim    |                                                    -                                                     |
+|        14        | Foram apresentado os Requisitos Elicitados?                                                              |    Sim    |                                                    -                                                     |
+|        15        | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais?                                    |    Sim    |                                                    -                                                     |
+|        16        | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?         |    Sim    |                                                    -                                                     |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -87,7 +87,7 @@ A correção dos erros será realizada após uma discussão e validação dos pr
 
 ## Acompanhamento
 
-A figura 1 apresenta um gráfico com o percentual de respostas sim, não ou incompleto, obtidas através da checklist de verificação.
+A figura 1 apre+senta um gráfico com o percentual de respostas sim, não ou incompleto, obtidas através da checklist de verificação.
 
 <center>
 
@@ -99,6 +99,25 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Douglas Alves](https://github.com/dougAlvs) e [Sidney Fernando](https://github.com/nando3d3)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 25/26/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-close: |
+| 25/06/2023       | Identificar seu público alvo e verificar se segue o perfil de usuário.       | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-close: |
+
+_Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
+
+</center>
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 ## Referências Bibliograficas
 
 > <a id="FTF2Ref" href="#FTF2">1.</a> BARBOSA, S. D. J.; SILVA, B. S. Interação Humano-Computador. Rio de Janeiro: Elsevier, 2011.

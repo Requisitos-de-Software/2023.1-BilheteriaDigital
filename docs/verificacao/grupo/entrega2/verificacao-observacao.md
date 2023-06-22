@@ -170,10 +170,6 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 > <a id="REF1" href="#anchor_1">1.</a> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
 
-## Bibliografia
-
-> FERREIRA, Rafael. **Verificação do Planejamento da Avaliação da Análise de Tarefas.** Repositório do Grupo Bilheteria Digital da disciplina de Interação Humano Computador da Universidade de Brasília, 2023. Disponível em: <<>>. Acesso em: 18 junho 2023.
-
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                     | Autor(es)                                        | Revisor(es)                                    |

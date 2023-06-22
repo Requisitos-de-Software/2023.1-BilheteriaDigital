@@ -42,7 +42,7 @@ Os artefatos alvo dessa verificação são:
 
 - [Caso de Uso](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/), na versão 1.3 de data 15/05/2023 produzida por [Sidney Fernando](https://github.com/nando3d3) com revisão de [Geovanna Maciel](https://github.com/manuziny).
 
-- [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/) na versão 1.2 de data 16/05/2023 produzida por [Rafael Ferreira](https://github.com/RafaelCLG0) com revisão de [Matheus Henrique](https://github.com/mathonaut).
+- [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/) na versão 1.2 de data 16/05/2023 produzida por [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) com revisão de [Matheus Henrique](https://github.com/mathonaut).
 
 Os resultados da verificação em si serão apresentados em uma página separada e que podem ser acessados através dos seguinte link:
 
@@ -202,7 +202,7 @@ _Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) e [Matheus 
 | 11.2 | É apresentado os sistemas operacionais que o sistema funcionará?                                  |           |             |
 | 12   | O documento possui um tópico de Restrições de Design?<a id="anchor_1" href="#REF1">^1^</a>        |           |             |
 | 12.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
-| 12.2 | Os requisitos apresentados especificam ou restringem o design do sistema?                           |           |             |
+| 12.2 | Os requisitos apresentados especificam ou restringem o design do sistema?                         |           |             |
 | 13   | O documento possui um tópico de Requisitos de Implementação?<a id="anchor_1" href="#REF1">^1^</a> |           |             |
 | 13.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
 | 14   | O documento possui um tópico de Requisitos de Interface?<a id="anchor_1" href="#REF1">^1^</a>     |           |             |
@@ -210,7 +210,7 @@ _Fonte: Elaborada por [Geovanna Maciel](https://github.com/manuziny) e [Matheus 
 | 15   | O documento possui um tópico de Requisitos Físicos?<a id="anchor_1" href="#REF1">^1^</a>          |           |             |
 | 15.1 | Os requisitos apresentados são testáveis?                                                         |           |             |
 | 15.2 | As características físicas de onde o sistema funcionará são apresentadas?                         |           |             |
-|  16  | Os léxicos relacionados são citados no artefato?                                                  |           |             |
+| 16   | Os léxicos relacionados são citados no artefato?                                                  |           |             |
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
