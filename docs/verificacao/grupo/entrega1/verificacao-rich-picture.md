@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ### Cronograma e Participantes
 
-Os participantes são os integrantes do grupo [Gabriel Campello](https://github.com/G16C), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Matheus Henrique](https://github.com/mathonaut) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../entrega1/planejamento-verificacao-e1-grupo.md).
+Os participantes são os integrantes do grupo [Gabriel Campello](https://github.com/G16C), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Matheus Henrique](https://github.com/mathonaut) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../entrega1/planejamento-verificacao-e1-grupo.md). A tabela 1 apresenta os participantes.
 
 <center>
 
@@ -22,10 +22,10 @@ Os participantes são os integrantes do grupo [Gabriel Campello](https://github.
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-|  [Gabriel Campello](ttps://github.com/G16C)| Avaliador |
+|    [Gabriel Campello](ttps://github.com/G16C)    | Avaliador |
 | [Matheus Henrique](https://github.com/mathonaut) |  Revisor  |
 
-_Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
+_Fonte: Elaborada por [Gabriel Campello](https://github.com/G16C), 2023._
 
 </center>
 
@@ -37,27 +37,27 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID  | Descrição | Avaliação  | Observações |
-| :--: | ------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------: |
-|      | **Padronização**                                                                                       |
-|  1  | O artefato possui introdução? | Sim | - |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica? | Sim | - |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim | - |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes? | Sim | - |
-|  5  | Todos os textos estão na norma padrão? | Sim | - | 
-| | **Rich Picture** |
-| 6 | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema?  | Sim | - |
-| 7 | Foi utilizada alguma técnica (brainstorming, storyboarding ou paper-based prototyping) na produção do rich picture?| Incompleto | Explicação deve ser mais detalhada |
-| 8 | O artefato está conciso? | Sim | - |
-| 9 | O rich picture consegue comunicar a sua ideia sem excesso de palavras? | Sim | - |
-| 10 | Ele conta uma história?  | Sim | - |
-| 11 | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo?   | Sim | - |
-| 12 | O rich picture dá uma ideia do que realmente está acontecendo?  | Sim | - |
-| 13 | Contém palavras-chave relevantes? | Sim | - |
-| 14 | Comunica mais ideias do que palavras?  | Sim | - |
-| 15 | Contém a explicação dos componentes?  | Sim | - |                                         
+|        ID        | Descrição                                                                                                           | Avaliação  |            Observações             |
+| :--------------: | ------------------------------------------------------------------------------------------------------------------- | :--------: | :--------------------------------: |
+| **Padronização** |                                                                                                                     |            |                                    |
+|        1         | O artefato possui introdução?                                                                                       |    Sim     |                 -                  |
+|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                        |    Sim     |                 -                  |
+|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?              |    Sim     |                 -                  |
+|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                        |    Sim     |                 -                  |
+|        5         | Todos os textos estão na norma padrão?                                                                              |    Sim     |                 -                  |
+| **Rich Picture** |                                                                                                                     |            |                                    |
+|        6         | O rich picture possui atores, operações, armazenamento de dados, setas e o limite do sistema?                       |    Sim     |                 -                  |
+|        7         | Foi utilizada alguma técnica (brainstorming, storyboarding ou paper-based prototyping) na produção do rich picture? | Incompleto | Explicação deve ser mais detalhada |
+|        8         | O artefato está conciso?                                                                                            |    Sim     |                 -                  |
+|        9         | O rich picture consegue comunicar a sua ideia sem excesso de palavras?                                              |    Sim     |                 -                  |
+|        10        | Ele conta uma história?                                                                                             |    Sim     |                 -                  |
+|        11        | O rich picture diz qual dado está sendo processado, qual está chegando ao sistema e qual informação está saindo?    |    Sim     |                 -                  |
+|        12        | O rich picture dá uma ideia do que realmente está acontecendo?                                                      |    Sim     |                 -                  |
+|        13        | Contém palavras-chave relevantes?                                                                                   |    Sim     |                 -                  |
+|        14        | Comunica mais ideias do que palavras?                                                                               |    Sim     |                 -                  |
+|        15        | Contém a explicação dos componentes?                                                                                |    Sim     |                 -                  |
 
-_Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovann Maciel](https://github.com/manuziny), 2023._
+_Fonte: Elaborada por [Gabriel Campello](https://github.com/G16C) e [Geovann Maciel](https://github.com/manuziny), 2023._
 
 </center>
 
@@ -65,9 +65,9 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Geovann Maciel](https://g
 
 ### ID 7 - Foi utilizada alguma técnica na produção do rich picture?
 
-No ID 7 observei que apesar de serem mostrados alguns aspectos da metodologia usada para a elaboração do rich picture, ainda está bem clara se foi adotada alguma tácnica (brainstorming, storyboarding ou paper-based prototyping), assim como definido nos slides da aula _Aula 04 da professora Milene e Maurício Serrano_<a id=anchor_1 href="#REF1"><sup>1</sup></a> para a sua construção.   
+No ID 7 observei que apesar de serem mostrados alguns aspectos da metodologia usada para a elaboração do rich picture, ainda está bem clara se foi adotada alguma tácnica (brainstorming, storyboarding ou paper-based prototyping), assim como definido nos slides da aula _Aula 04 da professora Milene e Maurício Serrano_<a id=anchor_1 href="#REF1"><sup>1</sup></a> para a sua construção.
 
-A adição dessa especificação traria melhor compreensão quanto à elaboração do artefato. 
+A adição dessa especificação traria melhor compreensão quanto à elaboração do artefato.
 
 ## Sugestões de Correção
 
@@ -88,9 +88,29 @@ A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incomp
 
 <iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS9WdDDy1_irqWIEXqr5sZeNEzN6WcuhfhOIFLuF9ppC0jHZqxNv-F6YKBTTAt3vq2UOUFXr3eELfXS/pubchart?oid=55592912&amp;format=interactive"></iframe>
 
-_Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
+_Fonte: Elaborado por [Gabriel Campello](https://github.com/G16C), 2023._
 
 </center>
+
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Douglas Alves](https://github.com/dougAlvs) e [Sidney Fernando](https://github.com/nando3d3)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                             |                Responsável(eis)                |                 Revisor(es)                 |      Status      |
+| :--------------: | :------------------------------------------------------------------------------------ | :--------------------------------------------: | :-----------------------------------------: | :--------------: |
+|    24/26/2023    | Detalhar de forma mais clara se alguma das técnicas foi utilizada.                    |  [Douglas Alves](https://github.com/dougAlvs)  | [Gabriel Campello](https://github.com/G16C) | :material-close: |
+|    24/06/2023    | A partir da adição do item anterior especificar para que essas técnicas foram usadas. | [Sidney Fernando](https://github.com/nando3d3) | [Gabriel Campello](https://github.com/G16C) | :material-close: |
+
+_Fonte: Elaborado por [Gabriel Campello](https://github.com/G16C), 2023._
+
+</center>
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 
@@ -104,6 +124,7 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 20/06/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) |  [Matheus Henrique](https://github.com/mathonaut)|
+| Versão | Data       | Descrição                                    | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | -------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| `1.0`  | 20/06/2023 | Criação da página.                           | [Gabriel Campello](https://github.com/G16C)      | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.1`  | 21/06/2023 | Ajustes no documento e adição do retrabalho. | [Matheus Henrique](https://github.com/mathonaut) | [Gabriel Campello](https://github.com/G16C)      |

@@ -22,7 +22,7 @@ Os participantes são os integrantes do grupo [Gabriel Campello](https://github.
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-|  [Gabriel Campello](ttps://github.com/G16C)| Avaliador |
+|    [Gabriel Campello](ttps://github.com/G16C)    | Avaliador |
 | [Matheus Henrique](https://github.com/mathonaut) |  Revisor  |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
@@ -37,26 +37,25 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID  | Descrição | Avaliação  | Observações |
-| :--: | ------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------: |
-|      | **Padronização**                                                                                       |
-|  1  | O artefato possui introdução? | Sim | - |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica? | Sim | - |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim | - |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes? | Sim | - |
-|  5  | Todos os textos estão na norma padrão? | Sim | - | 
-|     | **$100** |
-| 6 | A prorização foi realizada em conjunto com um usuário real?|   Sim  | - |
-| 6.1 | O usuário que participou se enquadrava no perfil de usuário estabelecido?|  Sim | - |
-| 7 | Os requisitos priorizados aviam sido previamente eleicitados?|  Sim | - | 
-| 7.1 | Os requisitos prioizados passaram por algum processo de validação?|  Incompleto | Falta detalhamento. |
-| 7.2 | Os requisitos piorizados tinham ID identificando de qual técnica de elicitação eles eram o provenientes? | Sim | - |
-| 8 |  Utilizou-se $100 para serem distribuidos entre os requisitos a fim de prioriza-los?  | Sim | - |
-| 9 | O processo de priorização levou em consideração a dependêcia entre requisitos? | Sim | - |
-| 9.1 | Os requisitos de maior prioridade são também os com mais dependências? | Sim | - |
-| 10 | Para o uso posterior dessa artefato, fase de modelagem, os requisitos foram separados de forma clara quanto a sua prioridade?  | Incompleto | - |
-| 10.1 | Os requisitos foram, posteriormente, separados por nível de prioridade?  | Não | - |
-
+|        ID        | Descrição                                                                                                                     | Avaliação  |     Observações     |
+| :--------------: | ----------------------------------------------------------------------------------------------------------------------------- | :--------: | :-----------------: |
+| **Padronização** |                                                                                                                               |            |                     |
+|        1         | O artefato possui introdução?                                                                                                 |    Sim     |          -          |
+|        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                  |    Sim     |          -          |
+|        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                        |    Sim     |          -          |
+|        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                  |    Sim     |          -          |
+|        5         | Todos os textos estão na norma padrão?                                                                                        |    Sim     |          -          |
+|     **$100**     |                                                                                                                               |            |                     |
+|        6         | A prorização foi realizada em conjunto com um usuário real?                                                                   |    Sim     |          -          |
+|       6.1        | O usuário que participou se enquadrava no perfil de usuário estabelecido?                                                     |    Sim     |          -          |
+|        7         | Os requisitos priorizados aviam sido previamente eleicitados?                                                                 |    Sim     |          -          |
+|       7.1        | Os requisitos prioizados passaram por algum processo de validação?                                                            | Incompleto | Falta detalhamento. |
+|       7.2        | Os requisitos piorizados tinham ID identificando de qual técnica de elicitação eles eram o provenientes?                      |    Sim     |          -          |
+|        8         | Utilizou-se $100 para serem distribuidos entre os requisitos a fim de prioriza-los?                                           |    Sim     |          -          |
+|        9         | O processo de priorização levou em consideração a dependêcia entre requisitos?                                                |    Sim     |          -          |
+|       9.1        | Os requisitos de maior prioridade são também os com mais dependências?                                                        |    Sim     |          -          |
+|        10        | Para o uso posterior dessa artefato, fase de modelagem, os requisitos foram separados de forma clara quanto a sua prioridade? | Incompleto |          -          |
+|       10.1       | Os requisitos foram, posteriormente, separados por nível de prioridade?                                                       |    Não     |          -          |
 
 _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -66,11 +65,11 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https:/
 
 ### ID 7.1
 
-No artefato, está explícito que os requisitos nele utilizados foram obtidos através de técnicas de elicitação. No entanto não está aparente se os dados obtidos foram de alguma forma validados, ou seja, se houve a reunião como PO para definir se esses requisitos estvam condizentes com o intuito do projeto. 
+No artefato, está explícito que os requisitos nele utilizados foram obtidos através de técnicas de elicitação. No entanto não está aparente se os dados obtidos foram de alguma forma validados, ou seja, se houve a reunião como PO para definir se esses requisitos estvam condizentes com o intuito do projeto.
 
 ### ID 10
 
-Segundo a literatura _Requirements (Developer Best Practices), 3rd Edition, Microsoft Press_<a id=anchor_2 href="#REF2"><sup>2</sup></a>, é importante que após a obtenção de dados vindos de alguma técnica de priorização, esses requisitos sejam separados de forma clara para que sejam reutilizados de forma eficiente em etapas posteriores do projeto. 
+Segundo a literatura _Requirements (Developer Best Practices), 3rd Edition, Microsoft Press_<a id=anchor_2 href="#REF2"><sup>2</sup></a>, é importante que após a obtenção de dados vindos de alguma técnica de priorização, esses requisitos sejam separados de forma clara para que sejam reutilizados de forma eficiente em etapas posteriores do projeto.
 
 ### ID 10.1
 
@@ -105,7 +104,7 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 > <a id="REF1" href="#anchor_1">1.</a> COURAGE, C. & BAXTER,K. Understending your users: a pratical guide to user requirements, methods, tools, and techniques. San Francisco: Morgan Kaufman Publishers, 2005.
 
-> <a id="REF2" href="#anchor_2">2.</a> WIEGERS, Karl; BEATTY, Joy.Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013..
+> <a id="REF2" href="#anchor_2">2.</a> WIEGERS, Karl; BEATTY, Joy. Software Requirements (Developer Best Practices), 3rd Edition, Microsoft Press, 2013..
 
 > <a id="REF3" href="#anchor_3">3.</a> HACKOS, J.T. & REDISH, J.C. User and task analysis for interface design. New York: John Wiley & Sons, 1998.
 
@@ -115,6 +114,6 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) |  [Matheus Henrique](https://github.com/mathonaut)|
+| Versão | Data       | Descrição          | Autor(es)                                   | Revisor(es)                                      |
+| ------ | ---------- | ------------------ | ------------------------------------------- | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) |

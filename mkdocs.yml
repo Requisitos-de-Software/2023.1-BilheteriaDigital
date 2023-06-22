@@ -111,7 +111,6 @@ nav:
               - $100: verificacao/grupo/entrega2/verificacao-$100.md
               - First Things First: verificacao/grupo/entrega2/verificacao-ftf.md
               - Three Level-Scale: verificacao/grupo/entrega2/verificacao-three-level-scale.md
-
           - Entrega 3:
               - Planejamento da Verificação da Entrega 3: verificacao/grupo/entrega3/planejamento-verificacao-e3-grupo.md
               - Caso de Uso: verificacao/grupo/entrega3/verificacao-caso-de-uso.md
@@ -123,8 +122,6 @@ nav:
               - NFR Framework: verificacao/grupo/entrega4/nfrframework.md
               - Backlog: verificacao/grupo/entrega4/verificacao-pdbacklog.md
               - Histórias de Usuário: verificacao/grupo/entrega4/verificacao-historia-de-usuario.md
-          - Entrega 5:
-              - Planejamento da Verificação da Entrega 5: verificacao/grupo/entrega5/planejamento-verificacao-e5-grupo.md
   - Validação:
       - Prototipação: validacao/prototipo.md
       - Comprovação Informal: validacao/validacao-informal.md

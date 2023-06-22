@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ## Cronograma e Participantes
 
-Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Geovanna Maciel](https://github.com/manuziny) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo).
+Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Geovanna Maciel](https://github.com/manuziny) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo). A tabela 1 apresenta os participantes.
 
 <center>
 
@@ -126,15 +126,29 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina.
 
+## Acompanhamento
+
+A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
+
+<center>
+
+**Figura 1** - Gráfico do resultado da verificação.
+
+<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=736083394&amp;format=interactive"></iframe>
+
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
+
+</center>
+
 ## Retrabalho
 
-Como por Fagan, para o retrabalho os autores do artefato ([Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                                                                         |                 Responsável(eis)                 |                   Revisor(es)                    | Status           |
+| Data de Correção | Descrição                                                                                                         |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
 | ---------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
 | 21/26/2023       | Colocar a tabela 1 depois o seu chamamento.                                                                       | [Matheus Henrique](https://github.com/mathonaut) |  [Geovanna Maciel](https://github.com/manuziny)  | :material-check: |
 | 21/06/2023       | Corrigir os erros ortográficos.                                                                                   | [Matheus Henrique](https://github.com/mathonaut) |  [Geovanna Maciel](https://github.com/manuziny)  | :material-check: |
@@ -152,20 +166,6 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 !!! info
     O cronograma apresentado na tabela 3 pode ser alterado.
 
-## Acompanhamento
-
-A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
-
-<center>
-
-**Figura 1** - Gráfico do resultado da verificação.
-
-<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=736083394&amp;format=interactive"></iframe>
-
-_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
-
-</center>
-
 ## Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
@@ -176,7 +176,7 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 21/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
+| Versão | Data       | Descrição                     | Autor(es)                                        | Revisor(es)                                    |
+| ------ | ---------- | ----------------------------- | ------------------------------------------------ | ---------------------------------------------- |
+| `1.0`  | 21/06/2023 | Criação da página.            | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 21/06/2023 | Corrigido os erros ID4 e ID5. | [Matheus Henrique](https://github.com/mathonaut) | [Geovanna Maciel](https://github.com/manuziny) |
