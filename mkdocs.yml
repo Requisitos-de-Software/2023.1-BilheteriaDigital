@@ -120,6 +120,10 @@ nav:
               - Backlog: verificacao/grupo/entrega4/verificacao-pdbacklog.md
           - Entrega 5:
               - Planejamento da Verificação da Entrega 5: verificacao/grupo/entrega5/planejamento-verificacao-e5-grupo.md
+  - Validação:
+      - Prototipação: validacao/prototipo.md
+      - Comprovação Informal: validacao/validacao-informal.md
+
 
 theme:
   name: material
