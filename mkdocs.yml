@@ -101,14 +101,14 @@ nav:
               - Rich Picture: verificacao/grupo/entrega1/verificacao-rich-picture.md
           - Entrega 2:
               - Planejamento da Verificação da Entrega 2: verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo.md
-              - Observação: verificacao/grupo/entrega2/verificacao-observacao.md
-              - First Things First: verificacao/grupo/entrega2/verificacao-ftf.md
               - Perfil de Usuário: verificacao/grupo/entrega2/verificacao-perfil-de-usuario.md
               - Personas: verificacao/grupo/entrega2/verificacao-personas.md
               - Introspecção: verificacao/grupo/entrega2/verificacao-introspeccao.md
               - Questionário: verificacao/grupo/entrega2/verificacao-questionario.md
               - Brainstorm: verificacao/grupo/entrega2/verificacao-brainstorming.md
+              - Observação: verificacao/grupo/entrega2/verificacao-observacao.md
               - $100: verificacao/grupo/entrega2/verificacao-$100.md
+              - First Things First: verificacao/grupo/entrega2/verificacao-ftf.md
               - Three Level-Scale: verificacao/grupo/entrega2/verificacao-three-level-scale.md
 
           - Entrega 3:
@@ -121,6 +121,7 @@ nav:
               - Planejamento da Verificação da Entrega 4: verificacao/grupo/entrega4/planejamento-verificacao-e4-grupo.md
               - NFR Framework: verificacao/grupo/entrega4/nfrframework.md
               - Backlog: verificacao/grupo/entrega4/verificacao-pdbacklog.md
+              - Histórias de Usuário: verificacao/grupo/entrega4/verificacao-historia-de-usuario.md
           - Entrega 5:
               - Planejamento da Verificação da Entrega 5: verificacao/grupo/entrega5/planejamento-verificacao-e5-grupo.md
   - Validação:
