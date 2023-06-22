@@ -4,7 +4,11 @@
 
 A técnica de observação de requisitos é uma abordagem importante para coletar informações sobre os requisitos de software. Essa técnica envolve observar usuários, processos e sistemas em ação, com o objetivo de entender as necessidades e desejos dos usuários finais, bem como as limitações e restrições do ambiente em que o aplicativo será utilizado. No entanto, essa técnica precisa de um usuário externo, o qual não foi possível encontrar. Dessa forma, o desenvolvedor [Rafael Ferreira](https://github.com/RafaelCLG0) interpretou o papel da persona [Pedro Matos](../personas.md).
 
-## Participantes
+## Metodologia
+
+Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os participantes explicitados na Tabela 1, no ambiente Microsoft Teams com o objetivo de realizar uma Observação Participativa, na qual cabe a interferência do Engenheiro de Software. Nessa, o [observador](https://github.com/arthurmlv) ficou responsável de instruir quais ações o usuário precisa realizar no aplicativo da Bilheteria Digital. Durante a análise, o usuário compartilhou a tela do celular e o observador foi ditando os caminhos que ele gostaria de analisar. Os requisitos levantados estão presentes nas Tabelas 2 e 3.
+
+### Participantes
 
 <font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
 
@@ -18,10 +22,6 @@ A técnica de observação de requisitos é uma abordagem importante para coleta
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
-
-## Metodologia
-
-Os integrantes se reuniram no dia 29/04/2023 das 14:00 às 15:00, com os participantes explicitados na Tabela 1, no ambiente Microsoft Teams com o objetivo de realizar uma Observação Participativa, na qual cabe a interferência do Engenheiro de Software. Nessa, o [observador](https://github.com/arthurmlv) ficou responsável de instruir quais ações o usuário precisa realizar no aplicativo da Bilheteria Digital. Durante a análise, o usuário compartilhou a tela do celular e o observador foi ditando os caminhos que ele gostaria de analisar. Os requisitos levantados estão presentes nas Tabelas 2 e 3.
 
 ### [Link para a gravação da observação.](https://www.youtube.com/watch?v=lvlobqw0rx8)
 
@@ -48,7 +48,7 @@ Legenda das Tabelas 2 e 3:
 | RF05 | O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obesas ou com deficiência, caso as tenha. | OBS05                                                  | Sim          |
 | RF06 | O aplicativo permite selecionar as poltronas especiais.                                                               | OBS06                                                  | Sim          |
 | RF07 | Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.                                          | OBS07                                                  | Sim          |
-| RF08 | Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.                                  | OBS08                                                  | Sim          |
+| RF08 | Caso o local do evento disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.                        | OBS08                                                  | Sim          |
 | RF09 | O aplicativo permite a doação por parte do usuário para fundações.                                                    | OBS09                                                  | Sim          |
 | RF10 | O aplicativo permite a realização da compra dos ingressos.                                                            | OBS10                                                  | Sim          |
 | RF11 | O aplicativo possui uma função para entrar em contato com o suporte.                                                  | OBS11                                                  | Sim          |

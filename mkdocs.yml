@@ -8,8 +8,9 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - pymdownx.caret
-  - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -100,7 +101,9 @@ nav:
               - Rich Picture: verificacao/grupo/entrega1/verificacao-rich-picture.md
           - Entrega 2:
               - Planejamento da Verificação da Entrega 2: verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo.md
-              - Perfil de Usuário: verificacao/grupo/entrega2/verificacao-perfil-de-usuario.md 
+              - Observação: verificacao/grupo/entrega2/verificacao-observacao.md
+              - First Things First: verificacao/grupo/entrega2/verificacao-ftf.md
+              - Perfil de Usuário: verificacao/grupo/entrega2/verificacao-perfil-de-usuario.md
               - Personas: verificacao/grupo/entrega2/verificacao-personas.md
               - Introspecção: verificacao/grupo/entrega2/verificacao-introspeccao.md
               - Questionário: verificacao/grupo/entrega2/verificacao-questionario.md
@@ -123,7 +126,6 @@ nav:
   - Validação:
       - Prototipação: validacao/prototipo.md
       - Comprovação Informal: validacao/validacao-informal.md
-
 
 theme:
   name: material
