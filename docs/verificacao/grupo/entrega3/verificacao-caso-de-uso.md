@@ -14,7 +14,7 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ## Cronograma e Participantes
 
-Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Douglas Alves](https://github.com/dougAlvs) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo).
+Os participantes são os integrantes do grupo [Matheus Henrique](https://github.com/mathonaut), que será responsável por realizar a verificação e a correção dos problemas encontrados. Além disso, o integrante do grupo [Douglas Alves](https://github.com/dougAlvs) realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e2-grupo). A tabela 1 apresenta os participantes dessa verificação.
 
 <center>
 
@@ -23,7 +23,7 @@ Os participantes são os integrantes do grupo [Matheus Henrique](https://github.
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
 | [Matheus Henrique](https://github.com/mathonaut) | Avaliador |
-|   [Douglas Alves](https://github.com/dougAlvs)   | Revisora  |
+|   [Douglas Alves](https://github.com/dougAlvs)   | Revisor  |
 
 _Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 

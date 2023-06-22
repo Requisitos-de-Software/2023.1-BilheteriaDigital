@@ -14,15 +14,28 @@ Os resultados da verificação do artefato foram obtidos a partir das checklists
 
 ## Cronograma e Participantes
 
-Os participantes serão os integrantes do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital): [Arthur de Melo](https://github.com/arthurmlv), que será responsável por realizar a avaliação e [Rafael Ferreira](https://github.com/RafaelCLG0), que realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e4-grupo).
-
-## Sumário Dos Dados
-
-A Tabela 1 apresenta a checklist com os dados obtidos a partir da verificação.
+Os participantes serão os integrantes do [Grupo 1](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital): [Arthur de Melo](https://github.com/arthurmlv), que será responsável por realizar a avaliação e [Rafael Ferreira](https://github.com/RafaelCLG0), que realizará a revisão do artefato produzido pelo avaliador. Em relação ao cronograma seguido, ele já foi explicitado na página de [planejamento](../planejamento-verificacao-e4-grupo). A tabela 1 apresenta os participantes dessa verificação.
 
 <center>
 
-**Tabela 1** - Checklist de Verificação.
+**Tabela 1** - Participantes da Verificação.
+
+|                   Participante                   |   Papel   |
+| :----------------------------------------------: | :-------: |
+| [Arthur de Melo](https://github.com/arthurmlv) | Avaliador |
+|   [Rafael Ferreira](https://github.com/RafaelCLG0)   | Revisor  |
+
+_Fonte: Elaborada por [Arthur de Melo](https://github.com/arthurmlv), 2023._
+
+</center> 
+
+## Sumário Dos Dados
+
+A Tabela 2 apresenta a checklist com os dados obtidos a partir da verificação.
+
+<center>
+
+**Tabela 2** - Checklist de Verificação.
 
 |  ID | Descrição                                                                                              | Avaliação     | Observações                                     |
 | --- | ------------------------------------------------------------------------------------------------------ | ------------- | ----------------------------------------------- |

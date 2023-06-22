@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela, os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [Cenários](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/), [Caso de Uso](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/) e [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/) produzido pelo [nosso próprio grupo (Grupo 1)](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/) na Etapa 3.
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela, os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta o planejamento da verificação dos artefatos de [Léxicos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/), [Cenários](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/), [Caso de Uso](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/) e [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/) produzido pelo [nosso próprio grupo (Grupo 1)](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/) na Etapa 3.
 
 ## Objetivos
 
