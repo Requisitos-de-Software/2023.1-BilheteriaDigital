@@ -126,6 +126,9 @@ nav:
   - Validação:
       - Prototipação: validacao/prototipo.md
       - Comprovação Informal: validacao/validacao-informal.md
+  - Pós-Rastreabilidade:
+      - Backward-From: posrastreabilidade/backward.md
+      - Forward-From: posrastreabilidade/forward.md
 
 theme:
   name: material
