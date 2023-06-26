@@ -129,6 +129,7 @@ nav:
   - Pós-Rastreabilidade:
       - Backward-From: posrastreabilidade/backward.md
       - Forward-From: posrastreabilidade/forward.md
+      - Matriz Geral: posrastreabilidade/matriz-geral.md
 
 theme:
   name: material
