@@ -36,7 +36,7 @@ Fonte: Meta-modelo de Toranzo (TORANZO, 2002)<a id="REF2" href="#anchor_2">^2^</
 
 ## Rastreabilidade
 
-Neste tópico, serão apresentadas as tabelas referentes aos elos dos artefatos analisados, que se referem aos requisitos não implementados pela Bilheteria Digital. Sendo assim, as Tabelas de 2 a 14 apresentam a rastreabilidade dos requisitos funcionais e não funcionais.
+Neste tópico, serão apresentadas as tabelas referentes aos elos dos artefatos analisados, que se referem aos requisitos implementados e não implementados pela Bilheteria Digital. Sendo assim, as Tabelas de 2 a 48 apresentam a rastreabilidade dos requisitos funcionais e não funcionais.
 
 ### RF01
 
@@ -107,7 +107,7 @@ O aplicativo permite realizar a compra do ingresso.
 
 <center>
 
-Tabela 2 - RF04
+Tabela 5 - RF04
 
 | [RF04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -128,7 +128,7 @@ O aplicativo permite o cadastro e o login do usuário.
 
 <center>
 
-Tabela 2 - RF05
+Tabela 6 - RF05
 
 | [RF05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -149,7 +149,7 @@ O aplicativo permite excluir cadastro.
 
 <center>
 
-Tabela 2 - RF06
+Tabela 7 - RF06
 
 | [RF06](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -170,7 +170,7 @@ O aplicativo permite cadastrar métodos de pagamento.
 
 <center>
 
-Tabela 2 - RF07
+Tabela 8 - RF07
 
 | [RF07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -191,7 +191,7 @@ O aplicativo permite cancelar compras.
 
 <center>
 
-Tabela 2 - RF08
+Tabela 9 - RF08
 
 | [RF08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -212,7 +212,7 @@ O aplicativo possui um mecanismo de busca.
 
 <center>
 
-Tabela 2 - RF09
+Tabela 10 - RF09
 
 | [RF09](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -233,7 +233,7 @@ O aplicativo filtra eventos por categorias.
 
 <center>
 
-Tabela 5 - RF10
+Tabela 11 - RF10
 
 | [RF10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -254,7 +254,7 @@ O aplicativo dá sugestões de eventos com base no histórico de buscas do usuá
 
 <center>
 
-Tabela 6 - RF11
+Tabela 12 - RF11
 
 | [RF11](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -275,7 +275,7 @@ O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a bu
 
 <center>
 
-Tabela 7 - RF12
+Tabela 13 - RF12
 
 | [RF12](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -296,7 +296,7 @@ O aplicativo notifica usuário sobre eventos, quando permitido.
 
 <center>
 
-Tabela 8 - RF13
+Tabela 14 - RF13
 
 | [RF13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -317,7 +317,7 @@ O usuário é capaz de filtrar eventos.
 
 <center>
 
-Tabela 9 - RF14
+Tabela 15 - RF14
 
 | [RF14](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -338,7 +338,7 @@ O usuário pode salvar os dados do cartão no app.
 
 <center>
 
-Tabela 9 - RF15
+Tabela 16 - RF15
 
 | [RF15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -359,7 +359,7 @@ O usuário pode fornecer sua localização.
 
 <center>
 
-Tabela 9 - RF16
+Tabela 17 - RF16
 
 | [RF16](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -380,7 +380,7 @@ O usuário pode acessar o calendário de eventos.
 
 <center>
 
-Tabela 9 - RF17
+Tabela 18 - RF17
 
 | [RF17](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -401,7 +401,7 @@ O usuário pode responder a pesquisa de perfil sobre seus gostos.
 
 <center>
 
-Tabela 9 - RF18
+Tabela 19 - RF18
 
 | [RF18](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -422,7 +422,7 @@ O usuário consegue acessar as informações do evento.
 
 <center>
 
-Tabela 9 - RF19
+Tabela 20 - RF19
 
 | [RF19](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -443,7 +443,7 @@ O usuário é capaz de acessar as atrações do evento.
 
 <center>
 
-Tabela 9 - RF20
+Tabela 21 - RF20
 
 | [RF20](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -464,7 +464,7 @@ O usuário possui acesso a pré-venda.
 
 <center>
 
-Tabela 9 - RF21
+Tabela 22 - RF21
 
 | [RF21](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -485,7 +485,7 @@ O usuário recebe a cópia do ingresso por e-mail.
 
 <center>
 
-Tabela 9 - RF22
+Tabela 23 - RF22
 
 | [RF22](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -506,7 +506,7 @@ O usuário é capaz de conectar uma carteira digital.
 
 <center>
 
-Tabela 9 - RF23
+Tabela 24 - RF23
 
 | [RF23](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -527,7 +527,7 @@ O usuário é capaz de mudar o idioma do app.
 
 <center>
 
-Tabela 10 - RF24
+Tabela 25 - RF24
 
 | [RF24](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -548,7 +548,7 @@ O usuário é capaz de aumentar a fonte.
 
 <center>
 
-Tabela 10 - RF25
+Tabela 26 - RF25
 
 | [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -563,178 +563,160 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https:
 
 </center>
 
-### RNF02
+### RNF01
 
-
-
-
-O app deve fornecer eventos direcionados.
-
-
-
+O app deve encriptar as informações do usuário.
 
 <center>
 
+Tabela 39 - RNF01
 
+| [RF01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar - CON03, CON04, CON07, CON08 e SUP08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Recurso | - |
+| Representação | - |
+| Alocado | [Épico 4 - Feature 8](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
+| Agregação | [História de Usuário - US11 e US24](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [Q10](../../elicitacao/tecnicas/questionario/#anchor_QNF) e [BS31](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF)|
 
+Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
-Tabela 11 - RNF02
+</center>
 
+### RNF02
 
+O app deve fornecer eventos direcionados.
 
+<center>
+
+Tabela 40 - RNF02
 
 | [RF02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar - USA01, DES01 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Satisfação | [Especificação Suplementar - USA01, CON02, DES01 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
 | Recurso | - |
 | Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> |
-| Alocado | [Léxico 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos) <br> [Épico 5 - Padronização - 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) <br> [NFR - Usabilidade](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade)|
-| Agregação | [História de Usuário - US12](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [IS10](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [Q11](../../elicitacao/tecnicas/questionario/#anchor_QNF), [BS35](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS36](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF) e [OBS22](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
-
-
-
+| Alocado | [Léxico 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos) <br> [Épico 5 - Features 4 e 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> [NFR - Usabilidade](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade)|
+| Agregação | [História de Usuário - US21 e US12](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [IS10](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [Q11](../../elicitacao/tecnicas/questionario/#anchor_QNF), [BS35](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS36](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF) e [OBS22](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-
-
 
 </center>
 
 ### RNF03
 
-
-
-
 O app deve disponibilizar todas as informações do evento em uma página.
-
-
-
 
 <center>
 
-
-
-
-Tabela 12 - RNF03
-
-
-
+Tabela 41 - RNF03
 
 | [RNF03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar - USA01 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho)  | 
+| Satisfação | [Especificação Suplementar - USA01 ,CON02 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) | 
 | Recurso | - | 
 | Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
-| Alocado | [NFR - Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia)<br> [Épico 5 - Padronização - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
-| Agregação | [História de Usuário - US13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [IS11](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [BS25](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS26](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS27](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS28](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS29](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS30](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [OBS15](<(../../elicitacao/tecnicas/observacao/#anchor_OBSNF)>) e [OBS16](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
-
-
-
+| Alocado | [NFR - Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia)<br> [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
+| Agregação | [História de Usuário - US13 e US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [IS11](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [BS25](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS26](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS27](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS28](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS29](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [BS30](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF), [OBS15](<(../../elicitacao/tecnicas/observacao/#anchor_OBSNF)>) e [OBS16](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
-
-
-
 
 </center>
 
 ### RNF04
 
-
-
-
 A compra deve ser feita em no máximo 5 páginas.
-
-
-
 
 <center>
 
-
-
-
-Tabela 13 - RNF04
-
-
-
+Tabela 42 - RNF04
 
 | [RNF04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar - USA04, USA05 e USA06](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Satisfação | [Especificação Suplementar - USA01, USA04, USA05, USA06 e DES04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
 | Recurso | - |
 | Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
 | Alocado | [NFR - Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia)<br> |
 | Agregação | Requisitos: [IS13](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [IS16](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [Q14](../../elicitacao/tecnicas/questionario/#anchor_QNF), [OBS17](../../elicitacao/tecnicas/observacao/#anchor_OBSNF), [OBS18](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) e [IS14](../../elicitacao/tecnicas/introspeccao/#anchor_IS) |
 
+Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
+</center>
 
+### RNF05
+
+O app deve permitir a resolução de problemas sem uma interação com um humano.
+
+<center>
+
+Tabela 43 - RNF05
+
+| [RNF05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar - USA01, USA04, USA06, CON01, CON02, CON05, CON08, CON09, DES03, DES04, DES05, RAU01 e RAU04 ](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: [IS12](../../elicitacao/tecnicas/introspeccao/#anchor_IS), [Q15](../../elicitacao/tecnicas/questionario/#anchor_QNF), [Q16](../../elicitacao/tecnicas/questionario/#anchor_QNF), [OBS19](../../elicitacao/tecnicas/observacao/#anchor_OBSNF), [BS33](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF) e [BS34](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF) |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
+</center>
 
+### RNF06
 
+O app deve permitir o cadastro e login em uma tela separada.
+
+<center>
+
+Tabela 44 - RNF06
+
+| [RNF06](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar - USA01, USA02, USA03, USA04, USA06, CON01, CON02, CON05, DES02, DES03, DES04 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Recurso | - |
+| Representação | - |
+| Alocado | [Épicos 3 e 5 - Features 6 e 11](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) |
+| Agregação | [História de Usuário - US27 e US25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [IS15](../../elicitacao/tecnicas/introspeccao/#anchor_IS) |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 </center>
 
 ### RNF07
 
-
-
-
 O app não deve ter tempo de resposta superior a 200 ms.
-
-
-
 
 <center>
 
-
-
-
-Tabela 14 - RNF07
-
-
-
+Tabela 45 - RNF07
 
 | [RNF07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar - DES02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
+| Representação | - |
 | Alocado | [NFR - Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) <br> |
 | Agregação | Requisitos: [Q12](../../elicitacao/tecnicas/questionario/#anchor_QNF) |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
-
-
-
 </center>
 
 ### RNF08
 
-
-
-
 O app deve permitir a filtragem dos eventos cadastrados no banco de dados.
-
-
-
 
 <center>
 
-
-
-
-Tabela 15 - RNF08
-
-
-
+Tabela 46 - RNF08
 
 | [RNF08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
@@ -742,18 +724,52 @@ Tabela 15 - RNF08
 | Satisfação | [Especificação Suplementar - USA01, DES01 e DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
 | Recurso | [Casos de Uso - UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/) <br> [Cenário 01, 02, 03 e 04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1) |
 | Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
-| Alocado | [Léxico 01 e 03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Épico 1 e 5 - Categorizar e Padronização - Feature 1, 2 e 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
+| Alocado | [Léxico 01 e 03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Épicos 1 e 5 - Features 1, 2 e 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
 | Agregação | [História de Usuário - US01, US02, US04, US12, US13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos:  [Q13](../../elicitacao/tecnicas/questionario/#anchor_QNF) |
-
-
-
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
+</center>
 
+### RNF09
 
+O app deve mostrar as informações de compras do usuário em uma única tela.
+
+<center>
+
+Tabela 47 - RNF09
+
+| [RNF09](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar - USA01, CON01, CON02, CON06, CON07, DES05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Recurso | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
+| Alocado | [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar) <br> |
+| Agregação | [História de Usuário - US019](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12) <br> Requisitos: [BS32](../../elicitacao/tecnicas/brainstorming/#anchor_BSNF) e [OBS21](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 </center>
+
+### RNF10
+
+O app deve permitir o acesso às informações do usuário em até 3 cliques.
+
+<center>
+
+Tabela 48 - RNF10
+
+| [RNF10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar - USA01, USA04, USA06, CON02, CON08, DES04, ](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
+| Recurso | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>   |
+| Alocado | - |
+| Agregação | Requisitos: [OBS20](../../elicitacao/tecnicas/observacao/#anchor_OBSNF) |
+
+Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
 
 ## Referências Bibliográficas
@@ -768,5 +784,6 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https:
 | --- | --- | --- | --- | --- |
 | 1.0 | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | 1.1 | 25/06/2023 | Requisitos Não-Funcionais | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| 1.2 | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 
 
