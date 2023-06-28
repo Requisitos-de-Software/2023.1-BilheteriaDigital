@@ -640,7 +640,7 @@ Tabela 30 - RF29
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>     [História de Usuário US15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15)|
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> [História de Usuário US15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15)|
 | Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS04</a> |
 
@@ -755,7 +755,7 @@ Fonte: [Gabriel Campello](https://github.com/G16C).
 
 ### RF35
 
-OO aplicativo possui uma função para entrar em contato com o suporte.
+O aplicativo possui uma função para entrar em contato com o suporte.
 
 <center>
 
@@ -764,9 +764,9 @@ Tabela 36 - RF35
 | [RF35](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | - |
+| Satisfação | [Especificação Suplementar SUPO5](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) <br> [Especificação Suplementar RAU02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)|
 | Recurso | - |
-| Representação | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS11</a> |
 
@@ -785,9 +785,9 @@ Tabela 37 - RF36
 | [RF36](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | - |
+| Satisfação | [Especificação Suplementar CON03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) <br> [Especificação Suplementar CON06](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) <br> [Especificação Suplementar SUP07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) |
 | Recurso | - |
-| Representação | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS13</a> |
 
@@ -806,7 +806,7 @@ Tabela 38 - RF37
 | [RF37](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | - |
+| Satisfação | [Especificação Suplementar SUP08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
