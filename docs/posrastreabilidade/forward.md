@@ -563,6 +563,260 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https:
 
 </center>
 
+
+### RF26
+
+O usuário é capaz de dar zoom.
+
+<center>
+
+Tabela 27 - RF26
+
+| [RF26](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | [História de Usuário US30](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us30) |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF27
+
+O usuário é capaz de acessar a assistente virtual.
+
+<center>
+
+Tabela 28 - RF27
+
+| [RF27](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar SUP05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) |
+| Recurso | [Léxico 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS23</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF28
+
+O  usuário é capaz de compartilhar o evento.
+
+<center>
+
+Tabela 29 - RF28
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | - |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação |  Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS03</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS24</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF29
+
+O aplicativo permite escolher a quantidade de ingressos que o usuário deseja comprar.
+
+<center>
+
+Tabela 30 - RF29
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1)e |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS04</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF30
+
+O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obesas ou com deficiência, caso as tenha.	
+
+<center>
+
+Tabela 31 - RF30
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS05</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF31
+
+O aplicativo permite selecionar as poltronas especiais.
+
+<center>
+
+Tabela 32 - RF31
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS06</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF32
+
+Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.
+
+<center>
+
+Tabela 33 - RF32
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS07</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF33
+
+Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.
+
+<center>
+
+Tabela 34 - RF33
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS08</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF34
+
+O aplicativo permite a doação por parte do usuário para fundações.
+
+<center>
+
+Tabela 35 - RF34
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS09</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF35
+
+OO aplicativo possui uma função para entrar em contato com o suporte.
+
+<center>
+
+Tabela 36 - RF35
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS11</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF36
+
+O aplicativo permite ao usuário alterar seus dados.
+
+<center>
+
+Tabela 37 - RF36
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS13</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+### RF37
+
+O aplicativo possui uma função que auxilia na recuperação da conta do usuário.
+
+<center>
+
+Tabela 38 - RF37
+
+| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| :----------------------: | -------------------- |
+| Tipos de Elo | Artefatos Relacionados |
+| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Recurso | - |
+| Representação | - |
+| Alocado | - |
+| Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS14</a> |
+
+Fonte: [Gabriel Campello](https://github.com/G16C).
+
+</center>
+
+
 ### RNF01
 
 O app deve encriptar as informações do usuário.
