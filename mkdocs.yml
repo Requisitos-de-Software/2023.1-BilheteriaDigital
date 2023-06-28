@@ -127,7 +127,7 @@ nav:
       - Prototipação: validacao/prototipo.md
       - Comprovação Informal: validacao/validacao-informal.md
   - Rastreabilidade:
-      - Matriz Geral: matriz-geral.md
+      - Matriz Geral: rastreabilidade/matriz-geral.md
       - Pré-Rastreabilidade: rastreabilidade/pre-rastreabilidade.md
       - Pós-Rastreabilidade: rastreabilidade/pos-rastreabilidade.md
 
