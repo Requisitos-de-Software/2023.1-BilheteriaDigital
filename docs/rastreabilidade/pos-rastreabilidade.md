@@ -114,9 +114,8 @@ Tabela 5 - RF04
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) <br> [Cartão de Especificação 3](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) |
 | Recurso | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
-| Representação | <font><figure markdown>![Compra de ingresso](site\assets\posrastreabilidade\RF04.jpg){: style="height:250px;width:250px"} | 
+| Representação | <font><figure markdown>![Compra de ingresso](site/assets/posrastreabilidade/RF04.jpg){: style="height:250px;width:250px"} | 
 | Alocado | - |
-
 | Agregação |  [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [História de Usuário US07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us07) <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS04</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS03</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS10</a> |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
@@ -136,7 +135,7 @@ Tabela 6 - RF05
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [História de Usuário US09](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us09) <br> [História de Usuário US25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us25) <br> [História de Usuário US28](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us28) |
 | Recurso | [História de Usuário US27](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us27) <br> [Épico 3 - Feature 6](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) |
-| Representação | - |
+| Representação | <font><figure markdown>![Compra de ingresso](site/assets/posrastreabilidade/RF05.jpg){: style="height:250px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS05</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS01, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS02</a> |
 
@@ -157,7 +156,7 @@ Tabela 7 - RF06
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | - |
+| Representação | <font><figure markdown>![](site/assets/posrastreabilidade/RF06.jpg){: style="height:250px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisito:  <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS06</a> |
 
@@ -178,7 +177,7 @@ Tabela 8 - RF07
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) <br> [Especificação Suplementar CON03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) |
 | Recurso | [Casos de Uso UC03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso)  |
-| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [Épico 2 - Feature 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) |
+| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [Épico 2 - Feature 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) <br> <font><figure markdown>![](site/assets/posrastreabilidade/RF07.jpg){: style="height:250px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS07</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q08, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS15</a> |
 
@@ -220,7 +219,7 @@ Tabela 10 - RF09
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
 | Recurso | [Léxico 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Léxico 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags) <br> [Cenário 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1) <br> [Cenário 02](https://requisitos-de-software.github.io/2023.2-BilheteriaDigital/modelagem/cenarios/#cenario-2) <br> [Cenário 03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3) <br> [Cenário 04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4) |
-| Representação | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) |
+| Representação | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) <br> <font><figure markdown>![](site/assets/posrastreabilidade/RF09.jpg){: style="height:250px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS09</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q01</a>, <a href="../../elicitacao/tecnicas/brainstorm/#anchor_BS">BS04</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS02</a> |
 
