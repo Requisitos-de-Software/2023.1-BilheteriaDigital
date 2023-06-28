@@ -114,7 +114,7 @@ Tabela 5 - RF04
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) <br> [Cartão de Especificação 3](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) |
 | Recurso | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
-| Representação | <font><figure markdown>![Compra de ingresso](docs/assets/rastreabilidade/RF04.jpg){: style="height:250px;width:250px"} | 
+| Representação | <font><figure markdown>![Compra de ingresso](../assets/rastreabilidade/RF04.jpg){: style="height:500px;width:250px"} | 
 | Alocado | - |
 | Agregação |  [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [História de Usuário US07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us07) <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS04</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS03</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS10</a> |
 
@@ -135,7 +135,7 @@ Tabela 6 - RF05
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [História de Usuário US09](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us09) <br> [História de Usuário US25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us25) <br> [História de Usuário US28](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us28) |
 | Recurso | [História de Usuário US27](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us27) <br> [Épico 3 - Feature 6](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) |
-| Representação | <font><figure markdown>![Compra de ingresso](docs/assets/rastreabilidade/RF05.jpg){: style="height:250px;width:250px"} |
+| Representação | <font><figure markdown>![Compra de ingresso](../assets/rastreabilidade/RF05.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS05</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS01, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS02</a> |
 
@@ -156,7 +156,7 @@ Tabela 7 - RF06
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | <font><figure markdown>![](site/assets/posrastreabilidade/RF06.jpg){: style="height:250px;width:250px"} |
+| Representação | <font><figure markdown>![](../assets/rastreabilidade/RF06.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisito:  <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS06</a> |
 
@@ -177,7 +177,7 @@ Tabela 8 - RF07
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) <br> [Especificação Suplementar CON03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) |
 | Recurso | [Casos de Uso UC03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso)  |
-| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [Épico 2 - Feature 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF07.jpg){: style="height:250px;width:250px"} |
+| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [Épico 2 - Feature 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) <br> <font><figure markdown>![](../assets/rastreabilidade/RF07.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS07</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q08, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS15</a> |
 
@@ -219,7 +219,7 @@ Tabela 10 - RF09
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
 | Recurso | [Léxico 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Léxico 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags) <br> [Cenário 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1) <br> [Cenário 02](https://requisitos-de-software.github.io/2023.2-BilheteriaDigital/modelagem/cenarios/#cenario-2) <br> [Cenário 03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3) <br> [Cenário 04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4) |
-| Representação | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF09.jpg){: style="height:250px;width:250px"} |
+| Representação | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) <br> <font><figure markdown>![](../assets/rastreabilidade/RF09.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS09</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q01</a>, <a href="../../elicitacao/tecnicas/brainstorm/#anchor_BS">BS04</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS02</a> |
 
@@ -324,7 +324,7 @@ Tabela 15 - RF14
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | [Cartão de Especificação 5](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF14.jpg) |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](../assets/rastreabilidade/RF14.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) |
 | Agregação | [Léxico 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Léxico 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags) <br> [Cenário 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1) <br> [Cenário 02](https://requisitos-de-software.github.io/2023.2-BilheteriaDigital/modelagem/cenarios/#cenario-2) <br> [Cenário 03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3) <br> [Cenário 04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4) <br> Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS05</a> |
 
@@ -345,7 +345,7 @@ Tabela 16 - RF15
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
 | Recurso | [Especificação Suplementar CON03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) |
-| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF15.jpg)|
+| Representação | [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> <font><figure markdown>![](../assets/rastreabilidade/RF15.jpg){: style="height:650px;width:250px"} |
 | Alocado | [Histórias de Usuário US17](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us17) <br> [Épico 3 - Feature 6](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) |
 | Agregação | Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS07</a> |
 
@@ -387,7 +387,7 @@ Tabela 18 - RF17
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar DES01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho) |
 | Recurso | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) <br>  [Épico 1 - Feature 1](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF17.jpg)|
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](../assets/rastreabilidade/RF17.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Cenário 02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-2) <br> [Léxico 01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) <br> [Histórias de Usuário US04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us04) |
 | Agregação | Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS10</a> |
 
@@ -429,7 +429,7 @@ Tabela 20 - RF19
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar CON02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) |
 | Recurso | [Casos de Uso UC01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso) <br> [Léxico 04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos) |
-| Representação | [Cartão de Especificação 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) <br> [Histórias de Usuário US13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us13) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF19.jpg) |
+| Representação | [Cartão de Especificação 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) <br> [Histórias de Usuário US13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us13) <br> <font><figure markdown>![](../assets/rastreabilidade/RF19.jpg){: style="height:700px;width:250px"}  |
 | Alocado | - |
 | Agregação | [Histórias de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) <br> Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS13</a> |
 
@@ -492,7 +492,7 @@ Tabela 23 - RF22
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
 | Recurso | - |
-| Representação | [Histórias de Usuário US18](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF22.jpg)|
+| Representação | [Histórias de Usuário US18](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18) <br> <font><figure markdown>![](../assets/rastreabilidade/RF22.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia) <br> [Histórias de Usuário US14](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us14) |
 | Agregação | Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS17</a> |
 
@@ -619,7 +619,7 @@ Tabela 29 - RF28
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF28.jpg) |
+| Representação | <br> <font><figure markdown>![](../assets/rastreabilidade/RF28.jpg){: style="height:500px;width:250px"}  |
 | Alocado | - |
 | Agregação |  Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS03</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS24</a> |
 
@@ -640,7 +640,7 @@ Tabela 30 - RF29
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> [História de Usuário US15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF29.jpg)|
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> [História de Usuário US15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15) <br> <font><figure markdown>![](../assets/rastreabilidade/RF29.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS04</a> |
 
@@ -661,7 +661,7 @@ Tabela 31 - RF30
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF30E31.jpg)|
+| Representação | [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) <br> <font><figure markdown>![](../assets/rastreabilidade/RF31E30.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) <br> [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao)|
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS05</a> |
 
@@ -682,7 +682,7 @@ Tabela 32 - RF31
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação |  [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF30E31.jpg) |
+| Representação |  [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) <br> <font><figure markdown>![](../assets/rastreabilidade/RF31E30.jpg){: style="height:500px;width:250px"} |
 | Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) <br> [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao) |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS06</a> |
 
@@ -703,7 +703,7 @@ Tabela 33 - RF32
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF32.jpg) |
+| Representação | <br> <font><figure markdown>![](../assets/rastreabilidade/RF32.jpg){: style="height:500px;width:270px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS07</a> |
 
@@ -724,7 +724,7 @@ Tabela 34 - RF33
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF33.jpg) |
+| Representação | <br> <font><figure markdown>![](../assets/rastreabilidade/RF33.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS08</a> |
 
@@ -745,7 +745,7 @@ Tabela 35 - RF34
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
 | Recurso | - |
-| Representação | <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF34.jpg) |
+| Representação | <br> <font><figure markdown>![](../assets/rastreabilidade/RF34.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS09</a> |
 
@@ -766,7 +766,7 @@ Tabela 36 - RF35
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar SUPO5](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) <br> [Especificação Suplementar RAU02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line)|
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF35.jpg) |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](../assets/rastreabilidade/RF35.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS11</a> |
 
@@ -787,7 +787,7 @@ Tabela 37 - RF36
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar CON03](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) <br> [Especificação Suplementar CON06](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade) <br> [Especificação Suplementar SUP07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) |
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](docs/assets/rastreabilidade/RF.36jpg) |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br> <font><figure markdown>![](../assets/rastreabilidade/RF36.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS13</a> |
 
@@ -808,7 +808,7 @@ Tabela 38 - RF37
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar SUP08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade) |
 | Recurso | - |
-| Representação | <font><figure markdown>![](docs/assets/rastreabilidade/RF37.jpg) |
+| Representação | <font><figure markdown>![](../assets/rastreabilidade/RF37.jpg){: style="height:500px;width:250px"} |
 | Alocado | - |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS14</a> |
 
@@ -1025,6 +1025,7 @@ Tabela 48 - RNF10
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
 
+</center>
 
 ## Referências Bibliográficas
 
@@ -1039,6 +1040,7 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https:
 | 1.0 | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | 1.1 | 25/06/2023 | Requisitos Não-Funcionais | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | 1.2 | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| 1.3 | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)
+| 1.3 | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)|
+| 1.3.1 | 28/06/2023 | Redimensionamento das imagens | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)|
 
 
