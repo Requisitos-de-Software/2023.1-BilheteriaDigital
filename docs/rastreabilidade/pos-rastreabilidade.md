@@ -114,8 +114,9 @@ Tabela 5 - RF04
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | [Especificação Suplementar USA04](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) <br> [Cartão de Especificação 3](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao) |
 | Recurso | [Especificação Suplementar USA05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
-| Representação | - |
+| Representação | <font><figure markdown>![Compra de ingresso](site\assets\posrastreabilidade\RF04.jpg){: style="height:250px;width:250px"} | 
 | Alocado | - |
+
 | Agregação |  [Cenário 05](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5) <br> [História de Usuário US07](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us07) <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS04</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS03</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS10</a> |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).
