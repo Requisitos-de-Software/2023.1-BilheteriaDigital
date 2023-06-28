@@ -614,7 +614,7 @@ O  usuário é capaz de compartilhar o evento.
 
 Tabela 29 - RF28
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF28](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
 | Satisfação | - |
@@ -635,13 +635,13 @@ O aplicativo permite escolher a quantidade de ingressos que o usuário deseja co
 
 Tabela 30 - RF29
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
-| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1)e |
-| Alocado | - |
+| Representação | [Protótipo de Alta Fidelidade](https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&type=design&node-id=107-1118&viewport=29390%2C34193%2C3.02&scaling=min-zoom&starting-point-node-id=107%3A1118&show-proto-sidebar=1) <br>     [História de Usuário US15](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15)|
+| Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS04</a> |
 
 Fonte: [Gabriel Campello](https://github.com/G16C).
@@ -656,13 +656,13 @@ O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obe
 
 Tabela 31 - RF30
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF30](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
-| Representação | - |
-| Alocado | - |
+| Representação | [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) |
+| Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) <br> [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao)|
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS05</a> |
 
 Fonte: [Gabriel Campello](https://github.com/G16C).
@@ -677,13 +677,13 @@ O aplicativo permite selecionar as poltronas especiais.
 
 Tabela 32 - RF31
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF31](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
-| Representação | - |
-| Alocado | - |
+| Representação |  [História de Usuário US08](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08) <br> [História de Usuário US29](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29) |
+| Alocado | [Épico 4 - Feature 9](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca) <br> [Épico 5 - Feature 10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao) |
 | Agregação | Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS06</a> |
 
 Fonte: [Gabriel Campello](https://github.com/G16C).
@@ -698,10 +698,10 @@ Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.
 
 Tabela 33 - RF32
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF32](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
@@ -719,10 +719,10 @@ Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da pol
 
 Tabela 34 - RF33
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF33](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
@@ -740,10 +740,10 @@ O aplicativo permite a doação por parte do usuário para fundações.
 
 Tabela 35 - RF34
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF34](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
@@ -761,10 +761,10 @@ OO aplicativo possui uma função para entrar em contato com o suporte.
 
 Tabela 36 - RF35
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF35](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
@@ -782,10 +782,10 @@ O aplicativo permite ao usuário alterar seus dados.
 
 Tabela 37 - RF36
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF36](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
@@ -803,10 +803,10 @@ O aplicativo possui uma função que auxilia na recuperação da conta do usuár
 
 Tabela 38 - RF37
 
-| [RF25](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
+| [RF37](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais)     | Desenvolvimento |
 | :----------------------: | -------------------- |
 | Tipos de Elo | Artefatos Relacionados |
-| Satisfação | [Especificação Suplementar USA02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade) |
+| Satisfação | - |
 | Recurso | - |
 | Representação | - |
 | Alocado | - |
