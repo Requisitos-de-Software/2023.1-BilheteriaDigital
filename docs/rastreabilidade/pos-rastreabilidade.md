@@ -15,11 +15,11 @@ O meta-modelo utilizado como base para a realização da rastreabilidade foi pro
 
 Além disso, fez-se uma adaptação do meta-modelo de Toranzo para a realização da rastreabilidade forward-from, a qual explicita a conexão entre artefatos de desenho e de implementação aos requisitos elicitados. Nesse modelo, os elos são definidos por: satisfação, recurso, responsabilidade, representação, alocado e agregação<a id="REF2" href="#anchor_2">^2^</a>. No entanto, o elo de resposabilidade não será abordado neste artefato, dado que as informações presentes nos artefatos impede a realização de tal rastreabilidade.
 
-A rastreabilidade foi feita somente nos requisitos não implementados pela Bilheteria Digital, sendo alguns implementados no protótipo de alta fidelidade feito para a [Validação](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/validacao/prototipo/).
+A rastreabilidade foi feita somente nos requisitos não implementados pela Bilheteria Digital, sendo alguns implementados no protótipo de alta fidelidade feito para a [Validação](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/validacao/prototipo/). A tabela 1 mostra o template utilizado para a pós-rastreabilidade dos requisitos.
 
 <center>
 
-Tabela 1 - Template Forward-from
+Tabela 1 - Template Pós-Rastreabilidade
 
 | <span style = "color: red">Artefato Analisado</span>     | Classificação do Artefato Analisado |
 | :----------------------: | :--------------------: |
