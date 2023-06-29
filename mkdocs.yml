@@ -41,7 +41,7 @@ nav:
       - Ata 10: atas/Requisitos_Ata_10.md
       - Ata 11: atas/Requisitos_Ata_11.md
   - Pré-Rastreabilidade:
-      - Rich Picture: rastreabilidade/rich_picture.md
+      - Rich Picture: pre-rastreabilidade/rich_picture.md
   - Planejamento:
       - Aplicativo escolhido: planejamento/aplicativo.md
       - Ferramentas: planejamento/ferramentas.md
@@ -126,9 +126,10 @@ nav:
   - Validação:
       - Prototipação: validacao/prototipo.md
       - Comprovação Informal: validacao/validacao-informal.md
-  - Pós-Rastreabilidade:
-      - Backward-From: posrastreabilidade/backward.md
-      - Forward-From: posrastreabilidade/forward.md
+  - Rastreabilidade:
+      - Matriz Geral: rastreabilidade/matriz-geral.md
+      - Pré-Rastreabilidade: rastreabilidade/pre-rastreabilidade.md
+      - Pós-Rastreabilidade: rastreabilidade/pos-rastreabilidade.md
 
 theme:
   name: material

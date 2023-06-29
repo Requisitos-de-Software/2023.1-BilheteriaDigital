@@ -64,7 +64,7 @@ Na Tabela 3, tem-se o cronograma planejado para todas as atividades da segunda e
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ### Executado
-A Tabela 4 ainda há de ser atualizada. No entanto, realizar-se-á a correção da tabela assim que as atividades forem realizadas.
+Na Tabela 4, tem-se o cronograma executado para todas as atividades da segunda entrega.
 
 <font size="3"><p style="text-align: center"><b>Tabela 4</b> - Elicitação</p></font>
 
@@ -102,7 +102,7 @@ Na Tabela 5, tem-se o cronograma planejado para todas as atividades da terceira 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ### Executado
-Na Tabela 6, tem-se o cronograma planejado para todas as atividades da terceira entrega.
+Na Tabela 6, tem-se o cronograma executado para todas as atividades da terceira entrega.
 
 <font size="3"><p style="text-align: center"><b>Tabela 6</b> - Modelagem de Requisitos 1</p></font>
 
@@ -136,7 +136,7 @@ Na Tabela 7, tem-se o cronograma planejado para todas as atividades da quarta en
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ### Executado
-Na Tabela 8, tem-se o cronograma planejado para todas as atividades da quarta entrega.
+Na Tabela 8, tem-se o cronograma executado para todas as atividades da quarta entrega.
 
 <font size="3"><p style="text-align: center"><b>Tabela 8</b> - Modelagem de Requisitos 1.2</p></font>
 
@@ -167,7 +167,7 @@ Na Tabela 9, tem-se o cronograma planejado para todas as atividades da entrega 5
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
 ### Executado
-Na Tabela 10, tem-se o cronograma planejado para todas as atividades da quinta entrega.
+Na Tabela 10, tem-se o cronograma executado para todas as atividades da quinta entrega.
 
 <font size="3"><p style="text-align: center"><b>Tabela 10</b> - Modelagem de Requisitos 1.2</p></font>
 
@@ -204,12 +204,26 @@ Na Tabela 11, tem-se o cronograma planejado para todas as atividades da entrega 
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
+### Executado
+Na Tabela 12, tem-se o cronograma executado para todas as atividades da quinta entrega.
+
+<font size="3"><p style="text-align: center"><b>Tabela 12</b> - Análise de Requisitos 1.2</p></font>
+
+| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
+|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
+|   Verificação por inspeção de todos os artefatos              	| Início: 18/06<br>Fim: 21/06    	| Rafael, Gabriel e Matheus 	| Início: 22/06 Fim: 22/06 	| Sidney           	|
+|   Validação: Prototipação e Comprovação Informal            	| Início: 20/06<br>Fim: 21/06    	| Geovanna, Sidney, Douglas e Arthur        	| Início: 02/06 Fim: 04/06 	| Gabriel          	|
+|   Gravação da Apresentação e Entrega                        	| Início: 21/06<br>Fim: 21/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 22/06 Fim: 22/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 24/06<br>Fim: 24/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 25/06<br>Fim: 25/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
+
+<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
 ## Entrega 6 - Pós-Rastreabilidade
 
 ### Planejado
-Na Tabela 12, tem-se o cronograma planejado para todas as atividades da entrega 5.2.
+Na Tabela 13, tem-se o cronograma planejado para todas as atividades da sexta entrega.
 
-<font size="3"><p style="text-align: center"><b>Tabela 12</b> - Análise de Requisitos 1.2</p></font>
+<font size="3"><p style="text-align: center"><b>Tabela 13</b> - Pós-Rastreabilidade.</p></font>
 
 | Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
 |----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
@@ -217,6 +231,21 @@ Na Tabela 12, tem-se o cronograma planejado para todas as atividades da entrega 
 |   Pós-rastreabilidade: Forward-form                         	| Início: 08/06<br>Fim: 10/06    	| Matheus, Gabriel, Rafael e Arthur  	| Início: 10/06 Fim: 12/06 	| Sidney e Geovanna 	|
 |   Gravação da Apresentação e Entrega                        	| Início: 12/06<br>Fim: 13/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 13/06 Fim: 14/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
 |   Correção pós apresentação	| Início: 15/06<br>Fim: 20/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 21/06<br>Fim: 03/07 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
+
+<font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
+
+### Executado
+Na Tabela 14, tem-se o cronograma executado para todas as atividades da sexta entrega.
+
+<font size="3"><p style="text-align: center"><b>Tabela 14</b> - Pós-Rastreabilidade.</p></font>
+
+| Atividade                                                            	| Período de desenvolvimento 	| Responsáveis                      	| Revisão                 	| Revisores        	|
+|----------------------------------------------------------------------	|----------------------------	|-----------------------------------	|-------------------------	|------------------	|
+| Pós-rastreabilidade                 	| Início: 24/06<br>Fim: 28/06    	| Geovanna, Sidney e Douglas         	| Início: 29/06 Fim: 30/06 	| Arthur e Gabriel  	|
+|   Pré-rastreabilidade:                          	| Início: 08/06<br>Fim: 10/06    	| Gabriel, Rafael e Arthur  	| Início: 10/06 Fim: 12/06 	| Sidney	|
+| Matriz de Rastreabilidade | Início: 24/06<br>Fim: 28/06 | Matheus | Início: 29/06 Fim: 30/06 | Rafael |
+|   Gravação da Apresentação e Entrega                        	| Início: 28/06<br>Fim: 28/06    	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney                             	| Início: 29/06 Fim: 29/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney            	|
+|   Correção pós apresentação	| Início: 30/06<br>Fim: 03/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	| Início: 04/06<br>Fim: 04/06 	| Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney 	|
 
 <font size="3"><p style="text-align: center">Fonte: Autores.</p></font>
 
