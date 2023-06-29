@@ -128,7 +128,6 @@ nav:
       - Comprovação Informal: validacao/validacao-informal.md
   - Rastreabilidade:
       - Matriz Geral: rastreabilidade/matriz-geral.md
-      - Pré-Rastreabilidade: rastreabilidade/pre-rastreabilidade.md
       - Pós-Rastreabilidade: rastreabilidade/pos-rastreabilidade.md
 
 theme:
