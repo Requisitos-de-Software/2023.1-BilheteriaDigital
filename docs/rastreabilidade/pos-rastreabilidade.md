@@ -2495,5 +2495,6 @@ Tabela 48 - RNF10
 | 1.2 | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | 1.3 | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)x
 | 1.3.1 | 28/06/2023 | Redimensionamento das imagens | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)|
+| 1.3.2 | 29/06/2023 | Melhora na visibilidade dos elos | [Douglas Alves](https://github.com/dougAlvs) |  [Sidney Fernando](https://github.com/nando3d3)|
 
 
