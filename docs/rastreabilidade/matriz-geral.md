@@ -1,10 +1,14 @@
 ## Introdução
 
-A matriz geral é um documento que permite a apresentação dos requisitos elicitados no projeto juntamente com sua pré e pós rastreabilidade~6.
+A matriz geral é um documento que permite a apresentação dos requisitos elicitados no projeto juntamente com sua pré e pós rastreabilidade. Essa matriz, estruturada em forma de tabela, estabelece uma conexão cruzada entre os requisitos e os documentos correspondentes.
+
+Ao utilizar essa técnica de referências e documentos cruzados, é possível identificar e destacar as dependências existentes entre os requisitos. Além disso, a matriz geral também permite a inclusão de elos que evidenciam o relacionamento entre os artefatos criados ao longo do projeto.
+
+Em suma, a matriz geral, por meio de sua abordagem estruturada e de sua capacidade de estabelecer referências cruzadas e elos, desempenha um papel fundamental na análise e compreensão dos requisitos, fornecendo uma visão completa e detalhada das relações entre os elementos do projeto.
 
 ## Objetivos
 
-Esse artefato tem como objetivo agregar os resultados obtidos nos artefatos de Backward-From e Forward-From em uma única matriz de rastreabilidade.
+Esse artefato tem como objetivo agregar os resultados obtidos nos artefatos de Backward-From e Forward-From em uma única matriz de rastreabilidade. 
 
 ## Metodologia
 
@@ -90,6 +94,8 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), [Douglas Alves](https:
 > LUIZA, Ana. Matriz Geral. Repositório do Grupo MEI - Microempreendedor Individual da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: <<https://requisitos-de-software.github.io/2022.2-MEI/Pos-Rastreabilidade/MatrizGeral/>>. Acesso em: 25 junho 2023.
 
 > CASTRO, Samuel; HENRIQUE, Breno. Matriz Geral. Repositório do Grupo LinkedIn da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: <<https://requisitos-de-software.github.io/2022.2-LinkedIn/pos-rastreabilidade/matrizGeral/>>. Acesso em: 25 junho 2023.
+
+> SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 25 de jun de 2023.
 
 ## Histórico de Versões
 
