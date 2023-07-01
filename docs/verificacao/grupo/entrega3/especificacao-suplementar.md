@@ -127,10 +127,10 @@ Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henr
 
 | Data de Correção | Descrição                                                |                 Responsável(eis)                 |                  Revisor(es)                   |      Status      |
 | ---------------- | :------------------------------------------------------- | :----------------------------------------------: | :--------------------------------------------: | :--------------: |
-| 25/26/2023       | Corrigir o requisito USA01 de Usabilidade.               | [Matheus Henrique](https://github.com/mathonaut) | [Arthur de Melo](https://github.com/arthurmlv) | :material-close: |
-| 25/06/2023       | Corrigir os requisitos SUP01 e SUP04 de Suportabilidade. | [Matheus Henrique](https://github.com/mathonaut) | [Arthur de Melo](https://github.com/arthurmlv) | :material-close: |
-| 25/06/2023       | Justificar a ausência dos Requisitos de Interface.       | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) | :material-close: |
-| 25/06/2023       | Relacionar os léxicos, quando possível.                  | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) | :material-close: |
+| 01/07/2023       | Corrigir o requisito USA01 de Usabilidade.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Corrigir os requisitos SUP01 e SUP04 de Suportabilidade. | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Justificar a ausência dos Requisitos de Interface.       | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Relacionar os léxicos.                  | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
@@ -150,3 +150,4 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                      | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ---------------------------------------------- | ------------------------------------------------ |
 | `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |

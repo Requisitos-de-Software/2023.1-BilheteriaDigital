@@ -14,7 +14,7 @@ O objetivo da BILHETERIA DIGITAL PROMOCAO E ENTRETENIMENTO LTDA é facilitar o m
 
 ## Metodologia
 
-Para a produção desse artefato será utilizado uma versão modificada do FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos). Nessa versão os requisitos de interface, além da seção de componentes adquiridos serão omitidos.
+Para a produção desse artefato será utilizado uma versão modificada do FURPS+, que é uma metodologia na qual os requisitos são dividido nas seguintes categorias: F de Functionality (Funcionalidade), U de Usability (Usabilidade), R de Reliability (Confiabilidade), P de Performance (Desempenho), S de Supportability (Suportabilidade) e + que engloba outros requisitos não-funcionais (Requisitos de design, Requisitos de implementação, Requisitos de interface e Requisitos físicos). Nessa versão os requisitos de interface, além da seção de componentes adquiridos serão omitidos, dado que são atributos já especificados em outros artefatos, como os requisitos não-funcionais elicitados pelas técnicas de [Observação](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/observacao/), de [Introspecção](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/introspeccao/), de [Questionário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/questionario/) e de [Brainstorming](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/brainstorming/).
 
 ## Funcionalidade
 
@@ -22,7 +22,7 @@ Os requisitos funcionais foram elicitados na seção de elicitação e a [tabela
 
 ## Usabilidade
 
-Diz respeito ao quão fácil é para o usuário realizar uma tarefa com a aplicação.
+Diz respeito ao quão fácil é para o [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) realizar uma tarefa com a aplicação.
 
 Para essa categoria os requisitos identificados estão representados na tabela 1 a seguir.
 
@@ -32,12 +32,12 @@ Para essa categoria os requisitos identificados estão representados na tabela 1
 
 | ID    | Descrição                                                                                                                                |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| USA01 | O sistema deve ter um design minimalista, com ícones e cores que facilitem a compreensão do que está ocorrendo.                          |
-| USA02 | O sistema deve possuir recursos de acessibilidade como teclado virtual, opção de alto contraste, aumento de fonte e audiodescrição.      |
-| USA03 | O sistema deve dar feedback ao usuário, com pop ups e mensagens.                                                                         |
-| USA04 | O sistema deve possuir caminhos curtos, com tarefas complexas sendo finalizada em no máximo 7 cliques.                                   |
+| USA01 | O sistema deve apresentar cores compatíveis com a opção de alto contraste, e os botões das ações principais ou críticas devem ser de cor vermelha.                          |
+| USA02 | O sistema deve possuir recursos de acessibilidade como teclado virtual, [mudar idioma](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l06-mudar-idioma), opção de alto contraste, aumento de fonte e audiodescrição.      |
+| USA03 | O sistema deve dar feedback ao [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario), com pop ups e mensagens, por exemplo, ao [notificar eventos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos) e ao [sugerir eventos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos).                                                                         |
+| USA04 | O sistema deve possuir caminhos curtos, com tarefas complexas sendo finalizadas em no máximo 7 cliques.                                   |
 | USA05 | O sistema deve fornecer no mínimo as quatro principais formas de pagamentos: Boleto Bancário, Pix, Cartão de crédito e Cartão de débito. |
-| USA06 | O sistema deve evitar que o usuário realize passos repetitivos.                                                                          |
+| USA06 | O sistema deve evitar que o [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) realize passos repetitivos.                                                                          |
 
 </center>
 
@@ -57,12 +57,12 @@ Para essa categoria os requisitos identificados estão representados na tabela 2
 | ----- | --------------------------------------------------------------------------------------------------------------------------------- |
 | CON01 | O sistema deve ser acessível 24 horas por dia, 7 dias por semana.                                                                 |
 | CON02 | O sistema deve possuir as informações atualizadas e condizentes com a realidade.                                                  |
-| CON03 | O sistema deve manter íntegra as informações sobre o usuário e seus meios de pagamentos.                                          |
+| CON03 | O sistema deve manter íntegra as informações sobre o [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) e seus meios de pagamentos.                                          |
 | CON04 | O sistema deve seguir a Lei Geral de Proteção de Dados (LGPD).                                                                    |
-| CON05 | O sistema deve permitir que o usuário se recupere de problemas e erros com no máximo 3 cliques.                                   |
-| CON06 | O sistema deve deixar claro e de fácil acesso toda e qualquer informação sobre taxas aplicada aos usuários.                       |
-| CON07 | O sistema deve possuir backups dos dados dos usuários e eventos.                                                                  |
-| CON08 | O sistema deve impedir que o usuário realize atividades que possa colocar a integridade do sistema e de outros usuários em risco. |
+| CON05 | O sistema deve permitir que o [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) se recupere de problemas e erros com no máximo 3 cliques.                                   |
+| CON06 | O sistema deve deixar claro e de fácil acesso toda e qualquer informação sobre taxas aplicada aos [usuários](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario).                       |
+| CON07 | O sistema deve possuir backups dos dados dos [usuários](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) e eventos.                                                                  |
+| CON08 | O sistema deve impedir que o [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) realize atividades que possa colocar a integridade do sistema e de outros usuários em risco. |
 | CON09 | O sistema deve ser distribuído em diversos servidores.                                                                            |
 
 </center>
@@ -79,7 +79,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 3
 
 | ID    | Descrição                                                                                          |
 | ----- | -------------------------------------------------------------------------------------------------- |
-| DES01 | O sistema deve, mostrar como padrão no máximo 20 eventos por página.                               |
+| DES01 | O sistema deve, mostrar como padrão no máximo 20 eventos por página, por exemplo, ao fazer uma busca com [filtragem de eventos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos).                               |
 | DES02 | O sistema não deve ter um tempo de resposta superior a 200ms.                                      |
 | DES03 | O sistema deve permitir mais de 1 milhão requisições por segundo.                                  |
 | DES04 | O sistema deve possuir uma navegação fluida, sem engasgo e caminhos seguindo uma sequência lógica. |
@@ -97,11 +97,11 @@ Para essa categoria os requisitos identificados estão representados na tabela 4
 
 | ID    | Descrição                                                                                                                                                                                                                                                                  |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SUP01 | O sistema deve possuir uma documentação clara e abrangente para facilitar a manutenção e o suporte.                                                                                                                                                                        |
+| SUP01 | O sistema deve possuir uma documentação separada em tópicos (ao menos 10 tópicos principais) e que apresente grande parte das dúvidas mais frequentes.                                                                                                                                                                        |
 | SUP02 | O sistema deve possuir uma facilidade de manutenção através de uma estrutura modular e código bem organizado.                                                                                                                                                              |
 | SUP03 | O sistema deve possuir uma capacidade de extensão para adicionar novas funcionalidades e acompanhar as mudanças.                                                                                                                                                           |
-| SUP04 | O sistema deve possuir uma facilidade de atualização com processos eficientes e sem interrupções significativas.                                                                                                                                                           |
-| SUP05 | O sistema deve possuir um suporte ao usuário com canais adequados de suporte e equipe disponível.                                                                                                                                                                          |
+| SUP04 | O sistema deve possuir uma facilidade de atualização com processos eficientes (de até 200ms) e sem interrupções significativas, que ultrapassem o tempo limite de resposta.                                                                                                                                                           |
+| SUP05 | O sistema deve possuir um suporte ao [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) com canais adequados de suporte e equipe disponível.                                                                                                                                                                          |
 | SUP06 | O sistema deve possuir uma testabilidade, com facilidade de realização de testes durante o desenvolvimento e a manutenção.                                                                                                                                                 |
 | SUP07 | O sistema deve possuir uma rastreabilidade com mecanismos para registrar e rastrear mudanças e correções ao longo do tempo, incluindo controle de versão e registros de alterações.                                                                                        |
 | SUP08 | O sistema deve possuir uma tolerância a falhas para garantir que o sistema possa lidar com falhas adequadamente, por meio de mecanismos de recuperação, detecção de falhas, manutenção da integridade dos dados, backups regulares e restauração rápida em caso de falhas. |
@@ -133,7 +133,7 @@ Para essa categoria os requisitos identificados estão representados na tabela 5
 | ID    | Descrição                                                                                                                                            |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | RAU01 | O sistema deve disponibilizar uma seção com as perguntas e respostas mais frequentes.                                                                |
-| RAU02 | O tempo de resposta para um pedido de ajuda do usuário não pode ultrapassar 1 dia.                                                                   |
+| RAU02 | O tempo de resposta para um pedido de ajuda do [usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario) não pode ultrapassar 1 dia.                                                                   |
 | RAU03 | O sistema não pode ter mais de 20 aberturas de chamados de problemas para cada 100 compras.                                                          |
 | RAU04 | O sistema deve permitir a resolução dos problemas mais comuns na compra de ingresso, como reembolso e troca de dados sem a intervenção de um humano. |
 
@@ -178,3 +178,4 @@ O sistema deve funcionar em computadores de mesa e laptops, além de tablets e s
 | `1.0`  | 12/05/2023 | Criação da página.                                                                                                                                                                                                          | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 12/05/2023 | Adição dos tópicos: Requisitos de Funcionalidade, de Usabilidade, de Confiabilidade, de Desempenho, de Implementação, de Sistema de Ajuda, de Licenciamento, Restrições de Design, Observações Legais e Padrões Aplicáveis. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.2`  | 16/05/2023 | Adição dos tópicos: Requisitos de Suportabilidade.                                                                                                                                                                          | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.3`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |

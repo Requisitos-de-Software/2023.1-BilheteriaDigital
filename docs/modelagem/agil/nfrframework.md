@@ -220,7 +220,7 @@ Os Requisitos utilizados para a confecção da Figura 5 estão presentes na Tabe
 
 </figure>
 
-<font size="3"><p style="text-align: center"> Fonte: Autores</p></font>
+<font size="3"><p style="text-align: center"> Fonte: [Arthur de Melo](https://github.com/arthurmlv)</p></font>
 
 
 
@@ -239,7 +239,7 @@ Na Tabela 6, estão listados os RNF presentes no NFR Famework de Usabilidade :
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
 | Adaptação (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve ser adaptativo às atividades do usuário. | Usabilidade | Sugestões |
-| Disponibilidade (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve disponibilizar as informações. | Usabilidade | Usabilidade |
+| Acessibilidade (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve disponibilizar as informações. | Usabilidade | Usabilidade |
 | Exibir Inf. do Evento (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve exibir as informações do evento específico. | Usabilidade | Informações Relevantes |
 | Sugestões Gerais (<a id="anchor_FE3" href="#FE3">FE3</a>) | O sistema deve exibir as sugestões padrões antes de se ter uma atividade do usuário no site, feitas com base no [Usuário](../../lexicos/#l05-usuario). | Usabilidade | Sugestões |
 
@@ -262,7 +262,7 @@ A seguir, na Tabela 7, temos a avaliação da propagação dos impactos relativa
 |Adaptação| 𝒲-|[Gabriel Campello](https://github.com/G16C)|
 |Sugestões Gerais| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
 |Atividade do Usuário| ✓ |[Gabriel Campello](https://github.com/G16C)|
-|Disponibilidade| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
+|Acessibilidade| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
 |Busca| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
 |Filtro| 𝒲-|[Gabriel Campello](https://github.com/G16C)|
 |Opções de Filtro| X|[Gabriel Campello](https://github.com/G16C)|
@@ -294,8 +294,8 @@ Os Requisitos utilizados para a confecção da Figura 6 estão presentes na Tabe
 
 Legenda:
 
-- Processar Rapidamente: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
-- Informações Suficientes: informações suficientemente relevantes para a realização de um processo.
+- Processar em até 200ms: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
+- Apresentar 5 categorias de informações: informações suficientemente relevantes para a realização de um processo.
 
 ### Requisitos Não-Funcionais - Eficiência
 
@@ -307,9 +307,9 @@ Na Tabela 8, estão listados os RNF presentes no NFR Famework de Eficiência:
 
 | RNF (Fonte) | Descrição | Classificação | Origem |
 |-------------|---------|-------|-------|
-| Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Eficiência | Limitações |
-| Limite de Páginas (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação do espaço ocupado. | Eficiência | Limitações |
-| Apresentar Informações (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve exibir as informações do evento específico. | Eficiência | Limite de Páginas |
+| Processar em até 200ms (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição de 200ms. | Eficiência | Tempo de Resposta e Processar Requisitos |
+| Limite de 5 Páginas (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma limitação da quantidade de páginas para a realização de uma tarefa. | Eficiência | Limite de Páginas |
+| Apresentar 5 categorias de informações (<a id="anchor_FE1" href="#FE1">FE1</a>) | O sistema deve exibir as informações do evento específico. | Eficiência | Apresentar Informações e Limite de 5 páginas |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
@@ -334,10 +334,10 @@ Na Tabela 9, está presente a avaliação da propagação dos impactos referente
 |Limitações| ✓|[Gabriel Campello](https://github.com/G16C)|
 |Limite de Páginas| 𝒲+|[Gabriel Campello](https://github.com/G16C)|
 |Apresentar Informações| ✓|[Gabriel Campello](https://github.com/G16C)|
-|Informações Suficientes| ✓|[Gabriel Campello](https://github.com/G16C)|
+|Apresentar 5 categorias de informações| ✓|[Gabriel Campello](https://github.com/G16C)|
 |Limite de 5 Páginas| X|[Gabriel Campello](https://github.com/G16C)|
 |Tempo de Resposta| ✓ |[Gabriel Campello](https://github.com/G16C)|
-|Processar Rapidamente| ✓ |[Gabriel Campello](https://github.com/G16C)|
+|Processar em até 200ms| ✓ |[Gabriel Campello](https://github.com/G16C)|
 
 
 Fonte: [Gabriel Campello](https://github.com/G16C)
@@ -362,7 +362,7 @@ Os Requisitos utilizados para a confecção da Figura 7 estão presentes na Tabe
 Legenda:
 
 - Ordem Lógica: uma compra deve aplicar a ordem lógica observada na vida real.
-- Limite de páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.
+- Limite de 5 páginas: refere-se ao <a id="anchor_NF03" href="#NF03">RNF03</a>, o qual limita a quantidade de páginas em até 5 para a compra.
 - Velocidade: refere-se ao <a id="anchor_NF04" href="#NF04">RNF04</a>, o qual limita o tempo de resposta a 200ms.
 
 ### Requisitos Não-Funcionais - Desempenho
@@ -378,7 +378,7 @@ Na Tabela 10, estão listados os RNF presentes no NFR Famework de Desempenho :
 | Tempo de Resposta (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) |  O sistema deve possuir uma limitação superior do tempo de processamento de uma requisição. | Desempenho | Desempenho |
 | Infraestrutura (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir uma infraestrutura para processar os dados. | Desempenho | Tempo de Resposta |
 | Servidores (<a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve possuir servidores para perdurar os dados. | Desempenho | Infraestrutura |
-| Manutenção (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Infraestrutura |
+| Manutenção em tempo real (<a id="anchor_FE1" href="#FE1">FE1</a> e <a id="anchor_FE2" href="#FE2">FE2</a>) | O sistema deve ser capaz de realizar a manutenção dos servidores e de outros aspectos da infraestrutura. | Desempenho | Servidores e Infraestrutura |
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 
@@ -398,14 +398,14 @@ Na Tabela 11, está presente a avaliação da propagação dos impactos referent
 |Realizar Ações| 🗲|[Arthur de Melo](https://github.com/arthurmlv)|
 |Compra| 🗲|[Arthur de Melo](https://github.com/arthurmlv)|
 |Ordem Lógica| ✓|[Arthur de Melo](https://github.com/arthurmlv)|
-|Ações Rápidas|  X|[Arthur de Melo](https://github.com/arthurmlv)|
-|Limite de Páginas| 𝒲-|[Arthur de Melo](https://github.com/arthurmlv)|
+|Processar em até 200ms|  X|[Arthur de Melo](https://github.com/arthurmlv)|
+|Limite de 5 páginas| 𝒲-|[Arthur de Melo](https://github.com/arthurmlv)|
 |Velocidade| 𝒲-|[Arthur de Melo](https://github.com/arthurmlv)|
 |Processar Corretamente| ✓|[Arthur de Melo](https://github.com/arthurmlv)|
 |Tempo de Resposta| 𝒲+|[Arthur de Melo](https://github.com/arthurmlv)|
 |Infraestrutura| 𝒲+|[Arthur de Melo](https://github.com/arthurmlv)|
 |Servidores| 𝒲+ |[Arthur de Melo](https://github.com/arthurmlv)|
-|Manutenção| ✓ |[Arthur de Melo](https://github.com/arthurmlv)|
+|Manutenção em tempo real| ✓ |[Arthur de Melo](https://github.com/arthurmlv)|
 
 
 Fonte: [Arthur de Melo](https://github.com/arthurmlv)
@@ -480,11 +480,12 @@ Fonte: [Arthur de Melo](https://github.com/arthurmlv)
 | ------ | ---------- | -------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 22/05/2023 | Introdução, SIG, Tipos de Softgoal e Interdependências.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.1`  | 22/05/2023 | SIG Usabilidade e Desempenho | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.1`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.4`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.5`  | 22/05/2023 | Avaliação Impactos Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.6`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
-| `1.7`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
-| `1.8`  | 23/05/2023 | Adição dos Cartões 1 a 3 e refatoração de Tabelas  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
-| `1.9`  | 23/05/2023 | Adição dos Cartões 4 e 5  |  [Sidney Fernando](https://github.com/nando3d3)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.2`  | 22/05/2023 | SIG Eficiência | [Arthur de Melo](https://github.com/arthurmlv), [Gabriel Campello](https://github.com/G16C) e [Sidney Fernando](https://github.com/nando3d3)   | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.3`  | 22/05/2023 | Adição Notações de Impacto e Avaliação Impactos Usabilidade  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.4`  | 22/05/2023 | Avaliação Impactos Eficiência  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.5`  | 23/05/2023 | Cartões de Especificação e Avaliação Impactos Desempenho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
+| `1.6`  | 23/05/2023 | Requisitos Elicitados e hyperlinks.| [Arthur de Melo](https://github.com/arthurmlv)   | [Geovanna Maciel](https://github.com/manuziny)   |
+| `1.7`  | 23/05/2023 | Adição dos Cartões 1 a 3 e refatoração de Tabelas  |  [Gabriel Campello](https://github.com/G16C)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.8`  | 23/05/2023 | Adição dos Cartões 4 e 5  |  [Sidney Fernando](https://github.com/nando3d3)  | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.9`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
 
