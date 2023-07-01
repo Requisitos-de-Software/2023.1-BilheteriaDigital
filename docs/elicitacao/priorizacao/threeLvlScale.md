@@ -90,34 +90,34 @@ Legenda das tabelas:
 
 | Tipo |             Descrição            |   ID   | Prioridade |
 |------|----------------------------------|--------|-------|
-| RNF01 	| O app deve exibir a duração do evento 	| BS25	| Alta|
-| RNF02 	| O app deve exibir a quantidade de assentos disponíveis 	| BS26 	| Alta
-| RNF03 	| O app deve exibir a capacidade do evento 	|  BS27	| Alta
-| RNF04 	| O deve exibir a faixa etária do evento	| BS28	| Alta
-| RNF05 	| O app exibir a data do evento 	|  BS29	| Alta
-| RNF06 	| O app deve exibir a porcentagem de ingressos comprados 	| BS30 	| Baixa
-| RNF07 	| O app deve fornecer segurança na compra do usuário 	| BS31 	| Alta
-| RNF08 	| O app deve ter a aba "Meus Ingressos"  	| BS32 	| Alta
-| RNF09 	| O app deve ter a aba "FAQ" 	| BS33/IS12/OBS19/Q15 	| Media
-| RNF10 	|  O app deve exibir um e-mail para contato	| BS34	| Alta
-| RNF11 	| O app deve exibir sugestões de eventos de acordo com os gostos do usuário 	|  BS35/Q11	| Media
-| RNF12	| O app deve salvar a a localização do usuário 	|  BS36	| Media
-| RNF13 |  Deve possuir uma página que explicita os eventos da região selecionada.  | IS10/OBS15 | Alta |
-| RNF14 |  Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.   | IS11/OBS16 | Alta |
-| RNF15 |  Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.  | IS13 | Alta |
-| RNF16 |  Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos.  | IS14 | Alta |
+| RNF01 	| O app deve exibir a duração do evento ao lado da informação do local. 	| BS25	| Alta|
+| RNF02 	| O app deve atualizar a quantidade de assentos disponíveis em tempo real. 	| BS26 	| Alta
+| RNF03 	| O app deve exibir a capacidade restante do evento atualizada em tempo real. 	|  BS27	| Alta
+| RNF04 	| O deve exibir a faixa etária do evento de forma destacada.	| BS28	| Alta
+| RNF05 	| O app exibir a data do evento destacada próxima ao nome do evento. 	|  BS29	| Alta
+| RNF06 	| O app deve exibir a porcentagem de ingressos comprados atualizada em tempo real. 	| BS30 	| Baixa
+| RNF07 	| O app deve fornecer segurança na compra do usuário. 	| BS31 	| Alta
+| RNF08 	| O usuário deve ser capaz de visualizar seus ingressos com apenas 2 cliques.  	| BS32 	| Alta
+| RNF09 	| O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques. 	| BS33/IS12/OBS19/Q15 	| Media
+| RNF10 	|  O app deve exibir um e-mail para contato no footer.	| BS34	| Alta
+| RNF11 	| O aplicativo deve disponibilizar em sua interface eventos de acordo com as preferências do usuário. 	|  BS35/Q11	| Media
+| RNF12	| O app deve armazenar a localização do usuário e se adaptar de acordo com tal. 	|  BS36	| Media
+| RNF13 |  O sistema deve alocar os eventos de acordo com a região selecionada a fim de facilitar a busca e a filtragem.  | IS10/OBS15 | Alta |
+| RNF14 |  Deve possuir, na página do evento, uma descrição sobre o local, a qual possui data, horário, valor e informações sobre o evento que pode ser acessada em, no máximo, 3 cliques.   | IS11/OBS16 | Alta |
+| RNF15 |  Deve dar um feedback sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.  | IS13 | Alta |
+| RNF16 |  Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos.  | IS14 | Alta |
 | RNF17 |  Deve possuir uma tela para cadastro e login.  | IS15 | Alta|
 | RNF18 |  Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.  | IS16 | Alta |
-| RNF19 |  Deve apresentar uma tela de confirmação da poltrona selecionada. | OBS17 | Alta  |
-| RNF20 |  Deve apresentar uma página de confirmação das informações do pedido. | OBS18 |  Alta |
-| RNF21 |  Deve apresentar uma tela com os dados da conta.  | OBS20 | Media  |
-| RNF22 |  Deve apresentar uma página com o histórico de pedidos do usuário. | OBS21 | Alta |
-| RNF23 |  Deve apresentar uma tela com as regiões para filtrar os eventos |OBS22| Alta  | 
+| RNF19 |  Deve adaptar a tela de seleção de poltronas de acordo com as poltronas já escolhidas. | OBS17 | Alta  |
+| RNF20 |  Deve apresentar ao usuário o feedback da confirmação de suas ações. | OBS18 |  Alta |
+| RNF21 |  Deve apresentar uma tela com os dados da conta com ao menos uma etapa de segurança.  | OBS20 | Media  |
+| RNF22 |  Deve apresentar uma página com o histórico de pedidos do usuário em dois cliques. | OBS21 | Alta |
+| RNF23 |  Deve apresentar uma tela com as regiões para filtrar os eventos. |OBS22| Alta  | 
 | RNF24 | O aplicativo deve proteger os dados de cadastro e compra dos usuários.  | Q10 | Alta  |
 | RNF25 | As notificações do aplicativo devem ser fornecidas em tempo hábil.  |Q12 | Alta  |
-| RNF26| O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.  |Q13 | Alta  |
+| RNF26 | O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.  |Q13 | Alta  |
 | RNF27 | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas) | Q14 |  Alta |
-| RNF28 | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos | Q16 | Alta  |
+| RNF28 | O sistema deve alertar imediatamente ao usuário problemas ou erros relacionados a compra de ingressos. | Q15 | Alta  |
 
 </center>
 
@@ -133,6 +133,8 @@ Legenda das tabelas:
 
 ## Histórico de Versões
 
-Versão  | Data | Descrição | Autor(es) | Revisor(es)
----------- | -----  | ------ | ---------- | ----------
- 1.0 | 30/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)
+| Versão  | Data | Descrição | Autor(es) | Revisor(es) |
+| ---------- | -----  | ------ | ---------- | ---------- |
+| `1.0` | 30/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
+ 

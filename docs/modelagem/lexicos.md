@@ -35,7 +35,7 @@ Para a confeccção dos léxicos, utilizamos a notação do Léxico Ampliado da 
 
 ## Léxicos
 
-### <a id="L01" href="#anchor_L01" style="color:white;"> L01: Filtrar Eventos</a>
+### <a id="L01" href="#anchor_L01" style="color:red;"> L01: Filtrar Eventos</a>
 
 O primeiro Léxico, presente na Tabela 3, faz o uso dos seguintes requisitos não implementados: filtrar por Estado e por Município (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a>), filtrar por data e por horário (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>), filtrar por idade mínima de entrada (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>) e filtrar por categorias (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>).
 
@@ -46,13 +46,13 @@ O primeiro Léxico, presente na Tabela 3, faz o uso dos seguintes requisitos nã
 |-----------------|-------|
 | Classificação | Verbo |
 | Impacto | Os eventos são listados de acordo com o filtro requisitado | 
-| Noção | O <a id="#anchor_L05" href="#L05">usuário</a> interessado em visualizar ou comprar algum ingresso filtra os eventos na busca |
+| Noção | O <a id="#anchor_L05" href="#L05">usuário</a> está interessado na compra de um ingresso ou na visualização de um evento <br> O usuário escolhe os filtros desejados <br> O usuário realiza a busca com os filtros  |
 | Dicionário | Aprimorar busca, Restringir busca e Limitar resultados |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### <a id="L02" href="#anchor_L02" style="color:white;"> L02: Sugestões de Eventos</a>
+### <a id="L02" href="#anchor_L02" style="color:red;"> L02: Sugestões de Eventos</a>
 
 O segundo Léxico, presente na Tabela 4, faz o uso do seguinte requisito não implementado: o aplicativo da sugestões de eventos com base no histórico de buscas do usuário (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a>).
 
@@ -69,7 +69,7 @@ O segundo Léxico, presente na Tabela 4, faz o uso do seguinte requisito não im
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### <a id="L03" href="#anchor_L03" style="color:white;"> L03: Evento com Tags</a>
+### <a id="L03" href="#anchor_L03" style="color:red;"> L03: Evento com Tags</a>
 
 O terceiro Léxico, presente na Tabela 5, faz o uso do seguinte requisito não implementado: o aplicativo tem palavras-chave ou tags associadas aos eventos para facilitar a busca (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a>).
 
@@ -81,13 +81,13 @@ O terceiro Léxico, presente na Tabela 5, faz o uso do seguinte requisito não i
 |-----------------|-------|
 | Classificação | Estado |
 | Impacto | Na busca, serão listados todos os eventos vinculados àquela determinada palavra-chave | 
-| Noção | Eventos vinculados às tags especificadas para aquele evento |
+| Noção | O tipo de evento é relacionado a uma categoria pelo anunciante <br> O aplicativo está relacionado a um rótulo ou palavra-chave |
 | Dicionário | Eventos com Palavras-chave e Eventos com Rótulo |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### <a id="L04" href="#anchor_L04" style="color:white;"> L04: Notificar Eventos</a>
+### <a id="L04" href="#anchor_L04" style="color:red;"> L04: Notificar Eventos</a>
 
 O quarto Léxico, presente na Tabela 6, faz o uso dos seguintes requisitos não implementados: o aplicativo notifica usuário sobre eventos, quando permitido (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>), o aplicativo tem palavras-chave ou tags associadas aos eventos para facilitar a busca (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a>), o aplicativo da sugestões de eventos com base no histórico de buscas do usuário (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a>), .
 
@@ -105,7 +105,7 @@ O quarto Léxico, presente na Tabela 6, faz o uso dos seguintes requisitos não 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### <a id="L05" href="#anchor_L05" style="color:white;"> L05: Usuário</a>
+### <a id="L05" href="#anchor_L05" style="color:red;"> L05: Usuário</a>
 
 O quinto Léxico, presente na Tabela 7, faz o uso dos seguintes requisitos não implementados: o aplicativo notifica usuário sobre eventos, quando permitido (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a>), filtrar por Estado e por Município (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a>), filtrar por data e por horário (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a>), filtrar por idade mínima de entrada (<a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a>), filtrar por categorias (<a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a>), o usuário deve ser capaz de conectar uma carteira digital (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a>), o usuário deve ser capaz de mudar o idioma do app (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>) e o usuário deve ser capaz de acessar à assistente virtual (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a>).
 
@@ -116,13 +116,13 @@ O quinto Léxico, presente na Tabela 7, faz o uso dos seguintes requisitos não 
 |-----------------|-------|
 | Classificação | Objeto |
 | Impacto | O usuário pode escolher se quer ou não receber notificações (<a id="#anchor_L04" href="#L04">L04</a>) </br> O usuário pode filtrar a busca por idade, Estado, Município, data, horário e categoria (<a id="#anchor_L01" href="#L01">L01</a>) </br> O usuário é capaz de conectar uma carteira digital </br> O usuário pode acessar à assistente virtual </br> O usuário pode mudar o idioma do app (<a id="#anchor_L06" href="#L06">L06</a>) </br> | 
-| Noção | O sistema pode enviar notificações ao usuário, caso permitido (<a id="#anchor_L04" href="#L04">L04</a>) </br> O sistema coleta dados das atividades do usuário dentro do app e os sugere (<a id="#anchor_L04" href="#L02">L02</a>) </br> |
+| Noção | O usuário pode se enquadrar no [perfil de usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/perfil_de_usuario/)</br> O usuário pode ser alguém que queira visualizar eventos </br> O usuário pode ser alguém que queira comprar ingressos </br> O sistema pode enviar notificações ao usuário, caso permitido (<a id="#anchor_L04" href="#L04">L04</a>) </br> O sistema coleta dados das atividades do usuário dentro do app e os sugere (<a id="#anchor_L04" href="#L02">L02</a>) </br> |
 | Dicionário | Cliente, Comprador, Consumidor e Freguês |
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 </figure>
 
-### <a id="L06" href="#anchor_L06" style="color:white;"> L06: Mudar Idioma</a>
+### <a id="L06" href="#anchor_L06" style="color:red;"> L06: Mudar Idioma</a>
 
 O sexto Léxico, presente na Tabela 8, faz o uso do seguinte requisito não implementado: o usuário deve ser capaz de mudar o idioma do app (<a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a>).
 
@@ -154,3 +154,4 @@ O sexto Léxico, presente na Tabela 8, faz o uso do seguinte requisito não impl
 | `1.0`  | 14/05/2023 | Criação dos léxicos.                           | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougalvs) e [Gabriel Campello](https://github.com/G16C) |
 | `1.1`  | 17/05/2023 | Atualização dos léxicos.                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3) |
 | `1.2`  | 18/05/2023 | Adicionando léxico 6 e hyperlinks.                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.3`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |

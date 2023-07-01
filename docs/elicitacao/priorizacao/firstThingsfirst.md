@@ -105,11 +105,11 @@ _Fonte - Autores._
 | <a href="../../tecnicas/introspeccao/#anchor_IS">IS09</a>  | O aplicativo possui um mecanismo de busca.                                       |
 | <a href="../../tecnicas/questionario/#anchor_Q">Q05</a>    | O aplicativo da sugestões de eventos com base no histórico de buscas do usuário. |
 | <a href="../../tecnicas/questionario/#anchor_Q">Q07</a>    | O aplicativo notifica usuário sobre eventos, quando permitido.                   |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS05</a> | O usuário deve ser capaz de filtrar eventos                                      |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS13</a> | O usuário deve ser capaz de acessar as informações do evento                     |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS19</a> | O usuário deve ser capaz de mudar o idioma do app                                |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a> | O usuário deve ser capaz de acessar a assistente virtual                         |
-| <a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a> | O usuário deve ser capaz de compartilhar o evento                                |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS05</a> | O usuário é capaz de filtrar eventos                                      |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS13</a> | O usuário é capaz de acessar as informações do evento                     |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS19</a> | O usuário é capaz de mudar o idioma do app                                |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS23</a> | O usuário é capaz de acessar a assistente virtual                         |
+| <a href="../../tecnicas/brainstorming/#anchor_BS">BS24</a> | O usuário é capaz de compartilhar o evento                                |
 
 _Fonte: Autores._
 
@@ -123,19 +123,19 @@ _Fonte: Autores._
 
 | ID                                                        | Descrição                                                                                                                         |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [IS10](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma página que explicita os eventos da região selecionada.                                                           |
-| [IS11](../../tecnicas/introspeccao/#anchor_ISNF)          | Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.                                 |
-| [IS12](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de dúvidas frequentes e uma central de ajuda.                                                               |
-| [IS13](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.                                      |
-| [IS14](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos. |
-| [IS15](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela para cadastro e login.                                                                                      |
+| [IS10](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir apresentar eventos de forma personalizada, de acordo com a atividade do usuário.                                                           |
+| [IS11](../../tecnicas/introspeccao/#anchor_ISNF)          | O usuário deve ser capaz de acessar as seguintes informações do evento durante a busca em, no máximo, 2 cliques: a data, o local e o preço do ingresso.                                 |
+| [IS12](../../tecnicas/introspeccao/#anchor_ISNF)          | O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.                                                               |
+| [IS13](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.                                      |
+| [IS14](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos. |
+| [IS15](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve oferecer um mecanismo de autenticação seguro que permita aos usuários realizar o login com suas credenciais.                                                                                      |
 | [IS16](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.                                           |
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q10</a> | O aplicativo deve proteger os dados de cadastro e compra dos usuários.                                                            |
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q11</a> | O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário.                                          |
 | <a href="../../tecnicas/questionario/#anchor_QNF">Q12</a> | As notificações do aplicativo devem ser fornecidas em tempo hábil.                                                                |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q13</a> | O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.                                         |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q14</a> | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)                                    |
-| <a href="../../tecnicas/questionario/#anchor_QNF">Q15</a> | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos                                       |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q13</a> | O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.                                         |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q14</a> | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas).                                   |
+| <a href="../../tecnicas/questionario/#anchor_QNF">Q15</a> | O sistema deve solucionar problemas relacionados a compra de ingressos.                                       |
 
 _Fonte: Autores._
 
@@ -152,4 +152,4 @@ _Fonte: Autores._
 | `1.0`  | 29/04/2023 | Definição dos passos para realizar a ténica FTF                                                     | [Sidney Fernando](https://github.com/nando3d3)                                                                                                     | [Rafael Ferreira](https://github.com/RafaelCLG0) |
 | `1.1`  | 29/04/2023 | Adição dos resultados e entrevista                                                                  | [Sidney Fernando](https://github.com/nando3d3), [Rafael Ferreira](https://github.com/RafaelCLG0), [Matheus Henrique](https://github.com/mathonaut) | [Douglas Alves](https://github.com/dougalvs)     |
 | `1.2`  | 21/06/2023 | Corrigido os erros ID4 e ID5 da [verificação](../../../verificacao/grupo/entrega2/verificacao-ftf). | [Rafael Ferreira](https://github.com/RafaelCLG0)                                                                                                   | [Matheus Henrique](https://github.com/mathonaut) |
-| `1.3`  | 30/06/2023 | Correções | [Sidney Fernando](https://github.com/nando3d3)                                                                                                   | [Douglas Alves](https://github.com/dougalvs) |
+| `1.3`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
