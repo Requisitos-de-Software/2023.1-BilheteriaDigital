@@ -122,7 +122,7 @@ Tabela 3 - RF02
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#diagrama-de-casos-de-uso">Casos de Uso</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -173,7 +173,7 @@ Tabela 4 - RF03
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#diagrama-de-casos-de-uso">Casos de Uso</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -537,7 +537,7 @@ Tabela 11 - RF10
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#diagrama-de-casos-de-uso">Casos de Uso</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
