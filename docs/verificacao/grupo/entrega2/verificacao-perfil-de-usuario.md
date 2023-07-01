@@ -124,6 +124,28 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 </center>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho o artefato aqui verificado deverá ser corrigido seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação, [Gabriel Campello](https://github.com/G16C) fará as correções, checando se são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
+| ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Adicionar os dados faltantes no perfil de usuário.           | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Expecificar no artefato quem foi o responsável por elaborar o questionário, a data de criação e o período de circulação.. | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+
+_Fonte: Elaborado por [Gabriel Campello](https://github.com/G16C), 2023._
+
+</center>
+
+As correções solicitadas acima foram realizadas.
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
+
 ## Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> COURAGE, C. & BAXTER,K. Understending your users: a pratical guide to user requirements, methods, tools, and techniques. San Francisco: Morgan Kaufman Publishers, 2005.

@@ -6,7 +6,22 @@ A introspecção é uma técnica de elicitação de requisitos que consiste em, 
 
 ## Metodologia
 
-O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual, os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos Não-Funcionais. No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam ou não presentes.
+O processo de introspecção foi realizado individualmente pelos alunos [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C). Após esse desenvolvimento individual, os requisitos elicitados foram integrados em duas tabelas, Tabela 1 para Requisitos Funcionais e Tabela 2 para Requisitos Não-Funcionais. No fim desse processo revisitamos o aplicativo escolhido pelo grupo e avaliamos se os requisitos elicitados estavam ou não presentes. A seguir são apresentados os participantes e o cronograma de aplicação da técnica.
+
+### Cronograma
+
+<font size="3"><p style="text-align: center">Tabela 1: Participantes.</p></font>
+
+<center>
+
+| Nome                                             | Data                   |  Hora |
+| ------------------------------------------------ | ------------------------ | -------------- |
+| [Arthur de Melo](https://github.com/arthurmlv)   |  26/04/2023|  18:30 |
+| [Gabriel Campello](https://github.com/G16C) |  26/04/2023|   21:00 |
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0).</p></font>
 
 ### [Arthur de Melo](https://github.com/arthurmlv)
 
@@ -21,13 +36,13 @@ iniciei o exercício.
 
 ### Funcionais
 
-Legenda das Tabelas 1 e 2:
+Legenda das Tabelas 2 e 3:
 
 - RFx: Requisito Funcional nºx
 - RNFx: Requisito Não-Funcional nºx
 - ISx: Requisito nºx elicitado pela introspecção.
 
-<font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais.</p></font>
 
 <center>
 
@@ -47,11 +62,11 @@ Legenda das Tabelas 1 e 2:
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
-Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
+Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 2, estão parcialmente implementados pelo aplicativo, dado que o aplicativo filtra somente por estado e por data. O que não inclui a filtragem por Município e por horário.
 
 ### Não funcionais
 
-<font size="3"><p style="text-align: center">Tabela 2: Requisitos Não-Funcionais.</p></font>
+<font size="3"><p style="text-align: center">Tabela 3: Requisitos Não-Funcionais.</p></font>
 
 <center>
 
@@ -69,7 +84,10 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur de Melo](https://github.com/arthurmlv) e [Gabriel Campello](https://github.com/G16C).</p></font>
 
-Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
+Na Tabela 3, o requisito RNF02 é marcado como não implementado, no entanto, esse requisito foi apenas parcialmente implementado pelo aplicativo, que disponibiliza somente a data e o local na página de busca.
+
+!!! info
+    Os requisitos elicitados por essa técnica podem divergir dos demais, tendo em vista que é uma técnica aplicada por participantes do projeto por sua definição.
 
 ## Bibliografia
 
@@ -84,3 +102,4 @@ Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, es
 | 1.2    | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
 | 1.3    | 27/04/2023 | Notas sobre alguns requisitos específicos     | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |
 | 1.4    | 29/04/2023 | Adição das legendas                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
+| 1.5    | 01/07/2023 | Retrabalho                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |

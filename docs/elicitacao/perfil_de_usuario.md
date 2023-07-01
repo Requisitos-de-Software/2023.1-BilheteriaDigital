@@ -7,7 +7,7 @@ No intuito de se conhecer melhor os usuários do aplicativo é necessário elabo
 ## Metodologia
 
 A principal técnica usada para a aquisição de dados foi o questionário. Além dele, foi utilizado uma ferramenta de tráfico de rede que permitiu realizar a validação dos dados obtidos.
-O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram entre o período de 21 a 27 de abril de 2023.
+O questionário possuía 8 questões sobre aspectos gerais do usuário do aplicativo e foi divulgado em grupos da comunidade atráves do aplicativo whatsapp e telegram entre o período de 21 a 27 de abril de 2023. Os responsáveis pela elaboração do questionário foram os integrantes do grupo [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3). Informações mais detalhadas quanto ao [questionário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/questionario/), estão disponíveis na página do artefato. 
 
 ## Resultado do Questionário
 
@@ -79,6 +79,8 @@ De acordo com o gráfico apresentado na figura 8 um dos principais critérios qu
 
 ## Definição do Perfil
 
+Vale ressaltar que alguns dos usuários que reponderam o questionário não tinham experiÇencia prévia como o aplicativo, mas com concorretes ou aplicativos similares.
+
 Após uma análise das respostas, foi traçado um Perfil de Usuário para o aplicativo com as seguintes descrições:
 
 - **Gênero:** Em sua maioria feminino.
@@ -86,6 +88,7 @@ Após uma análise das respostas, foi traçado um Perfil de Usuário para o apli
 - **Experiência:** Experiente.
 - **Atitudes:** Tecnófilos.
 - **Tarefas primárias:** Compra e consulta.
+
 
 ## Referências Bibliográficas
 
@@ -108,3 +111,4 @@ Após uma análise das respostas, foi traçado um Perfil de Usuário para o apli
 | `1.2`  | 27/04/2023 | Adição das questões.                | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.3`  | 29/04/2023 | Adaptação das figuras.              | [Rafael Ferreira](https://github.com/RafaelCLG0)                                                    | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.4`  | 30/04/2023 | Ajustes nos textos.                 | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.5`  | 01/07/2023 | Retrabalho                | [Gabriel Campello](https://github.com/G16C)                                                    | [Matheus Henrique](https://github.com/mathonaut) |
