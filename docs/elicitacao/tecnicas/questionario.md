@@ -142,7 +142,7 @@ Legenda:
 | RNF03 | As notificações do aplicativo devem ser fornecidas em tempo hábil.                             | Q12                                                  | Não          |
 | RNF04 | O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.      | Q13                                                  | Não          |
 | RNF05 | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas). | Q14                                                  | Sim          |
-| RNF06 | O sistema deve solucionar problemas relacionados a compra de ingressos.    | Q15                                                  | Sim          |
+| RNF06 | O sistema deve alertar imediatamente ao usuário problemas ou erros relacionados a compra de ingressos.    | Q15                                                  | Sim          |
 | RFN07 | O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.                                           | Q16                                                  | Sim          |
 
 <figcaption><font size="3">Fonte: Autores</font></figcaption>

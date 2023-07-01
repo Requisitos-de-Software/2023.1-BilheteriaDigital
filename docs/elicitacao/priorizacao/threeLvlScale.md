@@ -104,20 +104,20 @@ Legenda das tabelas:
 | RNF12	| O app deve armazenar a localização do usuário e se adaptar de acordo com tal. 	|  BS36	| Media
 | RNF13 |  O sistema deve alocar os eventos de acordo com a região selecionada a fim de facilitar a busca e a filtragem.  | IS10/OBS15 | Alta |
 | RNF14 |  Deve possuir, na página do evento, uma descrição sobre o local, a qual possui data, horário, valor e informações sobre o evento que pode ser acessada em, no máximo, 3 cliques.   | IS11/OBS16 | Alta |
-| RNF15 |  Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.  | IS13 | Alta |
+| RNF15 |  Deve dar um feedback sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.  | IS13 | Alta |
 | RNF16 |  Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos.  | IS14 | Alta |
 | RNF17 |  Deve possuir uma tela para cadastro e login.  | IS15 | Alta|
 | RNF18 |  Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.  | IS16 | Alta |
 | RNF19 |  Deve adaptar a tela de seleção de poltronas de acordo com as poltronas já escolhidas. | OBS17 | Alta  |
 | RNF20 |  Deve apresentar ao usuário o feedback da confirmação de suas ações. | OBS18 |  Alta |
 | RNF21 |  Deve apresentar uma tela com os dados da conta com ao menos uma etapa de segurança.  | OBS20 | Media  |
-| RNF22 |  Deve apresentar uma página com o histórico de pedidos do usuário. | OBS21 | Alta |
+| RNF22 |  Deve apresentar uma página com o histórico de pedidos do usuário em dois cliques. | OBS21 | Alta |
 | RNF23 |  Deve apresentar uma tela com as regiões para filtrar os eventos. |OBS22| Alta  | 
 | RNF24 | O aplicativo deve proteger os dados de cadastro e compra dos usuários.  | Q10 | Alta  |
 | RNF25 | As notificações do aplicativo devem ser fornecidas em tempo hábil.  |Q12 | Alta  |
 | RNF26 | O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.  |Q13 | Alta  |
 | RNF27 | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas) | Q14 |  Alta |
-| RNF28 | O sistema deve solucionar problemas relacionados a compra de ingressos. | Q15 | Alta  |
+| RNF28 | O sistema deve alertar imediatamente ao usuário problemas ou erros relacionados a compra de ingressos. | Q15 | Alta  |
 
 </center>
 

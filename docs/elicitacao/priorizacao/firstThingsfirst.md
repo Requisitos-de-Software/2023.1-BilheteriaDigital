@@ -126,7 +126,7 @@ _Fonte: Autores._
 | [IS10](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir apresentar eventos de forma personalizada, de acordo com a atividade do usuário.                                                           |
 | [IS11](../../tecnicas/introspeccao/#anchor_ISNF)          | O usuário deve ser capaz de acessar as seguintes informações do evento durante a busca em, no máximo, 2 cliques: a data, o local e o preço do ingresso.                                 |
 | [IS12](../../tecnicas/introspeccao/#anchor_ISNF)          | O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.                                                               |
-| [IS13](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.                                      |
+| [IS13](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.                                      |
 | [IS14](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos. |
 | [IS15](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve oferecer um mecanismo de autenticação seguro que permita aos usuários realizar o login com suas credenciais.                                                                                      |
 | [IS16](../../tecnicas/introspeccao/#anchor_ISNF)          | Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.                                           |
