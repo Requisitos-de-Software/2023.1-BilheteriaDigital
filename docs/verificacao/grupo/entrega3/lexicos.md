@@ -90,6 +90,27 @@ A figura 1 é possível análisar um gráfico com o percentual de erros e acerto
 <iframe style="border:3px solid red" width="648" height="401" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeztVMQxGP3CuVAc6b_mQkdArz7op2O0cpvjrgQR0Tj4NUqwVxnIikBQyvyYcYsd0PeK5j7ldondnP/pubchart?oid=1638958261&amp;format=interactive"></iframe><figcaption><font size="3">Fonte: [Arthur de Melo](https://github.com/arthurmlv)</font></figcaption>
 </figure>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                |                 Responsável(eis)                 |                  Revisor(es)                   |      Status      |
+| ---------------- | :------------------------------------------------------- | :----------------------------------------------: | :--------------------------------------------: | :--------------: |
+| 01/07/2023       | Ajustes de Noção e de Impacto.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Dividir as noções e os impactos em duas ou mais.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Adicionar as novas noções e impactos necessários.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+
+_Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
+
+</center>
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
+
 ## Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> LEITE, Julio Cesar. Léxico Ampliado da Linguagem, 2012. Disponível em: <<https://www-di.inf.puc-rio.br/~julio/lal.pdf>>. Acesso em: 10/06/2023.
@@ -99,3 +120,4 @@ A figura 1 é possível análisar um gráfico com o percentual de erros e acerto
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv)  | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |

@@ -89,9 +89,30 @@ A figura 1 apresenta um gráfico com o percentual de respostas sim, não ou inco
 
 <iframe style="border-radius: 5px; border:3px solid red" width="600" height="400" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSRYc9oKu_U7bHT1tcuDD3XMhc7FBGYo9Fxb6KBE8kC27jvIw7nwtty6gdh-OUgJlHcGCGnW1XWBhLk/pubchart?oid=1023223695&amp;format=interactive"></iframe>
 
-_Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
+_Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
+
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho o autor do artefato [Arthur de Melo](https://github.com/arthurmlv) corrigiu os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                                                         |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
+| ---------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correção SIG usabilidade.                                                                       | [Arthur de Melo](https://github.com/arthurmlv) |  [Matheus Henrique](https://github.com/mathonaut)  | :material-check: |
+| 01/07/2023       | Correção dos softgoals de claim e histórico de versão.                                                                                   | [Arthur de Melo](https://github.com/arthurmlv) |  [Matheus Henrique](https://github.com/mathonaut)  | :material-check: |
+
+
+_Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
+
+</center>
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 
@@ -108,3 +129,4 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
 | `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C) |
+| `1.1`  | 01/07/2023 | Retrabalho. | [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
