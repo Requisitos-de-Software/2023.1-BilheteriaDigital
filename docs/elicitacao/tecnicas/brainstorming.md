@@ -160,18 +160,18 @@ Legenda das Tabelas 3 e 4:
 
 | <a id="anchor_BSNF" style="color:black;">ID</a> | Descrição                                                                 | Código |
 | ----------------------------------------------- | ------------------------------------------------------------------------- | ------ |
-| BS25                                            | O app deve exibir a duração do evento                                     | RNF01  |
-| BS26                                            | O app deve exibir a quantidade de assentos disponíveis                    | RNF02  |
-| BS27                                            | O app deve exibir a capacidade do evento                                  | RNF03  |
-| BS28                                            | O deve exibir a faixa etária do evento                                    | RNF04  |
-| BS29                                            | O app exibir a data do evento                                             | RNF05  |
-| BS30                                            | O app deve exibir a porcentagem de ingressos comprados                    | RNF06  |
-| BS31                                            | O app deve forcener segurança na compra do usuário                        | RNF07  |
-| BS32                                            | O app deve ter a aba "Meus Ingressos"                                     | RNF08  |
-| BS33                                            | O app deve ter a aba "FAQ"                                                | RNF09  |
-| BS34                                            | O app deve exibir um e-mail para contato                                  | RNF10  |
-| BS35                                            | O app deve exibir sugestões de eventos de acordo com os gostos do usuário | RNF11  |
-| BS36                                            | O app deve salvar a a localização do usuário                              | RNF12  |
+| BS25                                            | O app deve exibir a duração do evento ao lado da informação do local.                                     | RNF01  |
+| BS26                                            | O app deve atualizar a quantidade de assentos disponíveis em tempo real.                   | RNF02  |
+| BS27                                            | O app deve exibir a capacidade restante do evento em tempo real.                                  | RNF03  |
+| BS28                                            | O deve exibir a faixa etária do evento de forma destacada.                                    | RNF04  |
+| BS29                                            | O app exibir a data do evento destacada próxima ao nome do evento.                                             | RNF05  |
+| BS30                                            | O app deve exibir a porcentagem de ingressos comprados atualizada em tempo real.                    | RNF06  |
+| BS31                                            | O app deve forcener segurança na compra do usuário.                       | RNF07  |
+| BS32                                            | O usuário deve ser capaz de visualizar seus ingressos com apenas 2 cliques.                                     | RNF08  |
+| BS33                                            | O usuário deve ser capaz de acessar as perguntas frequentes com ao menos 2 cliques.                                                | RNF09  |
+| BS34                                            | O app deve exibir um e-mail para contato no footer.                                 | RNF10  |
+| BS35                                            | O app deve exibir sugestões de eventos de acordo com os gostos do usuário. | RNF11  |
+| BS36                                            | O app deve armazenar a localização do usuário e se adaptar de acordo com tal.                             | RNF12  |
 
 </center>
 
@@ -185,6 +185,7 @@ Legenda das Tabelas 3 e 4:
 
 | Versão | Data       | Descrição                            | Autor(es)                                      | Revisor(es)                                    |
 | ------ | ---------- | ------------------------------------ | ---------------------------------------------- | ---------------------------------------------- |
-| 1.0    | 28/04/2023 | Introdução e ideias iniciais         | [Gabriel Campello](https://github.com/G16C)    | [Geovanna Maciel](https://github.com/manuziny) |
-| 1.1    | 29/04/2023 | Atualização                          | [Gabriel Campello](https://github.com/G16C)    | [Geovanna Maciel](https://github.com/manuziny) |
-| 1.2    | 29/04/2023 | Adicionando os requisitos elicitados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)    |
+| `1.0`    | 28/04/2023 | Introdução e ideias iniciais         | [Gabriel Campello](https://github.com/G16C)    | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`    | 29/04/2023 | Atualização                          | [Gabriel Campello](https://github.com/G16C)    | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.2`    | 29/04/2023 | Adicionando os requisitos elicitados | [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)    |
+| `1.3`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |

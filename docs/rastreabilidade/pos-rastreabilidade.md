@@ -2016,7 +2016,7 @@ Tabela 39 - RNF01
 
 <details>
 
-<summary>O app deve fornecer eventos direcionados.</summary>
+<summary>O app deve fornecer eventos de forma personalizada, levando em consideração a atividade e preferências do usuário.</summary>
 
 <center>
 
@@ -2224,7 +2224,7 @@ Tabela 43 - RNF05
 
 <details>
 
-<summary>O app deve permitir o cadastro e login em uma tela separada.</summary>
+<summary>O app deve fornecer uma experiência de login com apenas 2 cliques.</summary>
 
 <center>
 
@@ -2328,7 +2328,7 @@ Tabela 45 - RNF07
 
 <details>
 
-<summary>O app deve permitir a filtragem dos eventos cadastrados no banco de dados.</summary>
+<summary>Os eventos devem estar organizados no banco de dados de acordo com suas categorias para facilitar a filtragem.</summary>
 
 <center>
 
@@ -2490,11 +2490,12 @@ Tabela 48 - RNF10
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | --- | --- | --- | --- | --- |
-| 1.0 | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| 1.1 | 25/06/2023 | Requisitos Não-Funcionais | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| 1.2 | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| 1.3 | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)x
-| 1.3.1 | 28/06/2023 | Redimensionamento das imagens | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)|
-| 1.3.2 | 29/06/2023 | Melhora na visibilidade dos elos | [Douglas Alves](https://github.com/dougAlvs) |  [Sidney Fernando](https://github.com/nando3d3)|
+| `1.0` | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.1` | 25/06/2023 | Requisitos Não-Funcionais | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.2` | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.3` | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)x
+| `1.3.1` | 28/06/2023 | Redimensionamento das imagens | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)|
+| `1.3.2` | 29/06/2023 | Melhora na visibilidade dos elos | [Douglas Alves](https://github.com/dougAlvs) |  [Sidney Fernando](https://github.com/nando3d3)|
+| `1.4`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
 
 

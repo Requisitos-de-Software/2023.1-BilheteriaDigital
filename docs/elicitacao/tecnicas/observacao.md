@@ -68,14 +68,14 @@ Legenda das Tabelas 2 e 3:
 
 | Tipo  | Descrição                                                                                                                        | <a id="anchor_OBSNF" style="visibility: hidden;"></a>ID | Implementado |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------ |
-| RNF01 | Deve possuir uma página que explicita os eventos da região selecionada.                                                          | OBS15                                                   | Sim          |
-| RNF02 | Deve possuir, na página do evento, uma descrição sobre o local, a qual possui data, horário, valor e informações sobre o evento. | OBS16                                                   | Sim          |
-| RNF03 | Deve apresentar uma tela de confirmação da poltrona selecionada.                                                                 | OBS17                                                   | Sim          |
-| RNF04 | Deve apresentar uma página de confirmação das informações do pedido.                                                             | OBS18                                                   | Sim          |
-| RNF05 | Deve apresentar uma página de suporte e de perguntas frequentes.                                                                 | OBS19                                                   | Sim          |
-| RNF06 | Deve apresentar uma tela com os dados da conta.                                                                                  | OBS20                                                   | Sim          |
+| RNF01 | O sistema deve alocar os eventos de acordo com a região selecionada a fim de facilitar a busca e a filtragem.                                                          | OBS15                                                   | Sim          |
+| RNF02 | Deve possuir, na página do evento, uma descrição sobre o local, a qual possui data, horário, valor e informações sobre o evento que pode ser acessada em, no máximo, 3 cliques. | OBS16                                                   | Sim          |
+| RNF03 | Deve adaptar a tela de seleção de poltronas de acordo com as poltronas já escolhidas.                                                                 | OBS17                                                   | Sim          |
+| RNF04 | Deve apresentar ao usuário o feedback da confirmação de suas ações.                                                             | OBS18                                                   | Sim          |
+| RNF05 | Deve apresentar uma página acessível de suporte e de perguntas frequentes com, no máximo, 1 clique.                                                                 | OBS19                                                   | Sim          |
+| RNF06 | Deve apresentar uma tela com os dados da conta com ao menos uma etapa de segurança.                                                                                  | OBS20                                                   | Sim          |
 | RNF07 | Deve apresentar uma página com o histórico de pedidos do usuário.                                                                | OBS21                                                   | Sim          |
-| RNF08 | Deve apresentar uma tela com as regiões para filtrar os eventos.                                                                 | OBS22                                                   | Sim          |
+| RNF08 | Deve permitir a filtragem dos eventos com apenas 1 clique.                                                                       | OBS22                                                   | Sim          |
 
 </center>
 
@@ -89,7 +89,8 @@ Legenda das Tabelas 2 e 3:
 
 | Versão | Data       | Descrição                      | Autor(es)                                                                                         | Revisor(es)                                    |
 | ------ | ---------- | ------------------------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| 1.0    | 29/04/2023 | Documentação da observação     | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |
-| 1.1    | 29/04/2023 | Adição da introdução           | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |
-| 1.2    | 29/04/2023 | Adição das legendas            | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Sidney Fernando](https://github.com/nando3d3) |
-| 1.3    | 29/04/2023 | Adição da aba de implementados | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Gabriel Campello](https://github.com/G16C)    |
+| `1.0`    | 29/04/2023 | Documentação da observação     | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`    | 29/04/2023 | Adição da introdução           | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.2`    | 29/04/2023 | Adição das legendas            | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.3`    | 29/04/2023 | Adição da aba de implementados | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Gabriel Campello](https://github.com/G16C)    |
+| `1.4`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |

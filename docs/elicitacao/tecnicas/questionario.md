@@ -132,12 +132,12 @@ Legenda:
 | Tipo  | Descrição                                                                                      | <a id="anchor_QNF" style="visibility: hidden"></a>ID | Implementado |
 | ----- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------ |
 | RNF01 | O aplicativo deve proteger os dados de cadastro e compra dos usuários.                         | Q10                                                  | Sim          |
-| RNF02 | O aplicativo deve disponibilizar em sua interface eventos que são relevantes ao usuário.       | Q11                                                  | Não          |
+| RNF02 | O aplicativo deve disponibilizar em sua interface eventos de acordo com as preferências do usuário.       | Q11                                                  | Não          |
 | RNF03 | As notificações do aplicativo devem ser fornecidas em tempo hábil.                             | Q12                                                  | Não          |
-| RNF04 | O aplicativo deve ter palavras-chave ou tags associadas a eventos para facilitar a busca.      | Q13                                                  | Não          |
-| RNF05 | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas) | Q14                                                  | Sim          |
-| RNF06 | O sistema deve ter uma alta taxa de solução de problemas relacionados a compra de ingressos    | Q16                                                  | Sim          |
-| RFN07 | O aplicativo deve possuir uma aba de dúvidas comuns.                                           | Q15                                                  | Sim          |
+| RNF04 | O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.      | Q13                                                  | Não          |
+| RNF05 | O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas). | Q14                                                  | Sim          |
+| RNF06 | O sistema deve solucionar problemas relacionados a compra de ingressos.    | Q15                                                  | Sim          |
+| RFN07 | O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.                                           | Q16                                                  | Sim          |
 
 <figcaption><font size="3">Fonte: Autores</font></figcaption>
 </figure>
@@ -150,4 +150,5 @@ Legenda:
 
 | Versão | Data       | Descrição         | Autor(es)                                                                                     | Revisor(es)                                      |
 | ------ | ---------- | ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| 1.0    | 29/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.0`    | 29/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
