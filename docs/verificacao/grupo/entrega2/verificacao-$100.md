@@ -65,7 +65,7 @@ _Fonte: [Gabriel Campello](https://github.com/G16C) e [Matheus Henrique](https:/
 
 ### ID 7.1
 
-No artefato, está explícito que os requisitos nele utilizados foram obtidos através de técnicas de elicitação. No entanto não está aparente se os dados obtidos foram de alguma forma validados, ou seja, se houve a reunião como PO para definir se esses requisitos estvam condizentes com o intuito do projeto.
+No artefato, está explícito que os requisitos nele utilizados foram obtidos através de técnicas de elicitação. No entanto não está aparente se os dados obtidos foram de alguma forma validados, ou seja, se houve a reunião como PO para definir se esses requisitos estavam condizentes com o intuito do projeto.
 
 ### ID 10
 
@@ -79,7 +79,7 @@ Ainda segundo a literatura _Requirements (Developer Best Practices), 3rd Edition
 
 Tendo em vista os problemas abordados anteriormente, fica como sugestão a realização das seguintes correções:
 
-- Apresentar no artefato se esses requisitos haviam sido previamente validados;
+- Apresentar no artefato se essa priorização foi previamente validada;
 - Separar por prioridade os requisitos após a execução da técnica.
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina assim como ficou definido no [planejamento](../planejamento-verificacao-e2-grupo).
@@ -99,6 +99,28 @@ A correção dos erros será realizada após uma discussão e validação dos pr
 _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 </center>
+
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho o artefato aqui verificado deverá ser corrigido seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação, [Gabriel Campello](https://github.com/G16C) fará as correções, checando se são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
+| ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Apresentar a validação dos requisitos.           | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Separar por ordem de prioridade os requisitos. | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+
+_Fonte: Elaborado por [Gabriel Campello](https://github.com/G16C), 2023._
+
+</center>
+
+As correções solicitadas acima foram realizadas.
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 
