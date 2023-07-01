@@ -132,6 +132,8 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
+As correções solicitadas acima foram realizadas.
+
 !!! info
     O cronograma apresentado na tabela 3 pode ser alterado.
 

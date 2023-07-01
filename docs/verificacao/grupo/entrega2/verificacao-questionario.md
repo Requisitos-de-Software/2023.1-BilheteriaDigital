@@ -109,12 +109,14 @@ Como proposto por Fagan, para o retrabalho os autores do artefato ([Douglas Alve
 
 | Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
 | ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 25/26/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-close: |
-| 25/06/2023       | Identificar seu público alvo e verificar se segue o perfil de usuário.       | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-close: |
+| 25/26/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+| 25/06/2023       | Identificar seu público alvo e verificar se segue o perfil de usuário.       | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
 
 _Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
+
+As corrções solicitadas acima foram realizadas.
 
 !!! info
     O cronograma apresentado na tabela 3 pode ser alterado.
