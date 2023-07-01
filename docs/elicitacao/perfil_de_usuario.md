@@ -79,7 +79,7 @@ De acordo com o gráfico apresentado na figura 8 um dos principais critérios qu
 
 ## Definição do Perfil
 
-Vale ressaltar que alguns dos usuários que reponderam o questionário não tinham experiÇencia prévia como o aplicativo, mas com concorretes ou aplicativos similares.
+Vale ressaltar que alguns dos usuários que reponderam o questionário não tinham experiência prévia como o aplicativo, mas com concorretes ou aplicativos similares.
 
 Após uma análise das respostas, foi traçado um Perfil de Usuário para o aplicativo com as seguintes descrições:
 
@@ -111,4 +111,4 @@ Após uma análise das respostas, foi traçado um Perfil de Usuário para o apli
 | `1.2`  | 27/04/2023 | Adição das questões.                | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.3`  | 29/04/2023 | Adaptação das figuras.              | [Rafael Ferreira](https://github.com/RafaelCLG0)                                                    | [Geovanna Maciel](https://github.com/manuziny)   |
 | `1.4`  | 30/04/2023 | Ajustes nos textos.                 | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.5`  | 01/07/2023 | Retrabalho                | [Gabriel Campello](https://github.com/G16C)                                                    | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.5`  | 01/07/2023 | Ajuste na definição do perfil de usuário e adição do link do questionário.| [Gabriel Campello](https://github.com/G16C)                                                    | [Matheus Henrique](https://github.com/mathonaut) |

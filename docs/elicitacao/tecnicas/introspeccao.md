@@ -102,4 +102,4 @@ Na Tabela 3, o requisito RNF02 é marcado como não implementado, no entanto, es
 | 1.2    | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
 | 1.3    | 27/04/2023 | Notas sobre alguns requisitos específicos     | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |
 | 1.4    | 29/04/2023 | Adição das legendas                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
-| 1.5    | 01/07/2023 | Retrabalho                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
+| 1.5    | 01/07/2023 | Adição de tabela de cronograma e ajuste nos textos.                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
