@@ -4,6 +4,12 @@
 
 Um questionário é uma técnica utilizada na elicitação de requisitos que consiste na criação de um conjunto de perguntas para coletar informações sobre as necessidades e expectativas das partes interessadas em relação a um sistema ou processo. É uma forma rápida e eficiente de coletar informações quantitativas e qualitativas de um grande número de pessoas.
 
+O questionário foi divulgado em grupos de WhatsApp e Telegram nos grupos da Universidade de Brasília, o que implica que a maioria das pessoas que responderam são universitários. Essa informação é relevante, pois os universitários provavelmente estão familiarizados e frequentemente utilizam o aplicativo. Portanto, há maiores chances de que as pessoas que responderam sejam usuárias ativas desse aplicativo, o que pode contribuir para uma maior representatividade dos dados coletados em relação ao uso e experiência dos usuários com essas plataformas.
+
+## Metodologia
+
+
+
 ## Resultados
 
 Essa página apresenta os resultados da análise dos dados que o grupo coletou por meio de um questionário online, no qual foi exposto previamente um [termo de consentimento](../termo-consentimento-questionario.pdf) e preenchido pelos participantes antes de inicia-lo. O questionário obteve 64 respostas no período em que ficou disponível (entre 24/04/23 e 28/04/23) e apresentava 13 perguntas, divididas em dois fluxos, a depender da resposta da pergunta da figura 1: um de pessoas que nunca utilizaram o aplicativo e outro de quem já o utilizou.

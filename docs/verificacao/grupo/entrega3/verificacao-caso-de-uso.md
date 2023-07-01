@@ -115,17 +115,21 @@ Como por Fagan, para o retrabalho os autores do artefato ([Geovanna Maciel](http
 
 | Data de Correção | Descrição                       |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
 | ---------------- | :------------------------------ | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 24/06/2023       | Corrigir os erros ortográficos. | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
-| 24/06/2023       | Corrigir os relacionamentos.    | [Sidney Fernando](https://github.com/nando3d3) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
-| 24/06/2023       | Adicionar nome ao Autor.        | [Sidney Fernando](https://github.com/nando3d3) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
-| 24/06/2023       | Corrigir os fluxos de exceção.  | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
+| 24/06/2023       | Corrigir os erros ortográficos. | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 24/06/2023       | Corrigir os relacionamentos.    | [Sidney Fernando](https://github.com/nando3d3) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 24/06/2023       | Adicionar nome ao Autor.        | [Sidney Fernando](https://github.com/nando3d3) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 24/06/2023       | Corrigir os fluxos de exceção.  | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
+As correções solicitadas acima foram feitas.
+
 !!! info
 O cronograma apresentado na tabela 3 pode ser alterado.
+
+
 
 ## Acompanhamento
 
