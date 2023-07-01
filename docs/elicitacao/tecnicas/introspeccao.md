@@ -57,12 +57,12 @@ Vale ressaltar que os requisitos RF01 e RF02, presentes na Tabela 1, estão parc
 
 | Tipo  | Descrição                                                                                                                         | <a id="anchor_ISNF" style="visibility: hidden;"></a>ID | Implementado |
 | ----- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------ |
-| RNF01 | Deve possuir uma página que explicita os eventos da região selecionada.                                                           | IS10                                                   | Sim          |
-| RNF02 | Todo evento disponibilizado na tela de busca deve aparecer a data, o local e o preço do ingresso.                                 | IS11                                                   | Não          |
-| RNF03 | Deve possuir uma tela de dúvidas frequentes e uma central de ajuda.                                                               | IS12                                                   | Sim          |
-| RNF04 | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento.                                      | IS13                                                   | Não          |
-| RNF05 | Deve possuir espaço para a solicitação de atendimento especial para idosos/deficientes durante o processo de compra de ingressos. | IS14                                                   | Não          |
-| RNF06 | Deve possuir uma tela para cadastro e login.                                                                                      | IS15                                                   | Sim          |
+| RNF01 | Deve possuir apresentar eventos de forma personalizada, de acordo com a atividade do usuário.                                                           | IS10                                                   | Sim          |
+| RNF02 | O usuário deve ser capaz de acessar as seguintes informações do evento durante a busca em, no máximo, 2 cliques: a data, o local e o preço do ingresso.                                 | IS11                                                   | Não          |
+| RNF03 | O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.                                                               | IS12                                                   | Sim          |
+| RNF04 | Deve possuir uma tela de aviso sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.                                      | IS13                                                   | Não          |
+| RNF05 | Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos. | IS14                                                   | Não          |
+| RNF06 | Deve oferecer um mecanismo de autenticação seguro que permita aos usuários realizar o login com suas credenciais.                                                                                      | IS15                                                   | Sim          |
 | RNF07 | Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.                                           | IS16                                                   | Não          |
 
 </center>
@@ -79,8 +79,9 @@ Na Tabela 2, o requisito RNF02 é marcado como não implementado, no entanto, es
 
 | Versão | Data       | Descrição                                     | Autor(es)                                      | Revisor(es)                                      |
 | ------ | ---------- | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------ |
-| 1.0    | 26/04/2023 | Introdução e requisitos iniciais              | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C)      |
-| 1.1    | 26/04/2023 | Requisitos atualizados                        | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
-| 1.2    | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
-| 1.3    | 27/04/2023 | Notas sobre alguns requisitos específicos     | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |
-| 1.4    | 29/04/2023 | Adição das legendas                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
+| `1.0`    | 26/04/2023 | Introdução e requisitos iniciais              | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C)      |
+| `1.1`    | 26/04/2023 | Requisitos atualizados                        | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
+| `1.2`    | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
+| `1.3`   | 27/04/2023 | Notas sobre alguns requisitos específicos     | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |
+| `1.4`    | 29/04/2023 | Adição das legendas                           | [Arthur de Melo](https://github.com/arthurmlv) | [Sidney Fernando](https://github.com/nando3d3)   |
+| `1.5`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
