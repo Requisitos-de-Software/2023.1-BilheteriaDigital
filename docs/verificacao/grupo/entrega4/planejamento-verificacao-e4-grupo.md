@@ -86,13 +86,13 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0)_
 
 As checklists foram construídas levando em conta os padrões esperados para cada artefato e as principais tarefas realizadas na elaboração dos mesmos tendo como referência básica o livro _SWEBOK V3.0_ produzido pela _IEEE_.<a id="anchor_1" href="#REF1"><sup>1</sup></a> Além do item listado anteriormente, também, serão analisados o relatório referente às entregas produzido pelo o monitor do grupo [Lucas Soares](https://github.com/lucasfs1007) e as checklist previamente construídas na [verificação do grupo 2 na etapa 4](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/).
 
-Com o intuito de melhor organizar a verificação, a checklist será dividida em 5 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a checklist geral. As checklists são as seguintes: Geral, Backlog, Histórias de Usuário e NFR Framework. As tabelas de 3 a 5 apresenta as checklists de verificação.
+Com o intuito de melhor organizar a verificação, a checklist será dividida em 5 checklists sendo que uma deverá estar presente em todas as etapas de verificação, no caso a checklist geral. As checklists são as seguintes: Geral, Backlog, Histórias de Usuário e NFR Framework. As tabelas de 3 a 6 apresenta as checklists de verificação.
 
 ### Geral
 
 <center>
 
-**Tabela 2** - Checklist para os Itens Gerais.
+**Tabela 3** - Checklist para os Itens Gerais.
 
 | ID  | Descrição                                                                                              | Avaliação | Observação |
 | --- | ------------------------------------------------------------------------------------------------------ | --------- | ---------- |
@@ -106,15 +106,11 @@ _Fonte: [Equipe do Projeto, 2023](https://requisitos-de-software.github.io/2023.
 
 </center>
 
-### Verificação do Backlog
-
-<center>
-
 ### Verificação do NFR Framework
 
 <center>
 
-**Tabela 3** - Checklist para a Verificação do NFR.
+**Tabela 4** - Checklist para a Verificação do NFR.
 
 | ID  | Descrição                                                                                                                                                                                                     | Avaliação | Observações |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |
@@ -132,7 +128,11 @@ _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
-**Tabela 4** - Checklist para a Verificação do Backlog.
+### Verificação do Backlog
+
+<center>
+
+**Tabela 5** - Checklist para a Verificação do Backlog.
 
 | ID  | Descrição                                                                                            | Avaliação |
 | --- | ---------------------------------------------------------------------------------------------------- | --------- |
@@ -154,7 +154,7 @@ _Fonte: [Rafael Ferreira](https://github.com/rafaelCLG0), 2023._
 
 <center>
 
-**Tabela 5** - Checklist para a Verificação das Histórias de Usuário.
+**Tabela 6** - Checklist para a Verificação das Histórias de Usuário.
 
 | ID  | Descrição                                                                                                                                 | Avaliação | Observações |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- |

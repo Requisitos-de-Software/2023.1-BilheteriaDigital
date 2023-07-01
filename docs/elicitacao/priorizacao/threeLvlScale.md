@@ -6,11 +6,13 @@ A técnica de priorização _Three Level Scale_<a id="FTF1" href="#FTF1Ref">^1^<
 
 ## Metodologia
 
-A utilidade do método depende de que as partes interessadas concordem sobre o que cada nível de prioridade da escala signifique, sendo asssim, levamos em conta a urgência e importância de cada requisito para formar sua prioridade. Logo, as três categorias ficaram da seguinte forma:
+A utilidade do método depende de que as partes interessadas concordem sobre o que cada nível de prioridade da escala signifique, sendo assim, levamos em conta a urgência e importância de cada requisito para formar sua prioridade. Logo, as três categorias ficaram da seguinte forma:
 
 * Alta prioridade: requisitos importantes e urgentes, devem estar implementados na release mais próxima.
 * Média prioridade: requisitos importantes, mas não urgentes, logo podem esperar uma release mais distante.
 * Baixa prioridade: requisitos nem importantes, nem urgentes, sua implementação pode demorar muito tempo.
+
+Não há um ranqueamento numérico dos requisitos, mas sim uma classificação em grupos de prioridade. Embora o método não aborde explicitamente as dependências entre requisitos, é importante considerá-las durante a avaliação e atribuição de prioridades. As dependências podem influenciar a importância e o impacto dos requisitos. É recomendado levar em conta as dependências ao avaliar os requisitos e tomar decisões informadas sobre a priorização.
 
 ## Participantes
 
@@ -137,4 +139,5 @@ Legenda das tabelas:
 | ---------- | -----  | ------ | ---------- | ---------- |
 | `1.0` | 30/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.1`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
+| `1.2`  | 01/07/2023 | Retrabalho de acordo com a Verificação | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Gabriel Campello](https://github.com/G16C) |
  

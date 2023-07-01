@@ -46,8 +46,8 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                             |    Sim    |                                                    -                                                     |
 |        5         | Todos os textos estão na norma padrão?                                                                   |    Sim    |                                                    -                                                     |
 | **Questionário** |                                                                                                          |           |                                                                                                          |
-|        6         | O documento identifica o público alvo que foi divulgado o questionário?                                  |    Não    |                    Não foi identificado o público alvo que divulgaram o questionário.                    |
-|        7         | O artefato apresenta data de duração e meio de divulgação?                                               |    Não    | Foi identificado que foi realizado um questionário online, mas não apresentaram os meios de divulgaçōes. |
+|        6         | O documento identifica o público alvo que foi divulgado o questionário?                                  |    Não    |                    Não foi identificado o público alvo que divulgou o questionário.                    |
+|        7         | O artefato apresenta data de duração e meio de divulgação?                                               |    Incompleto    | Foi identificado que foi realizado um questionário online, mas não apresentaram os meios de divulgação. |
 |        8         | O público alvo dos meios de divulgação onde o questionário foi compartilhado seguem o perfil de usuário? |    Não    |                                  Não foi identificado seu público alvo.                                  |
 |        9         | Foi apresentado um termo de consetimento para o participante do questionário?                            |    Sim    |                                                    -                                                     |
 |        10        | Há um motivo da utilização dessa técnica?                                                                |    Sim    |                                                    -                                                     |
@@ -74,7 +74,7 @@ Não foi identificado os meios de divulgação no qual o questionário foi compa
 
 ### ID 08 - O público alvo dos meios de divulgação onde o questionário foi compartilhado seguem o perfil de usuário?
 
-Não foi identificado seu público alvo.
+Como não foi identificado seu público alvo essa questão não se aplica.
 
 ## Sugestões de Correção
 
@@ -87,7 +87,7 @@ A correção dos erros será realizada após uma discussão e validação dos pr
 
 ## Acompanhamento
 
-A figura 1 apre+senta um gráfico com o percentual de respostas sim, não ou incompleto, obtidas através da checklist de verificação.
+A figura 1 apresenta um gráfico com o percentual de respostas sim, não ou incompleto, obtidas através da checklist de verificação.
 
 <center>
 
@@ -109,14 +109,15 @@ Como proposto por Fagan, para o retrabalho os autores do artefato ([Douglas Alve
 
 | Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
 | ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 25/26/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+| 20/06/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
 | 25/06/2023       | Identificar seu público alvo e verificar se segue o perfil de usuário.       | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+| 01/07/2023       | Correção de acordo com a verificação.       | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) | :material-check: |
 
 _Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
-As corrções solicitadas acima foram realizadas.
+As correções solicitadas acima foram realizadas.
 
 !!! info
     O cronograma apresentado na tabela 3 pode ser alterado.
@@ -129,3 +130,4 @@ As corrções solicitadas acima foram realizadas.
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
 | `1.0`  | 20/06/2023 | Criação da página. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.1`  | 01/07/2023 | Ajuste de adição do Retrabalho | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
