@@ -8,7 +8,7 @@ O objetivo dos casos de uso é auxiliar no processo de desenvolvimento de um sis
 
 
 ## Metodologia
-O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assnto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 os elementos do diagrama:
+O diagrama de caso de uso é uma representação visual que resume as interações entre os usuários e um sistema, destacando suas funcionalidades e comportamentos. Ele é composto por atores, que representam os usuários, e casos de uso, que descrevem as ações realizadas pelos usuários e as respostas do sistema. Para a realização do caso de uso utilizamos da persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) para entender melhor as necessidades e desejos dos usuários finais do sistema. Usando a persona [Lara Dias](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/) em um diagrama de caso de uso, é possível modelar cenários realistas de uso do sistema que consideram as diferentes necessidades e objetivos do tipo de usuário que ela é. Agora voltando ao assunto sobre os diagramas de caso de uso, pode-se ver na Tabela 1 os elementos do diagrama:
 
 <font size="3"><p style="text-align: center"><b>Tabela 1</b>: Elementos do diagrama de casos de uso</p></font>
 
@@ -51,7 +51,7 @@ As tabelas de 2 a 5 mostram a especialização dos casos de uso.
 | Ação | O usuário  encontra eventos |
 | Fluxo principal | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa "Buscar evento..." </br> <ul><li> O usuário filtra a busca por município, data, horário ou categoria do evento </br> |
 | Fluxo alternativo | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br> |
-| Fluxo de exceção | <ul><li> O usuário acessa o aplicativo </br><ul><li> A localização do usuário está desligada </br><ul><li> O usuário busca o evento por nome </br> |
+| Fluxo de exceção | <ul><li> O usuário acessa o aplicativo </br><ul><li> A localização do usuário está desligada </br><ul><li> O usuário busca evento disponibilizado na página inicial </br> |
 | Pós-condições | O usuário tem acesso a eventos que correspondem ao(s) filtro(s) de busca escolhido(s) |
 | Data de Criação | 15/05/2023 |
 | Rastreabilidade | [RF01](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/), [RF02](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/), [RF10](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/) |
@@ -68,7 +68,7 @@ As tabelas de 2 a 5 mostram a especialização dos casos de uso.
 | Ação | O usuário ativa as notificações no aplicativo |
 | Fluxo principal | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba de notificações em "Meu Painel" e acessa as configurações </br> <ul><li> O usuário ativa a opção de "Ativar notificações" dentro do app.
 | Fluxo alternativo | <ul><li> O usuário abre o app em seu primeiro acesso </br> <ul><li> O app pergunta se o usuário deseja ativar as notificações </br> <ul><li>Usuário seleciona a opção "sim" e as notificações são ativadas |
-| Fluxo de exceção | <ul><li>O usuário abre o app </br> <ul><li> O usuário vai nas configurações </br> <ul><li> O usuário ativa a opção de notificações por SMS </br> <ul><li> Usuário fornece número de telefone ao app |
+| Fluxo de exceção | <ul><li>O usuário abre o app </br> <ul><li> O usuário tem uma tela com as notificações não lidas  |
 | Pós-condições | O usuário agora está com as notificações ligadas e será notificado sobre novos eventos |
 | Data de Criação | 15/05/2023 |
 | Rastreabilidade | [RF13](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/) |
