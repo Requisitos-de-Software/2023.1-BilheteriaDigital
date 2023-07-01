@@ -102,3 +102,4 @@ _Fonte: [Matheus Henrique](https://github.com/mathonaut), [Douglas Alves](https:
 | `1.0`  | 26/06/2023 | Criação do documento.     | [Matheus Henrique](https://github.com/mathonaut)                                                                                              | [Arthur de Melo](https://github.com/arthurmlv) |
 | `1.1`  | 28/06/2023 | Refatoração do documento. | [Douglas Alves](https://github.com/dougAlvs), [Sidney Fernando](https://github.com/nando3d3) e [Geovanna Maciel](https://github.com/manuziny) | [Arthur de Melo](https://github.com/arthurmlv) |
 | `1.2`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
+| `1.3`  | 01/07/2023 | Ajustes dos não-funcionais. | [Gabriel Campello](https://github.com/G16C) | [Douglas Alves](https://github.com/dougAlvs) |
