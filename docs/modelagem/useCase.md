@@ -131,3 +131,4 @@ As tabelas de 2 a 5 mostram a especialização dos casos de uso.
 | 1.1 | 15/05/2023 | Adição do Diagrama | [Geovanna Maciel](https://github.com/manuziny) e [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougAlves)
 | 1.2 | 15/05/2023 | Adição dos casos de ativar notificação e pesquisa de perfil | [Geovanna Maciel](https://github.com/manuziny) | [Sidney Fernando](https://github.com/nando3d3)
 | 1.3 | 15/05/2023 | Adição dos casos buscar evento e cadastrar carteira digital | [Sidney Fernando](https://github.com/nando3d3) | [Geovanna Maciel](https://github.com/manuziny)
+| 1.4 | 30/06/2023 | Correções | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs)

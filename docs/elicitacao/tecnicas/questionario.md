@@ -157,3 +157,4 @@ Legenda:
 | Versão | Data       | Descrição         | Autor(es)                                                                                     | Revisor(es)                                      |
 | ------ | ---------- | ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | 1.0    | 29/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| 1.1    | 30/06/2023 | Correções | [Sidney Fernando](https://github.com/nando3d3) | [Douglas Alves](https://github.com/dougalvs) |
