@@ -87,7 +87,7 @@ Como esse item é uma sugestão ele não se aplica ao gráfico.
 
 ### ID 14 - Foi realizado um teste piloto antes da sessão?
 
-Não foi identificado no texto se house um teste-piloto (como toda atividade que envolve pessoas, é importante realizar uma teste-piloto, para avaliar a questão oferecida, o procedimento, o treinamento e as habilidades do moderador e do escriba, o tempo estimado para as atividades e todo o material preparado.) (Barbosa e Silva. Página 155)<a id="FTF2" href="#FTF2Ref">^2^</a>
+Não foi identificado no texto se houve um teste-piloto (como toda atividade que envolve pessoas, é importante realizar uma teste-piloto, para avaliar a questão oferecida, o procedimento, o treinamento e as habilidades do moderador e do escriba, o tempo estimado para as atividades e todo o material preparado.) (Barbosa e Silva. Página 155)<a id="FTF2" href="#FTF2Ref">^2^</a>
 
 ### ID 15 - A sessão de brainstorming envolve entre 8 e 12 usuários?
 

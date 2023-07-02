@@ -109,7 +109,7 @@ Como proposto por Fagan, para o retrabalho os autores do artefato ([Douglas Alve
 
 | Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
 | ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 20/06/2023       | Acrescentar os meios de divulgação no qual o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+| 20/06/2023       | Acrescentar os meios de divulgação nos quais o questionário foi compartilhado. |  [Douglas Alves](https://github.com/dougAlvs)  | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
 | 25/06/2023       | Identificar seu público alvo e verificar se segue o perfil de usuário.       | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
 | 01/07/2023       | Correção de acordo com a verificação.       | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) | :material-check: |
 
