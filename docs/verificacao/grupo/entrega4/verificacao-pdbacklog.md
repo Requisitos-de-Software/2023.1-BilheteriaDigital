@@ -1,7 +1,7 @@
 # Verificação do BackLog
 
 ## Introdução
-A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta a verificação do artefato [BackLog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) que tem o projeto voltado ao site Booking. Com base nisso, seu BackLog foi verificado de acordo com os documentos disponibilizados na diciplina como o _Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman_ <a id="FTF1" href="#FTF1Ref">^1^</a>, _Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano_ <a id="FTF1" href="#FTF1Ref">^2^</a> e um _vídeo sobre Product Backlog - Introdução_ <a id="FTF1" href="#FTF1Ref">^3^</a>.
+A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta a verificação do artefato [BackLog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) que tem o projeto voltado ao site Booking. Com base nisso, seu BackLog foi verificado de acordo com os documentos disponibilizados na disciplina como o _Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman_ <a id="FTF1" href="#FTF1Ref">^1^</a>, _Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano_ <a id="FTF1" href="#FTF1Ref">^2^</a> e um _vídeo sobre Product Backlog - Introdução_ <a id="FTF1" href="#FTF1Ref">^3^</a>.
 
 ## Objetivos
 
@@ -50,7 +50,7 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 | 10 | O backlog possui épicos e temas bem definidos e descritos ?                                              | Sim       |
 | 11 | O backlog possui validação de um PO ?                                                                    | Sim       |
 | 12 | O backlog possui ligação com o artefato História de Usuário ?                                            | Sim       |
-| 13 | O backlog apresenta um tabela geral com todos os épicos, features e histórias de usuários ?                                                                                                      | Sim       |
+| 13 | O backlog apresenta uma tabela geral com todos os épicos, features e histórias de usuários ?                                                                                                      | Sim       |
 | 14  | O backlog possui uma metodologia identificada ?                                                         | Sim       |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
@@ -66,7 +66,7 @@ Há erros ortográficos a serem corrigidos, segue a lista:
 - No parágrafo da Introdução a palavra 'projetos' está no plural;
 - No segundo parágrafo da Introdução a palavra 'apresentado' não está condizente ao texto.
 
-* Vale apena resaltar que esse artefato sofreu uma correção recente em sua versão conforme o feedback passado pelo professor em sala de aula.
+* Vale a pena ressaltar que esse artefato sofreu uma correção recente em sua versão conforme o feedback passado pelo professor em sala de aula.
 
 ### Sugestões de Correção
 
@@ -90,6 +90,27 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Rafael Ferreira](https://github.com/RafaelCLG0) e [Matheus Henrique](https://github.com/mathonaut)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correções apontadas pela verificação |  [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut)| :material-check: |
+
+
+_Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
+
+</center>
+
+As correções solicitadas acima foram realizadas.
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 > <a id="FTF1Ref" href="#FTF1">1.</a> Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano. Acessado em: 05 de junho de 2023.

@@ -44,15 +44,15 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                                                                                                                                                                                                                                                                                                                  |    Sim    |                                    |
 |        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                                                                                                                                                                                                                                                                                                                        |    Sim    |                                    |
 |        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                                                                                                                                                                                                                                                                                                                  |    Sim    |                                    |
-|        5         | Todos os textos estão na norma padrão?                                                                                                                                                                                                                                                                                                                                                                                        |    Não    |                                    |
+|        5         | Todos os textos estão na norma padrão?                                                                                                                                                                                                                                                                                                                                                                                        |    Incompleto    |                                    |
 | **Planejamento** |                                                                                                                                                                                                                                                                                                                                                                                                                               |           |                                    |
 |        6         | A priorização usando Three Level Scale levou em consideração as duas dimensões '_Importância_' e '_Urgência_'? (_Importância e Urgência: Na técnica de priorização Three Level Scale usamos as duas classificações para dividir requisitos em grupos a serem priorizados._)                                                                                                                                                   |    Sim    |                                    |
 |        7         | Os níveis de priorização foram divididos em 3? ('Alta', 'Média' e 'Baixa')                                                                                                                                                                                                                                                                                                                                                    |    Sim    |                                    |
-|        8         | Foi utilizado um modelo de quadrante para enquadrar os requistitos entre prioridade 'Alta' (primeiro quadrante), 'Média' (segundo quadrante), 'Baixa (terceiro quadrante)' e requistos propostos com nenhum valor para o projeto (quarto quadrante)? (_Requisitos do quarto quadrante: São requisitos sem valor ao projeto, se não forem importantes devem ser movidos para o terceiro quadrante ou excluidos por completo._) |    Sim    |                                    |
-|        9         | A prioridade estabelecida foi incluida como um atributo para cada requisito no documento de requisitos de usuário ou em alguma base de dados de requisitos? (_Prioridade de requistos como atributo: Isso deve ser feito visto que, estabelecer uma convenção para o atributo de priorização auxilia o leitor a ter maior compreensão lógica da priorização realizada._)                                                      |    Sim    |                                    |
+|        8         | Foi utilizado um modelo de quadrante para enquadrar os requisitos entre prioridade 'Alta' (primeiro quadrante), 'Média' (segundo quadrante), 'Baixa (terceiro quadrante)' e requisitos propostos com nenhum valor para o projeto (quarto quadrante)? (_Requisitos do quarto quadrante: São requisitos sem valor ao projeto, se não forem importantes devem ser movidos para o terceiro quadrante ou excluídos por completo._) |    Sim    |                                    |
+|        9         | A prioridade estabelecida foi incluída como um atributo para cada requisito no documento de requisitos de usuário ou em alguma base de dados de requisitos? (_Prioridade de requisitos como atributo: Isso deve ser feito visto que, estabelecer uma convenção para o atributo de priorização auxilia o leitor a ter maior compreensão lógica da priorização realizada._)                                                      |    Sim    |                                    |
 |        10        | As dependências de requisitos foram levadas em consideração no processo de ranqueamento?                                                                                                                                                                                                                                                                                                                                      |    Não    | Não foi identificado no documento. |
 |        11        | Foi determinado um cronograma para a realização dessa priorização?                                                                                                                                                                                                                                                                                                                                                            |    Sim    |                                    |
-|        12        | Há no documento a expecificação dos participantes e seus respectivos papéis?                                                                                                                                                                                                                                                                                                                                                  |    Sim    |                                    |
+|        12        | Há no documento a especificação dos participantes e seus respectivos papéis?                                                                                                                                                                                                                                                                                                                                                  |    Sim    |                                    |
 |        13        | Foram apresentados no documento os resultados da priorização e a gravação da reunião?                                                                                                                                                                                                                                                                                                                                         |    Sim    |                                    |
 |        14        | Dentre os Requisitos Priorizados estão os Funcionais e Não-Funcionais?                                                                                                                                                                                                                                                                                                                                                        |    Sim    |                                    |
 
@@ -68,9 +68,9 @@ Há erros ortográficos a serem corrigidos, segue a lista:
 
 - No parágrafo de Metodologia as palavras 'assim' está escrita errada 'asssim'.
 
-### ID 12 - As dependências de requisitos foram levadas em consideração no processo de ranqueamento?
+### ID 10 - As dependências de requisitos foram levadas em consideração no processo de ranqueamento?
 
-Não foi apresentado no documento se os requisitos priorizados sofreram algum tipo de dependências.
+Não foi apresentado no documento se os requisitos priorizados sofreram algum tipo de dependência, a técnica Three Level Scale em si não aborda explicitamente as dependências entre requisitos. No entanto, é comum considerar as dependências durante o processo de avaliação e categorização dos requisitos.
 
 ## Sugestões de Correção
 
@@ -94,6 +94,28 @@ A figura 1 apresenta um gráfico com o percentual de respostas sim, não ou inco
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
+
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Rafael Ferreira](https://github.com/RafaelCLG0) e [Gabriel Campello](https://github.com/G16C)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correções apontadas pela verificação e identificação na documentação sobre as dependências de requisitos na priorização |  [Rafael Ferreira](https://github.com/RafaelCLG0) | [Gabriel Campello](https://github.com/G16C)| :material-check: |
+
+
+_Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
+
+</center>
+
+As correções solicitadas acima foram realizadas.
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliograficas
 

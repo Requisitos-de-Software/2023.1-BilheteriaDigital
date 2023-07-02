@@ -2,9 +2,9 @@
 
 ## Introdução
 
-O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projetos. O responsável por sugerir e priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
+O Backlog do Produto é um artefato da metodologia ágil que toma a forma de uma lista de todas as tarefas pendentes a serem feitas em um projeto. O responsável por sugerir e priorizar os itens é o Dono do Produto (_Product Owner_). Vale ressaltar que o Backlog do Produto é um artefato dinâmico, ou seja, ele cresce e muda à medida que os requisitos e a visão do produto são alterados.
 
-Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Os participantes são apresentados na tabela 1 e gravação da entrevista é apresentado no vídeo 1.
+Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Os participantes são apresentados na tabela 1 e gravação da entrevista é apresentada no vídeo 1.
 
 <center>
 
@@ -284,3 +284,4 @@ Este épico enfatiza as funcionalidades e atributos que contribuem para a efici�
 | `1.2`   | 24/05/2023 | Ajustes nos textos e adição de links. | [Matheus Henrique](https://github.com/mathonaut)                                                    | [Arthur de Melo](https://github.com/arthurmlv)                                                |
 | `2.0`   | 08/06/2023 | Refatoração do Artefato               | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny) |
 | `2.1`   | 09/06/2023 | Adição das Histórias de Usuário e refatoração dos épicos em uma única tabela              | [Douglas Alves](https://github.com/dougAlvs) | [Matheus Henrique](https://github.com/mathonaut) |
+| `2.2`   | 01/07/2023 | Retrabalho de acordo com a Verificação    | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |

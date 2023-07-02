@@ -44,19 +44,19 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |         2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                  |    Sim    |          -           |
 |         3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                        |    Sim    |          -           |
 |         4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                  |    Sim    |          -           |
-|         5         | Todos os textos estão na norma padrão?                                                                                        |    Não    |          -           |
+|         5         | Todos os textos estão na norma padrão?                                                                                        |    Incompleto    |          -           |
 | **Brainstorming** |                                                                                                                               |           |                      |
 |         6         | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do cliente e/ou persona do projeto? |    Sim    |          -           |
 |         7         | Possui gravação da atividade de elicitação dos requisitos?                                                                    |    Não    | Não possui gravação. |
 |         8         | A elicitação contou com moderador e um secretário.                                                                            |    Sim    |          -           |
 |         9         | Todas as perguntas e respostas geradas durante o brainstorming foram documentadas de forma clara e concisa?                   |    Sim    |          -           |
 |        10         | Foram utilizadas técnicas de estímulo, como palavras-chave, imagens ou diagramas, para incentivar a geração de ideias?        |    Sim    |          -           |
-|        11         | Foram apresentado os Requisitos Elicitados?                                                                                   |    Sim    |          -           |
+|        11         | Foram apresentados os Requisitos Elicitados?                                                                                   |    Sim    |          -           |
 |        12         | Dentre os Requisitos Elicitados estão os Funcionais e Não-Funcionais?                                                         |    Sim    |          -           |
-|        13         | Foi utilizado um digrama de afinidade na sessão de brainstorming?                                                             |    Não    |          -           |
+|        13         | Foi utilizado um diagrama de afinidade (Beyer e Holtzblatt, 1997)<a id="FTF2" href="#FTF2Ref">^2^</a>. na sessão de brainstorming?                                                             |    Não se Aplica    |         -            |
 |        14         | Foi realizado um teste piloto antes da sessão?                                                                                |    Não    |          -           |
 |        15         | A sessão de brainstorming envolve entre 8 e 12 usuários?                                                                      |    Não    |          -           |
-|        16         | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?                              |    Não    |          -           |
+|        16         | Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementados ou não?                              |    Não    |          -           |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -68,7 +68,7 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 Há erros ortográficos a serem corrigidos, segue a lista:
 
-- No parágrafo da Metodologia a palavra 'elecitação está escrita errada 'eleicitação';
+- No parágrafo da Metodologia a palavra 'elecitação' está escrita errada 'eleicitação';
 - Dentro do tópico Perguntas/Respostas na primeira pergunta a respostas do André está com a palavra 'combinação' escrita errada 'combinção';
 - Na quarta pergunta na resposta do Leonardo a palavra 'usuário' está escrita errada 'usúario';
 - Na sétima pergunta na resposta do Lucas as palavras 'também e assistente' estão escritas errado 'támbem e assitente';
@@ -77,23 +77,25 @@ Há erros ortográficos a serem corrigidos, segue a lista:
 
 ### ID 07 - Possui gravação da atividade de elicitação dos requisitos?
 
-Não foi realizado uma gravação da sessão de Brainstorming.
+Não foi realizada uma gravação da sessão de Brainstorming.
 
-### ID 13 - Foi utilizado um digrama de afinidade na sessão de brainstorming?
+### ID 13 - Foi utilizado um diagrama de afinidade na sessão de brainstorming?
 
-Não foi utilizado um digrama de afinidade na sessão de brainstorming.
+Uma alternativa à sessão de brainstorming consiste em utilizar diagramas de afinidade (Beyer e Holtzblatt, 1997)<a id="FTF2" href="#FTF2Ref">^2^</a>.
+
+Como esse item é uma sugestão ele não se aplica ao gráfico.
 
 ### ID 14 - Foi realizado um teste piloto antes da sessão?
 
-Não foi documentado se houve um teste piloto para verificar as ferramentas utilizadas na na sessão de brainstorming.
+Não foi identificado no texto se houve um teste-piloto (como toda atividade que envolve pessoas, é importante realizar uma teste-piloto, para avaliar a questão oferecida, o procedimento, o treinamento e as habilidades do moderador e do escriba, o tempo estimado para as atividades e todo o material preparado.) (Barbosa e Silva. Página 155)<a id="FTF2" href="#FTF2Ref">^2^</a>
 
 ### ID 15 - A sessão de brainstorming envolve entre 8 e 12 usuários?
 
 No livro _Interação Humano-Computador_(Barbosa e Silva. Página 153)<a id="FTF2" href="#FTF2Ref">^2^</a>. Em geral, uma sessão de brainstorming envolve entre 8 e 12 usuários finais, de preferência com perfil semelhante.
 
-### ID 16 - Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementado ou não?
+### ID 16 - Dentre os Requisitos Elicitados foi identificado os requisitos que já foram implementados ou não?
 
-Não foi identificado se os requisitos elicitados já foram implementando ou não.
+Não foi identificado se os requisitos elicitados já foram implementandos ou não.
 
 ## Sugestões de Correção
 
@@ -119,6 +121,28 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato ([Rafael Ferreira](https://github.com/RafaelCLG0) e [Geovanna Maciel](https://github.com/manuziny)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correções apontadas pela verificação, identificação de implementação dos requisitos e verificação dos participantes e métodos de gravação/teste-pilto |  [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny)| :material-check: |
+
+
+_Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
+
+</center>
+
+As correções solicitadas acima foram realizadas.
+
+!!! info
+    O cronograma apresentado na tabela 3 pode ser alterado.
+
 ## Referências Bibliograficas
 
 > <a id="FTF1Ref" href="#FTF1">1.</a> COOPER, Alan; REIMANN, Robert; CRONIN, Dave. About Face: The Essentials of Interaction Design.
@@ -130,3 +154,4 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
 | `1.0`  | 20/06/2023 | Criação da página. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.1`  | 01/07/2023 | Adição dos textos nas questões pontuadas de acordo com as referências | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Geovanna Maciel](https://github.com/manuziny) |

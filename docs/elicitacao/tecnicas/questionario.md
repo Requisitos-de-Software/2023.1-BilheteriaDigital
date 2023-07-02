@@ -4,10 +4,9 @@
 
 Um questionário é uma técnica utilizada na elicitação de requisitos que consiste na criação de um conjunto de perguntas para coletar informações sobre as necessidades e expectativas das partes interessadas em relação a um sistema ou processo. É uma forma rápida e eficiente de coletar informações quantitativas e qualitativas de um grande número de pessoas.
 
-O questionário foi divulgado em grupos de WhatsApp e Telegram nos grupos da Universidade de Brasília, o que implica que a maioria das pessoas que responderam são universitários. Essa informação é relevante, pois os universitários provavelmente estão familiarizados e frequentemente utilizam o aplicativo. Portanto, há maiores chances de que as pessoas que responderam sejam usuárias ativas desse aplicativo, o que pode contribuir para uma maior representatividade dos dados coletados em relação ao uso e experiência dos usuários com essas plataformas.
-
 ## Metodologia
 
+O questionário foi divulgado em grupos de WhatsApp e Telegram nos grupos da Universidade de Brasília, o que implica que a maioria das pessoas que responderam são universitários. Essa informação é relevante, pois os universitários provavelmente estão familiarizados e frequentemente utilizam o aplicativo. Portanto, há maiores chances de que as pessoas que responderam sejam usuárias ativas desse aplicativo, o que pode contribuir para uma maior representatividade dos dados coletados em relação ao uso e experiência dos usuários com essas plataformas.
 
 
 ## Resultados
@@ -157,4 +156,6 @@ Legenda:
 | Versão | Data       | Descrição         | Autor(es)                                                                                     | Revisor(es)                                      |
 | ------ | ---------- | ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | `1.0`    | 29/04/2023 | Criação da página | [Douglas Alves](https://github.com/dougalvs) e [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.1`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
+| `1.1`  | 25/06/2023 | Adição do público alvo e verificar se segue o perfil de usuário. | [Sidney Fernando](https://github.com/nando3d3) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.2`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
+| `1.3`  | 01/07/2023 | Retrabalho de acordo com a Verificação | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
