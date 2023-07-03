@@ -27,7 +27,7 @@ Uma maneira de organizar e visualizar o uso dessas ferramentas nos projetos é c
 
 ## Bibliografia
 
-> HENRIQUE, Arhur. Artefatos Criados. Repositório do Grupo Millenium Papelaria e Presentes da disciplina de Interação Humano Computador da Universidade de Brasília, 2022. Disponível em: <<https://interacao-humano-computador.github.io/2022.1-Millenium-Papelaria/Conclusao/tabelaArtefatos/>>. Acesso em: 02 de julho 2023.
+> CARVALHO, Ingrid. Ferramentas ultilizadas durante o projeto. Repositório do Grupo Millenium Papelaria e Presentes da disciplina de Interação Humano Computador da Universidade de Brasília, 2022. Disponível em: <<https://interacao-humano-computador.github.io/2022.1-Millenium-Papelaria/Conclusao/tabelaArtefatos/>>. Acesso em: 02 de julho 2023.
 
 ## Histórico de Versões
 
