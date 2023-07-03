@@ -97,7 +97,6 @@ Na Tabela 3, o requisito RNF02 é marcado como não implementado, no entanto, es
 
 | Versão | Data       | Descrição                                     | Autor(es)                                      | Revisor(es)                                      |
 | ------ | ---------- | --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------ |
-
 | 1.0    | 26/04/2023 | Introdução e requisitos iniciais              | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C)      |
 | 1.1    | 26/04/2023 | Requisitos atualizados                        | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |
 | 1.2    | 27/04/2023 | Metodologia usada e verificação de requisitos | [Gabriel Campello](https://github.com/G16C)    | [Arthur de Melo](https://github.com/arthurmlv)   |

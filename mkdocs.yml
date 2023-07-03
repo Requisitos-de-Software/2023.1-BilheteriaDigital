@@ -131,6 +131,9 @@ nav:
   - Rastreabilidade:
       - Matriz Geral: rastreabilidade/matriz-geral.md
       - Pós-Rastreabilidade: rastreabilidade/pos-rastreabilidade.md
+  - Entrega Final:
+      - Artefatos Criados: entrega-final/artefatos-criados.md
+      - Ferramentas Utilizadas: entrega-final/ferramentas-utilizadas.md
 
 theme:
   name: material
