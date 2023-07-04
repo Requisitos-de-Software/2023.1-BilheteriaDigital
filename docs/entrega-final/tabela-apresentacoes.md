@@ -16,6 +16,8 @@ Nesse documento estará contido na tabela 1 todas as apresentações e os partic
 | <p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/lEm6wGfnnfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p> | 6 | Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney |
 | <p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/BfKbP_yxn0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p> | 7 | Arthur, Douglas, Gabriel, Geovanna, Matheus, Rafael e Sidney |
 
+_Fonte: [Geovanna Maciel](https://github.com/manuziny), 2023._
+
 
 </center>
 
@@ -23,4 +25,4 @@ Nesse documento estará contido na tabela 1 todas as apresentações e os partic
 
 | Versão | Data  | Descrição| Autor(es)| Revisor(es) |
 | ------ | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 03/07/2023 | Criação do documento | [Geovanna Maciel](https://github.com/mathonaut)  |  [Rafael Ferreira](https://github.com/RafaelCLG0)  |
+| `1.0`  | 03/07/2023 | Criação do documento | [Geovanna Maciel](https://github.com/manuziny)  |  [Rafael Ferreira](https://github.com/RafaelCLG0)  |
