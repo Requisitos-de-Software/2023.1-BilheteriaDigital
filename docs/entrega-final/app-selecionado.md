@@ -1,19 +1,23 @@
 # Aplicativo Escolhido
 
 ## Introdução
-No início do processo da disciplina, alguns intergrantes do grupo apresentaram [possíveis candidatos](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/1) e seus respectivos argumentos para escolha. Posteriormente, foi feita uma [revisão](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/3) em que cada aplicativo passava por alguns critérios com o objetivo de se chegar a um consenso. 
+
+No início do processo da disciplina, os integrantes do grupo apresentaram [possíveis candidatos](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/1) de aplicativos para trabalharmos e seus respectivos argumentos para escolha. Posteriormente, foi feita uma [revisão](https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/issues/3) em que cada aplicativo passava por alguns critérios com o objetivo de se chegar a um consenso. Esse documento busca sumarizar as motivações dessa escolha.
 
 ## Critérios para escolha
-* Aplicativo não ter sido trabalhado na disciplina
-* Facilidade de contato com o público-alvo.
-* Complexidade do aplicativo
-* Disponibilidade de informações
+
+Para realizarmos a escolha do aplicativo seguimos os seguintes critérios:
+
+* Aplicativo não ter sido trabalhado na disciplina;
+* Facilidade de contato com o público-alvo;
+* Complexidade do aplicativo;
+* Disponibilidade de informações.
 
 ## Motivações de escolha
 Baseado nos critérios anteriores, e após instrução do professor, o grupo decidiu por escolher o aplicativo da [Bilheteria Digital](https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US). Principais motivações:
 
-* Aplicativo de complexidade média, que apresenta requisitos funcionais e não funcionais que seram trabalhados na disciplina.
-* Público-alvo amplo e de fácil acesso. O aplicativo apresenta eventos para diversas faixas etárias.
+* Aplicativo de complexidade média, isto é, nem muito complexo pro escopo da disciplina, nem muito simplório para a quantidade de integrantes do grupo, que apresenta requisitos funcionais e não funcionais que seram trabalhados no projeto.
+* Público-alvo amplo e de fácil acesso. Visto que o aplicativo apresenta eventos de diversas naturezas, como espetáculos teatrais, shows, entre outros. Sendo assim, o público-alvo é composto por pessoas de diferentes faixas etárias, o que facilitaria quaisquer contatos por parte do grupo.
 * Possibilidade de usar o site do aplicativo na disciplina de IHC (Interação Humana Computador), apresentando um maior aproveitamento da interdisciplinaridade das duas matérias em seus respectivos projetos.
 
 ## Termos de uso
@@ -28,6 +32,4 @@ Essa abordagem evitaria a necessidade de realizar qualquer tipo de engenharia re
 
 Versão  |   Data   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ------ | ---------- | ----------
-1.0 | 16/04/2023 | Criação do documento | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
-1.1 | 23/04/2023 | Correções pós feedback do monitor| [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv)
-1.2 | 23/04/2023 | Adição termo de uso | [Douglas Alves](https://github.com/dougAlvs) | [Rafael Ferreira](https://github.com/RafaelCLG0)
+1.0 | 04/07/2023 | Criação do documento | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
