@@ -134,6 +134,7 @@ nav:
   - Entrega Final:
       - Artefatos Criados: entrega-final/artefatos-criados.md
       - Ferramentas Utilizadas: entrega-final/ferramentas-utilizadas.md
+      - Planejamento dos Recursos e das Entregas: entrega-final/planejamento-recursos-entregas.md
 
 theme:
   name: material
