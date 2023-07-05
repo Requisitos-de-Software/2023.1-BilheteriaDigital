@@ -1,0 +1,21 @@
+## Introdução
+Como a disciplina visa identificar e documentar as necessidades dos stakeholders para o desenvolvimento de um sistema ou aplicativo. Seus principais resultados podem incluir compreender as necessidades dos usuários, documentar adequadamente os requisitos, estabelecer rastreabilidade e gerenciar mudanças e melhorias do projeto. Esses resultados garantem que o software atenda às expectativas dos usuários para que seja de alta qualidade e agregue valor ao projeto.
+
+Com isso em mente, o grupo 1 da disciplina de Requisitos de Software obteve os resultados que serão citados abaixo de forma mais específica e detalhada.
+
+## Resultados Alcançados
+Ao começo do projeto toda a equipe precisou realizar um planejamento, esse que tinha por objetivo nos alinhar como equipe e como escopo do nosso projeto. Ainda nessa fase de planejamento, foram necessárias metodologias a serem definidas, um cronograma detalhado feito com a previsão de todas as atividades, definir as ferramentas e por fim o nosso aplicativo, o foco de todos os integrantes. No planejamento foi possível alcançar o alinhamento da equipe e documentar as necessidades para o desenvolvimento (inicialmente) do projeto.
+
+Para compreender as necessidades dos usuários, as etapas de Elicitação ([Perfil de Usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/perfil_de_usuario/), [Personas](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/personas/), [Técnicas de Elicitação](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/tecnicas/introspeccao/), [Priorização dos Requisitos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/priorizacao/100/)) e Modelagem ([Casos de Uso](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/), [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/), [Cenários](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/), [Léxicos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/) e [Ágil](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/)) foram essenciais, pois nelas foram postas em prática os conceitos propostos em sala. A equipe como um todo pôde olhar pela perspectiva dos usuários a partir do perfil definido e assim ter um "norte" de quais seriam as pessoas que teríamos que atrair e agradar. 
+
+As mesmas etapas supracitadas foram de grande importância para que o grupo como um todo pudesse aprender a como documentar os requisitos de forma adequada, levando sempre em consideração o que os usuários queriam.
+
+Durante o projeto vários requisitos foram elicitados através de técnicas e artefatos diferentes, com a disciplina foi possível aplicar sua rastreabilidade. Desta forma, na reta final do projeto foi executada a Rastreabilidade em que nela os artefatos de [Pós-Rastreabilidade](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/pos-rastreabilidade/) e a [Matriz Geral](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/rastreabilidade/matriz-geral/) elucidaram melhor as conexões entre os requisitos e seus artefatos relacionados.
+
+Para o resultado de gerência de mudanças e melhorias, foram feitas verificações de todos os artefatos produzidos de forma a identificar problemas. Para isso foi utilizada a metodologia proposta por Fagan onde as etapas de reunião de inspeção, retrabalho e acompanhamento fizeram com que o grupo percebesse os pontos a serem melhorados nos artefatos.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                                                      | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| `1.0`  | 03/07/2023 | Criação do documento | [Geovanna Maciel](https://github.com/mathonaut)  |  [Rafael Ferreira](https://github.com/RafaelCLG0)  |
