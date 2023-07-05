@@ -224,13 +224,13 @@ As Tabelas 4 e 5 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>04/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Brainstorm para elicitação de requisitos; Introspecção para elicitação de requisitos; Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Brainstorm para elicitação de requisitos; Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto.</td>
+        <td>Introspecção para elicitação de requisitos; Entrevista para elicitação de requisitos</td>
+        <td>Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto; Brainstorm para elicitação de requisitos; Priorização dos requisitos levantados usando as técnicas MoSCoW e 100 Dólares.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Entrevista para elicitação de requisitos; Observação para elicitação de requisitos.</td>
+        <td>Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto; Entrevista para elicitação de requisitos.</td>
+        <td>Brainstorm para elicitação de requisitos; Entrevista para elicitação de requisitos; Priorização dos requisitos levantados usando as técnicas MoSCoW e 100 Dólares; Observação para elicitação de requisitos.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -242,13 +242,13 @@ As Tabelas 4 e 5 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>05/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Brainstorm para elicitação de requisitos.</td>
+        <td>Entrevista para elicitação de requisitos.</td></td>
+        <td>Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Observação para elicitação de requisitos</td>
+        <td>Priorização dos requisitos levantados usando as técnicas MoSCoW e 100 Dólares.</td>
+        <td>Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto.</td>
+        <td>Introspecção para elicitação de requisitos.</td>
     </tr>
 </table>
 
@@ -284,13 +284,13 @@ As Tabelas 4 e 5 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>04/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Introspecção para elicitação de requisitos; Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First.</td>
+        <td>Questionário para elicitação de requisitos; Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First.</td>
+        <td>Brainstorm para elicitação de requisitos; Introspecção para elicitação de requisitos; Questionário para elicitação de requisitos.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto; Brainstorm para elicitação de requisitos;Questionário para elicitação de requisitos.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First.</td>
+        <td>Criação de personas e pesquisa perfis de usuários; Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto; Observação para elicitação de requisitos; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First</td>
+        <td>Questionário para elicitação de requisitos; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -302,12 +302,12 @@ As Tabelas 4 e 5 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>06/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Brainstorm para elicitação de requisitos.</td>
+        <td>Criação de personas e pesquisa perfis de usuários;</td></td>
+        <td>Entedimento das técnicas de elicitação de requisitos e quais serão usadas no projeto; Priorização dos requisitos levantados usando as técnicas 100 Dólares, Three Level Scale e First Things First.</td>
+        <td>Observação para elicitação de requisitos.</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Questionário para elicitação de requisitos; Entendimento das técnicas de priorização de requisitos e quais serão usadas no projeto.</td>
         <td>-</td>
     </tr>
 </table>
@@ -348,13 +348,13 @@ As Tabelas 6 e 7 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>21/05/2023/</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos: Léxico.</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Léxico; Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -366,13 +366,13 @@ As Tabelas 6 e 7 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>23/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Léxico.</td>
+        <td>Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Léxico</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
     </tr>
 </table>
 
@@ -408,13 +408,13 @@ As Tabelas 6 e 7 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>21/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos: Léxico.</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Léxico; Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -426,13 +426,13 @@ As Tabelas 6 e 7 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>23/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Use Case.</td>
+        <td>Modelagem de Requisitos: Léxico.</td>
+        <td>Modelagem de Requisitos: Especificação Suplementar.</td>
+        <td>Modelagem de Requisitos: Léxico</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos: Cenários.</td>
     </tr>
 </table>
 
@@ -472,13 +472,13 @@ As Tabelas 8 e 9 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>30/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
+        <td>Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
+        <td>Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -490,10 +490,10 @@ As Tabelas 8 e 9 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>03/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
         <td>-</td>
         <td>-</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework; Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
@@ -532,13 +532,13 @@ As Tabelas 8 e 9 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>30/05/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
+        <td>Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
+        <td>Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -550,10 +550,10 @@ As Tabelas 8 e 9 apresentam, respectivamente, o cronograma planejado e o executa
         <td>Fim: <b>03/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Modelagem de Requisitos - Ágil: Backlogs.</td>
         <td>-</td>
-        <td>-</td>
+        <td>Modelagem de Requisitos - Ágil: Histórias de Usuário.</td>
+        <td>Modelagem de Requisitos - Ágil: NFR Framework.</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
@@ -597,13 +597,13 @@ As Tabelas 10 e 11 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>10/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -615,12 +615,12 @@ As Tabelas 10 e 11 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>13/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
         <td>-</td>
         <td>-</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
         <td>-</td>
         <td>-</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
         <td>-</td>
     </tr>
 </table>
@@ -657,13 +657,13 @@ As Tabelas 10 e 11 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>10/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação Léxico: grupo 2; Verificação NFR Framework: grupo 2.</td>
+        <td>Verificação cenários: grupo 2; Verificação histórias de usuário: grupo 2.</td>
+        <td>Verificação técnicas de elicitação: grupo 2; Verificação da priorização dos requisitos elicitados.</td>
+        <td>Verificação Rich Picture: grupo 2; Verificação Caso de uso: grupo 2.</td>
+        <td>Verificação especificação suplementar: grupo 2.</td>
+        <td>Verificação Backlog: grupo 2.</td>
+        <td>Verificação técnicas de elicitação: grupo 2; Verificação da priorização dos requisitos elicitados.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -675,13 +675,13 @@ As Tabelas 10 e 11 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>13/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação da priorização dos requisitos elicitados.</td>
+        <td>Verificação da priorização dos requisitos elicitados.</td>
+        <td>Verificação Rich Picture: grupo 2; Verificação cenários: grupo 2; Verificação NFR Framework: grupo 2;</td>
+        <td>Verificação técnicas de elicitação: grupo 2; Verificação histórias de usuário: grupo 2.</td>
+        <td>Verificação Backlog: grupo 2.</td>
+        <td>Verificação Léxico: grupo 2; Verificação especificação suplementar: grupo 2.</td>
+        <td>Verificação Caso de uso: grupo 2.</td>
     </tr>
 </table>
 
@@ -721,13 +721,13 @@ As Tabelas 12 e 13 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>08/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -739,13 +739,13 @@ As Tabelas 12 e 13 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>13/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
     </tr>
 </table>
 
@@ -781,13 +781,13 @@ As Tabelas 12 e 13 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>24/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -799,13 +799,13 @@ As Tabelas 12 e 13 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>25/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>Validação: Prototipação e Comprovação Informal.</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação por inspeção de todos os artefatos.</td>
     </tr>
 </table>
 
@@ -845,13 +845,13 @@ As Tabelas 14 e 15 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>20/06/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
+        <td>Pós-rastreabilidade: Backward-form.</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
+        <td>Pós-rastreabilidade: Backward-form.</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
+        <td>Pós-rastreabilidade: Backward-form.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -863,13 +863,13 @@ As Tabelas 14 e 15 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>03/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Pós-rastreabilidade: Backward-form.</td>
+        <td>-</td>
+        <td>Pós-rastreabilidade: Backward-form.</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Pós-rastreabilidade: Forward-form.</td>
     </tr>
 </table>
 
@@ -905,13 +905,13 @@ As Tabelas 14 e 15 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>03/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Pré-rastreabilidade.</td>
+        <td>Pós-rastreabilidade.</td>
+        <td>Pré-rastreabilidade.</td>
+        <td>Pós-rastreabilidade.</td>
+        <td>Matriz de Rastreabilidade.</td>
+        <td>Pré-rastreabilidade.</td>
+        <td>Pós-rastreabilidade.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -923,13 +923,13 @@ As Tabelas 14 e 15 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>04/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Pós-rastreabilidade.</td>
+        <td>-</td>
+        <td>Pós-rastreabilidade.</td>
         <td>-</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Matriz de Rastreabilidade.</td>
+        <td>Pré-rastreabilidade.</td>
     </tr>
 </table>
 
@@ -970,13 +970,13 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>09/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).<td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -988,12 +988,12 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>11/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
+        <td>Desenvolvimento do projeto final (correção e complemento).</td>
         <td>-</td>
     </tr>
 </table>
@@ -1030,13 +1030,13 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>05/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade realizada(s).</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>A execução do projeto.</td>
+        <td>O aplicativo selecionado para o projeto.</td>
+        <td>Planejamento dos Recursos e das Entregas.</td>
+        <td>Resultados Alcançados; Vídeos das apresentações de cada etapa.</td>
+        <td>Artefatos Criados; Ferramentas Utilizadas.</td>
+        <td>Artefatos Criados; Ferramentas Utilizadas.</td>
+        <td>Verificação e validação dos artefatos.</td>
     </tr>
     <tr>
         <td><b>Revisão</b></td>
@@ -1048,13 +1048,13 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
         <td>Fim: <b>11/07/2023</b></td>
     </tr>
     <tr>
-        <td>Atividade revisada(s).</td>
-        <td>-</td></td>
+        <td>Artefatos Criados; Ferramentas Utilizadas.</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>Verificação e validação dos artefatos.</td>
+        <td>A execução do projeto.</td>
+        <td>O aplicativo selecionado para o projeto.</td>
+        <td>Resultados Alcançados; Vídeos das apresentações de cada etapa.</td>
+        <td>Planejamento dos Recursos e das Entregas.</td> 
     </tr>
 </table>
 
@@ -1068,4 +1068,4 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
 | ------ | ---------- | ------------------ | ------------------------------------------------ | ---------------------------------------------- |
-| `1.0`  | 04/07/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) | [Arthur de Melo](https://github.com/arthurmlv)  |
+| `1.0`  | 04/07/2023 | Criação da página. | [Gabriel Campello](https://github.com/G16C) | [Sidney Fernando.](https://github.com/nando3d3)  |
