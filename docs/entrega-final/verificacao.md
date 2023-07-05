@@ -6,7 +6,7 @@ O objetivo desta página é sintetizar sobre o artefato de verificação do Grup
 
 Como explicado no documento do artefato, o método utilizado foi a técnica de inspeção através de checklists, desenvolvida originalmente por Fagan.
 
-A estratégia de planejamento adotada envolveu a verificação de cada artefato por um membro do grupo que não foi responsável por sua criação. Esse membro foi encarregado de elaborar uma lista de verificação (checklist) específica para o artefato em questão. Após a conclusão da verificação, o membro responsável pela criação do artefato assumiu a responsabilidade de corrigi-lo, levando em consideração as melhorias solicitadas durante a verificação.
+A estratégia de planejamento adotada envolveu a verificação de cada artefato por um membro do grupo que não foi responsável por sua criação. Esse membro foi encarregado de elaborar uma lista de verificação (checklist) específica para o artefato em questão. Após a conclusão da verificação, o membro responsável pela criação do artefato ou da verificação assumiu a responsabilidade de corrigí-lo, levando em consideração as melhorias solicitadas durante a verificação e a validação das correções propostas.
 
 ## Verificação do Grupo 2
 
