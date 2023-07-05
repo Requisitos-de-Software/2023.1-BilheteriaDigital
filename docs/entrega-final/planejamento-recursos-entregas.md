@@ -1064,6 +1064,9 @@ As Tabelas 16 e 17 apresentam, respectivamente, o cronograma planejado e o execu
 
 </details>
 
+## Bibliografia
+> SALES, André Barros de. Ambientação - Aula 1, Exemplo de Cronograma. Aprender 3. Distrito Federal, 2016. Disponível em: <https://aprender3.unb.br/pluginfile.php/2530063/mod_resource/content/1/Exemplo%20de%20Cronograma.pdf>. Acesso em: 03/07/2023.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                    |
