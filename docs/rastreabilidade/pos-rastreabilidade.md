@@ -70,7 +70,7 @@ Tabela 2 - RF01
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF01.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -121,7 +121,7 @@ Tabela 3 - RF02
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF02.gif" height="500" width="250"> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -172,7 +172,7 @@ Tabela 4 - RF03
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF03.gif" height="500" width="250"> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -529,7 +529,7 @@ Tabela 11 - RF10
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF10.gif" height="500" width="250"> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -733,7 +733,7 @@ Tabela 15 - RF14
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF14.gif" height="500" width="250"></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF14P.gif" height="500" width="250"> <br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF14.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -886,7 +886,7 @@ Tabela 18 - RF17
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF17.gif" height="500" width="250"></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF17P.gif" height="500" width="250"><br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br><font><figure markdown><img src="../../assets/rastreabilidade/RF17.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1141,7 +1141,7 @@ Tabela 23 - RF22
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18">Histórias de Usuário US18</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF22.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18">Histórias de Usuário US18</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF22.jpg" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1906,7 +1906,7 @@ Tabela 38 - RF37
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><font><figure markdown><img src="../assets/rastreabilidade/RF37.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF05.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2008,7 +2008,7 @@ Tabela 40 - RNF02
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RNF02.gif" height="500" width="250"><br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2448,7 +2448,8 @@ Tabela 48 - RNF10
 | `1.0`   | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | `1.1`   | 25/06/2023 | Requisitos Não-Funcionais                        | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
 | `1.2`   | 25/06/2023 | Adição dos Requisitos Implementados              | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| `1.3`   | 28/06/2023 | Adição das imagens                               | [Geovanna Maciel](https://github.com/manuziny)                                                    | [Douglas Alves](https://github.com/dougAlvs)x  |
+| `1.3`   | 28/06/2023 | Adição das imagens                               | [Geovanna Maciel](https://github.com/manuziny)                                                    | [Douglas Alves](https://github.com/dougAlvs)  |
 | `1.3.1` | 28/06/2023 | Redimensionamento das imagens                    | [Douglas Alves](https://github.com/dougAlvs)                                                      | [Geovanna Maciel](https://github.com/manuziny) |
 | `1.3.2` | 29/06/2023 | Melhora na visibilidade dos elos                 | [Douglas Alves](https://github.com/dougAlvs)                                                      | [Sidney Fernando](https://github.com/nando3d3) |
 | `1.4`   | 01/07/2023 | Ajustes dos não-funcionais.                      | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Douglas Alves](https://github.com/dougAlvs)   |
+| `1.5`   | 05/07/2023 | Adição GIFS Representação e Protótipo de Alta                      | [Douglas Alves](https://github.com/dougAlvs)                                                    | [Geovanna Maciel](https://github.com/manuziny)   |
