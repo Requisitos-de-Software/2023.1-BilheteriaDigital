@@ -21,14 +21,14 @@ A rastreabilidade foi feita somente nos requisitos não implementados pela Bilhe
 
 Tabela 1 - Template Pós-Rastreabilidade
 
-| <span style = "color: red">Artefato Analisado</span>     | Classificação do Artefato Analisado |
-| :----------------------: | :--------------------: |
-| Tipos de Elo | Artefatos Relacionados |
-| Satisfação | - |
-| Recurso | - |
-| Representação | - |
-| Alocado | - |
-| Agregação | - |
+| <span style = "color: red">Artefato Analisado</span> | Classificação do Artefato Analisado |
+| :--------------------------------------------------: | :---------------------------------: |
+|                     Tipos de Elo                     |       Artefatos Relacionados        |
+|                      Satisfação                      |                  -                  |
+|                       Recurso                        |                  -                  |
+|                    Representação                     |                  -                  |
+|                       Alocado                        |                  -                  |
+|                      Agregação                       |                  -                  |
 
 Fonte: Meta-modelo de Toranzo (TORANZO, 2002)<a id="REF2" href="#anchor_2">^2^</a>.
 
@@ -37,7 +37,6 @@ Fonte: Meta-modelo de Toranzo (TORANZO, 2002)<a id="REF2" href="#anchor_2">^2^</
 ## Rastreabilidade
 
 Neste tópico, serão apresentadas as tabelas referentes aos elos dos artefatos analisados, que se referem aos requisitos implementados e não implementados pela Bilheteria Digital. Sendo assim, as Tabelas de 2 a 48 apresentam a rastreabilidade dos requisitos funcionais e não funcionais.
-
 
 ### RF01
 
@@ -71,7 +70,7 @@ Tabela 2 - RF01
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF01.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -122,7 +121,7 @@ Tabela 3 - RF02
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF02.gif" height="500" width="250"> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -173,7 +172,7 @@ Tabela 4 - RF03
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF03.gif" height="500" width="250"> <br>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -185,7 +184,6 @@ Tabela 4 - RF03
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -225,7 +223,7 @@ Tabela 5 - RF04
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><img src="../../assets/rastreabilidade/RF04.jpg" alt="Compra de ingresso" style="height:500px;width:250px"></td>
+<td><img src="../../assets/rastreabilidade/RF04.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -237,7 +235,6 @@ Tabela 5 - RF04
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -277,7 +274,7 @@ Tabela 6 - RF05
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><font><figure markdown><img src="../assets/rastreabilidade/RF05.jpg" alt="Compra de ingresso">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF05.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -289,7 +286,6 @@ Tabela 6 - RF05
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -329,7 +325,7 @@ Tabela 7 - RF06
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><font><figure markdown><img src="../assets/rastreabilidade/RF06.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF06.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -341,7 +337,6 @@ Tabela 7 - RF06
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -394,7 +389,6 @@ Tabela 8 - RF07
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -446,7 +440,6 @@ Tabela 9 - RF08
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -485,7 +478,7 @@ Tabela 10 - RF09
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF09.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF09.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -497,7 +490,6 @@ Tabela 10 - RF09
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -537,7 +529,7 @@ Tabela 11 - RF10
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF10.gif" height="500" width="250"> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -549,7 +541,6 @@ Tabela 11 - RF10
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -602,7 +593,6 @@ Tabela 12 - RF11
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -653,7 +643,6 @@ Tabela 13 - RF12
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -706,7 +695,6 @@ Tabela 14 - RF13
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -745,7 +733,7 @@ Tabela 15 - RF14
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF14.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF14P.gif" height="500" width="250"> <br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF14.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -757,7 +745,6 @@ Tabela 15 - RF14
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -797,7 +784,7 @@ Tabela 16 - RF15
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF15.jpg" alt="">{: style=&quot;height:650px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF15.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -809,7 +796,6 @@ Tabela 16 - RF15
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -862,7 +848,6 @@ Tabela 17 - RF16
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -901,7 +886,7 @@ Tabela 18 - RF17
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF17.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF17P.gif" height="500" width="250"><br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br><font><figure markdown><img src="../../assets/rastreabilidade/RF17.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -913,7 +898,6 @@ Tabela 18 - RF17
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -966,7 +950,6 @@ Tabela 19 - RF18
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -1005,7 +988,7 @@ Tabela 20 - RF19
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao">Cartão de Especificação 2</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us13">Histórias de Usuário US13</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF19.jpg" alt="">{: style=&quot;height:700px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao">Cartão de Especificação 2</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us13">Histórias de Usuário US13</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF19.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1017,7 +1000,6 @@ Tabela 20 - RF19
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -1070,7 +1052,6 @@ Tabela 21 - RF20
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -1122,7 +1103,6 @@ Tabela 22 - RF21
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -1161,7 +1141,7 @@ Tabela 23 - RF22
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18">Histórias de Usuário US18</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF22.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18">Histórias de Usuário US18</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF22.jpg" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1173,7 +1153,6 @@ Tabela 23 - RF22
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -1226,7 +1205,6 @@ Tabela 24 - RF23
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -1277,7 +1255,6 @@ Tabela 25 - RF24
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -1330,7 +1307,6 @@ Tabela 26 - RF25
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -1381,7 +1357,6 @@ Tabela 27 - RF26
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1434,7 +1409,6 @@ Tabela 28 - RF27
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
 </center>
@@ -1473,7 +1447,7 @@ Tabela 29 - RF28
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><br> <font><figure markdown><img src="../assets/rastreabilidade/RF28.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF28.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1485,7 +1459,6 @@ Tabela 29 - RF28
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1525,7 +1498,7 @@ Tabela 30 - RF29
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15">História de Usuário US15</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF29.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15">História de Usuário US15</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF29.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1537,7 +1510,6 @@ Tabela 30 - RF29
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1577,7 +1549,7 @@ Tabela 31 - RF30
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF31E30.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1589,7 +1561,6 @@ Tabela 31 - RF30
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1629,7 +1600,7 @@ Tabela 32 - RF31
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF31E30.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1641,7 +1612,6 @@ Tabela 32 - RF31
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1681,7 +1651,7 @@ Tabela 33 - RF32
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><br> <font><figure markdown><img src="../assets/rastreabilidade/RF32.jpg" alt="">{: style=&quot;height:500px;width:270px&quot;}</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF32.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1693,7 +1663,6 @@ Tabela 33 - RF32
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1733,7 +1702,7 @@ Tabela 34 - RF33
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><br> <font><figure markdown><img src="../assets/rastreabilidade/RF33.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1745,7 +1714,6 @@ Tabela 34 - RF33
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1785,7 +1753,7 @@ Tabela 35 - RF34
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><br> <font><figure markdown><img src="../assets/rastreabilidade/RF34.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF34.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1797,7 +1765,6 @@ Tabela 35 - RF34
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1837,7 +1804,7 @@ Tabela 36 - RF35
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF35.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF35.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1849,7 +1816,6 @@ Tabela 36 - RF35
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1889,7 +1855,7 @@ Tabela 37 - RF36
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF36.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF36.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -1901,7 +1867,6 @@ Tabela 37 - RF36
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
 
@@ -1941,7 +1906,7 @@ Tabela 38 - RF37
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><font><figure markdown><img src="../assets/rastreabilidade/RF37.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF05.gif" height="500" width="250"></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2005,7 +1970,6 @@ Tabela 39 - RNF01
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -2044,7 +2008,7 @@ Tabela 40 - RNF02
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RNF02.gif" height="500" width="250"><br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2056,7 +2020,6 @@ Tabela 40 - RNF02
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2096,7 +2059,7 @@ Tabela 41 - RNF03
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td> <br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2108,7 +2071,6 @@ Tabela 41 - RNF03
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2148,7 +2110,7 @@ Tabela 42 - RNF04
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td> <br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2160,7 +2122,6 @@ Tabela 42 - RNF04
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2213,7 +2174,6 @@ Tabela 43 - RNF05
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -2264,7 +2224,6 @@ Tabela 44 - RNF06
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2317,7 +2276,6 @@ Tabela 45 - RNF07
 </tbody>
 </table>
 
-
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
 </center>
@@ -2356,7 +2314,7 @@ Tabela 46 - RNF08
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td> <br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2368,7 +2326,6 @@ Tabela 46 - RNF08
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2408,7 +2365,7 @@ Tabela 47 - RNF09
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td> <br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2420,7 +2377,6 @@ Tabela 47 - RNF09
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2460,7 +2416,7 @@ Tabela 48 - RNF10
 </tr>
 <tr>
 <td style="text-align:center">Representação</td>
-<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade</a> <br></td>
+<td> <br></td>
 </tr>
 <tr>
 <td style="text-align:center">Alocado</td>
@@ -2472,7 +2428,6 @@ Tabela 48 - RNF10
 </tr>
 </tbody>
 </table>
-
 
 <font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
 
@@ -2488,14 +2443,13 @@ Tabela 48 - RNF10
 
 ## Histórico de Vesões
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| --- | --- | --- | --- | --- |
-| `1.0` | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| `1.1` | 25/06/2023 | Requisitos Não-Funcionais | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| `1.2` | 25/06/2023 | Adição dos Requisitos Implementados | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
-| `1.3` | 28/06/2023 | Adição das imagens | [Geovanna Maciel](https://github.com/manuziny) | [Douglas Alves](https://github.com/dougAlvs)x
-| `1.3.1` | 28/06/2023 | Redimensionamento das imagens | [Douglas Alves](https://github.com/dougAlvs) | [Geovanna Maciel](https://github.com/manuziny)|
-| `1.3.2` | 29/06/2023 | Melhora na visibilidade dos elos | [Douglas Alves](https://github.com/dougAlvs) |  [Sidney Fernando](https://github.com/nando3d3)|
-| `1.4`  | 01/07/2023 | Ajustes dos não-funcionais. | [Arthur de Melo](https://github.com/arthurmlv) | [Douglas Alves](https://github.com/dougAlvs) |
-
-
+| Versão  | Data       | Descrição                                        | Autor(es)                                                                                         | Revisor(es)                                    |
+| ------- | ---------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| `1.0`   | 25/06/2023 | Criação da documentação e Requisitos Funcionais. | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.1`   | 25/06/2023 | Requisitos Não-Funcionais                        | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.2`   | 25/06/2023 | Adição dos Requisitos Implementados              | [Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.3`   | 28/06/2023 | Adição das imagens                               | [Geovanna Maciel](https://github.com/manuziny)                                                    | [Douglas Alves](https://github.com/dougAlvs)  |
+| `1.3.1` | 28/06/2023 | Redimensionamento das imagens                    | [Douglas Alves](https://github.com/dougAlvs)                                                      | [Geovanna Maciel](https://github.com/manuziny) |
+| `1.3.2` | 29/06/2023 | Melhora na visibilidade dos elos                 | [Douglas Alves](https://github.com/dougAlvs)                                                      | [Sidney Fernando](https://github.com/nando3d3) |
+| `1.4`   | 01/07/2023 | Ajustes dos não-funcionais.                      | [Arthur de Melo](https://github.com/arthurmlv)                                                    | [Douglas Alves](https://github.com/dougAlvs)   |
+| `1.5`   | 05/07/2023 | Adição GIFS Representação e Protótipo de Alta                      | [Douglas Alves](https://github.com/dougAlvs)                                                    | [Geovanna Maciel](https://github.com/manuziny)   |
