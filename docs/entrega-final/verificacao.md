@@ -318,11 +318,11 @@ Planejamento da Verificação:
 
 ## Bibliografia
 
-> <a id="REF2" href="#anchor_2">1.</a> REVADI, Chindy Elsanna. Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023.
+> REVADI, Chindy Elsanna. Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf](https://aprender3.unb.br/pluginfile.php/2523045/mod_resource/content/2/1_5145791542719414573.pdf). Acessado em: 03 de junho de 2023.
 
-> <a id="REF3" href="#anchor_3">2.</a> SERRANO, MAURÍCIO; SERRANO, Milene. **Slides da aula Requisitos – Aula 04**. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
+> SERRANO, MAURÍCIO; SERRANO, Milene. **Slides da aula Requisitos – Aula 04**. Disponível em: [https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf](https://aprender3.unb.br/pluginfile.php/2523041/mod_resource/content/3/Requisitos%20-%20Aula%2004.pdf). Acessado em: 03 de junho de 2023.
 
-> <a id="REF1" href="#anchor_1">3.</a> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
+> SIMÕES, Guilherme S.; VASQUEZ Carlos E. **Engenharia de Requisitos: Software Orientado ao Negócio.** Rio de Janeiro: Brasport, 2016.
 
 
 ## Histórico de Versões

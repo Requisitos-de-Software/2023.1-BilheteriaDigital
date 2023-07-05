@@ -35,11 +35,11 @@ Apesar de ter sido uma abordagem adequada para buscar validação informal, o gr
 
 ## Bibliografia
 
-> <a id="anchor_1" href="#REF1">1.</a> SERRANO, Milene. Requisitos - Aula 23. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/2523157/mod_resource/content/2/Requisitos - Aula 023.pdf. Acesso em: 20 de jun de 2023.
+> SERRANO, Milene. Requisitos - Aula 23. 2017. Apresentação de slides. Disponível em: https://aprender3.unb.br/pluginfile.php/2523157/mod_resource/content/2/Requisitos - Aula 023.pdf. Acesso em: 20 de jun de 2023.
 
-> <a id="anchor_1" href="#REF1">1.</a> Design, Prototipação e Construção. In: ROGERS, Yvonne. Design de Interação: Além da Interação Humano-Computador. 3. ed. [S. l.]: Bookman, 2013. cap. 8, p. 259-297.cle
+> Design, Prototipação e Construção. In: ROGERS, Yvonne. Design de Interação: Além da Interação Humano-Computador. 3. ed. [S. l.]: Bookman, 2013. cap. 8, p. 259-297.cle
 
-> <a id="anchor_2" href="#REF2">2.</a> GUILHERME SANTA ROSA, José. Avaliação E Projeto No Design De Interfaces. [S. l.: s. n.], 2010.
+> GUILHERME SANTA ROSA, José. Avaliação E Projeto No Design De Interfaces. [S. l.: s. n.], 2010.
 
 ## Histórico de Versões
 
