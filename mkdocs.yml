@@ -144,6 +144,7 @@ nav:
       - Planejamento dos Recursos e das Entregas: entrega-final/planejamento-recursos-entregas.md
       - Verificação: entrega-final/verificacao.md
       - Validação: entrega-final/validacao.md
+      - Considerações Finais: entrega-final/consideracoes_finais.md
 
 theme:
   name: material
