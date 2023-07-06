@@ -119,24 +119,25 @@ A figura 1 é possível análisar um gráfico com o percentual de erros e acerto
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                |                 Responsável(eis)                 |                  Revisor(es)                   |      Status      |
-| ---------------- | :------------------------------------------------------- | :----------------------------------------------: | :--------------------------------------------: | :--------------: |
+| Data de Correção | Descrição                                                |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
 | 01/07/2023       | Corrigir o requisito USA01 de Usabilidade.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 | 01/07/2023       | Corrigir os requisitos SUP01 e SUP04 de Suportabilidade. | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 | 01/07/2023       | Justificar a ausência dos Requisitos de Interface.       | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
-| 01/07/2023       | Relacionar os léxicos.                  | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Relacionar os léxicos.                                   | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
@@ -150,4 +151,4 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 | Versão | Data       | Descrição          | Autor(es)                                      | Revisor(es)                                      |
 | ------ | ---------- | ------------------ | ---------------------------------------------- | ------------------------------------------------ |
 | `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.1`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
+| `1.1`  | 01/07/2023 | Retrabalho.        | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |

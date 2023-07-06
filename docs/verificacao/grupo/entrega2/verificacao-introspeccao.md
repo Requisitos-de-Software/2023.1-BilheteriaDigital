@@ -102,24 +102,23 @@ _Fonte: [Gabriel Campello](https://github.com/G16C), 2023._
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho o artefato aqui verificado deverá ser corrigido seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação, [Gabriel Campello](https://github.com/G16C) fará as correções, checando se são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                       |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
-| ---------------- | :------------------------------ | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 01/07/2023       | Adicionar tabela com o cronograma de aplicação da técnica.           | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| Data de Correção | Descrição                                                                                                                  |              Responsável(eis)               |                   Revisor(es)                    |      Status      |
+| ---------------- | :------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Adicionar tabela com o cronograma de aplicação da técnica.                                                                 | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 | 01/07/2023       | Acrescentar ao final do artefato uma indicação de que os requisitos elicitados por essa técnica podem divergir das demais. | [Gabriel Campello](https://github.com/G16C) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Gabriel Campello](https://github.com/G16C), 2023._
 
 </center>
 
-As correções solicitadas acima foram realizadas.
-
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas

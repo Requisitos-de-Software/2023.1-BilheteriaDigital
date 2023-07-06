@@ -1,6 +1,7 @@
 # Verificação do BackLog
 
 ## Introdução
+
 A verificação é uma das etapas mais importantes do desenvolvimento de um projeto. Nela os artefatos produzidos são analisados garantindo que os mesmos cumpram com os seus requisitos especificados. Sendo assim, este documento apresenta a verificação do artefato [BackLog](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/) que tem o projeto voltado ao site Booking. Com base nisso, seu BackLog foi verificado de acordo com os documentos disponibilizados na disciplina como o _Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman_ <a id="FTF1" href="#FTF1Ref">^1^</a>, _Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano_ <a id="FTF1" href="#FTF1Ref">^2^</a> e um _vídeo sobre Product Backlog - Introdução_ <a id="FTF1" href="#FTF1Ref">^3^</a>.
 
 ## Objetivos
@@ -22,7 +23,7 @@ O integrante do grupo [Rafael Ferreira](https://github.com/RafaelCLG0) será res
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
 | [Rafael Ferreira](https://github.com/RafaelCLG0) | Avaliador |
-| [Matheus Henrique](https://github.com/mathonaut)|  Revisor  |
+| [Matheus Henrique](https://github.com/mathonaut) |  Revisor  |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
@@ -36,33 +37,35 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 
 **Tabela 2** - Checklist de Verificação.
 
-| ID  | Descrição     | Avaliação |
-| :---: | :---------------------------------------------------------------------------------------------------------------: | :---------: |
-| 1  | O artefato possui Introdução ?                                                                           | Sim       |
-| 2  | O artefato possui uma Bibliografia/Referência Bibliográfica ?                                            | Sim       |
-| 3  | O artefato possui um Histórico de Versões com o id e descrição das versões, datas, autores e revisores ? | Sim       |
-| 4  | Todos os textos estão na norma padrão ?                                                                  | Não       |
-| 5  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes ?                            | Sim       |
-| 6  | A participação do cliente e/ou persona na elicitação de requisitos ?                                     | Sim       |
-| 7  | São apresentados os requisitos priorizados ?                                                             | Sim       |
-| 8  | Os requisitos listados estão vinculados a uma história de usuário ?                                      | Sim       |
-| 9  | Os requisitos listados apresentam uma história de usuário condizente ao épico definido e vice-versa?     | Sim       |
-| 10 | O backlog possui épicos e temas bem definidos e descritos ?                                              | Sim       |
-| 11 | O backlog possui validação de um PO ?                                                                    | Sim       |
-| 12 | O backlog possui ligação com o artefato História de Usuário ?                                            | Sim       |
-| 13 | O backlog apresenta uma tabela geral com todos os épicos, features e histórias de usuários ?                                                                                                      | Sim       |
-| 14  | O backlog possui uma metodologia identificada ?                                                         | Sim       |
+| ID  |                                                Descrição                                                 | Avaliação |
+| :-: | :------------------------------------------------------------------------------------------------------: | :-------: |
+|  1  |                                      O artefato possui Introdução ?                                      |    Sim    |
+|  2  |                      O artefato possui uma Bibliografia/Referência Bibliográfica ?                       |    Sim    |
+|  3  | O artefato possui um Histórico de Versões com o id e descrição das versões, datas, autores e revisores ? |    Sim    |
+|  4  |                                 Todos os textos estão na norma padrão ?                                  |    Não    |
+|  5  |              Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes ?               |    Sim    |
+|  6  |                   A participação do cliente e/ou persona na elicitação de requisitos ?                   |    Sim    |
+|  7  |                               São apresentados os requisitos priorizados ?                               |    Sim    |
+|  8  |                   Os requisitos listados estão vinculados a uma história de usuário ?                    |    Sim    |
+|  9  |   Os requisitos listados apresentam uma história de usuário condizente ao épico definido e vice-versa?   |    Sim    |
+| 10  |                       O backlog possui épicos e temas bem definidos e descritos ?                        |    Sim    |
+| 11  |                                  O backlog possui validação de um PO ?                                   |    Sim    |
+| 12  |                      O backlog possui ligação com o artefato História de Usuário ?                       |    Sim    |
+| 13  |       O backlog apresenta uma tabela geral com todos os épicos, features e histórias de usuários ?       |    Sim    |
+| 14  |                             O backlog possui uma metodologia identificada ?                              |    Sim    |
 
 _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
 ## Problemas encontrados
+
 Com base na tabela preenchida, serão feitas considerações acerca de alguns itens da tabela.
 
 ### ID 4 - Todos os textos estão na norma padrão ?
 
 Há erros ortográficos a serem corrigidos, segue a lista:
+
 - No parágrafo da Introdução a palavra 'projetos' está no plural;
 - No segundo parágrafo da Introdução a palavra 'apresentado' não está condizente ao texto.
 
@@ -92,27 +95,26 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Rafael Ferreira](https://github.com/RafaelCLG0) e [Matheus Henrique](https://github.com/mathonaut)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
-| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 01/07/2023       | Correções apontadas pela verificação |  [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut)| :material-check: |
-
+| Data de Correção | Descrição                            |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
+| ---------------- | :----------------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correções apontadas pela verificação | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
-As correções solicitadas acima foram realizadas.
-
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
+
 > <a id="FTF1Ref" href="#FTF1">1.</a> Slide de Requisitos – Aula 15 Professores: Milene Serrano e Maurício Serrano. Acessado em: 05 de junho de 2023.
 
 > <a id="FTF1Ref" href="#FTF1">2.</a> Cap. 3 Desenvolvimento Ágil - Engenharia de Software Pressman Acessado em: 05 de junho de 2023.
@@ -121,6 +123,6 @@ As correções solicitadas acima foram realizadas.
 
 ## Histórico de versões
 
-| Versão | Data       | Descrição                  | Autor(es)                                                                                    | Revisor(es)                                  |
-| ------ | ---------- | -------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 1.0    | 20/06/2023 | Criação do documento | [Rafael Ferreira](https://github.com/RafaelCLG0)  | [Matheus Henrique](https://github.com/mathonaut) |
+| Versão | Data       | Descrição            | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | -------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| 1.0    | 20/06/2023 | Criação do documento | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Matheus Henrique](https://github.com/mathonaut) |

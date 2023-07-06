@@ -58,6 +58,8 @@ _Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Problemas Encontrados e Análise dos Dados
 
+Como o artefato já tinha sido refatorado antes, os erros encontrados são mínimos e referentes somente a detalhes de apresentação.
+
 ### ID5 - Todos os textos estão na norma padrão?
 
 - No tópico "Metodologia" a palavra apresentada não está em concordancia.
@@ -75,26 +77,6 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina.
 
-## Retrabalho
-
-Como por Fagan, para o retrabalho os autores do artefato ([Douglas Alves](https://github.com/dougAlvs) e [Geovanna Maciel](https://github.com/manuziny)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
-
-<center>
-
-**Tabela 3** - Cronograma de Correções.
-
-| Data de Correção | Descrição                      |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
-| ---------------- | :----------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 24/06/2023       | Corrigir o erro ortográfico.   | [Geovanna Maciel](https://github.com/manuziny) | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
-| 24/06/2023       | Corrigir os nomes dos tópicos. |  [Douglas Alves](https://github.com/dougAlvs)  | [Matheus Henrique](https://github.com/mathonaut) | :material-close: |
-
-_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
-
-</center>
-
-!!! info
-O cronograma apresentado na tabela 3 pode ser alterado.
-
 ## Acompanhamento
 
 A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
@@ -109,12 +91,34 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
+## Retrabalho
+
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+
+<center>
+
+**Tabela 3** - Cronograma de Correções.
+
+| Data de Correção | Descrição                      |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
+| ---------------- | :----------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 24/06/2023       | Corrigir o erro ortográfico.   | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+| 24/06/2023       | Corrigir os nomes dos tópicos. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) | :material-check: |
+
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
+
+</center>
+
+!!! info
+
+    O cronograma apresentado na tabela 3 pode ser alterado.
+
 ## Referências Bibliográficas
 
 > <a id="REF1" href="#anchor_1">1.</a> PIMENTEL, Andrey R. **Projeto de Software Usando a UML.** Paraná, 2007.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| Versão | Data       | Descrição             | Autor(es)                                        | Revisor(es)                                      |
+| ------ | ---------- | --------------------- | ------------------------------------------------ | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página.    | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.0`  | 05/07/2023 | Ajuste no retrabalho. | [Matheus Henrique](https://github.com/mathonaut) | [Rafael Ferreira](https://github.com/RafaelCLG0) |

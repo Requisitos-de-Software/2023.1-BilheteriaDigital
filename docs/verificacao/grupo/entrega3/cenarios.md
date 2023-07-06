@@ -22,12 +22,12 @@ Os participantes serão os integrantes do [Grupo 1](https://github.com/Requisito
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-| [Arthur de Melo](https://github.com/arthurmlv) | Avaliador |
-|   [Rafael Ferreira](https://github.com/RafaelCLG0)   | Revisor  |
+|  [Arthur de Melo](https://github.com/arthurmlv)  | Avaliador |
+| [Rafael Ferreira](https://github.com/RafaelCLG0) |  Revisor  |
 
 _Fonte: Elaborada por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
-</center> 
+</center>
 
 ## Sumário Dos Dados
 
@@ -37,21 +37,21 @@ A Tabela 2 apresenta a checklist com os dados obtidos a partir da verificação.
 
 **Tabela 2** - Checklist para a Verificação dos Cenários.
 
-| ID  | Descrição                                                                                              | Avaliação | Observações |
-| --- | ------------------------------------------------------------------------------------------------------ | --------- | ----------- |
-| 1   | O artefato possui introdução? |      Sim     |             |
-| 2   | O artefato possui uma bibliografia/referência bibliográfica?   |     Sim      |             |
-| 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? |    Sim       |             |
-| 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes? |     Sim      |             |
-| 5   | Todos os textos estão na norma padrão? |     Sim      |  Tabelas de 1 a 4 com título escrito errado.           |
-| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções, restrições e episódios?<a id="anchor_1" href="#REF1">^1^</a>  |     Sim      |            |
-| 7   | O título do cenário é autoexplicativo?<a id="anchor_2" href="#REF2">^2^</a>  |     Sim      |   No entanto, seria interessante especificar o título de cada cenário no tópico do referido.          |
-| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_2" href="#REF2">^2^</a> |     Incompleto      |  [Cenário 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-2)          |
-| 9   | O contexto descreve de forma sucinta o estado inicial do cenário? Em função de local, tempo e pré-condições, por exemplo.<a id="anchor_1" href="#REF1">^1^</a>       |     Sim      |             |
-| 10   | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_1" href="#REF1">^5^</a>      |     Sim      |             |
-| 11   | Os atores são condizentes com o contexto do cenário?<a id="anchor_2" href="#REF2">^2^</a>|     Sim      |              |
-| 12   | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo?<a id="anchor_2" href="#REF2">^2^</a>|     Sim      |             |
-| 13   | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_2" href="#REF2">^2^</a> |     Não      |             |
+| ID  | Descrição                                                                                                                                                      | Avaliação  | Observações                                                                                                  |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------ |
+| 1   | O artefato possui introdução?                                                                                                                                  | Sim        |                                                                                                              |
+| 2   | O artefato possui uma bibliografia/referência bibliográfica?                                                                                                   | Sim        |                                                                                                              |
+| 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                                                         | Sim        |                                                                                                              |
+| 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                                                   | Sim        |                                                                                                              |
+| 5   | Todos os textos estão na norma padrão?                                                                                                                         | Sim        | Tabelas de 1 a 4 com título escrito errado.                                                                  |
+| 6   | O cenário possui: título, metas/objetivos, contexto, ator(es), recursos, exceções, restrições e episódios?<a id="anchor_1" href="#REF1">^1^</a>                | Sim        |                                                                                                              |
+| 7   | O título do cenário é autoexplicativo?<a id="anchor_2" href="#REF2">^2^</a>                                                                                    | Sim        | No entanto, seria interessante especificar o título de cada cenário no tópico do referido.                   |
+| 8   | O objetivo do cenário é condizente com seu título?<a id="anchor_2" href="#REF2">^2^</a>                                                                        | Incompleto | [Cenário 2](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-2) |
+| 9   | O contexto descreve de forma sucinta o estado inicial do cenário? Em função de local, tempo e pré-condições, por exemplo.<a id="anchor_1" href="#REF1">^1^</a> | Sim        |                                                                                                              |
+| 10  | O cenário descreve situações realistas e relevantes de interação do sistema?<a id="anchor_1" href="#REF1">^5^</a>                                              | Sim        |                                                                                                              |
+| 11  | Os atores são condizentes com o contexto do cenário?<a id="anchor_2" href="#REF2">^2^</a>                                                                      | Sim        |                                                                                                              |
+| 12  | Os episódios do cenário estão coerentes e seguem uma ordem lógica para atingir o objetivo?<a id="anchor_2" href="#REF2">^2^</a>                                | Sim        |                                                                                                              |
+| 13  | Existe uma ligação entre os cenários e os léxicos?<a id="anchor_2" href="#REF2">^2^</a>                                                                        | Não        |                                                                                                              |
 
 _Fonte: [Douglas Alves](https://github.com/dougAlvs), 2023._
 
@@ -73,9 +73,9 @@ Além disso, como grande parte dos Cenários envolvem a filtragem de uma busca, 
 
 Tendo em vista os problemas abordados anteriormente, fica como sugestão a realização das seguintes correções:
 
-* Corrigir os erros nos títulos das tabelas.
-* Reescrever o objetivo do Cenário 02 de forma apropriada;
-* Estabelecer uma ligação entre os termos usados nos cenários e os léxicos correspondentes.
+- Corrigir os erros nos títulos das tabelas.
+- Reescrever o objetivo do Cenário 02 de forma apropriada;
+- Estabelecer uma ligação entre os termos usados nos cenários e os léxicos correspondentes.
 
 ## Acompanhamento
 
@@ -88,25 +88,25 @@ A figura 1 é possível análisar um gráfico com o percentual de erros e acerto
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                |                 Responsável(eis)                 |                  Revisor(es)                   |      Status      |
-| ---------------- | :------------------------------------------------------- | :----------------------------------------------: | :--------------------------------------------: | :--------------: |
-| 01/07/2023       | Correção dos títulos das tabelas.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
-| 01/07/2023       | Correção cenário 02.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
-| 01/07/2023       | Ligação com os léxicos.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| Data de Correção | Descrição                         |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :-------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correção dos títulos das tabelas. | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Correção cenário 02.              | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Ligação com os léxicos.           | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
 !!! info
-    O cronograma apresentado na tabela 3 pode ser alterado.
 
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 
@@ -116,7 +116,7 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv)  | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.1`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
+| Versão | Data       | Descrição          | Autor(es)                                      | Revisor(es)                                      |
+| ------ | ---------- | ------------------ | ---------------------------------------------- | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 01/07/2023 | Retrabalho.        | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |
