@@ -22,12 +22,12 @@ Os participantes serão os integrantes do [Grupo 1](https://github.com/Requisito
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-| [Arthur de Melo](https://github.com/arthurmlv) | Avaliador |
-|   [Rafael Ferreira](https://github.com/RafaelCLG0)   | Revisor  |
+|  [Arthur de Melo](https://github.com/arthurmlv)  | Avaliador |
+| [Rafael Ferreira](https://github.com/RafaelCLG0) |  Revisor  |
 
 _Fonte: Elaborada por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
-</center> 
+</center>
 
 ## Sumário Dos Dados
 
@@ -37,22 +37,22 @@ A Tabela 2 apresenta a checklist com os dados obtidos a partir da verificação.
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID | Descrição                                                                                              | Avaliação     | Observações                                     |
-| --- | ------------------------------------------------------------------------------------------------------ | ------------- | ----------------------------------------------- |
-|  1  | O artefato possui introdução?                                                                          | Sim           |                                                 |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica?                                           | Sim           |                                                 |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim           | No entanto, os ID's do versionamento estão com números repetidos e errados.                                                |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                           | Sim           |                                                 |
-|  5  | Todos os textos estão na norma padrão?                                                                 | Sim           |                                                 |
-| 6  | Os gráficos SIG foram validados por Fontes Externas?<a id="anchor_1" href="#REF1">^1^</a>                                                    | Incompleto           | SIG de [Usabilidade](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade)                                                |
-| 7  | Cada SIG possui sua respectiva propagação de Impacto?<a id="anchor_1" href="#REF1">^1^</a>  | Sim | |
-| 8  | Os softgoals se refinam até um nível de especificação bem definido?<a id="anchor_1" href="#REF1">^1^</a> | Incompleto | Os SIG's de [Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) e de [Desempenho](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-03-desempenho) |
-| 9  | Os cartões de especificação representam requisitos não-funcionais verificáveis? | Sim | |
-| 10 | Os cartões de especificação possuem: Identificador, Classificação, Descrição, Justificativa, Origem, Critério de Ajuste, Dependências, Prioridade, Conflitos e História?<a id="anchor_1" href="#REF1">^1^</a> | Sim | |
-| 11 | Os Softgoals NFR estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a> | Sim | |
-| 12 | Os Softgoals de Operacionalização estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a> | Sim | |
-| 13 | Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a> | Incompleto | Nos SIG's de [Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) e de [Desempenho](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-03-desempenho)  |
-| 14 | Os requisitos não-funcionais apresentados nos cartões foram priorizados com algum método? | Sim | |
+| ID  | Descrição                                                                                                                                                                                                     | Avaliação  | Observações                                                                                                                                                                                                                                                                     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | O artefato possui introdução?                                                                                                                                                                                 | Sim        |                                                                                                                                                                                                                                                                                 |
+| 2   | O artefato possui uma bibliografia/referência bibliográfica?                                                                                                                                                  | Sim        |                                                                                                                                                                                                                                                                                 |
+| 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                                                                                                        | Sim        | No entanto, os ID's do versionamento estão com números repetidos e errados.                                                                                                                                                                                                     |
+| 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                                                                                                  | Sim        |                                                                                                                                                                                                                                                                                 |
+| 5   | Todos os textos estão na norma padrão?                                                                                                                                                                        | Sim        |                                                                                                                                                                                                                                                                                 |
+| 6   | Os gráficos SIG foram validados por Fontes Externas?<a id="anchor_1" href="#REF1">^1^</a>                                                                                                                     | Incompleto | SIG de [Usabilidade](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade)                                                                                                                                         |
+| 7   | Cada SIG possui sua respectiva propagação de Impacto?<a id="anchor_1" href="#REF1">^1^</a>                                                                                                                    | Sim        |                                                                                                                                                                                                                                                                                 |
+| 8   | Os softgoals se refinam até um nível de especificação bem definido?<a id="anchor_1" href="#REF1">^1^</a>                                                                                                      | Incompleto | Os SIG's de [Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) e de [Desempenho](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-03-desempenho)  |
+| 9   | Os cartões de especificação representam requisitos não-funcionais verificáveis?                                                                                                                               | Sim        |                                                                                                                                                                                                                                                                                 |
+| 10  | Os cartões de especificação possuem: Identificador, Classificação, Descrição, Justificativa, Origem, Critério de Ajuste, Dependências, Prioridade, Conflitos e História?<a id="anchor_1" href="#REF1">^1^</a> | Sim        |                                                                                                                                                                                                                                                                                 |
+| 11  | Os Softgoals NFR estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a>                                                                                               | Sim        |                                                                                                                                                                                                                                                                                 |
+| 12  | Os Softgoals de Operacionalização estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a>                                                                              | Sim        |                                                                                                                                                                                                                                                                                 |
+| 13  | Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição?<a id="anchor_1" href="#REF1">^1^</a>                                                                                      | Incompleto | Nos SIG's de [Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) e de [Desempenho](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-03-desempenho) |
+| 14  | Os requisitos não-funcionais apresentados nos cartões foram priorizados com algum método?                                                                                                                     | Sim        |                                                                                                                                                                                                                                                                                 |
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
@@ -67,7 +67,6 @@ Sim, por três fontes. Contudo, o [SIG de Usabilidade](https://requisitos-de-sof
 ### ID 8 - Os softgoals se refinam até um nível de especificação bem definido?
 
 Por exemplo, nos SIG's de [Eficiência](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia) e de [Desempenho](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-03-desempenho), os softgoals de claim não apresentam limitações específicas. Dentro do SIG referido, podemos citar um: "Processar rapidamente". Esse requisito não é verificável, dado que para um requisito ser verificável, vale da seguinte definição: "Um requisito é verificável se existir um processo finito, com custo compensador, que possa ser executado por uma pessoa ou máquina, e que mostre a conformidade do produto final com o requisito"<a id="anchor_2" href="#REF2">^2^</a>.
-
 
 ### ID 13 - Os Softgoals de Afirmação estão representados apropriadamente dada a sua definição?
 
@@ -95,23 +94,23 @@ _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho o autor do artefato [Arthur de Melo](https://github.com/arthurmlv) corrigiu os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                                                                         |                 Responsável(eis)                 |                   Revisor(es)                    |      Status      |
-| ---------------- | :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 01/07/2023       | Correção SIG usabilidade.                                                                       | [Arthur de Melo](https://github.com/arthurmlv) |  [Matheus Henrique](https://github.com/mathonaut)  | :material-check: |
-| 01/07/2023       | Correção dos softgoals de claim e histórico de versão.                                                                                   | [Arthur de Melo](https://github.com/arthurmlv) |  [Matheus Henrique](https://github.com/mathonaut)  | :material-check: |
-
+| Data de Correção | Descrição                                              |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :----------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Correção SIG usabilidade.                              | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Correção dos softgoals de claim e histórico de versão. | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
@@ -126,7 +125,7 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C) |
-| `1.1`  | 01/07/2023 | Retrabalho. | [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
+| Versão | Data       | Descrição          | Autor(es)                                      | Revisor(es)                                      |
+| ------ | ---------- | ------------------ | ---------------------------------------------- | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Gabriel Campello](https://github.com/G16C)      |
+| `1.1`  | 01/07/2023 | Retrabalho.        | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |

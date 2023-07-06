@@ -23,7 +23,7 @@ Os participantes são os integrantes do grupo [Matheus Henrique](https://github.
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
 | [Matheus Henrique](https://github.com/mathonaut) | Avaliador |
-|   [Douglas Alves](https://github.com/dougAlvs)   | Revisor  |
+|   [Douglas Alves](https://github.com/dougAlvs)   |  Revisor  |
 
 _Fonte: Elaborada por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
@@ -105,9 +105,23 @@ Tendo em vista os problemas abordados anteriormente, fica como sugestão a reali
 
 A correção dos erros será realizada após uma discussão e validação dos problemas encontrados com o grupo e apresentação dos resultados para o professor da disciplina.
 
+## Acompanhamento
+
+A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
+
+<center>
+
+**Figura 1** - Gráfico do resultado da verificação.
+
+<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=2083379196&amp;format=interactive"></iframe>
+
+_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
+
+</center>
+
 ## Retrabalho
 
-Como por Fagan, para o retrabalho os autores do artefato ([Geovanna Maciel](https://github.com/manuziny) e [Sidney Fernando](https://github.com/nando3d3)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
@@ -124,26 +138,9 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
-As correções solicitadas acima foram feitas.
-
 !!! info
-O cronograma apresentado na tabela 3 pode ser alterado.
 
-
-
-## Acompanhamento
-
-A figura 1 apresenta um gráfico com o percentual de respostas sim, não, incompleto ou não se aplica, obtidas através da checklist de verificação.
-
-<center>
-
-**Figura 1** - Gráfico do resultado da verificação.
-
-<iframe style="border-radius: 5px; border:3px solid red" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS2PuVRCN2V5vlnGDomZb-FqFss_39CS89v4Zl3Ptf35OCryvrwYG2rNYSzunjnDYbYpU6gYU3CbC2z/pubchart?oid=2083379196&amp;format=interactive"></iframe>
-
-_Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
-
-</center>
+    O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
 

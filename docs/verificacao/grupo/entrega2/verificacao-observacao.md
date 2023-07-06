@@ -142,7 +142,7 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Arthur de Melo](https://github.com/arthurmlv) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
@@ -163,7 +163,12 @@ _Fonte: Elaborado por [Matheus Henrique](https://github.com/mathonaut), 2023._
 
 </center>
 
+!!! warning ""
+
+    Por motivos de incompatibilidade de agenda e da necessidade de ser realizada uma nova seção de observação, não haverá a correção de alguns itens do retrabalho.
+
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas

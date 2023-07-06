@@ -22,13 +22,12 @@ Os participantes serão os integrantes do [Grupo 1](https://github.com/Requisito
 
 |                   Participante                   |   Papel   |
 | :----------------------------------------------: | :-------: |
-| [Arthur de Melo](https://github.com/arthurmlv) | Avaliador |
-|   [Rafael Ferreira](https://github.com/RafaelCLG0)   | Revisor  |
+|  [Arthur de Melo](https://github.com/arthurmlv)  | Avaliador |
+| [Rafael Ferreira](https://github.com/RafaelCLG0) |  Revisor  |
 
 _Fonte: Elaborada por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
-</center> 
-
+</center>
 
 ## Sumário Dos Dados
 
@@ -38,23 +37,23 @@ A Tabela 2 apresenta a checklist com os dados obtidos a partir da verificação.
 
 **Tabela 2** - Checklist de Verificação.
 
-|  ID | Descrição                                                                                              | Avaliação     | Observações                                     |
-| --- | ------------------------------------------------------------------------------------------------------ | ------------- | ----------------------------------------------- |
-|  1  | O artefato possui introdução?                                                                          | Sim           |                                                 |
-|  2  | O artefato possui uma bibliografia/referência bibliográfica?                                           | Sim           |                                                 |
-|  3  | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim           |                                                 |
-|  4  | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                           | Sim           |                                                 |
-|  5  | Todos os textos estão na norma padrão?                                                                 | Sim           |            |
-| 6   | Cada símbolo possui classificação, sinônimo, noção e impacto?                                          | Sim           |             |
-| 7   | Cada símbolo apresenta sua noção de forma breve e compreensível?                                       | Sim           |             |
-| 8   | Cada símbolo apresenta seu impacto de forma breve e compreensível?                                     | Sim          |             |
-| 9   | Caso seja do tipo Estado, as definições de noção e de impacto se encaixam com o que é descrito?           | Incompleto          | [Léxico 03 - Evento com tags](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags)            | 
-| 10  | Caso seja do tipo Verbo, as definições de noção e de impacto se encaixam com o que é descrito?            | Incompleto          | [Léxico 01 - Filtrar Eventos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos)            |
-| 11  | Caso seja do tipo Objeto, as definições de noção e de impacto se encaixam com o que é descrito?           | Incompleto          | [Léxico 05 - Usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario)            |
-| 12  | O princípio circular foi devidamente propagado?                                                        | Sim          |             |
-| 13  | A descrição dos léxicos é coerente e esclarecedora?                                                    | Sim          |             |
-| 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?                                       | Sim          |             |
-| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?                                   | Sim          |             |
+| ID  | Descrição                                                                                              | Avaliação  | Observações                                                                                                                             |
+| --- | ------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | O artefato possui introdução?                                                                          | Sim        |                                                                                                                                         |
+| 2   | O artefato possui uma bibliografia/referência bibliográfica?                                           | Sim        |                                                                                                                                         |
+| 3   | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores? | Sim        |                                                                                                                                         |
+| 4   | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                           | Sim        |                                                                                                                                         |
+| 5   | Todos os textos estão na norma padrão?                                                                 | Sim        |                                                                                                                                         |
+| 6   | Cada símbolo possui classificação, sinônimo, noção e impacto?                                          | Sim        |                                                                                                                                         |
+| 7   | Cada símbolo apresenta sua noção de forma breve e compreensível?                                       | Sim        |                                                                                                                                         |
+| 8   | Cada símbolo apresenta seu impacto de forma breve e compreensível?                                     | Sim        |                                                                                                                                         |
+| 9   | Caso seja do tipo Estado, as definições de noção e de impacto se encaixam com o que é descrito?        | Incompleto | [Léxico 03 - Evento com tags](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags) |
+| 10  | Caso seja do tipo Verbo, as definições de noção e de impacto se encaixam com o que é descrito?         | Incompleto | [Léxico 01 - Filtrar Eventos](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos) |
+| 11  | Caso seja do tipo Objeto, as definições de noção e de impacto se encaixam com o que é descrito?        | Incompleto | [Léxico 05 - Usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario)                 |
+| 12  | O princípio circular foi devidamente propagado?                                                        | Sim        |                                                                                                                                         |
+| 13  | A descrição dos léxicos é coerente e esclarecedora?                                                    | Sim        |                                                                                                                                         |
+| 14  | O vocabulário mínimo foi apropriadamente adotado nas descrições?                                       | Sim        |                                                                                                                                         |
+| 15  | Quanto à organização dos léxicos, eles respeitam sua ordem numérica?                                   | Sim        |                                                                                                                                         |
 
 _Fonte: [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
@@ -74,7 +73,6 @@ Por exemplo, na descrição do [Léxico 01 - Filtrar Eventos](https://requisitos
 
 No caso da noção, é representada parcialmente a definição real no caso do tipo Objeto. Por exemplo, no [Léxico 05 - Usuário](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario), não se define o objeto em si, somente se explica quais ações afetam o objeto. Portanto, vale a seguinte definição para a noção do Objeto: "definir o objeto e identificar outros objetos com os quais se relaciona"<a id="anchor_1" href="#REF1">^1^</a>. Sendo assim, pode-se adicionar mais uma noção para explicar o objeto.
 
-
 ## Sugestões de Correções
 
 - Revisar as definições de Noção e de Impacto para cada classificação de símbolo.
@@ -92,23 +90,24 @@ A figura 1 é possível análisar um gráfico com o percentual de erros e acerto
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                |                 Responsável(eis)                 |                  Revisor(es)                   |      Status      |
-| ---------------- | :------------------------------------------------------- | :----------------------------------------------: | :--------------------------------------------: | :--------------: |
-| 01/07/2023       | Ajustes de Noção e de Impacto.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
-| 01/07/2023       | Dividir as noções e os impactos em duas ou mais.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
-| 01/07/2023       | Adicionar as novas noções e impactos necessários.               | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| Data de Correção | Descrição                                         |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
+| ---------------- | :------------------------------------------------ | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
+| 01/07/2023       | Ajustes de Noção e de Impacto.                    | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Dividir as noções e os impactos em duas ou mais.  | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
+| 01/07/2023       | Adicionar as novas noções e impactos necessários. | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) | :material-check: |
 
 _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 </center>
 
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliográficas
@@ -117,7 +116,7 @@ _Fonte: Elaborado por [Arthur de Melo](https://github.com/arthurmlv), 2023._
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv)  | [Rafael Ferreira](https://github.com/RafaelCLG0) |
-| `1.1`  | 01/07/2023 | Retrabalho.| [Arthur de Melo](https://github.com/arthurmlv)   | [Matheus Henrique](https://github.com/mathonaut)   |
+| Versão | Data       | Descrição          | Autor(es)                                      | Revisor(es)                                      |
+| ------ | ---------- | ------------------ | ---------------------------------------------- | ------------------------------------------------ |
+| `1.0`  | 21/06/2023 | Criação da página. | [Arthur de Melo](https://github.com/arthurmlv) | [Rafael Ferreira](https://github.com/RafaelCLG0) |
+| `1.1`  | 01/07/2023 | Retrabalho.        | [Arthur de Melo](https://github.com/arthurmlv) | [Matheus Henrique](https://github.com/mathonaut) |

@@ -44,11 +44,11 @@ A tabela 2 a seguir apresenta a checklist com os dados obtidos a partir da verif
 |        2         | O artefato possui uma bibliografia/referência bibliográfica?                                                                         | Incompleto |                     Descrito melhor nos Problemas Encontrados                      |
 |        3         | O artefato possui um histórico de versões com o id e descrição das versões, data, autores e revisores?                               |    Sim     |                                                                                    |
 |        4         | Todas as tabelas e imagens são chamadas no texto, possuem legendas e fontes?                                                         |    Sim     |                                                                                    |
-|        5         | Todos os textos estão na norma padrão?                                                                                               |    Incompleto     |                                                                                    |
+|        5         | Todos os textos estão na norma padrão?                                                                                               | Incompleto |                                                                                    |
 | **Planejamento** |                                                                                                                                      |            |                                                                                    |
 |        6         | As personas possuem identidades, status, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas?                |    Sim     |                                                                                    |
 |        7         | A personas primárias possuem elasticidade? (_Elasticidade: é quando uma persona acaba por ter características muito generalizadas._) |    Não     |                   Suas características definidas são distinguem.                   |
-|        8         | As persona primárias são sólidas e tangíveis o suficiente para colocar os pressupostos de design em perspectiva?                      |    Sim     |                                                                                    |
+|        8         | As persona primárias são sólidas e tangíveis o suficiente para colocar os pressupostos de design em perspectiva?                     |    Sim     |                                                                                    |
 |        9         | No elenco das personas é evidente quais são os objetivos dos usuários?                                                               |    Sim     |                                                                                    |
 |        10        | O elenco de personas tem entre 3 a 12 personas?                                                                                      |    Sim     |                                                                                    |
 |        11        | Possui justificativa do número?                                                                                                      |    Sim     |                                                                                    |
@@ -107,24 +107,22 @@ _Fonte: [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 ## Retrabalho
 
-Como proposto por Fagan, para o retrabalho os autores do artefato ([Rafael Ferreira](https://github.com/RafaelCLG0) e [Douglas Alves](https://github.com/dougAlvs)) corrigiram os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
+Como proposto por Fagan, para o retrabalho os autores do artefato verificado serão responsáveis em um primeiro momento por corrigir os problemas apresentados seguindo a lista de sugestão de correção apresentada anteriormente, porém há a possibilidade de outros integrantes do grupo realizarem as correções propostas. O responsável por essa verificação fará uma revisão das correções feitas, checando se as correções são suficientes e se foi introduzido novos erros ou não. A tabela 3 a seguir apresenta o cronograma de correções.
 
 <center>
 
 **Tabela 3** - Cronograma de Correções.
 
-| Data de Correção | Descrição                                                                    |                Responsável(eis)                |                   Revisor(es)                    |      Status      |
-| ---------------- | :--------------------------------------------------------------------------- | :--------------------------------------------: | :----------------------------------------------: | :--------------: |
-| 01/07/2023       | Aplicar as correções textuais, padronizar as referência bibliográfica e ajustar o objetivo das Personas identificadas |  [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) | :material-check: |
-
+| Data de Correção | Descrição                                                                                                             |                 Responsável(eis)                 |                 Revisor(es)                  |      Status      |
+| ---------------- | :-------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------: | :------------------------------------------: | :--------------: |
+| 01/07/2023       | Aplicar as correções textuais, padronizar as referência bibliográfica e ajustar o objetivo das Personas identificadas | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) | :material-check: |
 
 _Fonte: Elaborado por [Rafael Ferreira](https://github.com/RafaelCLG0), 2023._
 
 </center>
 
-As correções solicitadas acima foram realizadas.
-
 !!! info
+
     O cronograma apresentado na tabela 3 pode ser alterado.
 
 ## Referências Bibliograficas
@@ -135,7 +133,7 @@ As correções solicitadas acima foram realizadas.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição          | Autor(es)                                        | Revisor(es)                                  |
-| ------ | ---------- | ------------------ | ------------------------------------------------ | -------------------------------------------- |
-| `1.0`  | 20/06/2023 | Criação da página. | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) |
+| Versão | Data       | Descrição            | Autor(es)                                        | Revisor(es)                                  |
+| ------ | ---------- | -------------------- | ------------------------------------------------ | -------------------------------------------- |
+| `1.0`  | 20/06/2023 | Criação da página.   | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) |
 | `1.1`  | 01/07/2023 | Adição do Retrabalho | [Rafael Ferreira](https://github.com/RafaelCLG0) | [Douglas Alves](https://github.com/dougAlvs) |
