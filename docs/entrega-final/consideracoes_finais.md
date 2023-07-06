@@ -23,9 +23,9 @@ Da minha parte, primeiramente gostaria de agradecer ao professor pela oportunida
 Não obstante, encontrei bastante facilidade de comunicação com o grupo, a organização e a competência de todos os membros foi um alento em meio a tantas entregas. Fica de sugestão a importância de definir prazos estritos para a execução do projeto, isso é valioso para a boa execução das tarefas e garantir que todos participem. 
 
 ### [Geovanna Maciel](https://github.com/manuziny)
-Antes de tudo eu queria dizer que a disciplina foi muito edificante pra mim. A disciplina de IHC abriu novos horizontes que antes eu não tinha entrado em contato. Acredito que todos os ensinamentos dados vão me ajudar muito futuramente, tanto profissionalmente quanto academicamente.
+Antes de tudo eu queria dizer que a disciplina foi muito edificante pra mim. A disciplina de Requisitos abriu novos horizontes que antes eu não tinha entrado em contato. Acredito que todos os ensinamentos dados vão me ajudar muito futuramente, tanto profissionalmente quanto academicamente.
 
-Na disciplina, a minha maior dificuldade inicial foi o cronograma. Foi um foi estranho pra mim criar um cronograma completo sem saber quais etapas exatamente nós teríamos que realizar. Com o apoio do conteúdo já produzido por outros semestres foi possível construir um cronograma, mas ainda um pouco ambíguo por ainda serem cronogramas diferentes. Mas no geral, eu gostei do meu grupo e de fazer parte desse projeto de IHC.
+Na disciplina, a minha maior dificuldade inicial foi o cronograma. Foi um foi estranho pra mim criar um cronograma completo sem saber quais etapas exatamente nós teríamos que realizar. Com o apoio do conteúdo já produzido por outros semestres foi possível construir um cronograma, mas ainda um pouco ambíguo por ainda serem cronogramas diferentes. Mas no geral, eu gostei do meu grupo e de fazer parte desse projeto de Requisitos de Software.
 
 ### [Matheus Henrique](https://github.com/mathonaut)
 
@@ -37,9 +37,7 @@ Em geral minhas considerações permeiam em torno do grupo por todos os membros 
 
 ### [Sidney Fernando](https://github.com/nando3d3)
 
-Gostaria de começar expressando o quanto essa disciplina de Interação Humano-Computador foi enriquecedora para mim. Ela abriu novos horizontes que eu nunca havia explorado antes. Tenho certeza de que tudo o que aprendi será muito útil no futuro, tanto em minha vida profissional quanto acadêmica.
-
-Inicialmente, enfrentei uma dificuldade em relação ao cronograma. Foi um desafio criar um cronograma completo sem ter um conhecimento detalhado das etapas que precisaríamos realizar. No entanto, com o auxílio do material produzido por estudantes de semestres anteriores, conseguimos construir um cronograma, embora ainda um tanto ambíguo devido às diferenças entre os cronogramas anteriores. No geral, gostei muito do meu grupo e de fazer parte desse projeto de Interação Humano-Computador.
+Inicialmente, enfrentei uma dificuldade em relação ao cronograma. Foi um desafio criar um cronograma completo sem ter um conhecimento detalhado das etapas que precisaríamos realizar. No entanto, com o auxílio do material produzido por estudantes de semestres anteriores, conseguimos construir um cronograma, embora ainda um tanto ambíguo devido às diferenças entre os cronogramas anteriores. No geral, gostei muito do meu grupo e de fazer parte desse projeto de Requistos de Software.
 
 ## Finalização 
 
