@@ -28,8 +28,13 @@ Para buscar uma solução adequada, o grupo decidiu entrar em contato com o supo
 
 Essa abordagem evitaria a necessidade de realizar qualquer tipo de engenharia reversa ou análise do código-fonte, mantendo assim a integridade ética do projeto. Embora a análise completa do aplicativo pudesse fornecer informações mais abrangentes e detalhadas, o grupo reconheceu que sua responsabilidade primordial era respeitar os limites legais e éticos. Portanto, concentrar-se nos requisitos não implementados ainda permitiria identificar lacunas ou áreas de melhoria no aplicativo sem violar as políticas da plataforma.
 
+## Conclusão
+
+A escolha do aplicativo para trabalho no projeto é uma etapa imprescindível na disciplina de Requisitos. Durante todo o semestre será realizado trabalho baseado no aplicativo escolhido, dito isso, é importante que essa escolha seja feita cuidadosamente e se atentando a critérios sólidos. Com a experiência que obtivemos na disciplina, recomendamos principalmente atenção à disponibilidade do público-alvo e aos termos de uso do sistema, para que seja possível saber se é permitida, ou não, a realização de engenharia reversa e para que não seja necessário trocar a aplicação trabalhada no meio do semestre.
+
 ## Histórico de Versões
 
 Versão  |   Data   | Descrição | Autor(es) | Revisor(es)
 --------- | ------ | ------ | ---------- | ----------
 1.0 | 04/07/2023 | Criação do documento | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
+1.1 | 10/07/2023 | Adição da conclusão | [Douglas Alves](https://github.com/dougalvs) | [Matheus Henrique](https://github.com/mathonaut)
