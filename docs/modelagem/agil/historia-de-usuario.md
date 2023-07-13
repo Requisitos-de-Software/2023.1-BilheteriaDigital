@@ -342,294 +342,328 @@ As tabelas de 3 a 35 descrevem as histórias de usuário elicitadas (Representad
 
     </center>
 
-### US16
+### US16 - Opção de transferência de ingresso
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 18 - História de Usuário Opção de transferência de ingresso.</p></font>
+??? abstract "Tabela 18 - História de Usuário Opção de transferência de ingresso"
 
-<center>
+    <center>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                     |
-| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US16                   | Opção de transferência de ingresso                                                                                                                                                                           |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de transferir um ingresso adquirido para outra pessoa _para_ o caso que eu não possa comparecer ao evento ou deseje levar acompanhantes                             |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma opção de transferência de ingresso, que permita ao usuário enviar o ingresso para outro destinatário na tela de compra de ingresso e na tela de ingressos já comprados. <br> |
-| Prioridade             | Média                                                                                                                                                                                                        |
+    <font size="3"><p style="text-align: center">Tabela 18 - História de Usuário Opção de transferência de ingresso.</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                     |
+    | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US16                   | Opção de transferência de ingresso                                                                                                                                                                           |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de transferir um ingresso adquirido para outra pessoa _para_ o caso que eu não possa comparecer ao evento ou deseje levar acompanhantes                             |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma opção de transferência de ingresso, que permita ao usuário enviar o ingresso para outro destinatário na tela de compra de ingresso e na tela de ingressos já comprados. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                        |
 
-### US17
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 19 - História de Usuário Diferentes opções de pagamento.</p></font>
+    </center>
 
-<center>
+### US17 - Diferentes opções de pagamento
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                                       |
-| :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US17                   | Diferentes opções de pagamento                                                                                                                                                                                                                                                                 |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter diferentes opções de pagamento disponíveis, como pix, crédito, débito, boleto e carteiras digitais _para_ para escolher a forma de pagamento mais conveniente para mim                                                                                        |
-| Critérios de Aceitação | -O aplicativo deve suportar várias opções de pagamento, como pix, cartões de crédito, cartões de débito, boleto bancário e carteiras digitais. <br> -Durante o processo de pagamento, o usuário deve poder selecionar a opção de pagamento desejada e inserir as informações necessárias. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                                           |
+??? abstract "Tabela 19 - História de Usuário Diferentes opções de pagamento"
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <center>
 
-### US18
+    <font size="3"><p style="text-align: center">Tabela 19 - História de Usuário Diferentes opções de pagamento.</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 20 - História de Usuário Envio de ingressos por e-mail.</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                                       |
+    | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US17                   | Diferentes opções de pagamento                                                                                                                                                                                                                                                                 |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter diferentes opções de pagamento disponíveis, como pix, crédito, débito, boleto e carteiras digitais _para_ para escolher a forma de pagamento mais conveniente para mim                                                                                        |
+    | Critérios de Aceitação | -O aplicativo deve suportar várias opções de pagamento, como pix, cartões de crédito, cartões de débito, boleto bancário e carteiras digitais. <br> -Durante o processo de pagamento, o usuário deve poder selecionar a opção de pagamento desejada e inserir as informações necessárias. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                                                                           |
 
-<center>
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                                    |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| US18                   | Envio de ingressos por e-mail                                                                                                                                                                                                                                                               |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo envie os ingressos comprados por email _para_ que eu receba a confirmação da minha compra                                                                                                                                                     |
-| Critérios de Aceitação | -Após a conclusão do processo de compra, o aplicativo deve enviar automaticamente os ingressos comprados para o endereço de email fornecido pelo usuário. <br> -O email de confirmação deve incluir os detalhes da compra, como nome do evento, data, local e informações do ingresso. <br> |
-| Prioridade             | Média                                                                                                                                                                                                                                                                                       |
+    </center>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+### US18 - Envio de ingressos por e-mail
 
-### US19
+??? abstract "Tabela 20 - História de Usuário Envio de ingressos por e-mail"
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 21 - História de Usuário Aba de visualização de ingressos.</p></font>
+    <center>
 
-<center>
+    <font size="3"><p style="text-align: center">Tabela 20 - História de Usuário Envio de ingressos por e-mail.</p></font>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                            |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US19                   | Aba de visualização de ingressos                                                                                                                                                                                                    |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter uma aba no aplicativo onde eu possa visualizar todos os ingressos que comprei _para_ verificar qualquer informação do ingresso que me interesse                                                    |
-| Critérios de Aceitação | -O aplicativo deve ter uma seção ou uma aba claramente visível no seu perfil que exiba todos os ingressos adquiridos pelo usuário. <br> -O aplicativo deve permitir selecionar um ingresso da lista para ver suas informações. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                |
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                                    |
+    | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | US18                   | Envio de ingressos por e-mail                                                                                                                                                                                                                                                               |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo envie os ingressos comprados por email _para_ que eu receba a confirmação da minha compra                                                                                                                                                     |
+    | Critérios de Aceitação | -Após a conclusão do processo de compra, o aplicativo deve enviar automaticamente os ingressos comprados para o endereço de email fornecido pelo usuário. <br> -O email de confirmação deve incluir os detalhes da compra, como nome do evento, data, local e informações do ingresso. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                                                                                                       |
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-### US20
+    </center>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 22 - História de Usuário Opção de cancelamento de compra.</p></font>
+### US19 - Aba de visualização de ingressos
 
-<center>
+??? abstract "Tabela 21 - História de Usuário Aba de visualização de ingressos"
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                   |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US20                   | Opção de cancelamento de compra                                                                                                                                                                                                                                            |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de cancelar uma compra de ingresso _para_ caso mude de ideia ou não possa comparecer ao evento                                                                                                                                    |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma opção de cancelamento de compra que permita ao usuário desistir da compra e receber um reembolso, se aplicável. <br> -O processo de cancelamento de compra deve ser claro e orientado ao usuário, com instruções sobre como proceder. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                       |
+    <center>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <font size="3">Tabela 21 - História de Usuário Aba de visualização de ingressos.</font>
 
-### US21
+    | **ID**                 | **Nome**                                                                                                                                                                                                                            |
+    | :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US19                   | Aba de visualização de ingressos                                                                                                                                                                                                    |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter uma aba no aplicativo onde eu possa visualizar todos os ingressos que comprei _para_ verificar qualquer informação do ingresso que me interesse                                                    |
+    | Critérios de Aceitação | -O aplicativo deve ter uma seção ou uma aba claramente visível no seu perfil que exiba todos os ingressos adquiridos pelo usuário. <br> -O aplicativo deve permitir selecionar um ingresso da lista para ver suas informações. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                |
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 23 - História de Usuário Recomendação de eventos baseada no gosto do usuário.</p></font>
+    <font size="3">Fonte: [Douglas Alves](https://github.com/dougAlvs).</font>
 
-<center>
+    </center>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                                                                          |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| US21                   | Recomendação de eventos baseada no gosto do usuário                                                                                                                                                                                                                                                                                                                                               |
-| Descrição              | _Eu, como_ usuário, _desejo_ desejo receber recomendações de eventos com base no meu gosto pessoal, por meio de uma avaliação ou histórico de preferências _para_ que eu encontre eventos que eu goste mais facilmente                                                                                                                                                                            |
-| Critérios de Aceitação | -O aplicativo deve implementar um algoritmo de recomendação que analise as preferências do usuário com base em avaliações anteriores, histórico de compras ou outras informações relevantes. E com base nessa análise, o aplicativo deve sugerir eventos similares ou de interesse para o usuário. <br> -O usuário deve permitir que seus dados sejam usados pelo algoritmo de recomendação. <br> |
-| Prioridade             | Média                                                                                                                                                                                                                                                                                                                                                                                             |
+### US20 - Opção de cancelamento de compra
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+??? abstract "Tabela 22 - História de Usuário Opção de cancelamento de compra"
 
-### US22
+    <center>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 24 - História de Usuário Opção de receber notificações do aplicativo.</p></font>
+    <font size="3">Tabela 22 - História de Usuário Opção de cancelamento de compra.</font>
 
-<center>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                   |
+    | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US20                   | Opção de cancelamento de compra                                                                                                                                                                                                                                            |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de cancelar uma compra de ingresso _para_ caso mude de ideia ou não possa comparecer ao evento                                                                                                                                    |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma opção de cancelamento de compra que permita ao usuário desistir da compra e receber um reembolso, se aplicável. <br> -O processo de cancelamento de compra deve ser claro e orientado ao usuário, com instruções sobre como proceder. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                                                       |
 
-| **ID**                 | **Nome**                                                                                                                                                                                                               |
-| :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US22                   | Opção de receber notificações do aplicativo                                                                                                                                                                            |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de receber notificações do aplicativo _para_ para ficar atualizado sobre eventos próximos e novidades                                                                         |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma opção de ativar ou desativar as notificações para o usuário. <br> -As notificações devem ser relevantes e informar sobre eventos próximos, promoções ou atualizações importantes. <br> |
-| Prioridade             | Baixa                                                                                                                                                                                                                  |
+    <font size="3">Fonte: [Douglas Alves](https://github.com/dougAlvs).</font>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    </center>
 
-### US23
+### US21 - Recomendação de eventos baseada no gosto do usuário
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 25 - História de Usuário Exibição de notificações de eventos próximos.</p></font>
+??? abstract "Tabela 23 - História de Usuário Recomendação de eventos baseada no gosto do usuário"
 
-<center>
+    <center>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                            |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US23                   | Exibição de notificações de eventos próximos                                                                                                                                                                                                                                                                                                        |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo exiba notificações de eventos próximos com base no meu gosto pessoal _para_ para que eu possa me planejar e participar de eventos de interesse                                                                                                                                                        |
-| Critérios de Aceitação | -O aplicativo, caso permitido, deve analisar as preferências do usuário, como histórico de compras, avaliações ou seleções anteriores, para enviar notificações relevantes sobre eventos próximos. <br> -As notificações devem ser exibidas de forma clara e apropriada, destacando informações relevantes, como data, local e tipo de evento. <br> |
-| Prioridade             | Baixa                                                                                                                                                                                                                                                                                                                                               |
+    <font size="3">Tabela 23 - História de Usuário Recomendação de eventos baseada no gosto do usuário.</font>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                                                                          |
+    | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | US21                   | Recomendação de eventos baseada no gosto do usuário                                                                                                                                                                                                                                                                                                                                               |
+    | Descrição              | _Eu, como_ usuário, _desejo_ desejo receber recomendações de eventos com base no meu gosto pessoal, por meio de uma avaliação ou histórico de preferências _para_ que eu encontre eventos que eu goste mais facilmente                                                                                                                                                                            |
+    | Critérios de Aceitação | -O aplicativo deve implementar um algoritmo de recomendação que analise as preferências do usuário com base em avaliações anteriores, histórico de compras ou outras informações relevantes. E com base nessa análise, o aplicativo deve sugerir eventos similares ou de interesse para o usuário. <br> -O usuário deve permitir que seus dados sejam usados pelo algoritmo de recomendação. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                                                                                                                                                                                                             |
 
-### US24
+    <font size="3">Fonte: [Douglas Alves](https://github.com/dougAlvs).</font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 26 - História de Usuário Termos de privacidade explícitos.</p></font>
+    </center>
 
-<center>
+### US22 - Opção de receber notificações do aplicativo
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                    |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US24                   | Termos de privacidade explícitos                                                                                                                                                                                            |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo forneça termos de privacidade explícitos em relação aos dados que inseri _para_ garantir que minha privacidade seja protegida.                                                |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma seção clara e acessível que contenha os termos de privacidade. <br> -Os termos de privacidade devem explicar como os dados do usuário são coletados, armazenados, usados e protegidos. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                        |
+??? abstract "Tabela 24 - História de Usuário Opção de receber notificações do aplicativo"
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <center>
 
-### US25
+    <font size="3">Tabela 24 - História de Usuário Opção de receber notificações do aplicativo.</font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 27 - História de Usuário Criação de conta e login com e-mail.</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                               |
+    | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US22                   | Opção de receber notificações do aplicativo                                                                                                                                                                            |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de receber notificações do aplicativo _para_ para ficar atualizado sobre eventos próximos e novidades                                                                         |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma opção de ativar ou desativar as notificações para o usuário. <br> -As notificações devem ser relevantes e informar sobre eventos próximos, promoções ou atualizações importantes. <br> |
+    | Prioridade             | Baixa                                                                                                                                                                                                                  |
 
-<center>
+    <font size="3">Fonte: [Douglas Alves](https://github.com/dougAlvs).</font>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                    |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| US25                   | Criação de conta e login com e-mail                                                                                                                                                                                                         |
-| Descrição              | _Eu, como_ usuário, _desejo_ poder criar uma conta e fazer login no aplicativo usando meu email _para_ para ter acesso aos recursos do aplicativo.                                                                                          |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma opção de criação de conta que permita ao usuário registrar-se usando seu endereço de email. <br> -O usuário deve poder fazer login no aplicativo utilizando seu email e senha previamente cadastrados. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                        |
+    </center>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+### US23 - Exibição de notificações de eventos próximos
 
-### US26
+??? abstract "Tabela 25 - História de Usuário Exibição de notificações de eventos próximos"
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 28 - História de Usuário Autenticação de dois fatores.</p></font>
+    <center>
 
-<center>
+    <font size="3">Tabela 25 - História de Usuário Exibição de notificações de eventos próximos.</font>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                         |
-| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US26                   | Autenticação de dois fatores                                                                                                                                                                                                                     |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo ofereça autenticação de dois fatores _para_ aumentar a segurança da minha conta                                                                                                                    |
-| Critérios de Aceitação | -O aplicativo deve fornecer a opção de ativar a autenticação de dois fatores para a conta do usuário. <br> -O processo de autenticação de dois fatores deve exigir uma combinação de senha e código único gerado no dispositivo do usuário. <br> |
-| Prioridade             | Média                                                                                                                                                                                                                                            |
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                            |
+    | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US23                   | Exibição de notificações de eventos próximos                                                                                                                                                                                                                                                                                                        |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo exiba notificações de eventos próximos com base no meu gosto pessoal _para_ para que eu possa me planejar e participar de eventos de interesse                                                                                                                                                        |
+    | Critérios de Aceitação | -O aplicativo, caso permitido, deve analisar as preferências do usuário, como histórico de compras, avaliações ou seleções anteriores, para enviar notificações relevantes sobre eventos próximos. <br> -As notificações devem ser exibidas de forma clara e apropriada, destacando informações relevantes, como data, local e tipo de evento. <br> |
+    | Prioridade             | Baixa                                                                                                                                                                                                                                                                                                                                               |
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <font size="3">Fonte: [Douglas Alves](https://github.com/dougAlvs).</font>
 
-### US27
+    </center>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 29 - História de Usuário Cadastro por redes sociais validado por email.</p></font>
+### US24 - Termos de privacidade explícitos
 
-<center>
+??? abstract "Tabela 26 - História de Usuário Termos de privacidade explícitos"
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                       |
-| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US27                   | Cadastro por redes sociais validado por e-mail                                                                                                                                                                                                                                 |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de realizar o cadastro no aplicativo utilizando minhas redes sociais, com validação por email _para_ que seja mais simples de criar conta no aplicativo                                                                               |
-| Critérios de Aceitação | -O aplicativo deve permitir que o usuário se registre utilizando suas contas em redes sociais populares, como Facebook, Google ou Twitter. <br> -Após selecionar a opção de cadastro por rede social, o usuário deve fornecer um endereço de email válido para validação. <br> |
-| Prioridade             | Média                                                                                                                                                                                                                                                                          |
+    <center>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <font size="3">Tabela 26 - História de Usuário Termos de privacidade explícitos.</font>
 
-### US28
+    | **ID**                 | **Nome**                                                                                                                                                                                                                    |
+    | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US24                   | Termos de privacidade explícitos                                                                                                                                                                                            |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo forneça termos de privacidade explícitos em relação aos dados que inseri _para_ garantir que minha privacidade seja protegida.                                                |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma seção clara e acessível que contenha os termos de privacidade. <br> -Os termos de privacidade devem explicar como os dados do usuário são coletados, armazenados, usados e protegidos. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                        |
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 30 - História de Usuário Senha segura durante o cadastro.</p></font>
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-<center>
+    </center>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                                 |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US28                   | Senha segura durante o cadastro                                                                                                                                                                                                                                                                                                                          |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo exija uma senha segura durante o processo de cadastro _para_ proteger minha conta contra acessos não autorizados.                                                                                                                                                                                          |
-| Critérios de Aceitação | -Durante o processo de cadastro, o aplicativo deve exigir que o usuário crie uma senha que atenda a requisitos mínimos de segurança, como combinação de letras maiúsculas e minúsculas, números e caracteres especiais. <br> -O aplicativo deve fornecer orientações claras sobre os critérios de segurança da senha durante o processo de criação. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                                                                                                     |
+### US25 - Criação de conta e login com e-mail
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+??? abstract "Tabela 27 - História de Usuário Criação de conta e login com e-mail"
 
-### US29
+    <center>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 31 - História de Usuário Informações sobre inclusão na descrição dos eventos.</p></font>
+    <font size="3"><p style="text-align: center">Tabela 27 - História de Usuário Criação de conta e login com e-mail.</p></font>
 
-<center>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                    |
+    | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | US25                   | Criação de conta e login com e-mail                                                                                                                                                                                                         |
+    | Descrição              | _Eu, como_ usuário, _desejo_ poder criar uma conta e fazer login no aplicativo usando meu email _para_ para ter acesso aos recursos do aplicativo.                                                                                          |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma opção de criação de conta que permita ao usuário registrar-se usando seu endereço de email. <br> -O usuário deve poder fazer login no aplicativo utilizando seu email e senha previamente cadastrados. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                        |
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                    |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US29                   | Informações sobre inclusão na descrição dos eventos                                                                                                                                                                                                                         |
-| Descrição              | _Eu, como_ usuário, _desejo_ que a descrição dos eventos inclua informações sobre acessibilidade e inclusão _para_ tomar decisões informadas sobre minha participação nos eventos.                                                                                          |
-| Critérios de Aceitação | -A descrição dos eventos deve fornecer informações claras sobre recursos de acessibilidade disponíveis, como audiodescrição, legendas, libras, entre outros. <br> -O aplicativo deve destacar de forma visível as informações sobre inclusão na descrição dos eventos. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                        |
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    </center>
 
-### US30
+### US26 - Autenticação de dois fatores
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 32 - História de Usuário Acessibilidade visual.</p></font>
+??? abstract "Tabela 28 - História de Usuário Autenticação de dois fatores"
 
-<center>
+    <center>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                                                       |
-| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US30                   | Acessibilidade visual                                                                                                                                                                                                                                                          |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo seja acessível visualmente, com recursos como alto contraste e opções de cores para daltônicos _para_ que todas pessoas possam utilizar o aplicativo                                                                             |
-| Critérios de Aceitação | -O aplicativo deve fornecer opções de configuração de alto contraste para melhorar a legibilidade para usuários com deficiência visual. <br> -O aplicativo deve oferecer opções de cores adaptadas para usuários daltônicos, garantindo uma experiência visual acessível. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                           |
+    <font size="3"><p style="text-align: center">Tabela 28 - História de Usuário Autenticação de dois fatores.</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                         |
+    | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US26                   | Autenticação de dois fatores                                                                                                                                                                                                                     |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo ofereça autenticação de dois fatores _para_ aumentar a segurança da minha conta                                                                                                                    |
+    | Critérios de Aceitação | -O aplicativo deve fornecer a opção de ativar a autenticação de dois fatores para a conta do usuário. <br> -O processo de autenticação de dois fatores deve exigir uma combinação de senha e código único gerado no dispositivo do usuário. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                                                            |
 
-### US31
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 33 - História de Usuário Opção de troca de idioma.</p></font>
+    </center>
 
-<center>
+### US27 - Cadastro por redes sociais validado por email
 
-| **ID**                 | **Nome**                                                                                                                                                                                                                                         |
-| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US31                   | Opção de troca de idioma                                                                                                                                                                                                                         |
-| Descrição              | _Eu, como_ usuário, _desejo_ ter um botão ou região na interface do aplicativo onde eu possa trocar o idioma _para_ algum minha preferência.                                                                                                     |
-| Critérios de Aceitação | -O aplicativo deve fornecer uma opção clara e facilmente acessível para o usuário trocar o idioma da interface. <br> -O aplicativo deve oferecer suporte a múltiplos idiomas e aplicar a tradução correta em todas as seções do aplicativo. <br> |
-| Prioridade             | Média                                                                                                                                                                                                                                            |
+??? abstract "Tabela 29 - História de Usuário Cadastro por redes sociais validado por email"
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+    <center>
 
-### US32
+    <font size="3"><p style="text-align: center">Tabela 29 - História de Usuário Cadastro por redes sociais validado por email.</p></font>
 
-</center>
-<font size="3"><p style="text-align: center">Tabela 34 - História de Usuário Audiodescrição para eventos.</p></font>
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                       |
+    | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US27                   | Cadastro por redes sociais validado por e-mail                                                                                                                                                                                                                                 |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter a opção de realizar o cadastro no aplicativo utilizando minhas redes sociais, com validação por email _para_ que seja mais simples de criar conta no aplicativo                                                                               |
+    | Critérios de Aceitação | -O aplicativo deve permitir que o usuário se registre utilizando suas contas em redes sociais populares, como Facebook, Google ou Twitter. <br> -Após selecionar a opção de cadastro por rede social, o usuário deve fornecer um endereço de email válido para validação. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                                                                                          |
 
-<center>
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
 
-| **ID**                 | **Nome**                                                                                                                                                                                                    |
-| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US32                   | Audiodescrição para eventos                                                                                                                                                                                 |
-| Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo forneça audiodescrição para os eventos _para_ que eu possa obter uma experiência inclusiva ao explorar as informações visuais do evento                       |
-| Critérios de Aceitação | -O aplicativo deve oferecer a opção de ativar ou desativar a audiodescrição nas configurações. <br> -A audiodescrição deve fornecer informações visuais relevantes do evento de forma clara e concisa. <br> |
-| Prioridade             | Alta                                                                                                                                                                                                        |
+    </center>
 
-</center>
-<font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+### US28 - Senha segura durante o cadastro
+
+??? abstract "Tabela 30 - História de Usuário Senha segura durante o cadastro"
+
+    <center>
+
+    <font size="3"><p style="text-align: center">Tabela 30 - História de Usuário Senha segura durante o cadastro.</p></font>
+
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                                                                                                 |
+    | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US28                   | Senha segura durante o cadastro                                                                                                                                                                                                                                                                                                                          |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo exija uma senha segura durante o processo de cadastro _para_ proteger minha conta contra acessos não autorizados.                                                                                                                                                                                          |
+    | Critérios de Aceitação | -Durante o processo de cadastro, o aplicativo deve exigir que o usuário crie uma senha que atenda a requisitos mínimos de segurança, como combinação de letras maiúsculas e minúsculas, números e caracteres especiais. <br> -O aplicativo deve fornecer orientações claras sobre os critérios de segurança da senha durante o processo de criação. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                                                                                                                                     |
+
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+    </center>
+
+### US29 - Informações sobre inclusão na descrição dos eventos
+
+??? abstract "Tabela 31 - História de Usuário Informações sobre inclusão na descrição dos eventos"
+
+    <center>
+
+    <font size="3"><p style="text-align: center">Tabela 31 - História de Usuário Informações sobre inclusão na descrição dos eventos.</p></font>
+
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                    |
+    | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US29                   | Informações sobre inclusão na descrição dos eventos                                                                                                                                                                                                                         |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que a descrição dos eventos inclua informações sobre acessibilidade e inclusão _para_ tomar decisões informadas sobre minha participação nos eventos.                                                                                          |
+    | Critérios de Aceitação | -A descrição dos eventos deve fornecer informações claras sobre recursos de acessibilidade disponíveis, como audiodescrição, legendas, libras, entre outros. <br> -O aplicativo deve destacar de forma visível as informações sobre inclusão na descrição dos eventos. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                                                        |
+
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+    </center>
+
+### US30 - Acessibilidade visual
+
+??? abstract "Tabela 32 - História de Usuário Acessibilidade visual"
+
+    <center>
+
+    <font size="3"><p style="text-align: center">Tabela 32 - História de Usuário Acessibilidade visual.</p></font>
+
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                                                       |
+    | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US30                   | Acessibilidade visual                                                                                                                                                                                                                                                          |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo seja acessível visualmente, com recursos como alto contraste e opções de cores para daltônicos _para_ que todas pessoas possam utilizar o aplicativo                                                                             |
+    | Critérios de Aceitação | -O aplicativo deve fornecer opções de configuração de alto contraste para melhorar a legibilidade para usuários com deficiência visual. <br> -O aplicativo deve oferecer opções de cores adaptadas para usuários daltônicos, garantindo uma experiência visual acessível. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                                                                                           |
+
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+    </center>
+
+### US31 - Opção de troca de idioma
+
+??? abstract "Tabela 33 - História de Usuário Opção de troca de idioma"
+
+    <center>
+
+    <font size="3"><p style="text-align: center">Tabela 33 - História de Usuário Opção de troca de idioma.</p></font>
+
+    | **ID**                 | **Nome**                                                                                                                                                                                                                                         |
+    | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US31                   | Opção de troca de idioma                                                                                                                                                                                                                         |
+    | Descrição              | _Eu, como_ usuário, _desejo_ ter um botão ou região na interface do aplicativo onde eu possa trocar o idioma _para_ algum minha preferência.                                                                                                     |
+    | Critérios de Aceitação | -O aplicativo deve fornecer uma opção clara e facilmente acessível para o usuário trocar o idioma da interface. <br> -O aplicativo deve oferecer suporte a múltiplos idiomas e aplicar a tradução correta em todas as seções do aplicativo. <br> |
+    | Prioridade             | Média                                                                                                                                                                                                                                            |
+
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+    </center>
+
+### US32 - Audiodescrição para eventos
+
+??? abstract "Tabela 34 - História de Usuário Audiodescrição para eventos"
+
+    <center>
+
+    <font size="3"><p style="text-align: center">Tabela 34 - História de Usuário Audiodescrição para eventos.</p></font>
+
+    | **ID**                 | **Nome**                                                                                                                                                                                                    |
+    | :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | US32                   | Audiodescrição para eventos                                                                                                                                                                                 |
+    | Descrição              | _Eu, como_ usuário, _desejo_ que o aplicativo forneça audiodescrição para os eventos _para_ que eu possa obter uma experiência inclusiva ao explorar as informações visuais do evento                       |
+    | Critérios de Aceitação | -O aplicativo deve oferecer a opção de ativar ou desativar a audiodescrição nas configurações. <br> -A audiodescrição deve fornecer informações visuais relevantes do evento de forma clara e concisa. <br> |
+    | Prioridade             | Alta                                                                                                                                                                                                        |
+
+    <font size="3"><p style="text-align: center">Fonte: [Douglas Alves](https://github.com/dougAlvs).</p></font>
+
+    </center>
 
 ## Bibliografia
 
@@ -643,11 +677,12 @@ As tabelas de 3 a 35 descrevem as histórias de usuário elicitadas (Representad
 
 ## Histórico de versões
 
-| Versão | Data       | Descrição                                              | Autor(es)                                                                                    | Revisor(es)                                    |
-| ------ | ---------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| 1.0    | 20/05/2023 | Criação da página                                      | [Geovanna Maciel](https://github.com/manuziny)                                               | [Douglas Alves](https://github.com/dougAlvs)   |
-| 1.1    | 20/05/2023 | Adição metodologia                                     | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Gabriel Campello](https://github.com/G16C)    |
-| 1.2    | 23/05/2023 | Adição features 5, 6, 7                                | [Geovanna Maciel](https://github.com/manuziny)                                               | [Gabriel Campello](https://github.com/G16C)    |
-| 1.2    | 23/05/2023 | Adição features 1, 2, 3, 4                             | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Gabriel Campello](https://github.com/G16C)    |
-| 1.3    | 23/05/2023 | Finalização do artefato                                | [Douglas Alves](https://github.com/dougAlvs), [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)    |
-| 1.4    | 09/06/2023 | Refatoração do artefato com histórias de usuário do PO | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Geovanna Maciel](https://github.com/manuziny) |
+| Versão | Data       | Descrição                                                                                                             | Autor(es)                                                                                    | Revisor(es)                                    |
+| ------ | ---------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| `1.0`  | 20/05/2023 | Criação da página                                                                                                     | [Geovanna Maciel](https://github.com/manuziny)                                               | [Douglas Alves](https://github.com/dougAlvs)   |
+| `1.1`  | 20/05/2023 | Adição metodologia                                                                                                    | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Gabriel Campello](https://github.com/G16C)    |
+| `1.2`  | 23/05/2023 | Adição features 5, 6, 7                                                                                               | [Geovanna Maciel](https://github.com/manuziny)                                               | [Gabriel Campello](https://github.com/G16C)    |
+| `1.3`  | 23/05/2023 | Adição features 1, 2, 3, 4                                                                                            | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Gabriel Campello](https://github.com/G16C)    |
+| `1.4`  | 23/05/2023 | Finalização do artefato                                                                                               | [Douglas Alves](https://github.com/dougAlvs), [Geovanna Maciel](https://github.com/manuziny) | [Gabriel Campello](https://github.com/G16C)    |
+| `2.0`  | 09/06/2023 | Refatoração do artefato com histórias de usuário do PO                                                                | [Douglas Alves](https://github.com/dougAlvs)                                                 | [Geovanna Maciel](https://github.com/manuziny) |
+| `2.1`  | 24/06/2023 | Ajustes de acordo com a [verificação realizada](../../verificacao/grupo/entrega4/verificacao-historia-de-usuario.md). | [Matheus Henrique](https://github.com/mathonaut)                                             | [Geovanna Maciel](https://github.com/manuziny) |
