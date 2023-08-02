@@ -1,0 +1,27 @@
+[data-md-color-scheme="claro"] {
+    --md-primary-fg-color:        #2c2c2c !important;
+    --md-accent-fg-color:red;
+    --md-typeset-a-color: rgb(255, 0, 0);
+}
+
+[data-md-color-scheme="slate"] {
+    
+    --md-primary-fg-color:#2c2c2c;
+    --md-accent-fg-color:red;
+    --md-default-bg-color: #000000;
+    --md-typeset-a-color: red !important;
+    --md-typeset-table-color: rgba(255, 255, 255, 0.211);
+    --md-typeset-table-color--light:     rgba(128, 128, 128, 0.301);
+}
+
+[data-md-color-scheme="slate"] .usecaseElement {
+  filter: invert(100%);
+}
+
+body {
+  text-align: justify;
+}
+
+p {
+  text-indent: 1em;
+}

@@ -1,0 +1,5830 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../matriz-geral/">
+      
+      
+        <link rel="next" href="../../entrega-final/app-selecionado/">
+      
+      <link rel="icon" href="../../assets/bilheteria.png">
+      <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
+    
+    
+      
+        <title>Pós-Rastreabilidade - Bilheteria Digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pos-rastreabilidade" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Bilheteria Digital" class="md-header__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bilheteria Digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pós-Rastreabilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Escuro"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Escuro" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Claro"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Claro" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Bilheteria Digital" class="md-nav__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    Bilheteria Digital
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        Apresentação 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        Apresentação 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        Apresentação 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        Apresentação 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao5/" class="md-nav__link">
+        Apresentação 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao6/" class="md-nav__link">
+        Apresentação 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao7/" class="md-nav__link">
+        Apresentação 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao8/" class="md-nav__link">
+        Apresentação Final
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_01/" class="md-nav__link">
+        Ata 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_02/" class="md-nav__link">
+        Ata 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_03/" class="md-nav__link">
+        Ata 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_04/" class="md-nav__link">
+        Ata 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_05/" class="md-nav__link">
+        Ata 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_06/" class="md-nav__link">
+        Ata 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_07/" class="md-nav__link">
+        Ata 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_08/" class="md-nav__link">
+        Ata 8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_09/" class="md-nav__link">
+        Ata 9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_10/" class="md-nav__link">
+        Ata 10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_11/" class="md-nav__link">
+        Ata 11
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/Requisitos_Ata_12/" class="md-nav__link">
+        Ata 12
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/aplicativo/" class="md-nav__link">
+        Aplicativo escolhido
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        Cronograma
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/perfil_de_usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          Técnicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Técnicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/tecnicas/observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/firstThingsfirst/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/priorizacao/threeLvlScale/" class="md-nav__link">
+        Three Level Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/useCase/" class="md-nav__link">
+        Casos de uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+          Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_5">
+          <span class="md-nav__icon md-icon"></span>
+          Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/agil/historia-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+          Grupo + 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo + 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_1" id="__nav_8_1_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega1/rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2" id="__nav_8_1_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/planejamento-verificacao-e2-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_2" id="__nav_8_1_2_2_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/perfilusuario2/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/personas2/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/brainstorm2/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/observacao2/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/storytelling2/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_3" id="__nav_8_1_2_3_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/threelvlscale2/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/moscow2/" class="md-nav__link">
+        Moscow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega2/inorout2/" class="md-nav__link">
+        In or Out
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_3" id="__nav_8_1_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega3/planejamento-verificacao-e3-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega3/caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_4" id="__nav_8_1_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega4/verificacao-backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo2/entrega4/verificacao-historias-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          Grupo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_1" id="__nav_8_2_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega1/planejamento-verificacao-e1-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega1/verificacao-rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_2" id="__nav_8_2_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-perfil-de-usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-brainstorming/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-%24100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-ftf/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega2/verificacao-three-level-scale/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_3" id="__nav_8_2_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega3/planejamento-verificacao-e3-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega3/verificacao-caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_4" id="__nav_8_2_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega4/planejamento-verificacao-e4-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega4/verificacao-pdbacklog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo/entrega4/verificacao-historia-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/prototipo/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../validacao/validacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matriz-geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Pós-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Pós-Rastreabilidade
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    Rastreabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf01" class="md-nav__link">
+    RF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf02" class="md-nav__link">
+    RF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf03" class="md-nav__link">
+    RF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf04" class="md-nav__link">
+    RF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf05" class="md-nav__link">
+    RF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf06" class="md-nav__link">
+    RF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf07" class="md-nav__link">
+    RF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf08" class="md-nav__link">
+    RF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf09" class="md-nav__link">
+    RF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10" class="md-nav__link">
+    RF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11" class="md-nav__link">
+    RF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12" class="md-nav__link">
+    RF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13" class="md-nav__link">
+    RF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14" class="md-nav__link">
+    RF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15" class="md-nav__link">
+    RF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16" class="md-nav__link">
+    RF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17" class="md-nav__link">
+    RF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18" class="md-nav__link">
+    RF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19" class="md-nav__link">
+    RF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20" class="md-nav__link">
+    RF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21" class="md-nav__link">
+    RF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22" class="md-nav__link">
+    RF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23" class="md-nav__link">
+    RF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24" class="md-nav__link">
+    RF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25" class="md-nav__link">
+    RF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26" class="md-nav__link">
+    RF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27" class="md-nav__link">
+    RF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28" class="md-nav__link">
+    RF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29" class="md-nav__link">
+    RF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30" class="md-nav__link">
+    RF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31" class="md-nav__link">
+    RF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32" class="md-nav__link">
+    RF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33" class="md-nav__link">
+    RF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34" class="md-nav__link">
+    RF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35" class="md-nav__link">
+    RF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36" class="md-nav__link">
+    RF36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37" class="md-nav__link">
+    RF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf01" class="md-nav__link">
+    RNF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf02" class="md-nav__link">
+    RNF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf03" class="md-nav__link">
+    RNF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf04" class="md-nav__link">
+    RNF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf05" class="md-nav__link">
+    RNF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf06" class="md-nav__link">
+    RNF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf07" class="md-nav__link">
+    RNF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf08" class="md-nav__link">
+    RNF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf09" class="md-nav__link">
+    RNF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf10" class="md-nav__link">
+    RNF10
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-vesoes" class="md-nav__link">
+    Histórico de Vesões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Entrega Final
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega Final
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/app-selecionado/" class="md-nav__link">
+        Aplicativo Selecionado
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/artefatos-criados/" class="md-nav__link">
+        Artefatos Criados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/execucao-projeto/" class="md-nav__link">
+        Execução do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/ferramentas-utilizadas/" class="md-nav__link">
+        Ferramentas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/resultados-alcancados/" class="md-nav__link">
+        Resultados Alcançados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/tabela-apresentacoes/" class="md-nav__link">
+        Tabela de Apresentações
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/tecnicas-utilizadas/" class="md-nav__link">
+        Técnicas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/planejamento-recursos-entregas/" class="md-nav__link">
+        Planejamento dos Recursos e das Entregas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/verificacao/" class="md-nav__link">
+        Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/validacao/" class="md-nav__link">
+        Validação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrega-final/consideracoes_finais/" class="md-nav__link">
+        Considerações Finais
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rastreabilidade" class="md-nav__link">
+    Rastreabilidade
+  </a>
+  
+    <nav class="md-nav" aria-label="Rastreabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf01" class="md-nav__link">
+    RF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf02" class="md-nav__link">
+    RF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf03" class="md-nav__link">
+    RF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf04" class="md-nav__link">
+    RF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf05" class="md-nav__link">
+    RF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf06" class="md-nav__link">
+    RF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf07" class="md-nav__link">
+    RF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf08" class="md-nav__link">
+    RF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf09" class="md-nav__link">
+    RF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10" class="md-nav__link">
+    RF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11" class="md-nav__link">
+    RF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12" class="md-nav__link">
+    RF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13" class="md-nav__link">
+    RF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14" class="md-nav__link">
+    RF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15" class="md-nav__link">
+    RF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16" class="md-nav__link">
+    RF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17" class="md-nav__link">
+    RF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18" class="md-nav__link">
+    RF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19" class="md-nav__link">
+    RF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20" class="md-nav__link">
+    RF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21" class="md-nav__link">
+    RF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22" class="md-nav__link">
+    RF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23" class="md-nav__link">
+    RF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24" class="md-nav__link">
+    RF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25" class="md-nav__link">
+    RF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26" class="md-nav__link">
+    RF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27" class="md-nav__link">
+    RF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28" class="md-nav__link">
+    RF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29" class="md-nav__link">
+    RF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30" class="md-nav__link">
+    RF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31" class="md-nav__link">
+    RF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32" class="md-nav__link">
+    RF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33" class="md-nav__link">
+    RF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34" class="md-nav__link">
+    RF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35" class="md-nav__link">
+    RF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36" class="md-nav__link">
+    RF36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37" class="md-nav__link">
+    RF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf01" class="md-nav__link">
+    RNF01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf02" class="md-nav__link">
+    RNF02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf03" class="md-nav__link">
+    RNF03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf04" class="md-nav__link">
+    RNF04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf05" class="md-nav__link">
+    RNF05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf06" class="md-nav__link">
+    RNF06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf07" class="md-nav__link">
+    RNF07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf08" class="md-nav__link">
+    RNF08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf09" class="md-nav__link">
+    RNF09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf10" class="md-nav__link">
+    RNF10
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-vesoes" class="md-nav__link">
+    Histórico de Vesões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="pos-rastreabilidade">Pós-Rastreabilidade</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este artefato objetiva realizar a conexão entre requisitos, arquitetura e implementação. Portanto, explicitar-se-á a relação de dependência entre requisitos e seus artefatos relacionados: de requisitos, de arquitetura e de implementação. A rastreabilidade é composta por ligações ou elos dadas pela interrelação dos artefatos especificados<a id="REF1" href="#anchor_1"><sup>1</sup></a>.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>O meta-modelo utilizado como base para a realização da rastreabilidade foi proposto por Toranzo. Nesse modelo, todas as informações rastreadas podem ser classificadas em quatro categorias<a id="REF2" href="#anchor_2"><sup>2</sup></a>:</p>
+<ul>
+<li>Ambiental: lei, objetivos, estratégias e padrão.</li>
+<li>Organizacional: objetivos, regras e processo.</li>
+<li>Gerencial: objetivos, tarefas e restrições.</li>
+<li>Desenvolvimento: requisitos, diagramas e programa.</li>
+</ul>
+<p>Contudo, no escopo do projeto todas as informações rastreadas se encontram na categoria de desenvolvimento. Além disso, fez-se uma adaptação do meta-modelo de Toranzo para a realização da pós-rastreabilidade, a qual explicita a conexão entre artefatos de desenho e de implementação aos requisitos elicitados e vice-versa. Nesse modelo, os elos são definidos por: satisfação, recurso, responsabilidade, representação, alocado e agregação<a id="REF2" href="#anchor_2"><sup>2</sup></a>. No entanto, o elo de resposabilidade não será abordado neste artefato, dado que as informações presentes nos artefatos impede a realização de tal rastreabilidade.</p>
+<p>A rastreabilidade foi feita somente nos requisitos não implementados pela Bilheteria Digital, sendo alguns implementados no protótipo de alta fidelidade feito para a <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/validacao/prototipo/">Validação</a>. A tabela 1 mostra o template utilizado para a pós-rastreabilidade dos requisitos.</p>
+<p><center></p>
+<p>Tabela 1 - Template Pós-Rastreabilidade</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><span style = "color: red">Artefato Analisado</span></th>
+<th style="text-align: center;">Classificação do Artefato Analisado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Tipos de Elo</td>
+<td style="text-align: center;">Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align: center;">Satisfação</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Recurso</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Representação</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Alocado</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">Agregação</td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+<p>Fonte: Meta-modelo de Toranzo (TORANZO, 2002)<a id="REF2" href="#anchor_2"><sup>2</sup></a>.</p>
+<p></center></p>
+<h2 id="rastreabilidade">Rastreabilidade</h2>
+<p>Neste tópico, serão apresentadas as tabelas referentes aos elos dos artefatos analisados, que se referem aos requisitos implementados e não implementados pela Bilheteria Digital. Sendo assim, as Tabelas de 2 a 48 apresentam a rastreabilidade dos requisitos funcionais e não funcionais.</p>
+<h3 id="rf01">RF01</h3>
+<details>
+
+<summary> O aplicativo filtra os eventos por Estado e por Município. </summary>
+
+<center>
+
+Tabela 2 - RF01
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF01</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4">Cenário 04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF01.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 1 - Feature 1</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4">Cenário 04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us01">História de Usuário US01</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS01</a>, <a href="../../elicitacao/elicitacao/tecnicas/brainstorming/#anchor_BS">BS08</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS01</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf02">RF02</h3>
+<details>
+
+<summary> O aplicativo filtra os eventos por data e por horário. </summary>
+
+<center>
+
+Tabela 3 - RF02
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF02</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-2">Cenário 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF02.gif" height="500" width="250"> <br>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 1 - Feature 1</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us04">História de Usuário US04</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS02</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q03</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf03">RF03</h3>
+<details>
+
+<summary> O aplicativo filtra os eventos por idade mínima de entrada. </summary>
+
+<center>
+
+Tabela 4 - RF03
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF03</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3">Cenário 03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF03.gif" height="500" width="250"> <br>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 1 - Feature 2</a>  <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS03</a> e <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q02</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf04">RF04</h3>
+<details>
+
+<summary> O aplicativo permite realizar a compra do ingresso. </summary>
+
+<center>
+
+Tabela 5 - RF04
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF04</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao">Cartão de Especificação 3</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><img src="../../assets/rastreabilidade/RF04.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us07">História de Usuário US07</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS04</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS03</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS10</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf05">RF05</h3>
+<details>
+
+<summary> O aplicativo permite o cadastro e o login do usuário. </summary>
+
+<center>
+
+Tabela 6 - RF05
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF05</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us09">História de Usuário US09</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us25">História de Usuário US25</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us28">História de Usuário US28</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us27">História de Usuário US27</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 3 - Feature 6</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF05.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS05</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS01, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS02</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf06">RF06</h3>
+<details>
+
+<summary> O aplicativo permite excluir cadastro. </summary>
+
+<center>
+
+Tabela 7 - RF06
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF06</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF06.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito:  <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS06</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf07">RF07</h3>
+<details>
+
+<summary>O aplicativo permite cadastrar métodos de pagamento. </summary>
+
+<center>
+
+Tabela 8 - RF07
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF07</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 2 - Feature 4</a> <br> <font><figure markdown><img src="../assets/rastreabilidade/RF07.jpg" alt="">{: style=&quot;height:500px;width:250px&quot;}</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS07</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q08, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS15</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf08">RF08</h3>
+<details>
+
+<summary>O aplicativo permite cancelar compras.</summary>
+
+<center>
+
+Tabela 9 - RF08
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF08</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us27">História de Usuário US20</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 5 - Feature 11</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS08</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q09</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_IS">OBS12</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf09">RF09</h3>
+<details>
+
+<summary>O aplicativo possui um mecanismo de busca.</summary>
+
+<center>
+
+Tabela 10 - RF09
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF09</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags">Léxico 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1">Cenário 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.2-BilheteriaDigital/modelagem/cenarios/#cenario-2">Cenário 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3">Cenário 03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4">Cenário 04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF09.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS09</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q01</a>, <a href="../../elicitacao/tecnicas/brainstorm/#anchor_BS">BS04</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS02</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf10">RF10</h3>
+<details>
+
+<summary>O aplicativo filtra eventos por categorias.</summary>
+
+<center>
+
+Tabela 11 - RF10
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF10</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1">Cenário 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF10.gif" height="500" width="250"> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us02">História de Usuário US02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 1 - Feature 2</a>  <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q04</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf11">RF11</h3>
+<details>
+
+<summary>O aplicativo dá sugestões de eventos com base no histórico de buscas do usuário.</summary>
+
+<center>
+
+Tabela 12 - RF11
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF11</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA06</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos">Léxico 02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC02</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q05</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS11</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf12">RF12</h3>
+<details>
+
+<summary>O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a busca.</summary>
+
+<center>
+
+Tabela 13 - RF12
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF12</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar DES01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags">Léxico 03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q06</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf13">RF13</h3>
+<details>
+
+<summary>O aplicativo notifica usuário sobre eventos, quando permitido.</summary>
+
+<center>
+
+Tabela 14 - RF13
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF13</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA06</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar DES01 e DES05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">Requisitos NFR02 e NFR03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON01 e CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos">Léxico 04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us22">Histórias de Usuário US22 e US23</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 2 - Feature 3</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos">Léxico 02</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/questionario/#anchor_Q">Q07</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS06</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf14">RF14</h3>
+<details>
+
+<summary>O usuário é capaz de filtrar eventos.</summary>
+
+<center>
+
+Tabela 15 - RF14
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF14</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao">Cartão de Especificação 5</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF14P.gif" height="500" width="250"> <br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF14.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l03-evento-com-tags">Léxico 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1">Cenário 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.2-BilheteriaDigital/modelagem/cenarios/#cenario-2">Cenário 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-3">Cenário 03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4">Cenário 04</a> <br> Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS05</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf15">RF15</h3>
+<details>
+
+<summary>O usuário pode salvar os dados do cartão no app.</summary>
+
+<center>
+
+Tabela 16 - RF15
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF15</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF15.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us17">Histórias de Usuário US17</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 3 - Feature 6</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS07</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf16">RF16</h3>
+<details>
+
+<summary>O usuário pode fornecer sua localização.</summary>
+
+<center>
+
+Tabela 17 - RF16
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF16</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-4">Cenário 04</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS09</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf17">RF17</h3>
+<details>
+
+<summary>O usuário pode acessar o calendário de eventos.</summary>
+
+<center>
+
+Tabela 18 - RF17
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF17</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar DES01</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a> <br>  <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 1 - Feature 1</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RF17P.gif" height="500" width="250"><br><a href="https://play.google.com/store/apps/details?id=com.bilheteriadigital.mobile&hl=pt_BR&gl=US">Aplicativo Bilheteria Digital:</a><br><font><figure markdown><img src="../../assets/rastreabilidade/RF17.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-2">Cenário 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us04">Histórias de Usuário US04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS10</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf18">RF18</h3>
+<details>
+
+<summary>O usuário pode responder a pesquisa de perfil sobre seus gostos.</summary>
+
+<center>
+
+Tabela 19 - RF18
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF18</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos">Léxico 02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#requisitos-nao-funcionais">NFR08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 2 - Feature 4</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us21">Histórias de Usuário US21</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS12</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf19">RF19</h3>
+<details>
+
+<summary>O usuário consegue acessar as informações do evento.</summary>
+
+<center>
+
+Tabela 20 - RF19
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF19</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l04-notificar-eventos">Léxico 04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#cartoes-de-especificacao">Cartão de Especificação 2</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us13">Histórias de Usuário US13</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF19.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">Histórias de Usuário US29</a> <br> Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS13</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf20">RF20</h3>
+<details>
+
+<summary>O usuário é capaz de acessar as atrações do evento.</summary>
+
+<center>
+
+Tabela 21 - RF20
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF20</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS14</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf21">RF21</h3>
+<details>
+
+<summary>O usuário possui acesso a pré-venda.</summary>
+
+<center>
+
+Tabela 22 - RF21
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF21</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS16</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf22">RF22</h3>
+<details>
+
+<summary>O usuário recebe a cópia do ingresso por e-mail.</summary>
+
+<center>
+
+Tabela 23 - RF22
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF22</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us18">Histórias de Usuário US18</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF22.jpg" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 4 - Feature 9</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us14">Histórias de Usuário US14</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS17</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf23">RF23</h3>
+<details>
+
+<summary>O usuário é capaz de conectar uma carteira digital.</summary>
+
+<center>
+
+Tabela 24 - RF23
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF23</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA06</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar DES01 e DES05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-5">Cenário 05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 2 - Feature 4</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS18</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf24">RF24</h3>
+<details>
+
+<summary>O usuário é capaz de mudar o idioma do app.</summary>
+
+<center>
+
+Tabela 25 - RF24
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF24</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA06</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar DES01 e DES05</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR Eficiência</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/#especializacao-dos-casos-de-uso">Casos de Uso UC03</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us31">História de Usuário US31</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l06-mudar-idioma">Léxico 06</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR Usabilidade</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#metodologia">Épico 3 - Feature 6</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisito: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS19</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf25">RF25</h3>
+<details>
+
+<summary>O usuário é capaz de aumentar a fonte.</summary>
+
+<center>
+
+Tabela 26 - RF25
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF25</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS20</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf26">RF26</h3>
+<details>
+
+<summary>O usuário é capaz de dar zoom.</summary>
+
+<center>
+
+Tabela 27 - RF26
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF26</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#usabilidade">Especificação Suplementar USA02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us30">História de Usuário US30</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS22</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf27">RF27</h3>
+<details>
+
+<summary>O usuário é capaz de acessar a assistente virtual.</summary>
+
+<center>
+
+Tabela 28 - RF27
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF27</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade">Especificação Suplementar SUP05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l05-usuario">Léxico 05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS23</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf28">RF28</h3>
+<details>
+
+<summary>O  usuário é capaz de compartilhar o evento.</summary>
+
+<center>
+
+Tabela 29 - RF28
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF28</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF28.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS03</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BS">BS24</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf29">RF29</h3>
+<details>
+
+<summary>O aplicativo permite escolher a quantidade de ingressos que o usuário deseja comprar.</summary>
+
+<center>
+
+Tabela 30 - RF29
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF29</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us15">História de Usuário US15</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF29.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca">Épico 4 - Feature 9</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS04</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf30">RF30</h3>
+<details>
+
+<summary>O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obesas ou com deficiência, caso as tenha.  </summary>
+
+<center>
+
+Tabela 31 - RF30
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF30</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca">Épico 4 - Feature 9</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao">Épico 5 - Feature 10</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS05</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf31">RF31</h3>
+<details>
+
+<summary>O aplicativo permite selecionar as poltronas especiais.</summary>
+
+<center>
+
+Tabela 32 - RF31
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF31</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us08">História de Usuário US08</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us29">História de Usuário US29</a> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca">Épico 4 - Feature 9</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-5-padronizacao">Épico 5 - Feature 10</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS06</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf32">RF32</h3>
+<details>
+
+<summary>Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.</summary>
+
+<center>
+
+Tabela 33 - RF32
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF32</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF32.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS07</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf33">RF33</h3>
+<details>
+
+<summary>Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.</summary>
+
+<center>
+
+Tabela 34 - RF33
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF33</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF3031.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS08</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf34">RF34</h3>
+<details>
+
+<summary>O aplicativo permite a doação por parte do usuário para fundações.</summary>
+
+<center>
+
+Tabela 35 - RF34
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF34</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF34.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS09</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf35">RF35</h3>
+<details>
+
+<summary>O aplicativo possui uma função para entrar em contato com o suporte.</summary>
+
+<center>
+
+Tabela 36 - RF35
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF35</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade">Especificação Suplementar SUPO5</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">Especificação Suplementar RAU02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><br> <font><figure markdown><img src="../../assets/rastreabilidade/RF35.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS11</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf36">RF36</h3>
+<details>
+
+<summary>O aplicativo permite ao usuário alterar seus dados.</summary>
+
+<center>
+
+Tabela 37 - RF36
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF36</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#confiabilidade">Especificação Suplementar CON06</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade">Especificação Suplementar SUP07</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br> <font><figure markdown><img src="../../assets/rastreabilidade/RF36.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS13</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rf37">RF37</h3>
+<details>
+
+<summary>O aplicativo possui uma função que auxilia na recuperação da conta do usuário.</summary>
+
+<center>
+
+Tabela 38 - RF37
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF37</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#suportabilidade">Especificação Suplementar SUP08</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><font><figure markdown><img src="../../assets/rastreabilidade/RF05.gif" height="500" width="250"></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBS">OBS14</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/G16C'>Gabriel Campello</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf01">RNF01</h3>
+<details>
+
+<summary>O app deve encriptar as informações do usuário.</summary>
+
+<center>
+
+Tabela 39 - RNF01
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF01</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - CON03, CON04, CON07, CON08 e SUP08</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar">Épico 4 - Feature 8</a> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US11 e US24</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q10</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS31</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf02">RNF02</h3>
+<details>
+
+<summary>O app deve fornecer eventos de forma personalizada, levando em consideração a atividade e preferências do usuário.</summary>
+
+<center>
+
+Tabela 40 - RNF02
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RF02</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, CON02, DES01 e DES05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td><a href="https://www.figma.com/proto/CSsRpoXBR0BWWojN1ZrDn0/Protótipo-de-Alta-FIdelidade?page-id=0%3A1&amp;type=design&amp;node-id=107-1118&amp;viewport=29390%2C34193%2C3.02&amp;scaling=min-zoom&amp;starting-point-node-id=107%3A1118&amp;show-proto-sidebar=1">Protótipo de Alta Fidelidade:</a><br><img src="../../assets/rastreabilidade/RNF02.gif" height="500" width="250"><br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l02-sugestoes-de-eventos">Léxico 02</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar">Épico 5 - Features 4 e 10</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-01-usabilidade">NFR - Usabilidade</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US21 e US12</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS10</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q11</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS35</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS36</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS22</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf03">RNF03</h3>
+<details>
+
+<summary>O app deve disponibilizar todas as informações do evento em uma página.</summary>
+
+<center>
+
+Tabela 41 - RNF03
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF03</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01 ,CON02 e DES05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR - Eficiência</a><br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar">Épico 5 - Feature 10</a> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US13 e US29</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS11</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS25</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS26</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS27</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS28</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS29</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS30</a>, <a href="(../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS15</a>&gt;) e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS16</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf04">RNF04</h3>
+<details>
+
+<summary>A compra deve ser feita em no máximo 5 páginas.</summary>
+
+<center>
+
+Tabela 42 - RNF04
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF04</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, USA04, USA05, USA06 e DES04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR - Eficiência</a><br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS13</a>, <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS16</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q14</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS17</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS18</a> e <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS14</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf05">RNF05</h3>
+<details>
+
+<summary>O app deve permitir a resolução de problemas sem uma interação com um humano.</summary>
+
+<center>
+
+Tabela 43 - RNF05
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF05</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, USA04, USA06, CON01, CON02, CON05, CON08, CON09, DES03, DES04, DES05, RAU01 e RAU04 </a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS12</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q15</a>, <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q16</a>, <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS19</a>, <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS33</a> e <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS34</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf06">RNF06</h3>
+<details>
+
+<summary>O app deve fornecer uma experiência de login com apenas 2 cliques.</summary>
+
+<center>
+
+Tabela 44 - RNF06
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF06</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, USA02, USA03, USA04, USA06, CON01, CON02, CON05, DES02, DES03, DES04 e DES05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-4-seguranca">Épicos 3 e 5 - Features 6 e 11</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US27 e US25</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/introspeccao/#anchor_IS">IS15</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf07">RNF07</h3>
+<details>
+
+<summary>O app não deve ter tempo de resposta superior a 200 ms.</summary>
+
+<center>
+
+Tabela 45 - RNF07
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF07</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - DES02</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/nfrframework/#nfr-02-eficiencia">NFR - Eficiência</a> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q12</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf08">RNF08</h3>
+<details>
+
+<summary>Os eventos devem estar organizados no banco de dados de acordo com suas categorias para facilitar a filtragem.</summary>
+
+<center>
+
+Tabela 46 - RNF08
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF08</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, DES01 e DES05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/useCase/">Casos de Uso - UC01</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/cenarios/#cenario-1">Cenário 01, 02, 03 e 04</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/lexicos/#l01-filtrar-eventos">Léxico 01 e 03</a> <br> <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar">Épicos 1 e 5 - Features 1, 2 e 10</a> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US01, US02, US04, US12, US13</a> <br> Requisitos:  <a href="../../elicitacao/tecnicas/questionario/#anchor_QNF">Q13</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf09">RNF09</h3>
+<details>
+
+<summary>O app deve mostrar as informações de compras do usuário em uma única tela.</summary>
+
+<center>
+
+Tabela 47 - RNF09
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF09</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, CON01, CON02, CON06, CON07, DES05</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/#epico-1-categorizar">Épico 5 - Feature 10</a> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/historia-de-usuario/#us12">História de Usuário - US019</a> <br> Requisitos: <a href="../../elicitacao/tecnicas/brainstorming/#anchor_BSNF">BS32</a> e <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS21</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h3 id="rnf10">RNF10</h3>
+<details>
+
+<summary>O app deve permitir o acesso às informações do usuário em até 3 cliques.</summary>
+
+<center>
+
+Tabela 48 - RNF10
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/elicitacao/requisitos_elicitados/#requisitos-funcionais">RNF10</a></th>
+<th>Desenvolvimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tipos de Elo</td>
+<td>Artefatos Relacionados</td>
+</tr>
+<tr>
+<td style="text-align:center">Satisfação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/especificacao-suplementar/#desempenho">Especificação Suplementar - USA01, USA04, USA06, CON02, CON08, DES04, </a></td>
+</tr>
+<tr>
+<td style="text-align:center">Recurso</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Representação</td>
+<td> <br></td>
+</tr>
+<tr>
+<td style="text-align:center">Alocado</td>
+<td>-</td>
+</tr>
+<tr>
+<td style="text-align:center">Agregação</td>
+<td>Requisitos: <a href="../../elicitacao/tecnicas/observacao/#anchor_OBSNF">OBS20</a></td>
+</tr>
+</tbody>
+</table>
+
+<font>Fonte: <a href='https://github.com/arthurmlv'>Arthur de Melo</a> e <a href='https://github.com/RafaelCLG0'>Rafael Ferreira</a>.</font>
+
+</center>
+
+</details>
+
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="anchor_1" href="#REF1">1.</a> SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 25 de jun de 2023.</p>
+<p><a id="anchor_2" href="#REF2">2.</a> TORANZO, M.; CASTRO, J; MELLO, E. Uma proposta para melhorar o rastreamento de requisitos. PUC-Rio: Workshop em Engenharia de Requisitos, Rio de Janeiro, 2002. Disponível em: http://wer.inf.puc-rio.br/WERpapers/artigos/artigos_WER02/toranzo.pdf. Acesso em: 25 de jun de 2023.</p>
+</blockquote>
+<h2 id="historico-de-vesoes">Histórico de Vesões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>25/06/2023</td>
+<td>Criação da documentação e Requisitos Funcionais.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>25/06/2023</td>
+<td>Requisitos Não-Funcionais</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>25/06/2023</td>
+<td>Adição dos Requisitos Implementados</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>28/06/2023</td>
+<td>Adição das imagens</td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.3.1</code></td>
+<td>28/06/2023</td>
+<td>Redimensionamento das imagens</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.3.2</code></td>
+<td>29/06/2023</td>
+<td>Melhora na visibilidade dos elos</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/nando3d3">Sidney Fernando</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>01/07/2023</td>
+<td>Ajustes dos não-funcionais.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.5</code></td>
+<td>05/07/2023</td>
+<td>Adição GIFS Representação e Protótipo de Alta</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

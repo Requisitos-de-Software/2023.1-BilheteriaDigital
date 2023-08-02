@@ -1,0 +1,3241 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../firstThingsfirst/">
+      
+      
+        <link rel="next" href="../../requisitos_elicitados/">
+      
+      <link rel="icon" href="../../../assets/bilheteria.png">
+      <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
+    
+    
+      
+        <title>Three Level Scale - Bilheteria Digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.eebd395e.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#three-level-scale" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Bilheteria Digital" class="md-header__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bilheteria Digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Three Level Scale
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Escuro"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Escuro" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Claro"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Claro" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Bilheteria Digital" class="md-nav__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    Bilheteria Digital
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao1/" class="md-nav__link">
+        Apresentação 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao2/" class="md-nav__link">
+        Apresentação 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao3/" class="md-nav__link">
+        Apresentação 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao4/" class="md-nav__link">
+        Apresentação 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao5/" class="md-nav__link">
+        Apresentação 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao6/" class="md-nav__link">
+        Apresentação 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao7/" class="md-nav__link">
+        Apresentação 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao8/" class="md-nav__link">
+        Apresentação Final
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_01/" class="md-nav__link">
+        Ata 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_02/" class="md-nav__link">
+        Ata 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_03/" class="md-nav__link">
+        Ata 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_04/" class="md-nav__link">
+        Ata 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_05/" class="md-nav__link">
+        Ata 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_06/" class="md-nav__link">
+        Ata 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_07/" class="md-nav__link">
+        Ata 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_08/" class="md-nav__link">
+        Ata 8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_09/" class="md-nav__link">
+        Ata 9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_10/" class="md-nav__link">
+        Ata 10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_11/" class="md-nav__link">
+        Ata 11
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_12/" class="md-nav__link">
+        Ata 12
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        Aplicativo escolhido
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        Cronograma
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfil_de_usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          Técnicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Técnicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tecnicas/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tecnicas/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tecnicas/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tecnicas/observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firstThingsfirst/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Three Level Scale
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Three Level Scale
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#participantes" class="md-nav__link">
+    Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-priorizados" class="md-nav__link">
+    Requisitos priorizados
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos priorizados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionais" class="md-nav__link">
+    Funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nao-funcionais" class="md-nav__link">
+    Não Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../requisitos_elicitados/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/useCase/" class="md-nav__link">
+        Casos de uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+          Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_5">
+          <span class="md-nav__icon md-icon"></span>
+          Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/agil/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/agil/backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/agil/historia-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+          Grupo + 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo + 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_1" id="__nav_8_1_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega1/rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2" id="__nav_8_1_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/planejamento-verificacao-e2-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_2" id="__nav_8_1_2_2_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/perfilusuario2/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/personas2/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/brainstorm2/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/observacao2/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/storytelling2/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_3" id="__nav_8_1_2_3_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/threelvlscale2/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/moscow2/" class="md-nav__link">
+        Moscow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/inorout2/" class="md-nav__link">
+        In or Out
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_3" id="__nav_8_1_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/planejamento-verificacao-e3-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_4" id="__nav_8_1_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/verificacao-backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/verificacao-historias-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          Grupo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_1" id="__nav_8_2_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega1/planejamento-verificacao-e1-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega1/verificacao-rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_2" id="__nav_8_2_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-perfil-de-usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-brainstorming/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-%24100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-ftf/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-three-level-scale/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_3" id="__nav_8_2_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/planejamento-verificacao-e3-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/verificacao-caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_4" id="__nav_8_2_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/planejamento-verificacao-e4-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/verificacao-pdbacklog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/verificacao-historia-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/prototipo/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/validacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/matriz-geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        Pós-Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Entrega Final
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega Final
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/app-selecionado/" class="md-nav__link">
+        Aplicativo Selecionado
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/artefatos-criados/" class="md-nav__link">
+        Artefatos Criados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/execucao-projeto/" class="md-nav__link">
+        Execução do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/ferramentas-utilizadas/" class="md-nav__link">
+        Ferramentas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/resultados-alcancados/" class="md-nav__link">
+        Resultados Alcançados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/tabela-apresentacoes/" class="md-nav__link">
+        Tabela de Apresentações
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/tecnicas-utilizadas/" class="md-nav__link">
+        Técnicas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/planejamento-recursos-entregas/" class="md-nav__link">
+        Planejamento dos Recursos e das Entregas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/verificacao/" class="md-nav__link">
+        Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/validacao/" class="md-nav__link">
+        Validação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/consideracoes_finais/" class="md-nav__link">
+        Considerações Finais
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#participantes" class="md-nav__link">
+    Participantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-priorizados" class="md-nav__link">
+    Requisitos priorizados
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos priorizados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionais" class="md-nav__link">
+    Funcionais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nao-funcionais" class="md-nav__link">
+    Não Funcionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="three-level-scale">Three Level Scale</h1>
+<h2 id="introducao">Introdução</h2>
+<p>A técnica de priorização <em>Three Level Scale</em><a id="FTF1" href="#FTF1Ref"><sup>1</sup></a> envolve a categorização dos requisitos em três categorias de acordo com sua prioridade relativa: alta, média e baixa prioridade. Nesse projeto, essa técnica foi utilizada por um desenvolvedor e um usuário, com o primeiro servindo de mediador e guiando o segundo durante o processo.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A utilidade do método depende de que as partes interessadas concordem sobre o que cada nível de prioridade da escala signifique, sendo assim, levamos em conta a urgência e importância de cada requisito para formar sua prioridade. Logo, as três categorias ficaram da seguinte forma:</p>
+<ul>
+<li>Alta prioridade: requisitos importantes e urgentes, devem estar implementados na release mais próxima.</li>
+<li>Média prioridade: requisitos importantes, mas não urgentes, logo podem esperar uma release mais distante.</li>
+<li>Baixa prioridade: requisitos nem importantes, nem urgentes, sua implementação pode demorar muito tempo.</li>
+</ul>
+<p>Não há um ranqueamento numérico dos requisitos, mas sim uma classificação em grupos de prioridade. Embora o método não aborde explicitamente as dependências entre requisitos, é importante considerá-las durante a avaliação e atribuição de prioridades. As dependências podem influenciar a importância e o impacto dos requisitos. É recomendado levar em conta as dependências ao avaliar os requisitos e tomar decisões informadas sobre a priorização.</p>
+<h2 id="participantes">Participantes</h2>
+<p>A usuária da Bilheteria Digital Ana Luiza foi convidada para participar do presente método de priorização, informada dos fins de pesquisa deste e concordou com o uso das informações no projeto. Na data de 30/04/2023, das 9h às 9:30, foi realizada uma <a href="https://youtu.be/ZxptAgfMf6c">reunião online</a> entre a usuária e o desenvolvedor <a href="https://github.com/dougAlvs">Douglas Alves</a>, na qual toda a dinâmica do Three Level Scale foi explicada e a usuária categorizou os requisitos de acordo com sua visão. As tabelas 1 e 2 apresentam os resultados dessa priorização.</p>
+<h2 id="requisitos-priorizados">Requisitos priorizados</h2>
+<p>Legenda das tabelas: </p>
+<ul>
+<li>RFx: Requisito Funcional nºx</li>
+<li>RNFx: Requisito Não-Funcional nºx</li>
+<li>OBSx: Requisito nºx elicitado pela observação.</li>
+<li>ISx: Requisito nºx elicitado pela introspecção.</li>
+<li>BSx: Requisito nºx elicitado pelo brainstorm.</li>
+</ul>
+<h3 id="funcionais">Funcionais</h3>
+<p><font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais.</p></font></p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Descrição</th>
+<th>ID</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01</td>
+<td>O usuário deve poder realizar cadastro</td>
+<td>BS01/IS05</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>O usuário deve poder realizar login</td>
+<td>BS02/IS05</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O usuário deve poder comprar ingressos dentro do app</td>
+<td>BS03/IS04/OBS10</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF04</td>
+<td>O usuário deve poder buscar eventos</td>
+<td>BS04/IS09/OBS02/Q01</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF05</td>
+<td>O usuário deve ser capaz de filtrar eventos</td>
+<td>BS05</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>O usuário deve acessar as notificações sobre os eventos</td>
+<td>BS06</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>O usuário deve salvar os dados do cartão no app</td>
+<td>BS07</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>O usuário deve poder filtrar as cidades que desejar</td>
+<td>BS08/IS01/OBS01</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>O usuário deve fornecer sua localização</td>
+<td>BS09</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>O usuário deve poder acessar o calendário de eventos</td>
+<td>BS10</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>O usuário deve poder acessar os eventos a gostos de acordo com o perfil do usuário</td>
+<td>BS11</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>O usuário deve poder responder a pesquisa de perfil sobre seus gostos</td>
+<td>BS12</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>O usuário deve ser capaz de acessar as informações do evento</td>
+<td>BS13</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>O usuário deve ser capaz de acessar as atrações do evento</td>
+<td>BS14</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>O usuário deve poder realizar pagamento com de várias formas</td>
+<td>BS15/IS07/Q08</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>O usuário deve ter acesso a pré-venda</td>
+<td>BS16</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>O usuário deve receber a cópia do ingresso por e-mail</td>
+<td>BS17</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>O usuário deve ser capaz de conectar uma carteira digital</td>
+<td>BS18</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>O usuário deve ser capaz de mudar o idioma do app</td>
+<td>BS19</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>O usuário deve ser capaz de aumentar a fonte</td>
+<td>BS21</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>O usuário deve ser capaz de dar zoom</td>
+<td>BS22</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>O usuário deve ser capaz de acessar a assistente virtual</td>
+<td>BS23</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>O usuário deve ser capaz de compartilhar o evento</td>
+<td>BS24/OBS03</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>O aplicativo filtra os eventos por data e por horário.</td>
+<td>IS02/Q03</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>O aplicativo filtra os eventos por idade mínima de entrada.</td>
+<td>IS03/Q02</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>O aplicativo permite excluir cadastro.</td>
+<td>IS06</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>O aplicativo permite cancelar compras.</td>
+<td>IS08/OBS12/Q09</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>O aplicativo permite escolher a quantidade de ingressos que o usuário deseja comprar.</td>
+<td>OBS04</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>O aplicativo permite selecionar as poltronas para pessoas idosas, crianças, obesas ou com deficiência, caso as tenha.</td>
+<td>OBS05</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>O aplicativo permite selecionar as poltronas especiais.</td>
+<td>OBS06</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>Na seleção de ingresso, o aplicativo permite adicionar um cupom de desconto.</td>
+<td>OBS07</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Caso o local disponibilize, o aplicativo disponibiliza uma visão prévia da poltrona.</td>
+<td>OBS08</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>O aplicativo permite a doação por parte do usuário para fundações.</td>
+<td>OBS09</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>O aplicativo possui uma função para entrar em contato com o suporte.</td>
+<td>OBS11</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>O aplicativo permite ao usuário alterar seus dados.</td>
+<td>OBS13</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>O aplicativo possui uma função que auxilia na recuperação da conta do usuário.</td>
+<td>OBS14</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF37</td>
+<td>O aplicativo filtra eventos por categorias.</td>
+<td>Q04</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF38</td>
+<td>O aplicativo da sugestões de eventos com base no histórico de buscas do usuário.</td>
+<td>Q05</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RF39</td>
+<td>O aplicativo tem palavras-chave ou tags associadas a eventos para facilitar a busca.</td>
+<td>Q06</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RF40</td>
+<td>O aplicativo notifica usuário sobre eventos, quando permitido</td>
+<td>Q07</td>
+<td>Media</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<h3 id="nao-funcionais">Não Funcionais</h3>
+<p><font size="3"><p style="text-align: center">Tabela 2: Requisitos Não Funcionais.</p></font></p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Descrição</th>
+<th>ID</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF01</td>
+<td>O app deve exibir a duração do evento ao lado da informação do local.</td>
+<td>BS25</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>O app deve atualizar a quantidade de assentos disponíveis em tempo real.</td>
+<td>BS26</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>O app deve exibir a capacidade restante do evento atualizada em tempo real.</td>
+<td>BS27</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>O deve exibir a faixa etária do evento de forma destacada.</td>
+<td>BS28</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>O app exibir a data do evento destacada próxima ao nome do evento.</td>
+<td>BS29</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF06</td>
+<td>O app deve exibir a porcentagem de ingressos comprados atualizada em tempo real.</td>
+<td>BS30</td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td>RNF07</td>
+<td>O app deve fornecer segurança na compra do usuário.</td>
+<td>BS31</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF08</td>
+<td>O usuário deve ser capaz de visualizar seus ingressos com apenas 2 cliques.</td>
+<td>BS32</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF09</td>
+<td>O usuário deve ser capaz de acessar um tópico de ajuda com ao menos 3 cliques.</td>
+<td>BS33/IS12/OBS19/Q15</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>O app deve exibir um e-mail para contato no footer.</td>
+<td>BS34</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF11</td>
+<td>O aplicativo deve disponibilizar em sua interface eventos de acordo com as preferências do usuário.</td>
+<td>BS35/Q11</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RNF12</td>
+<td>O app deve armazenar a localização do usuário e se adaptar de acordo com tal.</td>
+<td>BS36</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RNF13</td>
+<td>O sistema deve alocar os eventos de acordo com a região selecionada a fim de facilitar a busca e a filtragem.</td>
+<td>IS10/OBS15</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF14</td>
+<td>Deve possuir, na página do evento, uma descrição sobre o local, a qual possui data, horário, valor e informações sobre o evento que pode ser acessada em, no máximo, 3 cliques.</td>
+<td>IS11/OBS16</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF15</td>
+<td>Deve dar um feedback sobre o início/fim de venda de ingressos para um dado evento em forma notificação, sendo essa acessível com 1 clique.</td>
+<td>IS13</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF16</td>
+<td>Deve oferecer atendimento especial para idosos/deficientes durante o processo de compra de ingressos.</td>
+<td>IS14</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF17</td>
+<td>Deve possuir uma tela para cadastro e login.</td>
+<td>IS15</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF18</td>
+<td>Deve possuir uma área para os usuários reportarem erros de funcionamento do aplicativo.</td>
+<td>IS16</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF19</td>
+<td>Deve adaptar a tela de seleção de poltronas de acordo com as poltronas já escolhidas.</td>
+<td>OBS17</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF20</td>
+<td>Deve apresentar ao usuário o feedback da confirmação de suas ações.</td>
+<td>OBS18</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF21</td>
+<td>Deve apresentar uma tela com os dados da conta com ao menos uma etapa de segurança.</td>
+<td>OBS20</td>
+<td>Media</td>
+</tr>
+<tr>
+<td>RNF22</td>
+<td>Deve apresentar uma página com o histórico de pedidos do usuário em dois cliques.</td>
+<td>OBS21</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF23</td>
+<td>Deve apresentar uma tela com as regiões para filtrar os eventos.</td>
+<td>OBS22</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF24</td>
+<td>O aplicativo deve proteger os dados de cadastro e compra dos usuários.</td>
+<td>Q10</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF25</td>
+<td>As notificações do aplicativo devem ser fornecidas em tempo hábil.</td>
+<td>Q12</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF26</td>
+<td>O sistema deve ser capaz de indexar e pesquisar palavras-chave ou tags de eventos a fim de oferecer uma resposta rápida aos usuários durante a busca.</td>
+<td>Q13</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF27</td>
+<td>O aplicativo deverá permitir a compra de ingressos de maneira simples (em menos de três telas)</td>
+<td>Q14</td>
+<td>Alta</td>
+</tr>
+<tr>
+<td>RNF28</td>
+<td>O sistema deve alertar imediatamente ao usuário problemas ou erros relacionados a compra de ingressos.</td>
+<td>Q15</td>
+<td>Alta</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="FTF1Ref" href="#FTF1">1.</a> FIRST things first: Setting requirement priorities. In: WIEGERS, Karl E.; BEATTY, Joy. Software Requirements. 3. ed. [S. l.]: Microsoft Press, 2013. cap. 16, p. 313-329. ISBN 0735679665.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>30/04/2023</td>
+<td>Criação da página</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>01/07/2023</td>
+<td>Ajustes dos não-funcionais.</td>
+<td><a href="https://github.com/arthurmlv">Arthur de Melo</a></td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>01/07/2023</td>
+<td>Retrabalho de acordo com a Verificação</td>
+<td><a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

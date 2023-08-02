@@ -1,0 +1,4391 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../backlog/">
+      
+      
+        <link rel="next" href="../../../verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/">
+      
+      <link rel="icon" href="../../../assets/bilheteria.png">
+      <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
+    
+    
+      
+        <title>Histórias de Usuário - Bilheteria Digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.eebd395e.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introducao" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Bilheteria Digital" class="md-header__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Bilheteria Digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de Usuário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="claro" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Escuro"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Escuro" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Claro"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Claro" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8V4Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Bilheteria Digital" class="md-nav__button md-logo" aria-label="Bilheteria Digital" data-md-component="logo">
+      
+  <img src="../../../assets/bilheteria.png" alt="logo">
+
+    </a>
+    Bilheteria Digital
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.1-BilheteriaDigital
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Apresentação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao1/" class="md-nav__link">
+        Apresentação 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao2/" class="md-nav__link">
+        Apresentação 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao3/" class="md-nav__link">
+        Apresentação 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao4/" class="md-nav__link">
+        Apresentação 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao5/" class="md-nav__link">
+        Apresentação 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao6/" class="md-nav__link">
+        Apresentação 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao7/" class="md-nav__link">
+        Apresentação 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacao8/" class="md-nav__link">
+        Apresentação Final
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_01/" class="md-nav__link">
+        Ata 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_02/" class="md-nav__link">
+        Ata 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_03/" class="md-nav__link">
+        Ata 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_04/" class="md-nav__link">
+        Ata 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_05/" class="md-nav__link">
+        Ata 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_06/" class="md-nav__link">
+        Ata 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_07/" class="md-nav__link">
+        Ata 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_08/" class="md-nav__link">
+        Ata 8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_09/" class="md-nav__link">
+        Ata 9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_10/" class="md-nav__link">
+        Ata 10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_11/" class="md-nav__link">
+        Ata 11
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/Requisitos_Ata_12/" class="md-nav__link">
+        Ata 12
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        Aplicativo escolhido
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        Cronograma
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil_de_usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          Técnicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Técnicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/firstThingsfirst/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/threeLvlScale/" class="md-nav__link">
+        Three Level Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_elicitados/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../useCase/" class="md-nav__link">
+        Casos de uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+          Ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7_5">
+          <span class="md-nav__icon md-icon"></span>
+          Ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Histórias de Usuário
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Histórias de Usuário
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    Histórias de Usuário
+  </a>
+  
+    <nav class="md-nav" aria-label="Histórias de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-classificar-eventos-por-local" class="md-nav__link">
+    US01 - Classificar eventos por local
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-classificar-eventos-por-modalidade" class="md-nav__link">
+    US02 - Classificar eventos por modalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-apresentar-valor-total-dos-ingressos-selecionados" class="md-nav__link">
+    US03 - Apresentar valor total dos ingressos selecionados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-classificar-eventos-por-data" class="md-nav__link">
+    US04 - Classificar eventos por data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-tabela-7-visualizacao-de-eventos" class="md-nav__link">
+    US05 - Tabela 7 - Visualização de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-contagem-regressiva-para-realizacao-de-eventos" class="md-nav__link">
+    US06 - Contagem regressiva para realização de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-venda-de-ingressos-de-diferentes-categorias" class="md-nav__link">
+    US07 - Venda de ingressos de diferentes categorias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08-classificacao-dos-tipos-de-assentos" class="md-nav__link">
+    US08 - Classificação dos tipos de assentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-exigencia-de-dados-necessarios-para-cadastro-e-pagamento" class="md-nav__link">
+    US09 - Exigência de dados necessários para cadastro e pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10-opcao-de-salvar-dados-de-pagamento" class="md-nav__link">
+    US10 - Opção de salvar dados de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-privacidade-dos-dados-de-pagamento" class="md-nav__link">
+    US11 - Privacidade dos dados de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-lista-de-eventos-disponiveis" class="md-nav__link">
+    US12 - Lista de eventos disponíveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13-pagina-de-descricao-de-eventos" class="md-nav__link">
+    US13 - Página de descrição de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-lista-de-confirmacao-de-pagamento" class="md-nav__link">
+    US14 - Lista de confirmação de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-sem-limite-de-compra-de-ingresso" class="md-nav__link">
+    US15 - Sem limite de compra de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us16-opcao-de-transferencia-de-ingresso" class="md-nav__link">
+    US16 - Opção de transferência de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17-diferentes-opcoes-de-pagamento" class="md-nav__link">
+    US17 - Diferentes opções de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-envio-de-ingressos-por-e-mail" class="md-nav__link">
+    US18 - Envio de ingressos por e-mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19-aba-de-visualizacao-de-ingressos" class="md-nav__link">
+    US19 - Aba de visualização de ingressos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-opcao-de-cancelamento-de-compra" class="md-nav__link">
+    US20 - Opção de cancelamento de compra
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21-recomendacao-de-eventos-baseada-no-gosto-do-usuario" class="md-nav__link">
+    US21 - Recomendação de eventos baseada no gosto do usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-opcao-de-receber-notificacoes-do-aplicativo" class="md-nav__link">
+    US22 - Opção de receber notificações do aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23-exibicao-de-notificacoes-de-eventos-proximos" class="md-nav__link">
+    US23 - Exibição de notificações de eventos próximos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24-termos-de-privacidade-explicitos" class="md-nav__link">
+    US24 - Termos de privacidade explícitos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25-criacao-de-conta-e-login-com-e-mail" class="md-nav__link">
+    US25 - Criação de conta e login com e-mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26-autenticacao-de-dois-fatores" class="md-nav__link">
+    US26 - Autenticação de dois fatores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us27-cadastro-por-redes-sociais-validado-por-email" class="md-nav__link">
+    US27 - Cadastro por redes sociais validado por email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28-senha-segura-durante-o-cadastro" class="md-nav__link">
+    US28 - Senha segura durante o cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29-informacoes-sobre-inclusao-na-descricao-dos-eventos" class="md-nav__link">
+    US29 - Informações sobre inclusão na descrição dos eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us30-acessibilidade-visual" class="md-nav__link">
+    US30 - Acessibilidade visual
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us31-opcao-de-troca-de-idioma" class="md-nav__link">
+    US31 - Opção de troca de idioma
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us32-audiodescricao-para-eventos" class="md-nav__link">
+    US32 - Audiodescrição para eventos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+          Grupo + 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo + 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_1" id="__nav_8_1_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega1/rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2" id="__nav_8_1_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/planejamento-verificacao-e2-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_2" id="__nav_8_1_2_2_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/perfilusuario2/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/personas2/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/brainstorm2/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/observacao2/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/storytelling2/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_2_3" id="__nav_8_1_2_3_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_1_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/threelvlscale2/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/moscow2/" class="md-nav__link">
+        Moscow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega2/inorout2/" class="md-nav__link">
+        In or Out
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_3" id="__nav_8_1_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/planejamento-verificacao-e3-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_1_4" id="__nav_8_1_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_1_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/planejamento-verificacao-e4-grupo2/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4 do Grupo 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/verificacao-backlog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo2/entrega4/verificacao-historias-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          Grupo
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          Grupo
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_1" id="__nav_8_2_1_label" tabindex="0">
+          Entrega 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega1/planejamento-verificacao-e1-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega1/verificacao-rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_2" id="__nav_8_2_2_label" tabindex="0">
+          Entrega 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/planejamento-verificacao-e2-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-perfil-de-usuario/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-brainstorming/" class="md-nav__link">
+        Brainstorm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-%24100/" class="md-nav__link">
+        $100
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-ftf/" class="md-nav__link">
+        First Things First
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega2/verificacao-three-level-scale/" class="md-nav__link">
+        Three Level-Scale
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_3" id="__nav_8_2_3_label" tabindex="0">
+          Entrega 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/planejamento-verificacao-e3-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/verificacao-caso-de-uso/" class="md-nav__link">
+        Caso de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega3/especificacao-suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2_4" id="__nav_8_2_4_label" tabindex="0">
+          Entrega 4
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega 4
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/planejamento-verificacao-e4-grupo/" class="md-nav__link">
+        Planejamento da Verificação da Entrega 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/nfrframework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/verificacao-pdbacklog/" class="md-nav__link">
+        Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/grupo/entrega4/verificacao-historia-de-usuario/" class="md-nav__link">
+        Histórias de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/prototipo/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../validacao/validacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/matriz-geral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rastreabilidade/pos-rastreabilidade/" class="md-nav__link">
+        Pós-Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Entrega Final
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Entrega Final
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/app-selecionado/" class="md-nav__link">
+        Aplicativo Selecionado
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/artefatos-criados/" class="md-nav__link">
+        Artefatos Criados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/execucao-projeto/" class="md-nav__link">
+        Execução do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/ferramentas-utilizadas/" class="md-nav__link">
+        Ferramentas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/resultados-alcancados/" class="md-nav__link">
+        Resultados Alcançados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/tabela-apresentacoes/" class="md-nav__link">
+        Tabela de Apresentações
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/tecnicas-utilizadas/" class="md-nav__link">
+        Técnicas Utilizadas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/planejamento-recursos-entregas/" class="md-nav__link">
+        Planejamento dos Recursos e das Entregas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/verificacao/" class="md-nav__link">
+        Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/validacao/" class="md-nav__link">
+        Validação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/consideracoes_finais/" class="md-nav__link">
+        Considerações Finais
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    Histórias de Usuário
+  </a>
+  
+    <nav class="md-nav" aria-label="Histórias de Usuário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-classificar-eventos-por-local" class="md-nav__link">
+    US01 - Classificar eventos por local
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-classificar-eventos-por-modalidade" class="md-nav__link">
+    US02 - Classificar eventos por modalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-apresentar-valor-total-dos-ingressos-selecionados" class="md-nav__link">
+    US03 - Apresentar valor total dos ingressos selecionados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-classificar-eventos-por-data" class="md-nav__link">
+    US04 - Classificar eventos por data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-tabela-7-visualizacao-de-eventos" class="md-nav__link">
+    US05 - Tabela 7 - Visualização de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-contagem-regressiva-para-realizacao-de-eventos" class="md-nav__link">
+    US06 - Contagem regressiva para realização de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-venda-de-ingressos-de-diferentes-categorias" class="md-nav__link">
+    US07 - Venda de ingressos de diferentes categorias
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08-classificacao-dos-tipos-de-assentos" class="md-nav__link">
+    US08 - Classificação dos tipos de assentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-exigencia-de-dados-necessarios-para-cadastro-e-pagamento" class="md-nav__link">
+    US09 - Exigência de dados necessários para cadastro e pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10-opcao-de-salvar-dados-de-pagamento" class="md-nav__link">
+    US10 - Opção de salvar dados de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-privacidade-dos-dados-de-pagamento" class="md-nav__link">
+    US11 - Privacidade dos dados de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-lista-de-eventos-disponiveis" class="md-nav__link">
+    US12 - Lista de eventos disponíveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13-pagina-de-descricao-de-eventos" class="md-nav__link">
+    US13 - Página de descrição de eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-lista-de-confirmacao-de-pagamento" class="md-nav__link">
+    US14 - Lista de confirmação de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-sem-limite-de-compra-de-ingresso" class="md-nav__link">
+    US15 - Sem limite de compra de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us16-opcao-de-transferencia-de-ingresso" class="md-nav__link">
+    US16 - Opção de transferência de ingresso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17-diferentes-opcoes-de-pagamento" class="md-nav__link">
+    US17 - Diferentes opções de pagamento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-envio-de-ingressos-por-e-mail" class="md-nav__link">
+    US18 - Envio de ingressos por e-mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19-aba-de-visualizacao-de-ingressos" class="md-nav__link">
+    US19 - Aba de visualização de ingressos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-opcao-de-cancelamento-de-compra" class="md-nav__link">
+    US20 - Opção de cancelamento de compra
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21-recomendacao-de-eventos-baseada-no-gosto-do-usuario" class="md-nav__link">
+    US21 - Recomendação de eventos baseada no gosto do usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-opcao-de-receber-notificacoes-do-aplicativo" class="md-nav__link">
+    US22 - Opção de receber notificações do aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23-exibicao-de-notificacoes-de-eventos-proximos" class="md-nav__link">
+    US23 - Exibição de notificações de eventos próximos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24-termos-de-privacidade-explicitos" class="md-nav__link">
+    US24 - Termos de privacidade explícitos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25-criacao-de-conta-e-login-com-e-mail" class="md-nav__link">
+    US25 - Criação de conta e login com e-mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26-autenticacao-de-dois-fatores" class="md-nav__link">
+    US26 - Autenticação de dois fatores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us27-cadastro-por-redes-sociais-validado-por-email" class="md-nav__link">
+    US27 - Cadastro por redes sociais validado por email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28-senha-segura-durante-o-cadastro" class="md-nav__link">
+    US28 - Senha segura durante o cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29-informacoes-sobre-inclusao-na-descricao-dos-eventos" class="md-nav__link">
+    US29 - Informações sobre inclusão na descrição dos eventos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us30-acessibilidade-visual" class="md-nav__link">
+    US30 - Acessibilidade visual
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us31-opcao-de-troca-de-idioma" class="md-nav__link">
+    US31 - Opção de troca de idioma
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us32-audiodescricao-para-eventos" class="md-nav__link">
+    US32 - Audiodescrição para eventos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Histórias de Usuário</h1>
+
+<h2 id="introducao">Introdução</h2>
+<p>A história de usuário é uma técnica de elicitação de requisitos amplamente utilizada nas metodologias de desenvolvimento ágil e se refere a descrições concisas e de alto nível de uma funcionalidade desejada em termos do cliente. Além disso, as histórias de usuário devem possuir critérios de aceitação bem definidos para que seja possível verificar sua implementação.</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>Esse documento propõe trazer uma descrição detalhada e critérios de aceitação das histórias de usuário presentes no <a href="https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/modelagem/agil/backlog/">product backlog</a>.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a produção desse artefato , houve a participação de um usuário fazendo o papel de PO do projeto, que foi entrevistado via Discord às 20:45 do dia 31 de maio de 2023. Enquanto o PO comentava suas funcionalidades desejadas, os desenvolvedores/entrevistadores anotavam e faziam questionamentos acerca de suas falas. Depois de elicitadas as histórias de usuário, os critérios de aceitação foram definidos e elas foram priorizadas pelo PO em: Alta, Média ou Baixa prioridade (Basicamente foi utilizado o método Three Level Scale de priorização de requisitos). Os participantes são apresentados na tabela 1, a gravação da entrevista é apresentada no vídeo 1 e o modelo de card para as histórias de usuário é descrito na tabela 2.</p>
+<p><center></p>
+<p><strong>Tabela 1</strong> - Participantes da entrevista.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Participante</strong></th>
+<th style="text-align: left;"><strong>Função</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style = "color: orange"> Ana</span></td>
+<td style="text-align: left;">Product Owner</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/dougAlvs">Douglas Alves dos Santos</a></td>
+<td style="text-align: left;">Desenvolvedor</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+<td style="text-align: left;">Entrevistadora</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+<td style="text-align: left;">Desenvolvedor</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/RafaelCLG0">Rafael Ferreira</a></td>
+<td style="text-align: left;">Desenvolvedor</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: <a href="https://github.com/mathonaut">Matheus Henrique</a> e <a href="https://github.com/RafaelCLG0">Rafael Ferreira</a>.</em></p>
+<p></center></p>
+<p><center></p>
+<p><strong>Vídeo 1</strong> - Entrevista com o PO.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2o3diusGVC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p><a href="https://www.youtube.com/embed/2o3diusGVC8" target="blanket">Clique aqui</a></p>
+<p>Fonte: <a href="https://github.com/manuziny">Geovanna Maciel</a>.</p>
+<p></center></p>
+<p><center></p>
+<p><font size="3">Tabela 2: Modelo de tabela para histórias de usuário.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">USXX</td>
+<td style="text-align: left;">Titulo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> XXX, <em>desejo</em> XXX <em>para</em> XXX</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-XXX <br> -XXX <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta, Média ou Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+<h2 id="historias-de-usuario">Histórias de Usuário</h2>
+<p>As tabelas de 3 a 35 descrevem as histórias de usuário elicitadas (Representadas pelo ID USX, onde X é o número da história).</p>
+<h3 id="us01-classificar-eventos-por-local">US01 - Classificar eventos por local</h3>
+<details class="abstract">
+<summary>Tabela 3 - História de Usuário Classificar eventos por local</summary>
+<p><center></p>
+<p><font size="3">Tabela 3 - História de Usuário Classificar eventos por local.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US01</td>
+<td style="text-align: left;">Classificar eventos por local</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo classifique os eventos por local <em>para</em> facilitar a busca por eventos em uma determinada região.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">- Na página principal do aplicativo, deve haver uma seção ou um filtro claramente visível para selecionar o local dos eventos. <br> - Ao selecionar um local, a lista de eventos exibidos deve ser atualizada para mostrar apenas eventos nessa localidade. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us02-classificar-eventos-por-modalidade">US02 - Classificar eventos por modalidade</h3>
+<details class="abstract">
+<summary>Tabela 4 - História de Usuário Classificar eventos por modalidade</summary>
+<p><center></p>
+<p><font size="3">Tabela 4 - História de Usuário Classificar eventos por modalidade.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US02</td>
+<td style="text-align: left;">Classificar eventos por modalidade</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo classifique os eventos por modalidade <em>para</em> que eu possa encontrar eventos específicos, como espetáculos teatrais, shows de música ou palestras.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">- Na página principal do aplicativo, deve haver uma seção ou um menu claramente visível para selecionar a modalidade dos eventos. <br> - Ao selecionar uma modalidade, a lista de eventos exibidos deve ser atualizada para mostrar apenas eventos dessa modalidade. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us03-apresentar-valor-total-dos-ingressos-selecionados">US03 - Apresentar valor total dos ingressos selecionados</h3>
+<details class="abstract">
+<summary>Tabela 5 - História de Usuário Apresentar valor total dos ingressos selecionadose</summary>
+<p><center></p>
+<p><font size="3">Tabela 5 - História de Usuário Apresentar valor total dos ingressos selecionados.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US03</td>
+<td style="text-align: left;">Apresentar valor total dos ingressos selecionados</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo apresente o valor total dos ingressos selecionados antes de confirmar a compra <em>para</em> que eu possa revisar o custo total antes de prosseguir.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Na página de seleção de ingressos, deve haver um campo ou uma seção claramente visível que exiba o valor total acumulado dos ingressos selecionados. <br> -O valor total deve ser atualizado em tempo real à medida que o usuário adiciona ou remove ingressos do carrinho. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us04-classificar-eventos-por-data">US04 - Classificar eventos por data</h3>
+<details class="abstract">
+<summary>Tabela 6 - História de Usuário Classificar eventos por data</summary>
+<p><center></p>
+<p><font size="3">Tabela 6 - História de Usuário Classificar eventos por data.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US04</td>
+<td style="text-align: left;">Classificar eventos por data</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo classifique os eventos por data <em>para</em> que eu possa encontrar eventos que ocorrerão em datas específicas.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Na página principal do aplicativo, deve haver uma seção ou um filtro claramente visível para selecionar a data dos eventos. <br> -Ao selecionar uma data, a lista de eventos exibidos deve ser atualizada para mostrar apenas eventos nessa data. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us05-tabela-7-visualizacao-de-eventos">US05 - Tabela 7 - Visualização de eventos</h3>
+<details class="abstract">
+<summary>Tabela 7 - História de Usuário Histórico de visualização de eventos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 7 - História de Usuário Histórico de visualização de eventos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US05</td>
+<td style="text-align: left;">Histórico de visualização de eventos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo tenha um histórico de visualização de eventos <em>para</em> que eu possa revisitar eventos que me interessei anteriormente</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve registrar e armazenar os eventos que o usuário visualizou. <br> -Deve haver uma seção ou uma página claramente visível onde o usuário possa acessar seu histórico de visualização de eventos. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us06-contagem-regressiva-para-realizacao-de-eventos">US06 - Contagem regressiva para realização de eventos</h3>
+<details class="abstract">
+<summary>Tabela 8 - História de Usuário Contagem regressiva para realização de eventos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 8 - História de Usuário Contagem regressiva para realização de eventos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US06</td>
+<td style="text-align: left;">Contagem regressiva para realização de eventos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo exiba uma contagem regressiva para a realização de eventos <em>para</em> que eu possa acompanhar quanto tempo falta para um evento específico</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Na página de descrição de um evento, deve haver uma seção claramente visível que apresente a contagem regressiva para a realização desse evento. <br> -A contagem regressiva deve ser atualizada em tempo real e exibir os dias, horas, minutos e segundos restantes até o evento. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us07-venda-de-ingressos-de-diferentes-categorias">US07 - Venda de ingressos de diferentes categorias</h3>
+<details class="abstract">
+<summary>Tabela 9 - História de Usuário Venda de ingressos de diferentes categorias</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 9 - História de Usuário Venda de ingressos de diferentes categorias.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US07</td>
+<td style="text-align: left;">Venda de ingressos de diferentes categorias</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo venda ingressos de diferentes categorias <em>para</em> que eu possa escolher entre diferentes tipos de eventos.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Os eventos devem ser categorizados em diferentes categorias, como esportes, música, teatro, entre outros. <br> -O usuário deve poder selecionar uma categoria específica para visualizar os eventos relacionados a ela. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us08-classificacao-dos-tipos-de-assentos">US08 - Classificação dos tipos de assentos</h3>
+<details class="abstract">
+<summary>Tabela 10 - História de Usuário Classificação dos tipos de assentos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 10 - História de Usuário Classificação dos tipos de assentos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US08</td>
+<td style="text-align: left;">Classificação dos tipos de assentos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo classifique os diferentes tipos de assentos e forneça explicações sobre eles <em>para</em> que eu possa escolher um assento adequado às minhas preferências</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Na página de seleção de ingressos, deve haver informações claras e descritivas sobre os diferentes tipos de assentos disponíveis. <br> -Deve ser fornecida uma explicação sobre as características e benefícios de cada tipo de assento. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us09-exigencia-de-dados-necessarios-para-cadastro-e-pagamento">US09 - Exigência de dados necessários para cadastro e pagamento</h3>
+<details class="abstract">
+<summary>Tabela 11 - História de Usuário Exigência de dados necessários para cadastro e pagamento</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 11 - História de Usuário Exigência de dados necessários para cadastro e pagamento.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US09</td>
+<td style="text-align: left;">Exigência de dados necessários para cadastro e pagamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo solicite apenas os dados necessários para meu cadastro e pagamento <em>para</em> garantir uma experiência ágil e segura.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Durante o processo de cadastro, o aplicativo deve solicitar apenas as informações essenciais, como nome, e-mail, senha e informações de pagamento. <br> -O aplicativo não deve exigir informações desnecessárias ou excessivas dos usuários. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us10-opcao-de-salvar-dados-de-pagamento">US10 - Opção de salvar dados de pagamento</h3>
+<details class="abstract">
+<summary>Tabela 12 - História de Usuário Opção de salvar dados de pagamento</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 12 - História de Usuário Opção de salvar dados de pagamento.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US10</td>
+<td style="text-align: left;">Opção de salvar dados de pagamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter a opção de salvar meus dados de pagamento no aplicativo, <em>para</em> facilitar futuras compras</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Durante o processo de pagamento, o aplicativo deve fornecer uma opção para o usuário salvar seus dados de pagamento. <br> -O usuário deve poder optar por salvar ou não seus dados de pagamento, garantindo sua privacidade e segurança. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us11-privacidade-dos-dados-de-pagamento">US11 - Privacidade dos dados de pagamento</h3>
+<details class="abstract">
+<summary>Tabela 13 - História de Usuário Privacidade dos dados de pagamento</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 13 - História de Usuário Privacidade dos dados de pagamento.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US11</td>
+<td style="text-align: left;">Privacidade dos dados de pagamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo garanta a privacidade dos meus dados de pagamento <em>para</em> proteger minhas informações confidenciais.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve implementar medidas de segurança adequadas para proteger os dados de pagamento dos usuários. <br> -As informações de pagamento dos usuários devem ser armazenadas de forma segura e criptografada. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us12-lista-de-eventos-disponiveis">US12 - Lista de eventos disponíveis</h3>
+<details class="abstract">
+<summary>Tabela 14 - História de Usuário Lista de eventos disponíveis</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 14 - História de Usuário Lista de eventos disponíveis.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US12</td>
+<td style="text-align: left;">Lista de eventos disponíveis</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter uma tela com a lista de eventos disponíveis <em>para</em> que eu possa explorar todas as opções.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve ter uma página ou uma seção claramente visível que apresente a lista de eventos disponíveis. <br> -Os eventos devem ser exibidos de forma organizada e de fácil navegação. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us13-pagina-de-descricao-de-eventos">US13 - Página de descrição de eventos</h3>
+<details class="abstract">
+<summary>Tabela 15 - História de Usuário Página de descrição de eventos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 15 - História de Usuário Página de descrição de eventos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US13</td>
+<td style="text-align: left;">Página de descrição de eventos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> desejo ter uma página de descrição de eventos, onde possa encontrar informações como data, local e valor <em>para</em> que eu possa ver mais informações dos eventos que me interessam</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Ao clicar em um evento na lista, o aplicativo deve redirecionar o usuário para uma página detalhada com a descrição do evento. <br> -A página de descrição deve conter informações importantes, como data, local, valor dos ingressos e detalhes adicionais sobre o evento. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us14-lista-de-confirmacao-de-pagamento">US14 - Lista de confirmação de pagamento</h3>
+<details class="abstract">
+<summary>Tabela 16 - História de Usuário Lista de confirmação de pagamento</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 16 - História de Usuário Lista de confirmação de pagamento.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US14</td>
+<td style="text-align: left;">Lista de confirmação de pagamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter uma lista de confirmação de pagamento <em>para</em> para revisar os detalhes da minha compra antes de finalizá-la.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Após a seleção dos ingressos e o processo de pagamento, o aplicativo deve exibir uma lista com os detalhes da compra. <br> -A lista de confirmação de pagamento deve incluir informações como eventos selecionados, quantidade de ingressos, valor total e opções de pagamento <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us15-sem-limite-de-compra-de-ingresso">US15 - Sem limite de compra de ingresso</h3>
+<details class="abstract">
+<summary>Tabela 17 - História de Usuário Sem limite de compra de ingresso</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 17 - História de Usuário Sem limite de compra de ingresso.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US15</td>
+<td style="text-align: left;">Sem limite de compra de ingresso</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> poder comprar a quantidade desejada de ingressos para um evento <em>para</em> que eu possa levar quantas pessoas eu quiser junto comigo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">- O aplicativo deve permitir que o usuário selecione e adicione ao carrinho a quantidade desejada de ingressos para um evento. No entanto, o sistema deve aplicar o limite total de ingressos disponíveis para o evento.<br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us16-opcao-de-transferencia-de-ingresso">US16 - Opção de transferência de ingresso</h3>
+<details class="abstract">
+<summary>Tabela 18 - História de Usuário Opção de transferência de ingresso</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 18 - História de Usuário Opção de transferência de ingresso.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US16</td>
+<td style="text-align: left;">Opção de transferência de ingresso</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter a opção de transferir um ingresso adquirido para outra pessoa <em>para</em> o caso que eu não possa comparecer ao evento ou deseje levar acompanhantes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma opção de transferência de ingresso, que permita ao usuário enviar o ingresso para outro destinatário na tela de compra de ingresso e na tela de ingressos já comprados. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us17-diferentes-opcoes-de-pagamento">US17 - Diferentes opções de pagamento</h3>
+<details class="abstract">
+<summary>Tabela 19 - História de Usuário Diferentes opções de pagamento</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 19 - História de Usuário Diferentes opções de pagamento.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US17</td>
+<td style="text-align: left;">Diferentes opções de pagamento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter diferentes opções de pagamento disponíveis, como pix, crédito, débito, boleto e carteiras digitais <em>para</em> para escolher a forma de pagamento mais conveniente para mim</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve suportar várias opções de pagamento, como pix, cartões de crédito, cartões de débito, boleto bancário e carteiras digitais. <br> -Durante o processo de pagamento, o usuário deve poder selecionar a opção de pagamento desejada e inserir as informações necessárias. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us18-envio-de-ingressos-por-e-mail">US18 - Envio de ingressos por e-mail</h3>
+<details class="abstract">
+<summary>Tabela 20 - História de Usuário Envio de ingressos por e-mail</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 20 - História de Usuário Envio de ingressos por e-mail.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US18</td>
+<td style="text-align: left;">Envio de ingressos por e-mail</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo envie os ingressos comprados por email <em>para</em> que eu receba a confirmação da minha compra</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Após a conclusão do processo de compra, o aplicativo deve enviar automaticamente os ingressos comprados para o endereço de email fornecido pelo usuário. <br> -O email de confirmação deve incluir os detalhes da compra, como nome do evento, data, local e informações do ingresso. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us19-aba-de-visualizacao-de-ingressos">US19 - Aba de visualização de ingressos</h3>
+<details class="abstract">
+<summary>Tabela 21 - História de Usuário Aba de visualização de ingressos</summary>
+<p><center></p>
+<p><font size="3">Tabela 21 - História de Usuário Aba de visualização de ingressos.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US19</td>
+<td style="text-align: left;">Aba de visualização de ingressos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter uma aba no aplicativo onde eu possa visualizar todos os ingressos que comprei <em>para</em> verificar qualquer informação do ingresso que me interesse</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve ter uma seção ou uma aba claramente visível no seu perfil que exiba todos os ingressos adquiridos pelo usuário. <br> -O aplicativo deve permitir selecionar um ingresso da lista para ver suas informações. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us20-opcao-de-cancelamento-de-compra">US20 - Opção de cancelamento de compra</h3>
+<details class="abstract">
+<summary>Tabela 22 - História de Usuário Opção de cancelamento de compra</summary>
+<p><center></p>
+<p><font size="3">Tabela 22 - História de Usuário Opção de cancelamento de compra.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US20</td>
+<td style="text-align: left;">Opção de cancelamento de compra</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter a opção de cancelar uma compra de ingresso <em>para</em> caso mude de ideia ou não possa comparecer ao evento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma opção de cancelamento de compra que permita ao usuário desistir da compra e receber um reembolso, se aplicável. <br> -O processo de cancelamento de compra deve ser claro e orientado ao usuário, com instruções sobre como proceder. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us21-recomendacao-de-eventos-baseada-no-gosto-do-usuario">US21 - Recomendação de eventos baseada no gosto do usuário</h3>
+<details class="abstract">
+<summary>Tabela 23 - História de Usuário Recomendação de eventos baseada no gosto do usuário</summary>
+<p><center></p>
+<p><font size="3">Tabela 23 - História de Usuário Recomendação de eventos baseada no gosto do usuário.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US21</td>
+<td style="text-align: left;">Recomendação de eventos baseada no gosto do usuário</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> desejo receber recomendações de eventos com base no meu gosto pessoal, por meio de uma avaliação ou histórico de preferências <em>para</em> que eu encontre eventos que eu goste mais facilmente</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve implementar um algoritmo de recomendação que analise as preferências do usuário com base em avaliações anteriores, histórico de compras ou outras informações relevantes. E com base nessa análise, o aplicativo deve sugerir eventos similares ou de interesse para o usuário. <br> -O usuário deve permitir que seus dados sejam usados pelo algoritmo de recomendação. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us22-opcao-de-receber-notificacoes-do-aplicativo">US22 - Opção de receber notificações do aplicativo</h3>
+<details class="abstract">
+<summary>Tabela 24 - História de Usuário Opção de receber notificações do aplicativo</summary>
+<p><center></p>
+<p><font size="3">Tabela 24 - História de Usuário Opção de receber notificações do aplicativo.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US22</td>
+<td style="text-align: left;">Opção de receber notificações do aplicativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter a opção de receber notificações do aplicativo <em>para</em> para ficar atualizado sobre eventos próximos e novidades</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma opção de ativar ou desativar as notificações para o usuário. <br> -As notificações devem ser relevantes e informar sobre eventos próximos, promoções ou atualizações importantes. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us23-exibicao-de-notificacoes-de-eventos-proximos">US23 - Exibição de notificações de eventos próximos</h3>
+<details class="abstract">
+<summary>Tabela 25 - História de Usuário Exibição de notificações de eventos próximos</summary>
+<p><center></p>
+<p><font size="3">Tabela 25 - História de Usuário Exibição de notificações de eventos próximos.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US23</td>
+<td style="text-align: left;">Exibição de notificações de eventos próximos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo exiba notificações de eventos próximos com base no meu gosto pessoal <em>para</em> para que eu possa me planejar e participar de eventos de interesse</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo, caso permitido, deve analisar as preferências do usuário, como histórico de compras, avaliações ou seleções anteriores, para enviar notificações relevantes sobre eventos próximos. <br> -As notificações devem ser exibidas de forma clara e apropriada, destacando informações relevantes, como data, local e tipo de evento. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Baixa</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</font></p>
+<p></center></p>
+</details>
+<h3 id="us24-termos-de-privacidade-explicitos">US24 - Termos de privacidade explícitos</h3>
+<details class="abstract">
+<summary>Tabela 26 - História de Usuário Termos de privacidade explícitos</summary>
+<p><center></p>
+<p><font size="3">Tabela 26 - História de Usuário Termos de privacidade explícitos.</font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US24</td>
+<td style="text-align: left;">Termos de privacidade explícitos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo forneça termos de privacidade explícitos em relação aos dados que inseri <em>para</em> garantir que minha privacidade seja protegida.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma seção clara e acessível que contenha os termos de privacidade. <br> -Os termos de privacidade devem explicar como os dados do usuário são coletados, armazenados, usados e protegidos. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us25-criacao-de-conta-e-login-com-e-mail">US25 - Criação de conta e login com e-mail</h3>
+<details class="abstract">
+<summary>Tabela 27 - História de Usuário Criação de conta e login com e-mail</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 27 - História de Usuário Criação de conta e login com e-mail.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US25</td>
+<td style="text-align: left;">Criação de conta e login com e-mail</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> poder criar uma conta e fazer login no aplicativo usando meu email <em>para</em> para ter acesso aos recursos do aplicativo.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma opção de criação de conta que permita ao usuário registrar-se usando seu endereço de email. <br> -O usuário deve poder fazer login no aplicativo utilizando seu email e senha previamente cadastrados. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us26-autenticacao-de-dois-fatores">US26 - Autenticação de dois fatores</h3>
+<details class="abstract">
+<summary>Tabela 28 - História de Usuário Autenticação de dois fatores</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 28 - História de Usuário Autenticação de dois fatores.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US26</td>
+<td style="text-align: left;">Autenticação de dois fatores</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo ofereça autenticação de dois fatores <em>para</em> aumentar a segurança da minha conta</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer a opção de ativar a autenticação de dois fatores para a conta do usuário. <br> -O processo de autenticação de dois fatores deve exigir uma combinação de senha e código único gerado no dispositivo do usuário. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us27-cadastro-por-redes-sociais-validado-por-email">US27 - Cadastro por redes sociais validado por email</h3>
+<details class="abstract">
+<summary>Tabela 29 - História de Usuário Cadastro por redes sociais validado por email</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 29 - História de Usuário Cadastro por redes sociais validado por email.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US27</td>
+<td style="text-align: left;">Cadastro por redes sociais validado por e-mail</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter a opção de realizar o cadastro no aplicativo utilizando minhas redes sociais, com validação por email <em>para</em> que seja mais simples de criar conta no aplicativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve permitir que o usuário se registre utilizando suas contas em redes sociais populares, como Facebook, Google ou Twitter. <br> -Após selecionar a opção de cadastro por rede social, o usuário deve fornecer um endereço de email válido para validação. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us28-senha-segura-durante-o-cadastro">US28 - Senha segura durante o cadastro</h3>
+<details class="abstract">
+<summary>Tabela 30 - História de Usuário Senha segura durante o cadastro</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 30 - História de Usuário Senha segura durante o cadastro.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US28</td>
+<td style="text-align: left;">Senha segura durante o cadastro</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo exija uma senha segura durante o processo de cadastro <em>para</em> proteger minha conta contra acessos não autorizados.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-Durante o processo de cadastro, o aplicativo deve exigir que o usuário crie uma senha que atenda a requisitos mínimos de segurança, como combinação de letras maiúsculas e minúsculas, números e caracteres especiais. <br> -O aplicativo deve fornecer orientações claras sobre os critérios de segurança da senha durante o processo de criação. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us29-informacoes-sobre-inclusao-na-descricao-dos-eventos">US29 - Informações sobre inclusão na descrição dos eventos</h3>
+<details class="abstract">
+<summary>Tabela 31 - História de Usuário Informações sobre inclusão na descrição dos eventos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 31 - História de Usuário Informações sobre inclusão na descrição dos eventos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US29</td>
+<td style="text-align: left;">Informações sobre inclusão na descrição dos eventos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que a descrição dos eventos inclua informações sobre acessibilidade e inclusão <em>para</em> tomar decisões informadas sobre minha participação nos eventos.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-A descrição dos eventos deve fornecer informações claras sobre recursos de acessibilidade disponíveis, como audiodescrição, legendas, libras, entre outros. <br> -O aplicativo deve destacar de forma visível as informações sobre inclusão na descrição dos eventos. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us30-acessibilidade-visual">US30 - Acessibilidade visual</h3>
+<details class="abstract">
+<summary>Tabela 32 - História de Usuário Acessibilidade visual</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 32 - História de Usuário Acessibilidade visual.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US30</td>
+<td style="text-align: left;">Acessibilidade visual</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo seja acessível visualmente, com recursos como alto contraste e opções de cores para daltônicos <em>para</em> que todas pessoas possam utilizar o aplicativo</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer opções de configuração de alto contraste para melhorar a legibilidade para usuários com deficiência visual. <br> -O aplicativo deve oferecer opções de cores adaptadas para usuários daltônicos, garantindo uma experiência visual acessível. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us31-opcao-de-troca-de-idioma">US31 - Opção de troca de idioma</h3>
+<details class="abstract">
+<summary>Tabela 33 - História de Usuário Opção de troca de idioma</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 33 - História de Usuário Opção de troca de idioma.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US31</td>
+<td style="text-align: left;">Opção de troca de idioma</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> ter um botão ou região na interface do aplicativo onde eu possa trocar o idioma <em>para</em> algum minha preferência.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve fornecer uma opção clara e facilmente acessível para o usuário trocar o idioma da interface. <br> -O aplicativo deve oferecer suporte a múltiplos idiomas e aplicar a tradução correta em todas as seções do aplicativo. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Média</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h3 id="us32-audiodescricao-para-eventos">US32 - Audiodescrição para eventos</h3>
+<details class="abstract">
+<summary>Tabela 34 - História de Usuário Audiodescrição para eventos</summary>
+<p><center></p>
+<p><font size="3"><p style="text-align: center">Tabela 34 - História de Usuário Audiodescrição para eventos.</p></font></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>ID</strong></th>
+<th style="text-align: left;"><strong>Nome</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">US32</td>
+<td style="text-align: left;">Audiodescrição para eventos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Descrição</td>
+<td style="text-align: left;"><em>Eu, como</em> usuário, <em>desejo</em> que o aplicativo forneça audiodescrição para os eventos <em>para</em> que eu possa obter uma experiência inclusiva ao explorar as informações visuais do evento</td>
+</tr>
+<tr>
+<td style="text-align: left;">Critérios de Aceitação</td>
+<td style="text-align: left;">-O aplicativo deve oferecer a opção de ativar ou desativar a audiodescrição nas configurações. <br> -A audiodescrição deve fornecer informações visuais relevantes do evento de forma clara e concisa. <br></td>
+</tr>
+<tr>
+<td style="text-align: left;">Prioridade</td>
+<td style="text-align: left;">Alta</td>
+</tr>
+</tbody>
+</table>
+<p><font size="3"><p style="text-align: center">Fonte: <a href="https://github.com/dougAlvs">Douglas Alves</a>.</p></font></p>
+<p></center></p>
+</details>
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 Porto Alegre: AMGH, 2016, 940 p.</p>
+<p>SERRANO, Milene. Requisitos – Aula 15. 2017. Apresentação de slides. Disponível em: <a href="https://aprender3.unb.br/pluginfile.php/2523115/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">https://aprender3.unb.br/pluginfile.php/2523115/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf</a>. Acesso em: 20/05/2023.</p>
+<p>Bourque, P., Fairley, R. E. Guide to the Software Engineering Body of Knowledge, Version 3.0. SWEBOK. IEEE Computer Society, 2014. Disponível em: http://www.computer.org/web/swebok/v3. p. 38.</p>
+<p>POPOV, Arthur Taylor de Jesus; SANTOS, Eduardo Schuindt. Backlog do Produto. Repositório do Grupo MEI da disciplina de Requisitos de Software da Universidade de Brasília, 2022. Disponível em: &lt;<a href="https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/">https://requisitos-de-software.github.io/2022.2-MEI/Modelagem/Agil/BacklogDoProduto/</a>&gt;. Acesso em: 09 Julho 2023.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>20/05/2023</td>
+<td>Criação da página</td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>20/05/2023</td>
+<td>Adição metodologia</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>23/05/2023</td>
+<td>Adição features 5, 6, 7</td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>23/05/2023</td>
+<td>Adição features 1, 2, 3, 4</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>23/05/2023</td>
+<td>Finalização do artefato</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a>, <a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+<td><a href="https://github.com/G16C">Gabriel Campello</a></td>
+</tr>
+<tr>
+<td><code>2.0</code></td>
+<td>09/06/2023</td>
+<td>Refatoração do artefato com histórias de usuário do PO</td>
+<td><a href="https://github.com/dougAlvs">Douglas Alves</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+<tr>
+<td><code>2.1</code></td>
+<td>24/06/2023</td>
+<td>Ajustes de acordo com a <a href="../../../verificacao/grupo/entrega4/verificacao-historia-de-usuario/">verificação realizada</a>.</td>
+<td><a href="https://github.com/mathonaut">Matheus Henrique</a></td>
+<td><a href="https://github.com/manuziny">Geovanna Maciel</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>
