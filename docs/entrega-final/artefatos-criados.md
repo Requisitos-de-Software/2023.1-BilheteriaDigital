@@ -79,7 +79,6 @@ Tabela 1 - Artefatos da etapa 1
 
 </details>
 
-
 ### Etapa: 2
 
 <details>
@@ -227,7 +226,6 @@ Tabela 3 - Artefatos da etapa 3
 </center>
 
 </details>
-
 
 ### Etapa: 4
 
@@ -666,12 +664,17 @@ Tabela 7 - Artefatos da etapa 6
 
 </details>
 
+## Conclusão
+
+Ao longo do projeto foram criados diversos artefatos que sintetizam a evolução e o domínio do grupo em relação aos assuntos abordados pela disciplina. Sob esse aspecto, o grupo conseguiu demonstrar um domínio consistente do conteúdo criando artefatos valiosos e essenciais que serviram de guia e foram atualizados durante todo o desenvolvimento da documentação necessária para a disciplina.
+
 ## Bibliografia
 
 > HENRIQUE, Arhur. Artefatos Criados. Repositório do Grupo Millenium Papelaria e Presentes da disciplina de Interação Humano Computador da Universidade de Brasília, 2022. Disponível em: <<https://interacao-humano-computador.github.io/2022.1-Millenium-Papelaria/Conclusao/tabelaArtefatos/>>. Acesso em: 02 de julho 2023.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                                                      | Autor(es)                                        | Revisor(es)                                      |
-| ------ | ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| `1.0`  | 02/07/2023 | Criação do documento | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv)   |
+| Versão | Data       | Descrição            | Autor(es)                                                                                           | Revisor(es)                                    |
+| ------ | ---------- | -------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| `1.0`  | 02/07/2023 | Criação do documento | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
+| `1.1`  | 02/08/2023 | Adição da conclusão  | [Matheus Henrique](https://github.com/mathonaut) e [Rafael Ferreira](https://github.com/RafaelCLG0) | [Arthur de Melo](https://github.com/arthurmlv) |
